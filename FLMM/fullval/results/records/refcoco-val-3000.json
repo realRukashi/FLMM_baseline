@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-3000",
+  "sample_hash": "3e917bed56c8a722038b6c5316b9cfe362755c2d13c17a244b5c54be701c240c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 3000,
+  "dataset_index": 555,
+  "expressions": [
+    {
+      "image_id": 3000,
+      "dataset_index": 555,
+      "ref_id": 49763,
+      "sent_id": 141525,
+      "expression": "man holding a white cord",
+      "mask_id": 0,
+      "annotation_id": 1236969,
+      "prediction_id": "refcoco-val-3000:0",
+      "gt_segmentation_sha256": "f94f935000142e98c42d37d0c970df64b8129caa1ca5a79337c193d036dc8aee",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    21443
+  ],
+  "union": [
+    148345
+  ],
+  "mask_file": "refcoco-val-3000.npz",
+  "mask_sha256": "4a19bf58962479da010b65f987afaf909fab2fe7d4c2a65b048794afbf96a206",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.01362287999995715,
+    "inference_s": 2.0155298049999146,
+    "postprocess_s": 0.0011627689999613722,
+    "amortized_inference_s_per_selected_expression": 2.0155298049999146,
+    "mask_write_s": 0.013474559999963276
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815434240,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6294200320
+  },
+  "output_bytes": 5547,
+  "stage_created": "full-validation",
+  "record_hash": "893ecbcd36b9808d9edc85e259c08cb4a60673dc94cee5700c4570aec519d572",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

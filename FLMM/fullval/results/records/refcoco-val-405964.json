@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-405964",
+  "sample_hash": "efdc3205168f1b11d0fc9ec34a4f4ebb25b6e0347e7b9e8def87646f98aa0883",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 405964,
+  "dataset_index": 821,
+  "expressions": [
+    {
+      "image_id": 405964,
+      "dataset_index": 821,
+      "ref_id": 15287,
+      "sent_id": 43501,
+      "expression": "first skier on ski lift on right",
+      "mask_id": 0,
+      "annotation_id": 1212208,
+      "prediction_id": "refcoco-val-405964:0",
+      "gt_segmentation_sha256": "14af17fecce5340ed3c2d295d1040cb527a01cd62284924900c76ec97a8de0fb",
+      "category_id": 1
+    },
+    {
+      "image_id": 405964,
+      "dataset_index": 821,
+      "ref_id": 15288,
+      "sent_id": 43504,
+      "expression": "green jacket",
+      "mask_id": 1,
+      "annotation_id": 423504,
+      "prediction_id": "refcoco-val-405964:1",
+      "gt_segmentation_sha256": "0c5f005f22c3e883e92f4a57b4eb88bcb55686cd39ac7b3c34f3526572996d4e",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10100,
+    9192
+  ],
+  "union": [
+    12621,
+    12194
+  ],
+  "mask_file": "refcoco-val-405964.npz",
+  "mask_sha256": "e7b256e8377b4cfa5ddd132ae56f2608429c7af553480a9fe209fa0579a3416d",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014869213999986641,
+    "inference_s": 2.3004192450000573,
+    "postprocess_s": 0.0015811499999927037,
+    "amortized_inference_s_per_selected_expression": 1.1502096225000287,
+    "mask_write_s": 0.011742110999989563
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820428288,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6294618112
+  },
+  "output_bytes": 5167,
+  "stage_created": "full-validation",
+  "record_hash": "264a3f1f8da0f6533009c3d7a69a0258297fb4d033211e762226204196628ff4",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

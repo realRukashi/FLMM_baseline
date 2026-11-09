@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-133492",
+  "sample_hash": "fa7ffde5e707ba9ff3e5b9eb93f785a4914d8a064c31d38b292aad1287143c81",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 133492,
+  "dataset_index": 434,
+  "expressions": [
+    {
+      "image_id": 133492,
+      "dataset_index": 434,
+      "ref_id": 38462,
+      "sent_id": 109377,
+      "expression": "a soccer player wearing white",
+      "mask_id": 0,
+      "annotation_id": 1312894,
+      "prediction_id": "refcoco-val-133492:0",
+      "gt_segmentation_sha256": "c38f316b9e7e1b77db3e0c03e62b3780e7f38b5f29e7843b05207ec250acfaff",
+      "category_id": 1
+    },
+    {
+      "image_id": 133492,
+      "dataset_index": 434,
+      "ref_id": 38463,
+      "sent_id": 109380,
+      "expression": "stripes on right",
+      "mask_id": 1,
+      "annotation_id": 1250208,
+      "prediction_id": "refcoco-val-133492:1",
+      "gt_segmentation_sha256": "7058ab140cdedffb83c05f96c5af93d2e92bc8c908b2f065cf32c629a95f65c9",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    18,
+    13946
+  ],
+  "union": [
+    20299,
+    15180
+  ],
+  "mask_file": "refcoco-val-133492.npz",
+  "mask_sha256": "0e0beb3338680ddb4c27980953259574bc32b83d5e2d6bd481dd0af69b127755",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016178065000076458,
+    "inference_s": 2.721992517999979,
+    "postprocess_s": 0.0012398579999626236,
+    "amortized_inference_s_per_selected_expression": 1.3609962589999895,
+    "mask_write_s": 0.010643222999988211
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820343296,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 4148,
+  "stage_created": "full-validation",
+  "record_hash": "dbf2978673746d3a427320dec0a17121ce30be71305056e89184ec128224e6eb",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

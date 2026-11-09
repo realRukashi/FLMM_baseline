@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-24674",
+  "sample_hash": "e36658f9bbc2962dbf38c90e5d48f63a947dd8f6a51cd5a716ad2567e6da8d94",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 24674,
+  "dataset_index": 20,
+  "expressions": [
+    {
+      "image_id": 24674,
+      "dataset_index": 20,
+      "ref_id": 47891,
+      "sent_id": 136203,
+      "expression": "bald man in background. wearing yellow striped shirt and jeans",
+      "mask_id": 0,
+      "annotation_id": 515091,
+      "prediction_id": "refcoco-val-24674:0",
+      "gt_segmentation_sha256": "857a15b1729434f978057decddb6dba63a83540b429de4bf4f4861bb90e80691",
+      "category_id": 1
+    },
+    {
+      "image_id": 24674,
+      "dataset_index": 20,
+      "ref_id": 47892,
+      "sent_id": 136206,
+      "expression": "man black shirt behind her",
+      "mask_id": 1,
+      "annotation_id": 469135,
+      "prediction_id": "refcoco-val-24674:1",
+      "gt_segmentation_sha256": "359466d64587f06c69570bbf0cf0b15b6ef4bf1da59e8c97ea539921708de453",
+      "category_id": 1
+    },
+    {
+      "image_id": 24674,
+      "dataset_index": 20,
+      "ref_id": 47893,
+      "sent_id": 136208,
+      "expression": "girl in purple sweater",
+      "mask_id": 2,
+      "annotation_id": 2206608,
+      "prediction_id": "refcoco-val-24674:2",
+      "gt_segmentation_sha256": "d8ce2d705732b87198956cbb8040a89dc0e828a56f69846893fbd94cd34a07ef",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    24992,
+    16249,
+    131984
+  ],
+  "union": [
+    26983,
+    18627,
+    144747
+  ],
+  "mask_file": "refcoco-val-24674.npz",
+  "mask_sha256": "454c82898c125205d814a3789ae04c2ce26198f6a97437c0399a0db28eda2dfa",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.02056925100009721,
+    "inference_s": 2.6577800410000236,
+    "postprocess_s": 0.0032904450001751684,
+    "amortized_inference_s_per_selected_expression": 0.8859266803333412,
+    "mask_write_s": 0.03069659000016145
+  },
+  "memory": {
+    "peak_allocated_bytes": 8830730752,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448162816,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 12865,
+  "stage_created": "full-validation",
+  "record_hash": "d791b38b70923485665ba553bce1a3d6b6aff53ef4a3fd76f85feb5265530980",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

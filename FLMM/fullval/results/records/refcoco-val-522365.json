@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-522365",
+  "sample_hash": "2f6e2cfcce3af4dee597463330ba1968f2cdb350de7e1148becf8b2ff745b945",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 522365,
+  "dataset_index": 1144,
+  "expressions": [
+    {
+      "image_id": 522365,
+      "dataset_index": 1144,
+      "ref_id": 5151,
+      "sent_id": 14671,
+      "expression": "bowl of brocolli",
+      "mask_id": 0,
+      "annotation_id": 1619639,
+      "prediction_id": "refcoco-val-522365:0",
+      "gt_segmentation_sha256": "533f69a18eda61380c73e8b12aa4469ce0885d73da651ce5cb09dbac162e7d15",
+      "category_id": 67
+    },
+    {
+      "image_id": 522365,
+      "dataset_index": 1144,
+      "ref_id": 5152,
+      "sent_id": 14673,
+      "expression": "table",
+      "mask_id": 1,
+      "annotation_id": 1616547,
+      "prediction_id": "refcoco-val-522365:1",
+      "gt_segmentation_sha256": "012ed5f40c63e06ffad85b395ecc6b52eb45aaed509cdde9385e9ba3a28a1a99",
+      "category_id": 67
+    },
+    {
+      "image_id": 522365,
+      "dataset_index": 1144,
+      "ref_id": 5153,
+      "sent_id": 14675,
+      "expression": "brocolli",
+      "mask_id": 2,
+      "annotation_id": 1056143,
+      "prediction_id": "refcoco-val-522365:2",
+      "gt_segmentation_sha256": "7e5a79c203a2b51ec01ccec64faadf2160343c6b90015782f1cba5cb7b19871a",
+      "category_id": 56
+    },
+    {
+      "image_id": 522365,
+      "dataset_index": 1144,
+      "ref_id": 5154,
+      "sent_id": 14678,
+      "expression": "uppermost big broccoli",
+      "mask_id": 3,
+      "annotation_id": 1056123,
+      "prediction_id": "refcoco-val-522365:3",
+      "gt_segmentation_sha256": "43dca5fbf25928b0f98e1d229aa15aee896fc1d257671259074e3b65d76c37d8",
+      "category_id": 56
+    }
+  ],
+  "intersection": [
+    146438,
+    30666,
+    75587,
+    11678
+  ],
+  "union": [
+    187500,
+    41476,
+    91705,
+    19978
+  ],
+  "mask_file": "refcoco-val-522365.npz",
+  "mask_sha256": "790f9b6796afcb2aa0da40a23974cb154815a9b6b22693c404f6f5ef06856c37",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.012334774999999354,
+    "inference_s": 2.1259607399999823,
+    "postprocess_s": 0.0019189619999906427,
+    "amortized_inference_s_per_selected_expression": 0.5314901849999956,
+    "mask_write_s": 0.023211492999962502
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829063680,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446668288,
+    "ram_rss_bytes": 6296907776
+  },
+  "output_bytes": 12767,
+  "stage_created": "full-validation",
+  "record_hash": "78cbaeb509f0c8cdf0f6d25a80eb5542fd60b706f60edb91f630e0c90a954b18",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

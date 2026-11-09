@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "selected first-sentence masks, not all expressions",
+  "subsets": {
+    "regression": {
+      "status": "PASS",
+      "expected_images": 20,
+      "image_count": 20,
+      "mask_count": 47,
+      "intersection": 1378708,
+      "union": 1741080,
+      "cIoU": 79.18694143864728,
+      "mIoU": 81.68246098179696
+    },
+    "probe": {
+      "status": "UNVERIFIED",
+      "expected_images": 50,
+      "image_count": 0,
+      "mask_count": 0,
+      "cIoU": null,
+      "mIoU": null
+    },
+    "stability": {
+      "status": "UNVERIFIED",
+      "expected_images": 100,
+      "image_count": 0,
+      "mask_count": 0,
+      "cIoU": null,
+      "mIoU": null
+    },
+    "development": {
+      "status": "UNVERIFIED",
+      "expected_images": 250,
+      "image_count": 0,
+      "mask_count": 0,
+      "cIoU": null,
+      "mIoU": null
+    },
+    "holdout": {
+      "status": "UNVERIFIED",
+      "expected_images": 400,
+      "image_count": 0,
+      "mask_count": 0,
+      "cIoU": null,
+      "mIoU": null
+    },
+    "full_validation": {
+      "status": "UNVERIFIED",
+      "expected_images": 1500,
+      "image_count": 20,
+      "mask_count": 47,
+      "intersection": 1378708,
+      "union": 1741080,
+      "cIoU": 79.18694143864728,
+      "mIoU": 81.68246098179696
+    }
+  }
+}

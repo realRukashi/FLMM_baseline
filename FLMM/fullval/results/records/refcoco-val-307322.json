@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-307322",
+  "sample_hash": "ae2cbc4f97790356223e635f83ec9fa097dc1af9ae76774f5de7576e0f9d6098",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 307322,
+  "dataset_index": 758,
+  "expressions": [
+    {
+      "image_id": 307322,
+      "dataset_index": 758,
+      "ref_id": 23950,
+      "sent_id": 68070,
+      "expression": "right black laptop",
+      "mask_id": 0,
+      "annotation_id": 1628265,
+      "prediction_id": "refcoco-val-307322:0",
+      "gt_segmentation_sha256": "a63fed443b44a27c2bb180451860715b419c7af465d366d014fc3b8d7f06bc47",
+      "category_id": 73
+    },
+    {
+      "image_id": 307322,
+      "dataset_index": 758,
+      "ref_id": 23951,
+      "sent_id": 68073,
+      "expression": "small laptop with animal",
+      "mask_id": 1,
+      "annotation_id": 1627005,
+      "prediction_id": "refcoco-val-307322:1",
+      "gt_segmentation_sha256": "ca8fd156493e879914756d277b7c308bc4485ce2beb24acb856bb9d9ce066c09",
+      "category_id": 73
+    },
+    {
+      "image_id": 307322,
+      "dataset_index": 758,
+      "ref_id": 23952,
+      "sent_id": 68075,
+      "expression": "screen on far right",
+      "mask_id": 2,
+      "annotation_id": 124657,
+      "prediction_id": "refcoco-val-307322:2",
+      "gt_segmentation_sha256": "6ca6b2210dc33b4b352a74b353454625eaf16d8c449333d503a4472ddb0fd3b1",
+      "category_id": 72
+    },
+    {
+      "image_id": 307322,
+      "dataset_index": 758,
+      "ref_id": 23953,
+      "sent_id": 68078,
+      "expression": "bright monitor on left",
+      "mask_id": 3,
+      "annotation_id": 124617,
+      "prediction_id": "refcoco-val-307322:3",
+      "gt_segmentation_sha256": "08c7d66622f1ca8e5aed832c1d1dfa78858df1f83fea326fa9edbf9b3cdd39d8",
+      "category_id": 72
+    },
+    {
+      "image_id": 307322,
+      "dataset_index": 758,
+      "ref_id": 23954,
+      "sent_id": 68081,
+      "expression": "monitor which looks like a camera in center",
+      "mask_id": 4,
+      "annotation_id": 35909,
+      "prediction_id": "refcoco-val-307322:4",
+      "gt_segmentation_sha256": "ba3d27bf516dce857780893d0f0c43cf2ee053587199a452f1afaa49b744a949",
+      "category_id": 72
+    }
+  ],
+  "intersection": [
+    21327,
+    12825,
+    16495,
+    11693,
+    16179
+  ],
+  "union": [
+    27357,
+    18029,
+    19449,
+    14323,
+    29742
+  ],
+  "mask_file": "refcoco-val-307322.npz",
+  "mask_sha256": "253864adec38f33bcb49a476ff97a3fc44f2545b65fbad78ed0869a210bcd73e",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.0204838589999099,
+    "inference_s": 2.3523391200000106,
+    "postprocess_s": 0.003264585000010811,
+    "amortized_inference_s_per_selected_expression": 0.4704678240000021,
+    "mask_write_s": 0.026474342000028628
+  },
+  "memory": {
+    "peak_allocated_bytes": 8833939968,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449811968,
+    "ram_rss_bytes": 6295457792
+  },
+  "output_bytes": 11207,
+  "stage_created": "full-validation",
+  "record_hash": "e6f0fc51a1c3e13627d4dd172eb10bef7484022068a4c882e1f0b1cbab1501ff",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

@@ -1,0 +1,75 @@
+/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Could not load bitsandbytes native library: libcusparse.so.11: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py", line 109, in <module>
+    lib = get_native_library()
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py", line 96, in get_native_library
+    dll = ct.cdll.LoadLibrary(str(binary_path))
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libcusparse.so.11: cannot open shared object file: No such file or directory
+
+CUDA Setup failed despite CUDA being available. Please run the following command to get more information:
+
+python -m bitsandbytes
+
+Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them
+to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes
+and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues
+
+[2026-11-05 15:04:43,536] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m NVIDIA Inference is only supported on Ampere and newer architectures
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.1
+[93m [WARNING] [0m using untested triton version (2.1.0), only 1.0.0 is known to be compatible
+Traceback (most recent call last):
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 1361, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/http/client.py", line 1086, in _send_output
+    self.send(msg)
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/http/client.py", line 1024, in send
+    self.connect()
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/http/client.py", line 1496, in connect
+    super().connect()
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/http/client.py", line 990, in connect
+    self.sock = self._create_connection(
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/kaggle/temp/prepare_smoke.py", line 7, in <module>
+    urllib.request.urlretrieve('https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcoco.zip', '/kaggle/temp/refcoco.zip')
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 1404, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 1364, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>

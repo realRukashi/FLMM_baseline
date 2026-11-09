@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-94459",
+  "sample_hash": "29e7edcdba81f1a08bee49e0e49f38feb4522a1f8b2e77b409fb19d83d98e49f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 94459,
+  "dataset_index": 786,
+  "expressions": [
+    {
+      "image_id": 94459,
+      "dataset_index": 786,
+      "ref_id": 41764,
+      "sent_id": 118738,
+      "expression": "black can",
+      "mask_id": 0,
+      "annotation_id": 1882073,
+      "prediction_id": "refcoco-val-94459:0",
+      "gt_segmentation_sha256": "5de93041a49ae1bdc2bdef87ed30a3439d3caca5d3025188cc7aebe826ff6025",
+      "category_id": 47
+    },
+    {
+      "image_id": 94459,
+      "dataset_index": 786,
+      "ref_id": 41765,
+      "sent_id": 118741,
+      "expression": "cup on it's side above food",
+      "mask_id": 1,
+      "annotation_id": 1883835,
+      "prediction_id": "refcoco-val-94459:1",
+      "gt_segmentation_sha256": "0d66e383a4035df374e63756310a2cf0ec63df4e2fbc150d0001babc2c7158b4",
+      "category_id": 47
+    }
+  ],
+  "intersection": [
+    23072,
+    12131
+  ],
+  "union": [
+    24324,
+    27536
+  ],
+  "mask_file": "refcoco-val-94459.npz",
+  "mask_sha256": "12212dca5a5ff470725b66ee3c7111699b4494589fff886e8e0add73ca3c1d7b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013379174999954557,
+    "inference_s": 2.3652205040000354,
+    "postprocess_s": 0.0015699040000072273,
+    "amortized_inference_s_per_selected_expression": 1.1826102520000177,
+    "mask_write_s": 0.012774699000033252
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820428288,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6295515136
+  },
+  "output_bytes": 5210,
+  "stage_created": "full-validation",
+  "record_hash": "770cb3b6ff2869c75895aacad6e43dbf91b1e6a116335e21492e740a12d7621b",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

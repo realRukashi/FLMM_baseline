@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-116882",
+  "sample_hash": "938b54420ecca5d1462831192c7271b734e274c240ea5058e57a370eb9edaea1",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 116882,
+  "dataset_index": 395,
+  "expressions": [
+    {
+      "image_id": 116882,
+      "dataset_index": 395,
+      "ref_id": 39938,
+      "sent_id": 113549,
+      "expression": "the lady",
+      "mask_id": 0,
+      "annotation_id": 1706338,
+      "prediction_id": "refcoco-val-116882:0",
+      "gt_segmentation_sha256": "3fb9c57e54543a5916cf820f4516f9bdd1e74679d500aa5d82ce9b0bea82c522",
+      "category_id": 1
+    },
+    {
+      "image_id": 116882,
+      "dataset_index": 395,
+      "ref_id": 39939,
+      "sent_id": 113552,
+      "expression": "the wine glass the the animal is on top of.  the one with not very much wine",
+      "mask_id": 1,
+      "annotation_id": 664956,
+      "prediction_id": "refcoco-val-116882:1",
+      "gt_segmentation_sha256": "701f074aed30609402f570bdf35e6835495041cf9af92f25bd6dcf3f4cafffb8",
+      "category_id": 46
+    },
+    {
+      "image_id": 116882,
+      "dataset_index": 395,
+      "ref_id": 39940,
+      "sent_id": 113555,
+      "expression": "wine",
+      "mask_id": 2,
+      "annotation_id": 662194,
+      "prediction_id": "refcoco-val-116882:2",
+      "gt_segmentation_sha256": "2745f7bb82c2f34791b8a9f42c60507ae0130620e7110cde47249d0a63710513",
+      "category_id": 46
+    },
+    {
+      "image_id": 116882,
+      "dataset_index": 395,
+      "ref_id": 39941,
+      "sent_id": 113558,
+      "expression": "person in background",
+      "mask_id": 3,
+      "annotation_id": 217124,
+      "prediction_id": "refcoco-val-116882:3",
+      "gt_segmentation_sha256": "639b3027e6965fc7530b96ed84ee5dbef59251907a08f3de2704295e5e669f1b",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    78245,
+    4816,
+    19610,
+    12430
+  ],
+  "union": [
+    85254,
+    30117,
+    27205,
+    13638
+  ],
+  "mask_file": "refcoco-val-116882.npz",
+  "mask_sha256": "e2d204ba618afbcf6031f20e9db9bd3de60aa4d1312439a3d211c8a292f86a90",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.02193981300001724,
+    "inference_s": 2.2646733169999607,
+    "postprocess_s": 0.0034561809998194803,
+    "amortized_inference_s_per_selected_expression": 0.5661683292499902,
+    "mask_write_s": 0.03179997400002321
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829223424,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 13805,
+  "stage_created": "full-validation",
+  "record_hash": "0f72f857dd0a4dee409da326a82ce84dd21cf579071fc1838326e2987f21cab2",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

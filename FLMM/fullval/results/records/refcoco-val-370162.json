@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-370162",
+  "sample_hash": "8c05c08fb91d2348543862d4bef0eab3b060f6e0292aef62ed8cc752e231fdc1",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 370162,
+  "dataset_index": 277,
+  "expressions": [
+    {
+      "image_id": 370162,
+      "dataset_index": 277,
+      "ref_id": 18323,
+      "sent_id": 52115,
+      "expression": "guy on left getting or giving food",
+      "mask_id": 0,
+      "annotation_id": 1262318,
+      "prediction_id": "refcoco-val-370162:0",
+      "gt_segmentation_sha256": "c37ba3e2592faf39453953884983f05a74ca620983426a836a5138e95aae1414",
+      "category_id": 1
+    },
+    {
+      "image_id": 370162,
+      "dataset_index": 277,
+      "ref_id": 18324,
+      "sent_id": 52118,
+      "expression": "man curly hair black shirt",
+      "mask_id": 1,
+      "annotation_id": 1330079,
+      "prediction_id": "refcoco-val-370162:1",
+      "gt_segmentation_sha256": "a5b6ce141a6166b87b05735c9275d9ac904ec8a97cbf4325598fc65e2225955c",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    43564,
+    44671
+  ],
+  "union": [
+    47827,
+    48024
+  ],
+  "mask_file": "refcoco-val-370162.npz",
+  "mask_sha256": "97117858aaf9aba2ea3175855ea0326b59387bf166f044f509e2dd513eab3414",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014247043000068516,
+    "inference_s": 2.234521280999843,
+    "postprocess_s": 0.0017537220001031528,
+    "amortized_inference_s_per_selected_expression": 1.1172606404999215,
+    "mask_write_s": 0.021416327999986606
+  },
+  "memory": {
+    "peak_allocated_bytes": 8817593856,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 8334,
+  "stage_created": "full-validation",
+  "record_hash": "ccfd1ab1ee41492ec134edcf9cdda0ed3c5d345b4d6dbe29bdd2a38552d718db",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

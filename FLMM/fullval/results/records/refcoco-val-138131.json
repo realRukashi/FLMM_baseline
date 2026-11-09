@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-138131",
+  "sample_hash": "7a4d68c0479a5f09af708627b651d6c5faea751dd8e323e5825c21ca3db60405",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 138131,
+  "dataset_index": 1289,
+  "expressions": [
+    {
+      "image_id": 138131,
+      "dataset_index": 1289,
+      "ref_id": 38082,
+      "sent_id": 108283,
+      "expression": "tiny girl throwing to the huge guy with no shirt",
+      "mask_id": 0,
+      "annotation_id": 1725659,
+      "prediction_id": "refcoco-val-138131:0",
+      "gt_segmentation_sha256": "62a3a40bf477cfc901ab1820670db9ffa95f9740691270cf9eea9c929d27c250",
+      "category_id": 1
+    },
+    {
+      "image_id": 138131,
+      "dataset_index": 1289,
+      "ref_id": 38083,
+      "sent_id": 108286,
+      "expression": "right woman",
+      "mask_id": 1,
+      "annotation_id": 536516,
+      "prediction_id": "refcoco-val-138131:1",
+      "gt_segmentation_sha256": "f03d9fff8d0659c5817cae79ca85fde0748efe44b4399a3f5cbc8edc90a93312",
+      "category_id": 1
+    },
+    {
+      "image_id": 138131,
+      "dataset_index": 1289,
+      "ref_id": 38084,
+      "sent_id": 108289,
+      "expression": "no shirt",
+      "mask_id": 2,
+      "annotation_id": 514701,
+      "prediction_id": "refcoco-val-138131:2",
+      "gt_segmentation_sha256": "a4bf4e4011cf13a59d0e582d6ff334b838c4b8baa2cf91b743d963ffa6d8ada2",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12175,
+    15446,
+    0
+  ],
+  "union": [
+    13630,
+    18227,
+    49833
+  ],
+  "mask_file": "refcoco-val-138131.npz",
+  "mask_sha256": "8e2e082f1623d1a9e11dd119387e170afa17f10d057472b98b32ae81377b638b",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.02106433700009802,
+    "inference_s": 2.450775265999937,
+    "postprocess_s": 0.002475218999961726,
+    "amortized_inference_s_per_selected_expression": 0.8169250886666456,
+    "mask_write_s": 0.019352637000110917
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829264896,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448083968,
+    "ram_rss_bytes": 6300712960
+  },
+  "output_bytes": 10208,
+  "stage_created": "full-validation",
+  "record_hash": "3c40fd5bc244e4f5ee82c7aee964876d012e76bb6b0d382239f1466bd8da2bbf",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

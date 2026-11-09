@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-156939",
+  "sample_hash": "bb30d5b063837e7f10d9e56506482fae36adb5025618a305e165614da344fb38",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 156939,
+  "dataset_index": 229,
+  "expressions": [
+    {
+      "image_id": 156939,
+      "dataset_index": 229,
+      "ref_id": 36520,
+      "sent_id": 103878,
+      "expression": "woman's chair",
+      "mask_id": 0,
+      "annotation_id": 379803,
+      "prediction_id": "refcoco-val-156939:0",
+      "gt_segmentation_sha256": "31be070d653ec37a054474536b50ddde535f02cdb06eb4dff89b2c8c8038125e",
+      "category_id": 62
+    },
+    {
+      "image_id": 156939,
+      "dataset_index": 229,
+      "ref_id": 36521,
+      "sent_id": 103881,
+      "expression": "that her foot is on",
+      "mask_id": 1,
+      "annotation_id": 379228,
+      "prediction_id": "refcoco-val-156939:1",
+      "gt_segmentation_sha256": "834733d5d7608c402a1becf264d585da2f45cd0ff2405d3ec2fe8dd96f1238e6",
+      "category_id": 62
+    }
+  ],
+  "intersection": [
+    11292,
+    868
+  ],
+  "union": [
+    34535,
+    20669
+  ],
+  "mask_file": "refcoco-val-156939.npz",
+  "mask_sha256": "30fba294c8dae8ad2c72f923266d9754eba986412a723ce7530b1f36b21a0f9a",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.024323641999899337,
+    "inference_s": 2.229032090999908,
+    "postprocess_s": 0.001817472000084308,
+    "amortized_inference_s_per_selected_expression": 1.114516045499954,
+    "mask_write_s": 0.015356442000211246
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820343296,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6283956224
+  },
+  "output_bytes": 8656,
+  "stage_created": "full-validation",
+  "record_hash": "5b4e17bd2e7c318f559086c5854e7cb465b78c2af9eed709f44a47012e349ed1",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

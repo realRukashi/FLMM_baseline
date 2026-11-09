@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-498639",
+  "sample_hash": "8407d4b2f7d27a6ba5de0cdd4ff56f660638495eb258e3c954b9db99b8f351b2",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 498639,
+  "dataset_index": 1302,
+  "expressions": [
+    {
+      "image_id": 498639,
+      "dataset_index": 1302,
+      "ref_id": 7261,
+      "sent_id": 20674,
+      "expression": "girl with mic",
+      "mask_id": 0,
+      "annotation_id": 1311496,
+      "prediction_id": "refcoco-val-498639:0",
+      "gt_segmentation_sha256": "73128ec7c7231438c80f8473cb9e29493de4449bc827f4e13c310242d129acb2",
+      "category_id": 1
+    },
+    {
+      "image_id": 498639,
+      "dataset_index": 1302,
+      "ref_id": 7262,
+      "sent_id": 20677,
+      "expression": "boy green shirt and tie",
+      "mask_id": 1,
+      "annotation_id": 1301359,
+      "prediction_id": "refcoco-val-498639:1",
+      "gt_segmentation_sha256": "496b8888621a161f5932d240a5a8430944a25717fc9de6a2ed144b424e8999fe",
+      "category_id": 1
+    },
+    {
+      "image_id": 498639,
+      "dataset_index": 1302,
+      "ref_id": 7263,
+      "sent_id": 20680,
+      "expression": "guy creepily staring at little girl.. back of head to us",
+      "mask_id": 2,
+      "annotation_id": 1281693,
+      "prediction_id": "refcoco-val-498639:2",
+      "gt_segmentation_sha256": "b30b6729e2c7da633dd0b770c506d79168c493761d428cd55f3845cde46268dd",
+      "category_id": 1
+    },
+    {
+      "image_id": 498639,
+      "dataset_index": 1302,
+      "ref_id": 7264,
+      "sent_id": 20683,
+      "expression": "last boy in line",
+      "mask_id": 3,
+      "annotation_id": 1240801,
+      "prediction_id": "refcoco-val-498639:3",
+      "gt_segmentation_sha256": "22c0447ba17524c04d33be0b767e623f4bacf3d93ba23c22dff3a01acaeb7af9",
+      "category_id": 1
+    },
+    {
+      "image_id": 498639,
+      "dataset_index": 1302,
+      "ref_id": 7265,
+      "sent_id": 20686,
+      "expression": "girl sitting in back",
+      "mask_id": 4,
+      "annotation_id": 1220579,
+      "prediction_id": "refcoco-val-498639:4",
+      "gt_segmentation_sha256": "c7ea0048dee30b226918530d90812a2128629fa1c872449c61d0543c4ea9784c",
+      "category_id": 1
+    },
+    {
+      "image_id": 498639,
+      "dataset_index": 1302,
+      "ref_id": 7266,
+      "sent_id": 20689,
+      "expression": "fat boy on right behind mike",
+      "mask_id": 5,
+      "annotation_id": 1319821,
+      "prediction_id": "refcoco-val-498639:5",
+      "gt_segmentation_sha256": "0b3fef9ee7e49fda4d16e4ab088f542ae11f9012888c54671f32f57ee256e9ac",
+      "category_id": 1
+    },
+    {
+      "image_id": 498639,
+      "dataset_index": 1302,
+      "ref_id": 7267,
+      "sent_id": 20692,
+      "expression": "girl who is third in line the one between the boys",
+      "mask_id": 6,
+      "annotation_id": 1312602,
+      "prediction_id": "refcoco-val-498639:6",
+      "gt_segmentation_sha256": "d23e3264510058ec37c809e2095cad5c52c009bcd29644661163e6162c32f128",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    18081,
+    36887,
+    16739,
+    20899,
+    19460,
+    726,
+    26607
+  ],
+  "union": [
+    21736,
+    38577,
+    18256,
+    37738,
+    21246,
+    33614,
+    29662
+  ],
+  "mask_file": "refcoco-val-498639.npz",
+  "mask_sha256": "88ab7c5e05c5b549cde1677747bed64ac25e2f08f182b2d667c2767b176bc261",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.017627783000079944,
+    "inference_s": 2.3076366519999283,
+    "postprocess_s": 0.004557408999971813,
+    "amortized_inference_s_per_selected_expression": 0.3296623788571326,
+    "mask_write_s": 0.0319421180001882
+  },
+  "memory": {
+    "peak_allocated_bytes": 8840434688,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5452056576,
+    "ram_rss_bytes": 6297100288
+  },
+  "output_bytes": 19519,
+  "stage_created": "full-validation",
+  "record_hash": "95796f8330f26fad4a145a769f0bce05234edd5b38d295d9228938c698bb1071",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

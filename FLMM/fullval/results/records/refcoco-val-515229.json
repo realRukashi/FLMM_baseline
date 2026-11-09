@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-515229",
+  "sample_hash": "111a71980805b484fa2b16359855d5c2c0c8a229fdf337062bf6210b9def6cc5",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 515229,
+  "dataset_index": 1343,
+  "expressions": [
+    {
+      "image_id": 515229,
+      "dataset_index": 1343,
+      "ref_id": 5834,
+      "sent_id": 16609,
+      "expression": "motorcycle guy is on",
+      "mask_id": 0,
+      "annotation_id": 148451,
+      "prediction_id": "refcoco-val-515229:0",
+      "gt_segmentation_sha256": "8e3929e15d6822f7e0b3dc32934c1ccceb78e498b65f0e39dcf5cc8c74d14b30",
+      "category_id": 4
+    }
+  ],
+  "intersection": [
+    55206
+  ],
+  "union": [
+    94746
+  ],
+  "mask_file": "refcoco-val-515229.npz",
+  "mask_sha256": "a63af94a129dc8c6673d5f71037e6ac657afe1456af1bcc43649eaa55e340c53",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.012848705000124028,
+    "inference_s": 2.397640765999995,
+    "postprocess_s": 0.0009165830001620634,
+    "amortized_inference_s_per_selected_expression": 2.397640765999995,
+    "mask_write_s": 0.011324652999974205
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814671360,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6301388800
+  },
+  "output_bytes": 6685,
+  "stage_created": "full-validation",
+  "record_hash": "8a3116976b4b4cc640e3fe20dc6fe50c7a8fcaa54cdbe99492eab8dccbfa7b30",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

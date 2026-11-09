@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-577583",
+  "sample_hash": "b4909a8f33cc388e0fb78ff6f9599ff2a837e6a7549a6b2ccb060489eea7a090",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 577583,
+  "dataset_index": 745,
+  "expressions": [
+    {
+      "image_id": 577583,
+      "dataset_index": 745,
+      "ref_id": 395,
+      "sent_id": 1122,
+      "expression": "person in white sleeping far away",
+      "mask_id": 0,
+      "annotation_id": 512572,
+      "prediction_id": "refcoco-val-577583:0",
+      "gt_segmentation_sha256": "10766915389c3140b581513a48b69081ff5a87f6bcb1bcebd3bb4810a112f2cf",
+      "category_id": 1
+    },
+    {
+      "image_id": 577583,
+      "dataset_index": 745,
+      "ref_id": 396,
+      "sent_id": 1125,
+      "expression": "lady on left laying on bed",
+      "mask_id": 1,
+      "annotation_id": 506210,
+      "prediction_id": "refcoco-val-577583:1",
+      "gt_segmentation_sha256": "307699519a5864fc61880c3fe20d56be3d3cb0ace91a8c999b8250eddaf99efe",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    14851,
+    30195
+  ],
+  "union": [
+    43384,
+    38807
+  ],
+  "mask_file": "refcoco-val-577583.npz",
+  "mask_sha256": "7ba67080f11ff626d63114c8e7b71c9dda6ad126a2c264b37c64746f146093e0",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.010583141999973122,
+    "inference_s": 2.2945910210000875,
+    "postprocess_s": 0.0015537019999101176,
+    "amortized_inference_s_per_selected_expression": 1.1472955105000437,
+    "mask_write_s": 0.016122185999961403
+  },
+  "memory": {
+    "peak_allocated_bytes": 8817858560,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6294450176
+  },
+  "output_bytes": 6987,
+  "stage_created": "full-validation",
+  "record_hash": "8b0cb925b16ab2a9394bb0e5aeb387a4aa0f686f69f4a5576a7bf7175bb9df33",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

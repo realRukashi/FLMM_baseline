@@ -1,0 +1,35 @@
+Could not load bitsandbytes native library: libcusparse.so.11: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py", line 109, in <module>
+    lib = get_native_library()
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py", line 96, in get_native_library
+    dll = ct.cdll.LoadLibrary(str(binary_path))
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/kaggle/temp/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libcusparse.so.11: cannot open shared object file: No such file or directory
+
+CUDA Setup failed despite CUDA being available. Please run the following command to get more information:
+
+python -m bitsandbytes
+
+Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them
+to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes
+and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues
+
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "/kaggle/temp/F-LMM/flmm/models/frozen_deepseek_vl.py", line 6, in <module>
+    from xtuner.model.utils import LoadWoInit
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/xtuner/model/__init__.py", line 2, in <module>
+    from .internvl import InternVL_V1_5
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/xtuner/model/internvl.py", line 16, in <module>
+    from .utils import (find_all_linear_names, get_peft_model_state_dict,
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/xtuner/model/utils.py", line 11, in <module>
+    from xtuner.utils import IGNORE_INDEX, IMAGE_TOKEN_INDEX
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/xtuner/utils/__init__.py", line 4, in <module>
+    from .handle_moe_load_and_save import (SUPPORT_MODELS, get_origin_state_dict,
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/xtuner/utils/handle_moe_load_and_save.py", line 6, in <module>
+    import deepspeed
+ModuleNotFoundError: No module named 'deepspeed'

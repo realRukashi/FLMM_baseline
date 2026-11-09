@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-383705",
+  "sample_hash": "afbcd98b142cbce7d5c73d697fb3c71ebdb0727cc66dd1edccbaedb156a731a6",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 383705,
+  "dataset_index": 1263,
+  "expressions": [
+    {
+      "image_id": 383705,
+      "dataset_index": 1263,
+      "ref_id": 17219,
+      "sent_id": 48991,
+      "expression": "lower left horse",
+      "mask_id": 0,
+      "annotation_id": 57637,
+      "prediction_id": "refcoco-val-383705:0",
+      "gt_segmentation_sha256": "fbe0514fda4d3b90dcdf8d52b3566c2846d20b75b7a42661a365d87d6a072823",
+      "category_id": 19
+    },
+    {
+      "image_id": 383705,
+      "dataset_index": 1263,
+      "ref_id": 17220,
+      "sent_id": 48994,
+      "expression": "the horse in the foreground with the chick leaning back",
+      "mask_id": 1,
+      "annotation_id": 55060,
+      "prediction_id": "refcoco-val-383705:1",
+      "gt_segmentation_sha256": "7a012e1005eb14598e330641ff2ae491e508f1960a86a60b95df667181d9223f",
+      "category_id": 19
+    }
+  ],
+  "intersection": [
+    14340,
+    23277
+  ],
+  "union": [
+    16429,
+    29741
+  ],
+  "mask_file": "refcoco-val-383705.npz",
+  "mask_sha256": "e07a360dfb08d5c0695aac3ec8603748d4d3eec13fc68a73b055e52ec1b42464",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.012997732000030737,
+    "inference_s": 2.4059830589999365,
+    "postprocess_s": 0.0014014020000558958,
+    "amortized_inference_s_per_selected_expression": 1.2029915294999682,
+    "mask_write_s": 0.011301359000071898
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818118144,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6300700672
+  },
+  "output_bytes": 6944,
+  "stage_created": "full-validation",
+  "record_hash": "4504fb7a120ed6e0f621588aea276ddda0d8e44a58a63df0f2ae0892013c0065",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

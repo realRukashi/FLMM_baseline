@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-211138",
+  "sample_hash": "175db999c5b9dfb11ed3cc5c107674e975b58b9f232849db5e6e0b0ea82baa3d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 211138,
+  "dataset_index": 1153,
+  "expressions": [
+    {
+      "image_id": 211138,
+      "dataset_index": 1153,
+      "ref_id": 32055,
+      "sent_id": 91150,
+      "expression": "the spotted sheet to right and front of the tray",
+      "mask_id": 0,
+      "annotation_id": 420686,
+      "prediction_id": "refcoco-val-211138:0",
+      "gt_segmentation_sha256": "1f4827c5882bb157d1a76509c8b7564767e535a0ced887a0f1024942cef79ef9",
+      "category_id": 67
+    }
+  ],
+  "intersection": [
+    16681
+  ],
+  "union": [
+    57369
+  ],
+  "mask_file": "refcoco-val-211138.npz",
+  "mask_sha256": "a8e121a99f43e055752252642f77a990b77d0f7af3c30d41402c5f31b3a43502",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.014315760999920712,
+    "inference_s": 2.3616007699999955,
+    "postprocess_s": 0.0009604460000218751,
+    "amortized_inference_s_per_selected_expression": 2.3616007699999955,
+    "mask_write_s": 0.009767194000005475
+  },
+  "memory": {
+    "peak_allocated_bytes": 8813961728,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6300483584
+  },
+  "output_bytes": 4415,
+  "stage_created": "full-validation",
+  "record_hash": "76894dd4d6bdcee929ebdc2a8c9ad82872c7ed9e3bd2e77a963f9ddb585b6c5b",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

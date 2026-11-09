@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-432372",
+  "sample_hash": "3e7c26ace37acc77b108d4e07db61f8320b557c4a48eb9fd92419eaf4265f041",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 432372,
+  "dataset_index": 1165,
+  "expressions": [
+    {
+      "image_id": 432372,
+      "dataset_index": 1165,
+      "ref_id": 13004,
+      "sent_id": 36999,
+      "expression": "braut in front right",
+      "mask_id": 0,
+      "annotation_id": 1070398,
+      "prediction_id": "refcoco-val-432372:0",
+      "gt_segmentation_sha256": "e10d0d380e252649248fb1d820e465f05faa0ffa3c8eefca61be289e3d19ebf7",
+      "category_id": 58
+    },
+    {
+      "image_id": 432372,
+      "dataset_index": 1165,
+      "ref_id": 13005,
+      "sent_id": 37002,
+      "expression": "hot dog on grill left side third from bottom",
+      "mask_id": 1,
+      "annotation_id": 1070298,
+      "prediction_id": "refcoco-val-432372:1",
+      "gt_segmentation_sha256": "65fc4b5da2c0ba6e869135cb74c28e760192d10d2d94c77815bd9ae3843c6b52",
+      "category_id": 58
+    },
+    {
+      "image_id": 432372,
+      "dataset_index": 1165,
+      "ref_id": 13006,
+      "sent_id": 37005,
+      "expression": "left hand row of hot dogs 5th from the front",
+      "mask_id": 2,
+      "annotation_id": 1069789,
+      "prediction_id": "refcoco-val-432372:2",
+      "gt_segmentation_sha256": "346051c9b924ce19dc20d31d3b26eca27abbf3f562dc4ff882c928d5b199e143",
+      "category_id": 58
+    },
+    {
+      "image_id": 432372,
+      "dataset_index": 1165,
+      "ref_id": 13007,
+      "sent_id": 37008,
+      "expression": "left row, second hot dog from bottom",
+      "mask_id": 3,
+      "annotation_id": 1069622,
+      "prediction_id": "refcoco-val-432372:3",
+      "gt_segmentation_sha256": "9134c01ed4c3ba1da60715175bace7bad75c10fad7784328f855f24bd80759ec",
+      "category_id": 58
+    },
+    {
+      "image_id": 432372,
+      "dataset_index": 1165,
+      "ref_id": 13008,
+      "sent_id": 37011,
+      "expression": "front orange hotdog, bottom row center",
+      "mask_id": 4,
+      "annotation_id": 1067573,
+      "prediction_id": "refcoco-val-432372:4",
+      "gt_segmentation_sha256": "5f6f6ab5d1555eb38f65cefdf4b62423f022e8f2235625c995a22feea2f94c4f",
+      "category_id": 58
+    }
+  ],
+  "intersection": [
+    12939,
+    320,
+    10,
+    0,
+    15138
+  ],
+  "union": [
+    13950,
+    33007,
+    27241,
+    18919,
+    16353
+  ],
+  "mask_file": "refcoco-val-432372.npz",
+  "mask_sha256": "02dded434fd5c61bf34dfb7d746997c030674ca0f0f734b6c32d97b35ee80194",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.014487035999991349,
+    "inference_s": 2.5006038760000138,
+    "postprocess_s": 0.0033686870000337876,
+    "amortized_inference_s_per_selected_expression": 0.5001207752000028,
+    "mask_write_s": 0.024012986000002456
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831464960,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449120768,
+    "ram_rss_bytes": 6300573696
+  },
+  "output_bytes": 9555,
+  "stage_created": "full-validation",
+  "record_hash": "1518caaa004d44ea37c691d6ede521ee67069795f9a18a357c127e5402167dc5",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

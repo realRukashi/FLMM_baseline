@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-125350",
+  "sample_hash": "458e4677c7894fc8e4c1f9bc220f11f22f104c50e6b4a817fba2278a919b051b",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 125350,
+  "dataset_index": 446,
+  "expressions": [
+    {
+      "image_id": 125350,
+      "dataset_index": 446,
+      "ref_id": 39200,
+      "sent_id": 111456,
+      "expression": "farthest left guy",
+      "mask_id": 0,
+      "annotation_id": 491398,
+      "prediction_id": "refcoco-val-125350:0",
+      "gt_segmentation_sha256": "59dfcea7f6cb5dd44a7a5cf5271ad71d434ae6ee166c2a9ede923954514305bf",
+      "category_id": 1
+    },
+    {
+      "image_id": 125350,
+      "dataset_index": 446,
+      "ref_id": 39201,
+      "sent_id": 111459,
+      "expression": "man on right playing game",
+      "mask_id": 1,
+      "annotation_id": 481434,
+      "prediction_id": "refcoco-val-125350:1",
+      "gt_segmentation_sha256": "81ee9386d4f746e817fc9510102f89ad6c36c92f0f20e89a92ba8d10c0e64af7",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11453,
+    34049
+  ],
+  "union": [
+    14315,
+    40062
+  ],
+  "mask_file": "refcoco-val-125350.npz",
+  "mask_sha256": "fe6bcfb0188661180fe0eca24ea694b3233fa0a77f9d32352d246c98237ce571",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.010901982999939719,
+    "inference_s": 2.7285197329999846,
+    "postprocess_s": 0.0010552399999141926,
+    "amortized_inference_s_per_selected_expression": 1.3642598664999923,
+    "mask_write_s": 0.012455964000082531
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818392064,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 5256,
+  "stage_created": "full-validation",
+  "record_hash": "efcfe84b11a7b8ba7b6f62b0a75add3321f12e576871a88430c399062cdd0006",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

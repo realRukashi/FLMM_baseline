@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-123920",
+  "sample_hash": "b65b0bdf29deeec9b257e3c081f83290cbbbd226f1d88321bdaafca2b29e8ce5",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 123920,
+  "dataset_index": 192,
+  "expressions": [
+    {
+      "image_id": 123920,
+      "dataset_index": 192,
+      "ref_id": 39329,
+      "sent_id": 111830,
+      "expression": "baseball player behind the batter.",
+      "mask_id": 0,
+      "annotation_id": 1697287,
+      "prediction_id": "refcoco-val-123920:0",
+      "gt_segmentation_sha256": "c17dfc848f4e396b3d4310e3b53ee789f84ff4577ecc85b2f0f1de71b305d88d",
+      "category_id": 1
+    },
+    {
+      "image_id": 123920,
+      "dataset_index": 192,
+      "ref_id": 39330,
+      "sent_id": 111833,
+      "expression": "batter",
+      "mask_id": 1,
+      "annotation_id": 1212834,
+      "prediction_id": "refcoco-val-123920:1",
+      "gt_segmentation_sha256": "edfff42a98f300af16c99e21542e5c496d32f58efed49e20999a8c74362bca51",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11908,
+    25916
+  ],
+  "union": [
+    13799,
+    29088
+  ],
+  "mask_file": "refcoco-val-123920.npz",
+  "mask_sha256": "f67f45a5f7c94aec52983432c6865206254f2db700c58b8905e9ead70e5c4387",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016256424999937735,
+    "inference_s": 2.478801984000029,
+    "postprocess_s": 0.0016365760000098817,
+    "amortized_inference_s_per_selected_expression": 1.2394009920000144,
+    "mask_write_s": 0.014369002999956138
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818307072,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 6124,
+  "stage_created": "full-probe",
+  "record_hash": "05e224c84b8d955d00f645fbc578939764263f936ff4a77b8670190fef53be99",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

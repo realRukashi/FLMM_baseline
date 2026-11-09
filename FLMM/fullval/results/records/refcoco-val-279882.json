@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-279882",
+  "sample_hash": "0909fceb5f4510f7148f7bdc73e16454d5a0ace4644a1625e78ba0e28d6ef16c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 279882,
+  "dataset_index": 238,
+  "expressions": [
+    {
+      "image_id": 279882,
+      "dataset_index": 238,
+      "ref_id": 26240,
+      "sent_id": 74613,
+      "expression": "car behidn naked guy",
+      "mask_id": 0,
+      "annotation_id": 1800301,
+      "prediction_id": "refcoco-val-279882:0",
+      "gt_segmentation_sha256": "cfe844298bf1666161fc4a78dac71e5056646e83dcbe5cb4de545656c432403c",
+      "category_id": 8
+    },
+    {
+      "image_id": 279882,
+      "dataset_index": 238,
+      "ref_id": 26241,
+      "sent_id": 74616,
+      "expression": "car closest to man",
+      "mask_id": 1,
+      "annotation_id": 1797379,
+      "prediction_id": "refcoco-val-279882:1",
+      "gt_segmentation_sha256": "05f6e8c5430d0befd140441a7597b4ecf85b7f303806c167608f9ea817e48d3c",
+      "category_id": 8
+    }
+  ],
+  "intersection": [
+    12748,
+    25212
+  ],
+  "union": [
+    14979,
+    26751
+  ],
+  "mask_file": "refcoco-val-279882.npz",
+  "mask_sha256": "afbc9ca014159378af41545b10539ec382430c15a890a13d249cc27b9b2d6f72",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.0175357289999738,
+    "inference_s": 2.738605047000192,
+    "postprocess_s": 0.0020548429999962536,
+    "amortized_inference_s_per_selected_expression": 1.369302523500096,
+    "mask_write_s": 0.01641963800011581
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820446720,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 4609,
+  "stage_created": "full-validation",
+  "record_hash": "dc60c3e74635d511038903223bb40d85ff06fdac841718547c3df962d45cb3b2",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-538398",
+  "sample_hash": "cce08bfe46c7bce360a6d7ea4a052a52d4913bba018dbf788afcb490b3ec733a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 538398,
+  "dataset_index": 1075,
+  "expressions": [
+    {
+      "image_id": 538398,
+      "dataset_index": 1075,
+      "ref_id": 3810,
+      "sent_id": 10865,
+      "expression": "striped thing",
+      "mask_id": 0,
+      "annotation_id": 112416,
+      "prediction_id": "refcoco-val-538398:0",
+      "gt_segmentation_sha256": "55b75e92edc9bb64ac8ff7c125620863805c20ed8cd62e572943f75be37c88c1",
+      "category_id": 63
+    },
+    {
+      "image_id": 538398,
+      "dataset_index": 1075,
+      "ref_id": 3811,
+      "sent_id": 10868,
+      "expression": "lol you where off a pixel: red sofa arm",
+      "mask_id": 1,
+      "annotation_id": 99636,
+      "prediction_id": "refcoco-val-538398:1",
+      "gt_segmentation_sha256": "3e1bba6e8e635a71b45aa03a1252b0ac4e9f13a4ccad878721ea1bbcea3eba00",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    10312,
+    20200
+  ],
+  "union": [
+    11874,
+    30565
+  ],
+  "mask_file": "refcoco-val-538398.npz",
+  "mask_sha256": "90dd1fe0b7e518bbb6be6bb4b2f2ba74d4e32a578421dafe5ce01cb84201cbe1",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.017567481000014595,
+    "inference_s": 2.1268297509999456,
+    "postprocess_s": 0.0015972630000078425,
+    "amortized_inference_s_per_selected_expression": 1.0634148754999728,
+    "mask_write_s": 0.014354830999991464
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820350464,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6300438528
+  },
+  "output_bytes": 4337,
+  "stage_created": "full-validation",
+  "record_hash": "7c1a08e6b7fee6d7c904cf7817b8bad0e16935d23252cd93377346d799fe8cae",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

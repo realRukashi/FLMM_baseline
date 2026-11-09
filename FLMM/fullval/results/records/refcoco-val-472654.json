@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-472654",
+  "sample_hash": "c850f13bc9972799e6bb462cd2d73f93d304e3bb4cfbd876613f1eaaea0ab344",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 472654,
+  "dataset_index": 1045,
+  "expressions": [
+    {
+      "image_id": 472654,
+      "dataset_index": 1045,
+      "ref_id": 9498,
+      "sent_id": 27054,
+      "expression": "left pic girl in pink shirt",
+      "mask_id": 0,
+      "annotation_id": 1282972,
+      "prediction_id": "refcoco-val-472654:0",
+      "gt_segmentation_sha256": "1d5c55eb28662ea77b673420b1edf7ff168880aa778b51f2b12f3e2391f1d2ed",
+      "category_id": 1
+    },
+    {
+      "image_id": 472654,
+      "dataset_index": 1045,
+      "ref_id": 9499,
+      "sent_id": 27057,
+      "expression": "woman right front",
+      "mask_id": 1,
+      "annotation_id": 1257559,
+      "prediction_id": "refcoco-val-472654:1",
+      "gt_segmentation_sha256": "51a5d822104f38f39cb575a48ddd007216721f57c7062845e8fe308d4cc91e6a",
+      "category_id": 1
+    },
+    {
+      "image_id": 472654,
+      "dataset_index": 1045,
+      "ref_id": 9500,
+      "sent_id": 27060,
+      "expression": "the girl on the left",
+      "mask_id": 2,
+      "annotation_id": 1236595,
+      "prediction_id": "refcoco-val-472654:2",
+      "gt_segmentation_sha256": "4eacd901d840b8cb586eaf2612e1f36948bd74528cb6973925e79c226504b0cb",
+      "category_id": 1
+    },
+    {
+      "image_id": 472654,
+      "dataset_index": 1045,
+      "ref_id": 9501,
+      "sent_id": 27063,
+      "expression": "left bamboo chair",
+      "mask_id": 3,
+      "annotation_id": 386299,
+      "prediction_id": "refcoco-val-472654:3",
+      "gt_segmentation_sha256": "35e18aaa0362d64ac8d92d59fffa31ce0b4c929199cb1950fc8d0368b1077b8d",
+      "category_id": 62
+    },
+    {
+      "image_id": 472654,
+      "dataset_index": 1045,
+      "ref_id": 9502,
+      "sent_id": 27066,
+      "expression": "chair on right",
+      "mask_id": 4,
+      "annotation_id": 1941521,
+      "prediction_id": "refcoco-val-472654:4",
+      "gt_segmentation_sha256": "5ab269285f7b4f38bcf5e7f0569629aea1b05ffe70ad7c0b03addef3a9bc76b0",
+      "category_id": 62
+    }
+  ],
+  "intersection": [
+    9511,
+    32863,
+    25751,
+    12586,
+    15130
+  ],
+  "union": [
+    14052,
+    35575,
+    27787,
+    16638,
+    16964
+  ],
+  "mask_file": "refcoco-val-472654.npz",
+  "mask_sha256": "ff093624cf7de595c5c8dd79efd3f6ed33c2b959d6e3a0263083c73fcb470bfa",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.019360232000053657,
+    "inference_s": 2.061205301999962,
+    "postprocess_s": 0.004742569999962143,
+    "amortized_inference_s_per_selected_expression": 0.4122410603999924,
+    "mask_write_s": 0.028252851999923223
+  },
+  "memory": {
+    "peak_allocated_bytes": 8843357696,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5452056576,
+    "ram_rss_bytes": 6300319744
+  },
+  "output_bytes": 14247,
+  "stage_created": "full-validation",
+  "record_hash": "e16b4ba6f3885e32994bdc55c7046cab839250269b87b3068389446c43b0cc65",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

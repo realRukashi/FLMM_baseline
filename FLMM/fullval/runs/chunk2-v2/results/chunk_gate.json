@@ -1,0 +1,19 @@
+{
+  "status": "GO",
+  "probe_images": 50,
+  "probe_p95_pipeline_s": 2.430970462000232,
+  "gpu_names": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "worker_count": 2,
+  "estimated_chunk_inference_margin_s": 887.9119612455847,
+  "free_disk_bytes": 20917841920,
+  "target_prefix": 1000,
+  "prior": "flmm-full-1",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "remaining_prefix_images": 487,
+  "estimated_additional_output_bytes": 18099598.5,
+  "quota_remaining_s_conservative": 99092.12219499999,
+  "note": "First 50 seeded probe images are part of full val and reused; no tuning or method changes"
+}

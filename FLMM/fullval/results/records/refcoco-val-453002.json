@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-453002",
+  "sample_hash": "3e67e3339dff733e535fa4708e9cf5dfd3f114d6e20966590f3794fbeb9e6570",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 453002,
+  "dataset_index": 439,
+  "expressions": [
+    {
+      "image_id": 453002,
+      "dataset_index": 439,
+      "ref_id": 11231,
+      "sent_id": 31983,
+      "expression": "the girl on the left",
+      "mask_id": 0,
+      "annotation_id": 1266982,
+      "prediction_id": "refcoco-val-453002:0",
+      "gt_segmentation_sha256": "cddba126c385b80b06bc38d19f47b6af5a676ba6efa821e5077dbf13fc67b7c1",
+      "category_id": 1
+    },
+    {
+      "image_id": 453002,
+      "dataset_index": 439,
+      "ref_id": 11232,
+      "sent_id": 31986,
+      "expression": "guy in middle",
+      "mask_id": 1,
+      "annotation_id": 482347,
+      "prediction_id": "refcoco-val-453002:1",
+      "gt_segmentation_sha256": "b9946e1a65a326a353186f1d0ffdcfee8c53c7ea658b4393e4eb77d87c4f77cb",
+      "category_id": 1
+    },
+    {
+      "image_id": 453002,
+      "dataset_index": 439,
+      "ref_id": 11233,
+      "sent_id": 31989,
+      "expression": "woman rightmost",
+      "mask_id": 2,
+      "annotation_id": 439841,
+      "prediction_id": "refcoco-val-453002:2",
+      "gt_segmentation_sha256": "ad930fae9d189c980dcfc5390f48607b475b7a5770a3e168af12838e1b178b02",
+      "category_id": 1
+    },
+    {
+      "image_id": 453002,
+      "dataset_index": 439,
+      "ref_id": 11234,
+      "sent_id": 31992,
+      "expression": "the bus behind the people on the right",
+      "mask_id": 3,
+      "annotation_id": 366390,
+      "prediction_id": "refcoco-val-453002:3",
+      "gt_segmentation_sha256": "5c06e66813b29bf2053be0c400fbe958a1093dc3efed6cf343b469ddb5c8868e",
+      "category_id": 6
+    },
+    {
+      "image_id": 453002,
+      "dataset_index": 439,
+      "ref_id": 11235,
+      "sent_id": 31995,
+      "expression": "bus on leftside",
+      "mask_id": 4,
+      "annotation_id": 366078,
+      "prediction_id": "refcoco-val-453002:4",
+      "gt_segmentation_sha256": "797d33ac14170b5ee0a92b76993916b930e1b9edb08e6ad547626b79b5e071ce",
+      "category_id": 6
+    }
+  ],
+  "intersection": [
+    19960,
+    32574,
+    33858,
+    38422,
+    63799
+  ],
+  "union": [
+    23918,
+    38225,
+    37307,
+    48389,
+    75966
+  ],
+  "mask_file": "refcoco-val-453002.npz",
+  "mask_sha256": "b989116913d0b59b70176aa6f8f6847b483418404dcd84bb4f8cf57da28b2839",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.018753582999806895,
+    "inference_s": 2.272487867999871,
+    "postprocess_s": 0.003905414999962886,
+    "amortized_inference_s_per_selected_expression": 0.4544975735999742,
+    "mask_write_s": 0.03999543200006883
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831781376,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449325568,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 18536,
+  "stage_created": "full-validation",
+  "record_hash": "6878f1655d24b65daa23f272dedf0f939f6d9920b5e51d27b3d6ca4f7069685d",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

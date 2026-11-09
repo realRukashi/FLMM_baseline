@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-565476",
+  "sample_hash": "d2f7273c1c61a586765018b9c1f6fa11ae5e37e91fad8ed4f763e627c5b6cdf7",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 565476,
+  "dataset_index": 44,
+  "expressions": [
+    {
+      "image_id": 565476,
+      "dataset_index": 44,
+      "ref_id": 1460,
+      "sent_id": 4174,
+      "expression": "the banana in the middle with 2 black dots on the stem",
+      "mask_id": 0,
+      "annotation_id": 1044595,
+      "prediction_id": "refcoco-val-565476:0",
+      "gt_segmentation_sha256": "6bfa373ec223de01a5e5a999302fdc8761b451d1aba1baafe3975367e84d1e09",
+      "category_id": 52
+    },
+    {
+      "image_id": 565476,
+      "dataset_index": 44,
+      "ref_id": 1461,
+      "sent_id": 4177,
+      "expression": "banana left/middle",
+      "mask_id": 1,
+      "annotation_id": 1043529,
+      "prediction_id": "refcoco-val-565476:1",
+      "gt_segmentation_sha256": "810f7d2ae6b5a49d46271d54672f7c291f85596cad7ab5186244afe12a08b7d3",
+      "category_id": 52
+    }
+  ],
+  "intersection": [
+    3,
+    94
+  ],
+  "union": [
+    23887,
+    50942
+  ],
+  "mask_file": "refcoco-val-565476.npz",
+  "mask_sha256": "5a0c2c98cee4863cba857bb42927a3836310e31f7586bf5af6460ec59e41d079",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016937223000013546,
+    "inference_s": 2.842040967999992,
+    "postprocess_s": 0.0011959190001107345,
+    "amortized_inference_s_per_selected_expression": 1.421020483999996,
+    "mask_write_s": 0.012274173999912819
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818160128,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445082112,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 3610,
+  "stage_created": "full-validation",
+  "record_hash": "220a63f0fb7d3afcac6af4c1ebf84d500d597f7883542d7a5c13bd73add8a882",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

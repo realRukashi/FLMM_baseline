@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "module_parameter_dtypes": {
+    "backbone": {
+      "torch.bfloat16": 529
+    },
+    "vision": {
+      "torch.bfloat16": 306
+    },
+    "language": {
+      "torch.bfloat16": 219
+    },
+    "mask_head": {
+      "torch.float32": 53
+    },
+    "text_proj": {
+      "torch.float32": 2
+    },
+    "sam_image_encoder": {
+      "torch.float32": 345
+    },
+    "sam_prompt_encoder": {
+      "torch.float32": 16
+    },
+    "sam_decoder": {
+      "torch.float32": 120
+    }
+  },
+  "autocast": false,
+  "configured_backbone_dtype": "torch.bfloat16",
+  "attention_backend": "SDPA math; flash and memory-efficient disabled",
+  "language_attention": "LlamaSdpaAttention",
+  "language_attention_note": "output_attentions=True triggers transformers 4.39.1 manual attention fallback",
+  "vision_casts": "F-LMM mask attention interpolation uses float32 then cast to head dtype; upstream unchanged",
+  "native_bf16_tensor_cores": false,
+  "cold_load_and_audit_s": 13.306732256000032,
+  "gpu": "Tesla T4",
+  "vram_bytes": 15636037632,
+  "cuda_capability": [
+    7,
+    5
+  ],
+  "observed_first_warmup_activation_dtypes": {
+    "vision": {
+      "input_tensor_dtypes": [
+        "torch.bfloat16"
+      ],
+      "output_tensor_dtypes": [
+        "torch.bfloat16"
+      ]
+    },
+    "language": {
+      "input_tensor_dtypes": [],
+      "output_tensor_dtypes": [
+        "torch.bfloat16",
+        "torch.float32"
+      ]
+    },
+    "text_proj": {
+      "input_tensor_dtypes": [
+        "torch.float32"
+      ],
+      "output_tensor_dtypes": [
+        "torch.float32"
+      ]
+    },
+    "mask_head": {
+      "input_tensor_dtypes": [
+        "torch.float32"
+      ],
+      "output_tensor_dtypes": [
+        "torch.float32"
+      ]
+    },
+    "sam_image_encoder": {
+      "input_tensor_dtypes": [
+        "torch.float32"
+      ],
+      "output_tensor_dtypes": [
+        "torch.float32"
+      ]
+    },
+    "sam_prompt_encoder": {
+      "input_tensor_dtypes": [],
+      "output_tensor_dtypes": [
+        "torch.float32"
+      ]
+    },
+    "sam_decoder": {
+      "input_tensor_dtypes": [],
+      "output_tensor_dtypes": [
+        "torch.float32"
+      ]
+    }
+  }
+}

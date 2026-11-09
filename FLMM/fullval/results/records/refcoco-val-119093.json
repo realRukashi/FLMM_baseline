@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-119093",
+  "sample_hash": "21ccaa277d66e5d928dc2f65d6f11288a3d19cb3477f7a791475bd5005139730",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 119093,
+  "dataset_index": 791,
+  "expressions": [
+    {
+      "image_id": 119093,
+      "dataset_index": 791,
+      "ref_id": 39767,
+      "sent_id": 113069,
+      "expression": "person under the arm of the person with white stripes on shirt",
+      "mask_id": 0,
+      "annotation_id": 499408,
+      "prediction_id": "refcoco-val-119093:0",
+      "gt_segmentation_sha256": "e53a6827e3dd80f25d9a117e67303acad36a08f2cbdf43d83948ba5419e8917f",
+      "category_id": 1
+    },
+    {
+      "image_id": 119093,
+      "dataset_index": 791,
+      "ref_id": 39768,
+      "sent_id": 113071,
+      "expression": "bottom left elbow",
+      "mask_id": 1,
+      "annotation_id": 495465,
+      "prediction_id": "refcoco-val-119093:1",
+      "gt_segmentation_sha256": "3a505cc2a01e532d679e225364a6390678c87bad87ba99d214bc901af2f87c0f",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11422,
+    0
+  ],
+  "union": [
+    13494,
+    46906
+  ],
+  "mask_file": "refcoco-val-119093.npz",
+  "mask_sha256": "af0ba7916249c5f85ef83d393647d8ece46a73bb9c77dd712f89e9f4f8a78656",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.010920989999931408,
+    "inference_s": 2.2903956879999896,
+    "postprocess_s": 0.0014708530000007158,
+    "amortized_inference_s_per_selected_expression": 1.1451978439999948,
+    "mask_write_s": 0.011833934000037516
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818348032,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6294519808
+  },
+  "output_bytes": 4427,
+  "stage_created": "full-validation",
+  "record_hash": "7c91e374a9e1e121f53a98f118703b0c4fe501a76c0a146f9a5655e063c063a0",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

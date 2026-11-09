@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-258237",
+  "sample_hash": "24b06bdb562b924b37c7f880d92bd911cfe64f28b312952d6b6d0451b5d4cf3f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 258237,
+  "dataset_index": 777,
+  "expressions": [
+    {
+      "image_id": 258237,
+      "dataset_index": 777,
+      "ref_id": 28066,
+      "sent_id": 79824,
+      "expression": "man carrying woman",
+      "mask_id": 0,
+      "annotation_id": 494154,
+      "prediction_id": "refcoco-val-258237:0",
+      "gt_segmentation_sha256": "bdbd48c4206e5658a8d021a5371a68319d694ea95b3c9e7e9d6ce671c302bed7",
+      "category_id": 1
+    },
+    {
+      "image_id": 258237,
+      "dataset_index": 777,
+      "ref_id": 28067,
+      "sent_id": 79827,
+      "expression": "lady being held",
+      "mask_id": 1,
+      "annotation_id": 466942,
+      "prediction_id": "refcoco-val-258237:1",
+      "gt_segmentation_sha256": "f8cc54d4eaf55dde8d7561b4b96cbb0f7571d5f716b1d1f166bbcb9a8e5fa4e5",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    8975,
+    14263
+  ],
+  "union": [
+    25238,
+    25019
+  ],
+  "mask_file": "refcoco-val-258237.npz",
+  "mask_sha256": "320fcea327262ca5bfe636963e1bb7c5bd789917398ec2f58bc3cb1843455b05",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016553194000039184,
+    "inference_s": 2.271887776999961,
+    "postprocess_s": 0.0015708939999967697,
+    "amortized_inference_s_per_selected_expression": 1.1359438884999804,
+    "mask_write_s": 0.013171512000099028
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818284544,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6294519808
+  },
+  "output_bytes": 5478,
+  "stage_created": "full-validation",
+  "record_hash": "a4778f1418ade664780e354018bac4161c6e0553694d9895acb598c823cf880d",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

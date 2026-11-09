@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-324923",
+  "sample_hash": "b730f019097b731f8fc700535b90b1df429af008ce5b211f61200e3cd320b553",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 324923,
+  "dataset_index": 998,
+  "expressions": [
+    {
+      "image_id": 324923,
+      "dataset_index": 998,
+      "ref_id": 22260,
+      "sent_id": 63310,
+      "expression": "woman in red vest and glasses",
+      "mask_id": 0,
+      "annotation_id": 545310,
+      "prediction_id": "refcoco-val-324923:0",
+      "gt_segmentation_sha256": "2d5fc0119e9979e807686815c5cf6090d314640daf46bf75a273b994aaccae8e",
+      "category_id": 1
+    },
+    {
+      "image_id": 324923,
+      "dataset_index": 998,
+      "ref_id": 22261,
+      "sent_id": 63312,
+      "expression": "girl in pink headband",
+      "mask_id": 1,
+      "annotation_id": 518388,
+      "prediction_id": "refcoco-val-324923:1",
+      "gt_segmentation_sha256": "ea37782b29da5afb338df1c80b7f71f2ba4fff0e79a7fbb8b40d8622ba9bdf74",
+      "category_id": 1
+    },
+    {
+      "image_id": 324923,
+      "dataset_index": 998,
+      "ref_id": 22262,
+      "sent_id": 63315,
+      "expression": "lady in brown",
+      "mask_id": 2,
+      "annotation_id": 447899,
+      "prediction_id": "refcoco-val-324923:2",
+      "gt_segmentation_sha256": "744dc9c4eb2ac84fa2d9df21ce96069562cf1f51c382f43e28007d8f86f70d3e",
+      "category_id": 1
+    },
+    {
+      "image_id": 324923,
+      "dataset_index": 998,
+      "ref_id": 22263,
+      "sent_id": 63318,
+      "expression": "far left front guy",
+      "mask_id": 3,
+      "annotation_id": 2161859,
+      "prediction_id": "refcoco-val-324923:3",
+      "gt_segmentation_sha256": "c2f26c2ad4e387b07cd1785099f658f8f395af6f4f747ae4213d63e96fe9b58f",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10043,
+    22697,
+    12596,
+    31359
+  ],
+  "union": [
+    12484,
+    25331,
+    14765,
+    32610
+  ],
+  "mask_file": "refcoco-val-324923.npz",
+  "mask_sha256": "fc05a3896ea54bf0fbf2e63d2a023a8c315b2a39050889bca31e9637123e3743",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.014324785999860978,
+    "inference_s": 2.4153694760000235,
+    "postprocess_s": 0.002431512999919505,
+    "amortized_inference_s_per_selected_expression": 0.6038423690000059,
+    "mask_write_s": 0.02170499299995754
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826897920,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6295842816
+  },
+  "output_bytes": 9750,
+  "stage_created": "full-validation",
+  "record_hash": "bcde4b2b0c67b7159b85e68fd9c4d7eb826034dc6057ccc04e5f955971358f1a",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

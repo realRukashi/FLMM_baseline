@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-376988",
+  "sample_hash": "ae169254c60ffd0c48f3547ea60dd5302f10287e53d9c9d02a0e24ca1f010aef",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 376988,
+  "dataset_index": 26,
+  "expressions": [
+    {
+      "image_id": 376988,
+      "dataset_index": 26,
+      "ref_id": 17795,
+      "sent_id": 50618,
+      "expression": "dude touching apple laptop'",
+      "mask_id": 0,
+      "annotation_id": 2155895,
+      "prediction_id": "refcoco-val-376988:0",
+      "gt_segmentation_sha256": "750e9516dda2c8bd615de1185ad7f6571f2a0acabe9dadf8e0955648c17db300",
+      "category_id": 1
+    },
+    {
+      "image_id": 376988,
+      "dataset_index": 26,
+      "ref_id": 17796,
+      "sent_id": 50621,
+      "expression": "lady in front",
+      "mask_id": 1,
+      "annotation_id": 503217,
+      "prediction_id": "refcoco-val-376988:1",
+      "gt_segmentation_sha256": "9111dd28f5018bb1c26659267512279cacb2d57e49647d6ef1a569f0a91230a3",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    29881,
+    37893
+  ],
+  "union": [
+    40873,
+    43856
+  ],
+  "mask_file": "refcoco-val-376988.npz",
+  "mask_sha256": "b0d23e936f004460bed8a8268ce24fae1773660ea9192df00b65228674d2d77b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013712228000031246,
+    "inference_s": 2.1589464689998294,
+    "postprocess_s": 0.001784446999863576,
+    "amortized_inference_s_per_selected_expression": 1.0794732344999147,
+    "mask_write_s": 0.01835723599992889
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818316288,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6282457088
+  },
+  "output_bytes": 7604,
+  "stage_created": "full-probe",
+  "record_hash": "fdf378c2a1f26c930bfcd693dd6eff5fe1269924d3bc409110db0af5977bea05",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

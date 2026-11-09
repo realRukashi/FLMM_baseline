@@ -1,0 +1,345 @@
+{
+  "status": "PASS",
+  "samples": [
+    {
+      "sample_id": "refcoco-val-376848",
+      "timings": {
+        "preprocess_s": 0.013637497999980042,
+        "inference_s": 2.317549916999951,
+        "postprocess_s": 0.001432080000085989,
+        "amortized_inference_s_per_selected_expression": 1.1587749584999756,
+        "mask_write_s": 0.015569529999993392
+      },
+      "memory": {
+        "peak_allocated_bytes": 8828361728,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5454407680,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 10768
+    },
+    {
+      "sample_id": "refcoco-val-278549",
+      "timings": {
+        "preprocess_s": 0.011733864999996513,
+        "inference_s": 2.2793183420000105,
+        "postprocess_s": 0.001298772999916764,
+        "amortized_inference_s_per_selected_expression": 1.1396591710000052,
+        "mask_write_s": 0.016120396000019355
+      },
+      "memory": {
+        "peak_allocated_bytes": 8826179584,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5453639680,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 9668
+    },
+    {
+      "sample_id": "refcoco-val-532505",
+      "timings": {
+        "preprocess_s": 0.013562629000034576,
+        "inference_s": 2.2402307099999916,
+        "postprocess_s": 0.001447386999984701,
+        "amortized_inference_s_per_selected_expression": 1.1201153549999958,
+        "mask_write_s": 0.013035488000014084
+      },
+      "memory": {
+        "peak_allocated_bytes": 8828154368,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5454604288,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 6137
+    },
+    {
+      "sample_id": "refcoco-val-434201",
+      "timings": {
+        "preprocess_s": 0.013051705999941987,
+        "inference_s": 2.232804728000019,
+        "postprocess_s": 0.002304862999949364,
+        "amortized_inference_s_per_selected_expression": 0.5582011820000048,
+        "mask_write_s": 0.019956350000029488
+      },
+      "memory": {
+        "peak_allocated_bytes": 8834454016,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5455831040,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 9382
+    },
+    {
+      "sample_id": "refcoco-val-401439",
+      "timings": {
+        "preprocess_s": 0.012912899999946603,
+        "inference_s": 2.1860375999999633,
+        "postprocess_s": 0.0012510159999692405,
+        "amortized_inference_s_per_selected_expression": 1.0930187999999816,
+        "mask_write_s": 0.010172105000037845
+      },
+      "memory": {
+        "peak_allocated_bytes": 8826359808,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5453644800,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 4646
+    },
+    {
+      "sample_id": "refcoco-val-270369",
+      "timings": {
+        "preprocess_s": 0.012391115000013997,
+        "inference_s": 2.174191339999993,
+        "postprocess_s": 0.0014053040000590045,
+        "amortized_inference_s_per_selected_expression": 1.0870956699999965,
+        "mask_write_s": 0.014839930999983153
+      },
+      "memory": {
+        "peak_allocated_bytes": 8828654080,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5454604288,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 7840
+    },
+    {
+      "sample_id": "refcoco-val-122916",
+      "timings": {
+        "preprocess_s": 0.011565426000061052,
+        "inference_s": 2.145201484999916,
+        "postprocess_s": 0.0012964169999349906,
+        "amortized_inference_s_per_selected_expression": 1.072600742499958,
+        "mask_write_s": 0.010734744000046703
+      },
+      "memory": {
+        "peak_allocated_bytes": 8826533888,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5453644800,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 5080
+    },
+    {
+      "sample_id": "refcoco-val-41005",
+      "timings": {
+        "preprocess_s": 0.013951759000065067,
+        "inference_s": 2.1491674430000103,
+        "postprocess_s": 0.0018475109999371853,
+        "amortized_inference_s_per_selected_expression": 0.7163891476666701,
+        "mask_write_s": 0.01406429600001502
+      },
+      "memory": {
+        "peak_allocated_bytes": 8831924224,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5455587328,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 7206
+    },
+    {
+      "sample_id": "refcoco-val-507952",
+      "timings": {
+        "preprocess_s": 0.015124399000001176,
+        "inference_s": 2.1690691730000253,
+        "postprocess_s": 0.0022694450000244615,
+        "amortized_inference_s_per_selected_expression": 0.5422672932500063,
+        "mask_write_s": 0.01897225499999422
+      },
+      "memory": {
+        "peak_allocated_bytes": 8835384832,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5456046080,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 10075
+    },
+    {
+      "sample_id": "refcoco-val-409653",
+      "timings": {
+        "preprocess_s": 0.013754666999943765,
+        "inference_s": 2.142538216999924,
+        "postprocess_s": 0.0013050059999386576,
+        "amortized_inference_s_per_selected_expression": 1.071269108499962,
+        "mask_write_s": 0.011732948000030774
+      },
+      "memory": {
+        "peak_allocated_bytes": 8826098688,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5453644800,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 5735
+    },
+    {
+      "sample_id": "refcoco-val-319543",
+      "timings": {
+        "preprocess_s": 0.013545403999955852,
+        "inference_s": 2.157995307999954,
+        "postprocess_s": 0.0013586410000243632,
+        "amortized_inference_s_per_selected_expression": 1.078997653999977,
+        "mask_write_s": 0.01127494200000001
+      },
+      "memory": {
+        "peak_allocated_bytes": 8828167680,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5454604288,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 4770
+    },
+    {
+      "sample_id": "refcoco-val-352312",
+      "timings": {
+        "preprocess_s": 0.013195289000009325,
+        "inference_s": 2.1695270349999873,
+        "postprocess_s": 0.0015295289999812667,
+        "amortized_inference_s_per_selected_expression": 1.0847635174999937,
+        "mask_write_s": 0.012885327999924812
+      },
+      "memory": {
+        "peak_allocated_bytes": 8828486144,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5454604288,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 5590
+    },
+    {
+      "sample_id": "refcoco-val-270391",
+      "timings": {
+        "preprocess_s": 0.010559583000031125,
+        "inference_s": 2.19202180100001,
+        "postprocess_s": 0.0011007800000015777,
+        "amortized_inference_s_per_selected_expression": 1.096010900500005,
+        "mask_write_s": 0.01009633399996801
+      },
+      "memory": {
+        "peak_allocated_bytes": 8828480000,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5453187072,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 4972
+    },
+    {
+      "sample_id": "refcoco-val-139324",
+      "timings": {
+        "preprocess_s": 0.0126262769999812,
+        "inference_s": 2.2101347220000207,
+        "postprocess_s": 0.0014072830000486647,
+        "amortized_inference_s_per_selected_expression": 1.1050673610000104,
+        "mask_write_s": 0.01807922199998302
+      },
+      "memory": {
+        "peak_allocated_bytes": 8828638720,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5454604288,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 9352
+    },
+    {
+      "sample_id": "refcoco-val-548935",
+      "timings": {
+        "preprocess_s": 0.01262739900005272,
+        "inference_s": 2.222891112999946,
+        "postprocess_s": 0.0014453000000003158,
+        "amortized_inference_s_per_selected_expression": 1.111445556499973,
+        "mask_write_s": 0.011891064999986156
+      },
+      "memory": {
+        "peak_allocated_bytes": 8825831424,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5453639680,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 9624
+    },
+    {
+      "sample_id": "refcoco-val-458827",
+      "timings": {
+        "preprocess_s": 0.009303076000037436,
+        "inference_s": 2.253413561000002,
+        "postprocess_s": 0.0009332089999816162,
+        "amortized_inference_s_per_selected_expression": 1.126706780500001,
+        "mask_write_s": 0.007930088999955842
+      },
+      "memory": {
+        "peak_allocated_bytes": 8825080320,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5453199360,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 4555
+    },
+    {
+      "sample_id": "refcoco-val-16465",
+      "timings": {
+        "preprocess_s": 0.01254901200002223,
+        "inference_s": 2.2665357780000477,
+        "postprocess_s": 0.0013540170000396756,
+        "amortized_inference_s_per_selected_expression": 1.1332678890000238,
+        "mask_write_s": 0.010504478000029849
+      },
+      "memory": {
+        "peak_allocated_bytes": 8825951744,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5453624320,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 6967
+    },
+    {
+      "sample_id": "refcoco-val-442461",
+      "timings": {
+        "preprocess_s": 0.014813916999969479,
+        "inference_s": 2.330523921000008,
+        "postprocess_s": 0.0022937139999612555,
+        "amortized_inference_s_per_selected_expression": 0.7768413070000028,
+        "mask_write_s": 0.0240808470000502
+      },
+      "memory": {
+        "peak_allocated_bytes": 8832655872,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5455587328,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 13871
+    },
+    {
+      "sample_id": "refcoco-val-139359",
+      "timings": {
+        "preprocess_s": 0.011680809000040426,
+        "inference_s": 2.3335402449999947,
+        "postprocess_s": 0.0013766219999524765,
+        "amortized_inference_s_per_selected_expression": 1.1667701224999973,
+        "mask_write_s": 0.019002035999960754
+      },
+      "memory": {
+        "peak_allocated_bytes": 8826446848,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5453644800,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 12434
+    },
+    {
+      "sample_id": "refcoco-val-114786",
+      "timings": {
+        "preprocess_s": 0.012834422999958406,
+        "inference_s": 2.4012736419999783,
+        "postprocess_s": 0.0017023819999621992,
+        "amortized_inference_s_per_selected_expression": 0.8004245473333261,
+        "mask_write_s": 0.02095991999999569
+      },
+      "memory": {
+        "peak_allocated_bytes": 8830124032,
+        "peak_reserved_bytes": 9791602688,
+        "allocated_after_bytes": 5455554560,
+        "ram_rss_bytes": 7754342400
+      },
+      "output_bytes": 15443
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-438422",
+  "sample_hash": "ca26c8a23de5897e63d8c0370b5c4cf8d89235e9abc5cfcfda30910942fb7587",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 438422,
+  "dataset_index": 764,
+  "expressions": [
+    {
+      "image_id": 438422,
+      "dataset_index": 764,
+      "ref_id": 12500,
+      "sent_id": 35567,
+      "expression": "orange shirt",
+      "mask_id": 0,
+      "annotation_id": 1746450,
+      "prediction_id": "refcoco-val-438422:0",
+      "gt_segmentation_sha256": "b271ad7314412ebfb4b10aa1856ac8756496703481085b289779e92bbf1857e7",
+      "category_id": 1
+    },
+    {
+      "image_id": 438422,
+      "dataset_index": 764,
+      "ref_id": 12501,
+      "sent_id": 35570,
+      "expression": "girl on right edge",
+      "mask_id": 1,
+      "annotation_id": 471043,
+      "prediction_id": "refcoco-val-438422:1",
+      "gt_segmentation_sha256": "695c3456832842a017203bddf640177b337910ffb58e7c0c2856273cc666955a",
+      "category_id": 1
+    },
+    {
+      "image_id": 438422,
+      "dataset_index": 764,
+      "ref_id": 12502,
+      "sent_id": 35572,
+      "expression": "white hair man",
+      "mask_id": 2,
+      "annotation_id": 461006,
+      "prediction_id": "refcoco-val-438422:2",
+      "gt_segmentation_sha256": "dbe10e16e465b966bd65566b79d8d8e3fac96ee47d84e13b4e28737f1960984f",
+      "category_id": 1
+    },
+    {
+      "image_id": 438422,
+      "dataset_index": 764,
+      "ref_id": 12503,
+      "sent_id": 35575,
+      "expression": "woman",
+      "mask_id": 3,
+      "annotation_id": 426208,
+      "prediction_id": "refcoco-val-438422:3",
+      "gt_segmentation_sha256": "86b85665a1ce3e036d569c72c779501a8bc72851143935c2b3a05046f2d91445",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    15974,
+    38267,
+    21912,
+    35290
+  ],
+  "union": [
+    19505,
+    39138,
+    23130,
+    37128
+  ],
+  "mask_file": "refcoco-val-438422.npz",
+  "mask_sha256": "2c19352f18af6043fb052f3c32d3090eb565dedb09cbf5fd84cff0fe07913ebc",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.0186431370000264,
+    "inference_s": 2.334022211000047,
+    "postprocess_s": 0.0030338069999515938,
+    "amortized_inference_s_per_selected_expression": 0.5835055527500117,
+    "mask_write_s": 0.0246835990000136
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826791424,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6295515136
+  },
+  "output_bytes": 11742,
+  "stage_created": "full-validation",
+  "record_hash": "9b283985154d0c4eff98bc78d6051f0acc8ffd9f401a387d34d5b276da0d55a6",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

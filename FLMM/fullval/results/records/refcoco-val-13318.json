@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-13318",
+  "sample_hash": "a082a60eb85c284642b926fbf385cbc09468af02057f8e71152838d496d87afd",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 13318,
+  "dataset_index": 932,
+  "expressions": [
+    {
+      "image_id": 13318,
+      "dataset_index": 932,
+      "ref_id": 48933,
+      "sent_id": 139156,
+      "expression": "angry blue shirt man",
+      "mask_id": 0,
+      "annotation_id": 1682800,
+      "prediction_id": "refcoco-val-13318:0",
+      "gt_segmentation_sha256": "811116573a7791bbb2d76fa9463370d1eb06a4a007bbe37c3bacefd677aeaa6e",
+      "category_id": 1
+    },
+    {
+      "image_id": 13318,
+      "dataset_index": 932,
+      "ref_id": 48934,
+      "sent_id": 139159,
+      "expression": "woman with black bag and brown coat",
+      "mask_id": 1,
+      "annotation_id": 1703482,
+      "prediction_id": "refcoco-val-13318:1",
+      "gt_segmentation_sha256": "b8ccdf1141ae3a3581eb09aedc56f8969879799cc0f7c97905dd0503323c05f1",
+      "category_id": 1
+    },
+    {
+      "image_id": 13318,
+      "dataset_index": 932,
+      "ref_id": 48935,
+      "sent_id": 139162,
+      "expression": "man uniform",
+      "mask_id": 2,
+      "annotation_id": 1231897,
+      "prediction_id": "refcoco-val-13318:2",
+      "gt_segmentation_sha256": "dae7f844c68fcece837a73feb9f9e9685c457b2c0c8c4576aa92ac3133494b3d",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    22900,
+    49271,
+    18682
+  ],
+  "union": [
+    51736,
+    51878,
+    20350
+  ],
+  "mask_file": "refcoco-val-13318.npz",
+  "mask_sha256": "420e1ac687b90682a14d3cff39a7d05bba1c45e15ec2916cec5e2a7d883a5682",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.026943212000105632,
+    "inference_s": 2.4136750420000226,
+    "postprocess_s": 0.003054866999946171,
+    "amortized_inference_s_per_selected_expression": 0.8045583473333409,
+    "mask_write_s": 0.024182708999887836
+  },
+  "memory": {
+    "peak_allocated_bytes": 8830267392,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449481728,
+    "ram_rss_bytes": 6295756800
+  },
+  "output_bytes": 13365,
+  "stage_created": "full-validation",
+  "record_hash": "a19b4d3408e1ffa240412709359716a5724cbee6813976bd11f1c1c67b1943fb",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

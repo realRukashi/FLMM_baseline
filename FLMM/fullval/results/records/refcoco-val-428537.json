@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-428537",
+  "sample_hash": "114d27c3aae3e507cfc5aea1aa3d88058d2b684c75b3aef807edab18f3d0b0aa",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 428537,
+  "dataset_index": 466,
+  "expressions": [
+    {
+      "image_id": 428537,
+      "dataset_index": 466,
+      "ref_id": 13315,
+      "sent_id": 37882,
+      "expression": "white sheep in middle looking away",
+      "mask_id": 0,
+      "annotation_id": 68665,
+      "prediction_id": "refcoco-val-428537:0",
+      "gt_segmentation_sha256": "5b54dd571fac073b7966504eebe26434092438a828f941100919cbb870757e2c",
+      "category_id": 20
+    },
+    {
+      "image_id": 428537,
+      "dataset_index": 466,
+      "ref_id": 13316,
+      "sent_id": 37885,
+      "expression": "sheep that has his tail near man's head...ugh",
+      "mask_id": 1,
+      "annotation_id": 67911,
+      "prediction_id": "refcoco-val-428537:1",
+      "gt_segmentation_sha256": "cbbb96436c9b2d3b6201d4d5f834fc7806c33fe08fc1594519c298e7efde3b50",
+      "category_id": 20
+    },
+    {
+      "image_id": 428537,
+      "dataset_index": 466,
+      "ref_id": 13317,
+      "sent_id": 37887,
+      "expression": "sheep on bottom looking at camera",
+      "mask_id": 2,
+      "annotation_id": 67280,
+      "prediction_id": "refcoco-val-428537:2",
+      "gt_segmentation_sha256": "50a0b0b81d07a068b00e13656ec2bba5ccfa151d948b8e5a7b34dfdb84c09c1e",
+      "category_id": 20
+    },
+    {
+      "image_id": 428537,
+      "dataset_index": 466,
+      "ref_id": 13318,
+      "sent_id": 37890,
+      "expression": "sheep on the right that is facing us the rightmost one",
+      "mask_id": 3,
+      "annotation_id": 66245,
+      "prediction_id": "refcoco-val-428537:3",
+      "gt_segmentation_sha256": "3da8feddf4f72e97c46feae4fa8b72b93e74e060665c4880c6c9fc963526d5bb",
+      "category_id": 20
+    },
+    {
+      "image_id": 428537,
+      "dataset_index": 466,
+      "ref_id": 13319,
+      "sent_id": 37893,
+      "expression": "long partial center sheep",
+      "mask_id": 4,
+      "annotation_id": 63365,
+      "prediction_id": "refcoco-val-428537:4",
+      "gt_segmentation_sha256": "2ac623333f7bf3e01de6da6a7e79bdf0b6e5d5a78857bf47077c761265b01f4e",
+      "category_id": 20
+    }
+  ],
+  "intersection": [
+    351,
+    243,
+    1183,
+    17448,
+    0
+  ],
+  "union": [
+    46512,
+    39098,
+    33531,
+    18483,
+    38326
+  ],
+  "mask_file": "refcoco-val-428537.npz",
+  "mask_sha256": "535d4cdd311b02fa0f8e85ac198948c3cabcd83e1eae724c0e7767d682fee0b5",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.02059942300002149,
+    "inference_s": 2.7825836030001483,
+    "postprocess_s": 0.0035496789996614098,
+    "amortized_inference_s_per_selected_expression": 0.5565167206000297,
+    "mask_write_s": 0.03178546400022242
+  },
+  "memory": {
+    "peak_allocated_bytes": 8834769920,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449952768,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 13109,
+  "stage_created": "full-validation",
+  "record_hash": "de8576f855fcacbe90fcfce89fccb3854fe7fd0a8c268f9f89e68fec2925cfe9",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

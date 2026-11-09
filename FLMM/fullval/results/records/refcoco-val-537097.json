@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-537097",
+  "sample_hash": "b1d7b83fa3d4b04d4826f4ebe375b9687b1e3599f8a439d3b0def0a34d827c23",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 537097,
+  "dataset_index": 832,
+  "expressions": [
+    {
+      "image_id": 537097,
+      "dataset_index": 832,
+      "ref_id": 3925,
+      "sent_id": 11193,
+      "expression": "fat man purple shirt",
+      "mask_id": 0,
+      "annotation_id": 1287877,
+      "prediction_id": "refcoco-val-537097:0",
+      "gt_segmentation_sha256": "77406626e55eb8d4573305093f5f61aee9f6a4a5075f5a3ab2b4e72e4abedc81",
+      "category_id": 1
+    },
+    {
+      "image_id": 537097,
+      "dataset_index": 832,
+      "ref_id": 3926,
+      "sent_id": 11196,
+      "expression": "man in black white shorts",
+      "mask_id": 1,
+      "annotation_id": 1248057,
+      "prediction_id": "refcoco-val-537097:1",
+      "gt_segmentation_sha256": "c778ccdfd5d6a94d27d62d256bddc6ef5a873bfb8733d5d2e5da67a96b8c0efe",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    32555,
+    33333
+  ],
+  "union": [
+    33952,
+    35202
+  ],
+  "mask_file": "refcoco-val-537097.npz",
+  "mask_sha256": "1f9734fd15185de9ca0bfe426e4bb2d354937efe53f755c5b39e5e2c184c2ad2",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016250474999992548,
+    "inference_s": 2.375203822000003,
+    "postprocess_s": 0.0016722599999638987,
+    "amortized_inference_s_per_selected_expression": 1.1876019110000016,
+    "mask_write_s": 0.013313755000012861
+  },
+  "memory": {
+    "peak_allocated_bytes": 8821360128,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447223296,
+    "ram_rss_bytes": 6295609344
+  },
+  "output_bytes": 6980,
+  "stage_created": "full-validation",
+  "record_hash": "2d84e83dad976f6640fd74ed39e620dad115e89a86ab7ea764e7fb19e6a801c9",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

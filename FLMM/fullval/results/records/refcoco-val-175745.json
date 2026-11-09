@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-175745",
+  "sample_hash": "3ca5f4a2778ce0ebc05e48bb3b75c8a887434a9c8051b646d96b6e3a9860ee8d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 175745,
+  "dataset_index": 689,
+  "expressions": [
+    {
+      "image_id": 175745,
+      "dataset_index": 689,
+      "ref_id": 35049,
+      "sent_id": 99691,
+      "expression": "man with no shirt on skateboard",
+      "mask_id": 0,
+      "annotation_id": 1240342,
+      "prediction_id": "refcoco-val-175745:0",
+      "gt_segmentation_sha256": "7f5e7e548aca2436c07859f65fc8107971a4ec4c06c587b24bb1a55a3984f732",
+      "category_id": 1
+    },
+    {
+      "image_id": 175745,
+      "dataset_index": 689,
+      "ref_id": 35050,
+      "sent_id": 99694,
+      "expression": "man in black t shirt green shorts in background",
+      "mask_id": 1,
+      "annotation_id": 1721700,
+      "prediction_id": "refcoco-val-175745:1",
+      "gt_segmentation_sha256": "014186601bd90972924eb9ba07f560d0cda7e146b532809b70c960cad0e4d5da",
+      "category_id": 1
+    },
+    {
+      "image_id": 175745,
+      "dataset_index": 689,
+      "ref_id": 35051,
+      "sent_id": 99697,
+      "expression": "black shirt",
+      "mask_id": 2,
+      "annotation_id": 1315924,
+      "prediction_id": "refcoco-val-175745:2",
+      "gt_segmentation_sha256": "1dac37731d83542e4c71bfd0606b4b910b157e1e01d9abba89f85cf6ffba2a75",
+      "category_id": 1
+    },
+    {
+      "image_id": 175745,
+      "dataset_index": 689,
+      "ref_id": 35052,
+      "sent_id": 99699,
+      "expression": "girl wearing pink shorts",
+      "mask_id": 3,
+      "annotation_id": 1311090,
+      "prediction_id": "refcoco-val-175745:3",
+      "gt_segmentation_sha256": "adcb9859aa267ff29f56950869b29608fa1bee98cc895d522a3bd1b011b4a827",
+      "category_id": 1
+    },
+    {
+      "image_id": 175745,
+      "dataset_index": 689,
+      "ref_id": 35053,
+      "sent_id": 99701,
+      "expression": "woman top right grey dress not running",
+      "mask_id": 4,
+      "annotation_id": 1307497,
+      "prediction_id": "refcoco-val-175745:4",
+      "gt_segmentation_sha256": "c9bc4c0814f319623495834b55212d0e9c371ec4299c91534e29396c278977a5",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    31125,
+    15067,
+    25399,
+    31568,
+    11635
+  ],
+  "union": [
+    35172,
+    17988,
+    28611,
+    34129,
+    12837
+  ],
+  "mask_file": "refcoco-val-175745.npz",
+  "mask_sha256": "3f886bc055e90f6c09d194b0b9aac6a5f543f5722e3bc9db3066bf72b97f97de",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.025843999000016993,
+    "inference_s": 2.305711116999987,
+    "postprocess_s": 0.004244814000003316,
+    "amortized_inference_s_per_selected_expression": 0.46114222339999744,
+    "mask_write_s": 0.029904987000008987
+  },
+  "memory": {
+    "peak_allocated_bytes": 8837670912,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451323392,
+    "ram_rss_bytes": 6294368256
+  },
+  "output_bytes": 15713,
+  "stage_created": "full-validation",
+  "record_hash": "85cb936e4e1e61ba03eed12899f525de4d3e3130fc5f1329e0cbf92cc0926004",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

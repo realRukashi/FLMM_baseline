@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-298481",
+  "sample_hash": "de0cf2a5dc1bc58f7cc603f2b1957cc7399ff89398f7e659dd96aa5607cb2ef5",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 298481,
+  "dataset_index": 660,
+  "expressions": [
+    {
+      "image_id": 298481,
+      "dataset_index": 660,
+      "ref_id": 24663,
+      "sent_id": 70093,
+      "expression": "left chair back",
+      "mask_id": 0,
+      "annotation_id": 1601329,
+      "prediction_id": "refcoco-val-298481:0",
+      "gt_segmentation_sha256": "c6b38ab14bd927da426ee084ec4464026e2c59561623ab97d6aeb22dac19612f",
+      "category_id": 62
+    },
+    {
+      "image_id": 298481,
+      "dataset_index": 660,
+      "ref_id": 24664,
+      "sent_id": 70095,
+      "expression": "back of gold tapestry chair at table closest to us",
+      "mask_id": 1,
+      "annotation_id": 1591027,
+      "prediction_id": "refcoco-val-298481:1",
+      "gt_segmentation_sha256": "c3487ea83c42798e4dcbc3888e960826fb4761b6ded8b14cfa6ccddea42409df",
+      "category_id": 62
+    }
+  ],
+  "intersection": [
+    11501,
+    16369
+  ],
+  "union": [
+    13993,
+    17372
+  ],
+  "mask_file": "refcoco-val-298481.npz",
+  "mask_sha256": "a87019e16e63d5ec17addea2207ca4f45d842368c6656b0239d64ea67a7cbea7",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.012576579999972637,
+    "inference_s": 2.2141052250000257,
+    "postprocess_s": 0.0016226029999870661,
+    "amortized_inference_s_per_selected_expression": 1.1070526125000129,
+    "mask_write_s": 0.013826374999894142
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818118144,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6295363584
+  },
+  "output_bytes": 4165,
+  "stage_created": "full-validation",
+  "record_hash": "7b350b893ed189c0f2e7c9842066db4ee7792aa04c305429b2b6502e31f0c524",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

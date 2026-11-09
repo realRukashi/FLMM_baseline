@@ -1,0 +1,61 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-278549",
+  "sample_hash": "413fa6a07ebe740276941c73d38ee9a71a0650f1d564d4b3c3201c5301538309",
+  "fingerprint": "7b0a0f19a4148190b500d8b050454fb48beeb2b73382073930afe71fa53277a4",
+  "image_id": 278549,
+  "dataset_index": 1,
+  "expressions": [
+    {
+      "image_id": 278549,
+      "dataset_index": 1,
+      "ref_id": 26374,
+      "sent_id": 74997,
+      "expression": "left kid sucking finger",
+      "mask_id": 0,
+      "annotation_id": 1715706,
+      "prediction_id": "refcoco-val-278549:0",
+      "gt_segmentation_sha256": "4ed178f7a3b95a9df708ca6b3d59f1ae164a25321c8134a5702f1aba8b5b0e3b",
+      "category_id": 1
+    },
+    {
+      "image_id": 278549,
+      "dataset_index": 1,
+      "ref_id": 26375,
+      "sent_id": 75000,
+      "expression": "kid with food",
+      "mask_id": 1,
+      "annotation_id": 502229,
+      "prediction_id": "refcoco-val-278549:1",
+      "gt_segmentation_sha256": "2161519379b279b79d17e9f09c7e4ee6581f38350117a2869ef697ddc959577e",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    31567,
+    79882
+  ],
+  "union": [
+    34211,
+    93719
+  ],
+  "mask_file": "refcoco-val-278549.npz",
+  "mask_sha256": "2f8c18d89b506ac3ee9eb3874e0515fed5bce543759682ad0806eb4c2b307fb8",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.011733864999996513,
+    "inference_s": 2.2793183420000105,
+    "postprocess_s": 0.001298772999916764,
+    "amortized_inference_s_per_selected_expression": 1.1396591710000052,
+    "mask_write_s": 0.016120396000019355
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826179584,
+    "peak_reserved_bytes": 9791602688,
+    "allocated_after_bytes": 5453639680,
+    "ram_rss_bytes": 7754342400
+  },
+  "output_bytes": 9668,
+  "stage_created": "regression",
+  "record_hash": "25296ff2fb42c32252d5e5ebf87986ae1e6247657ca4fe15550c9dc8b526faf4"
+}

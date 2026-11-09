@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-580785",
+  "sample_hash": "3e89d20f4d29acacd9587112bbb89dc38bddbe3d3b0b9aa26031a93023a20963",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 580785,
+  "dataset_index": 1349,
+  "expressions": [
+    {
+      "image_id": 580785,
+      "dataset_index": 1349,
+      "ref_id": 101,
+      "sent_id": 292,
+      "expression": "mom",
+      "mask_id": 0,
+      "annotation_id": 1746473,
+      "prediction_id": "refcoco-val-580785:0",
+      "gt_segmentation_sha256": "ebd0ca598b6af83b1768f6ee2ca6886e2f9eae981dd8956eebb5321a7b21f028",
+      "category_id": 1
+    },
+    {
+      "image_id": 580785,
+      "dataset_index": 1349,
+      "ref_id": 102,
+      "sent_id": 295,
+      "expression": "child sitting on womans lap",
+      "mask_id": 1,
+      "annotation_id": 1741008,
+      "prediction_id": "refcoco-val-580785:1",
+      "gt_segmentation_sha256": "ac03a5aabc5a098d54283096a64924ac158457f3b80e515f0ee2a52e65db72b3",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    34225,
+    8819
+  ],
+  "union": [
+    43475,
+    11562
+  ],
+  "mask_file": "refcoco-val-580785.npz",
+  "mask_sha256": "cace33d7b16eea792e8e53db570423bb8c22eb5dd3c3147c9224210098b90d9b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016490296000029048,
+    "inference_s": 2.42039524300003,
+    "postprocess_s": 0.001641825999968205,
+    "amortized_inference_s_per_selected_expression": 1.210197621500015,
+    "mask_write_s": 0.016348961999938183
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818501632,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6301388800
+  },
+  "output_bytes": 6088,
+  "stage_created": "full-validation",
+  "record_hash": "7b08905681c509bee5ace06edc2121756ac9974593859ac34d9ae6c1410a5ab4",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

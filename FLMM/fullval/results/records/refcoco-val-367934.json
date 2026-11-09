@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-367934",
+  "sample_hash": "0133eaaa3ad1977524fcbce1d93ce474006d451effdf8a18b9a75f52a96d130c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 367934,
+  "dataset_index": 1382,
+  "expressions": [
+    {
+      "image_id": 367934,
+      "dataset_index": 1382,
+      "ref_id": 18482,
+      "sent_id": 52575,
+      "expression": "right chair",
+      "mask_id": 0,
+      "annotation_id": 1944551,
+      "prediction_id": "refcoco-val-367934:0",
+      "gt_segmentation_sha256": "ede34093df534c74e66de4f591dcf6cd383d26c4adcd8d9334fc84aa7df49b47",
+      "category_id": 62
+    },
+    {
+      "image_id": 367934,
+      "dataset_index": 1382,
+      "ref_id": 18483,
+      "sent_id": 52578,
+      "expression": "child at bottom of picture",
+      "mask_id": 1,
+      "annotation_id": 495706,
+      "prediction_id": "refcoco-val-367934:1",
+      "gt_segmentation_sha256": "538dab6d86a4b3480d1a045e78e0935601f675a7a483539769db5b36d8b38afd",
+      "category_id": 1
+    },
+    {
+      "image_id": 367934,
+      "dataset_index": 1382,
+      "ref_id": 18484,
+      "sent_id": 52581,
+      "expression": "pants",
+      "mask_id": 2,
+      "annotation_id": 471387,
+      "prediction_id": "refcoco-val-367934:2",
+      "gt_segmentation_sha256": "77fd515e6b3d8449125dfc2c53cb5bd004e1b9b296dd9176aece30c44163df95",
+      "category_id": 1
+    },
+    {
+      "image_id": 367934,
+      "dataset_index": 1382,
+      "ref_id": 18485,
+      "sent_id": 52584,
+      "expression": "daddy brown shirt",
+      "mask_id": 3,
+      "annotation_id": 440558,
+      "prediction_id": "refcoco-val-367934:3",
+      "gt_segmentation_sha256": "9176f404eb55621651445ee3c816db7d319c4af28fc9606f2bb1634dbd43cf87",
+      "category_id": 1
+    },
+    {
+      "image_id": 367934,
+      "dataset_index": 1382,
+      "ref_id": 18486,
+      "sent_id": 52587,
+      "expression": "top of chair right",
+      "mask_id": 4,
+      "annotation_id": 116764,
+      "prediction_id": "refcoco-val-367934:4",
+      "gt_segmentation_sha256": "f4dfc3a575ce317a0fea375566635686197ff24707074c6b363835816307a6a8",
+      "category_id": 63
+    },
+    {
+      "image_id": 367934,
+      "dataset_index": 1382,
+      "ref_id": 18487,
+      "sent_id": 52590,
+      "expression": "chair man sitting in",
+      "mask_id": 5,
+      "annotation_id": 112385,
+      "prediction_id": "refcoco-val-367934:5",
+      "gt_segmentation_sha256": "a6516882a15ecf0960baaeb78029fc548e91c7a68e025da6f90e49d32c5f9fe3",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    16944,
+    20240,
+    41156,
+    81031,
+    13503,
+    12901
+  ],
+  "union": [
+    21265,
+    21354,
+    43337,
+    85341,
+    15889,
+    21905
+  ],
+  "mask_file": "refcoco-val-367934.npz",
+  "mask_sha256": "ddb397c2702dfc047bff913191a94d440095ecfab710a6ce4548164dc0d2440a",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.015374693000012485,
+    "inference_s": 2.2142152960000203,
+    "postprocess_s": 0.00372639900001559,
+    "amortized_inference_s_per_selected_expression": 0.36903588266667003,
+    "mask_write_s": 0.0318170339999142
+  },
+  "memory": {
+    "peak_allocated_bytes": 8835425280,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5450226688,
+    "ram_rss_bytes": 6297788416
+  },
+  "output_bytes": 20411,
+  "stage_created": "full-validation",
+  "record_hash": "e0f912770d309dedb917c9906726d6e4c50145d61cafe532edfbb46515a6774d",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

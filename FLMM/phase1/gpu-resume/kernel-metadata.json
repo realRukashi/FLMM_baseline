@@ -1,0 +1,16 @@
+{
+  "id": "hoofngocjhuy/flmm-phase1-resume",
+  "title": "FLMM Phase1 Resume",
+  "code_file": "phase1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "hoofngocjhuy/flmm-phase1-cache",
+    "hoofngocjhuy/flmm-phase1-gates"
+  ]
+}

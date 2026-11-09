@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-531752",
+  "sample_hash": "18c0a60fa3aee6eb150b7faa0c3663c81acd8ac33dc1bed7269276e9a8b90ae6",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 531752,
+  "dataset_index": 1376,
+  "expressions": [
+    {
+      "image_id": 531752,
+      "dataset_index": 1376,
+      "ref_id": 4400,
+      "sent_id": 12531,
+      "expression": "hotdog right",
+      "mask_id": 0,
+      "annotation_id": 1070484,
+      "prediction_id": "refcoco-val-531752:0",
+      "gt_segmentation_sha256": "30e26d305499b97acb4a50128b6f04a659a34cce35ce1515a92be3d6457fae64",
+      "category_id": 58
+    },
+    {
+      "image_id": 531752,
+      "dataset_index": 1376,
+      "ref_id": 4401,
+      "sent_id": 12534,
+      "expression": "not the streak of ketchup in the very left upper corner but the next streak down.",
+      "mask_id": 1,
+      "annotation_id": 1070443,
+      "prediction_id": "refcoco-val-531752:1",
+      "gt_segmentation_sha256": "d9575bf296666b0022e2821bc51458fa872b27d8b496da99f182e33569a6f1b8",
+      "category_id": 58
+    },
+    {
+      "image_id": 531752,
+      "dataset_index": 1376,
+      "ref_id": 4402,
+      "sent_id": 12537,
+      "expression": "middle one",
+      "mask_id": 2,
+      "annotation_id": 1070108,
+      "prediction_id": "refcoco-val-531752:2",
+      "gt_segmentation_sha256": "32706c39ca57b2d4515882af93edbfd67cbdedf452d39f39296020e1d16725c5",
+      "category_id": 58
+    }
+  ],
+  "intersection": [
+    109614,
+    13144,
+    63574
+  ],
+  "union": [
+    113451,
+    35267,
+    76509
+  ],
+  "mask_file": "refcoco-val-531752.npz",
+  "mask_sha256": "0ca3e2aff3c669e3f5ee69396776522f5fb54953894973feded93e6accf85d20",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.015824764000171854,
+    "inference_s": 2.187371172999974,
+    "postprocess_s": 0.002152294999859805,
+    "amortized_inference_s_per_selected_expression": 0.7291237243333247,
+    "mask_write_s": 0.025387062000163496
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824453632,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447354368,
+    "ram_rss_bytes": 6297788416
+  },
+  "output_bytes": 13349,
+  "stage_created": "full-validation",
+  "record_hash": "ffb155c95b6b1f5f720b9b8c26c8051df36593123bda387c42678b8fd1e7b39c",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

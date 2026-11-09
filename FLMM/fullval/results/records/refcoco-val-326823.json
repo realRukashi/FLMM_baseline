@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-326823",
+  "sample_hash": "1b32a8b793feed4801814650b4a7b3993edd6a6e711788031514728f9538018e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 326823,
+  "dataset_index": 1346,
+  "expressions": [
+    {
+      "image_id": 326823,
+      "dataset_index": 1346,
+      "ref_id": 22093,
+      "sent_id": 62834,
+      "expression": "pizza being cut into",
+      "mask_id": 0,
+      "annotation_id": 1076823,
+      "prediction_id": "refcoco-val-326823:0",
+      "gt_segmentation_sha256": "ff5eade5a68afadb6326845fcebfe6c4b039220e117f18dcbfd6382139d86448",
+      "category_id": 59
+    },
+    {
+      "image_id": 326823,
+      "dataset_index": 1346,
+      "ref_id": 22094,
+      "sent_id": 62836,
+      "expression": "the pink stuff",
+      "mask_id": 1,
+      "annotation_id": 1074631,
+      "prediction_id": "refcoco-val-326823:1",
+      "gt_segmentation_sha256": "1b0ac8147dcd8a4a86341b9f03f2a74aa6bcf6746dd92738c5330b69e80f2bda",
+      "category_id": 59
+    },
+    {
+      "image_id": 326823,
+      "dataset_index": 1346,
+      "ref_id": 22095,
+      "sent_id": 62838,
+      "expression": "mirror on the left",
+      "mask_id": 2,
+      "annotation_id": 682072,
+      "prediction_id": "refcoco-val-326823:2",
+      "gt_segmentation_sha256": "49591fc5d9455ed9134fdd5ae055c52a894a3931e77a00fb0c3e4bc62043a235",
+      "category_id": 47
+    },
+    {
+      "image_id": 326823,
+      "dataset_index": 1346,
+      "ref_id": 22096,
+      "sent_id": 62841,
+      "expression": "tumbler on right",
+      "mask_id": 3,
+      "annotation_id": 673465,
+      "prediction_id": "refcoco-val-326823:3",
+      "gt_segmentation_sha256": "47bcc26062c2d81d12c5d216438c149f06bbce21eed570c331161bfbee2d0704",
+      "category_id": 47
+    }
+  ],
+  "intersection": [
+    0,
+    41917,
+    39315,
+    23804
+  ],
+  "union": [
+    74998,
+    112801,
+    40705,
+    24746
+  ],
+  "mask_file": "refcoco-val-326823.npz",
+  "mask_sha256": "0c97254a00f0d2dd780f93826906646d8cccc57708e50dfb64026ed2ae8db3df",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.014840221999975256,
+    "inference_s": 2.188854807000098,
+    "postprocess_s": 0.002717289999964123,
+    "amortized_inference_s_per_selected_expression": 0.5472137017500245,
+    "mask_write_s": 0.02599772700000358
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829103616,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6297735168
+  },
+  "output_bytes": 13004,
+  "stage_created": "full-validation",
+  "record_hash": "0db0f8e7b9a71c7dcf3221dbf48e26cfb84a6247d18ab470a1d9ba44f2c1f513",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

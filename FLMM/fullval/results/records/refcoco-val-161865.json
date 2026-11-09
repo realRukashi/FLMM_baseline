@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-161865",
+  "sample_hash": "78d3cd903337b3099f4a2c34f4aa37fa290d11db3d8854d7aff04341cf0bb057",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 161865,
+  "dataset_index": 1138,
+  "expressions": [
+    {
+      "image_id": 161865,
+      "dataset_index": 1138,
+      "ref_id": 36122,
+      "sent_id": 102756,
+      "expression": "gamer on left long hair",
+      "mask_id": 0,
+      "annotation_id": 223268,
+      "prediction_id": "refcoco-val-161865:0",
+      "gt_segmentation_sha256": "89c5ce76e2b5dfedcbdba942f8868f8c1b072dedb77206dbbdacf2a4b0a77f44",
+      "category_id": 1
+    },
+    {
+      "image_id": 161865,
+      "dataset_index": 1138,
+      "ref_id": 36123,
+      "sent_id": 102759,
+      "expression": "beardless guy in front",
+      "mask_id": 1,
+      "annotation_id": 217889,
+      "prediction_id": "refcoco-val-161865:1",
+      "gt_segmentation_sha256": "0937d4ff0ce3d3c57c05f84a6b59f26f78934794662382a6b1a5464da5b06097",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    43249,
+    88420
+  ],
+  "union": [
+    48731,
+    97429
+  ],
+  "mask_file": "refcoco-val-161865.npz",
+  "mask_sha256": "9885ebe484188844431e9af4d9282a30f673bc8bc79d284d7a0345ebd3da2361",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.015815918000043894,
+    "inference_s": 2.0537166480000906,
+    "postprocess_s": 0.0019408570001360204,
+    "amortized_inference_s_per_selected_expression": 1.0268583240000453,
+    "mask_write_s": 0.02268948599999021
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820340736,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5447010304,
+    "ram_rss_bytes": 6282448896
+  },
+  "output_bytes": 10294,
+  "stage_created": "full-probe",
+  "record_hash": "ebd37b796a9018777b4fb9b52ca058032fe99bd578f6660d1d139230f0d98149",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

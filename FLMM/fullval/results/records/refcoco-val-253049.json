@@ -1,0 +1,161 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-253049",
+  "sample_hash": "b8427edd1c1f2b1a1a79d5157cb7d69d32cb05ea92558fdd50b3b83013098d71",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 253049,
+  "dataset_index": 1340,
+  "expressions": [
+    {
+      "image_id": 253049,
+      "dataset_index": 1340,
+      "ref_id": 28509,
+      "sent_id": 81081,
+      "expression": "donut in right section, top row far right",
+      "mask_id": 0,
+      "annotation_id": 1573439,
+      "prediction_id": "refcoco-val-253049:0",
+      "gt_segmentation_sha256": "eb651cc75e2949f20d3b64b03fd005ff87ed9e3f8f10169f44fc42e9d7d84d28",
+      "category_id": 60
+    },
+    {
+      "image_id": 253049,
+      "dataset_index": 1340,
+      "ref_id": 28510,
+      "sent_id": 81083,
+      "expression": "picuture on the bottom left, the cocunut white donut",
+      "mask_id": 1,
+      "annotation_id": 1083402,
+      "prediction_id": "refcoco-val-253049:1",
+      "gt_segmentation_sha256": "fbb7d648222fdb6d744d6f300e8b94619b05d2ccc7cdceec748463a57fa09aa4",
+      "category_id": 60
+    },
+    {
+      "image_id": 253049,
+      "dataset_index": 1340,
+      "ref_id": 28511,
+      "sent_id": 81086,
+      "expression": "leftmost doughnut",
+      "mask_id": 2,
+      "annotation_id": 1083379,
+      "prediction_id": "refcoco-val-253049:2",
+      "gt_segmentation_sha256": "0b113414a82ce4613ded72a853c2951e938e4c2438252bbb0ae9d0b7603bb53a",
+      "category_id": 60
+    },
+    {
+      "image_id": 253049,
+      "dataset_index": 1340,
+      "ref_id": 28512,
+      "sent_id": 81089,
+      "expression": "left bottom donut in the right panel",
+      "mask_id": 3,
+      "annotation_id": 1083064,
+      "prediction_id": "refcoco-val-253049:3",
+      "gt_segmentation_sha256": "79d9ece194d5f149a561a2f6ea944505b29a1658078eaca5a754e17980aa6922",
+      "category_id": 60
+    },
+    {
+      "image_id": 253049,
+      "dataset_index": 1340,
+      "ref_id": 28513,
+      "sent_id": 81092,
+      "expression": "second pastry from the right on the bottom",
+      "mask_id": 4,
+      "annotation_id": 1082933,
+      "prediction_id": "refcoco-val-253049:4",
+      "gt_segmentation_sha256": "e752c128d3ca1109e245f9a6f9d487bc2c67a6d5725013de36d832f0deb69a10",
+      "category_id": 60
+    },
+    {
+      "image_id": 253049,
+      "dataset_index": 1340,
+      "ref_id": 28514,
+      "sent_id": 81095,
+      "expression": "middle donut right image",
+      "mask_id": 5,
+      "annotation_id": 1082151,
+      "prediction_id": "refcoco-val-253049:5",
+      "gt_segmentation_sha256": "668d43cc895a2eb507cb273af4ea93dacbee37e4977d995510145097a5897372",
+      "category_id": 60
+    },
+    {
+      "image_id": 253049,
+      "dataset_index": 1340,
+      "ref_id": 28515,
+      "sent_id": 81098,
+      "expression": "very bottom right brownie",
+      "mask_id": 6,
+      "annotation_id": 1924622,
+      "prediction_id": "refcoco-val-253049:6",
+      "gt_segmentation_sha256": "33eede5c559c73f3fb182430615f92645c1f69501105181317fcaf48eef30ecc",
+      "category_id": 60
+    },
+    {
+      "image_id": 253049,
+      "dataset_index": 1340,
+      "ref_id": 28516,
+      "sent_id": 81101,
+      "expression": "top row: 2nd donut from right",
+      "mask_id": 7,
+      "annotation_id": 1080286,
+      "prediction_id": "refcoco-val-253049:7",
+      "gt_segmentation_sha256": "409e16b320d413eae68cf3e9c0a65798e3be3946f5614250bb1e1d3da6a302ef",
+      "category_id": 60
+    },
+    {
+      "image_id": 253049,
+      "dataset_index": 1340,
+      "ref_id": 28517,
+      "sent_id": 81103,
+      "expression": "top row",
+      "mask_id": 8,
+      "annotation_id": 1079209,
+      "prediction_id": "refcoco-val-253049:8",
+      "gt_segmentation_sha256": "2e98b9515d12adea65ec5f6c1d487b9925b6bbaedcfaf42692529bb52023b657",
+      "category_id": 60
+    }
+  ],
+  "intersection": [
+    12033,
+    648,
+    26583,
+    0,
+    18229,
+    13824,
+    11376,
+    18469,
+    0
+  ],
+  "union": [
+    19741,
+    74042,
+    29887,
+    56494,
+    22213,
+    21075,
+    12722,
+    19811,
+    85866
+  ],
+  "mask_file": "refcoco-val-253049.npz",
+  "mask_sha256": "d8d1932584806fe47590b177b2540390757c56d62a14bf625f8e3570bce9cc75",
+  "nonempty_predictions": 9,
+  "timings": {
+    "preprocess_s": 0.02538705899996785,
+    "inference_s": 2.3674934969999413,
+    "postprocess_s": 0.006899761999875409,
+    "amortized_inference_s_per_selected_expression": 0.2630548329999935,
+    "mask_write_s": 0.04451311499997246
+  },
+  "memory": {
+    "peak_allocated_bytes": 8869446656,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5457152000,
+    "ram_rss_bytes": 6297735168
+  },
+  "output_bytes": 28297,
+  "stage_created": "full-validation",
+  "record_hash": "1d4af953529d32d28f488b57cef633c9683611b9cce15c5dbd71be9ca27baa52",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

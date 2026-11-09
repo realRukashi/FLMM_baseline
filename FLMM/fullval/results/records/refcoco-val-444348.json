@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-444348",
+  "sample_hash": "116bd061b595c1fb451a2a5b8ddd4f42093a8f6e8f3756f5c73cd056d3c7ca06",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 444348,
+  "dataset_index": 355,
+  "expressions": [
+    {
+      "image_id": 444348,
+      "dataset_index": 355,
+      "ref_id": 12007,
+      "sent_id": 34174,
+      "expression": "carrot that is second from the right",
+      "mask_id": 0,
+      "annotation_id": 1566890,
+      "prediction_id": "refcoco-val-444348:0",
+      "gt_segmentation_sha256": "3c749d0585f637660bc68489e1a35a3b91d7a7424af96a3e0da1d93458fc0f57",
+      "category_id": 57
+    },
+    {
+      "image_id": 444348,
+      "dataset_index": 355,
+      "ref_id": 12008,
+      "sent_id": 34177,
+      "expression": "right above knife blade big carrot on right the fat one",
+      "mask_id": 1,
+      "annotation_id": 1566183,
+      "prediction_id": "refcoco-val-444348:1",
+      "gt_segmentation_sha256": "fe7dc76323952402321eeb550ece40733e28d3793dc6222d98b66f688fce9354",
+      "category_id": 57
+    },
+    {
+      "image_id": 444348,
+      "dataset_index": 355,
+      "ref_id": 12009,
+      "sent_id": 34179,
+      "expression": "middle carrot pointy tip facing down",
+      "mask_id": 2,
+      "annotation_id": 1566054,
+      "prediction_id": "refcoco-val-444348:2",
+      "gt_segmentation_sha256": "f2fbfe723765d78fff6b9859afebbe3aec4d7c90876baface641f6b21971cdfe",
+      "category_id": 57
+    },
+    {
+      "image_id": 444348,
+      "dataset_index": 355,
+      "ref_id": 12010,
+      "sent_id": 34182,
+      "expression": "left carrot",
+      "mask_id": 3,
+      "annotation_id": 1564998,
+      "prediction_id": "refcoco-val-444348:3",
+      "gt_segmentation_sha256": "190bbe1fb0c1591d378ced5998734d9f508f6fd7d27b0ef8948fd2bcd34e46a0",
+      "category_id": 57
+    }
+  ],
+  "intersection": [
+    15,
+    15262,
+    11738,
+    17771
+  ],
+  "union": [
+    32498,
+    26103,
+    14495,
+    19586
+  ],
+  "mask_file": "refcoco-val-444348.npz",
+  "mask_sha256": "45ee09a5b100efe2f0a3d11eadf4b324da2fab74176fbc7c1fa6d3176779ca31",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.018050873999982286,
+    "inference_s": 2.074378961000093,
+    "postprocess_s": 0.0034649140000055922,
+    "amortized_inference_s_per_selected_expression": 0.5185947402500233,
+    "mask_write_s": 0.02559455000005073
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829464064,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283239424
+  },
+  "output_bytes": 8877,
+  "stage_created": "full-probe",
+  "record_hash": "29c6cc4e6beb320f8a20e82f499820c07ffb80a3febac52f71ec850eaf8ee96d",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

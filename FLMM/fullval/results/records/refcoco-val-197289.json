@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-197289",
+  "sample_hash": "fac1a88e3659328e8070961327e2c5d33b5f82ec8c8d501119b3f53414f382b8",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 197289,
+  "dataset_index": 129,
+  "expressions": [
+    {
+      "image_id": 197289,
+      "dataset_index": 129,
+      "ref_id": 33251,
+      "sent_id": 94553,
+      "expression": "top right sandwich, behind broccoli",
+      "mask_id": 0,
+      "annotation_id": 1909039,
+      "prediction_id": "refcoco-val-197289:0",
+      "gt_segmentation_sha256": "96af0ef64202d29310d5c3aadc84790ffef7840d3fa7027b6b700a00dbfb3465",
+      "category_id": 54
+    },
+    {
+      "image_id": 197289,
+      "dataset_index": 129,
+      "ref_id": 33252,
+      "sent_id": 94555,
+      "expression": "left sandwich",
+      "mask_id": 1,
+      "annotation_id": 1552435,
+      "prediction_id": "refcoco-val-197289:1",
+      "gt_segmentation_sha256": "78517aae3410d83f74ff35c68a634d9255d0009204fce1bfc8d77f5014de459c",
+      "category_id": 54
+    },
+    {
+      "image_id": 197289,
+      "dataset_index": 129,
+      "ref_id": 33253,
+      "sent_id": 94558,
+      "expression": "sauage with tomoato on top in front of us",
+      "mask_id": 2,
+      "annotation_id": 313700,
+      "prediction_id": "refcoco-val-197289:2",
+      "gt_segmentation_sha256": "98402e4e6ddad1d7390b652e6eccbb4770fd234c22e5570dd8a550ebc916f8fd",
+      "category_id": 54
+    },
+    {
+      "image_id": 197289,
+      "dataset_index": 129,
+      "ref_id": 33254,
+      "sent_id": 94561,
+      "expression": "middle back food",
+      "mask_id": 3,
+      "annotation_id": 313574,
+      "prediction_id": "refcoco-val-197289:3",
+      "gt_segmentation_sha256": "58d79b9fb69b7991ee14205f47ccc683cc8034465b1aadfc5a8741d25a8c611d",
+      "category_id": 54
+    }
+  ],
+  "intersection": [
+    32287,
+    26034,
+    40068,
+    4778
+  ],
+  "union": [
+    40283,
+    28954,
+    55618,
+    63259
+  ],
+  "mask_file": "refcoco-val-197289.npz",
+  "mask_sha256": "dbab46d485a8aeec22c019964547e0f1e6999497dd7f46c857a2d8e0729570db",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.021541048000017327,
+    "inference_s": 2.2615493100001913,
+    "postprocess_s": 0.003250556000011784,
+    "amortized_inference_s_per_selected_expression": 0.5653873275000478,
+    "mask_write_s": 0.0313115999999809
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826977792,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 12764,
+  "stage_created": "full-validation",
+  "record_hash": "4befc4c3040c826689ae039969c67dcdc92732b27ed2d6a8f4c0b3127410d925",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

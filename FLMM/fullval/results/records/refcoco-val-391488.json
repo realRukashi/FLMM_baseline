@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-391488",
+  "sample_hash": "c0fd03aee4af83e1cdcb16430f86247f7aea70ac724c1ee9cb74018ce9b6d110",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 391488,
+  "dataset_index": 1179,
+  "expressions": [
+    {
+      "image_id": 391488,
+      "dataset_index": 1179,
+      "ref_id": 16536,
+      "sent_id": 47052,
+      "expression": "guy left",
+      "mask_id": 0,
+      "annotation_id": 432713,
+      "prediction_id": "refcoco-val-391488:0",
+      "gt_segmentation_sha256": "675920a3a57e9e477063d3b941399644ccff8ab69a172a0badd23d591ee8b78b",
+      "category_id": 1
+    },
+    {
+      "image_id": 391488,
+      "dataset_index": 1179,
+      "ref_id": 16537,
+      "sent_id": 47055,
+      "expression": "kid dark shirt light jeans",
+      "mask_id": 1,
+      "annotation_id": 424978,
+      "prediction_id": "refcoco-val-391488:1",
+      "gt_segmentation_sha256": "0c68a858a93a2f9925460655c368682939569f6a62ff722d7ccf87c3fe02b42d",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    21295,
+    10157
+  ],
+  "union": [
+    23224,
+    12680
+  ],
+  "mask_file": "refcoco-val-391488.npz",
+  "mask_sha256": "9074a3c0a927184c5b8eb9c6996a1bb9ba1c33137b23d9e24733b23cab9a1bf9",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01666256900011831,
+    "inference_s": 2.044054051000103,
+    "postprocess_s": 0.0014837329999863869,
+    "amortized_inference_s_per_selected_expression": 1.0220270255000514,
+    "mask_write_s": 0.013415463999990607
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820847616,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283255808
+  },
+  "output_bytes": 4888,
+  "stage_created": "full-probe",
+  "record_hash": "51803ee8f982939ec2e66500d8608ddf5a8c58ee55c65d053e80adc0bede3698",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

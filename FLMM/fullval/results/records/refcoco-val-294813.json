@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-294813",
+  "sample_hash": "f46ad9dd6095b750916850d3ef8b911e05603ed67b5976f9431f9b257b3fbe96",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 294813,
+  "dataset_index": 1488,
+  "expressions": [
+    {
+      "image_id": 294813,
+      "dataset_index": 1488,
+      "ref_id": 25056,
+      "sent_id": 71221,
+      "expression": "tank on bike",
+      "mask_id": 0,
+      "annotation_id": 2047420,
+      "prediction_id": "refcoco-val-294813:0",
+      "gt_segmentation_sha256": "e6813e2d89ba273eee5e6c7af9259a7ee3944f03e8637d0c847a5f00a25a05a8",
+      "category_id": 4
+    }
+  ],
+  "intersection": [
+    18738
+  ],
+  "union": [
+    74683
+  ],
+  "mask_file": "refcoco-val-294813.npz",
+  "mask_sha256": "ca40715828734f37c367897396a9b3b264eb4d40db38e66c3e9897d83a5cb9d1",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.01702342199996565,
+    "inference_s": 2.138587945000154,
+    "postprocess_s": 0.0010175019999678625,
+    "amortized_inference_s_per_selected_expression": 2.138587945000154,
+    "mask_write_s": 0.011340669999981401
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815612416,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6297899008
+  },
+  "output_bytes": 5060,
+  "stage_created": "full-validation",
+  "record_hash": "9109c419922fab21a6a52a5dedaa3c0d1dfc317666ffecae9baf862c0f46f4aa",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

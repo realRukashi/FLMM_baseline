@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-232957",
+  "sample_hash": "cc68a2ca94cf1e347ef66cc586bf0dd34479e0e99f93e1d24df635b3da95b6c2",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 232957,
+  "dataset_index": 665,
+  "expressions": [
+    {
+      "image_id": 232957,
+      "dataset_index": 665,
+      "ref_id": 30217,
+      "sent_id": 85937,
+      "expression": "kid wearing yellow",
+      "mask_id": 0,
+      "annotation_id": 564805,
+      "prediction_id": "refcoco-val-232957:0",
+      "gt_segmentation_sha256": "0d7d163ec1b801fbe3494fd090e356fe5f358bccbb0d024cdd7d32b8dc85af6f",
+      "category_id": 1
+    },
+    {
+      "image_id": 232957,
+      "dataset_index": 665,
+      "ref_id": 30218,
+      "sent_id": 85940,
+      "expression": "woman bending on left",
+      "mask_id": 1,
+      "annotation_id": 473041,
+      "prediction_id": "refcoco-val-232957:1",
+      "gt_segmentation_sha256": "ba75f95dfeb3980c40433c04a11beaf72c4d51189a05b7e09adcb6d735d16fb6",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10023,
+    19126
+  ],
+  "union": [
+    11906,
+    22387
+  ],
+  "mask_file": "refcoco-val-232957.npz",
+  "mask_sha256": "2b26b45c1323765e4012bdfe4e77df14edeb8d9dd468483860e7d3524e39ee0d",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.012745870999992803,
+    "inference_s": 2.353211862999956,
+    "postprocess_s": 0.0014568299999382361,
+    "amortized_inference_s_per_selected_expression": 1.176605931499978,
+    "mask_write_s": 0.011475926999992225
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818662400,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6294368256
+  },
+  "output_bytes": 4866,
+  "stage_created": "full-validation",
+  "record_hash": "d0e0e9bd59f76a027137388bee4dc757c7be564eef9b4346b75ea3ea397eecbd",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

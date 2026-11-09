@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-288691",
+  "sample_hash": "8d077e10d6a2bad460d658d313b2652356517d2045a7bc8eef4f62c12e70ec4d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 288691,
+  "dataset_index": 354,
+  "expressions": [
+    {
+      "image_id": 288691,
+      "dataset_index": 354,
+      "ref_id": 25495,
+      "sent_id": 72472,
+      "expression": "to the left of the white cowtail",
+      "mask_id": 0,
+      "annotation_id": 1820019,
+      "prediction_id": "refcoco-val-288691:0",
+      "gt_segmentation_sha256": "cc5b738f2749a584b0f7eb275772dd1231e9f9ba503f8cf795b79da161e68af3",
+      "category_id": 21
+    },
+    {
+      "image_id": 288691,
+      "dataset_index": 354,
+      "ref_id": 25496,
+      "sent_id": 72475,
+      "expression": "brown cow's white tail",
+      "mask_id": 1,
+      "annotation_id": 73296,
+      "prediction_id": "refcoco-val-288691:1",
+      "gt_segmentation_sha256": "9edbb235cf931c6c6b2be04269efbdce30c5f14af65bf8b67a46206c54b2d857",
+      "category_id": 21
+    },
+    {
+      "image_id": 288691,
+      "dataset_index": 354,
+      "ref_id": 25497,
+      "sent_id": 72478,
+      "expression": "light brown cow on left",
+      "mask_id": 2,
+      "annotation_id": 71688,
+      "prediction_id": "refcoco-val-288691:2",
+      "gt_segmentation_sha256": "46f884d289fa91b84284595a353d6eb283f2b22bc5c649f1f7e6c39aa199c101",
+      "category_id": 21
+    },
+    {
+      "image_id": 288691,
+      "dataset_index": 354,
+      "ref_id": 25498,
+      "sent_id": 72481,
+      "expression": "rear end of brown cow",
+      "mask_id": 3,
+      "annotation_id": 70458,
+      "prediction_id": "refcoco-val-288691:3",
+      "gt_segmentation_sha256": "741cc626906b5dfb9024719fdf8f6a7da81804de56a1b5177625fbbc6fd99e66",
+      "category_id": 21
+    }
+  ],
+  "intersection": [
+    544,
+    57951,
+    49710,
+    75002
+  ],
+  "union": [
+    81381,
+    64089,
+    53438,
+    85649
+  ],
+  "mask_file": "refcoco-val-288691.npz",
+  "mask_sha256": "bee16523b74c1a50bd8d628f3f7e52d60ab38d6a5dce034527fabccfd76a9a65",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.024855269999989105,
+    "inference_s": 2.7890170849998412,
+    "postprocess_s": 0.003206725999916671,
+    "amortized_inference_s_per_selected_expression": 0.6972542712499603,
+    "mask_write_s": 0.0393682640001316
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829210112,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283124736
+  },
+  "output_bytes": 21878,
+  "stage_created": "full-validation",
+  "record_hash": "d2006569db0faf94c967aacbb7a95421aa24b39c109937025a77daa6a6dee7f5",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

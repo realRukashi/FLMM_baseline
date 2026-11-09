@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-96596",
+  "sample_hash": "37823093e1353422114b3933dc438cb149beb395ec5ec66219929c122d5bed5d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 96596,
+  "dataset_index": 1182,
+  "expressions": [
+    {
+      "image_id": 96596,
+      "dataset_index": 1182,
+      "ref_id": 41547,
+      "sent_id": 118117,
+      "expression": "head scarf on left",
+      "mask_id": 0,
+      "annotation_id": 540995,
+      "prediction_id": "refcoco-val-96596:0",
+      "gt_segmentation_sha256": "333bdcebf05e3f6e05fe16e4bdd9f32817dd9d412750ddbb14c754f03c490400",
+      "category_id": 1
+    },
+    {
+      "image_id": 96596,
+      "dataset_index": 1182,
+      "ref_id": 41548,
+      "sent_id": 118119,
+      "expression": "back of woman's head",
+      "mask_id": 1,
+      "annotation_id": 538267,
+      "prediction_id": "refcoco-val-96596:1",
+      "gt_segmentation_sha256": "84a55de4e820358ad9d4be6bec3e5fdad56f86850b0595d57207591a68e9476f",
+      "category_id": 1
+    },
+    {
+      "image_id": 96596,
+      "dataset_index": 1182,
+      "ref_id": 41549,
+      "sent_id": 118122,
+      "expression": "the man looking straight at you",
+      "mask_id": 2,
+      "annotation_id": 533278,
+      "prediction_id": "refcoco-val-96596:2",
+      "gt_segmentation_sha256": "45a12dcf1768815c386c2d6bea3b09b0a636cadfad3d640e82cff5144fa8fa16",
+      "category_id": 1
+    },
+    {
+      "image_id": 96596,
+      "dataset_index": 1182,
+      "ref_id": 41550,
+      "sent_id": 118125,
+      "expression": "guy right",
+      "mask_id": 3,
+      "annotation_id": 451134,
+      "prediction_id": "refcoco-val-96596:3",
+      "gt_segmentation_sha256": "d664fa79c0adfffde6ae93c4af640f2f06f8c47eeb57b3ecc585e4b31621b647",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11607,
+    52700,
+    54978,
+    52015
+  ],
+  "union": [
+    13565,
+    62736,
+    60033,
+    54452
+  ],
+  "mask_file": "refcoco-val-96596.npz",
+  "mask_sha256": "7b0dcaa1fd8da1c6f3261ce59e9210b7cc95aca45aed9ab776cb9cec13a07495",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.01614412899994022,
+    "inference_s": 2.174904202000107,
+    "postprocess_s": 0.0027149179999241824,
+    "amortized_inference_s_per_selected_expression": 0.5437260505000268,
+    "mask_write_s": 0.029483609999942928
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826897920,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6297001984
+  },
+  "output_bytes": 15707,
+  "stage_created": "full-validation",
+  "record_hash": "05de1a87f352ceba4db4c0b91bfbb776a1c8bafca8c8fc1b8a1c13588d23172e",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-253522",
+  "sample_hash": "50b5faf8e719773d2b01ee7a42032004b0970f165a3a203ac7c025d52c990613",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 253522,
+  "dataset_index": 1433,
+  "expressions": [
+    {
+      "image_id": 253522,
+      "dataset_index": 1433,
+      "ref_id": 28471,
+      "sent_id": 80972,
+      "expression": "bottom right woman",
+      "mask_id": 0,
+      "annotation_id": 1265209,
+      "prediction_id": "refcoco-val-253522:0",
+      "gt_segmentation_sha256": "1b6f125eb60a104751be8db58a5be205617ba53b0b0656f561db6b2104fa25f1",
+      "category_id": 1
+    },
+    {
+      "image_id": 253522,
+      "dataset_index": 1433,
+      "ref_id": 28472,
+      "sent_id": 80974,
+      "expression": "woman front left holding a bunch of stuff",
+      "mask_id": 1,
+      "annotation_id": 1328331,
+      "prediction_id": "refcoco-val-253522:1",
+      "gt_segmentation_sha256": "f50da972ddeb22ba565d879edd10c95a910ad58bf07a4578ae4bde9d1f932468",
+      "category_id": 1
+    },
+    {
+      "image_id": 253522,
+      "dataset_index": 1433,
+      "ref_id": 28473,
+      "sent_id": 80977,
+      "expression": "the guy on the far left.",
+      "mask_id": 2,
+      "annotation_id": 1322542,
+      "prediction_id": "refcoco-val-253522:2",
+      "gt_segmentation_sha256": "29de0524b516e1b880e6ef86ad012c6a90ab8fd70d867e9ef62f17af936a2578",
+      "category_id": 1
+    },
+    {
+      "image_id": 253522,
+      "dataset_index": 1433,
+      "ref_id": 28474,
+      "sent_id": 80980,
+      "expression": "front right person next to dog lover",
+      "mask_id": 3,
+      "annotation_id": 1309255,
+      "prediction_id": "refcoco-val-253522:3",
+      "gt_segmentation_sha256": "319a70754967e4b73b4a232135646cc8a8dcd177bbaa21824281a866cf1c16da",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10444,
+    5279,
+    10041,
+    0
+  ],
+  "union": [
+    11864,
+    21011,
+    11631,
+    27863
+  ],
+  "mask_file": "refcoco-val-253522.npz",
+  "mask_sha256": "cea3d54911169ba0f2445bfe343e9a80d975a53180977874d4ef081f4ee868c5",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.013137076000020897,
+    "inference_s": 2.444291744000111,
+    "postprocess_s": 0.002610142000094129,
+    "amortized_inference_s_per_selected_expression": 0.6110729360000278,
+    "mask_write_s": 0.016275887000119837
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826138112,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448517632,
+    "ram_rss_bytes": 6301458432
+  },
+  "output_bytes": 10693,
+  "stage_created": "full-validation",
+  "record_hash": "5779364292410a2f8f930c3136be4f0e890ff67b8a66953c408c53515f2dff85",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-78572",
+  "sample_hash": "e65e38ed322c39772afd0fb5d6cadafbc1db805ba17b0b99631a9e1d8e37574c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 78572,
+  "dataset_index": 872,
+  "expressions": [
+    {
+      "image_id": 78572,
+      "dataset_index": 872,
+      "ref_id": 43157,
+      "sent_id": 122692,
+      "expression": "back part of truck not cab",
+      "mask_id": 0,
+      "annotation_id": 2171820,
+      "prediction_id": "refcoco-val-78572:0",
+      "gt_segmentation_sha256": "9d8969a8ad9f856dbca73ff446e4e6dd206887d32f0969dd87690ec83a90813f",
+      "category_id": 8
+    }
+  ],
+  "intersection": [
+    2108
+  ],
+  "union": [
+    87488
+  ],
+  "mask_file": "refcoco-val-78572.npz",
+  "mask_sha256": "d80ce283a8fb9f864c4504dd68728e1278c69b7ede6e5fc3effbcb95350b95e2",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.018300103999990824,
+    "inference_s": 2.3649952700000085,
+    "postprocess_s": 0.0010268999999425432,
+    "amortized_inference_s_per_selected_expression": 2.3649952700000085,
+    "mask_write_s": 0.011133148999988407
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815337984,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6295695360
+  },
+  "output_bytes": 5117,
+  "stage_created": "full-validation",
+  "record_hash": "666cec26e4ce0710b4be5e057246bcc7ac37c06137f289fe4b155f6e223e7b92",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

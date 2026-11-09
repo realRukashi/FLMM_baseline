@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "images": 20,
+  "mask_count": 47,
+  "official_metrics": {
+    "cIoU": 79.18694305419922,
+    "mIoU": 81.6824722290039
+  },
+  "independently_aggregated_metrics": {
+    "image_count": 20,
+    "mask_count": 47,
+    "intersection": 1378708,
+    "union": 1741080,
+    "cIoU": 79.18694143864728,
+    "mIoU": 81.68246098179696
+  },
+  "comparisons": [
+    {
+      "sample_id": "refcoco-val-376848",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-278549",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-532505",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-434201",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-401439",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-270369",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-122916",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-41005",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-507952",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-409653",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-319543",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-352312",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-270391",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-139324",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-548935",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-458827",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-16465",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-442461",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-139359",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    },
+    {
+      "sample_id": "refcoco-val-114786",
+      "official_vs_subset_mask_exact": true,
+      "legacy_regression_exact": true
+    }
+  ],
+  "scope": "Conditional equivalence on identical 20-image selection and math attention; does not establish paper-wide expression coverage",
+  "harness_changes": "Selection restricted to UNC val and original IDs; pinned local checkpoint paths; shared audited model, unchanged prediction/threshold/interpolation/RefSegMetric",
+  "cold_load_and_audit_s": 77.14725821100001,
+  "warmup_s": 2.2438597819999586
+}

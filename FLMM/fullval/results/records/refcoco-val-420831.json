@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-420831",
+  "sample_hash": "58638b4c6dfe278702f2d0bb7d4c828815136ad3310f7c87cd0b22613914f46f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 420831,
+  "dataset_index": 565,
+  "expressions": [
+    {
+      "image_id": 420831,
+      "dataset_index": 565,
+      "ref_id": 14047,
+      "sent_id": 39971,
+      "expression": "skeptic book",
+      "mask_id": 0,
+      "annotation_id": 1988070,
+      "prediction_id": "refcoco-val-420831:0",
+      "gt_segmentation_sha256": "616ee97d51dbaf85ab4ae9a7e0f0f0cb6211a786ed9ed4a749e7228513f99cd6",
+      "category_id": 84
+    },
+    {
+      "image_id": 420831,
+      "dataset_index": 565,
+      "ref_id": 14048,
+      "sent_id": 39974,
+      "expression": "the book by richard",
+      "mask_id": 1,
+      "annotation_id": 1985928,
+      "prediction_id": "refcoco-val-420831:1",
+      "gt_segmentation_sha256": "2f010b5fff8495a433b1fb64eaa9c6a2142d5c1748d937eb4fc52667c813d4ef",
+      "category_id": 84
+    },
+    {
+      "image_id": 420831,
+      "dataset_index": 565,
+      "ref_id": 14049,
+      "sent_id": 39977,
+      "expression": "first book after the 3 black from right",
+      "mask_id": 2,
+      "annotation_id": 1150087,
+      "prediction_id": "refcoco-val-420831:2",
+      "gt_segmentation_sha256": "c650c55681b7c8472cd10c9f15c23245163a540e13c3792c458760d33cc53706",
+      "category_id": 84
+    },
+    {
+      "image_id": 420831,
+      "dataset_index": 565,
+      "ref_id": 14050,
+      "sent_id": 39980,
+      "expression": "book 2nd from left",
+      "mask_id": 3,
+      "annotation_id": 1141790,
+      "prediction_id": "refcoco-val-420831:3",
+      "gt_segmentation_sha256": "9356353571a83bbb24e480d7bb11a5725a9a4755534099f18144216e09f90598",
+      "category_id": 84
+    },
+    {
+      "image_id": 420831,
+      "dataset_index": 565,
+      "ref_id": 14051,
+      "sent_id": 39983,
+      "expression": "ambrose bierce (right)",
+      "mask_id": 4,
+      "annotation_id": 1988182,
+      "prediction_id": "refcoco-val-420831:4",
+      "gt_segmentation_sha256": "040e4dbab74355aca5e87500905e7f44b7ff1125dace1287ddedbaa0508537a2",
+      "category_id": 84
+    }
+  ],
+  "intersection": [
+    19119,
+    5172,
+    0,
+    8403,
+    1069
+  ],
+  "union": [
+    43442,
+    26366,
+    37374,
+    17110,
+    37989
+  ],
+  "mask_file": "refcoco-val-420831.npz",
+  "mask_sha256": "2054846b566b9b6fc89c0572b400b41b0def1430a787286fa21d5f6c38f182ca",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.014497602999995252,
+    "inference_s": 2.12236297000004,
+    "postprocess_s": 0.003070599000011498,
+    "amortized_inference_s_per_selected_expression": 0.42447259400000803,
+    "mask_write_s": 0.02237555399995017
+  },
+  "memory": {
+    "peak_allocated_bytes": 8832290304,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449107968,
+    "ram_rss_bytes": 6294204416
+  },
+  "output_bytes": 16713,
+  "stage_created": "full-validation",
+  "record_hash": "d3585e6c3b19840158d83998d767f632b915bd513f34875a7eb29a8c1ebd8c05",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

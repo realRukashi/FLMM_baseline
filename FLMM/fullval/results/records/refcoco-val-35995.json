@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-35995",
+  "sample_hash": "2cd92225cb0b491b55cd44372b728e8b6844fd571587f4f0c524aebc8e473239",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 35995,
+  "dataset_index": 607,
+  "expressions": [
+    {
+      "image_id": 35995,
+      "dataset_index": 607,
+      "ref_id": 46942,
+      "sent_id": 133496,
+      "expression": "car to the left",
+      "mask_id": 0,
+      "annotation_id": 1369498,
+      "prediction_id": "refcoco-val-35995:0",
+      "gt_segmentation_sha256": "506af59be97a822759d951b843d9ac10261a22d15ae79b62a7f0683c6892ffee",
+      "category_id": 8
+    },
+    {
+      "image_id": 35995,
+      "dataset_index": 607,
+      "ref_id": 46943,
+      "sent_id": 133499,
+      "expression": "bald head",
+      "mask_id": 1,
+      "annotation_id": 1269922,
+      "prediction_id": "refcoco-val-35995:1",
+      "gt_segmentation_sha256": "c33d174a2a84bce89ab46500fc4e870b7d94e4c4bd0717ced00327b8d215bb03",
+      "category_id": 1
+    },
+    {
+      "image_id": 35995,
+      "dataset_index": 607,
+      "ref_id": 46944,
+      "sent_id": 133502,
+      "expression": "guy in camo",
+      "mask_id": 2,
+      "annotation_id": 1725034,
+      "prediction_id": "refcoco-val-35995:2",
+      "gt_segmentation_sha256": "df8672abdd9ee5b3b52624c78648f1109523348d3d03057b3af1deaa10fc6f98",
+      "category_id": 1
+    },
+    {
+      "image_id": 35995,
+      "dataset_index": 607,
+      "ref_id": 46945,
+      "sent_id": 133505,
+      "expression": "man in suit shacking hands",
+      "mask_id": 3,
+      "annotation_id": 1241523,
+      "prediction_id": "refcoco-val-35995:3",
+      "gt_segmentation_sha256": "ed5b852580154be6392625becf96f04f2abd9ac2a69b4c4c1f4551f7456c1b96",
+      "category_id": 1
+    },
+    {
+      "image_id": 35995,
+      "dataset_index": 607,
+      "ref_id": 46946,
+      "sent_id": 133508,
+      "expression": "white truck in center/background",
+      "mask_id": 4,
+      "annotation_id": 400162,
+      "prediction_id": "refcoco-val-35995:4",
+      "gt_segmentation_sha256": "e6cd51d7e0ac9b18ca1bd1432fe2c3334262ef3665a18714936f1541f369e9c6",
+      "category_id": 8
+    }
+  ],
+  "intersection": [
+    38362,
+    26661,
+    40241,
+    27180,
+    59193
+  ],
+  "union": [
+    43482,
+    28627,
+    42196,
+    30536,
+    73749
+  ],
+  "mask_file": "refcoco-val-35995.npz",
+  "mask_sha256": "6ce4d6bf170286835c9ce231f2b0d0f3451d5a3cd5d7a7a706de7ec554a8a0ab",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.017455680000011853,
+    "inference_s": 2.3501711640000167,
+    "postprocess_s": 0.0030725270000857563,
+    "amortized_inference_s_per_selected_expression": 0.47003423280000334,
+    "mask_write_s": 0.032215603000054216
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831205888,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449107968,
+    "ram_rss_bytes": 6294278144
+  },
+  "output_bytes": 16573,
+  "stage_created": "full-validation",
+  "record_hash": "afb037e7efde43d477816c09f9a76ab30df3f4e05f784776c9f790927d6b8efc",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

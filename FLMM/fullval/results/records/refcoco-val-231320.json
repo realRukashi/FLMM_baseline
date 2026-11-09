@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-231320",
+  "sample_hash": "1cb9b5bdc5cc687b717b0b0f84ee268dd3a54289b7fd50458d5f0a77ad449682",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 231320,
+  "dataset_index": 347,
+  "expressions": [
+    {
+      "image_id": 231320,
+      "dataset_index": 347,
+      "ref_id": 30338,
+      "sent_id": 86279,
+      "expression": "bottom right",
+      "mask_id": 0,
+      "annotation_id": 1666879,
+      "prediction_id": "refcoco-val-231320:0",
+      "gt_segmentation_sha256": "2b854f5b6e57f130ad65fea83f3added80da3f0e97e6e86337fcee2d60fab314",
+      "category_id": 85
+    },
+    {
+      "image_id": 231320,
+      "dataset_index": 347,
+      "ref_id": 30339,
+      "sent_id": 86282,
+      "expression": "round all white cock",
+      "mask_id": 1,
+      "annotation_id": 1666836,
+      "prediction_id": "refcoco-val-231320:1",
+      "gt_segmentation_sha256": "0e28afd57da2734be0db48ea4b302943de0a2262fbd006dbdbe6d8262391f05f",
+      "category_id": 85
+    },
+    {
+      "image_id": 231320,
+      "dataset_index": 347,
+      "ref_id": 30340,
+      "sent_id": 86285,
+      "expression": "yellow faced clock on bottom",
+      "mask_id": 2,
+      "annotation_id": 1666730,
+      "prediction_id": "refcoco-val-231320:2",
+      "gt_segmentation_sha256": "64c73a44b5655b83162e7959c1d259054f6b4e1ce9aa3dc622f6f8e3d8f553a9",
+      "category_id": 85
+    },
+    {
+      "image_id": 231320,
+      "dataset_index": 347,
+      "ref_id": 30341,
+      "sent_id": 86288,
+      "expression": "far left clock in top row",
+      "mask_id": 3,
+      "annotation_id": 1666679,
+      "prediction_id": "refcoco-val-231320:3",
+      "gt_segmentation_sha256": "8a68b3fb780a64c9bd360f552d138299873e37f1a5dcb5d58fc03b65d0984503",
+      "category_id": 85
+    },
+    {
+      "image_id": 231320,
+      "dataset_index": 347,
+      "ref_id": 30342,
+      "sent_id": 86291,
+      "expression": "center square white clock, blue center",
+      "mask_id": 4,
+      "annotation_id": 1666348,
+      "prediction_id": "refcoco-val-231320:4",
+      "gt_segmentation_sha256": "c907bf4b9bdd16856846e1cd268b2a5fd7bd2f336f540c97abdde628f20aa4e2",
+      "category_id": 85
+    }
+  ],
+  "intersection": [
+    11418,
+    10815,
+    15675,
+    9740,
+    13004
+  ],
+  "union": [
+    12367,
+    11400,
+    17882,
+    10971,
+    13920
+  ],
+  "mask_file": "refcoco-val-231320.npz",
+  "mask_sha256": "994bdbff8ad190b241dd484c6e66858bfd3c558c2860701977442c86f42dbab4",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.022031416000118043,
+    "inference_s": 2.2916209079999135,
+    "postprocess_s": 0.004451202999916859,
+    "amortized_inference_s_per_selected_expression": 0.45832418159998267,
+    "mask_write_s": 0.02924388899987207
+  },
+  "memory": {
+    "peak_allocated_bytes": 8843410944,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451343872,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 8001,
+  "stage_created": "full-validation",
+  "record_hash": "cb3c5d2cf08ab134c82118ef84c50528333b9f89beaddd511215e519f2d9e81c",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

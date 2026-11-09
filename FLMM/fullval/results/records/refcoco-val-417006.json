@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-417006",
+  "sample_hash": "7305451f9fcc913bdb41009d94e161eea9670c93b55ae1102815c29aed58d65e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 417006,
+  "dataset_index": 1363,
+  "expressions": [
+    {
+      "image_id": 417006,
+      "dataset_index": 1363,
+      "ref_id": 14354,
+      "sent_id": 40855,
+      "expression": "wii",
+      "mask_id": 0,
+      "annotation_id": 1113535,
+      "prediction_id": "refcoco-val-417006:0",
+      "gt_segmentation_sha256": "e5c7cdd0c3f0ccca697173da75cdbfca62e599f2fa4e0465c3789bd9210a33a7",
+      "category_id": 75
+    },
+    {
+      "image_id": 417006,
+      "dataset_index": 1363,
+      "ref_id": 14355,
+      "sent_id": 40857,
+      "expression": "remote on rightside",
+      "mask_id": 1,
+      "annotation_id": 1113153,
+      "prediction_id": "refcoco-val-417006:1",
+      "gt_segmentation_sha256": "bd631d9d2e45d80085243f1e8aca17f37d4fbdfc5d2a27e8a7f418c3dcbc9a89",
+      "category_id": 75
+    },
+    {
+      "image_id": 417006,
+      "dataset_index": 1363,
+      "ref_id": 14356,
+      "sent_id": 40860,
+      "expression": "center remote",
+      "mask_id": 2,
+      "annotation_id": 1112971,
+      "prediction_id": "refcoco-val-417006:2",
+      "gt_segmentation_sha256": "5805bf9dedb26c9253d28e4195ff22d8d2f033cee9ad4375ce1459e598275b24",
+      "category_id": 75
+    },
+    {
+      "image_id": 417006,
+      "dataset_index": 1363,
+      "ref_id": 14357,
+      "sent_id": 40862,
+      "expression": "left remote",
+      "mask_id": 3,
+      "annotation_id": 1112686,
+      "prediction_id": "refcoco-val-417006:3",
+      "gt_segmentation_sha256": "2326a48efb25a3d7353937df434096fb690c5a26b9c71971123ed1629ddc1d23",
+      "category_id": 75
+    },
+    {
+      "image_id": 417006,
+      "dataset_index": 1363,
+      "ref_id": 14358,
+      "sent_id": 40864,
+      "expression": "3rd from right remote",
+      "mask_id": 4,
+      "annotation_id": 1111333,
+      "prediction_id": "refcoco-val-417006:4",
+      "gt_segmentation_sha256": "7f8f300413799b2eadaec65bd4b572457da85d68ca3bc83277aa383df523dca4",
+      "category_id": 75
+    },
+    {
+      "image_id": 417006,
+      "dataset_index": 1363,
+      "ref_id": 14359,
+      "sent_id": 40867,
+      "expression": "white tv remote on right",
+      "mask_id": 5,
+      "annotation_id": 1110542,
+      "prediction_id": "refcoco-val-417006:5",
+      "gt_segmentation_sha256": "f214f0480ec219879c0f2f1c87586f3888054cc8df2ade604d1dd3ae36e0678c",
+      "category_id": 75
+    }
+  ],
+  "intersection": [
+    13402,
+    23637,
+    17455,
+    21541,
+    23461,
+    15140
+  ],
+  "union": [
+    14772,
+    25393,
+    20386,
+    22939,
+    25999,
+    25707
+  ],
+  "mask_file": "refcoco-val-417006.npz",
+  "mask_sha256": "d3ee85881c784de7d16a1cb206117c226c550df46023bed94fc0f0f349c7189f",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.01581786499991722,
+    "inference_s": 2.4981631549999292,
+    "postprocess_s": 0.004170595999994475,
+    "amortized_inference_s_per_selected_expression": 0.41636052583332156,
+    "mask_write_s": 0.028111030999980358
+  },
+  "memory": {
+    "peak_allocated_bytes": 8838643200,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451040768,
+    "ram_rss_bytes": 6301388800
+  },
+  "output_bytes": 13983,
+  "stage_created": "full-validation",
+  "record_hash": "dfb1762d0b77f188794c5767f5e7d19f4310007f1317b10348845191518ecf64",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

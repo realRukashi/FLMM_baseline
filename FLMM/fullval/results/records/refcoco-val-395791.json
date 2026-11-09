@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-395791",
+  "sample_hash": "899fc067c4b46cd3e95fc5f974835c95369f2ce22b4baafb3cfeaea9e34c504f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 395791,
+  "dataset_index": 471,
+  "expressions": [
+    {
+      "image_id": 395791,
+      "dataset_index": 471,
+      "ref_id": 16134,
+      "sent_id": 45910,
+      "expression": "top left container with meat and orange cup",
+      "mask_id": 0,
+      "annotation_id": 1899447,
+      "prediction_id": "refcoco-val-395791:0",
+      "gt_segmentation_sha256": "126e9ba76ad1bd14b09129abd3651fd564a3422f8fdb05a30fdcc065ae3430ac",
+      "category_id": 51
+    },
+    {
+      "image_id": 395791,
+      "dataset_index": 471,
+      "ref_id": 16135,
+      "sent_id": 45913,
+      "expression": "container at bottom right with carrots",
+      "mask_id": 1,
+      "annotation_id": 1900340,
+      "prediction_id": "refcoco-val-395791:1",
+      "gt_segmentation_sha256": "c36a09892481c62a2ea3a019e97c6e08007321fa9a405a5c5183acf63709ff7c",
+      "category_id": 51
+    },
+    {
+      "image_id": 395791,
+      "dataset_index": 471,
+      "ref_id": 16136,
+      "sent_id": 45916,
+      "expression": "container with the sliced strawberries",
+      "mask_id": 2,
+      "annotation_id": 1532003,
+      "prediction_id": "refcoco-val-395791:2",
+      "gt_segmentation_sha256": "ac15f1f18e8f85411317899ad6d98a38a82aa3857466f2f654c9bd204bda728a",
+      "category_id": 51
+    }
+  ],
+  "intersection": [
+    1180,
+    44904,
+    88324
+  ],
+  "union": [
+    67401,
+    49407,
+    90055
+  ],
+  "mask_file": "refcoco-val-395791.npz",
+  "mask_sha256": "bf88c71b43a72f848b0ded1d30593499ccb847c7315eddf1a0ff5a78c584f57d",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.026464523999948142,
+    "inference_s": 2.254526305999889,
+    "postprocess_s": 0.003201633000116999,
+    "amortized_inference_s_per_selected_expression": 0.7515087686666296,
+    "mask_write_s": 0.03215036599999621
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829440512,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448252928,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 13225,
+  "stage_created": "full-validation",
+  "record_hash": "5fe447bff3dd5e1968d18cae3f4955b3cca730aff5c3a628db8c9811236f74ab",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

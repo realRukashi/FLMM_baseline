@@ -1,0 +1,275 @@
+[{"stream_name":"stderr","time":8.68794213,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.687997393,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.688002464,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.688005442,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.370927493,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.370960771,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.370967889,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.37097597,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":136.94032321,"data":"PROGRESS 0 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":137.148101283,"data":"PROGRESS 0 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1037.158262198,"data":"PROGRESS 50 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1037.365048764,"data":"PROGRESS 50 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1079.474013767,"data":"RESOURCE_GATE {\"status\": \"GO\", \"probe_images\": 50, \"probe_p95_pipeline_s\": 2.430970462000232, \"gpu_names\": [\"Tesla T4\", \"Tesla T4\"], \"worker_count\": 2, \"estimated_chunk_inference_margin_s\": 845.9777207760808, \"free_disk_bytes\": 20934864896, \"target_prefix\": 500, \"prior\": null, \"fingerprint\": \"616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7\", \"remaining_prefix_images\": 464, \"estimated_additional_output_bytes\": 17244792.0, \"quota_remaining_s_conservative\": 99095.16583, \"note\": \"First 50 seeded probe images are part of full val and reused; no tuning or method changes\"}\n"}
+,{"stream_name":"stdout","time":1079.679595262,"data":"RESOURCE_GATE {\"status\": \"GO\", \"probe_images\": 50, \"probe_p95_pipeline_s\": 2.430970462000232, \"gpu_names\": [\"Tesla T4\", \"Tesla T4\"], \"worker_count\": 2, \"estimated_chunk_inference_margin_s\": 845.9777207760808, \"free_disk_bytes\": 20934864896, \"target_prefix\": 500, \"prior\": null, \"fingerprint\": \"616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7\", \"remaining_prefix_images\": 464, \"estimated_additional_output_bytes\": 17244792.0, \"quota_remaining_s_conservative\": 99095.16583, \"note\": \"First 50 seeded probe images are part of full val and reused; no tuning or method changes\"}\n"}
+,{"stream_name":"stdout","time":1129.502067611,"data":"PROGRESS 100 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1129.708607148,"data":"PROGRESS 100 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1211.559725425,"data":"PROGRESS 150 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1211.766673955,"data":"PROGRESS 150 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1293.627100503,"data":"PROGRESS 200 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1293.834592468,"data":"PROGRESS 200 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1375.709463164,"data":"PROGRESS 250 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1375.917074736,"data":"PROGRESS 250 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1457.800921484,"data":"PROGRESS 300 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1458.008039402,"data":"PROGRESS 300 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1539.904136567,"data":"PROGRESS 350 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1540.110858285,"data":"PROGRESS 350 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1622.016956817,"data":"PROGRESS 401 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1622.224191944,"data":"PROGRESS 401 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1704.145340364,"data":"PROGRESS 451 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1704.351845224,"data":"PROGRESS 451 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1788.291289698,"data":"PROGRESS 501 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stdout","time":1788.497936033,"data":"PROGRESS 501 validated-record candidates; target prefix 500\n"}
+,{"stream_name":"stderr","time":1907.386574785,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.\n"}
+,{"stream_name":"stderr","time":1907.386617188,"data":"  import pynvml  # type: ignore[import]\n"}
+,{"stream_name":"stderr","time":1907.591857542,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.\n"}
+,{"stream_name":"stderr","time":1907.59188578,"data":"  import pynvml  # type: ignore[import]\n"}
+,{"stream_name":"stderr","time":1907.591892878,"data":"\n"}
+,{"stream_name":"stderr","time":1907.591898607,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.\n"}
+,{"stream_name":"stderr","time":1907.591904667,"data":"  import pynvml  # type: ignore[import]\n"}
+,{"stream_name":"stderr","time":1909.548152879,"data":"Could not load bitsandbytes native library: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":1909.548190039,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1909.548197609,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 109, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":1909.548204597,"data":"    lib = get_native_library()\n"}
+,{"stream_name":"stderr","time":1909.548210422,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 96, in get_native_library\n"}
+,{"stream_name":"stderr","time":1909.548216452,"data":"    dll = ct.cdll.LoadLibrary(str(binary_path))\n"}
+,{"stream_name":"stderr","time":1909.548221583,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 452, in LoadLibrary\n"}
+,{"stream_name":"stderr","time":1909.548226927,"data":"    return self._dlltype(name)\n"}
+,{"stream_name":"stderr","time":1909.548231663,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 374, in __init__\n"}
+,{"stream_name":"stderr","time":1909.548250319,"data":"    self._handle = _dlopen(self._name, mode)\n"}
+,{"stream_name":"stderr","time":1909.548254257,"data":"OSError: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":1909.548258182,"data":"\n"}
+,{"stream_name":"stderr","time":1909.548261829,"data":"CUDA Setup failed despite CUDA being available. Please run the following command to get more information:\n"}
+,{"stream_name":"stderr","time":1909.548267724,"data":"\n"}
+,{"stream_name":"stderr","time":1909.548275925,"data":"python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":1909.54829421,"data":"\n"}
+,{"stream_name":"stderr","time":1909.548298466,"data":"Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them\n"}
+,{"stream_name":"stderr","time":1909.548303441,"data":"to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":1909.548308026,"data":"and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues\n"}
+,{"stream_name":"stderr","time":1909.548312941,"data":"\n"}
+,{"stream_name":"stderr","time":1909.751250521,"data":"Could not load bitsandbytes native library: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":1909.751300153,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1909.75130624,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 109, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":1909.751311991,"data":"    lib = get_native_library()\n"}
+,{"stream_name":"stderr","time":1909.751316994,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 96, in get_native_library\n"}
+,{"stream_name":"stderr","time":1909.751322139,"data":"    dll = ct.cdll.LoadLibrary(str(binary_path))\n"}
+,{"stream_name":"stderr","time":1909.751326768,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 452, in LoadLibrary\n"}
+,{"stream_name":"stderr","time":1909.751332337,"data":"    return self._dlltype(name)\n"}
+,{"stream_name":"stderr","time":1909.751336744,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 374, in __init__\n"}
+,{"stream_name":"stderr","time":1909.751341806,"data":"    self._handle = _dlopen(self._name, mode)\n"}
+,{"stream_name":"stderr","time":1909.751346187,"data":"OSError: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":1909.751351226,"data":"\n"}
+,{"stream_name":"stderr","time":1909.751355409,"data":"CUDA Setup failed despite CUDA being available. Please run the following command to get more information:\n"}
+,{"stream_name":"stderr","time":1909.751360982,"data":"\n"}
+,{"stream_name":"stderr","time":1909.751365612,"data":"python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":1909.751370104,"data":"\n"}
+,{"stream_name":"stderr","time":1909.751375245,"data":"Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them\n"}
+,{"stream_name":"stderr","time":1909.751380227,"data":"to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":1909.751385526,"data":"and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues\n"}
+,{"stream_name":"stderr","time":1909.751390058,"data":"\n"}
+,{"stream_name":"stderr","time":1909.751394701,"data":"\n"}
+,{"stream_name":"stderr","time":1909.751413652,"data":"Could not load bitsandbytes native library: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":1909.751419088,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1909.751423725,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 109, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":1909.751429301,"data":"    lib = get_native_library()\n"}
+,{"stream_name":"stderr","time":1909.751434511,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 96, in get_native_library\n"}
+,{"stream_name":"stderr","time":1909.751439564,"data":"    dll = ct.cdll.LoadLibrary(str(binary_path))\n"}
+,{"stream_name":"stderr","time":1909.751444369,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 452, in LoadLibrary\n"}
+,{"stream_name":"stderr","time":1909.751449086,"data":"    return self._dlltype(name)\n"}
+,{"stream_name":"stderr","time":1909.751453594,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 374, in __init__\n"}
+,{"stream_name":"stderr","time":1909.751460633,"data":"    self._handle = _dlopen(self._name, mode)\n"}
+,{"stream_name":"stderr","time":1909.751465992,"data":"OSError: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":1909.751471004,"data":"\n"}
+,{"stream_name":"stderr","time":1909.751475871,"data":"CUDA Setup failed despite CUDA being available. Please run the following command to get more information:\n"}
+,{"stream_name":"stderr","time":1909.751480649,"data":"\n"}
+,{"stream_name":"stderr","time":1909.75148499,"data":"python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":1909.751489692,"data":"\n"}
+,{"stream_name":"stderr","time":1909.751493982,"data":"Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them\n"}
+,{"stream_name":"stderr","time":1909.751498556,"data":"to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":1909.751503599,"data":"and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues\n"}
+,{"stream_name":"stderr","time":1909.751508211,"data":"\n"}
+,{"stream_name":"stdout","time":1911.880085643,"data":"[2026-11-06 07:48:28,112] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)\n"}
+,{"stream_name":"stdout","time":1912.082723293,"data":"[2026-11-06 07:48:28,112] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)\n"}
+,{"stream_name":"stderr","time":1912.531434706,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools\u003c81.\n"}
+,{"stream_name":"stderr","time":1912.531470487,"data":"  from pkg_resources import packaging  # type: ignore[attr-defined]\n"}
+,{"stream_name":"stderr","time":1912.734555194,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools\u003c81.\n"}
+,{"stream_name":"stderr","time":1912.734588199,"data":"  from pkg_resources import packaging  # type: ignore[attr-defined]\n"}
+,{"stream_name":"stderr","time":1912.734608299,"data":"\n"}
+,{"stream_name":"stderr","time":1912.734616386,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools\u003c81.\n"}
+,{"stream_name":"stderr","time":1912.734619917,"data":"  from pkg_resources import packaging  # type: ignore[attr-defined]\n"}
+,{"stream_name":"stdout","time":1913.125694723,"data":"\u001b[93m [WARNING] \u001b[0m async_io requires the dev libaio .so object and headers but these were not found.\n"}
+,{"stream_name":"stdout","time":1913.125722607,"data":"\u001b[93m [WARNING] \u001b[0m async_io: please install the libaio-dev package with apt\n"}
+,{"stream_name":"stdout","time":1913.125727505,"data":"\u001b[93m [WARNING] \u001b[0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.\n"}
+,{"stream_name":"stdout","time":1913.125731852,"data":"\u001b[93m [WARNING] \u001b[0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH\n"}
+,{"stream_name":"stdout","time":1913.125735778,"data":"\u001b[93m [WARNING] \u001b[0m NVIDIA Inference is only supported on Ampere and newer architectures\n"}
+,{"stream_name":"stdout","time":1913.125739581,"data":"\u001b[93m [WARNING] \u001b[0m sparse_attn requires a torch version \u003e= 1.5 and \u003c 2.0 but detected 2.1\n"}
+,{"stream_name":"stdout","time":1913.125743601,"data":"\u001b[93m [WARNING] \u001b[0m using untested triton version (2.1.0), only 1.0.0 is known to be compatible\n"}
+,{"stream_name":"stdout","time":1913.125747478,"data":"11/06 07:48:29 - mmengine - WARNING - The prefix is not set in metric class RefSegMetric.\n"}
+,{"stream_name":"stdout","time":1913.32650829,"data":"\u001b[93m [WARNING] \u001b[0m async_io requires the dev libaio .so object and headers but these were not found.\n"}
+,{"stream_name":"stdout","time":1913.32654208,"data":"\u001b[93m [WARNING] \u001b[0m async_io: please install the libaio-dev package with apt\n"}
+,{"stream_name":"stdout","time":1913.326547864,"data":"\u001b[93m [WARNING] \u001b[0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.\n"}
+,{"stream_name":"stdout","time":1913.326552996,"data":"\u001b[93m [WARNING] \u001b[0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH\n"}
+,{"stream_name":"stdout","time":1913.326558216,"data":"\u001b[93m [WARNING] \u001b[0m NVIDIA Inference is only supported on Ampere and newer architectures\n"}
+,{"stream_name":"stdout","time":1913.326562516,"data":"\u001b[93m [WARNING] \u001b[0m sparse_attn requires a torch version \u003e= 1.5 and \u003c 2.0 but detected 2.1\n"}
+,{"stream_name":"stdout","time":1913.326567797,"data":"\u001b[93m [WARNING] \u001b[0m using untested triton version (2.1.0), only 1.0.0 is known to be compatible\n"}
+,{"stream_name":"stdout","time":1913.326572895,"data":"11/06 07:48:29 - mmengine - WARNING - The prefix is not set in metric class RefSegMetric.\n"}
+,{"stream_name":"stdout","time":1918.446932657,"data":"{\"completed_images\": 534, \"selected_masks\": 1362, \"official\": {\"cIoU\": 74.66717529296875, \"mIoU\": 76.9872055053711}, \"complete\": false}\n"}
+,{"stream_name":"stdout","time":1918.649503397,"data":"{\"completed_images\": 534, \"selected_masks\": 1362, \"official\": {\"cIoU\": 74.66717529296875, \"mIoU\": 76.9872055053711}, \"complete\": false}\n"}
+,{"stream_name":"stdout","time":1919.355935643,"data":"CHUNK_COMPLETE 1\n"}
+,{"stream_name":"stdout","time":1919.408827118,"data":"CHUNK_COMPLETE 1\n"}
+,{"stream_name":"stdout","time":1919.428692516,"data":"{\n"}
+,{"stream_name":"stdout","time":1919.428714436,"data":"  \"status\": \"PARTIAL\",\n"}
+,{"stream_name":"stdout","time":1919.428719947,"data":"  \"chunk\": 1,\n"}
+,{"stream_name":"stdout","time":1919.428724433,"data":"  \"requested_prefix\": 500,\n"}
+,{"stream_name":"stdout","time":1919.428728739,"data":"  \"completed_images\": 534,\n"}
+,{"stream_name":"stdout","time":1919.428732856,"data":"  \"selected_masks\": 1362,\n"}
+,{"stream_name":"stdout","time":1919.428736906,"data":"  \"remaining_images\": 966,\n"}
+,{"stream_name":"stdout","time":1919.428741714,"data":"  \"metrics\": {\n"}
+,{"stream_name":"stdout","time":1919.428745697,"data":"    \"status\": \"PARTIAL\",\n"}
+,{"stream_name":"stdout","time":1919.42875009,"data":"    \"split\": \"RefCOCO UNC val\",\n"}
+,{"stream_name":"stdout","time":1919.428754049,"data":"    \"unit\": \"first sentence per reference, concatenated by image\",\n"}
+,{"stream_name":"stdout","time":1919.428758333,"data":"    \"expected_images\": 1500,\n"}
+,{"stream_name":"stdout","time":1919.428762434,"data":"    \"expected_selected_masks\": 3811,\n"}
+,{"stream_name":"stdout","time":1919.428767294,"data":"    \"official_refseg_metric\": {\n"}
+,{"stream_name":"stdout","time":1919.428771976,"data":"      \"cIoU\": 74.66717529296875,\n"}
+,{"stream_name":"stdout","time":1919.428776501,"data":"      \"mIoU\": 76.9872055053711\n"}
+,{"stream_name":"stdout","time":1919.428780652,"data":"    },\n"}
+,{"stream_name":"stdout","time":1919.428784652,"data":"    \"independently_recomputed\": {\n"}
+,{"stream_name":"stdout","time":1919.428789206,"data":"      \"image_count\": 534,\n"}
+,{"stream_name":"stdout","time":1919.428793932,"data":"      \"mask_count\": 1362,\n"}
+,{"stream_name":"stdout","time":1919.428798049,"data":"      \"intersection\": 37206239,\n"}
+,{"stream_name":"stdout","time":1919.42880262,"data":"      \"union\": 49829445,\n"}
+,{"stream_name":"stdout","time":1919.428807262,"data":"      \"cIoU\": 74.66717520132926,\n"}
+,{"stream_name":"stdout","time":1919.428811275,"data":"      \"mIoU\": 76.98715965162991\n"}
+,{"stream_name":"stdout","time":1919.428815269,"data":"    }\n"}
+,{"stream_name":"stdout","time":1919.428819142,"data":"  },\n"}
+,{"stream_name":"stdout","time":1919.428823083,"data":"  \"workers\": [\n"}
+,{"stream_name":"stdout","time":1919.428827277,"data":"    {\n"}
+,{"stream_name":"stdout","time":1919.428831321,"data":"      \"status\": \"PASS\",\n"}
+,{"stream_name":"stdout","time":1919.428835511,"data":"      \"stage\": \"full-validation\",\n"}
+,{"stream_name":"stdout","time":1919.428840841,"data":"      \"requested_images\": 250,\n"}
+,{"stream_name":"stdout","time":1919.428845486,"data":"      \"validated_done\": 250,\n"}
+,{"stream_name":"stdout","time":1919.428849732,"data":"      \"newly_evaluated\": 233,\n"}
+,{"stream_name":"stdout","time":1919.428853723,"data":"      \"reused_done\": 17,\n"}
+,{"stream_name":"stdout","time":1919.428857863,"data":"      \"failures\": [],\n"}
+,{"stream_name":"stdout","time":1919.428862797,"data":"      \"wall_s\": 710.664672934,\n"}
+,{"stream_name":"stdout","time":1919.4288672,"data":"      \"metrics\": {\n"}
+,{"stream_name":"stdout","time":1919.428871753,"data":"        \"image_count\": 250,\n"}
+,{"stream_name":"stdout","time":1919.428875697,"data":"        \"mask_count\": 641,\n"}
+,{"stream_name":"stdout","time":1919.42888028,"data":"        \"intersection\": 16750223,\n"}
+,{"stream_name":"stdout","time":1919.428885111,"data":"        \"union\": 22741161,\n"}
+,{"stream_name":"stdout","time":1919.428899026,"data":"        \"cIoU\": 73.65597121448637,\n"}
+,{"stream_name":"stdout","time":1919.428903379,"data":"        \"mIoU\": 76.61592515090776\n"}
+,{"stream_name":"stdout","time":1919.428907979,"data":"      },\n"}
+,{"stream_name":"stdout","time":1919.428912452,"data":"      \"physical_gpu_index\": 1,\n"}
+,{"stream_name":"stdout","time":1919.428917122,"data":"      \"cold_model_load_s\": 801.804737151,\n"}
+,{"stream_name":"stdout","time":1919.428921884,"data":"      \"warmup_s\": 3.6942867769998884\n"}
+,{"stream_name":"stdout","time":1919.428926629,"data":"    },\n"}
+,{"stream_name":"stdout","time":1919.428930503,"data":"    {\n"}
+,{"stream_name":"stdout","time":1919.428934399,"data":"      \"status\": \"PASS\",\n"}
+,{"stream_name":"stdout","time":1919.428938482,"data":"      \"stage\": \"full-validation\",\n"}
+,{"stream_name":"stdout","time":1919.428943088,"data":"      \"requested_images\": 250,\n"}
+,{"stream_name":"stdout","time":1919.428947761,"data":"      \"validated_done\": 250,\n"}
+,{"stream_name":"stdout","time":1919.428952284,"data":"      \"newly_evaluated\": 231,\n"}
+,{"stream_name":"stdout","time":1919.428956023,"data":"      \"reused_done\": 19,\n"}
+,{"stream_name":"stdout","time":1919.428960029,"data":"      \"failures\": [],\n"}
+,{"stream_name":"stdout","time":1919.428963894,"data":"      \"wall_s\": 819.3906501719998,\n"}
+,{"stream_name":"stdout","time":1919.428967869,"data":"      \"metrics\": {\n"}
+,{"stream_name":"stdout","time":1919.428971781,"data":"        \"image_count\": 250,\n"}
+,{"stream_name":"stdout","time":1919.428976318,"data":"        \"mask_count\": 635,\n"}
+,{"stream_name":"stdout","time":1919.428981495,"data":"        \"intersection\": 17394242,\n"}
+,{"stream_name":"stdout","time":1919.428986626,"data":"        \"union\": 23278011,\n"}
+,{"stream_name":"stdout","time":1919.428990437,"data":"        \"cIoU\": 74.7239186372066,\n"}
+,{"stream_name":"stdout","time":1919.428994856,"data":"        \"mIoU\": 77.03493660863961\n"}
+,{"stream_name":"stdout","time":1919.428998784,"data":"      },\n"}
+,{"stream_name":"stdout","time":1919.429002698,"data":"      \"physical_gpu_index\": 0,\n"}
+,{"stream_name":"stdout","time":1919.429006694,"data":"      \"cold_model_load_s\": 801.7813877159999,\n"}
+,{"stream_name":"stdout","time":1919.42901125,"data":"      \"warmup_s\": 3.6943822040000214\n"}
+,{"stream_name":"stdout","time":1919.429015103,"data":"    }\n"}
+,{"stream_name":"stdout","time":1919.429018832,"data":"  ],\n"}
+,{"stream_name":"stdout","time":1919.429022795,"data":"  \"resumed_from\": null,\n"}
+,{"stream_name":"stdout","time":1919.429027474,"data":"  \"session_elapsed_s\": 1907.6783187389374,\n"}
+,{"stream_name":"stdout","time":1919.429031837,"data":"  \"chunk_history\": [\n"}
+,{"stream_name":"stdout","time":1919.429035972,"data":"    {\n"}
+,{"stream_name":"stdout","time":1919.429039874,"data":"      \"chunk\": 1,\n"}
+,{"stream_name":"stdout","time":1919.429043744,"data":"      \"completed_images\": 534,\n"}
+,{"stream_name":"stdout","time":1919.429048083,"data":"      \"session_elapsed_s\": 1907.6782257556915,\n"}
+,{"stream_name":"stdout","time":1919.42905216,"data":"      \"new_image_inferences\": 464,\n"}
+,{"stream_name":"stdout","time":1919.429058717,"data":"      \"worker_summaries\": [\n"}
+,{"stream_name":"stdout","time":1919.429063304,"data":"        {\n"}
+,{"stream_name":"stdout","time":1919.429067785,"data":"          \"status\": \"PASS\",\n"}
+,{"stream_name":"stdout","time":1919.429072186,"data":"          \"stage\": \"full-validation\",\n"}
+,{"stream_name":"stdout","time":1919.42907628,"data":"          \"requested_images\": 250,\n"}
+,{"stream_name":"stdout","time":1919.429086769,"data":"          \"validated_done\": 250,\n"}
+,{"stream_name":"stdout","time":1919.429092361,"data":"          \"newly_evaluated\": 233,\n"}
+,{"stream_name":"stdout","time":1919.429096507,"data":"          \"reused_done\": 17,\n"}
+,{"stream_name":"stdout","time":1919.429100652,"data":"          \"failures\": [],\n"}
+,{"stream_name":"stdout","time":1919.429104737,"data":"          \"wall_s\": 710.664672934,\n"}
+,{"stream_name":"stdout","time":1919.429109594,"data":"          \"metrics\": {\n"}
+,{"stream_name":"stdout","time":1919.429113763,"data":"            \"image_count\": 250,\n"}
+,{"stream_name":"stdout","time":1919.429118098,"data":"            \"mask_count\": 641,\n"}
+,{"stream_name":"stdout","time":1919.429122778,"data":"            \"intersection\": 16750223,\n"}
+,{"stream_name":"stdout","time":1919.429126915,"data":"            \"union\": 22741161,\n"}
+,{"stream_name":"stdout","time":1919.429130945,"data":"            \"cIoU\": 73.65597121448637,\n"}
+,{"stream_name":"stdout","time":1919.429135486,"data":"            \"mIoU\": 76.61592515090776\n"}
+,{"stream_name":"stdout","time":1919.429139658,"data":"          },\n"}
+,{"stream_name":"stdout","time":1919.429143721,"data":"          \"physical_gpu_index\": 1,\n"}
+,{"stream_name":"stdout","time":1919.429147974,"data":"          \"cold_model_load_s\": 801.804737151,\n"}
+,{"stream_name":"stdout","time":1919.429152261,"data":"          \"warmup_s\": 3.6942867769998884\n"}
+,{"stream_name":"stdout","time":1919.429157388,"data":"        },\n"}
+,{"stream_name":"stdout","time":1919.429161225,"data":"        {\n"}
+,{"stream_name":"stdout","time":1919.429165169,"data":"          \"status\": \"PASS\",\n"}
+,{"stream_name":"stdout","time":1919.429169405,"data":"          \"stage\": \"full-validation\",\n"}
+,{"stream_name":"stdout","time":1919.42917366,"data":"          \"requested_images\": 250,\n"}
+,{"stream_name":"stdout","time":1919.429178584,"data":"          \"validated_done\": 250,\n"}
+,{"stream_name":"stdout","time":1919.429183453,"data":"          \"newly_evaluated\": 231,\n"}
+,{"stream_name":"stdout","time":1919.429187597,"data":"          \"reused_done\": 19,\n"}
+,{"stream_name":"stdout","time":1919.429191709,"data":"          \"failures\": [],\n"}
+,{"stream_name":"stdout","time":1919.429195615,"data":"          \"wall_s\": 819.3906501719998,\n"}
+,{"stream_name":"stdout","time":1919.42919969,"data":"          \"metrics\": {\n"}
+,{"stream_name":"stdout","time":1919.42920362,"data":"            \"image_count\": 250,\n"}
+,{"stream_name":"stdout","time":1919.429207654,"data":"            \"mask_count\": 635,\n"}
+,{"stream_name":"stdout","time":1919.42921161,"data":"            \"intersection\": 17394242,\n"}
+,{"stream_name":"stdout","time":1919.429215624,"data":"            \"union\": 23278011,\n"}
+,{"stream_name":"stdout","time":1919.429219539,"data":"            \"cIoU\": 74.7239186372066,\n"}
+,{"stream_name":"stdout","time":1919.429223618,"data":"            \"mIoU\": 77.03493660863961\n"}
+,{"stream_name":"stdout","time":1919.429227582,"data":"          },\n"}
+,{"stream_name":"stdout","time":1919.429231359,"data":"          \"physical_gpu_index\": 0,\n"}
+,{"stream_name":"stdout","time":1919.429237188,"data":"          \"cold_model_load_s\": 801.7813877159999,\n"}
+,{"stream_name":"stdout","time":1919.429246902,"data":"          \"warmup_s\": 3.6943822040000214\n"}
+,{"stream_name":"stdout","time":1919.429250056,"data":"        }\n"}
+,{"stream_name":"stdout","time":1919.429252729,"data":"      ]\n"}
+,{"stream_name":"stdout","time":1919.429255342,"data":"    }\n"}
+,{"stream_name":"stdout","time":1919.429262284,"data":"  ],\n"}
+,{"stream_name":"stdout","time":1919.429264999,"data":"  \"full_validation_complete\": false,\n"}
+,{"stream_name":"stdout","time":1919.429267851,"data":"  \"all_10834_expressions_evaluated\": false,\n"}
+,{"stream_name":"stdout","time":1919.429270663,"data":"  \"precision\": \"BF16 DeepSeekVL, FP32 grounding/SAM, math SDPA/manual attention fallback as G0\",\n"}
+,{"stream_name":"stdout","time":1919.429273611,"data":"  \"source_hashes\": {\n"}
+,{"stream_name":"stdout","time":1919.429276295,"data":"    \"engine.py\": \"2a024735f51c2a85412b0cd4da11bb2c185039d2beae8c05d14c8bdaa88c95d1\",\n"}
+,{"stream_name":"stdout","time":1919.429279281,"data":"    \"common.py\": \"3ae35cd2ab9c0f11a5806fa6cf150c8628253eaf1c2e0f4431d9300862d21d22\",\n"}
+,{"stream_name":"stdout","time":1919.429282108,"data":"    \"full_worker.py\": \"de64be830b2b99dc22a597ec8068afbd817fdf5604c6a44487b8df7ca96e3dc3\",\n"}
+,{"stream_name":"stdout","time":1919.429284933,"data":"    \"full_control.py\": \"97e0057dfbc228a5c8ea2d83a8c7a7d98aa3401139dc04b081a6b4869e3a4cca\",\n"}
+,{"stream_name":"stdout","time":1919.429287753,"data":"    \"full_finalize.py\": \"291c746e7f6b64b5d1dee8e24500e7f9df0b3753d068b75dc581fe83c3107576\"\n"}
+,{"stream_name":"stdout","time":1919.429290697,"data":"  },\n"}
+,{"stream_name":"stdout","time":1919.42929406,"data":"  \"resume_note\": \"Only validated matching DONE records skipped; completed chunk outputs are cross-session durable. Hard loss before artifact commit may require rerunning current uncommitted chunk.\",\n"}
+,{"stream_name":"stdout","time":1919.42929732,"data":"  \"holdout_note\": \"Full validation includes the former internal holdout; it must not be treated as untouched for future method selection. No improvement/tuning in this run.\"\n"}
+,{"stream_name":"stdout","time":1919.42930037,"data":"}\n"}
+,{"stream_name":"stderr","time":1922.650723949,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1922.650776631,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1922.86785623,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1922.867882462,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1923.786410942,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1923.884062665,"data":"[NbConvertApp] Writing 114086 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1926.876295074,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1927.471486141,"data":"[NbConvertApp] Writing 388670 bytes to __results__.html\n"}
+]

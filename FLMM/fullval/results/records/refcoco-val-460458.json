@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-460458",
+  "sample_hash": "0de1810e5df433eebbdb8be9f577a3c4eea7c2e034e269ca0b79c0a33e04444c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 460458,
+  "dataset_index": 304,
+  "expressions": [
+    {
+      "image_id": 460458,
+      "dataset_index": 304,
+      "ref_id": 10544,
+      "sent_id": 30020,
+      "expression": "right guy",
+      "mask_id": 0,
+      "annotation_id": 523454,
+      "prediction_id": "refcoco-val-460458:0",
+      "gt_segmentation_sha256": "c4ad089cb0e23dd93c8ee6dbfdb155653b852a98230a072f76254a29dc8f8e0b",
+      "category_id": 1
+    },
+    {
+      "image_id": 460458,
+      "dataset_index": 304,
+      "ref_id": 10545,
+      "sent_id": 30023,
+      "expression": "yellow shorts in the back",
+      "mask_id": 1,
+      "annotation_id": 519262,
+      "prediction_id": "refcoco-val-460458:1",
+      "gt_segmentation_sha256": "515febd0934735847632d73c49835bdb5156d8d9250343068edd4ee4e2993b85",
+      "category_id": 1
+    },
+    {
+      "image_id": 460458,
+      "dataset_index": 304,
+      "ref_id": 10546,
+      "sent_id": 30026,
+      "expression": "black on black dude left",
+      "mask_id": 2,
+      "annotation_id": 449652,
+      "prediction_id": "refcoco-val-460458:2",
+      "gt_segmentation_sha256": "0a80fd1ab9dd19dac351fd84ef12502c727caf90abd050dc90c86c8e1f236849",
+      "category_id": 1
+    },
+    {
+      "image_id": 460458,
+      "dataset_index": 304,
+      "ref_id": 10547,
+      "sent_id": 30029,
+      "expression": "the guy in the blue plaid shirt",
+      "mask_id": 3,
+      "annotation_id": 1706933,
+      "prediction_id": "refcoco-val-460458:3",
+      "gt_segmentation_sha256": "cc950ec2a02392c1d36f35429fdac1db148af6c2822448a7f7e9aa5df4f27143",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    26049,
+    10000,
+    12659,
+    13949
+  ],
+  "union": [
+    30070,
+    11978,
+    14821,
+    16178
+  ],
+  "mask_file": "refcoco-val-460458.npz",
+  "mask_sha256": "66a346c9e1a821ce77cb9119d4299b5c08269d2480232c217c322d60f42acefd",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.016955045000031532,
+    "inference_s": 2.7697503360000155,
+    "postprocess_s": 0.003129861999923378,
+    "amortized_inference_s_per_selected_expression": 0.6924375840000039,
+    "mask_write_s": 0.02216423200002282
+  },
+  "memory": {
+    "peak_allocated_bytes": 8828879360,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448398848,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 9897,
+  "stage_created": "full-validation",
+  "record_hash": "e29d470bcf20992edca336015b330efe6a0b7f4b411806c24352b5e404259908",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

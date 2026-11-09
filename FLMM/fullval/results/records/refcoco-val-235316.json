@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-235316",
+  "sample_hash": "00014c6850843a8f0f768999447f0f0532329ce8f3554a9b8f17711b3bb65bc9",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 235316,
+  "dataset_index": 1078,
+  "expressions": [
+    {
+      "image_id": 235316,
+      "dataset_index": 1078,
+      "ref_id": 30050,
+      "sent_id": 85455,
+      "expression": "soldier standing on the right",
+      "mask_id": 0,
+      "annotation_id": 528916,
+      "prediction_id": "refcoco-val-235316:0",
+      "gt_segmentation_sha256": "8ff8b681d0d3577a6946273e3d01fc853bb501328c8e554978b7d75a2b8cd8ec",
+      "category_id": 1
+    },
+    {
+      "image_id": 235316,
+      "dataset_index": 1078,
+      "ref_id": 30051,
+      "sent_id": 85457,
+      "expression": "center man",
+      "mask_id": 1,
+      "annotation_id": 474457,
+      "prediction_id": "refcoco-val-235316:1",
+      "gt_segmentation_sha256": "0b2320e7dc412b694df240670026012a3e195553894b4e51e2029d132b7313ed",
+      "category_id": 1
+    },
+    {
+      "image_id": 235316,
+      "dataset_index": 1078,
+      "ref_id": 30052,
+      "sent_id": 85460,
+      "expression": "the serviceman on the left",
+      "mask_id": 2,
+      "annotation_id": 466692,
+      "prediction_id": "refcoco-val-235316:2",
+      "gt_segmentation_sha256": "f74af57499ed584c878d3a30f90b177de211c1bb78e459a7a9a7e99f239410e7",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    28260,
+    22978,
+    44728
+  ],
+  "union": [
+    30367,
+    25005,
+    47504
+  ],
+  "mask_file": "refcoco-val-235316.npz",
+  "mask_sha256": "8f6965ab30fa315fe0cdeb08cafd5a7c5c5e66560219331f7a3710f7b877accb",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.015184447000024193,
+    "inference_s": 2.0149891999999454,
+    "postprocess_s": 0.0019787969999924826,
+    "amortized_inference_s_per_selected_expression": 0.6716630666666484,
+    "mask_write_s": 0.021067721000008532
+  },
+  "memory": {
+    "peak_allocated_bytes": 8823290368,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6296813568
+  },
+  "output_bytes": 11008,
+  "stage_created": "full-validation",
+  "record_hash": "a9f397d46aad77e8de54665c4a08a8ea9bff742a56529a819c5acb9b7c7e1053",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

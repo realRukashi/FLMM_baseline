@@ -1,0 +1,40 @@
+{
+  "date_ict": "2026-11-06",
+  "user_scope": "Stop after Gate 0 for user audit; no probe/stability/large benchmark",
+  "attempts": [
+    {
+      "kernel": "hoofngocjhuy/flmm-phase1-cache",
+      "version": 1,
+      "status": "FAIL",
+      "stage": "torch dependency resolution",
+      "evidence": "runs/cache-v1/results/torch.log",
+      "reason": "Freeze constrained requests version unavailable on PyTorch-only index; installation order corrected"
+    },
+    {
+      "kernel": "hoofngocjhuy/flmm-phase1-cache",
+      "version": 2,
+      "status": "PASS",
+      "stage": "CPU cache preparation",
+      "evidence": "runs/cache-v2/results/preparation_summary.json",
+      "preparation_seconds": 795.8950476779999,
+      "cache_bytes": 8826749217
+    },
+    {
+      "kernel": "hoofngocjhuy/flmm-phase1-gates",
+      "version": 1,
+      "status": "FAIL",
+      "stage": "environment restore, before audit",
+      "evidence_kind": "observed Kaggle stream traceback",
+      "reason": "tar: /kaggle/temp: Cannot open: No such file or directory; scratch mkdir added",
+      "G0": "UNVERIFIED; audit not entered"
+    },
+    {
+      "kernel": "hoofngocjhuy/flmm-phase1-gates",
+      "version": 2,
+      "status": "PASS",
+      "stage": "Gate 0 completed; stopped",
+      "later_stages": "UNVERIFIED; not run by user request",
+      "evidence": "runs/gate0-v2/results/G0.json"
+    }
+  ]
+}

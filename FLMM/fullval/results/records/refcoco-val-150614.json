@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-150614",
+  "sample_hash": "fab63abc889bd359e2661478aa7717a629be56130a857c105d3a199643fdd9cf",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 150614,
+  "dataset_index": 597,
+  "expressions": [
+    {
+      "image_id": 150614,
+      "dataset_index": 597,
+      "ref_id": 37030,
+      "sent_id": 105318,
+      "expression": "boy on left",
+      "mask_id": 0,
+      "annotation_id": 1717138,
+      "prediction_id": "refcoco-val-150614:0",
+      "gt_segmentation_sha256": "0a3046ae474a15dafe0a5c840a36c607bd13822c18d65bcfe5d7a5eae811a395",
+      "category_id": 1
+    },
+    {
+      "image_id": 150614,
+      "dataset_index": 597,
+      "ref_id": 37031,
+      "sent_id": 105320,
+      "expression": "kid running the wrong way down the bases",
+      "mask_id": 1,
+      "annotation_id": 510755,
+      "prediction_id": "refcoco-val-150614:1",
+      "gt_segmentation_sha256": "87ecc8cabfdc4a8c0c2923070eaad1bf344de24f33bfc4953d44a7b74ba30d2b",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    18401,
+    44437
+  ],
+  "union": [
+    22135,
+    51283
+  ],
+  "mask_file": "refcoco-val-150614.npz",
+  "mask_sha256": "b78b9ec95f1a8dee08597d2df8ee5423ba6e005b34c814dffdbd4725d579de99",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016193494000049213,
+    "inference_s": 2.242265540000062,
+    "postprocess_s": 0.00212688600004185,
+    "amortized_inference_s_per_selected_expression": 1.121132770000031,
+    "mask_write_s": 0.016986033999955907
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824281600,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447215104,
+    "ram_rss_bytes": 6294208512
+  },
+  "output_bytes": 7780,
+  "stage_created": "full-validation",
+  "record_hash": "bde69a7723726074aca7e1986bb8a0caa536bb090201032edf54bf66082394b0",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

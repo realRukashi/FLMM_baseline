@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-460568",
+  "sample_hash": "b71bead3812609f7eb8d1d1373c9b8d4fe3be2a1fec262042a27d6ac7fd195e6",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 460568,
+  "dataset_index": 315,
+  "expressions": [
+    {
+      "image_id": 460568,
+      "dataset_index": 315,
+      "ref_id": 10538,
+      "sent_id": 30004,
+      "expression": "pizza on the top left",
+      "mask_id": 0,
+      "annotation_id": 1569985,
+      "prediction_id": "refcoco-val-460568:0",
+      "gt_segmentation_sha256": "b97a5fe2e557c9de9323abc6ca4d137a88d7e14d63d5de1f3e7de2ee7ce27fd6",
+      "category_id": 59
+    }
+  ],
+  "intersection": [
+    15787
+  ],
+  "union": [
+    19520
+  ],
+  "mask_file": "refcoco-val-460568.npz",
+  "mask_sha256": "e051d34008ca4461a299aedb7a56c65a0c41e4b66040ee73a8ba543132fcff81",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.01829102400006377,
+    "inference_s": 2.2337912790001155,
+    "postprocess_s": 0.001380413999868324,
+    "amortized_inference_s_per_selected_expression": 2.2337912790001155,
+    "mask_write_s": 0.010234662999891952
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818497024,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 2554,
+  "stage_created": "full-validation",
+  "record_hash": "cae0fb6605105e455e2044ef64bd6bb258fc3cda68007264c8744cb2507e7500",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

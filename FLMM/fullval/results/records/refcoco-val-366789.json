@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-366789",
+  "sample_hash": "2efb25d9d5407fdb2df7cc3c82edbeaaec98a22b595aeeb9bc3b158ffa716a68",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 366789,
+  "dataset_index": 1154,
+  "expressions": [
+    {
+      "image_id": 366789,
+      "dataset_index": 1154,
+      "ref_id": 18565,
+      "sent_id": 52815,
+      "expression": "bike between the red one and the one she's riding",
+      "mask_id": 0,
+      "annotation_id": 1767827,
+      "prediction_id": "refcoco-val-366789:0",
+      "gt_segmentation_sha256": "08e62fcbf5a536f1719b11ba4154d3774891e13e7671b6800717fc2993cebfdd",
+      "category_id": 2
+    }
+  ],
+  "intersection": [
+    5648
+  ],
+  "union": [
+    22649
+  ],
+  "mask_file": "refcoco-val-366789.npz",
+  "mask_sha256": "0ccb1daa0e2fe10a690dd820672eae5588d08349d07750139ff5600f26aa0270",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.015634493999982624,
+    "inference_s": 2.1154265459999806,
+    "postprocess_s": 0.0009097789999259476,
+    "amortized_inference_s_per_selected_expression": 2.1154265459999806,
+    "mask_write_s": 0.007912414999964312
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814076416,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6296907776
+  },
+  "output_bytes": 4071,
+  "stage_created": "full-validation",
+  "record_hash": "cc44b94183037b135e95662636277fac33aebd408cd52f0ad0223a899849b23b",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

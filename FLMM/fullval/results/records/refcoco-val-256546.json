@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-256546",
+  "sample_hash": "6c8ea2ff7e6686a7e4349cffc0804b6e06af7bf01c682e343fd7c3a32ccb09a5",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 256546,
+  "dataset_index": 475,
+  "expressions": [
+    {
+      "image_id": 256546,
+      "dataset_index": 475,
+      "ref_id": 28205,
+      "sent_id": 80217,
+      "expression": "the pizza slice has sauce on it",
+      "mask_id": 0,
+      "annotation_id": 1923938,
+      "prediction_id": "refcoco-val-256546:0",
+      "gt_segmentation_sha256": "f6f0a82da58ac206331afa5a8c35886d0e44c37d3ba7b957a82c405600c8f696",
+      "category_id": 59
+    },
+    {
+      "image_id": 256546,
+      "dataset_index": 475,
+      "ref_id": 28206,
+      "sent_id": 80220,
+      "expression": "slice on bottom middle with green olives",
+      "mask_id": 1,
+      "annotation_id": 1923733,
+      "prediction_id": "refcoco-val-256546:1",
+      "gt_segmentation_sha256": "39ca9eb87ff9a4893c996a9a499bdf476388a8d176e9d6b1a794ec73549ccff1",
+      "category_id": 59
+    },
+    {
+      "image_id": 256546,
+      "dataset_index": 475,
+      "ref_id": 28207,
+      "sent_id": 80223,
+      "expression": "slice at 12 o'clock",
+      "mask_id": 2,
+      "annotation_id": 1923100,
+      "prediction_id": "refcoco-val-256546:2",
+      "gt_segmentation_sha256": "395b120f0953bf3cf9e42c34f5b08525f20fb72acc9e439f7f9f291f455c83aa",
+      "category_id": 59
+    },
+    {
+      "image_id": 256546,
+      "dataset_index": 475,
+      "ref_id": 28208,
+      "sent_id": 80226,
+      "expression": "top right half",
+      "mask_id": 3,
+      "annotation_id": 1570617,
+      "prediction_id": "refcoco-val-256546:3",
+      "gt_segmentation_sha256": "cdb755cab8a1e1500f0dc496b4d86933c3b23c9c3681d4e1e78cff35e47ae47f",
+      "category_id": 59
+    },
+    {
+      "image_id": 256546,
+      "dataset_index": 475,
+      "ref_id": 28209,
+      "sent_id": 80229,
+      "expression": "slice on the bottom right with bananas on it",
+      "mask_id": 4,
+      "annotation_id": 1077056,
+      "prediction_id": "refcoco-val-256546:4",
+      "gt_segmentation_sha256": "7a5851b2e50039b664748671fce34f7cbd3293da49a0b349bdc71ba313a9eb6d",
+      "category_id": 59
+    }
+  ],
+  "intersection": [
+    525,
+    33024,
+    28611,
+    23514,
+    25847
+  ],
+  "union": [
+    127666,
+    34543,
+    33514,
+    65259,
+    35022
+  ],
+  "mask_file": "refcoco-val-256546.npz",
+  "mask_sha256": "ce1a1e166a79ac115a56eb0e8a3c40d1f18b0c694c9b43c3026aba8c4b474e46",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.024372179000010874,
+    "inference_s": 2.272468169999911,
+    "postprocess_s": 0.005021072999852549,
+    "amortized_inference_s_per_selected_expression": 0.4544936339999822,
+    "mask_write_s": 0.04646689199989851
+  },
+  "memory": {
+    "peak_allocated_bytes": 8844459520,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5452056576,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 26781,
+  "stage_created": "full-validation",
+  "record_hash": "cfc46e4bf7bc13519865f15fc9ef56d0ee27821498d0f7c210797f62cb8a4c48",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

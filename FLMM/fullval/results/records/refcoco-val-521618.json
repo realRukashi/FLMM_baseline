@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-521618",
+  "sample_hash": "ca5d1d12c1d54cb2617a92288d14b3554f8c9656b535dd437805052bedd545d7",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 521618,
+  "dataset_index": 1010,
+  "expressions": [
+    {
+      "image_id": 521618,
+      "dataset_index": 1010,
+      "ref_id": 5229,
+      "sent_id": 14895,
+      "expression": "the chinese lady that's apparently a fan of \"the office\"",
+      "mask_id": 0,
+      "annotation_id": 213595,
+      "prediction_id": "refcoco-val-521618:0",
+      "gt_segmentation_sha256": "a6af8f19d026b7cc0bd117af9be3aad71e2f1f8db6109216180c108500a1f95f",
+      "category_id": 1
+    },
+    {
+      "image_id": 521618,
+      "dataset_index": 1010,
+      "ref_id": 5230,
+      "sent_id": 14898,
+      "expression": "little kid",
+      "mask_id": 1,
+      "annotation_id": 196013,
+      "prediction_id": "refcoco-val-521618:1",
+      "gt_segmentation_sha256": "c560466a02fc1f8179b7e0573ff4ba9c786625d18ae1c38447d7ffb9a9d8bb2c",
+      "category_id": 1
+    },
+    {
+      "image_id": 521618,
+      "dataset_index": 1010,
+      "ref_id": 5231,
+      "sent_id": 14901,
+      "expression": "sheep far right against fence",
+      "mask_id": 2,
+      "annotation_id": 65175,
+      "prediction_id": "refcoco-val-521618:2",
+      "gt_segmentation_sha256": "f5ca789d6105dbab63f2162e4ee5ecc56f726f1ad2d64c38745db0de45e3317c",
+      "category_id": 20
+    },
+    {
+      "image_id": 521618,
+      "dataset_index": 1010,
+      "ref_id": 5232,
+      "sent_id": 14903,
+      "expression": "top sheep",
+      "mask_id": 3,
+      "annotation_id": 63837,
+      "prediction_id": "refcoco-val-521618:3",
+      "gt_segmentation_sha256": "caab60d4584fc332b590bbb7b836bc3e5fc983528946e6103dc2ed3064b3c1db",
+      "category_id": 20
+    }
+  ],
+  "intersection": [
+    32470,
+    22724,
+    11292,
+    13724
+  ],
+  "union": [
+    35649,
+    25636,
+    14831,
+    14971
+  ],
+  "mask_file": "refcoco-val-521618.npz",
+  "mask_sha256": "311b812c99f8d8b2063318920dede8787bf2027c8526502aeca37ff8b20bb5d6",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.01769170000000031,
+    "inference_s": 1.8826884490000566,
+    "postprocess_s": 0.0027256140000417872,
+    "amortized_inference_s_per_selected_expression": 0.47067211225001415,
+    "mask_write_s": 0.021167200999911984
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826964480,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6296690688
+  },
+  "output_bytes": 10579,
+  "stage_created": "full-validation",
+  "record_hash": "8fdb9fcb0e705c8783783570fcafdd15aada3b53707551b3e6e22e42ffd48082",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-416651",
+  "sample_hash": "dfad20fd6c6a3a9864be366ed91951895f88eab36d9ec296a79f9d32f6be7d29",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 416651,
+  "dataset_index": 1287,
+  "expressions": [
+    {
+      "image_id": 416651,
+      "dataset_index": 1287,
+      "ref_id": 14389,
+      "sent_id": 40955,
+      "expression": "right guy blue shirt",
+      "mask_id": 0,
+      "annotation_id": 452310,
+      "prediction_id": "refcoco-val-416651:0",
+      "gt_segmentation_sha256": "f1bcbeeabca1055f57ecd860ccde00c1ff2c08bb0ba3e45d38ae79b6216f927a",
+      "category_id": 1
+    },
+    {
+      "image_id": 416651,
+      "dataset_index": 1287,
+      "ref_id": 14390,
+      "sent_id": 40958,
+      "expression": "dude in black close to cam",
+      "mask_id": 1,
+      "annotation_id": 439202,
+      "prediction_id": "refcoco-val-416651:1",
+      "gt_segmentation_sha256": "9ab89432a1a77b95939cfaeb9e3e5f91dd034b199d2005ed0ca8aff93494a195",
+      "category_id": 1
+    },
+    {
+      "image_id": 416651,
+      "dataset_index": 1287,
+      "ref_id": 14391,
+      "sent_id": 40961,
+      "expression": "black guy in yellow",
+      "mask_id": 2,
+      "annotation_id": 434253,
+      "prediction_id": "refcoco-val-416651:2",
+      "gt_segmentation_sha256": "6c7768d7ed773730e6c655de751638552f18714de8fd48afd5c8d494038433e4",
+      "category_id": 1
+    },
+    {
+      "image_id": 416651,
+      "dataset_index": 1287,
+      "ref_id": 14392,
+      "sent_id": 40964,
+      "expression": "crossed arms",
+      "mask_id": 3,
+      "annotation_id": 425953,
+      "prediction_id": "refcoco-val-416651:3",
+      "gt_segmentation_sha256": "62e515f78e22aa27473142b247e410ff132d9ac2b3a5fdbcc5453df5c7538fb6",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    35665,
+    16995,
+    35353,
+    30953
+  ],
+  "union": [
+    39876,
+    17891,
+    37524,
+    32743
+  ],
+  "mask_file": "refcoco-val-416651.npz",
+  "mask_sha256": "94c795dbd82c714dff7b649f9624ddc9af1fc546fc36fee7efa2db4f2009eb1d",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.020186494999961724,
+    "inference_s": 2.0068490599999222,
+    "postprocess_s": 0.003616412999917884,
+    "amortized_inference_s_per_selected_expression": 0.5017122649999806,
+    "mask_write_s": 0.029802598000060243
+  },
+  "memory": {
+    "peak_allocated_bytes": 8832056320,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5449023488,
+    "ram_rss_bytes": 6283218944
+  },
+  "output_bytes": 12161,
+  "stage_created": "full-probe",
+  "record_hash": "58368276bd9f21bfd62b4c1a08bc9b39a0bc07c0696e777029c96d64ad52df82",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

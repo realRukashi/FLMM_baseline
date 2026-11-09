@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "images": 1500,
+  "masks": 3811,
+  "unique_target_ids": 3811,
+  "global_intersection": 103215624,
+  "global_union": 137687931,
+  "independent_metrics": {
+    "cIoU": 74.96345050024755,
+    "mIoU": 76.97116786497841
+  },
+  "official_metrics": {
+    "cIoU": 74.96344757080078,
+    "mIoU": 76.97119140625
+  },
+  "nonempty_predictions": 3811,
+  "images_first_computed_per_chunk": {
+    "1": 534,
+    "2": 487,
+    "3": 479
+  },
+  "archive_sha256": "02f54c708d4d6b2689abd56971222e73187add5dd9ef6925fcdd6abe976fe381",
+  "latency_verified": true,
+  "all_record_and_mask_hashes_verified": true
+}

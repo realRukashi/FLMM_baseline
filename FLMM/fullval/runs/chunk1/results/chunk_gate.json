@@ -1,0 +1,19 @@
+{
+  "status": "GO",
+  "probe_images": 50,
+  "probe_p95_pipeline_s": 2.430970462000232,
+  "gpu_names": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "worker_count": 2,
+  "estimated_chunk_inference_margin_s": 845.9777207760808,
+  "free_disk_bytes": 20934864896,
+  "target_prefix": 500,
+  "prior": null,
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "remaining_prefix_images": 464,
+  "estimated_additional_output_bytes": 17244792.0,
+  "quota_remaining_s_conservative": 99095.16583,
+  "note": "First 50 seeded probe images are part of full val and reused; no tuning or method changes"
+}

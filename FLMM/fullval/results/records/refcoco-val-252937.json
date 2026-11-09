@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-252937",
+  "sample_hash": "c41ae0f5eb3273ab9d600f268631c592874453b049777abd122e4c42fd94c8ac",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 252937,
+  "dataset_index": 1318,
+  "expressions": [
+    {
+      "image_id": 252937,
+      "dataset_index": 1318,
+      "ref_id": 28526,
+      "sent_id": 81129,
+      "expression": "man in blue swim suit on left",
+      "mask_id": 0,
+      "annotation_id": 504363,
+      "prediction_id": "refcoco-val-252937:0",
+      "gt_segmentation_sha256": "62e2df83a8712d3aff1e6d2c13367d972ec37440d32d8cfafae350351a63df66",
+      "category_id": 1
+    },
+    {
+      "image_id": 252937,
+      "dataset_index": 1318,
+      "ref_id": 28527,
+      "sent_id": 81132,
+      "expression": "the guy on the right.",
+      "mask_id": 1,
+      "annotation_id": 452665,
+      "prediction_id": "refcoco-val-252937:1",
+      "gt_segmentation_sha256": "d49227c22a011aa1c39eb5f40b92c8cc62b462ec07f4d8408c3063520478a849",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12233,
+    17132
+  ],
+  "union": [
+    14068,
+    19497
+  ],
+  "mask_file": "refcoco-val-252937.npz",
+  "mask_sha256": "6780f5a7eb24f4d4f0d86eb881d6ae15d3157d115537da5fc69b6e99c79a1fd9",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014581670000097802,
+    "inference_s": 2.1702965179999865,
+    "postprocess_s": 0.0017127690000506846,
+    "amortized_inference_s_per_selected_expression": 1.0851482589999932,
+    "mask_write_s": 0.013055248999989999
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820363776,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6297116672
+  },
+  "output_bytes": 4692,
+  "stage_created": "full-validation",
+  "record_hash": "baddf01bbbc79f28d79c47b5801345e4135d38f8bcb11b781fdd048d7850773d",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

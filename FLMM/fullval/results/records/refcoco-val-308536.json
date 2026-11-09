@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-308536",
+  "sample_hash": "d6c95de2e61e955f35e51512e3c0de028a71ec48cb5909fe4dc0fc5a59672184",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 308536,
+  "dataset_index": 997,
+  "expressions": [
+    {
+      "image_id": 308536,
+      "dataset_index": 997,
+      "ref_id": 23851,
+      "sent_id": 67794,
+      "expression": "keyboard on right, second from top",
+      "mask_id": 0,
+      "annotation_id": 1635317,
+      "prediction_id": "refcoco-val-308536:0",
+      "gt_segmentation_sha256": "baa903c2b7ec0d7b9f810fc08c2c8ea7cee5b109e7055acad2f624b2a44e1605",
+      "category_id": 76
+    },
+    {
+      "image_id": 308536,
+      "dataset_index": 997,
+      "ref_id": 23852,
+      "sent_id": 67796,
+      "expression": "r key",
+      "mask_id": 1,
+      "annotation_id": 1634681,
+      "prediction_id": "refcoco-val-308536:1",
+      "gt_segmentation_sha256": "2ee5dccc1bd3a60abb1f803d2a24262a60bdd5786c9f4caee3281c92b444cf79",
+      "category_id": 76
+    },
+    {
+      "image_id": 308536,
+      "dataset_index": 997,
+      "ref_id": 23853,
+      "sent_id": 67798,
+      "expression": "middle bottom edge",
+      "mask_id": 2,
+      "annotation_id": 2136999,
+      "prediction_id": "refcoco-val-308536:2",
+      "gt_segmentation_sha256": "79305839188b0fc7d3c82550b96b1cb2ebd8793f3021e63022dd77de6390c519",
+      "category_id": 76
+    },
+    {
+      "image_id": 308536,
+      "dataset_index": 997,
+      "ref_id": 23854,
+      "sent_id": 67800,
+      "expression": "the keyboard on the left with the black mouse ontop",
+      "mask_id": 3,
+      "annotation_id": 1635586,
+      "prediction_id": "refcoco-val-308536:3",
+      "gt_segmentation_sha256": "96cf8256089f11848d09283f86510e4fa8fdf996b4f8299b4e6361769299d450",
+      "category_id": 76
+    },
+    {
+      "image_id": 308536,
+      "dataset_index": 997,
+      "ref_id": 23855,
+      "sent_id": 67802,
+      "expression": "black mouse bottom",
+      "mask_id": 4,
+      "annotation_id": 1635517,
+      "prediction_id": "refcoco-val-308536:4",
+      "gt_segmentation_sha256": "6adeb9ea4ae38991d10a21999ed9c1a8e1ee4d390b5413d019b60228139a05b1",
+      "category_id": 76
+    },
+    {
+      "image_id": 308536,
+      "dataset_index": 997,
+      "ref_id": 23856,
+      "sent_id": 67805,
+      "expression": "third keyboard on right",
+      "mask_id": 5,
+      "annotation_id": 1635435,
+      "prediction_id": "refcoco-val-308536:5",
+      "gt_segmentation_sha256": "65e5626da9ab200d15e3d3150615631337bd2b814f78c6f4c72b7a1eec7e9b10",
+      "category_id": 76
+    }
+  ],
+  "intersection": [
+    0,
+    31803,
+    8116,
+    12624,
+    8271,
+    10
+  ],
+  "union": [
+    58556,
+    62457,
+    48449,
+    48692,
+    31052,
+    59202
+  ],
+  "mask_file": "refcoco-val-308536.npz",
+  "mask_sha256": "6e13d758597abfb6393b1dd223e99a151f1683268fc9e17f10f3f50d1d605252",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.021406103000117582,
+    "inference_s": 2.364671851000139,
+    "postprocess_s": 0.00553551799998786,
+    "amortized_inference_s_per_selected_expression": 0.3941119751666899,
+    "mask_write_s": 0.035234820999903604
+  },
+  "memory": {
+    "peak_allocated_bytes": 8849810944,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5452657152,
+    "ram_rss_bytes": 6295474176
+  },
+  "output_bytes": 25829,
+  "stage_created": "full-validation",
+  "record_hash": "18ab148cb5daf6d4596777868f01b48487e23f6896e4e4b656e176808ad59242",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

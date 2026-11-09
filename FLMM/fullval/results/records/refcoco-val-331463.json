@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-331463",
+  "sample_hash": "cceea71c81534684e5a8c80798cf49dc32060f8e39447912a096fe600361949e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 331463,
+  "dataset_index": 699,
+  "expressions": [
+    {
+      "image_id": 331463,
+      "dataset_index": 699,
+      "ref_id": 21597,
+      "sent_id": 61431,
+      "expression": "blue shirt man",
+      "mask_id": 0,
+      "annotation_id": 1715534,
+      "prediction_id": "refcoco-val-331463:0",
+      "gt_segmentation_sha256": "c3daa43889678e0929222577fa2cb8beb6cc49083e352e6c5194e190c045393e",
+      "category_id": 1
+    },
+    {
+      "image_id": 331463,
+      "dataset_index": 699,
+      "ref_id": 21598,
+      "sent_id": 61434,
+      "expression": "the half a person in a striped blue shirt on the left",
+      "mask_id": 1,
+      "annotation_id": 540678,
+      "prediction_id": "refcoco-val-331463:1",
+      "gt_segmentation_sha256": "ae807d1d52d734345d05340a16cbe5af60defd196a57a58b752bd6ad8684a7f7",
+      "category_id": 1
+    },
+    {
+      "image_id": 331463,
+      "dataset_index": 699,
+      "ref_id": 21599,
+      "sent_id": 61437,
+      "expression": "woman standing in blue shirt",
+      "mask_id": 2,
+      "annotation_id": 532668,
+      "prediction_id": "refcoco-val-331463:2",
+      "gt_segmentation_sha256": "6977602cce339cfc30ce7792bb2318b337533136ac1456a80cfdf3bdfde267f7",
+      "category_id": 1
+    },
+    {
+      "image_id": 331463,
+      "dataset_index": 699,
+      "ref_id": 21600,
+      "sent_id": 61440,
+      "expression": "green shirt dude",
+      "mask_id": 3,
+      "annotation_id": 518197,
+      "prediction_id": "refcoco-val-331463:3",
+      "gt_segmentation_sha256": "d4b28c4f2057b50ef10d80d37f79a24fa9a58e1f18b965fa066c2cb0f680ac90",
+      "category_id": 1
+    },
+    {
+      "image_id": 331463,
+      "dataset_index": 699,
+      "ref_id": 21601,
+      "sent_id": 61443,
+      "expression": "bottom right front head",
+      "mask_id": 4,
+      "annotation_id": 478827,
+      "prediction_id": "refcoco-val-331463:4",
+      "gt_segmentation_sha256": "bfa4988ac9d389dcd6f813e1b77f0a11c85177423286df3f653a6a2a2ec306fc",
+      "category_id": 1
+    },
+    {
+      "image_id": 331463,
+      "dataset_index": 699,
+      "ref_id": 21602,
+      "sent_id": 61446,
+      "expression": "woman's head at bottom right",
+      "mask_id": 5,
+      "annotation_id": 457421,
+      "prediction_id": "refcoco-val-331463:5",
+      "gt_segmentation_sha256": "c6765c5afd3228b00602fe3ffd551d558305ea7d0138c6075ef94203e64344d1",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    13822,
+    10676,
+    13017,
+    40818,
+    13895,
+    14669
+  ],
+  "union": [
+    17030,
+    12766,
+    20632,
+    44334,
+    15039,
+    15622
+  ],
+  "mask_file": "refcoco-val-331463.npz",
+  "mask_sha256": "79d7e186ee07af7ff94e77f5a18596bacda354f111d3fdd20ea6da56aef403ce",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.016566674999921815,
+    "inference_s": 2.331699472999958,
+    "postprocess_s": 0.004286167000032037,
+    "amortized_inference_s_per_selected_expression": 0.3886165788333263,
+    "mask_write_s": 0.02653164100001959
+  },
+  "memory": {
+    "peak_allocated_bytes": 8838829568,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451040768,
+    "ram_rss_bytes": 6294368256
+  },
+  "output_bytes": 14427,
+  "stage_created": "full-validation",
+  "record_hash": "012f8d5a447077a3675190616c8be68021d2522769a1827b91edc2f1dcaad82d",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

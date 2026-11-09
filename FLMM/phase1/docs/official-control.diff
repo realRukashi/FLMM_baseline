@@ -1,0 +1,39 @@
+--- multiprocess_eval_refcoco.py
++++ official-controlled.py
+@@ -35,12 +35,12 @@
+     # output the messages only on the main process with accelerator.print()
+     accelerator.print(messages)
+ 
+-    cfg = Config.fromfile(args.config)
++    cfg = SHARED_CFG
+     prompt_template = cfg.prompt_template
+     tokenizer = cfg.tokenizer
+     image_processor = cfg.image_processor
+     prompt = cfg.get('prompt', None)
+-    model = BUILDER.build(cfg.model)
++    model = SHARED_MODEL
+ 
+     if args.checkpoint is not None:
+         state_dict = guess_load_checkpoint(args.checkpoint)
+@@ -107,10 +107,11 @@
+             split_file='refcocog/refs(umd).p',
+             split=split)
+ 
++    refcoco_subsets = {"refcoco_val": refcoco_subsets["refcoco_val"]}
+     for name, subset in refcoco_subsets.items():
+         accelerator.print(f"Start evaluating {name}")
+         dataset = RefCocoDataset(
+-            data_root='data/coco/',
++            data_root='/kaggle/input/notebooks/hoofngocjhuy/flmm-phase1-cache/cache/data/coco',
+             data_prefix=dict(img_path='train2014/'),
+             text_mode='select_first',
+             pipeline=test_pipeline,
+@@ -119,7 +120,7 @@
+         # sync GPUs and start the timer
+         accelerator.wait_for_everyone()
+ 
+-        data_ids = list(range(len(dataset)))
++        data_ids = REGRESSION_INDICES
+         if args.debug:
+             data_ids = data_ids[:100]
+ 

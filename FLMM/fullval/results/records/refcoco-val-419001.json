@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-419001",
+  "sample_hash": "438cd7edc58e3fbce8d401cdaf9fbb901005abe114c661bd651961c74edcba8b",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 419001,
+  "dataset_index": 215,
+  "expressions": [
+    {
+      "image_id": 419001,
+      "dataset_index": 215,
+      "ref_id": 14205,
+      "sent_id": 40423,
+      "expression": "elephant in back",
+      "mask_id": 0,
+      "annotation_id": 583050,
+      "prediction_id": "refcoco-val-419001:0",
+      "gt_segmentation_sha256": "40410707309988345bc4ed7a94ba706a66116699d7dddf64a688c6997f3870ca",
+      "category_id": 22
+    },
+    {
+      "image_id": 419001,
+      "dataset_index": 215,
+      "ref_id": 14206,
+      "sent_id": 40426,
+      "expression": "elephant on left",
+      "mask_id": 1,
+      "annotation_id": 582996,
+      "prediction_id": "refcoco-val-419001:1",
+      "gt_segmentation_sha256": "41ffb4eb26b4608227a42ef0ebbb8bb839c0ad0d547601dc9109fd13e8cd0bcf",
+      "category_id": 22
+    },
+    {
+      "image_id": 419001,
+      "dataset_index": 215,
+      "ref_id": 14207,
+      "sent_id": 40429,
+      "expression": "elephant with all its feet on the ground",
+      "mask_id": 2,
+      "annotation_id": 582883,
+      "prediction_id": "refcoco-val-419001:2",
+      "gt_segmentation_sha256": "41b52308ec33eb382086c4036c4a10de40ef5fb185e43c83a4d579700f82187a",
+      "category_id": 22
+    },
+    {
+      "image_id": 419001,
+      "dataset_index": 215,
+      "ref_id": 14208,
+      "sent_id": 40432,
+      "expression": "right elephant",
+      "mask_id": 3,
+      "annotation_id": 582314,
+      "prediction_id": "refcoco-val-419001:3",
+      "gt_segmentation_sha256": "7ffacfbe60f336aa3996de6bbded678c8df5a757b4a0cfc295c3ebfe1257a095",
+      "category_id": 22
+    }
+  ],
+  "intersection": [
+    11872,
+    35322,
+    24785,
+    33706
+  ],
+  "union": [
+    13878,
+    37956,
+    28243,
+    37407
+  ],
+  "mask_file": "refcoco-val-419001.npz",
+  "mask_sha256": "feb418bf157d86ea6427767de235dc0f8f46bfef91738e5784be4af9896c938f",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.019941222999932506,
+    "inference_s": 2.25649501099997,
+    "postprocess_s": 0.003095943999824158,
+    "amortized_inference_s_per_selected_expression": 0.5641237527499925,
+    "mask_write_s": 0.027568526999857568
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826911232,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 13908,
+  "stage_created": "full-validation",
+  "record_hash": "19b06ab045f9d548cb7b021e5ee1281c65e986ad70fd3ee0b2ff43d2168e1baa",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

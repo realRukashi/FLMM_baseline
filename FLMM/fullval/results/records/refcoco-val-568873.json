@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-568873",
+  "sample_hash": "e861215183dbe011caf9db0cc392bdf0f5dc5becbb8a05ff2805f89bd2fdd3df",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 568873,
+  "dataset_index": 672,
+  "expressions": [
+    {
+      "image_id": 568873,
+      "dataset_index": 672,
+      "ref_id": 1175,
+      "sent_id": 3347,
+      "expression": "guy far right",
+      "mask_id": 0,
+      "annotation_id": 545096,
+      "prediction_id": "refcoco-val-568873:0",
+      "gt_segmentation_sha256": "d316e0c13854ed017712c158f6c528057c20381d449b65d5f5eb0f74b4e89886",
+      "category_id": 1
+    },
+    {
+      "image_id": 568873,
+      "dataset_index": 672,
+      "ref_id": 1176,
+      "sent_id": 3350,
+      "expression": "second from the right",
+      "mask_id": 1,
+      "annotation_id": 536768,
+      "prediction_id": "refcoco-val-568873:1",
+      "gt_segmentation_sha256": "283447ce21495878a84d8086978eae494dd8faee7ddb899648ff1d7a44648d49",
+      "category_id": 1
+    },
+    {
+      "image_id": 568873,
+      "dataset_index": 672,
+      "ref_id": 1177,
+      "sent_id": 3353,
+      "expression": "center man with black hair, back to us",
+      "mask_id": 2,
+      "annotation_id": 528289,
+      "prediction_id": "refcoco-val-568873:2",
+      "gt_segmentation_sha256": "cbf43524199f89c60e323485f455978aeb77368a621e46e52bcac3b6b50964cb",
+      "category_id": 1
+    },
+    {
+      "image_id": 568873,
+      "dataset_index": 672,
+      "ref_id": 1178,
+      "sent_id": 3356,
+      "expression": "boy sitting on the bench closest to us.",
+      "mask_id": 3,
+      "annotation_id": 518232,
+      "prediction_id": "refcoco-val-568873:3",
+      "gt_segmentation_sha256": "c9944ae13fe0aa7d11d20f4cb852b31e9799d39e567b13bf6113a65cb36e9d45",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    14214,
+    13643,
+    22315,
+    12307
+  ],
+  "union": [
+    15486,
+    16039,
+    24849,
+    13853
+  ],
+  "mask_file": "refcoco-val-568873.npz",
+  "mask_sha256": "86a7ac093786eee42942e307226d1cad7116297fb46d468a3e95f82b8ab8d114",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.019440260000010312,
+    "inference_s": 2.281479660999935,
+    "postprocess_s": 0.0028424600000107603,
+    "amortized_inference_s_per_selected_expression": 0.5703699152499837,
+    "mask_write_s": 0.019103194000081203
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826581504,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448124416,
+    "ram_rss_bytes": 6295363584
+  },
+  "output_bytes": 8616,
+  "stage_created": "full-validation",
+  "record_hash": "9ae3c943c4ef2d99d6e0f9ae6ca4a1eacccd41b3314a163c34c0f1df321db9bc",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-488127",
+  "sample_hash": "036602774dd69a49078f94791ab366b5dcac9025c4c53a40f2abedf8e8f34b09",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 488127,
+  "dataset_index": 863,
+  "expressions": [
+    {
+      "image_id": 488127,
+      "dataset_index": 863,
+      "ref_id": 8162,
+      "sent_id": 23249,
+      "expression": "center white chick",
+      "mask_id": 0,
+      "annotation_id": 1296107,
+      "prediction_id": "refcoco-val-488127:0",
+      "gt_segmentation_sha256": "4dc0d48ab1004bbadd8507b66b57124e149c15f8367af801b21f435b7dfe764e",
+      "category_id": 1
+    },
+    {
+      "image_id": 488127,
+      "dataset_index": 863,
+      "ref_id": 8163,
+      "sent_id": 23251,
+      "expression": "soldier in the back on the right",
+      "mask_id": 1,
+      "annotation_id": 1275327,
+      "prediction_id": "refcoco-val-488127:1",
+      "gt_segmentation_sha256": "9d514a3693e2b95c17341236bfd132e70258526b4a151c4ede71a74e59c78e2b",
+      "category_id": 1
+    },
+    {
+      "image_id": 488127,
+      "dataset_index": 863,
+      "ref_id": 8164,
+      "sent_id": 23254,
+      "expression": "man in hat on the right next to guy in white shirt",
+      "mask_id": 2,
+      "annotation_id": 1270412,
+      "prediction_id": "refcoco-val-488127:2",
+      "gt_segmentation_sha256": "8caa0f2a966ea0f3eb526d5a99a1a7706fa29008d84bc82ff60bcdacbd0da354",
+      "category_id": 1
+    },
+    {
+      "image_id": 488127,
+      "dataset_index": 863,
+      "ref_id": 8165,
+      "sent_id": 23256,
+      "expression": "black dude in white",
+      "mask_id": 3,
+      "annotation_id": 1256660,
+      "prediction_id": "refcoco-val-488127:3",
+      "gt_segmentation_sha256": "05f7eba8482f50afc75d4a65ed072f2556bf71420022c71c2b8e58ad4fb4a712",
+      "category_id": 1
+    },
+    {
+      "image_id": 488127,
+      "dataset_index": 863,
+      "ref_id": 8166,
+      "sent_id": 23258,
+      "expression": "guy on the left",
+      "mask_id": 4,
+      "annotation_id": 1230807,
+      "prediction_id": "refcoco-val-488127:4",
+      "gt_segmentation_sha256": "68157366cab2fbbbee6e9e758619d94fee7d996c68f95e81d292107d6b14fc28",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    17869,
+    22888,
+    12959,
+    29,
+    31458
+  ],
+  "union": [
+    19461,
+    26631,
+    72148,
+    43665,
+    32946
+  ],
+  "mask_file": "refcoco-val-488127.npz",
+  "mask_sha256": "a1912ee035449a759fc53680547b738a8535f17aa83caa52cd20c225590d588b",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.018808940999974766,
+    "inference_s": 2.3291334059999826,
+    "postprocess_s": 0.003312526999934562,
+    "amortized_inference_s_per_selected_expression": 0.46582668119999654,
+    "mask_write_s": 0.0273164939999333
+  },
+  "memory": {
+    "peak_allocated_bytes": 8832290304,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449133568,
+    "ram_rss_bytes": 6295310336
+  },
+  "output_bytes": 16278,
+  "stage_created": "full-validation",
+  "record_hash": "1d6c7623ee3d26e2d2c9b3b6f21819da4853aef534aa3908f3835b8a5aa68ceb",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

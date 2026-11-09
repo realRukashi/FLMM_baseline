@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "observed_at_unix": 1793972154.4061153,
+  "gpu_query": "Tesla T4, 15360, 0\nTesla T4, 15360, 0",
+  "gpu_query_error": "",
+  "ram_total_bytes": 33658159104,
+  "ram_available_bytes": 31273021440,
+  "working_disk": {
+    "total": 20957446144,
+    "used": 466944,
+    "free": 20940201984
+  },
+  "scratch_disk": {
+    "total": 8758385086464,
+    "used": 7726820687872,
+    "free": 1031547621376
+  },
+  "output_storage": "working exported only when Kaggle commits completed job output; temp ephemeral; input read-only prior committed outputs",
+  "gpu_quota_snapshot": {
+    "observed_at_utc": "2026-11-06T13:32:41.445138+00:00",
+    "refresh_at": "2026-11-07 00:00:00",
+    "gpu": {
+      "used_seconds": 9241.741,
+      "total_seconds": 108000.0,
+      "remaining_seconds": 98758.259
+    },
+    "tpu": {
+      "used_seconds": 0.0,
+      "total_seconds": 72000.0,
+      "remaining_seconds": 72000.0
+    }
+  },
+  "operational_budgets": {
+    "SOURCE_SHA": "47d3c2a6f628dd48ba76a1cfdf29b6b2aa8f9eb3",
+    "BACKBONE_REVISION": "8f13a8e00dbdc381d614a9d29d61b07e8fe91b3f",
+    "FLMM_REVISION": "d70e5b3289ca4255cb6a017a792870aad26c01ce",
+    "FLMM_SHA256": "02bdf9e878847c68acaa207a916291cb1568ab119cbc658a4dfa94f399dfed0e",
+    "SAM_SHA256": "3adcc4315b642a4d2101128f611684e8734c41232a17c648ed1693702a49a622",
+    "ANNOTATION_SHA256": "7f924bb7ed8dc4568058e4ff626281918d56e5206f4c868c5a80f088f38c8bf0",
+    "BACKBONE_SHA256": "b1c382c6dcecbc3e17c1648253e5086523626719e05e52e905fbfd113694e65e",
+    "SEED": 20261106,
+    "STOP_AFTER_GATE": null,
+    "MAX_TOTAL_WALLTIME_MIN": 120,
+    "MAX_EVALUATION_MIN": 75,
+    "SHUTDOWN_RESERVE_MIN": 20,
+    "MIN_FREE_DISK_GB": 3,
+    "MAX_RETRIES_PER_DOWNLOAD": 3,
+    "DOWNLOAD_TIMEOUT_S": 45,
+    "SAFETY_FACTOR": 1.5,
+    "PROBE_IMAGES": 50,
+    "STABILITY_IMAGES": 100,
+    "DEVELOPMENT_IMAGES": 250,
+    "HOLDOUT_IMAGES": 400,
+    "RUN_DEVELOPMENT": false,
+    "RUN_HOLDOUT": false,
+    "RUN_FULL_VALIDATION": true,
+    "MAX_IMAGES_THIS_JOB": 500,
+    "EXPORT_EVERY_IMAGES": 25,
+    "STOP_AFTER_IMAGES": null,
+    "RESUME_INPUT": null,
+    "FULL_END_INDEX": 1500,
+    "FULL_CHUNK": 3,
+    "FULL_PRIOR": "flmm-full-2"
+  },
+  "requested_kernel_timeout_s": 7200,
+  "external_platform_max_session_limit": "UNVERIFIED from dynamic public docs; not assumed for scheduling",
+  "cache_manifest": {
+    "status": "PASS",
+    "models": [
+      {
+        "path": "models/backbone/model.safetensors",
+        "sha256": "b1c382c6dcecbc3e17c1648253e5086523626719e05e52e905fbfd113694e65e",
+        "bytes": 3950537560
+      },
+      {
+        "path": "models/flmm/frozen_deepseek_vl_1_3b_chat_unet_sam_l_refcoco_png.pth",
+        "sha256": "02bdf9e878847c68acaa207a916291cb1568ab119cbc658a4dfa94f399dfed0e",
+        "bytes": 24160204
+      },
+      {
+        "path": "models/sam_vit_l_0b3195.pth",
+        "sha256": "3adcc4315b642a4d2101128f611684e8734c41232a17c648ed1693702a49a622",
+        "bytes": 1249524607
+      }
+    ],
+    "data_preparation_seconds": 396.254688406
+  },
+  "network_during_evaluation": false,
+  "restored_cache_sha256": "abfd4105ae9b6cae85f19b58bf8f3227d3565e420dd2e72a9723c2598953967c",
+  "setup_restored_without_install": true
+}

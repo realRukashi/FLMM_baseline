@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-500982",
+  "sample_hash": "adeb9f21bcbb7608f2db5f34df09cf7361a2519fcd5c49cc9744d01365275ca4",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 500982,
+  "dataset_index": 227,
+  "expressions": [
+    {
+      "image_id": 500982,
+      "dataset_index": 227,
+      "ref_id": 7063,
+      "sent_id": 20110,
+      "expression": "lady on left",
+      "mask_id": 0,
+      "annotation_id": 224322,
+      "prediction_id": "refcoco-val-500982:0",
+      "gt_segmentation_sha256": "9fad06ce3891a1537aa0f466db4f7cf84360fce0774ee7164d6868e24a01aa66",
+      "category_id": 1
+    },
+    {
+      "image_id": 500982,
+      "dataset_index": 227,
+      "ref_id": 7064,
+      "sent_id": 20113,
+      "expression": "man with irish shirt",
+      "mask_id": 1,
+      "annotation_id": 191496,
+      "prediction_id": "refcoco-val-500982:1",
+      "gt_segmentation_sha256": "970d004749bc98beab6b041e8c23c07d2abe028f336a96d26698b50a005c3a70",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    16565,
+    15341
+  ],
+  "union": [
+    20253,
+    16489
+  ],
+  "mask_file": "refcoco-val-500982.npz",
+  "mask_sha256": "b461a2c00718f51de48ca14803176e90cafb90363126cd062056e1781e373c2d",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013084372000093936,
+    "inference_s": 2.2374854419999792,
+    "postprocess_s": 0.0014274059999479505,
+    "amortized_inference_s_per_selected_expression": 1.1187427209999896,
+    "mask_write_s": 0.012590775000035137
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820534784,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283956224
+  },
+  "output_bytes": 4288,
+  "stage_created": "full-validation",
+  "record_hash": "d587183e29ef7f12a93d4a94301fa8d44b6c223d39c3bd9236b7e26bef06ea59",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

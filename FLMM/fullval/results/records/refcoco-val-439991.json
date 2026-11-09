@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-439991",
+  "sample_hash": "0d41e5b7bd8b63d657ba9d2adc4012ff83ac2b3514ba31691c8c19bda2c5c6f8",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 439991,
+  "dataset_index": 1063,
+  "expressions": [
+    {
+      "image_id": 439991,
+      "dataset_index": 1063,
+      "ref_id": 12385,
+      "sent_id": 35237,
+      "expression": "the bus.",
+      "mask_id": 0,
+      "annotation_id": 366035,
+      "prediction_id": "refcoco-val-439991:0",
+      "gt_segmentation_sha256": "22ecd71cec16205a7123db21aec7931aeaf4dde3969734d8d2ece6d1b6931edb",
+      "category_id": 6
+    }
+  ],
+  "intersection": [
+    54542
+  ],
+  "union": [
+    57000
+  ],
+  "mask_file": "refcoco-val-439991.npz",
+  "mask_sha256": "368943bd2603d7624626399a54dc6f81494625f7eabe2eae7af9064bc324fb96",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.013334392000047046,
+    "inference_s": 2.0509679259999984,
+    "postprocess_s": 0.0008555379999961588,
+    "amortized_inference_s_per_selected_expression": 2.0509679259999984,
+    "mask_write_s": 0.01072545399995306
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814746112,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6300438528
+  },
+  "output_bytes": 4754,
+  "stage_created": "full-validation",
+  "record_hash": "6ed3d36edf68d31b3dea985571bbfae7698f6e5731933e342979ec86145b2e1c",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

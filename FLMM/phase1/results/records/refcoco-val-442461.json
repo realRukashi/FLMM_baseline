@@ -1,0 +1,75 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-442461",
+  "sample_hash": "7497af85995a7ab1db961ce146dfb65d7af023366692fb28a76520e0ac97242c",
+  "fingerprint": "7b0a0f19a4148190b500d8b050454fb48beeb2b73382073930afe71fa53277a4",
+  "image_id": 442461,
+  "dataset_index": 17,
+  "expressions": [
+    {
+      "image_id": 442461,
+      "dataset_index": 17,
+      "ref_id": 12198,
+      "sent_id": 34718,
+      "expression": "middle woman",
+      "mask_id": 0,
+      "annotation_id": 1738112,
+      "prediction_id": "refcoco-val-442461:0",
+      "gt_segmentation_sha256": "c509b4e0d6a567a7938fceadee0e6a0dc69d1cbe42fda00c852c1c6c9f8f1aa4",
+      "category_id": 1
+    },
+    {
+      "image_id": 442461,
+      "dataset_index": 17,
+      "ref_id": 12199,
+      "sent_id": 34720,
+      "expression": "girl to far left",
+      "mask_id": 1,
+      "annotation_id": 463841,
+      "prediction_id": "refcoco-val-442461:1",
+      "gt_segmentation_sha256": "deaa7cab6ac76ecae3dc257468dcd7e9f97186fe3659356a94d06aa4f988cc8b",
+      "category_id": 1
+    },
+    {
+      "image_id": 442461,
+      "dataset_index": 17,
+      "ref_id": 12200,
+      "sent_id": 34723,
+      "expression": "red coat",
+      "mask_id": 2,
+      "annotation_id": 430773,
+      "prediction_id": "refcoco-val-442461:2",
+      "gt_segmentation_sha256": "c34bab96a404715918d60bbbb109035cd83174f505e7b6fc6f5a11c1b83a1964",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    38298,
+    46616,
+    76352
+  ],
+  "union": [
+    42380,
+    48824,
+    87804
+  ],
+  "mask_file": "refcoco-val-442461.npz",
+  "mask_sha256": "e375b495313d9729ed6ffc73191065bb0880005a0606c665bac038b3764ef097",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.014813916999969479,
+    "inference_s": 2.330523921000008,
+    "postprocess_s": 0.0022937139999612555,
+    "amortized_inference_s_per_selected_expression": 0.7768413070000028,
+    "mask_write_s": 0.0240808470000502
+  },
+  "memory": {
+    "peak_allocated_bytes": 8832655872,
+    "peak_reserved_bytes": 9791602688,
+    "allocated_after_bytes": 5455587328,
+    "ram_rss_bytes": 7754342400
+  },
+  "output_bytes": 13871,
+  "stage_created": "regression",
+  "record_hash": "01b99086ae4b9e842b7c1e85bbc3993c2e0d26b6565db2726869dcba9efdcfed"
+}

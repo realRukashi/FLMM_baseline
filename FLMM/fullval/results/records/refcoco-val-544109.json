@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-544109",
+  "sample_hash": "d0130b99e146fa2d1137ba13178f8c2c3e7ace62a60d08530be38ec4a23e9cf9",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 544109,
+  "dataset_index": 642,
+  "expressions": [
+    {
+      "image_id": 544109,
+      "dataset_index": 642,
+      "ref_id": 3343,
+      "sent_id": 9542,
+      "expression": "woman sitting on floor with legs apart",
+      "mask_id": 0,
+      "annotation_id": 1726734,
+      "prediction_id": "refcoco-val-544109:0",
+      "gt_segmentation_sha256": "8681124a034174ac9f888e35095579ce6d642a16bd0e5501b6179a99f69d1542",
+      "category_id": 1
+    },
+    {
+      "image_id": 544109,
+      "dataset_index": 642,
+      "ref_id": 3344,
+      "sent_id": 9545,
+      "expression": "lady top",
+      "mask_id": 1,
+      "annotation_id": 463745,
+      "prediction_id": "refcoco-val-544109:1",
+      "gt_segmentation_sha256": "7b832288ca75e7d1767114f10f85172b2b2f5c2db44e5148b5d52c9d8b136510",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    23129,
+    10205
+  ],
+  "union": [
+    25883,
+    11347
+  ],
+  "mask_file": "refcoco-val-544109.npz",
+  "mask_sha256": "99d5212ebda6c6356e48bb7269c062d91d54525d4f4e78c81ad661e44f29c62d",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01653595100003713,
+    "inference_s": 2.1803602920000458,
+    "postprocess_s": 0.0015275230000497686,
+    "amortized_inference_s_per_selected_expression": 1.0901801460000229,
+    "mask_write_s": 0.011697684000068875
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818310144,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6295273472
+  },
+  "output_bytes": 4755,
+  "stage_created": "full-validation",
+  "record_hash": "390e33e5a4014b14dfa75cd975c3a5b100fe73df8f41e410440aa9de1040c684",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

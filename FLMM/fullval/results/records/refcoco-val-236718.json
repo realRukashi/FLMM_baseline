@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-236718",
+  "sample_hash": "1092743d703ae15282a2f7cb8d4f7ca12d7427e79a8c28d7b4d87f498b4d8c88",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 236718,
+  "dataset_index": 1348,
+  "expressions": [
+    {
+      "image_id": 236718,
+      "dataset_index": 1348,
+      "ref_id": 29938,
+      "sent_id": 85131,
+      "expression": "top left plaid chair",
+      "mask_id": 0,
+      "annotation_id": 115518,
+      "prediction_id": "refcoco-val-236718:0",
+      "gt_segmentation_sha256": "5b51c1517b2c37772af0ae4b2ba440c806535a9d118a7785c1ad40c24f09e071",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    14601
+  ],
+  "union": [
+    19553
+  ],
+  "mask_file": "refcoco-val-236718.npz",
+  "mask_sha256": "f101e24ef4426c1ad8d8bd93f3aef6534b79bf83688f93a4218af62603553c19",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.012376565000067785,
+    "inference_s": 2.1383980150001207,
+    "postprocess_s": 0.0008505969999532681,
+    "amortized_inference_s_per_selected_expression": 2.1383980150001207,
+    "mask_write_s": 0.008338555999898745
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814778880,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6297735168
+  },
+  "output_bytes": 2452,
+  "stage_created": "full-validation",
+  "record_hash": "35c7b7c653ee0ad9862375c50ee8ee9dbfece189a0fbc15c68dd77249ebe279c",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

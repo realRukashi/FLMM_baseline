@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.mplconfig/
+.env
+.env.*
+!.env.example
+kaggle.json
+*.pem
+*.key
+.DS_Store
+Thumbs.db

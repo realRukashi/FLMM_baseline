@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-260129",
+  "sample_hash": "c5af1ea61bc02c646cd9d83dca9a7d48c6a47e4d2f0399c01b8c81d21d16b285",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 260129,
+  "dataset_index": 1128,
+  "expressions": [
+    {
+      "image_id": 260129,
+      "dataset_index": 1128,
+      "ref_id": 27911,
+      "sent_id": 79390,
+      "expression": "lady in orange",
+      "mask_id": 0,
+      "annotation_id": 474872,
+      "prediction_id": "refcoco-val-260129:0",
+      "gt_segmentation_sha256": "0c9a5cbe1510751a1e2617f8a74e5cbde306cbe7be370a46f8e576d8f41e40d6",
+      "category_id": 1
+    },
+    {
+      "image_id": 260129,
+      "dataset_index": 1128,
+      "ref_id": 27912,
+      "sent_id": 79393,
+      "expression": "guy looking at phone",
+      "mask_id": 1,
+      "annotation_id": 432148,
+      "prediction_id": "refcoco-val-260129:1",
+      "gt_segmentation_sha256": "c341b31199b30391899524a8014c28dc155797e4bbeb51ef63e20777e5e5d24d",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    16948,
+    22516
+  ],
+  "union": [
+    25555,
+    25481
+  ],
+  "mask_file": "refcoco-val-260129.npz",
+  "mask_sha256": "c5fec7afb923cb65bcaedf39963f577ba0e12809675ca7be29e9e8af9bd48de5",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013206060000015896,
+    "inference_s": 2.101416960999927,
+    "postprocess_s": 0.002164042000003974,
+    "amortized_inference_s_per_selected_expression": 1.0507084804999636,
+    "mask_write_s": 0.016063973000086662
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818656256,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6296907776
+  },
+  "output_bytes": 5724,
+  "stage_created": "full-validation",
+  "record_hash": "b5e5d8c7c34e9d0eff23f765dc7168b12d3c7ac4be0fddfd4849c38e23f38041",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

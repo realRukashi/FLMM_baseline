@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-80634",
+  "sample_hash": "9343b3bbf1792f971e8d34119c8c1c9ef31f3ab920c739b9c069695528dd13cf",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 80634,
+  "dataset_index": 1271,
+  "expressions": [
+    {
+      "image_id": 80634,
+      "dataset_index": 1271,
+      "ref_id": 42956,
+      "sent_id": 122118,
+      "expression": "the two slices of pizza on the right towards the top of the photo",
+      "mask_id": 0,
+      "annotation_id": 1075200,
+      "prediction_id": "refcoco-val-80634:0",
+      "gt_segmentation_sha256": "47fa722d37de21904bd76d930df7c7a142981e35d709547cca35449ccc283337",
+      "category_id": 59
+    },
+    {
+      "image_id": 80634,
+      "dataset_index": 1271,
+      "ref_id": 42957,
+      "sent_id": 122121,
+      "expression": "left side of pizza",
+      "mask_id": 1,
+      "annotation_id": 1074814,
+      "prediction_id": "refcoco-val-80634:1",
+      "gt_segmentation_sha256": "3fee29caa5d450153557149ab67851698e665902ff21163c8ad6e6c071627169",
+      "category_id": 59
+    },
+    {
+      "image_id": 80634,
+      "dataset_index": 1271,
+      "ref_id": 42958,
+      "sent_id": 122124,
+      "expression": "pizza slice at 4 o'clock",
+      "mask_id": 2,
+      "annotation_id": 2188874,
+      "prediction_id": "refcoco-val-80634:2",
+      "gt_segmentation_sha256": "02a41ba495a7ed7ada5c06fcc5f67d919e2a25b9e109393a91346b33c677ea10",
+      "category_id": 59
+    },
+    {
+      "image_id": 80634,
+      "dataset_index": 1271,
+      "ref_id": 42959,
+      "sent_id": 122126,
+      "expression": "bottom slice",
+      "mask_id": 3,
+      "annotation_id": 1074511,
+      "prediction_id": "refcoco-val-80634:3",
+      "gt_segmentation_sha256": "d7ca79cfbba92a3b5e986c3f74581ae68c1ff6aebfaf6a6b1dd605f17742d21e",
+      "category_id": 59
+    }
+  ],
+  "intersection": [
+    26545,
+    31995,
+    19033,
+    15307
+  ],
+  "union": [
+    60007,
+    53608,
+    33656,
+    28306
+  ],
+  "mask_file": "refcoco-val-80634.npz",
+  "mask_sha256": "531b9a40b2738b41dec5eda754862e2de0cb17c9e26540b7365f0b2b053b8181",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.023971672000016042,
+    "inference_s": 2.4523607500000253,
+    "postprocess_s": 0.0026377570000022388,
+    "amortized_inference_s_per_selected_expression": 0.6130901875000063,
+    "mask_write_s": 0.027619829000059326
+  },
+  "memory": {
+    "peak_allocated_bytes": 8827510272,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448558592,
+    "ram_rss_bytes": 6300712960
+  },
+  "output_bytes": 16323,
+  "stage_created": "full-validation",
+  "record_hash": "2711bde69e89b46f079aa3d29b0ac148d009b4f1e4198bdc1c2613a1b27d5127",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

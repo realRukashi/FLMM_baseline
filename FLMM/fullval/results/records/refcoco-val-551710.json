@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-551710",
+  "sample_hash": "f1fa220e4f100876fbef2ad180acdfabbcbebacea676ba69827a5fa37ac0c11d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 551710,
+  "dataset_index": 525,
+  "expressions": [
+    {
+      "image_id": 551710,
+      "dataset_index": 525,
+      "ref_id": 2672,
+      "sent_id": 7633,
+      "expression": "man in right front with blue tie next to older woman",
+      "mask_id": 0,
+      "annotation_id": 1301615,
+      "prediction_id": "refcoco-val-551710:0",
+      "gt_segmentation_sha256": "bdceee60abc2bd23d5cebd6167061b48e47849637e23b25ab818198261a84a25",
+      "category_id": 1
+    },
+    {
+      "image_id": 551710,
+      "dataset_index": 525,
+      "ref_id": 2673,
+      "sent_id": 7636,
+      "expression": "front right woman in dark clothes",
+      "mask_id": 1,
+      "annotation_id": 1256379,
+      "prediction_id": "refcoco-val-551710:1",
+      "gt_segmentation_sha256": "90ae21f912a8a102fdb7038def1fbeabb965842e4bfcb20a705a01e632d2777f",
+      "category_id": 1
+    },
+    {
+      "image_id": 551710,
+      "dataset_index": 525,
+      "ref_id": 2674,
+      "sent_id": 7639,
+      "expression": "lady pink skirt",
+      "mask_id": 2,
+      "annotation_id": 1255210,
+      "prediction_id": "refcoco-val-551710:2",
+      "gt_segmentation_sha256": "c24bfbc76215cb7d485ddb77dd83a9c4470fe670aa50365dd7c798dff88908eb",
+      "category_id": 1
+    },
+    {
+      "image_id": 551710,
+      "dataset_index": 525,
+      "ref_id": 2675,
+      "sent_id": 7641,
+      "expression": "bride throwing boquet",
+      "mask_id": 3,
+      "annotation_id": 1242701,
+      "prediction_id": "refcoco-val-551710:3",
+      "gt_segmentation_sha256": "f82a3c89ee2b7c47d4024f54e93fcee7e3137becd9f29f3d54e74eff9cf2e1db",
+      "category_id": 1
+    },
+    {
+      "image_id": 551710,
+      "dataset_index": 525,
+      "ref_id": 2676,
+      "sent_id": 7644,
+      "expression": "guy 2nd from left",
+      "mask_id": 4,
+      "annotation_id": 1328870,
+      "prediction_id": "refcoco-val-551710:4",
+      "gt_segmentation_sha256": "e5c6adaa9c07d4928198c6eb797c84546f543ea395058d1d202cd414e0231084",
+      "category_id": 1
+    },
+    {
+      "image_id": 551710,
+      "dataset_index": 525,
+      "ref_id": 2677,
+      "sent_id": 7647,
+      "expression": "girl on the left in the front",
+      "mask_id": 5,
+      "annotation_id": 1328613,
+      "prediction_id": "refcoco-val-551710:5",
+      "gt_segmentation_sha256": "960bd030f446d3f0b65923a548f732989dd69ddf2e1080b3c7a02398e2329280",
+      "category_id": 1
+    },
+    {
+      "image_id": 551710,
+      "dataset_index": 525,
+      "ref_id": 2678,
+      "sent_id": 7650,
+      "expression": "guy front gray suit left",
+      "mask_id": 6,
+      "annotation_id": 1327075,
+      "prediction_id": "refcoco-val-551710:6",
+      "gt_segmentation_sha256": "e948ba76cde6849a05fd676e5590f6673157d5a6875934bbac8012a4e160ae4f",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    434,
+    13417,
+    8282,
+    277,
+    11659,
+    25572,
+    15717
+  ],
+  "union": [
+    25952,
+    15436,
+    12277,
+    19969,
+    15714,
+    27869,
+    18226
+  ],
+  "mask_file": "refcoco-val-551710.npz",
+  "mask_sha256": "dd73dfbbdf4b772bd84ffa2071e82d86bd2ab34e1e00f97866aceb9be789ab93",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.023745208000036655,
+    "inference_s": 2.0682437159999836,
+    "postprocess_s": 0.004549815000018498,
+    "amortized_inference_s_per_selected_expression": 0.29546338799999766,
+    "mask_write_s": 0.030338174999997136
+  },
+  "memory": {
+    "peak_allocated_bytes": 8843680256,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5452269568,
+    "ram_rss_bytes": 6293860352
+  },
+  "output_bytes": 17884,
+  "stage_created": "full-validation",
+  "record_hash": "0b856d32c19b79b5989730469a22d744b199d4190db5ee96c75b4283bc0610c8",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

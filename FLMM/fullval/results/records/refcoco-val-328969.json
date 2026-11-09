@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-328969",
+  "sample_hash": "87d93caa5663b5a7be548b08bffdbd51b8ed5dee4af61e17744df280e3350009",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 328969,
+  "dataset_index": 228,
+  "expressions": [
+    {
+      "image_id": 328969,
+      "dataset_index": 228,
+      "ref_id": 21869,
+      "sent_id": 62194,
+      "expression": "submit",
+      "mask_id": 0,
+      "annotation_id": 1924701,
+      "prediction_id": "refcoco-val-328969:0",
+      "gt_segmentation_sha256": "bba1c6837cd4595bdd7b756a991579b052addb95ee06d9ebdeaf6dd7629de882",
+      "category_id": 60
+    },
+    {
+      "image_id": 328969,
+      "dataset_index": 228,
+      "ref_id": 21870,
+      "sent_id": 62196,
+      "expression": "doughnut on left, second from front",
+      "mask_id": 1,
+      "annotation_id": 1573135,
+      "prediction_id": "refcoco-val-328969:1",
+      "gt_segmentation_sha256": "e917c75204e825d0f8c831bf7732fad8cd1179243322d3a0f193568f5e1b1bcc",
+      "category_id": 60
+    },
+    {
+      "image_id": 328969,
+      "dataset_index": 228,
+      "ref_id": 21871,
+      "sent_id": 62198,
+      "expression": "donuts in a showcase",
+      "mask_id": 2,
+      "annotation_id": 1081886,
+      "prediction_id": "refcoco-val-328969:2",
+      "gt_segmentation_sha256": "97e634f25924c58f965cde5683769be9e3de7b2e0e471a570fc46db872a2b697",
+      "category_id": 60
+    },
+    {
+      "image_id": 328969,
+      "dataset_index": 228,
+      "ref_id": 21872,
+      "sent_id": 62201,
+      "expression": "donut with dark sprinkles and white icing",
+      "mask_id": 3,
+      "annotation_id": 1081834,
+      "prediction_id": "refcoco-val-328969:3",
+      "gt_segmentation_sha256": "2dbe259ee5269080903aeb9781cb25224b8eaf1ba1c6723f375620c33cf70080",
+      "category_id": 60
+    },
+    {
+      "image_id": 328969,
+      "dataset_index": 228,
+      "ref_id": 21873,
+      "sent_id": 62204,
+      "expression": "choc no topping",
+      "mask_id": 4,
+      "annotation_id": 1080114,
+      "prediction_id": "refcoco-val-328969:4",
+      "gt_segmentation_sha256": "c80b3ee8f75cc3d09803692ac685a84e121e6bc80d20abd3b6625bc4221b9957",
+      "category_id": 60
+    }
+  ],
+  "intersection": [
+    0,
+    17541,
+    3078,
+    201,
+    0
+  ],
+  "union": [
+    46458,
+    19877,
+    110099,
+    33010,
+    51458
+  ],
+  "mask_file": "refcoco-val-328969.npz",
+  "mask_sha256": "69601a41c7b2f277ab2ae3b8ca31020ba6c1979ee2d4e6655047e6ad04bc2a74",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.01998173099991618,
+    "inference_s": 2.777984101999891,
+    "postprocess_s": 0.0037930319999759377,
+    "amortized_inference_s_per_selected_expression": 0.5555968203999783,
+    "mask_write_s": 0.03384800000003452
+  },
+  "memory": {
+    "peak_allocated_bytes": 8834211328,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449811968,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 15376,
+  "stage_created": "full-validation",
+  "record_hash": "5c008d35b56e5b90a4e439435e4a74f4714678460fba28f7837172ed1e4e6fca",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

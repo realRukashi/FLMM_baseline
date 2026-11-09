@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-428117",
+  "sample_hash": "cb25ec6d17aebe9dc3e5c8d548c893970045106be59e5d80d3324945deac1a11",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 428117,
+  "dataset_index": 386,
+  "expressions": [
+    {
+      "image_id": 428117,
+      "dataset_index": 386,
+      "ref_id": 13346,
+      "sent_id": 37966,
+      "expression": "girls legs in red/pink pants",
+      "mask_id": 0,
+      "annotation_id": 225244,
+      "prediction_id": "refcoco-val-428117:0",
+      "gt_segmentation_sha256": "7e08f5689f46a7e934bf045e4018699f1cd80e334c0aaa21d290a5ec52ddfa2d",
+      "category_id": 1
+    },
+    {
+      "image_id": 428117,
+      "dataset_index": 386,
+      "ref_id": 13347,
+      "sent_id": 37969,
+      "expression": "man in chair on right",
+      "mask_id": 1,
+      "annotation_id": 214475,
+      "prediction_id": "refcoco-val-428117:1",
+      "gt_segmentation_sha256": "ccf59f02ac440d2127c414915dcd9086482b9d513007e24cfbe054a15720088f",
+      "category_id": 1
+    },
+    {
+      "image_id": 428117,
+      "dataset_index": 386,
+      "ref_id": 13348,
+      "sent_id": 37972,
+      "expression": "green shirt",
+      "mask_id": 2,
+      "annotation_id": 186990,
+      "prediction_id": "refcoco-val-428117:2",
+      "gt_segmentation_sha256": "b2a941b2d1d0e30316f3cc64943bc8b6d6092b77020b808bf4115ed2c4272601",
+      "category_id": 1
+    },
+    {
+      "image_id": 428117,
+      "dataset_index": 386,
+      "ref_id": 13349,
+      "sent_id": 37975,
+      "expression": "purple pantsuit",
+      "mask_id": 3,
+      "annotation_id": 2153532,
+      "prediction_id": "refcoco-val-428117:3",
+      "gt_segmentation_sha256": "337c7f4cb832c267142a9608780b248eca3a691c816e89543f26be25bbb14f97",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10430,
+    16379,
+    41704,
+    17974
+  ],
+  "union": [
+    11769,
+    20760,
+    44826,
+    20085
+  ],
+  "mask_file": "refcoco-val-428117.npz",
+  "mask_sha256": "ae06f1478898c793a3dcb67ad0ad6767fce5c101993abc7b811ff211d414dfcf",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.02520670599983532,
+    "inference_s": 2.771739144000094,
+    "postprocess_s": 0.003120255000112593,
+    "amortized_inference_s_per_selected_expression": 0.6929347860000235,
+    "mask_write_s": 0.024934817000030307
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829116928,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 11120,
+  "stage_created": "full-validation",
+  "record_hash": "2e60546d3facf1fd784090a15bf1b8105d95ad8808f17a2b5802b8abc3044a2e",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

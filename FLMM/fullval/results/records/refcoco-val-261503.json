@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-261503",
+  "sample_hash": "8bf35b6f5ce1cc92963c9e5f09ea6a06d91ee2da3f67ce0f0c82a1c2e85a2b64",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 261503,
+  "dataset_index": 1394,
+  "expressions": [
+    {
+      "image_id": 261503,
+      "dataset_index": 1394,
+      "ref_id": 27780,
+      "sent_id": 79008,
+      "expression": "top left red apple",
+      "mask_id": 0,
+      "annotation_id": 1906451,
+      "prediction_id": "refcoco-val-261503:0",
+      "gt_segmentation_sha256": "31bad2f625238eaf4252fda60a7c8aff057f44465ccfa226271e2d63b6ce25f7",
+      "category_id": 53
+    },
+    {
+      "image_id": 261503,
+      "dataset_index": 1394,
+      "ref_id": 27781,
+      "sent_id": 79010,
+      "expression": "a grop of fruits there is two red apples next to eachother",
+      "mask_id": 1,
+      "annotation_id": 1049266,
+      "prediction_id": "refcoco-val-261503:1",
+      "gt_segmentation_sha256": "f93644df09f5c1f732c2d2e9639e83fcdf3c49c02580f4d30f229f273a723521",
+      "category_id": 53
+    }
+  ],
+  "intersection": [
+    10189,
+    6270
+  ],
+  "union": [
+    10585,
+    66695
+  ],
+  "mask_file": "refcoco-val-261503.npz",
+  "mask_sha256": "96c6aa56f10d9764e48ffe6a734c956ffeabf8df5df21f2472d88ebc1e36aa23",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014798547000054896,
+    "inference_s": 2.1585339060000024,
+    "postprocess_s": 0.0016813160000310745,
+    "amortized_inference_s_per_selected_expression": 1.0792669530000012,
+    "mask_write_s": 0.015810986000133198
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820417024,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6297788416
+  },
+  "output_bytes": 8588,
+  "stage_created": "full-validation",
+  "record_hash": "72626e8ca0a592dcd89bd170bd8ffd4c2a9e3303d83ccf6b08c7bce037ba203e",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

@@ -1,0 +1,137 @@
+{
+  "status": "PARTIAL",
+  "chunk": 1,
+  "requested_prefix": 500,
+  "completed_images": 534,
+  "selected_masks": 1362,
+  "remaining_images": 966,
+  "metrics": {
+    "status": "PARTIAL",
+    "split": "RefCOCO UNC val",
+    "unit": "first sentence per reference, concatenated by image",
+    "expected_images": 1500,
+    "expected_selected_masks": 3811,
+    "official_refseg_metric": {
+      "cIoU": 74.66717529296875,
+      "mIoU": 76.9872055053711
+    },
+    "independently_recomputed": {
+      "image_count": 534,
+      "mask_count": 1362,
+      "intersection": 37206239,
+      "union": 49829445,
+      "cIoU": 74.66717520132926,
+      "mIoU": 76.98715965162991
+    }
+  },
+  "workers": [
+    {
+      "status": "PASS",
+      "stage": "full-validation",
+      "requested_images": 250,
+      "validated_done": 250,
+      "newly_evaluated": 233,
+      "reused_done": 17,
+      "failures": [],
+      "wall_s": 710.664672934,
+      "metrics": {
+        "image_count": 250,
+        "mask_count": 641,
+        "intersection": 16750223,
+        "union": 22741161,
+        "cIoU": 73.65597121448637,
+        "mIoU": 76.61592515090776
+      },
+      "physical_gpu_index": 1,
+      "cold_model_load_s": 801.804737151,
+      "warmup_s": 3.6942867769998884
+    },
+    {
+      "status": "PASS",
+      "stage": "full-validation",
+      "requested_images": 250,
+      "validated_done": 250,
+      "newly_evaluated": 231,
+      "reused_done": 19,
+      "failures": [],
+      "wall_s": 819.3906501719998,
+      "metrics": {
+        "image_count": 250,
+        "mask_count": 635,
+        "intersection": 17394242,
+        "union": 23278011,
+        "cIoU": 74.7239186372066,
+        "mIoU": 77.03493660863961
+      },
+      "physical_gpu_index": 0,
+      "cold_model_load_s": 801.7813877159999,
+      "warmup_s": 3.6943822040000214
+    }
+  ],
+  "resumed_from": null,
+  "session_elapsed_s": 1907.6783187389374,
+  "chunk_history": [
+    {
+      "chunk": 1,
+      "completed_images": 534,
+      "session_elapsed_s": 1907.6782257556915,
+      "new_image_inferences": 464,
+      "worker_summaries": [
+        {
+          "status": "PASS",
+          "stage": "full-validation",
+          "requested_images": 250,
+          "validated_done": 250,
+          "newly_evaluated": 233,
+          "reused_done": 17,
+          "failures": [],
+          "wall_s": 710.664672934,
+          "metrics": {
+            "image_count": 250,
+            "mask_count": 641,
+            "intersection": 16750223,
+            "union": 22741161,
+            "cIoU": 73.65597121448637,
+            "mIoU": 76.61592515090776
+          },
+          "physical_gpu_index": 1,
+          "cold_model_load_s": 801.804737151,
+          "warmup_s": 3.6942867769998884
+        },
+        {
+          "status": "PASS",
+          "stage": "full-validation",
+          "requested_images": 250,
+          "validated_done": 250,
+          "newly_evaluated": 231,
+          "reused_done": 19,
+          "failures": [],
+          "wall_s": 819.3906501719998,
+          "metrics": {
+            "image_count": 250,
+            "mask_count": 635,
+            "intersection": 17394242,
+            "union": 23278011,
+            "cIoU": 74.7239186372066,
+            "mIoU": 77.03493660863961
+          },
+          "physical_gpu_index": 0,
+          "cold_model_load_s": 801.7813877159999,
+          "warmup_s": 3.6943822040000214
+        }
+      ]
+    }
+  ],
+  "full_validation_complete": false,
+  "all_10834_expressions_evaluated": false,
+  "precision": "BF16 DeepSeekVL, FP32 grounding/SAM, math SDPA/manual attention fallback as G0",
+  "source_hashes": {
+    "engine.py": "2a024735f51c2a85412b0cd4da11bb2c185039d2beae8c05d14c8bdaa88c95d1",
+    "common.py": "3ae35cd2ab9c0f11a5806fa6cf150c8628253eaf1c2e0f4431d9300862d21d22",
+    "full_worker.py": "de64be830b2b99dc22a597ec8068afbd817fdf5604c6a44487b8df7ca96e3dc3",
+    "full_control.py": "97e0057dfbc228a5c8ea2d83a8c7a7d98aa3401139dc04b081a6b4869e3a4cca",
+    "full_finalize.py": "291c746e7f6b64b5d1dee8e24500e7f9df0b3753d068b75dc581fe83c3107576"
+  },
+  "resume_note": "Only validated matching DONE records skipped; completed chunk outputs are cross-session durable. Hard loss before artifact commit may require rerunning current uncommitted chunk.",
+  "holdout_note": "Full validation includes the former internal holdout; it must not be treated as untouched for future method selection. No improvement/tuning in this run."
+}

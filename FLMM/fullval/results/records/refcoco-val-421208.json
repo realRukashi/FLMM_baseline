@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-421208",
+  "sample_hash": "ed0996cb0a6a018fad71d7639a198b0310e3605d2ab06b251278ac5197bbdd22",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 421208,
+  "dataset_index": 638,
+  "expressions": [
+    {
+      "image_id": 421208,
+      "dataset_index": 638,
+      "ref_id": 14012,
+      "sent_id": 39874,
+      "expression": "left zebra",
+      "mask_id": 0,
+      "annotation_id": 588499,
+      "prediction_id": "refcoco-val-421208:0",
+      "gt_segmentation_sha256": "9595e6d3b6166fba4bd6c3cee4d5038d64e7605956eeeb3399fd2677040cfac7",
+      "category_id": 24
+    }
+  ],
+  "intersection": [
+    43585
+  ],
+  "union": [
+    55770
+  ],
+  "mask_file": "refcoco-val-421208.npz",
+  "mask_sha256": "bc5f133225e36c540e767547cb30e7a2479991deb01ed2d727952bcf81d073df",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.015183489000037298,
+    "inference_s": 2.171844439000097,
+    "postprocess_s": 0.0010986539999748857,
+    "amortized_inference_s_per_selected_expression": 2.171844439000097,
+    "mask_write_s": 0.011534965000009834
+  },
+  "memory": {
+    "peak_allocated_bytes": 8816232960,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6295273472
+  },
+  "output_bytes": 5335,
+  "stage_created": "full-validation",
+  "record_hash": "34819713bca07d505d40bbd45b23246e609261b9e6fe02dd66618e2907cbea31",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-122667",
+  "sample_hash": "6a629668cf6fa84c2a5c12e59595fa28ced6eae1b58f23d6f606b356e7341526",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 122667,
+  "dataset_index": 1463,
+  "expressions": [
+    {
+      "image_id": 122667,
+      "dataset_index": 1463,
+      "ref_id": 39439,
+      "sent_id": 112140,
+      "expression": "far left green",
+      "mask_id": 0,
+      "annotation_id": 1313092,
+      "prediction_id": "refcoco-val-122667:0",
+      "gt_segmentation_sha256": "44610d9464ac69b16aca02d8ef4521e18a78b1f3bce9c8e7db5dbce168f7078a",
+      "category_id": 1
+    },
+    {
+      "image_id": 122667,
+      "dataset_index": 1463,
+      "ref_id": 39440,
+      "sent_id": 112143,
+      "expression": "top right",
+      "mask_id": 1,
+      "annotation_id": 1276153,
+      "prediction_id": "refcoco-val-122667:1",
+      "gt_segmentation_sha256": "c1bffa3cc17276458feb682f083d1b9241b4b59f7f90b79f4109b1551b0ca52d",
+      "category_id": 1
+    },
+    {
+      "image_id": 122667,
+      "dataset_index": 1463,
+      "ref_id": 39441,
+      "sent_id": 112146,
+      "expression": "farleft btoom second kid",
+      "mask_id": 2,
+      "annotation_id": 1272058,
+      "prediction_id": "refcoco-val-122667:2",
+      "gt_segmentation_sha256": "e98f733ae48f88517cce76cfd50ee9e78b10026297c1c15f15865bc3379f33d4",
+      "category_id": 1
+    },
+    {
+      "image_id": 122667,
+      "dataset_index": 1463,
+      "ref_id": 39442,
+      "sent_id": 112149,
+      "expression": "front row second from right",
+      "mask_id": 3,
+      "annotation_id": 1216848,
+      "prediction_id": "refcoco-val-122667:3",
+      "gt_segmentation_sha256": "436704e4abc5f48fbf7a0817badf9bf0209e8b35bdc3c78f3e1efc7686c10941",
+      "category_id": 1
+    },
+    {
+      "image_id": 122667,
+      "dataset_index": 1463,
+      "ref_id": 39443,
+      "sent_id": 112152,
+      "expression": "2nd person from right",
+      "mask_id": 4,
+      "annotation_id": 2162545,
+      "prediction_id": "refcoco-val-122667:4",
+      "gt_segmentation_sha256": "ec641a8dc8d6afeb471e2873111decc1d5e3bc6ba2190d7946fd512e1140798d",
+      "category_id": 1
+    },
+    {
+      "image_id": 122667,
+      "dataset_index": 1463,
+      "ref_id": 39444,
+      "sent_id": 112155,
+      "expression": "bottom row of boys: left one",
+      "mask_id": 5,
+      "annotation_id": 1332579,
+      "prediction_id": "refcoco-val-122667:5",
+      "gt_segmentation_sha256": "81aa060e88d68f3a8fc52d176a01922a80f0fc43db80a09393ab65b3e8a56bd9",
+      "category_id": 1
+    },
+    {
+      "image_id": 122667,
+      "dataset_index": 1463,
+      "ref_id": 39445,
+      "sent_id": 112157,
+      "expression": "standing, third from left",
+      "mask_id": 6,
+      "annotation_id": 1331470,
+      "prediction_id": "refcoco-val-122667:6",
+      "gt_segmentation_sha256": "ffaa3151a4c59ee387f6b989f5abf8c2d61c455daaee5d8c4f65ce1a0fcbd9f2",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    23396,
+    14219,
+    54,
+    10956,
+    2,
+    15655,
+    6495
+  ],
+  "union": [
+    25068,
+    17487,
+    28900,
+    13955,
+    23746,
+    17018,
+    12282
+  ],
+  "mask_file": "refcoco-val-122667.npz",
+  "mask_sha256": "6fb1a22cb25a1363c1a9869ae16c63a84f74fd87d51f5c22be2c15272f418bdb",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.02009847199997239,
+    "inference_s": 2.495209435999868,
+    "postprocess_s": 0.004400624000027165,
+    "amortized_inference_s_per_selected_expression": 0.35645849085712406,
+    "mask_write_s": 0.027728365000029953
+  },
+  "memory": {
+    "peak_allocated_bytes": 8839862272,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451319808,
+    "ram_rss_bytes": 6301458432
+  },
+  "output_bytes": 17652,
+  "stage_created": "full-validation",
+  "record_hash": "43bf5d7f92a0f0ae9f674c53f2f765c4633daebc10977e2477664fb72e239901",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

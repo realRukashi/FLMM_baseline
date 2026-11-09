@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-323149",
+  "sample_hash": "ba9f85e420c8333f75bc831f8e07b5ee6b089b8b7bbd9f10edee51b5383bc38e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 323149,
+  "dataset_index": 678,
+  "expressions": [
+    {
+      "image_id": 323149,
+      "dataset_index": 678,
+      "ref_id": 22465,
+      "sent_id": 63887,
+      "expression": "white car",
+      "mask_id": 0,
+      "annotation_id": 1779758,
+      "prediction_id": "refcoco-val-323149:0",
+      "gt_segmentation_sha256": "341b1d859797194a36e291661ac4eb4c2a12ace639dbb73117a324d280220228",
+      "category_id": 3
+    },
+    {
+      "image_id": 323149,
+      "dataset_index": 678,
+      "ref_id": 22466,
+      "sent_id": 63890,
+      "expression": "plain bicycle next to car",
+      "mask_id": 1,
+      "annotation_id": 1768677,
+      "prediction_id": "refcoco-val-323149:1",
+      "gt_segmentation_sha256": "52ca9f56be32852f5b7f5a8d9673a167f5bd9b7f56037caa4e7f61052ba72dc6",
+      "category_id": 2
+    },
+    {
+      "image_id": 323149,
+      "dataset_index": 678,
+      "ref_id": 22467,
+      "sent_id": 63893,
+      "expression": "center bike?",
+      "mask_id": 2,
+      "annotation_id": 1768502,
+      "prediction_id": "refcoco-val-323149:2",
+      "gt_segmentation_sha256": "31948a4ef46bfa12443c44c11a2ac5d6253c26a8bbf1f891350fc6a6d7732de9",
+      "category_id": 2
+    },
+    {
+      "image_id": 323149,
+      "dataset_index": 678,
+      "ref_id": 22468,
+      "sent_id": 63896,
+      "expression": "black car left",
+      "mask_id": 3,
+      "annotation_id": 1337859,
+      "prediction_id": "refcoco-val-323149:3",
+      "gt_segmentation_sha256": "d5186ad85b766ad21f1f090d05bd10c62ba33772ac68374b21c4261df73eb4dd",
+      "category_id": 3
+    }
+  ],
+  "intersection": [
+    25331,
+    11918,
+    59832,
+    15755
+  ],
+  "union": [
+    27955,
+    21913,
+    115369,
+    20641
+  ],
+  "mask_file": "refcoco-val-323149.npz",
+  "mask_sha256": "374d19ccb25db88b4c36d89ad88f85a83236503ba1ed2dbfd250f837fa11ae44",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.017614876999914486,
+    "inference_s": 2.275037258999987,
+    "postprocess_s": 0.003095452000025034,
+    "amortized_inference_s_per_selected_expression": 0.5687593147499967,
+    "mask_write_s": 0.02563039899996511
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829054464,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448562688,
+    "ram_rss_bytes": 6295363584
+  },
+  "output_bytes": 14282,
+  "stage_created": "full-validation",
+  "record_hash": "178aabb8ba6f48ee5550ae7eeed9abe41a6472f24b5cc4fa2982e74bef7d1357",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

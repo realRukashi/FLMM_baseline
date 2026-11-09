@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "sha256": "abfd4105ae9b6cae85f19b58bf8f3227d3565e420dd2e72a9723c2598953967c",
+  "bytes": 3261390259,
+  "python": "3.10.22",
+  "restore_to": "/kaggle/temp",
+  "freeze_sha256": "bccb4fa8da6ce2e5fb207527b8048c4a24bac56c1a792c96188d18d3a6b847cb"
+}

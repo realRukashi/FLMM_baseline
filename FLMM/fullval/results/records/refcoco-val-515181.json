@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-515181",
+  "sample_hash": "afcda048318625e98922dff3db5188ab4434a49ac60f02b1c8460b3588b2b847",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 515181,
+  "dataset_index": 1337,
+  "expressions": [
+    {
+      "image_id": 515181,
+      "dataset_index": 1337,
+      "ref_id": 5837,
+      "sent_id": 16618,
+      "expression": "person in front red hat and goggles",
+      "mask_id": 0,
+      "annotation_id": 1226988,
+      "prediction_id": "refcoco-val-515181:0",
+      "gt_segmentation_sha256": "6db065701bd7a543358904e6d91a619b1ebb670d17732d21975c9e4a7f9f6bea",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    42765
+  ],
+  "union": [
+    49349
+  ],
+  "mask_file": "refcoco-val-515181.npz",
+  "mask_sha256": "4839771dc760808fdc48604de00f17133de3f7d161957eb3b764e2a24b9ea2dd",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.012512142999867137,
+    "inference_s": 2.4169728519998444,
+    "postprocess_s": 0.0009618950000458426,
+    "amortized_inference_s_per_selected_expression": 2.4169728519998444,
+    "mask_write_s": 0.009762313000010181
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814424576,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6301388800
+  },
+  "output_bytes": 3973,
+  "stage_created": "full-validation",
+  "record_hash": "c43525be25a5cbaa35581e5a4e6821abd95f973081209a5bd0b79f9d637373cd",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

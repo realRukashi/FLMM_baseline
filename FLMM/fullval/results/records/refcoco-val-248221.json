@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-248221",
+  "sample_hash": "dde63dbba7ed476cb1b2d0bc790035567977c6a9f9df92c00e020150ebb2478f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 248221,
+  "dataset_index": 443,
+  "expressions": [
+    {
+      "image_id": 248221,
+      "dataset_index": 443,
+      "ref_id": 28919,
+      "sent_id": 82244,
+      "expression": "haha :) bus on right edge of photo",
+      "mask_id": 0,
+      "annotation_id": 168875,
+      "prediction_id": "refcoco-val-248221:0",
+      "gt_segmentation_sha256": "eb266025eb0954cf26a78ff2f636515ceb3aa95e87f4cf11e411538e5edfdc02",
+      "category_id": 6
+    },
+    {
+      "image_id": 248221,
+      "dataset_index": 443,
+      "ref_id": 28920,
+      "sent_id": 82246,
+      "expression": "closest bus",
+      "mask_id": 1,
+      "annotation_id": 168349,
+      "prediction_id": "refcoco-val-248221:1",
+      "gt_segmentation_sha256": "79da94e1b246092b4bc3b69c3038f3bd2515949c1e45be06ef8a2113c307748b",
+      "category_id": 6
+    }
+  ],
+  "intersection": [
+    27374,
+    70806
+  ],
+  "union": [
+    28114,
+    73457
+  ],
+  "mask_file": "refcoco-val-248221.npz",
+  "mask_sha256": "15b30baecdffaa6b3ba7305d0a78e7c9a46e866d8a6bbc7fee325ee6b0a079c1",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.018771968999999444,
+    "inference_s": 2.24273309299997,
+    "postprocess_s": 0.0018210330001693364,
+    "amortized_inference_s_per_selected_expression": 1.121366546499985,
+    "mask_write_s": 0.018429437999884613
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820428288,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 6478,
+  "stage_created": "full-validation",
+  "record_hash": "4f0586256ff3400fe00872d5d11406effae87633a93a1ff5cb881ad8f79a54ad",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-519626",
+  "sample_hash": "c549044e1827ff8da4b5f0a57d62a8fd05ea0be793cfe6c4897874816fe28481",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 519626,
+  "dataset_index": 658,
+  "expressions": [
+    {
+      "image_id": 519626,
+      "dataset_index": 658,
+      "ref_id": 5387,
+      "sent_id": 15339,
+      "expression": "any slice of pizza",
+      "mask_id": 0,
+      "annotation_id": 1074838,
+      "prediction_id": "refcoco-val-519626:0",
+      "gt_segmentation_sha256": "71c6f6ff29f8142039bebdb1577d44379643dfc5939d27c61400226be9e13775",
+      "category_id": 59
+    },
+    {
+      "image_id": 519626,
+      "dataset_index": 658,
+      "ref_id": 5388,
+      "sent_id": 15342,
+      "expression": "the pizza in the middle.",
+      "mask_id": 1,
+      "annotation_id": 1073426,
+      "prediction_id": "refcoco-val-519626:1",
+      "gt_segmentation_sha256": "894551989b2ddfa1cd123459bd47022639a7863c05335fbe03cb859fd8a26844",
+      "category_id": 59
+    }
+  ],
+  "intersection": [
+    32182,
+    26200
+  ],
+  "union": [
+    142100,
+    29263
+  ],
+  "mask_file": "refcoco-val-519626.npz",
+  "mask_sha256": "2f892741cb8ee7221573407f85d5ee075325a0065b537e193239264c71841396",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.018852731000038148,
+    "inference_s": 2.218860956999947,
+    "postprocess_s": 0.0016072899999244328,
+    "amortized_inference_s_per_selected_expression": 1.1094304784999736,
+    "mask_write_s": 0.02001432899999145
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820428288,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6295363584
+  },
+  "output_bytes": 11668,
+  "stage_created": "full-validation",
+  "record_hash": "93473ac299fc41fd970ca75568291cbea69d020e6da45a1c7cb4b4176c736283",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

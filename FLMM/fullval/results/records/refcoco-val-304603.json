@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-304603",
+  "sample_hash": "bce2351f8ec8f4c1b16a3e908a4bb33de193a02a207567c7d04df33f45c99b7e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 304603,
+  "dataset_index": 271,
+  "expressions": [
+    {
+      "image_id": 304603,
+      "dataset_index": 271,
+      "ref_id": 24205,
+      "sent_id": 68792,
+      "expression": "little boy on left holding wii remote",
+      "mask_id": 0,
+      "annotation_id": 528168,
+      "prediction_id": "refcoco-val-304603:0",
+      "gt_segmentation_sha256": "ceb5946f4ff8aba0ced10a04ee9c745d9ca790ead46831a256615b7c3708803b",
+      "category_id": 1
+    },
+    {
+      "image_id": 304603,
+      "dataset_index": 271,
+      "ref_id": 24206,
+      "sent_id": 68795,
+      "expression": "man",
+      "mask_id": 1,
+      "annotation_id": 455089,
+      "prediction_id": "refcoco-val-304603:1",
+      "gt_segmentation_sha256": "b396d2f02d52ebd0bb58f32ea29517e6bd859b3bddb683e69b3d3bf074f8e596",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    45477,
+    32524
+  ],
+  "union": [
+    48660,
+    42354
+  ],
+  "mask_file": "refcoco-val-304603.npz",
+  "mask_sha256": "ae048a730dbce71b4ee68779dd83805d532650f529338916ac182d82bee11845",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016179970000166577,
+    "inference_s": 2.2285609180000847,
+    "postprocess_s": 0.0016773680001733737,
+    "amortized_inference_s_per_selected_expression": 1.1142804590000424,
+    "mask_write_s": 0.018950157999825024
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818316288,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283956224
+  },
+  "output_bytes": 7719,
+  "stage_created": "full-validation",
+  "record_hash": "33daa13f1547d3663237443f11cd77104350a754c3f6129c2fe03255dbc9b497",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

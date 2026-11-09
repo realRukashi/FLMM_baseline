@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-11292",
+  "sample_hash": "7c4cc54e8ad87a4640b721fa663374895767aae7556d0af8dce9be65742f3497",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 11292,
+  "dataset_index": 585,
+  "expressions": [
+    {
+      "image_id": 11292,
+      "dataset_index": 585,
+      "ref_id": 49089,
+      "sent_id": 139605,
+      "expression": "woman wearing scarf, arms crossed, to the left",
+      "mask_id": 0,
+      "annotation_id": 2165220,
+      "prediction_id": "refcoco-val-11292:0",
+      "gt_segmentation_sha256": "a61b2e8fd365a4dc1b9ab18d5a8dfd4b0a3595c562f1f80d123aad9de747c3fe",
+      "category_id": 1
+    },
+    {
+      "image_id": 11292,
+      "dataset_index": 585,
+      "ref_id": 49090,
+      "sent_id": 139608,
+      "expression": "man on right",
+      "mask_id": 1,
+      "annotation_id": 504278,
+      "prediction_id": "refcoco-val-11292:1",
+      "gt_segmentation_sha256": "93bb07ce99807391f13f7a210f3e2f7dc9aa14cfb97604adb9f6024d8e69d5a4",
+      "category_id": 1
+    },
+    {
+      "image_id": 11292,
+      "dataset_index": 585,
+      "ref_id": 49091,
+      "sent_id": 139611,
+      "expression": "closest guy",
+      "mask_id": 2,
+      "annotation_id": 474668,
+      "prediction_id": "refcoco-val-11292:2",
+      "gt_segmentation_sha256": "61c2a6ecc185549203ef58acd28734978b8bcedcd207bd0329b89bc4f5e4e4ed",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    39030,
+    52859,
+    103175
+  ],
+  "union": [
+    43715,
+    78442,
+    108902
+  ],
+  "mask_file": "refcoco-val-11292.npz",
+  "mask_sha256": "9e49e14189f297ed8501dba5e22f75ab091720c1d9b9454577531b29ae3d8826",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.025996847000101297,
+    "inference_s": 2.1917294779999565,
+    "postprocess_s": 0.003143542999964666,
+    "amortized_inference_s_per_selected_expression": 0.7305764926666521,
+    "mask_write_s": 0.03197250499999882
+  },
+  "memory": {
+    "peak_allocated_bytes": 8830650880,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449379328,
+    "ram_rss_bytes": 6294208512
+  },
+  "output_bytes": 17184,
+  "stage_created": "full-validation",
+  "record_hash": "df99d702d995931507e659750215a51cda51df648a955f11bccfd9630889b9c1",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

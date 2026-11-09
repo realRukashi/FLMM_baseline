@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-326350",
+  "sample_hash": "33148abcc68b1051a83d8b82eb64b19398a15751567a2e7ad2dbc44436c923a6",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 326350,
+  "dataset_index": 1261,
+  "expressions": [
+    {
+      "image_id": 326350,
+      "dataset_index": 1261,
+      "ref_id": 22142,
+      "sent_id": 62974,
+      "expression": "right most guy",
+      "mask_id": 0,
+      "annotation_id": 1271599,
+      "prediction_id": "refcoco-val-326350:0",
+      "gt_segmentation_sha256": "ea1c105e1eac0924180ab9c51f56c6a5f2c0b300b0954b6f40d2ed18e362e30e",
+      "category_id": 1
+    },
+    {
+      "image_id": 326350,
+      "dataset_index": 1261,
+      "ref_id": 22143,
+      "sent_id": 62977,
+      "expression": "guy in khakis on left",
+      "mask_id": 1,
+      "annotation_id": 1217516,
+      "prediction_id": "refcoco-val-326350:1",
+      "gt_segmentation_sha256": "4cb0c84a8670bfe667a640f997ca19b854c25d24c9de3869ea698401cb2676d5",
+      "category_id": 1
+    },
+    {
+      "image_id": 326350,
+      "dataset_index": 1261,
+      "ref_id": 22144,
+      "sent_id": 62979,
+      "expression": "black suite front",
+      "mask_id": 2,
+      "annotation_id": 1211054,
+      "prediction_id": "refcoco-val-326350:2",
+      "gt_segmentation_sha256": "b813bad47cf37f26f1969b3a63d511b6261273d4366c4b6685cb9ba33630a07f",
+      "category_id": 1
+    },
+    {
+      "image_id": 326350,
+      "dataset_index": 1261,
+      "ref_id": 22145,
+      "sent_id": 62982,
+      "expression": "leftmost guy",
+      "mask_id": 3,
+      "annotation_id": 1725077,
+      "prediction_id": "refcoco-val-326350:3",
+      "gt_segmentation_sha256": "a99a8d9205318eb50bfa642898b7eefd27531a85f3f36e48ad6bc3d8d171b2ae",
+      "category_id": 1
+    },
+    {
+      "image_id": 326350,
+      "dataset_index": 1261,
+      "ref_id": 22146,
+      "sent_id": 62985,
+      "expression": "3rd guy rom right",
+      "mask_id": 4,
+      "annotation_id": 1285864,
+      "prediction_id": "refcoco-val-326350:4",
+      "gt_segmentation_sha256": "f473522d6ccb42d164330748671deb0a391350ef816efabdda83e41f6b2706d5",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10351,
+    28,
+    0,
+    9577,
+    10077
+  ],
+  "union": [
+    11617,
+    22325,
+    26127,
+    21366,
+    12884
+  ],
+  "mask_file": "refcoco-val-326350.npz",
+  "mask_sha256": "f7ec08bdfe4f747abad96a6a0d6dea342cbd995cf308d85cf73bf17f233ecadf",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.016690838999920743,
+    "inference_s": 2.4505057840001427,
+    "postprocess_s": 0.0034312160000808944,
+    "amortized_inference_s_per_selected_expression": 0.4901011568000285,
+    "mask_write_s": 0.019863571999849228
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831181312,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449146368,
+    "ram_rss_bytes": 6300700672
+  },
+  "output_bytes": 11804,
+  "stage_created": "full-validation",
+  "record_hash": "63b489c5c7b34857df5b9a626a59a851afc0c1233ec7513cfd9b3892fbef5294",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

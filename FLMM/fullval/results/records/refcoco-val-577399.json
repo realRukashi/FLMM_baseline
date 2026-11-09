@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-577399",
+  "sample_hash": "b20713bec7c75a6aecbe789c334fe6462f439e8e1c3466844a05140f248f62d0",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 577399,
+  "dataset_index": 717,
+  "expressions": [
+    {
+      "image_id": 577399,
+      "dataset_index": 717,
+      "ref_id": 412,
+      "sent_id": 1167,
+      "expression": "left person with elbow bent",
+      "mask_id": 0,
+      "annotation_id": 2229146,
+      "prediction_id": "refcoco-val-577399:0",
+      "gt_segmentation_sha256": "a2583826a45f116380d932c5330a5b6c8e4324e9cea775f89f44bc87c3aabc82",
+      "category_id": 1
+    },
+    {
+      "image_id": 577399,
+      "dataset_index": 717,
+      "ref_id": 413,
+      "sent_id": 1170,
+      "expression": "girl brushing teeth",
+      "mask_id": 1,
+      "annotation_id": 2229114,
+      "prediction_id": "refcoco-val-577399:1",
+      "gt_segmentation_sha256": "6d8b8cc489714a8a73ecf8d0e6f09646deaeffb6287b9ebbaccfdbdeda3ab86d",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    18216,
+    50027
+  ],
+  "union": [
+    19852,
+    52700
+  ],
+  "mask_file": "refcoco-val-577399.npz",
+  "mask_sha256": "389f09de3ee8e7662862643b3616985fdb66702e56aef5dd80c66ac302c91076",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.011884545999919283,
+    "inference_s": 2.308375559000069,
+    "postprocess_s": 0.0019006399999170753,
+    "amortized_inference_s_per_selected_expression": 1.1541877795000346,
+    "mask_write_s": 0.014924535999966793
+  },
+  "memory": {
+    "peak_allocated_bytes": 8819240448,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6294450176
+  },
+  "output_bytes": 7077,
+  "stage_created": "full-validation",
+  "record_hash": "331a605878c9f8d02b8a4c0d5f30e3306905a9a2af5827127a104c04d79fc636",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

@@ -1,0 +1,61 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-532505",
+  "sample_hash": "da554d7352b85e17446a8f50cc1c5add5dc71073d0779decccebf58456414396",
+  "fingerprint": "7b0a0f19a4148190b500d8b050454fb48beeb2b73382073930afe71fa53277a4",
+  "image_id": 532505,
+  "dataset_index": 2,
+  "expressions": [
+    {
+      "image_id": 532505,
+      "dataset_index": 2,
+      "ref_id": 4321,
+      "sent_id": 12311,
+      "expression": "rofl....... edge of couch near her arm",
+      "mask_id": 0,
+      "annotation_id": 113013,
+      "prediction_id": "refcoco-val-532505:0",
+      "gt_segmentation_sha256": "63d884b62be4d118f71d53a9c3074302b1413cf28b22d9939425021e3efe9e63",
+      "category_id": 63
+    },
+    {
+      "image_id": 532505,
+      "dataset_index": 2,
+      "ref_id": 4322,
+      "sent_id": 12314,
+      "expression": "couch on right",
+      "mask_id": 1,
+      "annotation_id": 111415,
+      "prediction_id": "refcoco-val-532505:1",
+      "gt_segmentation_sha256": "e7aea90f490fec38732391f2beb2bb2f75b4fb0f79ec9e71d32564de0c046eb4",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    0,
+    26321
+  ],
+  "union": [
+    57952,
+    30878
+  ],
+  "mask_file": "refcoco-val-532505.npz",
+  "mask_sha256": "56eb4bc42067787aaeb5f8b82d081a689b3e22495b31a2f895f00b01e23f2a05",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013562629000034576,
+    "inference_s": 2.2402307099999916,
+    "postprocess_s": 0.001447386999984701,
+    "amortized_inference_s_per_selected_expression": 1.1201153549999958,
+    "mask_write_s": 0.013035488000014084
+  },
+  "memory": {
+    "peak_allocated_bytes": 8828154368,
+    "peak_reserved_bytes": 9791602688,
+    "allocated_after_bytes": 5454604288,
+    "ram_rss_bytes": 7754342400
+  },
+  "output_bytes": 6137,
+  "stage_created": "regression",
+  "record_hash": "7f2436d27b65d59a1f827ee09f69af30f53f32acbfd27ec97301a9cfcb5f57b2"
+}

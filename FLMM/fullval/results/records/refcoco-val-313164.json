@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-313164",
+  "sample_hash": "83ecc2e1bb5d719a7d0ab957144e8cadc3f7c8dfd9d309e088dd407736be4775",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 313164,
+  "dataset_index": 330,
+  "expressions": [
+    {
+      "image_id": 313164,
+      "dataset_index": 330,
+      "ref_id": 23399,
+      "sent_id": 66523,
+      "expression": "man in white with black hair",
+      "mask_id": 0,
+      "annotation_id": 1290551,
+      "prediction_id": "refcoco-val-313164:0",
+      "gt_segmentation_sha256": "62c665be2b4a7bd515eb90b93dcc72817a0d424c7538ce6d9d6aa62e58ceb2a7",
+      "category_id": 1
+    },
+    {
+      "image_id": 313164,
+      "dataset_index": 330,
+      "ref_id": 23400,
+      "sent_id": 66526,
+      "expression": "woman on near bike",
+      "mask_id": 1,
+      "annotation_id": 1214523,
+      "prediction_id": "refcoco-val-313164:1",
+      "gt_segmentation_sha256": "bc13aa5b722a5ab968411148bfad1f69561d831313b9ab64b24bf1b16603b69a",
+      "category_id": 1
+    },
+    {
+      "image_id": 313164,
+      "dataset_index": 330,
+      "ref_id": 23401,
+      "sent_id": 66529,
+      "expression": "girl in tank on left",
+      "mask_id": 2,
+      "annotation_id": 2163328,
+      "prediction_id": "refcoco-val-313164:2",
+      "gt_segmentation_sha256": "1709a90b28b87b7b475a4639ced64fce92e922bd3cd748f8da4511c1389a44cd",
+      "category_id": 1
+    },
+    {
+      "image_id": 313164,
+      "dataset_index": 330,
+      "ref_id": 23402,
+      "sent_id": 66532,
+      "expression": "boy standing next to pole white shirt",
+      "mask_id": 3,
+      "annotation_id": 1306273,
+      "prediction_id": "refcoco-val-313164:3",
+      "gt_segmentation_sha256": "693ad74113b14f65cf033c067786c569e434600a008022b22cf4e2bea19d1e06",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    77,
+    6984,
+    10229,
+    27784
+  ],
+  "union": [
+    36380,
+    33800,
+    11460,
+    34334
+  ],
+  "mask_file": "refcoco-val-313164.npz",
+  "mask_sha256": "8eb3c91603362a9dc1b8a35a2713504e98b2a6a4bada7bdd4ce54eda59e73969",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.019967038999993747,
+    "inference_s": 2.751403875000051,
+    "postprocess_s": 0.0033580829999664275,
+    "amortized_inference_s_per_selected_expression": 0.6878509687500127,
+    "mask_write_s": 0.02551195700016251
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829183488,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283124736
+  },
+  "output_bytes": 13534,
+  "stage_created": "full-validation",
+  "record_hash": "f9dd5c14b9e59439baf2b269b797de621ecae431790a414d1309890e8c0d778f",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

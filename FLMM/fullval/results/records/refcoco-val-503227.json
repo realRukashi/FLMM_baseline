@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-503227",
+  "sample_hash": "d767e89fcd27ea2b2a835ea702db74cb217344426f6cf67a215819acdf17c9e0",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 503227,
+  "dataset_index": 654,
+  "expressions": [
+    {
+      "image_id": 503227,
+      "dataset_index": 654,
+      "ref_id": 6867,
+      "sent_id": 19547,
+      "expression": "donut in center row far right",
+      "mask_id": 0,
+      "annotation_id": 2118100,
+      "prediction_id": "refcoco-val-503227:0",
+      "gt_segmentation_sha256": "8fdb6a863f3f2614fd67dfcd147f6273bced67cf95f4338610479fb7651cf521",
+      "category_id": 60
+    },
+    {
+      "image_id": 503227,
+      "dataset_index": 654,
+      "ref_id": 6868,
+      "sent_id": 19550,
+      "expression": "bottom right pastry",
+      "mask_id": 1,
+      "annotation_id": 1572562,
+      "prediction_id": "refcoco-val-503227:1",
+      "gt_segmentation_sha256": "756d13280e78f71a7478764ad86ba18baf098af7af4e387cf59b35b222e0dc96",
+      "category_id": 60
+    },
+    {
+      "image_id": 503227,
+      "dataset_index": 654,
+      "ref_id": 6869,
+      "sent_id": 19553,
+      "expression": "bottom row, light full donut",
+      "mask_id": 2,
+      "annotation_id": 1081739,
+      "prediction_id": "refcoco-val-503227:2",
+      "gt_segmentation_sha256": "a4cedecf8fc1ce22fe2ffd63e77c177af252166542043dd1576ec6192136cf63",
+      "category_id": 60
+    },
+    {
+      "image_id": 503227,
+      "dataset_index": 654,
+      "ref_id": 6870,
+      "sent_id": 19555,
+      "expression": "the chocolate covered donut in the middle.",
+      "mask_id": 3,
+      "annotation_id": 1081455,
+      "prediction_id": "refcoco-val-503227:3",
+      "gt_segmentation_sha256": "fe09044262d391c26a8efb61ee250a4775709daeb0df38adfe1d6b81c88fa03e",
+      "category_id": 60
+    },
+    {
+      "image_id": 503227,
+      "dataset_index": 654,
+      "ref_id": 6871,
+      "sent_id": 19558,
+      "expression": "biggest glazed donut",
+      "mask_id": 4,
+      "annotation_id": 2189154,
+      "prediction_id": "refcoco-val-503227:4",
+      "gt_segmentation_sha256": "a164640f89b5b8cb05b412c0fb414d9393beeb50bee6e7a093dc344dacb93fb6",
+      "category_id": 60
+    },
+    {
+      "image_id": 503227,
+      "dataset_index": 654,
+      "ref_id": 6872,
+      "sent_id": 19561,
+      "expression": "donut on left in front",
+      "mask_id": 5,
+      "annotation_id": 1081432,
+      "prediction_id": "refcoco-val-503227:5",
+      "gt_segmentation_sha256": "1b9afe9c85f99f18834c0e58355fa12970e2332a31b3b4c9cb916e6f8ff50b23",
+      "category_id": 60
+    },
+    {
+      "image_id": 503227,
+      "dataset_index": 654,
+      "ref_id": 6873,
+      "sent_id": 19564,
+      "expression": "doughnut bottom second from left",
+      "mask_id": 6,
+      "annotation_id": 1080603,
+      "prediction_id": "refcoco-val-503227:6",
+      "gt_segmentation_sha256": "633610b5c883c74b98e16b66ea2fde8ec585fd78d763e41855f3c33e1841a554",
+      "category_id": 60
+    }
+  ],
+  "intersection": [
+    107,
+    0,
+    420,
+    11251,
+    17747,
+    108,
+    10
+  ],
+  "union": [
+    25383,
+    25236,
+    37020,
+    12128,
+    29085,
+    32468,
+    20707
+  ],
+  "mask_file": "refcoco-val-503227.npz",
+  "mask_sha256": "8721979d13be94f4c000700d0876ce1d8ddc2b2ba27fc3436796975e32cbf2c9",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.02015035199997328,
+    "inference_s": 2.367529429000001,
+    "postprocess_s": 0.0050065760000279624,
+    "amortized_inference_s_per_selected_expression": 0.33821848985714303,
+    "mask_write_s": 0.032900863999998364
+  },
+  "memory": {
+    "peak_allocated_bytes": 8843706880,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5452269568,
+    "ram_rss_bytes": 6295277568
+  },
+  "output_bytes": 13124,
+  "stage_created": "full-validation",
+  "record_hash": "ea2f36fbec9d7ad35cdac0c111d3199628fdeea74cb1b8623b55c258aa409d5c",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

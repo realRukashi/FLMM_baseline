@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-324732",
+  "sample_hash": "e12bfe80dcea452eebaf8b539bc9b510102b49529717c64469475b5712204e9b",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 324732,
+  "dataset_index": 963,
+  "expressions": [
+    {
+      "image_id": 324732,
+      "dataset_index": 963,
+      "ref_id": 22277,
+      "sent_id": 63360,
+      "expression": "closed fridge between the lady and open doored one",
+      "mask_id": 0,
+      "annotation_id": 332243,
+      "prediction_id": "refcoco-val-324732:0",
+      "gt_segmentation_sha256": "5e7fd1d4bdc26dfb2f167dc1c8c1337ec8ab8c065a4a2b5238a4b804cd54df81",
+      "category_id": 82
+    },
+    {
+      "image_id": 324732,
+      "dataset_index": 963,
+      "ref_id": 22278,
+      "sent_id": 63363,
+      "expression": "the open fridge",
+      "mask_id": 1,
+      "annotation_id": 331484,
+      "prediction_id": "refcoco-val-324732:1",
+      "gt_segmentation_sha256": "8146391fe39d757c0f0b2e2d72090330639ed316d2f56021d7191df28e60f194",
+      "category_id": 82
+    }
+  ],
+  "intersection": [
+    5181,
+    65474
+  ],
+  "union": [
+    54600,
+    69524
+  ],
+  "mask_file": "refcoco-val-324732.npz",
+  "mask_sha256": "a65cf2d8a914affbd3ea686c58f5684042bc9a2c73a282b81a162ac6fb6a2b8b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01398853900013819,
+    "inference_s": 2.308821572999932,
+    "postprocess_s": 0.0015722430000550958,
+    "amortized_inference_s_per_selected_expression": 1.154410786499966,
+    "mask_write_s": 0.017175106000195228
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818598400,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6295474176
+  },
+  "output_bytes": 10971,
+  "stage_created": "full-validation",
+  "record_hash": "5b3b31828d8cc736df9b7f6644da0ce4ef5188cf6c07ccb8e34f8a00fd2d68e0",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

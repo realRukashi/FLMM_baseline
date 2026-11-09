@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-269890",
+  "sample_hash": "fdd4c174c36b416127df3bd12e96994cce5f03ad1cd4d88545519e710c85c7db",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 269890,
+  "dataset_index": 1430,
+  "expressions": [
+    {
+      "image_id": 269890,
+      "dataset_index": 1430,
+      "ref_id": 27039,
+      "sent_id": 76898,
+      "expression": "motorcycle driver",
+      "mask_id": 0,
+      "annotation_id": 229283,
+      "prediction_id": "refcoco-val-269890:0",
+      "gt_segmentation_sha256": "09e91e705bb4827f37b733f9707b16aeaf149c498470f3d82e0df8954dba532f",
+      "category_id": 1
+    },
+    {
+      "image_id": 269890,
+      "dataset_index": 1430,
+      "ref_id": 27040,
+      "sent_id": 76901,
+      "expression": "woman on the back of the motorcycle",
+      "mask_id": 1,
+      "annotation_id": 227053,
+      "prediction_id": "refcoco-val-269890:1",
+      "gt_segmentation_sha256": "c17db286b14868b4df582e18a7ea93db8c6c0cfa9c3823514114c7d7429ba5fa",
+      "category_id": 1
+    },
+    {
+      "image_id": 269890,
+      "dataset_index": 1430,
+      "ref_id": 27041,
+      "sent_id": 76904,
+      "expression": "red left moto",
+      "mask_id": 2,
+      "annotation_id": 151038,
+      "prediction_id": "refcoco-val-269890:2",
+      "gt_segmentation_sha256": "f4beea583beae09351b68cdfb0c501b2fb55b705e01fc4bce40a82394d08bd37",
+      "category_id": 4
+    },
+    {
+      "image_id": 269890,
+      "dataset_index": 1430,
+      "ref_id": 27042,
+      "sent_id": 76907,
+      "expression": "main bike",
+      "mask_id": 3,
+      "annotation_id": 148061,
+      "prediction_id": "refcoco-val-269890:3",
+      "gt_segmentation_sha256": "a28624bf1eb5c56e02f3bf1bfc6410db34db40cc30c8d53a095896e9fc40fe2d",
+      "category_id": 4
+    }
+  ],
+  "intersection": [
+    13191,
+    14072,
+    10561,
+    71153
+  ],
+  "union": [
+    24447,
+    16026,
+    11214,
+    83291
+  ],
+  "mask_file": "refcoco-val-269890.npz",
+  "mask_sha256": "75c4a90b7391ae9296d4369c50033608f3c68eb1271ed448eda44211c3f22737",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.02000679000002492,
+    "inference_s": 2.1775801819999288,
+    "postprocess_s": 0.002515777000098751,
+    "amortized_inference_s_per_selected_expression": 0.5443950454999822,
+    "mask_write_s": 0.020737072999963857
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826867200,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448060928,
+    "ram_rss_bytes": 6297804800
+  },
+  "output_bytes": 13865,
+  "stage_created": "full-validation",
+  "record_hash": "8a185b216239de6866327d90090906d6d7fa6ad4d4879def97b20b674d688139",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

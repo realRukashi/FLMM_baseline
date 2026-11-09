@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-123892",
+  "sample_hash": "e4c5c3ae4669f785194d93e04a3741780c6d632c421fa48ce50f1c770112f6de",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 123892,
+  "dataset_index": 187,
+  "expressions": [
+    {
+      "image_id": 123892,
+      "dataset_index": 187,
+      "ref_id": 39331,
+      "sent_id": 111836,
+      "expression": "guy on right with cap",
+      "mask_id": 0,
+      "annotation_id": 1307478,
+      "prediction_id": "refcoco-val-123892:0",
+      "gt_segmentation_sha256": "6a102970c71a1e64c47a88e713ce9c495674ed04e32d9b1feda62a9614f68cc9",
+      "category_id": 1
+    },
+    {
+      "image_id": 123892,
+      "dataset_index": 187,
+      "ref_id": 39332,
+      "sent_id": 111839,
+      "expression": "person in striped cap with no skies on",
+      "mask_id": 1,
+      "annotation_id": 1280645,
+      "prediction_id": "refcoco-val-123892:1",
+      "gt_segmentation_sha256": "03d2a3cfe0172dd86e1abf1ae8ac93b98f3d9782293f26a0bbc6420fc6592e23",
+      "category_id": 1
+    },
+    {
+      "image_id": 123892,
+      "dataset_index": 187,
+      "ref_id": 39333,
+      "sent_id": 111842,
+      "expression": "guy to the left of the guy in the center. turned away",
+      "mask_id": 2,
+      "annotation_id": 1260271,
+      "prediction_id": "refcoco-val-123892:2",
+      "gt_segmentation_sha256": "6b09be963b9c76bdbcb58752d489f0d1bcf5713f4f726a7a30b52dea52a2549e",
+      "category_id": 1
+    },
+    {
+      "image_id": 123892,
+      "dataset_index": 187,
+      "ref_id": 39334,
+      "sent_id": 111845,
+      "expression": "left guy",
+      "mask_id": 3,
+      "annotation_id": 1229706,
+      "prediction_id": "refcoco-val-123892:3",
+      "gt_segmentation_sha256": "203ed67ac52c9ad77634d453fd0c582f9f9ed158097156bff56ac7b0db0765dd",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    32211,
+    27266,
+    0,
+    17300
+  ],
+  "union": [
+    36466,
+    31971,
+    33318,
+    19793
+  ],
+  "mask_file": "refcoco-val-123892.npz",
+  "mask_sha256": "2247cc2d3249a04b2e5cc88d9bd4a720337c17ec99f11307e377cceefcdc23a9",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.020030888000064806,
+    "inference_s": 2.2750640319998183,
+    "postprocess_s": 0.0035950140002114495,
+    "amortized_inference_s_per_selected_expression": 0.5687660079999546,
+    "mask_write_s": 0.026529736000156845
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829464064,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448570880,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 12011,
+  "stage_created": "full-validation",
+  "record_hash": "776b76e3763cd9786eaf55f60cbb9f8ac05a71e98492909e4b2d6f63cf8d37e6",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

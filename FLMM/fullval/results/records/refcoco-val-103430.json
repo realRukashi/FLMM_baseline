@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-103430",
+  "sample_hash": "9e21e1f0189400cbb824a45c731b4e913216b0dfe539cef95464f7a05779f3d9",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 103430,
+  "dataset_index": 930,
+  "expressions": [
+    {
+      "image_id": 103430,
+      "dataset_index": 930,
+      "ref_id": 40996,
+      "sent_id": 116541,
+      "expression": "the pig in a blanket on the bottom right hand corner of the photo",
+      "mask_id": 0,
+      "annotation_id": 1921506,
+      "prediction_id": "refcoco-val-103430:0",
+      "gt_segmentation_sha256": "423aecdde7423190b519f8ab57806a421d98a88ed18744a2b82a58792c4e36af",
+      "category_id": 58
+    },
+    {
+      "image_id": 103430,
+      "dataset_index": 930,
+      "ref_id": 40997,
+      "sent_id": 116544,
+      "expression": "very top right hot dog",
+      "mask_id": 1,
+      "annotation_id": 1068377,
+      "prediction_id": "refcoco-val-103430:1",
+      "gt_segmentation_sha256": "1189f139c3c774ae0ee0c3f86ba407f3f9a3ab2114cb7bc24199f8c08a37d60d",
+      "category_id": 58
+    },
+    {
+      "image_id": 103430,
+      "dataset_index": 930,
+      "ref_id": 40998,
+      "sent_id": 116547,
+      "expression": "hotdog wrap left",
+      "mask_id": 2,
+      "annotation_id": 1068177,
+      "prediction_id": "refcoco-val-103430:2",
+      "gt_segmentation_sha256": "57d9898823dcab72264d67a35cef90f6fffe45f117fb4da86150f22c61744e07",
+      "category_id": 58
+    }
+  ],
+  "intersection": [
+    37677,
+    31522,
+    16126
+  ],
+  "union": [
+    39125,
+    33578,
+    70186
+  ],
+  "mask_file": "refcoco-val-103430.npz",
+  "mask_sha256": "8f14b171d310194aedc399cae0cc68dde845dec4575c1f662994a1e3c22ca16f",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.013398452000046746,
+    "inference_s": 2.392301350000025,
+    "postprocess_s": 0.0016250359999503416,
+    "amortized_inference_s_per_selected_expression": 0.7974337833333417,
+    "mask_write_s": 0.019385605000024952
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824453632,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6295756800
+  },
+  "output_bytes": 9225,
+  "stage_created": "full-validation",
+  "record_hash": "34dd31881f2bceac6b733e2489f6a17958b9c715886ac6a4f169974a892b4be4",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-279415",
+  "sample_hash": "6482f2fb76cfc610f7497c8f42f6502fa1a4ae4d1cc8165f828443c72ec47720",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 279415,
+  "dataset_index": 161,
+  "expressions": [
+    {
+      "image_id": 279415,
+      "dataset_index": 161,
+      "ref_id": 26293,
+      "sent_id": 74767,
+      "expression": "black lady",
+      "mask_id": 0,
+      "annotation_id": 508653,
+      "prediction_id": "refcoco-val-279415:0",
+      "gt_segmentation_sha256": "91a3ae29e7a2793d57b3f1737fdba7b5214476c71806153d3df5bf67c33d01da",
+      "category_id": 1
+    },
+    {
+      "image_id": 279415,
+      "dataset_index": 161,
+      "ref_id": 26294,
+      "sent_id": 74770,
+      "expression": "woman left",
+      "mask_id": 1,
+      "annotation_id": 459261,
+      "prediction_id": "refcoco-val-279415:1",
+      "gt_segmentation_sha256": "2ddd3d1a0159d199248f011a00eed0734a4e63b5a4b51b9365c82a9651209032",
+      "category_id": 1
+    },
+    {
+      "image_id": 279415,
+      "dataset_index": 161,
+      "ref_id": 26295,
+      "sent_id": 74773,
+      "expression": "guy center",
+      "mask_id": 2,
+      "annotation_id": 438069,
+      "prediction_id": "refcoco-val-279415:2",
+      "gt_segmentation_sha256": "452113e991bff691d77ddda8d77f8602548e8c40caa23c4244e654c33b40c520",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    40619,
+    57474,
+    51676
+  ],
+  "union": [
+    64232,
+    65798,
+    63032
+  ],
+  "mask_file": "refcoco-val-279415.npz",
+  "mask_sha256": "5636150846e79940521dc9c01bdc0b754a3618b591e122f91e5e10c592ae6b09",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.020483091000187414,
+    "inference_s": 2.2397604509999383,
+    "postprocess_s": 0.0024319950000517565,
+    "amortized_inference_s_per_selected_expression": 0.7465868169999794,
+    "mask_write_s": 0.031719266999971296
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824632832,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 14400,
+  "stage_created": "full-validation",
+  "record_hash": "fd0b90388340a7505c4abadc42891a3df18ffce185451fee263468b04c6c5118",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

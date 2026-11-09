@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-550311",
+  "sample_hash": "6aa5fc7a6ef9f7c414cd93703108a855a3f2302236908152e7f43f23c16b4c66",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 550311,
+  "dataset_index": 257,
+  "expressions": [
+    {
+      "image_id": 550311,
+      "dataset_index": 257,
+      "ref_id": 2793,
+      "sent_id": 7974,
+      "expression": "a black behind  next to the white elderly guy",
+      "mask_id": 0,
+      "annotation_id": 530259,
+      "prediction_id": "refcoco-val-550311:0",
+      "gt_segmentation_sha256": "74b7b2f5d72fb3705941e38a52da36b08f7085d43a7cb9abdf73bc65559a68e5",
+      "category_id": 1
+    },
+    {
+      "image_id": 550311,
+      "dataset_index": 257,
+      "ref_id": 2794,
+      "sent_id": 7977,
+      "expression": "man on right",
+      "mask_id": 1,
+      "annotation_id": 502527,
+      "prediction_id": "refcoco-val-550311:1",
+      "gt_segmentation_sha256": "3b9794110bff42fa44d0e4d8573cfd79ec6c2b3b50cba478994999316642c69c",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    45965,
+    88800
+  ],
+  "union": [
+    52226,
+    94847
+  ],
+  "mask_file": "refcoco-val-550311.npz",
+  "mask_sha256": "835a13953636a9477aae488fca161d97c0c6423becbad2b8b02868f91e3ea1dc",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.0177469679999831,
+    "inference_s": 2.2424430659998507,
+    "postprocess_s": 0.001594163999925513,
+    "amortized_inference_s_per_selected_expression": 1.1212215329999253,
+    "mask_write_s": 0.024287012999820945
+  },
+  "memory": {
+    "peak_allocated_bytes": 8817607168,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283956224
+  },
+  "output_bytes": 10087,
+  "stage_created": "full-validation",
+  "record_hash": "d4b2dfea3ac522a80f21b1be23dc481d741a7a99c592acb07ba25c2c5f1fd863",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-438045",
+  "sample_hash": "fd089e4bd6472111650f365b7d477f06286b6a6043978e24704574cf4cd8c647",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 438045,
+  "dataset_index": 708,
+  "expressions": [
+    {
+      "image_id": 438045,
+      "dataset_index": 708,
+      "ref_id": 12543,
+      "sent_id": 35693,
+      "expression": "man behind the bald guy",
+      "mask_id": 0,
+      "annotation_id": 464836,
+      "prediction_id": "refcoco-val-438045:0",
+      "gt_segmentation_sha256": "906facce47a6a043f2a39ec62e2bc80f9f8577893c9bb78a82e8134ad6419237",
+      "category_id": 1
+    },
+    {
+      "image_id": 438045,
+      "dataset_index": 708,
+      "ref_id": 12544,
+      "sent_id": 35696,
+      "expression": "the man in the green shirt",
+      "mask_id": 1,
+      "annotation_id": 430089,
+      "prediction_id": "refcoco-val-438045:1",
+      "gt_segmentation_sha256": "8196463fa402bc6e1c98325f4b025320b19d393dd633345899f6b2e0ac6715f3",
+      "category_id": 1
+    },
+    {
+      "image_id": 438045,
+      "dataset_index": 708,
+      "ref_id": 12545,
+      "sent_id": 35699,
+      "expression": "boy on left",
+      "mask_id": 2,
+      "annotation_id": 426474,
+      "prediction_id": "refcoco-val-438045:2",
+      "gt_segmentation_sha256": "4f674743861a0e29b5be24d8ce31d95611a681bc363ba34a7f000be1c9afbeb8",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    49183,
+    54400,
+    69471
+  ],
+  "union": [
+    53575,
+    60718,
+    76617
+  ],
+  "mask_file": "refcoco-val-438045.npz",
+  "mask_sha256": "ce6954f6a9b86c511bfc2d9c3722f2f66ac14e85adb6240a1f4f641e70a6f6c6",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.017555852999976196,
+    "inference_s": 2.2866285919999427,
+    "postprocess_s": 0.0026370450000285928,
+    "amortized_inference_s_per_selected_expression": 0.7622095306666475,
+    "mask_write_s": 0.031203957000116134
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822594560,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6282457088
+  },
+  "output_bytes": 14150,
+  "stage_created": "full-probe",
+  "record_hash": "c25246819867e2d4fa76b212291633f9fb74ad271a2a0a020643997f2ba5aa52",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

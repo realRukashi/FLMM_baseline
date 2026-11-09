@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-316238",
+  "sample_hash": "ce01ff21ff7b5f302235cba8594017c01abbcdffae84a1ded0e425358256159a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 316238,
+  "dataset_index": 889,
+  "expressions": [
+    {
+      "image_id": 316238,
+      "dataset_index": 889,
+      "ref_id": 23094,
+      "sent_id": 65671,
+      "expression": "right woman sitting",
+      "mask_id": 0,
+      "annotation_id": 1189534,
+      "prediction_id": "refcoco-val-316238:0",
+      "gt_segmentation_sha256": "f9b8812bea3396f98a699986fa2ceaec23d5810abe4e7b7c10318571ca01f8e1",
+      "category_id": 1
+    },
+    {
+      "image_id": 316238,
+      "dataset_index": 889,
+      "ref_id": 23095,
+      "sent_id": 65674,
+      "expression": "black woman on the far right (not sitting)",
+      "mask_id": 1,
+      "annotation_id": 563446,
+      "prediction_id": "refcoco-val-316238:1",
+      "gt_segmentation_sha256": "2310f4e601bf7365b970006dba7764491f461d070b36c54ba815be66bceaf9ca",
+      "category_id": 1
+    },
+    {
+      "image_id": 316238,
+      "dataset_index": 889,
+      "ref_id": 23096,
+      "sent_id": 65677,
+      "expression": "red shirt on left",
+      "mask_id": 2,
+      "annotation_id": 562148,
+      "prediction_id": "refcoco-val-316238:2",
+      "gt_segmentation_sha256": "07225e9659cdd83a2e5f66b4dd64011319b744549741b6446a140194cd9e80fb",
+      "category_id": 1
+    },
+    {
+      "image_id": 316238,
+      "dataset_index": 889,
+      "ref_id": 23097,
+      "sent_id": 65680,
+      "expression": "woman in army fatigures 2nd left",
+      "mask_id": 3,
+      "annotation_id": 561008,
+      "prediction_id": "refcoco-val-316238:3",
+      "gt_segmentation_sha256": "fd27ade123fa650314a7948030faa687a9616b48bdde902fcc8083d25e7ab183",
+      "category_id": 1
+    },
+    {
+      "image_id": 316238,
+      "dataset_index": 889,
+      "ref_id": 23098,
+      "sent_id": 65683,
+      "expression": "first man on the left (3rd person in)",
+      "mask_id": 4,
+      "annotation_id": 2198644,
+      "prediction_id": "refcoco-val-316238:4",
+      "gt_segmentation_sha256": "2fb3ed1346741a2d5b288b28fb28ecb070137a6690161e605447c503e68bf28a",
+      "category_id": 1
+    },
+    {
+      "image_id": 316238,
+      "dataset_index": 889,
+      "ref_id": 23099,
+      "sent_id": 65685,
+      "expression": "the fourth person from the left",
+      "mask_id": 5,
+      "annotation_id": 456438,
+      "prediction_id": "refcoco-val-316238:5",
+      "gt_segmentation_sha256": "655f3348abdc15b7a45208e6208c7c1121cfd0eae8c2e60bc375bd47aff7b969",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    9946,
+    0,
+    28641,
+    24675,
+    15092,
+    18836
+  ],
+  "union": [
+    12290,
+    31300,
+    31586,
+    28127,
+    16949,
+    21946
+  ],
+  "mask_file": "refcoco-val-316238.npz",
+  "mask_sha256": "4742b51f0ea5784e9afeb424f85b2dc01e6390b1d3d002dfd72708ab60361f15",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.02057275600009234,
+    "inference_s": 2.4403043069999057,
+    "postprocess_s": 0.0036889339999106596,
+    "amortized_inference_s_per_selected_expression": 0.4067173844999843,
+    "mask_write_s": 0.026350736000040342
+  },
+  "memory": {
+    "peak_allocated_bytes": 8835736576,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5450195968,
+    "ram_rss_bytes": 6295310336
+  },
+  "output_bytes": 15389,
+  "stage_created": "full-validation",
+  "record_hash": "f278c39e20d37207af9e74425d733aa94607a783330570849ca68923026499ee",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

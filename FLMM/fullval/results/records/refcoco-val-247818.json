@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-247818",
+  "sample_hash": "8861b509431fe48cf8721ce14be5be255f91dcf23015de88d5adf722086bf8f1",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 247818,
+  "dataset_index": 370,
+  "expressions": [
+    {
+      "image_id": 247818,
+      "dataset_index": 370,
+      "ref_id": 28963,
+      "sent_id": 82371,
+      "expression": "person in front of bus doors",
+      "mask_id": 0,
+      "annotation_id": 219062,
+      "prediction_id": "refcoco-val-247818:0",
+      "gt_segmentation_sha256": "a2e687b99985157f122b6d8991cc6fee1e97a71126e5caa78b9b2226270ab452",
+      "category_id": 1
+    },
+    {
+      "image_id": 247818,
+      "dataset_index": 370,
+      "ref_id": 28964,
+      "sent_id": 82374,
+      "expression": "left guy",
+      "mask_id": 1,
+      "annotation_id": 195570,
+      "prediction_id": "refcoco-val-247818:1",
+      "gt_segmentation_sha256": "5b77ed4ddc9a6808d0898c09a00c888af2a08aab4f798f8c237e35ecf35ed825",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    8602,
+    9851
+  ],
+  "union": [
+    24733,
+    12448
+  ],
+  "mask_file": "refcoco-val-247818.npz",
+  "mask_sha256": "fa1a2a32b80fc9f4ae6e48b15099f8dd388bf537956adbd303e03ecad651ec51",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01618151399998169,
+    "inference_s": 2.727569988999903,
+    "postprocess_s": 0.0012975469999219058,
+    "amortized_inference_s_per_selected_expression": 1.3637849944999516,
+    "mask_write_s": 0.012400143999911961
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820534784,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283124736
+  },
+  "output_bytes": 5025,
+  "stage_created": "full-validation",
+  "record_hash": "4b075ccf36ee34869f19c519eaf3cb4e776f192cb767f8bc635158d583ab864c",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

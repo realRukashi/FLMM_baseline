@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-153475",
+  "sample_hash": "b8dc40217c45138f7b4a6fdbb6ecbd92d326509599c829e6af7c0112d00db6ed",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 153475,
+  "dataset_index": 1098,
+  "expressions": [
+    {
+      "image_id": 153475,
+      "dataset_index": 1098,
+      "ref_id": 36794,
+      "sent_id": 104645,
+      "expression": "the guy on left in purple",
+      "mask_id": 0,
+      "annotation_id": 504428,
+      "prediction_id": "refcoco-val-153475:0",
+      "gt_segmentation_sha256": "6a13f053f91be84a7b8456e5830ef30304c0f3364eda5f16ca0168a3dbfb4ca5",
+      "category_id": 1
+    },
+    {
+      "image_id": 153475,
+      "dataset_index": 1098,
+      "ref_id": 36795,
+      "sent_id": 104648,
+      "expression": "girl",
+      "mask_id": 1,
+      "annotation_id": 444334,
+      "prediction_id": "refcoco-val-153475:1",
+      "gt_segmentation_sha256": "3fcff68e3ee11e179aee0156aed7fd8147403fea05f9f6ece5a89e037fe9d155",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    46892,
+    27047
+  ],
+  "union": [
+    49747,
+    33925
+  ],
+  "mask_file": "refcoco-val-153475.npz",
+  "mask_sha256": "5759e4b57823d67f5c872249ace4a29f19aeb6f39d59a8e1f9e1e07404ef9c1f",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.011238785000045937,
+    "inference_s": 2.0391789709999557,
+    "postprocess_s": 0.0017589049999742201,
+    "amortized_inference_s_per_selected_expression": 1.0195894854999779,
+    "mask_write_s": 0.02228884500004824
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818656256,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6296866816
+  },
+  "output_bytes": 7407,
+  "stage_created": "full-validation",
+  "record_hash": "4f679ce5ebdc7a34afb072d88ee2ead8f3ab080e3a623e9b58f1b8a30829ac53",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

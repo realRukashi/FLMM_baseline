@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-510680",
+  "sample_hash": "cbb2583607f93b9fa177420837ca144e655abaa2b8fe07c3f20f6a91caefc12f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 510680,
+  "dataset_index": 516,
+  "expressions": [
+    {
+      "image_id": 510680,
+      "dataset_index": 516,
+      "ref_id": 6219,
+      "sent_id": 17705,
+      "expression": "left top banana",
+      "mask_id": 0,
+      "annotation_id": 1544047,
+      "prediction_id": "refcoco-val-510680:0",
+      "gt_segmentation_sha256": "0b3e38753069de29577522dfea0319224819375ee1f5700de08f289781f6c034",
+      "category_id": 52
+    },
+    {
+      "image_id": 510680,
+      "dataset_index": 516,
+      "ref_id": 6220,
+      "sent_id": 17708,
+      "expression": "banana lower left",
+      "mask_id": 1,
+      "annotation_id": 1543845,
+      "prediction_id": "refcoco-val-510680:1",
+      "gt_segmentation_sha256": "7b8953aafd6545dab12ec7e5a63f9f1f74dbcb4ef4fc7d7de42369813dbc4ae6",
+      "category_id": 52
+    },
+    {
+      "image_id": 510680,
+      "dataset_index": 516,
+      "ref_id": 6221,
+      "sent_id": 17711,
+      "expression": "bananas on the right",
+      "mask_id": 2,
+      "annotation_id": 1542389,
+      "prediction_id": "refcoco-val-510680:2",
+      "gt_segmentation_sha256": "a9d5b8279828a873b160beeefed489435e9ed383515a89b910a2155785f9ec6f",
+      "category_id": 52
+    },
+    {
+      "image_id": 510680,
+      "dataset_index": 516,
+      "ref_id": 6222,
+      "sent_id": 17714,
+      "expression": "left center banna",
+      "mask_id": 3,
+      "annotation_id": 1541985,
+      "prediction_id": "refcoco-val-510680:3",
+      "gt_segmentation_sha256": "e4ee1113259ea4f74c94d3d4066cac465522f5dbbd29f4b09f25e32359bebb74",
+      "category_id": 52
+    }
+  ],
+  "intersection": [
+    12683,
+    19637,
+    34396,
+    22911
+  ],
+  "union": [
+    36214,
+    21001,
+    49975,
+    38662
+  ],
+  "mask_file": "refcoco-val-510680.npz",
+  "mask_sha256": "a1a0d5ea887a00dbc53278886e250415995f3d04064780f343e14855d6cc1a2d",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.014470498999912706,
+    "inference_s": 1.8845226739999816,
+    "postprocess_s": 0.0027258659999915835,
+    "amortized_inference_s_per_selected_expression": 0.4711306684999954,
+    "mask_write_s": 0.027029006000020672
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826461696,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5448124416,
+    "ram_rss_bytes": 6294753280
+  },
+  "output_bytes": 12628,
+  "stage_created": "full-validation",
+  "record_hash": "d963910d99a299c2900e46c124ec3e3e348e632b6de3d29352628bc896079ff8",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

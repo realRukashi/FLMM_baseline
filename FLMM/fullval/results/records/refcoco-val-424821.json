@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-424821",
+  "sample_hash": "d26cbfc52746fe7936c68da200de7e7824245253a8ffc6ccee7cc5886100294f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 424821,
+  "dataset_index": 1284,
+  "expressions": [
+    {
+      "image_id": 424821,
+      "dataset_index": 1284,
+      "ref_id": 13675,
+      "sent_id": 38914,
+      "expression": "kid behind batter",
+      "mask_id": 0,
+      "annotation_id": 1246889,
+      "prediction_id": "refcoco-val-424821:0",
+      "gt_segmentation_sha256": "a12cc2d5fdfd186228f4cbcc3a33a0c4fd77e0e7ee8872dec096858e64b89882",
+      "category_id": 1
+    },
+    {
+      "image_id": 424821,
+      "dataset_index": 1284,
+      "ref_id": 13676,
+      "sent_id": 38917,
+      "expression": "guy on right sitting on bench...left of chick with got shirt",
+      "mask_id": 1,
+      "annotation_id": 2190953,
+      "prediction_id": "refcoco-val-424821:1",
+      "gt_segmentation_sha256": "dbec4e69a3c4464841c1e6b4b91ac2437e2680bb706c77cbc369c89efa417101",
+      "category_id": 1
+    },
+    {
+      "image_id": 424821,
+      "dataset_index": 1284,
+      "ref_id": 13677,
+      "sent_id": 38919,
+      "expression": "the old man in a light blue shirt looking to the left",
+      "mask_id": 2,
+      "annotation_id": 1708027,
+      "prediction_id": "refcoco-val-424821:2",
+      "gt_segmentation_sha256": "12b0fabd09bba6d193136d959ff62c0393096821ff8bcd269d16077bc06903ba",
+      "category_id": 1
+    },
+    {
+      "image_id": 424821,
+      "dataset_index": 1284,
+      "ref_id": 13678,
+      "sent_id": 38922,
+      "expression": "kid with bat",
+      "mask_id": 3,
+      "annotation_id": 464942,
+      "prediction_id": "refcoco-val-424821:3",
+      "gt_segmentation_sha256": "4ad9bb68b3c6b637916aa8220d3721ce6a7c21c174f9d1370df4fc35d71810bd",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    8636,
+    1750,
+    8632,
+    38562
+  ],
+  "union": [
+    14473,
+    10417,
+    12478,
+    43151
+  ],
+  "mask_file": "refcoco-val-424821.npz",
+  "mask_sha256": "da6a220700efb71468eab9f3bcd6e8d4ca588c7e8f1ee1665b122349d58084e0",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.015219670999840673,
+    "inference_s": 2.1838550710001527,
+    "postprocess_s": 0.0025337489998946694,
+    "amortized_inference_s_per_selected_expression": 0.5459637677500382,
+    "mask_write_s": 0.02356507500007865
+  },
+  "memory": {
+    "peak_allocated_bytes": 8827592192,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448060928,
+    "ram_rss_bytes": 6297100288
+  },
+  "output_bytes": 11021,
+  "stage_created": "full-validation",
+  "record_hash": "73435b0b739b454cb47d0e87f4a4b8f14badaa45570d0e103904bb7cb37b88f1",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

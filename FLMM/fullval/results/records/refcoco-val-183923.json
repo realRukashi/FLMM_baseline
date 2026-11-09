@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-183923",
+  "sample_hash": "f131dbde86026a61e92ec925ec71369b28961ace1de8ed728ea0e04f979b89f3",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 183923,
+  "dataset_index": 686,
+  "expressions": [
+    {
+      "image_id": 183923,
+      "dataset_index": 686,
+      "ref_id": 34338,
+      "sent_id": 97660,
+      "expression": "man standing next to the guy with the skate board",
+      "mask_id": 0,
+      "annotation_id": 527125,
+      "prediction_id": "refcoco-val-183923:0",
+      "gt_segmentation_sha256": "f83495dc6e16c2a85de0c611eb692d50d49a0264403326f6bde9e1b12760c297",
+      "category_id": 1
+    },
+    {
+      "image_id": 183923,
+      "dataset_index": 686,
+      "ref_id": 34339,
+      "sent_id": 97663,
+      "expression": "man holding skateboard vertically",
+      "mask_id": 1,
+      "annotation_id": 498827,
+      "prediction_id": "refcoco-val-183923:1",
+      "gt_segmentation_sha256": "63597358afc7b8778b49c9924f86e526e7e4149ee5eaf65a6e29dd9e6c60e7f0",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    8308,
+    46320
+  ],
+  "union": [
+    63212,
+    51845
+  ],
+  "mask_file": "refcoco-val-183923.npz",
+  "mask_sha256": "f6ddd42c36643d4fe822eddf10c38563964d863c31a3e82090e509d6411d929d",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.02092473400000472,
+    "inference_s": 2.264163344999929,
+    "postprocess_s": 0.0014466279999396647,
+    "amortized_inference_s_per_selected_expression": 1.1320816724999645,
+    "mask_write_s": 0.015400068000076317
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818357248,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6295363584
+  },
+  "output_bytes": 7825,
+  "stage_created": "full-validation",
+  "record_hash": "24b9057ba6ed6298ed8ea3cd28d2706f9e0bfdf8f9cb305d2a0d76568caab39f",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

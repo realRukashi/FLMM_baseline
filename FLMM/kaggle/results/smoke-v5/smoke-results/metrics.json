@@ -1,0 +1,8 @@
+{
+  "split": "refcoco_val",
+  "sample_count": 1,
+  "metrics": {
+    "cIoU": 88.2574462890625,
+    "mIoU": 88.27176666259766
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-289482",
+  "sample_hash": "9a592249dbf54a29fb62420d6c7cb7cec422210ca57adfab46affd9032a9fe88",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 289482,
+  "dataset_index": 512,
+  "expressions": [
+    {
+      "image_id": 289482,
+      "dataset_index": 512,
+      "ref_id": 25414,
+      "sent_id": 72245,
+      "expression": "second from left",
+      "mask_id": 0,
+      "annotation_id": 1290766,
+      "prediction_id": "refcoco-val-289482:0",
+      "gt_segmentation_sha256": "ca4a4006695e5d0d8daf32aaa21fba65979964f9fd77d0e09bbeec57d10abb49",
+      "category_id": 1
+    },
+    {
+      "image_id": 289482,
+      "dataset_index": 512,
+      "ref_id": 25415,
+      "sent_id": 72248,
+      "expression": "player on  closest right",
+      "mask_id": 1,
+      "annotation_id": 1262071,
+      "prediction_id": "refcoco-val-289482:1",
+      "gt_segmentation_sha256": "1fa888940563ba75a4093cf25ee613a7fe323a0f5e2b82a98398b489edec3f59",
+      "category_id": 1
+    },
+    {
+      "image_id": 289482,
+      "dataset_index": 512,
+      "ref_id": 25416,
+      "sent_id": 72251,
+      "expression": "black guy in middle back behind everyone",
+      "mask_id": 2,
+      "annotation_id": 1258771,
+      "prediction_id": "refcoco-val-289482:2",
+      "gt_segmentation_sha256": "4d0d0d05385128948a5a82695a27a13687420fe10653c028641ef05265637dae",
+      "category_id": 1
+    },
+    {
+      "image_id": 289482,
+      "dataset_index": 512,
+      "ref_id": 25417,
+      "sent_id": 72254,
+      "expression": "guy in center of pic, not hat",
+      "mask_id": 3,
+      "annotation_id": 1241382,
+      "prediction_id": "refcoco-val-289482:3",
+      "gt_segmentation_sha256": "5d26fd14c0a1695aea47c70228573e3ebb5058ef672faa7eef6a75aa322a06da",
+      "category_id": 1
+    },
+    {
+      "image_id": 289482,
+      "dataset_index": 512,
+      "ref_id": 25418,
+      "sent_id": 72257,
+      "expression": "man on extreme left",
+      "mask_id": 4,
+      "annotation_id": 2162744,
+      "prediction_id": "refcoco-val-289482:4",
+      "gt_segmentation_sha256": "576d13775f9b9ad9aee4cd9d7b27370e8c86ff2f618a0b641a95ecde3cbcec02",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    17978,
+    27611,
+    4964,
+    17685,
+    16374
+  ],
+  "union": [
+    19760,
+    37411,
+    34807,
+    22051,
+    18052
+  ],
+  "mask_file": "refcoco-val-289482.npz",
+  "mask_sha256": "a169e483c26d34faf4ce6f4174c130f993ff88a8fee1f737c23858c412940133",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.016137250000042513,
+    "inference_s": 1.9064846679999619,
+    "postprocess_s": 0.0031135930000800727,
+    "amortized_inference_s_per_selected_expression": 0.3812969335999924,
+    "mask_write_s": 0.024118680000015047
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831730176,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5449120768,
+    "ram_rss_bytes": 6294749184
+  },
+  "output_bytes": 14015,
+  "stage_created": "full-validation",
+  "record_hash": "e4413d5eb2e462e944a3bfe329b8574c8cf028d957273d25a626c66f952f01f4",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-323213",
+  "sample_hash": "b5993a89428e71fbbac7afe869377ef0c02681be4bd35bcf15cb93c45bed16bd",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 323213,
+  "dataset_index": 691,
+  "expressions": [
+    {
+      "image_id": 323213,
+      "dataset_index": 691,
+      "ref_id": 22457,
+      "sent_id": 63864,
+      "expression": "woman bending down",
+      "mask_id": 0,
+      "annotation_id": 508009,
+      "prediction_id": "refcoco-val-323213:0",
+      "gt_segmentation_sha256": "bb3f66a13ad543ed26393758f6a8b297ab3670034819a077a52be7f4aa802565",
+      "category_id": 1
+    },
+    {
+      "image_id": 323213,
+      "dataset_index": 691,
+      "ref_id": 22458,
+      "sent_id": 63867,
+      "expression": "man in back with yellow coat on",
+      "mask_id": 1,
+      "annotation_id": 505201,
+      "prediction_id": "refcoco-val-323213:1",
+      "gt_segmentation_sha256": "519315d6523abbe26bea1a7b2666d70fb26b1c2aa7dce682964ca1bd79608fbc",
+      "category_id": 1
+    },
+    {
+      "image_id": 323213,
+      "dataset_index": 691,
+      "ref_id": 22459,
+      "sent_id": 63869,
+      "expression": "standing person in orange vest",
+      "mask_id": 2,
+      "annotation_id": 457472,
+      "prediction_id": "refcoco-val-323213:2",
+      "gt_segmentation_sha256": "accb6f2cf2d720c5042eb18587e3ac2318c0a48e078fe2f0ac04b0404275154d",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    20435,
+    15380,
+    39666
+  ],
+  "union": [
+    21369,
+    16933,
+    48420
+  ],
+  "mask_file": "refcoco-val-323213.npz",
+  "mask_sha256": "ceb5f1b6feb1e267071982532307210eb4378e8159ff927e89d78949f6c2243a",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.015847160000021177,
+    "inference_s": 2.2817453019999903,
+    "postprocess_s": 0.002440275000026304,
+    "amortized_inference_s_per_selected_expression": 0.76058176733333,
+    "mask_write_s": 0.01815807999992103
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824640512,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447702528,
+    "ram_rss_bytes": 6294368256
+  },
+  "output_bytes": 9489,
+  "stage_created": "full-validation",
+  "record_hash": "eb9089c2f9ad551efff8b10a969585d105dac933b0bf97df3d3f1258590b7612",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

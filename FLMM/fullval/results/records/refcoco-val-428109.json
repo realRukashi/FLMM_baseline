@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-428109",
+  "sample_hash": "35b19674f6e12b5ed4e24c2146e217c3d2b9d2c3c50aed7902ae152b2784c0fd",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 428109,
+  "dataset_index": 383,
+  "expressions": [
+    {
+      "image_id": 428109,
+      "dataset_index": 383,
+      "ref_id": 13352,
+      "sent_id": 37984,
+      "expression": "banan portion pointing towards the far left corner",
+      "mask_id": 0,
+      "annotation_id": 1046462,
+      "prediction_id": "refcoco-val-428109:0",
+      "gt_segmentation_sha256": "4cdc951f14867497bc8b40ffcbd1bcaad36dbbc4dcaa6a69ceae32a4288821ae",
+      "category_id": 52
+    },
+    {
+      "image_id": 428109,
+      "dataset_index": 383,
+      "ref_id": 13353,
+      "sent_id": 37986,
+      "expression": "2nd bottom right banana",
+      "mask_id": 1,
+      "annotation_id": 1046180,
+      "prediction_id": "refcoco-val-428109:1",
+      "gt_segmentation_sha256": "e0891ee49430b05a61cbeea6816ca5ce714fd731c392468d0f0e4b85895e2228",
+      "category_id": 52
+    },
+    {
+      "image_id": 428109,
+      "dataset_index": 383,
+      "ref_id": 13354,
+      "sent_id": 37989,
+      "expression": "top right corner banana",
+      "mask_id": 2,
+      "annotation_id": 1044662,
+      "prediction_id": "refcoco-val-428109:2",
+      "gt_segmentation_sha256": "90efe3b9301f88a3257037e93ae646e8739889213e799cc1fc724d4c9e6a4975",
+      "category_id": 52
+    },
+    {
+      "image_id": 428109,
+      "dataset_index": 383,
+      "ref_id": 13355,
+      "sent_id": 37992,
+      "expression": "short banana second down",
+      "mask_id": 3,
+      "annotation_id": 1044092,
+      "prediction_id": "refcoco-val-428109:3",
+      "gt_segmentation_sha256": "4a8d199da2c60bbf37163de8f2cdae05873f2c3778edfafdd14a22a9e1b613f4",
+      "category_id": 52
+    },
+    {
+      "image_id": 428109,
+      "dataset_index": 383,
+      "ref_id": 13356,
+      "sent_id": 37994,
+      "expression": "banana w/ brown spots",
+      "mask_id": 4,
+      "annotation_id": 1042745,
+      "prediction_id": "refcoco-val-428109:4",
+      "gt_segmentation_sha256": "787df45ac45831cd0a29eb99fb7411c111f7b353e2eb9cf904d6b6e5560fe15b",
+      "category_id": 52
+    },
+    {
+      "image_id": 428109,
+      "dataset_index": 383,
+      "ref_id": 13357,
+      "sent_id": 37997,
+      "expression": "banana above free",
+      "mask_id": 5,
+      "annotation_id": 1041727,
+      "prediction_id": "refcoco-val-428109:5",
+      "gt_segmentation_sha256": "0302df2c14e14f5f3ba52b2258f84997bf6d9d3f762c5ee1d005abb7e32f5f4e",
+      "category_id": 52
+    }
+  ],
+  "intersection": [
+    0,
+    13574,
+    14559,
+    0,
+    0,
+    402
+  ],
+  "union": [
+    43275,
+    20446,
+    17612,
+    44475,
+    32882,
+    64317
+  ],
+  "mask_file": "refcoco-val-428109.npz",
+  "mask_sha256": "67efc0ad9982af61f76620d270394d8f9322a800f8bc77f402d58662531deda7",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.02764619100003074,
+    "inference_s": 2.2965860870001507,
+    "postprocess_s": 0.005199113000116995,
+    "amortized_inference_s_per_selected_expression": 0.38276434783335844,
+    "mask_write_s": 0.039347140000018044
+  },
+  "memory": {
+    "peak_allocated_bytes": 8850801152,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5452657152,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 17506,
+  "stage_created": "full-validation",
+  "record_hash": "9b84ba550fabc59f2ca9af2e0a6638e06e48a57ed4b56b8541234de079a147ed",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

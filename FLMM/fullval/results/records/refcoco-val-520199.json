@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-520199",
+  "sample_hash": "0f16b096fdc497d1ae3c38873db51df0d2b34a26974a1f972ef331ce94cf70f7",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 520199,
+  "dataset_index": 735,
+  "expressions": [
+    {
+      "image_id": 520199,
+      "dataset_index": 735,
+      "ref_id": 5342,
+      "sent_id": 15214,
+      "expression": "woman in redclick the",
+      "mask_id": 0,
+      "annotation_id": 426093,
+      "prediction_id": "refcoco-val-520199:0",
+      "gt_segmentation_sha256": "0e54c931bc411cbf2446e5bffcfa020aa7c877d19ab05d75b1b49f6587a90690",
+      "category_id": 1
+    },
+    {
+      "image_id": 520199,
+      "dataset_index": 735,
+      "ref_id": 5343,
+      "sent_id": 15216,
+      "expression": "woman in black shirt sits in front of computer",
+      "mask_id": 1,
+      "annotation_id": 518913,
+      "prediction_id": "refcoco-val-520199:1",
+      "gt_segmentation_sha256": "60594a886c56e423505706bd8d4053e05e223eae7a00aaf2ecff44e302fea12c",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    20764,
+    11964
+  ],
+  "union": [
+    22789,
+    14260
+  ],
+  "mask_file": "refcoco-val-520199.npz",
+  "mask_sha256": "fbc059e4e867d4075a2987ea134fa63b383660c7715a6be76bf6572cd4ed199a",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014793637000025228,
+    "inference_s": 2.268460596999944,
+    "postprocess_s": 0.0017187670000566868,
+    "amortized_inference_s_per_selected_expression": 1.134230298499972,
+    "mask_write_s": 0.013631091999968703
+  },
+  "memory": {
+    "peak_allocated_bytes": 8819082752,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6294450176
+  },
+  "output_bytes": 5602,
+  "stage_created": "full-validation",
+  "record_hash": "a7fcfbaef78c4cc48dd7f9161a5ab878753fd26950b0ad45f211feb82f6b25d3",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

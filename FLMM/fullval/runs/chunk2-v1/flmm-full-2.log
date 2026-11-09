@@ -1,0 +1,167 @@
+[{"stream_name":"stderr","time":6.144627259,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.144682615,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.144708595,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.144712255,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.725193372,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.725224717,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.725234536,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.725237128,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":332.026907528,"data":"PROGRESS 534 validated-record candidates; target prefix 1000\n"}
+,{"stream_name":"stdout","time":332.231393281,"data":"PROGRESS 534 validated-record candidates; target prefix 1000\n"}
+,{"stream_name":"stdout","time":361.869603489,"data":"RESOURCE_GATE {\"status\": \"BLOCKED\", \"probe_images\": 50, \"probe_p95_pipeline_s\": 2.430970462000232, \"gpu_names\": [\"Tesla T4\", \"Tesla T4\"], \"worker_count\": 2, \"estimated_chunk_inference_margin_s\": 887.9119612455847, \"free_disk_bytes\": 20917841920, \"target_prefix\": 1000, \"prior\": \"flmm-full-1\", \"fingerprint\": \"616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7\", \"remaining_prefix_images\": 487, \"estimated_additional_output_bytes\": 18099598.5, \"quota_remaining_s_conservative\": 58549.955946, \"note\": \"First 50 seeded probe images are part of full val and reused; no tuning or method changes\"}\n"}
+,{"stream_name":"stdout","time":362.072074379,"data":"RESOURCE_GATE {\"status\": \"BLOCKED\", \"probe_images\": 50, \"probe_p95_pipeline_s\": 2.430970462000232, \"gpu_names\": [\"Tesla T4\", \"Tesla T4\"], \"worker_count\": 2, \"estimated_chunk_inference_margin_s\": 887.9119612455847, \"free_disk_bytes\": 20917841920, \"target_prefix\": 1000, \"prior\": \"flmm-full-1\", \"fingerprint\": \"616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7\", \"remaining_prefix_images\": 487, \"estimated_additional_output_bytes\": 18099598.5, \"quota_remaining_s_conservative\": 58549.955946, \"note\": \"First 50 seeded probe images are part of full val and reused; no tuning or method changes\"}\n"}
+,{"stream_name":"stderr","time":368.680091525,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.\n"}
+,{"stream_name":"stderr","time":368.680153454,"data":"  import pynvml  # type: ignore[import]\n"}
+,{"stream_name":"stderr","time":368.88630191,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.\n"}
+,{"stream_name":"stderr","time":368.886332983,"data":"  import pynvml  # type: ignore[import]\n"}
+,{"stream_name":"stderr","time":368.886338886,"data":"\n"}
+,{"stream_name":"stderr","time":368.886343535,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.\n"}
+,{"stream_name":"stderr","time":368.88636264,"data":"  import pynvml  # type: ignore[import]\n"}
+,{"stream_name":"stderr","time":370.658494818,"data":"Could not load bitsandbytes native library: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":370.65852331,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":370.658528023,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 109, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":370.658532657,"data":"    lib = get_native_library()\n"}
+,{"stream_name":"stderr","time":370.658536084,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 96, in get_native_library\n"}
+,{"stream_name":"stderr","time":370.658539622,"data":"    dll = ct.cdll.LoadLibrary(str(binary_path))\n"}
+,{"stream_name":"stderr","time":370.658543425,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 452, in LoadLibrary\n"}
+,{"stream_name":"stderr","time":370.658548258,"data":"    return self._dlltype(name)\n"}
+,{"stream_name":"stderr","time":370.658552002,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 374, in __init__\n"}
+,{"stream_name":"stderr","time":370.658556319,"data":"    self._handle = _dlopen(self._name, mode)\n"}
+,{"stream_name":"stderr","time":370.658560287,"data":"OSError: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":370.658563374,"data":"\n"}
+,{"stream_name":"stderr","time":370.658566484,"data":"CUDA Setup failed despite CUDA being available. Please run the following command to get more information:\n"}
+,{"stream_name":"stderr","time":370.658569817,"data":"\n"}
+,{"stream_name":"stderr","time":370.658572879,"data":"python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":370.658578946,"data":"\n"}
+,{"stream_name":"stderr","time":370.658806315,"data":"Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them\n"}
+,{"stream_name":"stderr","time":370.658820204,"data":"to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":370.658863702,"data":"and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues\n"}
+,{"stream_name":"stderr","time":370.6588679,"data":"\n"}
+,{"stream_name":"stderr","time":370.861194357,"data":"Could not load bitsandbytes native library: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":370.861241992,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":370.861247563,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 109, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":370.861253083,"data":"    lib = get_native_library()\n"}
+,{"stream_name":"stderr","time":370.86125777,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 96, in get_native_library\n"}
+,{"stream_name":"stderr","time":370.861262502,"data":"    dll = ct.cdll.LoadLibrary(str(binary_path))\n"}
+,{"stream_name":"stderr","time":370.861267362,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 452, in LoadLibrary\n"}
+,{"stream_name":"stderr","time":370.861271805,"data":"    return self._dlltype(name)\n"}
+,{"stream_name":"stderr","time":370.861290403,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 374, in __init__\n"}
+,{"stream_name":"stderr","time":370.861295197,"data":"    self._handle = _dlopen(self._name, mode)\n"}
+,{"stream_name":"stderr","time":370.861299282,"data":"OSError: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":370.86130345,"data":"\n"}
+,{"stream_name":"stderr","time":370.861307264,"data":"CUDA Setup failed despite CUDA being available. Please run the following command to get more information:\n"}
+,{"stream_name":"stderr","time":370.861311415,"data":"\n"}
+,{"stream_name":"stderr","time":370.861315607,"data":"python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":370.86131975,"data":"\n"}
+,{"stream_name":"stderr","time":370.86132384,"data":"Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them\n"}
+,{"stream_name":"stderr","time":370.861329089,"data":"to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":370.861334346,"data":"and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues\n"}
+,{"stream_name":"stderr","time":370.861338255,"data":"\n"}
+,{"stream_name":"stderr","time":370.861342127,"data":"\n"}
+,{"stream_name":"stderr","time":370.861346193,"data":"Could not load bitsandbytes native library: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":370.861350431,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":370.861354575,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 109, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":370.86135912,"data":"    lib = get_native_library()\n"}
+,{"stream_name":"stderr","time":370.861363832,"data":"  File \"/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py\", line 96, in get_native_library\n"}
+,{"stream_name":"stderr","time":370.861369087,"data":"    dll = ct.cdll.LoadLibrary(str(binary_path))\n"}
+,{"stream_name":"stderr","time":370.861373278,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 452, in LoadLibrary\n"}
+,{"stream_name":"stderr","time":370.861380038,"data":"    return self._dlltype(name)\n"}
+,{"stream_name":"stderr","time":370.861400912,"data":"  File \"/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py\", line 374, in __init__\n"}
+,{"stream_name":"stderr","time":370.861406934,"data":"    self._handle = _dlopen(self._name, mode)\n"}
+,{"stream_name":"stderr","time":370.861411464,"data":"OSError: libcusparse.so.11: cannot open shared object file: No such file or directory\n"}
+,{"stream_name":"stderr","time":370.861415847,"data":"\n"}
+,{"stream_name":"stderr","time":370.86142031,"data":"CUDA Setup failed despite CUDA being available. Please run the following command to get more information:\n"}
+,{"stream_name":"stderr","time":370.861438626,"data":"\n"}
+,{"stream_name":"stderr","time":370.861442697,"data":"python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":370.86144794,"data":"\n"}
+,{"stream_name":"stderr","time":370.861451851,"data":"Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them\n"}
+,{"stream_name":"stderr","time":370.861456418,"data":"to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":370.861461696,"data":"and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues\n"}
+,{"stream_name":"stderr","time":370.861471212,"data":"\n"}
+,{"stream_name":"stdout","time":372.746992751,"data":"[2026-11-06 13:12:39,189] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)\n"}
+,{"stream_name":"stdout","time":372.94974478,"data":"[2026-11-06 13:12:39,189] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)\n"}
+,{"stream_name":"stderr","time":373.332253965,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools\u003c81.\n"}
+,{"stream_name":"stderr","time":373.332290518,"data":"  from pkg_resources import packaging  # type: ignore[attr-defined]\n"}
+,{"stream_name":"stderr","time":373.534601991,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools\u003c81.\n"}
+,{"stream_name":"stderr","time":373.534663027,"data":"  from pkg_resources import packaging  # type: ignore[attr-defined]\n"}
+,{"stream_name":"stderr","time":373.534669525,"data":"\n"}
+,{"stream_name":"stderr","time":373.534673504,"data":"/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools\u003c81.\n"}
+,{"stream_name":"stderr","time":373.534692029,"data":"  from pkg_resources import packaging  # type: ignore[attr-defined]\n"}
+,{"stream_name":"stdout","time":373.87021663,"data":"\u001b[93m [WARNING] \u001b[0m async_io requires the dev libaio .so object and headers but these were not found.\n"}
+,{"stream_name":"stdout","time":373.870255611,"data":"\u001b[93m [WARNING] \u001b[0m async_io: please install the libaio-dev package with apt\n"}
+,{"stream_name":"stdout","time":373.870261697,"data":"\u001b[93m [WARNING] \u001b[0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.\n"}
+,{"stream_name":"stdout","time":373.870266786,"data":"\u001b[93m [WARNING] \u001b[0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH\n"}
+,{"stream_name":"stdout","time":373.870271378,"data":"\u001b[93m [WARNING] \u001b[0m NVIDIA Inference is only supported on Ampere and newer architectures\n"}
+,{"stream_name":"stdout","time":373.870275792,"data":"\u001b[93m [WARNING] \u001b[0m sparse_attn requires a torch version \u003e= 1.5 and \u003c 2.0 but detected 2.1\n"}
+,{"stream_name":"stdout","time":373.870280623,"data":"\u001b[93m [WARNING] \u001b[0m using untested triton version (2.1.0), only 1.0.0 is known to be compatible\n"}
+,{"stream_name":"stdout","time":373.870285716,"data":"11/06 13:12:40 - mmengine - WARNING - The prefix is not set in metric class RefSegMetric.\n"}
+,{"stream_name":"stdout","time":374.072786995,"data":"\u001b[93m [WARNING] \u001b[0m async_io requires the dev libaio .so object and headers but these were not found.\n"}
+,{"stream_name":"stdout","time":374.072823094,"data":"\u001b[93m [WARNING] \u001b[0m async_io: please install the libaio-dev package with apt\n"}
+,{"stream_name":"stdout","time":374.072828562,"data":"\u001b[93m [WARNING] \u001b[0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.\n"}
+,{"stream_name":"stdout","time":374.072848784,"data":"\u001b[93m [WARNING] \u001b[0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH\n"}
+,{"stream_name":"stdout","time":374.072853719,"data":"\u001b[93m [WARNING] \u001b[0m NVIDIA Inference is only supported on Ampere and newer architectures\n"}
+,{"stream_name":"stdout","time":374.072858002,"data":"\u001b[93m [WARNING] \u001b[0m sparse_attn requires a torch version \u003e= 1.5 and \u003c 2.0 but detected 2.1\n"}
+,{"stream_name":"stdout","time":374.072862274,"data":"\u001b[93m [WARNING] \u001b[0m using untested triton version (2.1.0), only 1.0.0 is known to be compatible\n"}
+,{"stream_name":"stdout","time":374.072866228,"data":"11/06 13:12:40 - mmengine - WARNING - The prefix is not set in metric class RefSegMetric.\n"}
+,{"stream_name":"stdout","time":380.612545148,"data":"{\"completed_images\": 534, \"selected_masks\": 1362, \"official\": {\"cIoU\": 74.66717529296875, \"mIoU\": 76.9872055053711}, \"complete\": false}\n"}
+,{"stream_name":"stdout","time":380.814889588,"data":"{\"completed_images\": 534, \"selected_masks\": 1362, \"official\": {\"cIoU\": 74.66717529296875, \"mIoU\": 76.9872055053711}, \"complete\": false}\n"}
+,{"stream_name":"stderr","time":381.489484978,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":381.490131095,"data":"  File \"/kaggle/working/phase1/full_control.py\", line 165, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":381.490175009,"data":"    if __name__=='__main__': main()\n"}
+,{"stream_name":"stderr","time":381.490180697,"data":"                             ~~~~^^\n"}
+,{"stream_name":"stderr","time":381.490184451,"data":"  File \"/kaggle/working/phase1/full_control.py\", line 152, in main\n"}
+,{"stream_name":"stderr","time":381.490188015,"data":"    if any(p.returncode for p in processes): raise RuntimeError('Worker exit failure')\n"}
+,{"stream_name":"stderr","time":381.490191928,"data":"                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":381.490206156,"data":"RuntimeError: Worker exit failure\n"}
+,{"stream_name":"stderr","time":381.537354233,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":381.537386995,"data":"  File \"/kaggle/working/phase1/full_control.py\", line 165, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":381.537391743,"data":"    if __name__=='__main__': main()\n"}
+,{"stream_name":"stderr","time":381.537394308,"data":"                             ~~~~^^\n"}
+,{"stream_name":"stderr","time":381.53739675,"data":"  File \"/kaggle/working/phase1/full_control.py\", line 152, in main\n"}
+,{"stream_name":"stderr","time":381.537399463,"data":"    if any(p.returncode for p in processes): raise RuntimeError('Worker exit failure')\n"}
+,{"stream_name":"stderr","time":381.537402107,"data":"                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":381.537404576,"data":"RuntimeError: Worker exit failure\n"}
+,{"stream_name":"stderr","time":381.537407229,"data":"\n"}
+,{"stream_name":"stderr","time":381.537409613,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":381.537412046,"data":"  File \"/kaggle/working/phase1/full_control.py\", line 165, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":381.537415117,"data":"    if __name__=='__main__': main()\n"}
+,{"stream_name":"stderr","time":381.537432663,"data":"                             ~~~~^^\n"}
+,{"stream_name":"stderr","time":381.53745914,"data":"  File \"/kaggle/working/phase1/full_control.py\", line 152, in main\n"}
+,{"stream_name":"stderr","time":381.537463517,"data":"    if any(p.returncode for p in processes): raise RuntimeError('Worker exit failure')\n"}
+,{"stream_name":"stderr","time":381.538133024,"data":"                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":381.538145882,"data":"RuntimeError: Worker exit failure\n"}
+,{"stream_name":"stderr","time":381.86588277,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":381.866537345,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":381.866557124,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=7200)\n"}
+,{"stream_name":"stderr","time":381.866563437,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":381.866568564,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":381.866571958,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":381.866575501,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":381.866578839,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":381.866582722,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":381.866585887,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":381.866588907,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":381.866592288,"data":"Exception encountered at \"In [2]\":\n"}
+,{"stream_name":"stderr","time":381.86659565,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":381.866599136,"data":"CalledProcessError                        Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":381.866602192,"data":"/tmp/ipykernel_22/554202912.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":381.866605913,"data":"----\u003e 1 subprocess.run([sys.executable,str(phase/'full_control.py')],check=True,timeout=6900)\n"}
+,{"stream_name":"stderr","time":381.866609547,"data":"\n"}
+,{"stream_name":"stderr","time":381.866612973,"data":"/usr/lib/python3.13/subprocess.py in run(input, capture_output, timeout, check, *popenargs, **kwargs)\n"}
+,{"stream_name":"stderr","time":381.866616576,"data":"    576         retcode = process.poll()\n"}
+,{"stream_name":"stderr","time":381.866619974,"data":"    577         if check and retcode:\n"}
+,{"stream_name":"stderr","time":381.866623158,"data":"--\u003e 578             raise CalledProcessError(retcode, process.args,\n"}
+,{"stream_name":"stderr","time":381.866626856,"data":"    579                                      output=stdout, stderr=stderr)\n"}
+,{"stream_name":"stderr","time":381.866630601,"data":"    580     return CompletedProcess(process.args, retcode, stdout, stderr)\n"}
+,{"stream_name":"stderr","time":381.866634079,"data":"\n"}
+,{"stream_name":"stderr","time":381.86663738,"data":"CalledProcessError: Command '['/usr/bin/python3', '/kaggle/working/phase1/full_control.py']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stderr","time":381.866650675,"data":"\n"}
+,{"stream_name":"stderr","time":384.080212512,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":384.080247645,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":384.241900813,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":384.241938459,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":385.005743866,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":385.084869185,"data":"[NbConvertApp] Writing 110530 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":387.575312657,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":388.082872004,"data":"[NbConvertApp] Writing 386294 bytes to __results__.html\n"}
+]

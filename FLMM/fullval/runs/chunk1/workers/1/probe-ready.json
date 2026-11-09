@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "cold_model_load_s": 801.804737151,
+  "warmup_s": 3.6942867769998884,
+  "records": [
+    "refcoco-val-1298",
+    "refcoco-val-158051",
+    "refcoco-val-416651",
+    "refcoco-val-487602",
+    "refcoco-val-309706",
+    "refcoco-val-127543",
+    "refcoco-val-81401",
+    "refcoco-val-202755",
+    "refcoco-val-274667",
+    "refcoco-val-267779",
+    "refcoco-val-449197",
+    "refcoco-val-493114",
+    "refcoco-val-52928",
+    "refcoco-val-444348",
+    "refcoco-val-391488",
+    "refcoco-val-252277",
+    "refcoco-val-335066",
+    "refcoco-val-272299",
+    "refcoco-val-112040",
+    "refcoco-val-351397",
+    "refcoco-val-100034",
+    "refcoco-val-254821"
+  ],
+  "new_images": 22
+}

@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-557527",
+  "sample_hash": "d3cae4903a3094a3dd574ce40bf14b371c3409c493c24209293bed3fa6d702a3",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 557527,
+  "dataset_index": 88,
+  "expressions": [
+    {
+      "image_id": 557527,
+      "dataset_index": 88,
+      "ref_id": 2199,
+      "sent_id": 6287,
+      "expression": "boy on left",
+      "mask_id": 0,
+      "annotation_id": 1320375,
+      "prediction_id": "refcoco-val-557527:0",
+      "gt_segmentation_sha256": "62e311a4ab70263f080e05e6a75a7a0d0df577c2eb2afc61d9571de09af5133e",
+      "category_id": 1
+    },
+    {
+      "image_id": 557527,
+      "dataset_index": 88,
+      "ref_id": 2200,
+      "sent_id": 6290,
+      "expression": "blue shirt sad man",
+      "mask_id": 1,
+      "annotation_id": 1252081,
+      "prediction_id": "refcoco-val-557527:1",
+      "gt_segmentation_sha256": "18b56304ddd7ed4748dab24fea7725f2fdd64dd9313e27db5e89a58081fb8118",
+      "category_id": 1
+    },
+    {
+      "image_id": 557527,
+      "dataset_index": 88,
+      "ref_id": 2201,
+      "sent_id": 6293,
+      "expression": "far right",
+      "mask_id": 2,
+      "annotation_id": 1326654,
+      "prediction_id": "refcoco-val-557527:2",
+      "gt_segmentation_sha256": "279719f3e08a53f51eea5bf94a0878d6ac924dc9dd6241a08f8bc66e0d23fc1e",
+      "category_id": 1
+    },
+    {
+      "image_id": 557527,
+      "dataset_index": 88,
+      "ref_id": 2202,
+      "sent_id": 6296,
+      "expression": "red jacket kid hood up",
+      "mask_id": 3,
+      "annotation_id": 1246187,
+      "prediction_id": "refcoco-val-557527:3",
+      "gt_segmentation_sha256": "1f29d09d2d586099376b9133144d2635eac6a093077ac01fc93aa8351ccef785",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    36568,
+    10514,
+    24666,
+    18460
+  ],
+  "union": [
+    39643,
+    13209,
+    26435,
+    20286
+  ],
+  "mask_file": "refcoco-val-557527.npz",
+  "mask_sha256": "55864ba77847eace0bbd2b70161fe80fe38d6e825119ad7a64c0012a958661fe",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.027114721000089048,
+    "inference_s": 2.7626298970001244,
+    "postprocess_s": 0.0032229979999556235,
+    "amortized_inference_s_per_selected_expression": 0.6906574742500311,
+    "mask_write_s": 0.025478718999920602
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826844672,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 10662,
+  "stage_created": "full-validation",
+  "record_hash": "c54d14104152347e3fef8458c5246bee594ecc808157167f22065275d68435b7",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

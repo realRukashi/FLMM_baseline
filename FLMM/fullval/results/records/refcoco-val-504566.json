@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-504566",
+  "sample_hash": "7c366697019fa4f0466472f590cc1a4c83efa9f90ebd196ad347ba9b851edca3",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 504566,
+  "dataset_index": 876,
+  "expressions": [
+    {
+      "image_id": 504566,
+      "dataset_index": 876,
+      "ref_id": 6734,
+      "sent_id": 19165,
+      "expression": "man with glasses and red tie",
+      "mask_id": 0,
+      "annotation_id": 1294018,
+      "prediction_id": "refcoco-val-504566:0",
+      "gt_segmentation_sha256": "c7beb77ae7c5bb782102a2a75a5547c90e65c914f3f3985f76a13a153b5c38c7",
+      "category_id": 1
+    },
+    {
+      "image_id": 504566,
+      "dataset_index": 876,
+      "ref_id": 6735,
+      "sent_id": 19168,
+      "expression": "women to the right of kerry",
+      "mask_id": 1,
+      "annotation_id": 1261313,
+      "prediction_id": "refcoco-val-504566:1",
+      "gt_segmentation_sha256": "3aacaa6fc003976822f0be395ac9e27a11f67f422e365ad75d38b5f8e1553068",
+      "category_id": 1
+    },
+    {
+      "image_id": 504566,
+      "dataset_index": 876,
+      "ref_id": 6736,
+      "sent_id": 19171,
+      "expression": "woman furthest right",
+      "mask_id": 2,
+      "annotation_id": 2165310,
+      "prediction_id": "refcoco-val-504566:2",
+      "gt_segmentation_sha256": "bfa809875cdbeb382b16b56a88df0fc09d7c2f5d0a628f43fa480483c051d30e",
+      "category_id": 1
+    },
+    {
+      "image_id": 504566,
+      "dataset_index": 876,
+      "ref_id": 6737,
+      "sent_id": 19174,
+      "expression": "middle guy light blue tie",
+      "mask_id": 3,
+      "annotation_id": 2026640,
+      "prediction_id": "refcoco-val-504566:3",
+      "gt_segmentation_sha256": "79b5f7710d6d4270b7bf9cdc6e6654b33fd1f72faa57a4c4908f24585a14430b",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    15172,
+    32,
+    30524,
+    25192
+  ],
+  "union": [
+    17177,
+    54414,
+    32081,
+    27341
+  ],
+  "mask_file": "refcoco-val-504566.npz",
+  "mask_sha256": "cb32f92a6ad4056cc4768d719ccaf4238d71e194abff9532717ec8c7f5a10142",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.011849286999904507,
+    "inference_s": 2.403445245000057,
+    "postprocess_s": 0.0021168880000459467,
+    "amortized_inference_s_per_selected_expression": 0.6008613112500143,
+    "mask_write_s": 0.01987481299988758
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822602240,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447190528,
+    "ram_rss_bytes": 6295695360
+  },
+  "output_bytes": 10404,
+  "stage_created": "full-validation",
+  "record_hash": "0930c4bdd21f2fcf74ff6d72f76311f11e22cc3dac87ead82f871d56b9736f70",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

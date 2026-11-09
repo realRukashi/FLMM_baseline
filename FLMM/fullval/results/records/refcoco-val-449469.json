@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-449469",
+  "sample_hash": "2df2b730f0a24b39051e859b4970eefd3f0aa5ab1a38664b38ef9cc25e68d2dd",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 449469,
+  "dataset_index": 1298,
+  "expressions": [
+    {
+      "image_id": 449469,
+      "dataset_index": 1298,
+      "ref_id": 11539,
+      "sent_id": 32852,
+      "expression": "truck",
+      "mask_id": 0,
+      "annotation_id": 398300,
+      "prediction_id": "refcoco-val-449469:0",
+      "gt_segmentation_sha256": "373b904133e4dcb170756b52cb9924c4ae94fd5effd6f853d4fec4f788b6bf54",
+      "category_id": 8
+    },
+    {
+      "image_id": 449469,
+      "dataset_index": 1298,
+      "ref_id": 11540,
+      "sent_id": 32855,
+      "expression": "white van behind pink car",
+      "mask_id": 1,
+      "annotation_id": 1369321,
+      "prediction_id": "refcoco-val-449469:1",
+      "gt_segmentation_sha256": "ca7badd9045ce170f62f853ea04f3c81df2e31f7ece64935e86e6bd8de0f2329",
+      "category_id": 8
+    }
+  ],
+  "intersection": [
+    49205,
+    7453
+  ],
+  "union": [
+    55074,
+    11985
+  ],
+  "mask_file": "refcoco-val-449469.npz",
+  "mask_sha256": "f3dc8d89d1a99cab7b158778ccb34dbdd2e7628fd33e230d94b182bfbe581f94",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01841003799995633,
+    "inference_s": 2.1601858839999295,
+    "postprocess_s": 0.0017132259999925736,
+    "amortized_inference_s_per_selected_expression": 1.0800929419999648,
+    "mask_write_s": 0.014149827999972331
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818647040,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6297100288
+  },
+  "output_bytes": 6002,
+  "stage_created": "full-validation",
+  "record_hash": "db084e27019f7ad0d3c99924c9a9872744abed712571d72e0a3535c90da89d77",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

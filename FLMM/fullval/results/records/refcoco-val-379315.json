@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-379315",
+  "sample_hash": "e20e31a22ad5a3304538972b9f67da3a1833ce3bd41405e10921990d74765414",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 379315,
+  "dataset_index": 450,
+  "expressions": [
+    {
+      "image_id": 379315,
+      "dataset_index": 450,
+      "ref_id": 17587,
+      "sent_id": 50036,
+      "expression": "left most part of couch just a lil showing",
+      "mask_id": 0,
+      "annotation_id": 116029,
+      "prediction_id": "refcoco-val-379315:0",
+      "gt_segmentation_sha256": "94494e1a5ce60001acec392d1bb81497a6909694939e3307225e81cd7b5ae396",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    11718
+  ],
+  "union": [
+    12509
+  ],
+  "mask_file": "refcoco-val-379315.npz",
+  "mask_sha256": "0599c98725ffa5da5344aa055721d0c2f706b548ac420d7478aca5c8d5c3b6a2",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.012888148999991245,
+    "inference_s": 2.7437781430000996,
+    "postprocess_s": 0.0010622419999890553,
+    "amortized_inference_s_per_selected_expression": 2.7437781430000996,
+    "mask_write_s": 0.01039234699987901
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815022592,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 1974,
+  "stage_created": "full-validation",
+  "record_hash": "3100300cbdfcd2912b3996fe9d4452621b76c8b54f360e7b542e342372d6a91d",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

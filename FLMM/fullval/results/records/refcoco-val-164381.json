@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-164381",
+  "sample_hash": "057e81f294abd00468b8105bb3d82a9c4e53068707c6debeba2565366b961676",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 164381,
+  "dataset_index": 106,
+  "expressions": [
+    {
+      "image_id": 164381,
+      "dataset_index": 106,
+      "ref_id": 35947,
+      "sent_id": 102250,
+      "expression": "man on left in red shirt",
+      "mask_id": 0,
+      "annotation_id": 498048,
+      "prediction_id": "refcoco-val-164381:0",
+      "gt_segmentation_sha256": "d1bfc798c81840498a250bd3ed5c8fdf33c16a57e59f9d49f83df5b63aee1a3c",
+      "category_id": 1
+    },
+    {
+      "image_id": 164381,
+      "dataset_index": 106,
+      "ref_id": 35948,
+      "sent_id": 102253,
+      "expression": "man in white shirt checking cell phone",
+      "mask_id": 1,
+      "annotation_id": 468325,
+      "prediction_id": "refcoco-val-164381:1",
+      "gt_segmentation_sha256": "9d527c5f1b611a9963cf2a565a0baa5cf60dc05b9f96b41b7b7d0ce4d692efac",
+      "category_id": 1
+    },
+    {
+      "image_id": 164381,
+      "dataset_index": 106,
+      "ref_id": 35949,
+      "sent_id": 102256,
+      "expression": "man on le t w/glasses",
+      "mask_id": 2,
+      "annotation_id": 1726954,
+      "prediction_id": "refcoco-val-164381:2",
+      "gt_segmentation_sha256": "22556509b191a52ea9443d779f5b3a604e3d691b4ca1752d4e5406ac3e03f6c4",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    39120,
+    15247,
+    0
+  ],
+  "union": [
+    50124,
+    17735,
+    46980
+  ],
+  "mask_file": "refcoco-val-164381.npz",
+  "mask_sha256": "f8b6d4b0e1993953efb3465d9143d7198ae3e01ff0a3097450e04f16afc07048",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.021025224000140952,
+    "inference_s": 2.2257259529999374,
+    "postprocess_s": 0.0025486170000021957,
+    "amortized_inference_s_per_selected_expression": 0.7419086509999792,
+    "mask_write_s": 0.022435366000081558
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824413696,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5447354368,
+    "ram_rss_bytes": 6282457088
+  },
+  "output_bytes": 10255,
+  "stage_created": "full-probe",
+  "record_hash": "c522c83fe2385631f852604ebb5da9a67d057beb20c15f4d78654fb6e7bd7c96",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

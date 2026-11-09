@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-391088",
+  "sample_hash": "ade16f19990d3dcb0b8658a47eab4f4a43eb09a21f15a88499c615fb9b8df636",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 391088,
+  "dataset_index": 1106,
+  "expressions": [
+    {
+      "image_id": 391088,
+      "dataset_index": 1106,
+      "ref_id": 16582,
+      "sent_id": 47179,
+      "expression": "brown frosting with sprinkles",
+      "mask_id": 0,
+      "annotation_id": 1082987,
+      "prediction_id": "refcoco-val-391088:0",
+      "gt_segmentation_sha256": "a21433d5af398aaca95dcbae750d61f1cdf8b659b41912e178bf4c7ca1b3b036",
+      "category_id": 60
+    },
+    {
+      "image_id": 391088,
+      "dataset_index": 1106,
+      "ref_id": 16583,
+      "sent_id": 47182,
+      "expression": "dounut in the bottom right corner barley in the pic",
+      "mask_id": 1,
+      "annotation_id": 1082509,
+      "prediction_id": "refcoco-val-391088:1",
+      "gt_segmentation_sha256": "68fa03139cea359efecbbee5253afde6183194098a497643fe0386eba5d93efe",
+      "category_id": 60
+    },
+    {
+      "image_id": 391088,
+      "dataset_index": 1106,
+      "ref_id": 16584,
+      "sent_id": 47185,
+      "expression": "back right top donut",
+      "mask_id": 2,
+      "annotation_id": 1082434,
+      "prediction_id": "refcoco-val-391088:2",
+      "gt_segmentation_sha256": "c048b8a4f0be6d0fd06fcbbba90ad8c66357188b20ce0b0d6e2991a13ab735be",
+      "category_id": 60
+    },
+    {
+      "image_id": 391088,
+      "dataset_index": 1106,
+      "ref_id": 16585,
+      "sent_id": 47188,
+      "expression": "donut on right with striped glaze",
+      "mask_id": 3,
+      "annotation_id": 1081888,
+      "prediction_id": "refcoco-val-391088:3",
+      "gt_segmentation_sha256": "3ee0b47b8e685b9616e7b15aae2e470b2cce44f02bafbe759f1a2893edf8f13f",
+      "category_id": 60
+    },
+    {
+      "image_id": 391088,
+      "dataset_index": 1106,
+      "ref_id": 16586,
+      "sent_id": 47191,
+      "expression": "upper left donut",
+      "mask_id": 4,
+      "annotation_id": 1080266,
+      "prediction_id": "refcoco-val-391088:4",
+      "gt_segmentation_sha256": "d6a5ca3d6451e6a43d3e9908d3298c03758aa2615f2a364fdd2d59e02ba5294d",
+      "category_id": 60
+    },
+    {
+      "image_id": 391088,
+      "dataset_index": 1106,
+      "ref_id": 16587,
+      "sent_id": 47194,
+      "expression": "pinke/red donut",
+      "mask_id": 5,
+      "annotation_id": 1078857,
+      "prediction_id": "refcoco-val-391088:5",
+      "gt_segmentation_sha256": "863387703258160da37c7c28a55a09458c03457fcfe9e61a38e074c02756ff75",
+      "category_id": 60
+    },
+    {
+      "image_id": 391088,
+      "dataset_index": 1106,
+      "ref_id": 16588,
+      "sent_id": 47197,
+      "expression": "white donut w brown sprinkles",
+      "mask_id": 6,
+      "annotation_id": 1078386,
+      "prediction_id": "refcoco-val-391088:6",
+      "gt_segmentation_sha256": "55123cb84d6de41c3bb2d7b0750e87a219760eca27b1c01c48aeb2373dc23154",
+      "category_id": 60
+    }
+  ],
+  "intersection": [
+    46557,
+    11443,
+    26767,
+    38863,
+    34293,
+    52988,
+    0
+  ],
+  "union": [
+    49362,
+    52497,
+    27702,
+    40774,
+    36220,
+    54400,
+    107098
+  ],
+  "mask_file": "refcoco-val-391088.npz",
+  "mask_sha256": "40ab8d450153d61c0c6e9c8310571d3729ad6d6ae019b245c1433c240aafabb2",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.031291433000092184,
+    "inference_s": 2.197651930999996,
+    "postprocess_s": 0.005781397999953697,
+    "amortized_inference_s_per_selected_expression": 0.31395027585714225,
+    "mask_write_s": 0.047219761000064864
+  },
+  "memory": {
+    "peak_allocated_bytes": 8856345088,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5455136768,
+    "ram_rss_bytes": 6296907776
+  },
+  "output_bytes": 24892,
+  "stage_created": "full-validation",
+  "record_hash": "82763fedea699a7cd5541c27ec8de26802ae13a81008e4baa904cb4d3dfcaf46",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-432170",
+  "sample_hash": "05989c6ee98ba799a4672dc655282e77415f96f26538bbd45b89ff4d47cb31d6",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 432170,
+  "dataset_index": 1132,
+  "expressions": [
+    {
+      "image_id": 432170,
+      "dataset_index": 1132,
+      "ref_id": 13011,
+      "sent_id": 37019,
+      "expression": "person with blue and gold clothing",
+      "mask_id": 0,
+      "annotation_id": 2167195,
+      "prediction_id": "refcoco-val-432170:0",
+      "gt_segmentation_sha256": "5970bd8b9c0a524bfb45b0b1a9f2286c9d59e400d2b027c6ba4091be6bc6a37a",
+      "category_id": 1
+    },
+    {
+      "image_id": 432170,
+      "dataset_index": 1132,
+      "ref_id": 13012,
+      "sent_id": 37022,
+      "expression": "white shirt on the left up high",
+      "mask_id": 1,
+      "annotation_id": 1754251,
+      "prediction_id": "refcoco-val-432170:1",
+      "gt_segmentation_sha256": "5270663816e6eafed4983731563f4394b85d54056823d6c0f35145f23bd147af",
+      "category_id": 1
+    },
+    {
+      "image_id": 432170,
+      "dataset_index": 1132,
+      "ref_id": 13013,
+      "sent_id": 37025,
+      "expression": "#71",
+      "mask_id": 2,
+      "annotation_id": 512746,
+      "prediction_id": "refcoco-val-432170:2",
+      "gt_segmentation_sha256": "5ca6ab3cd520c73231b9e4c0f64472453977a555c386885ff63b2ad17e3f1e9c",
+      "category_id": 1
+    },
+    {
+      "image_id": 432170,
+      "dataset_index": 1132,
+      "ref_id": 13014,
+      "sent_id": 37028,
+      "expression": "guy that look like he has his head up someones ass",
+      "mask_id": 3,
+      "annotation_id": 477932,
+      "prediction_id": "refcoco-val-432170:3",
+      "gt_segmentation_sha256": "127c79be17f29775e2adb761cfecf059ca09b3bdf81bab0174a0981659ff29ff",
+      "category_id": 1
+    },
+    {
+      "image_id": 432170,
+      "dataset_index": 1132,
+      "ref_id": 13015,
+      "sent_id": 37031,
+      "expression": "player on the right",
+      "mask_id": 4,
+      "annotation_id": 448737,
+      "prediction_id": "refcoco-val-432170:4",
+      "gt_segmentation_sha256": "78a4d838e902deb6a52a4412b916c8bf0080d705fe04f8032e245a5cae39a77f",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    1957,
+    12647,
+    29459,
+    8891,
+    27067
+  ],
+  "union": [
+    36906,
+    15331,
+    32930,
+    37680,
+    31815
+  ],
+  "mask_file": "refcoco-val-432170.npz",
+  "mask_sha256": "1b2a0ec1fa2d90f3cf6a085df1fe96173ff295fe2440a7efb057195ba5cd39c1",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.017754041999978654,
+    "inference_s": 2.1625931700000365,
+    "postprocess_s": 0.0030237249999345295,
+    "amortized_inference_s_per_selected_expression": 0.4325186340000073,
+    "mask_write_s": 0.024784495000062634
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831910400,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449351168,
+    "ram_rss_bytes": 6296907776
+  },
+  "output_bytes": 17376,
+  "stage_created": "full-validation",
+  "record_hash": "e28f0d4a79e0fe60f49bb73ca8647a7e3701fe3699a4931b600aaf656dcf5b5b",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

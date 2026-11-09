@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-245953",
+  "sample_hash": "333b6e39f129051f756d5d9b1bf50513152f70101f4fd072da45e6e731ab3482",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 245953,
+  "dataset_index": 36,
+  "expressions": [
+    {
+      "image_id": 245953,
+      "dataset_index": 36,
+      "ref_id": 29151,
+      "sent_id": 82904,
+      "expression": "top dog'",
+      "mask_id": 0,
+      "annotation_id": 15349,
+      "prediction_id": "refcoco-val-245953:0",
+      "gt_segmentation_sha256": "19e94913ca22a78534ec8183f8aae5247db6aaaf9939eba4c214e1266623fd75",
+      "category_id": 18
+    },
+    {
+      "image_id": 245953,
+      "dataset_index": 36,
+      "ref_id": 29152,
+      "sent_id": 82906,
+      "expression": "dog lying down in front",
+      "mask_id": 1,
+      "annotation_id": 4765,
+      "prediction_id": "refcoco-val-245953:1",
+      "gt_segmentation_sha256": "bbda12961aa77222aa566baa38571f436cc668523cface14dca376111a2432ce",
+      "category_id": 18
+    }
+  ],
+  "intersection": [
+    14100,
+    37609
+  ],
+  "union": [
+    17281,
+    44799
+  ],
+  "mask_file": "refcoco-val-245953.npz",
+  "mask_sha256": "bb07143b6152cbccc971189b780433d6001f524c52af4ae5a0281bb501cccf65",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01795476699999199,
+    "inference_s": 2.7399215309999363,
+    "postprocess_s": 0.0020765189999565337,
+    "amortized_inference_s_per_selected_expression": 1.3699607654999681,
+    "mask_write_s": 0.01768368000011833
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820618752,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446420480,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 6677,
+  "stage_created": "full-validation",
+  "record_hash": "a76b731c0702ecea7becea030bcbbdadf8933817c42a6d3722482ff81cb56816",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

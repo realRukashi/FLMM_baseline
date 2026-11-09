@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-9185",
+  "sample_hash": "89cd0358a5c8fe24e556a217f67f23716f156fa6b86e63ccbe78344c55c75d93",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 9185,
+  "dataset_index": 184,
+  "expressions": [
+    {
+      "image_id": 9185,
+      "dataset_index": 184,
+      "ref_id": 49258,
+      "sent_id": 140086,
+      "expression": "orange on far right, middle of picture",
+      "mask_id": 0,
+      "annotation_id": 1556279,
+      "prediction_id": "refcoco-val-9185:0",
+      "gt_segmentation_sha256": "480a8629187c97041986fbaa5345a68e0ed518a88bb6174f1f2bdad286e5e9c8",
+      "category_id": 55
+    },
+    {
+      "image_id": 9185,
+      "dataset_index": 184,
+      "ref_id": 49259,
+      "sent_id": 140089,
+      "expression": "left corner bottom",
+      "mask_id": 1,
+      "annotation_id": 1053266,
+      "prediction_id": "refcoco-val-9185:1",
+      "gt_segmentation_sha256": "82a3f93992a26331a185790447ab19575d0b2c201e1f1e49426cda2b4c72d50e",
+      "category_id": 55
+    },
+    {
+      "image_id": 9185,
+      "dataset_index": 184,
+      "ref_id": 49260,
+      "sent_id": 140092,
+      "expression": "left orange, behind the one in the very bottom left",
+      "mask_id": 2,
+      "annotation_id": 1053155,
+      "prediction_id": "refcoco-val-9185:2",
+      "gt_segmentation_sha256": "e8ece3dd0b09f3115e049638f9f33a2417436b04bdf6b49e304e42acde59c69a",
+      "category_id": 55
+    },
+    {
+      "image_id": 9185,
+      "dataset_index": 184,
+      "ref_id": 49261,
+      "sent_id": 140094,
+      "expression": "big orange in the back",
+      "mask_id": 3,
+      "annotation_id": 1052778,
+      "prediction_id": "refcoco-val-9185:3",
+      "gt_segmentation_sha256": "a1fc89b4b3447f2556668208e95e2009260bdd576b641ad5f92ab9cd1b8119f6",
+      "category_id": 55
+    },
+    {
+      "image_id": 9185,
+      "dataset_index": 184,
+      "ref_id": 49262,
+      "sent_id": 140097,
+      "expression": "top little orange",
+      "mask_id": 4,
+      "annotation_id": 1052469,
+      "prediction_id": "refcoco-val-9185:4",
+      "gt_segmentation_sha256": "10941d30a7e8e42f67cee0033e0fe54e6208c78ea57812b7e65517b154555782",
+      "category_id": 55
+    },
+    {
+      "image_id": 9185,
+      "dataset_index": 184,
+      "ref_id": 49263,
+      "sent_id": 140100,
+      "expression": "front orange half on screen on right side",
+      "mask_id": 5,
+      "annotation_id": 1051421,
+      "prediction_id": "refcoco-val-9185:5",
+      "gt_segmentation_sha256": "7763b41a7b782cdf2ba453b330d200c91b839b6788fdd37223e038b9d5800fe2",
+      "category_id": 55
+    },
+    {
+      "image_id": 9185,
+      "dataset_index": 184,
+      "ref_id": 49264,
+      "sent_id": 140103,
+      "expression": "orange below big one left",
+      "mask_id": 6,
+      "annotation_id": 2187478,
+      "prediction_id": "refcoco-val-9185:6",
+      "gt_segmentation_sha256": "4765fd589e3d6c1edc6c5ca42aa084e1c9b82643ddbc78ad8598c2516aa8ad00",
+      "category_id": 55
+    }
+  ],
+  "intersection": [
+    20491,
+    30419,
+    13149,
+    42482,
+    508,
+    55565,
+    6382
+  ],
+  "union": [
+    23295,
+    32264,
+    25162,
+    44639,
+    62002,
+    63024,
+    27030
+  ],
+  "mask_file": "refcoco-val-9185.npz",
+  "mask_sha256": "97697075a0e4f31f99a78a63f2074ded448e6b90516131b37b56232d7d95ad8d",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.021617913000000044,
+    "inference_s": 2.9101415060001727,
+    "postprocess_s": 0.0053130549999877985,
+    "amortized_inference_s_per_selected_expression": 0.4157345008571675,
+    "mask_write_s": 0.04552853499990306
+  },
+  "memory": {
+    "peak_allocated_bytes": 8839989248,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451337728,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 18110,
+  "stage_created": "full-validation",
+  "record_hash": "85312bf9150f9e85be42f8428ede1e419ba9deecf2f85df9dfae8c543a045038",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

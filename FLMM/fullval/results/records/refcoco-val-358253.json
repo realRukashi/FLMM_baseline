@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-358253",
+  "sample_hash": "22fac5864f90a98d9523f8892b9f8bf933f71e4853c10e5c3cef1f82cf05ce62",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 358253,
+  "dataset_index": 1091,
+  "expressions": [
+    {
+      "image_id": 358253,
+      "dataset_index": 1091,
+      "ref_id": 19210,
+      "sent_id": 54647,
+      "expression": "pink bed",
+      "mask_id": 0,
+      "annotation_id": 316756,
+      "prediction_id": "refcoco-val-358253:0",
+      "gt_segmentation_sha256": "4469c029d21440ef37c1fe0671ab27550fe54b56b3d962cbbb3521ee16f48821",
+      "category_id": 65
+    }
+  ],
+  "intersection": [
+    13394
+  ],
+  "union": [
+    19526
+  ],
+  "mask_file": "refcoco-val-358253.npz",
+  "mask_sha256": "a0ebda884fe2bec0050cd0a9922de9e8a05e13c64e2e48840d5366de64bd7ce3",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.013205776000063452,
+    "inference_s": 2.139483410999901,
+    "postprocess_s": 0.0011396139999533261,
+    "amortized_inference_s_per_selected_expression": 2.139483410999901,
+    "mask_write_s": 0.00879823699995086
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815695360,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6300438528
+  },
+  "output_bytes": 2765,
+  "stage_created": "full-validation",
+  "record_hash": "852d01da73a3d43d73a470431643b25b55390293b992bb5442ca7d308f1a5a08",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-177289",
+  "sample_hash": "bfa279c5e56d61f1e9a4bf970bc7a087b3e54f30dd791c9b1d46e2679ec543d7",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 177289,
+  "dataset_index": 967,
+  "expressions": [
+    {
+      "image_id": 177289,
+      "dataset_index": 967,
+      "ref_id": 34903,
+      "sent_id": 99273,
+      "expression": "left brown chair",
+      "mask_id": 0,
+      "annotation_id": 389696,
+      "prediction_id": "refcoco-val-177289:0",
+      "gt_segmentation_sha256": "b5507fa824c47f14061c9eedf53128c3d7386c3c8b84917bf95fab9a39067de1",
+      "category_id": 63
+    },
+    {
+      "image_id": 177289,
+      "dataset_index": 967,
+      "ref_id": 34904,
+      "sent_id": 99276,
+      "expression": "the brown leather couch",
+      "mask_id": 1,
+      "annotation_id": 115579,
+      "prediction_id": "refcoco-val-177289:1",
+      "gt_segmentation_sha256": "602e493931bf7616e7b7bc265d2d58320415be371985e982e98090430a5bcc46",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    31568,
+    0
+  ],
+  "union": [
+    34658,
+    42216
+  ],
+  "mask_file": "refcoco-val-177289.npz",
+  "mask_sha256": "be1e27f4aef8f73ba49e4a0c480861031dcb7f13fd7f83afa0e384e4f86fde18",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016833146999942983,
+    "inference_s": 2.2869635419999668,
+    "postprocess_s": 0.0015748179998809064,
+    "amortized_inference_s_per_selected_expression": 1.1434817709999834,
+    "mask_write_s": 0.01362537600016367
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820689408,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6295474176
+  },
+  "output_bytes": 5689,
+  "stage_created": "full-validation",
+  "record_hash": "47405c7e9d63296f182e692ea99d731ac79ae722eca2c8357a477f8066a11525",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

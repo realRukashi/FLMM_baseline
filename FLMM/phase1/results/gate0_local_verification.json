@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "missing_pretrained_tensor_proofs": 874,
+  "trained_checkpoint_tensors": 193,
+  "old_prediction_and_gt_masks_bitwise_equal": true,
+  "expression_ids_mapped": true,
+  "metrics": {
+    "image_count": 20,
+    "mask_count": 47,
+    "intersection": 1378708,
+    "union": 1741080,
+    "cIoU": 79.18694143864728,
+    "mIoU": 81.68246098179694
+  },
+  "later_stages_not_run": true,
+  "historical_smoke_backbone_revision": "UNVERIFIED"
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-218447",
+  "sample_hash": "4b1cdab710ce31b48ffeb2b207a641e8f666b0c6d086c878b2d5723ca1192d30",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 218447,
+  "dataset_index": 1002,
+  "expressions": [
+    {
+      "image_id": 218447,
+      "dataset_index": 1002,
+      "ref_id": 31467,
+      "sent_id": 89490,
+      "expression": "broccoli on lower right",
+      "mask_id": 0,
+      "annotation_id": 1562652,
+      "prediction_id": "refcoco-val-218447:0",
+      "gt_segmentation_sha256": "c20f31d4143a1be174abccf83990e00bdb15c730e1fcb6939ea475f049b8a2f2",
+      "category_id": 56
+    },
+    {
+      "image_id": 218447,
+      "dataset_index": 1002,
+      "ref_id": 31468,
+      "sent_id": 89493,
+      "expression": "broc laying sideways in center of photo",
+      "mask_id": 1,
+      "annotation_id": 1560082,
+      "prediction_id": "refcoco-val-218447:1",
+      "gt_segmentation_sha256": "a00261e31efcd5f0670903b257cb4bbd3393092d4cd2ec1a0187884f899e4709",
+      "category_id": 56
+    },
+    {
+      "image_id": 218447,
+      "dataset_index": 1002,
+      "ref_id": 31469,
+      "sent_id": 89496,
+      "expression": "farthest brocoli left",
+      "mask_id": 2,
+      "annotation_id": 1559768,
+      "prediction_id": "refcoco-val-218447:2",
+      "gt_segmentation_sha256": "fbbc77a5f14807ee01bcef45c6c26fa0fa9018d722de6d5bb1ad58376b4fbe36",
+      "category_id": 56
+    }
+  ],
+  "intersection": [
+    10167,
+    7879,
+    16503
+  ],
+  "union": [
+    13176,
+    29804,
+    21823
+  ],
+  "mask_file": "refcoco-val-218447.npz",
+  "mask_sha256": "d60b0d99ff53431aecfc11367bed248675a3dfce0db55a203ce3c81b6ce6d2ab",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.01310408099993765,
+    "inference_s": 1.831719110999984,
+    "postprocess_s": 0.0020762520000516815,
+    "amortized_inference_s_per_selected_expression": 0.6105730369999947,
+    "mask_write_s": 0.01538055000003169
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822683648,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5447763968,
+    "ram_rss_bytes": 6296686592
+  },
+  "output_bytes": 7397,
+  "stage_created": "full-validation",
+  "record_hash": "55d37f2333f23f77c39806a43dd5189910acc15fe9ba4b5737a59d002ab8d047",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-395742",
+  "sample_hash": "9e4cfa76db9a333a966a0ea9cef8647f5946754fc14fbc3a5df648908103be34",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 395742,
+  "dataset_index": 459,
+  "expressions": [
+    {
+      "image_id": 395742,
+      "dataset_index": 459,
+      "ref_id": 16141,
+      "sent_id": 45931,
+      "expression": "player in white clothes",
+      "mask_id": 0,
+      "annotation_id": 508891,
+      "prediction_id": "refcoco-val-395742:0",
+      "gt_segmentation_sha256": "04dccb382b69832b29e1c3e6ad396d213d35312356b61a74e4b525e421ef09da",
+      "category_id": 1
+    },
+    {
+      "image_id": 395742,
+      "dataset_index": 459,
+      "ref_id": 16142,
+      "sent_id": 45933,
+      "expression": "player in orange",
+      "mask_id": 1,
+      "annotation_id": 438442,
+      "prediction_id": "refcoco-val-395742:1",
+      "gt_segmentation_sha256": "24dee0707cee9629996e7b326abc6662444495a18ce0ad5194885209f522df66",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    13293,
+    19280
+  ],
+  "union": [
+    15605,
+    23831
+  ],
+  "mask_file": "refcoco-val-395742.npz",
+  "mask_sha256": "9a758c9325563791f00d4fa254bc641ab3ae95ab5267a7065ae7f2c7c5a02043",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.021633328999996593,
+    "inference_s": 2.2349056810001002,
+    "postprocess_s": 0.0020275770000353077,
+    "amortized_inference_s_per_selected_expression": 1.1174528405000501,
+    "mask_write_s": 0.015224329999909969
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820804096,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446420480,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 5290,
+  "stage_created": "full-validation",
+  "record_hash": "01178c60ff64597df01dc1b5a9ec5cd7a5111e98ee58a48540e3ead3a24b2321",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

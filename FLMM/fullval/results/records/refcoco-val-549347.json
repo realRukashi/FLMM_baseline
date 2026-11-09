@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-549347",
+  "sample_hash": "a5ec4eba490291bd8107fce33349825d0a84eeeb69cd99ce453ca62cb7631be1",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 549347,
+  "dataset_index": 91,
+  "expressions": [
+    {
+      "image_id": 549347,
+      "dataset_index": 91,
+      "ref_id": 2885,
+      "sent_id": 8238,
+      "expression": "man turned around",
+      "mask_id": 0,
+      "annotation_id": 458447,
+      "prediction_id": "refcoco-val-549347:0",
+      "gt_segmentation_sha256": "bd99312b812576c586a55c8413f8fdc117fd6c41979ef414765332612e35b46a",
+      "category_id": 1
+    },
+    {
+      "image_id": 549347,
+      "dataset_index": 91,
+      "ref_id": 2886,
+      "sent_id": 8241,
+      "expression": "chair in front right being sat in by bald guy looking away",
+      "mask_id": 1,
+      "annotation_id": 386584,
+      "prediction_id": "refcoco-val-549347:1",
+      "gt_segmentation_sha256": "c1dcba542f2873f00c2f1547ec0b04a0f24fa516e4e96a75fed1c05c5625ef76",
+      "category_id": 62
+    },
+    {
+      "image_id": 549347,
+      "dataset_index": 91,
+      "ref_id": 2887,
+      "sent_id": 8244,
+      "expression": "chair of guy looking at you in front",
+      "mask_id": 2,
+      "annotation_id": 382713,
+      "prediction_id": "refcoco-val-549347:2",
+      "gt_segmentation_sha256": "8ced97bc4e52a78d94bc140a4b66a6539a6138181c7a7a0a05d9d5e78fe184c8",
+      "category_id": 62
+    },
+    {
+      "image_id": 549347,
+      "dataset_index": 91,
+      "ref_id": 2888,
+      "sent_id": 8247,
+      "expression": "person sitting behind green pole on left",
+      "mask_id": 3,
+      "annotation_id": 1230373,
+      "prediction_id": "refcoco-val-549347:3",
+      "gt_segmentation_sha256": "c58eb4609d8da2c80bc4bbf9e31be816e29e034d1a3810d7b186784997e82848",
+      "category_id": 1
+    },
+    {
+      "image_id": 549347,
+      "dataset_index": 91,
+      "ref_id": 2889,
+      "sent_id": 8249,
+      "expression": "white shirt not facing us",
+      "mask_id": 4,
+      "annotation_id": 562440,
+      "prediction_id": "refcoco-val-549347:4",
+      "gt_segmentation_sha256": "63e016c1da2df921990c33738cd08447b725260a35943b472201f48926eda349",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    19449,
+    12124,
+    12609,
+    0,
+    14912
+  ],
+  "union": [
+    22300,
+    17014,
+    14551,
+    18468,
+    37954
+  ],
+  "mask_file": "refcoco-val-549347.npz",
+  "mask_sha256": "92347d07cf40d63748433b1d3643b8748a0b7b9a49236d963f5ac5739773f3bb",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.025194033999923704,
+    "inference_s": 2.294543825999881,
+    "postprocess_s": 0.003900789999988774,
+    "amortized_inference_s_per_selected_expression": 0.4589087651999762,
+    "mask_write_s": 0.02944851799998105
+  },
+  "memory": {
+    "peak_allocated_bytes": 8834099712,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5450825728,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 12458,
+  "stage_created": "full-validation",
+  "record_hash": "d478360a340a5f48ffd072703f83808f7970d0e2c1a10f22c4d2554726986fe5",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

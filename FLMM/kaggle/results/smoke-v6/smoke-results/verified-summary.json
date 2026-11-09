@@ -1,0 +1,192 @@
+{
+  "image_count": 20,
+  "mask_count": 47,
+  "recomputed_metrics": {
+    "cIoU": 79.18694143864728,
+    "mIoU": 81.68246098179695
+  },
+  "all_predictions_nonempty": true,
+  "examples": [
+    {
+      "dataset_index": 0,
+      "img_id": 376848,
+      "img_path": "data/coco/train2014/COCO_train2014_000000376848.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 88.25744641411136,
+      "mIoU": 88.27176655310949
+    },
+    {
+      "dataset_index": 1,
+      "img_id": 278549,
+      "img_path": "data/coco/train2014/COCO_train2014_000000278549.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 87.11717345423278,
+      "mIoU": 88.75357144042451
+    },
+    {
+      "dataset_index": 2,
+      "img_id": 532505,
+      "img_path": "data/coco/train2014/COCO_train2014_000000532505.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 29.630755375436227,
+      "mIoU": 42.62095990672971
+    },
+    {
+      "dataset_index": 3,
+      "img_id": 434201,
+      "img_path": "data/coco/train2014/COCO_train2014_000000434201.jpg",
+      "mask_count": 4,
+      "nonempty_predictions": 4,
+      "cIoU": 68.83175547232312,
+      "mIoU": 80.13705256674945
+    },
+    {
+      "dataset_index": 4,
+      "img_id": 401439,
+      "img_path": "data/coco/train2014/COCO_train2014_000000401439.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 90.13290956370992,
+      "mIoU": 89.87928660053346
+    },
+    {
+      "dataset_index": 5,
+      "img_id": 270369,
+      "img_path": "data/coco/train2014/COCO_train2014_000000270369.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 91.65331483000062,
+      "mIoU": 91.30927466602373
+    },
+    {
+      "dataset_index": 6,
+      "img_id": 122916,
+      "img_path": "data/coco/train2014/COCO_train2014_000000122916.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 85.3882073145973,
+      "mIoU": 82.82931749945126
+    },
+    {
+      "dataset_index": 7,
+      "img_id": 41005,
+      "img_path": "data/coco/train2014/COCO_train2014_000000041005.jpg",
+      "mask_count": 3,
+      "nonempty_predictions": 3,
+      "cIoU": 90.5254672590593,
+      "mIoU": 90.39449803698774
+    },
+    {
+      "dataset_index": 8,
+      "img_id": 507952,
+      "img_path": "data/coco/train2014/COCO_train2014_000000507952.jpg",
+      "mask_count": 4,
+      "nonempty_predictions": 4,
+      "cIoU": 75.578314659197,
+      "mIoU": 75.72095830658894
+    },
+    {
+      "dataset_index": 9,
+      "img_id": 409653,
+      "img_path": "data/coco/train2014/COCO_train2014_000000409653.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 80.49422080510163,
+      "mIoU": 78.8902755541955
+    },
+    {
+      "dataset_index": 10,
+      "img_id": 319543,
+      "img_path": "data/coco/train2014/COCO_train2014_000000319543.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 76.84228358461799,
+      "mIoU": 76.79680820801178
+    },
+    {
+      "dataset_index": 11,
+      "img_id": 352312,
+      "img_path": "data/coco/train2014/COCO_train2014_000000352312.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 96.07277464985343,
+      "mIoU": 95.79560757062312
+    },
+    {
+      "dataset_index": 12,
+      "img_id": 270391,
+      "img_path": "data/coco/train2014/COCO_train2014_000000270391.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 87.9859768978381,
+      "mIoU": 85.53619080479582
+    },
+    {
+      "dataset_index": 13,
+      "img_id": 139324,
+      "img_path": "data/coco/train2014/COCO_train2014_000000139324.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 95.8666305311193,
+      "mIoU": 95.86624610714637
+    },
+    {
+      "dataset_index": 14,
+      "img_id": 548935,
+      "img_path": "data/coco/train2014/COCO_train2014_000000548935.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 77.53898488292613,
+      "mIoU": 66.639303383206
+    },
+    {
+      "dataset_index": 15,
+      "img_id": 458827,
+      "img_path": "data/coco/train2014/COCO_train2014_000000458827.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 91.94531291399502,
+      "mIoU": 91.79119551686001
+    },
+    {
+      "dataset_index": 16,
+      "img_id": 16465,
+      "img_path": "data/coco/train2014/COCO_train2014_000000016465.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 83.84464957840066,
+      "mIoU": 83.05804801789604
+    },
+    {
+      "dataset_index": 17,
+      "img_id": 442461,
+      "img_path": "data/coco/train2014/COCO_train2014_000000442461.jpg",
+      "mask_count": 3,
+      "nonempty_predictions": 3,
+      "cIoU": 90.08871111905613,
+      "mIoU": 90.93434870920332
+    },
+    {
+      "dataset_index": 18,
+      "img_id": 139359,
+      "img_path": "data/coco/train2014/COCO_train2014_000000139359.jpg",
+      "mask_count": 2,
+      "nonempty_predictions": 2,
+      "cIoU": 93.76266178953293,
+      "mIoU": 93.96777162803446
+    },
+    {
+      "dataset_index": 19,
+      "img_id": 114786,
+      "img_path": "data/coco/train2014/COCO_train2014_000000114786.jpg",
+      "mask_count": 3,
+      "nonempty_predictions": 3,
+      "cIoU": 46.85286788493486,
+      "mIoU": 55.8819451661488
+    }
+  ],
+  "scope": "Pipeline smoke check; first N loader images of RefCOCO UNC val; not full benchmark"
+}

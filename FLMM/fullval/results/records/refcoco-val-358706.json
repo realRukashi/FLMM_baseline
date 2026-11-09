@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-358706",
+  "sample_hash": "1bb30c3332431bfac989c760844002699bfd62576c0b15dc99274a5bbe051b74",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 358706,
+  "dataset_index": 1173,
+  "expressions": [
+    {
+      "image_id": 358706,
+      "dataset_index": 1173,
+      "ref_id": 19171,
+      "sent_id": 54538,
+      "expression": "man leaning on red and white roadblock post with tanktop and bandana",
+      "mask_id": 0,
+      "annotation_id": 1305079,
+      "prediction_id": "refcoco-val-358706:0",
+      "gt_segmentation_sha256": "e9ce6102b1bbe1b2acb418de42f1f0f28f72a80fe2cf0a8ecbb5be04ded1d77e",
+      "category_id": 1
+    },
+    {
+      "image_id": 358706,
+      "dataset_index": 1173,
+      "ref_id": 19172,
+      "sent_id": 54541,
+      "expression": "guy on cycle",
+      "mask_id": 1,
+      "annotation_id": 1302846,
+      "prediction_id": "refcoco-val-358706:1",
+      "gt_segmentation_sha256": "993a0717427b4bbdb37fb0cb1043f97bc93aa0c040b43287ce94439fbcb378f4",
+      "category_id": 1
+    },
+    {
+      "image_id": 358706,
+      "dataset_index": 1173,
+      "ref_id": 19173,
+      "sent_id": 54544,
+      "expression": "passenger bike rider",
+      "mask_id": 2,
+      "annotation_id": 1271640,
+      "prediction_id": "refcoco-val-358706:2",
+      "gt_segmentation_sha256": "38abed473ea82a2548cad26a0130d0b894e6024743671155fa4d829f3886257e",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12250,
+    7315,
+    9748
+  ],
+  "union": [
+    13989,
+    18394,
+    20879
+  ],
+  "mask_file": "refcoco-val-358706.npz",
+  "mask_sha256": "07800cd61db14bd481a81188e47aeceb515d075186cff64365f2e84ed1f548f5",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.013029063999965729,
+    "inference_s": 2.4951146969999627,
+    "postprocess_s": 0.0020376050000550094,
+    "amortized_inference_s_per_selected_expression": 0.8317048989999876,
+    "mask_write_s": 0.017467077999981484
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820139520,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446524928,
+    "ram_rss_bytes": 6300573696
+  },
+  "output_bytes": 7905,
+  "stage_created": "full-validation",
+  "record_hash": "a182c147a376727c6854b1f8a513657cf5873882a3583f3e3bd29ca068b7252e",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "seconds": 29.81076543399996,
+  "models": [
+    {
+      "path": "models/backbone/model.safetensors",
+      "sha256": "b1c382c6dcecbc3e17c1648253e5086523626719e05e52e905fbfd113694e65e"
+    },
+    {
+      "path": "models/flmm/frozen_deepseek_vl_1_3b_chat_unet_sam_l_refcoco_png.pth",
+      "sha256": "02bdf9e878847c68acaa207a916291cb1568ab119cbc658a4dfa94f399dfed0e"
+    },
+    {
+      "path": "models/sam_vit_l_0b3195.pth",
+      "sha256": "3adcc4315b642a4d2101128f611684e8734c41232a17c648ed1693702a49a622"
+    }
+  ]
+}

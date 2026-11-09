@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-1298",
+  "sample_hash": "d218f2e1a185c86b273f951232c053e5ddc9c50b98ce86d2534204076a0018f8",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 1298,
+  "dataset_index": 231,
+  "expressions": [
+    {
+      "image_id": 1298,
+      "dataset_index": 231,
+      "ref_id": 49891,
+      "sent_id": 141887,
+      "expression": "the guy in the background with shirt and jeans",
+      "mask_id": 0,
+      "annotation_id": 435954,
+      "prediction_id": "refcoco-val-1298:0",
+      "gt_segmentation_sha256": "e1e6d164a73bf5d7abac9baf6554af33e0ab79de506c06f428203f24f551eae4",
+      "category_id": 1
+    },
+    {
+      "image_id": 1298,
+      "dataset_index": 231,
+      "ref_id": 49892,
+      "sent_id": 141889,
+      "expression": "man",
+      "mask_id": 1,
+      "annotation_id": 423892,
+      "prediction_id": "refcoco-val-1298:1",
+      "gt_segmentation_sha256": "a6611f601143f08d7071deb1e971406c035ee2c40113c42e7c2a560c9511c741",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10069,
+    97059
+  ],
+  "union": [
+    10779,
+    115949
+  ],
+  "mask_file": "refcoco-val-1298.npz",
+  "mask_sha256": "bb1ca9652cd107d9ac3bbfc8ea589b77bbf8629bcebc2208e0247839e61f6283",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01611277400002109,
+    "inference_s": 2.049580601999878,
+    "postprocess_s": 0.0017479079999702662,
+    "amortized_inference_s_per_selected_expression": 1.024790300999939,
+    "mask_write_s": 0.018572802000107913
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818401280,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283210752
+  },
+  "output_bytes": 7589,
+  "stage_created": "full-probe",
+  "record_hash": "7b4cd98d15f987ed130481cf2241105adc28136ecf86aeda8a22664ce13e488a",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-105219",
+  "sample_hash": "2d15ec070a50c9281801b72470a5c349f4441746603e997a654eb45798723459",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 105219,
+  "dataset_index": 1275,
+  "expressions": [
+    {
+      "image_id": 105219,
+      "dataset_index": 1275,
+      "ref_id": 40844,
+      "sent_id": 116106,
+      "expression": "person on the right holding the stuffed animal",
+      "mask_id": 0,
+      "annotation_id": 557438,
+      "prediction_id": "refcoco-val-105219:0",
+      "gt_segmentation_sha256": "60d004790f305589c02d55d504afffaf466696e3d51b30891da0f61901e76d8a",
+      "category_id": 1
+    },
+    {
+      "image_id": 105219,
+      "dataset_index": 1275,
+      "ref_id": 40845,
+      "sent_id": 116109,
+      "expression": "the man holding the child",
+      "mask_id": 1,
+      "annotation_id": 555240,
+      "prediction_id": "refcoco-val-105219:1",
+      "gt_segmentation_sha256": "c98aa4b08032489f409d27c81a2b43f80035b76d76718d3177d4d4f002d868df",
+      "category_id": 1
+    },
+    {
+      "image_id": 105219,
+      "dataset_index": 1275,
+      "ref_id": 40846,
+      "sent_id": 116112,
+      "expression": "left man",
+      "mask_id": 2,
+      "annotation_id": 445041,
+      "prediction_id": "refcoco-val-105219:2",
+      "gt_segmentation_sha256": "8d8f25db9fe4937cb21f5611773e9c5f8a91b2cb2c6c9bb23035c4c215b609f3",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    18483,
+    12116,
+    38812
+  ],
+  "union": [
+    25615,
+    23867,
+    40851
+  ],
+  "mask_file": "refcoco-val-105219.npz",
+  "mask_sha256": "ba5454b42b6e115bdcbbbcc89d269f6713e97e749b38976f5d7787086cd0d02e",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.01177955799994379,
+    "inference_s": 2.4504089699998985,
+    "postprocess_s": 0.0014584059999833698,
+    "amortized_inference_s_per_selected_expression": 0.8168029899999661,
+    "mask_write_s": 0.014780807000079221
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824640512,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6300712960
+  },
+  "output_bytes": 9837,
+  "stage_created": "full-validation",
+  "record_hash": "5b30188e0aa831967203a7c3b3b6a076b5885e275511963aa0ec17ee071d4ed6",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

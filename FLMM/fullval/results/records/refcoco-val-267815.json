@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-267815",
+  "sample_hash": "c32cf96ef5a53969d975e55934b17aac10132f401b4cd71f0ba140cfe9a324fa",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 267815,
+  "dataset_index": 1036,
+  "expressions": [
+    {
+      "image_id": 267815,
+      "dataset_index": 1036,
+      "ref_id": 27224,
+      "sent_id": 77416,
+      "expression": "very bottom left cut off head",
+      "mask_id": 0,
+      "annotation_id": 534635,
+      "prediction_id": "refcoco-val-267815:0",
+      "gt_segmentation_sha256": "6260bc28a6ef1f3d49a146bc9cba2800f30a364f33b14fe07162a45cafe337c7",
+      "category_id": 1
+    },
+    {
+      "image_id": 267815,
+      "dataset_index": 1036,
+      "ref_id": 27225,
+      "sent_id": 77419,
+      "expression": "black tshirt dude",
+      "mask_id": 1,
+      "annotation_id": 521583,
+      "prediction_id": "refcoco-val-267815:1",
+      "gt_segmentation_sha256": "e43c7024f7570686d0ff78b884685b8df3c0314800d52a0c72977e282ccb3664",
+      "category_id": 1
+    },
+    {
+      "image_id": 267815,
+      "dataset_index": 1036,
+      "ref_id": 27226,
+      "sent_id": 77422,
+      "expression": "guy holding wii remote",
+      "mask_id": 2,
+      "annotation_id": 453545,
+      "prediction_id": "refcoco-val-267815:2",
+      "gt_segmentation_sha256": "aa0cb4c62b2c92e8a6ce7c6f92388ba573f9748e216b06cc0b2f21777dd0c52a",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    44361,
+    16859,
+    66446
+  ],
+  "union": [
+    49207,
+    18649,
+    70974
+  ],
+  "mask_file": "refcoco-val-267815.npz",
+  "mask_sha256": "59f6403f9c1032093298bf536f47a1a0445d8f54e2b3c45930979181a696a386",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.015550091000022803,
+    "inference_s": 1.9112954180000088,
+    "postprocess_s": 0.0022629680000818553,
+    "amortized_inference_s_per_selected_expression": 0.6370984726666696,
+    "mask_write_s": 0.021806724000043687
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824640512,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5447702528,
+    "ram_rss_bytes": 6296698880
+  },
+  "output_bytes": 11573,
+  "stage_created": "full-validation",
+  "record_hash": "dc3d7967d56d593913438543d34e4f572fd3be4d9a413ecdd13c80cf28535ea8",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

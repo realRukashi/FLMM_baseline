@@ -1,0 +1,2 @@
+# Preserve exact artifact bytes, including JSON checksums, on every platform.
+* -text

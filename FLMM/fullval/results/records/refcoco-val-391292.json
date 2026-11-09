@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-391292",
+  "sample_hash": "a93f21d8639441253a37499e31de747e09ef4571a1f48609283c4b2a338e56cd",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 391292,
+  "dataset_index": 1143,
+  "expressions": [
+    {
+      "image_id": 391292,
+      "dataset_index": 1143,
+      "ref_id": 16561,
+      "sent_id": 47120,
+      "expression": "right side of the cow on the right",
+      "mask_id": 0,
+      "annotation_id": 1409301,
+      "prediction_id": "refcoco-val-391292:0",
+      "gt_segmentation_sha256": "62ebcc17933ea479abe32347f14fd2a7f4c05dc0817202c88f906beb2246fe2c",
+      "category_id": 21
+    },
+    {
+      "image_id": 391292,
+      "dataset_index": 1143,
+      "ref_id": 16562,
+      "sent_id": 47122,
+      "expression": "cow on left eating grass",
+      "mask_id": 1,
+      "annotation_id": 1408783,
+      "prediction_id": "refcoco-val-391292:1",
+      "gt_segmentation_sha256": "64bd3de8e4772caa801f6ed48019ebae90c0dd9ccdfccb3e5b93cffef75ce9dd",
+      "category_id": 21
+    },
+    {
+      "image_id": 391292,
+      "dataset_index": 1143,
+      "ref_id": 16563,
+      "sent_id": 47125,
+      "expression": "cow head",
+      "mask_id": 2,
+      "annotation_id": 1408521,
+      "prediction_id": "refcoco-val-391292:2",
+      "gt_segmentation_sha256": "c0eff7f524d69fffe864f0e2c272b0268c1afee89ce7ab17b7a1e22f976acc12",
+      "category_id": 21
+    },
+    {
+      "image_id": 391292,
+      "dataset_index": 1143,
+      "ref_id": 16564,
+      "sent_id": 47128,
+      "expression": "center of the pic, cow eating grass?",
+      "mask_id": 3,
+      "annotation_id": 1407610,
+      "prediction_id": "refcoco-val-391292:3",
+      "gt_segmentation_sha256": "305cac7eebbfaca98131735f6388e1edcacb38cdfec10ff20443a9d96857b284",
+      "category_id": 21
+    },
+    {
+      "image_id": 391292,
+      "dataset_index": 1143,
+      "ref_id": 16565,
+      "sent_id": 47131,
+      "expression": "2nd cow from right (all black)",
+      "mask_id": 4,
+      "annotation_id": 1407528,
+      "prediction_id": "refcoco-val-391292:4",
+      "gt_segmentation_sha256": "7266fdd03afef2e08fe67e021ffe0adfcc443779d6e2f8ac35c2d65a7a58f151",
+      "category_id": 21
+    }
+  ],
+  "intersection": [
+    20086,
+    14409,
+    17651,
+    17194,
+    13100
+  ],
+  "union": [
+    27327,
+    20750,
+    25507,
+    21682,
+    37979
+  ],
+  "mask_file": "refcoco-val-391292.npz",
+  "mask_sha256": "4983c9009ca58450c10a86dc5809700948f1a75dda57584c9b7453b214734162",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.0229041039999629,
+    "inference_s": 2.351803648999976,
+    "postprocess_s": 0.0037309800000002724,
+    "amortized_inference_s_per_selected_expression": 0.47036072979999516,
+    "mask_write_s": 0.02760150199992495
+  },
+  "memory": {
+    "peak_allocated_bytes": 8834073088,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449811968,
+    "ram_rss_bytes": 6300483584
+  },
+  "output_bytes": 14732,
+  "stage_created": "full-validation",
+  "record_hash": "7bc72291ff19a46b9fb3a066a7bc16dab436b4cf5cd25cde376070c18e6cf9cf",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

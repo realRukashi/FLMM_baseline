@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-121706",
+  "sample_hash": "eee00b3b1fd383fdb561cabdef90777bda54daa99dead2b8cf0499ee3d08203e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 121706,
+  "dataset_index": 1283,
+  "expressions": [
+    {
+      "image_id": 121706,
+      "dataset_index": 1283,
+      "ref_id": 39549,
+      "sent_id": 112452,
+      "expression": "man red jacket",
+      "mask_id": 0,
+      "annotation_id": 1245032,
+      "prediction_id": "refcoco-val-121706:0",
+      "gt_segmentation_sha256": "0035ed381cf4a9da5bef2d228bfb5eedcd487de39ced84f557a96a003999ae07",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10220
+  ],
+  "union": [
+    11604
+  ],
+  "mask_file": "refcoco-val-121706.npz",
+  "mask_sha256": "80d7f38592ec2a30569090a0a76964006592e3f8cbdfb463c18d943afe2d169e",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.013737020999997185,
+    "inference_s": 2.4234265780000896,
+    "postprocess_s": 0.0012558629998693505,
+    "amortized_inference_s_per_selected_expression": 2.4234265780000896,
+    "mask_write_s": 0.008927538999842
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818758144,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6300712960
+  },
+  "output_bytes": 2425,
+  "stage_created": "full-validation",
+  "record_hash": "da9ec28d8aad65a7536255075cd67ef4c61960042df5476374fd4a11517e9733",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

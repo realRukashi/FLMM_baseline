@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-364719",
+  "sample_hash": "e148eea1fb3d4e88da04345b94155662b14e0f87a8d587cb96bdd8623d7481b9",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 364719,
+  "dataset_index": 771,
+  "expressions": [
+    {
+      "image_id": 364719,
+      "dataset_index": 771,
+      "ref_id": 18716,
+      "sent_id": 53240,
+      "expression": "man in white shirt",
+      "mask_id": 0,
+      "annotation_id": 215960,
+      "prediction_id": "refcoco-val-364719:0",
+      "gt_segmentation_sha256": "f2ba47ba5fb094ba65cef34157cef8db45d8d7dbab8f0e2291b316104efb71b5",
+      "category_id": 1
+    },
+    {
+      "image_id": 364719,
+      "dataset_index": 771,
+      "ref_id": 18717,
+      "sent_id": 53242,
+      "expression": "guy bending over",
+      "mask_id": 1,
+      "annotation_id": 194705,
+      "prediction_id": "refcoco-val-364719:1",
+      "gt_segmentation_sha256": "5132d7666ba3b41d5df111bd0a6a55605ba7803e8011cb8f86e35db2337d3975",
+      "category_id": 1
+    },
+    {
+      "image_id": 364719,
+      "dataset_index": 771,
+      "ref_id": 18718,
+      "sent_id": 53245,
+      "expression": "black sheep with man in white shirt",
+      "mask_id": 2,
+      "annotation_id": 66591,
+      "prediction_id": "refcoco-val-364719:2",
+      "gt_segmentation_sha256": "b3c74f643120409009b54cbadcd335a6b0a4adfef78cda85f97c7f9b3cd8ea32",
+      "category_id": 20
+    },
+    {
+      "image_id": 364719,
+      "dataset_index": 771,
+      "ref_id": 18719,
+      "sent_id": 53248,
+      "expression": "white sheep bottom",
+      "mask_id": 3,
+      "annotation_id": 66097,
+      "prediction_id": "refcoco-val-364719:3",
+      "gt_segmentation_sha256": "9dc11607cb93f44040afe8347f607fdceec85b94316e970cce146cddb8c15551",
+      "category_id": 20
+    }
+  ],
+  "intersection": [
+    33380,
+    68380,
+    12196,
+    43545
+  ],
+  "union": [
+    35299,
+    71864,
+    16376,
+    48056
+  ],
+  "mask_file": "refcoco-val-364719.npz",
+  "mask_sha256": "8ee207c3bc018776789d6ad5e0b2c9c37a004c84a2085821e036aa2186467f51",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.017427268000005824,
+    "inference_s": 2.3095423839999967,
+    "postprocess_s": 0.002855025000030764,
+    "amortized_inference_s_per_selected_expression": 0.5773855959999992,
+    "mask_write_s": 0.02726870499998313
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829116928,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6294519808
+  },
+  "output_bytes": 15960,
+  "stage_created": "full-validation",
+  "record_hash": "f41527d71153fee4d47c5bb34a8754faf53f7d420333d35246fd72c85f7be5d6",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-523455",
+  "sample_hash": "25c2a80a4e1c336096386fc12a62da7f6556a795f3867ed352e699aff6725a11",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 523455,
+  "dataset_index": 1353,
+  "expressions": [
+    {
+      "image_id": 523455,
+      "dataset_index": 1353,
+      "ref_id": 5085,
+      "sent_id": 14481,
+      "expression": "boy on left white shirt",
+      "mask_id": 0,
+      "annotation_id": 1744275,
+      "prediction_id": "refcoco-val-523455:0",
+      "gt_segmentation_sha256": "bb80f953c849bdbe0c2aa0c1a0ba2ce583ba66e4b098b39f3f6167f402295339",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    19923
+  ],
+  "union": [
+    22190
+  ],
+  "mask_file": "refcoco-val-523455.npz",
+  "mask_sha256": "ae39ef12ac868fd37aeff75b0765945410bcbb5ff23d4c43eb321632aff61811",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.010192544999881648,
+    "inference_s": 2.411642506999897,
+    "postprocess_s": 0.0007398319999083469,
+    "amortized_inference_s_per_selected_expression": 2.411642506999897,
+    "mask_write_s": 0.008359781000081057
+  },
+  "memory": {
+    "peak_allocated_bytes": 8816046592,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5444468224,
+    "ram_rss_bytes": 6301388800
+  },
+  "output_bytes": 2565,
+  "stage_created": "full-validation",
+  "record_hash": "eb2ac93d81de064433866f3004188989a5eb191f57e6e559d9b207e4cb703c70",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

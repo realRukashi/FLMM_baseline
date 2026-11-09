@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-507215",
+  "sample_hash": "79568da74bb5d185ef73b28a79af62f3da7a69dd67f13451981ae9bf689134dd",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 507215,
+  "dataset_index": 1387,
+  "expressions": [
+    {
+      "image_id": 507215,
+      "dataset_index": 1387,
+      "ref_id": 6503,
+      "sent_id": 18516,
+      "expression": "blue jeans man on the right",
+      "mask_id": 0,
+      "annotation_id": 1728995,
+      "prediction_id": "refcoco-val-507215:0",
+      "gt_segmentation_sha256": "d8b473b3c02788ad48f54c458764b5677ac8bd774ffc0b290f611cbed2190fd2",
+      "category_id": 1
+    },
+    {
+      "image_id": 507215,
+      "dataset_index": 1387,
+      "ref_id": 6504,
+      "sent_id": 18518,
+      "expression": "biggest laptop",
+      "mask_id": 1,
+      "annotation_id": 1101250,
+      "prediction_id": "refcoco-val-507215:1",
+      "gt_segmentation_sha256": "8acc223605940dad16d425e995d2b1e7fc196d2698bd82d94565eac751f0a0f5",
+      "category_id": 73
+    },
+    {
+      "image_id": 507215,
+      "dataset_index": 1387,
+      "ref_id": 6505,
+      "sent_id": 18521,
+      "expression": "laptop with green keyboard.",
+      "mask_id": 2,
+      "annotation_id": 1100736,
+      "prediction_id": "refcoco-val-507215:2",
+      "gt_segmentation_sha256": "85d43794a4b594a559c2f87eef1056395434141cdfc209e138fce657e0ca527b",
+      "category_id": 73
+    },
+    {
+      "image_id": 507215,
+      "dataset_index": 1387,
+      "ref_id": 6506,
+      "sent_id": 18524,
+      "expression": "person above laptop",
+      "mask_id": 3,
+      "annotation_id": 458356,
+      "prediction_id": "refcoco-val-507215:3",
+      "gt_segmentation_sha256": "23f11259d3241ea10ae036e4f83cc51181a8a2eaba478bfc5d589a9869e82ed1",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11251,
+    24461,
+    19109,
+    14887
+  ],
+  "union": [
+    12709,
+    26990,
+    21084,
+    16377
+  ],
+  "mask_file": "refcoco-val-507215.npz",
+  "mask_sha256": "b43b2d8863825004546b871d864de3779b9e1058e1eaddeb38b32eac3551d52b",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.013400657999909527,
+    "inference_s": 2.4351787189998504,
+    "postprocess_s": 0.002627295999900525,
+    "amortized_inference_s_per_selected_expression": 0.6087946797499626,
+    "mask_write_s": 0.018919624000091062
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826875392,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448019968,
+    "ram_rss_bytes": 6301450240
+  },
+  "output_bytes": 8210,
+  "stage_created": "full-validation",
+  "record_hash": "e34d2cfc209fbc3fbae44387041a4d9b1e40bfe8b8fca904fe26bb41586455d3",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

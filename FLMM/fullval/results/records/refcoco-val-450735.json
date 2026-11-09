@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-450735",
+  "sample_hash": "e400b34ef6077276d99332402ea13854a2d1bde538e24d9e06098985258b88ea",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 450735,
+  "dataset_index": 34,
+  "expressions": [
+    {
+      "image_id": 450735,
+      "dataset_index": 34,
+      "ref_id": 11430,
+      "sent_id": 32544,
+      "expression": "cow far left",
+      "mask_id": 0,
+      "annotation_id": 76648,
+      "prediction_id": "refcoco-val-450735:0",
+      "gt_segmentation_sha256": "42ef20c6bf49cb7cdce460ee8c7f8c451cdac998819cc66c5ded14737e575126",
+      "category_id": 21
+    },
+    {
+      "image_id": 450735,
+      "dataset_index": 34,
+      "ref_id": 11431,
+      "sent_id": 32546,
+      "expression": "the cow second from left",
+      "mask_id": 1,
+      "annotation_id": 75172,
+      "prediction_id": "refcoco-val-450735:1",
+      "gt_segmentation_sha256": "a3115aec7ee5c19bb870967708737c3780538ba312e7729b095dfd8f828eb98f",
+      "category_id": 21
+    },
+    {
+      "image_id": 450735,
+      "dataset_index": 34,
+      "ref_id": 11432,
+      "sent_id": 32549,
+      "expression": "right most rear end",
+      "mask_id": 2,
+      "annotation_id": 74591,
+      "prediction_id": "refcoco-val-450735:2",
+      "gt_segmentation_sha256": "992aa518bb957154062403a9a1f8cd883fa8a74a766cfaa3639c667ea98f07e5",
+      "category_id": 21
+    },
+    {
+      "image_id": 450735,
+      "dataset_index": 34,
+      "ref_id": 11433,
+      "sent_id": 32552,
+      "expression": "4th cow from the left",
+      "mask_id": 3,
+      "annotation_id": 74028,
+      "prediction_id": "refcoco-val-450735:3",
+      "gt_segmentation_sha256": "528c74fc25220c9f4d9a856e59277e9066cc1899fb02e7105d3c22c1a0a54bbe",
+      "category_id": 21
+    },
+    {
+      "image_id": 450735,
+      "dataset_index": 34,
+      "ref_id": 11434,
+      "sent_id": 32554,
+      "expression": "the cow in he middle",
+      "mask_id": 4,
+      "annotation_id": 72865,
+      "prediction_id": "refcoco-val-450735:4",
+      "gt_segmentation_sha256": "d44241606fd4da9983a942ecb94aeb1ccc9b00057a2ff2399a98c9c53c741fdf",
+      "category_id": 21
+    }
+  ],
+  "intersection": [
+    14411,
+    9829,
+    16693,
+    7892,
+    19014
+  ],
+  "union": [
+    17247,
+    26429,
+    37711,
+    40289,
+    26660
+  ],
+  "mask_file": "refcoco-val-450735.npz",
+  "mask_sha256": "0615ad2a7562d9f066375d4f94f29fda1f794b7bca275b2592aefc76806b8315",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.02543066499993074,
+    "inference_s": 2.7348944770001253,
+    "postprocess_s": 0.004318603000001531,
+    "amortized_inference_s_per_selected_expression": 0.5469788954000251,
+    "mask_write_s": 0.03231164199996783
+  },
+  "memory": {
+    "peak_allocated_bytes": 8833921536,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449760768,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 16548,
+  "stage_created": "full-validation",
+  "record_hash": "a86f5318e80970a2436c337032969476aab5a6d86eb1216aba244321b6e2dabd",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

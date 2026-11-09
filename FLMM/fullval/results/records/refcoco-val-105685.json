@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-105685",
+  "sample_hash": "f94d4f27907783a23c19b063a2eeb80c2c4eae75b0873fb8c0a6fb8d70576023",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 105685,
+  "dataset_index": 1357,
+  "expressions": [
+    {
+      "image_id": 105685,
+      "dataset_index": 1357,
+      "ref_id": 40800,
+      "sent_id": 115980,
+      "expression": "man on far right",
+      "mask_id": 0,
+      "annotation_id": 1237535,
+      "prediction_id": "refcoco-val-105685:0",
+      "gt_segmentation_sha256": "9df6af77ead91aea02aff21325389a317c32b42c756996413d4aea36950ef440",
+      "category_id": 1
+    },
+    {
+      "image_id": 105685,
+      "dataset_index": 1357,
+      "ref_id": 40801,
+      "sent_id": 115983,
+      "expression": "lady holding baby",
+      "mask_id": 1,
+      "annotation_id": 554578,
+      "prediction_id": "refcoco-val-105685:1",
+      "gt_segmentation_sha256": "e7f8eae85b23e0ae91fbffc7563b180e8d2fe5b275be87f8acc3d62532549e13",
+      "category_id": 1
+    },
+    {
+      "image_id": 105685,
+      "dataset_index": 1357,
+      "ref_id": 40802,
+      "sent_id": 115986,
+      "expression": "little boy with arm raised",
+      "mask_id": 2,
+      "annotation_id": 475341,
+      "prediction_id": "refcoco-val-105685:2",
+      "gt_segmentation_sha256": "61df90af976171697a446274415d3d09542c79cda72ca6c86e5ebfa2e6bffff3",
+      "category_id": 1
+    },
+    {
+      "image_id": 105685,
+      "dataset_index": 1357,
+      "ref_id": 40803,
+      "sent_id": 115989,
+      "expression": "girl bottom left",
+      "mask_id": 3,
+      "annotation_id": 444065,
+      "prediction_id": "refcoco-val-105685:3",
+      "gt_segmentation_sha256": "8f5202f2540d06291738db2ffca888d610679ccf8adb201e388c4cf76f696978",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    37297,
+    27955,
+    21850,
+    23352
+  ],
+  "union": [
+    38449,
+    35080,
+    35132,
+    26012
+  ],
+  "mask_file": "refcoco-val-105685.npz",
+  "mask_sha256": "0490ed9334b3fad5d8f44349f9d5d10b197f75e3f7d7c35e095e14937861fc0a",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.016510608000089633,
+    "inference_s": 2.4530570679999073,
+    "postprocess_s": 0.0028718639998714934,
+    "amortized_inference_s_per_selected_expression": 0.6132642669999768,
+    "mask_write_s": 0.024570259000029182
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829090304,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6301388800
+  },
+  "output_bytes": 14734,
+  "stage_created": "full-validation",
+  "record_hash": "7819d0466aa99b905b7b59739b93af5b0171551aa6afce62a7716beb1771461f",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

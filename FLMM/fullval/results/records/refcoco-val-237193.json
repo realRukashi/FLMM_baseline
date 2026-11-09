@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-237193",
+  "sample_hash": "57b04d5eba600cc6f3cc4a72bc177d829c422ac26158a86005f441ba23f8ad3d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 237193,
+  "dataset_index": 1440,
+  "expressions": [
+    {
+      "image_id": 237193,
+      "dataset_index": 1440,
+      "ref_id": 29904,
+      "sent_id": 85035,
+      "expression": "person far right",
+      "mask_id": 0,
+      "annotation_id": 205650,
+      "prediction_id": "refcoco-val-237193:0",
+      "gt_segmentation_sha256": "1af5c1b2d407ef67283c57aa88db69fb9cab14eed4c1c42815f23e50f6f48e9f",
+      "category_id": 1
+    },
+    {
+      "image_id": 237193,
+      "dataset_index": 1440,
+      "ref_id": 29905,
+      "sent_id": 85038,
+      "expression": "man with dog on left. you too!",
+      "mask_id": 1,
+      "annotation_id": 203101,
+      "prediction_id": "refcoco-val-237193:1",
+      "gt_segmentation_sha256": "c35b8684878acba9b309fb409314d2340095aaee4716e56d32e50c8d3825630d",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12285,
+    12062
+  ],
+  "union": [
+    13073,
+    12840
+  ],
+  "mask_file": "refcoco-val-237193.npz",
+  "mask_sha256": "5f67b24395757eb288af20fce692130ffe8ff9f1da438da1d9a8a970b988af7f",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013450099000010596,
+    "inference_s": 2.156965626000101,
+    "postprocess_s": 0.0010223589999895921,
+    "amortized_inference_s_per_selected_expression": 1.0784828130000506,
+    "mask_write_s": 0.009498517999873002
+  },
+  "memory": {
+    "peak_allocated_bytes": 8813145600,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445455360,
+    "ram_rss_bytes": 6297804800
+  },
+  "output_bytes": 3247,
+  "stage_created": "full-validation",
+  "record_hash": "431dd48677fd148011b8a6eec1b8d17412a019002641fd98ee9c5d4562898807",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

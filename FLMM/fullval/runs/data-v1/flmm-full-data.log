@@ -1,0 +1,19 @@
+[{"stream_name":"stderr","time":7.40240026,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.402455336,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.402462154,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.402466166,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.088642563,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.088678004,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.088683756,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.088687955,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":35.641995928,"data":"{'status': 'PASS', 'images': 1500, 'reused_images': 670, 'downloaded_images': 830, 'preparation_s': 21.659691238999983, 'downloaded_bytes': 142272493, 'source_manifest_hash': '1a12e0e71a0c4bf79bc0e11c0cd71c8d0e932d7398a64c2bdb67e1c0faee3a6d', 'network_retries': 3, 'timeout_s': 45}\n"}
+,{"stream_name":"stdout","time":35.710864509,"data":"{'status': 'PASS', 'images': 1500, 'reused_images': 670, 'downloaded_images': 830, 'preparation_s': 21.659691238999983, 'downloaded_bytes': 142272493, 'source_manifest_hash': '1a12e0e71a0c4bf79bc0e11c0cd71c8d0e932d7398a64c2bdb67e1c0faee3a6d', 'network_retries': 3, 'timeout_s': 45}\n"}
+,{"stream_name":"stderr","time":38.624194629,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":38.624230348,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":38.801330557,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":38.801356457,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":39.632383618,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":39.717533929,"data":"[NbConvertApp] Writing 70254 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":42.694534747,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":43.263570082,"data":"[NbConvertApp] Writing 343809 bytes to __results__.html\n"}
+]

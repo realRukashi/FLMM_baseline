@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-154212",
+  "sample_hash": "c56a7a39e39abd57105388454d6f128761fa4d2538b2148932228b42814d2ef6",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 154212,
+  "dataset_index": 1240,
+  "expressions": [
+    {
+      "image_id": 154212,
+      "dataset_index": 1240,
+      "ref_id": 36730,
+      "sent_id": 104468,
+      "expression": "bottom boobs",
+      "mask_id": 0,
+      "annotation_id": 1926838,
+      "prediction_id": "refcoco-val-154212:0",
+      "gt_segmentation_sha256": "48f7d6af141054043f16fb08a2a0d9a4dbb67440000e8d54c656609ad6abde91",
+      "category_id": 61
+    },
+    {
+      "image_id": 154212,
+      "dataset_index": 1240,
+      "ref_id": 36731,
+      "sent_id": 104471,
+      "expression": "top big brown boobs",
+      "mask_id": 1,
+      "annotation_id": 1089557,
+      "prediction_id": "refcoco-val-154212:1",
+      "gt_segmentation_sha256": "2b38f8575de32d87b712621f53c3ac25ee35d71487fe3306b93443ddf91cf619",
+      "category_id": 61
+    },
+    {
+      "image_id": 154212,
+      "dataset_index": 1240,
+      "ref_id": 36732,
+      "sent_id": 104474,
+      "expression": "white and light brown breasts?",
+      "mask_id": 2,
+      "annotation_id": 1088079,
+      "prediction_id": "refcoco-val-154212:2",
+      "gt_segmentation_sha256": "2783fe177d0eea6a5ef711dd6f2b1eaf71dac528740ff08de407a9f9f76b2c71",
+      "category_id": 61
+    }
+  ],
+  "intersection": [
+    16815,
+    14059,
+    16174
+  ],
+  "union": [
+    17707,
+    17585,
+    17497
+  ],
+  "mask_file": "refcoco-val-154212.npz",
+  "mask_sha256": "878e1e1cb0f1464e1f0c9045fec1dacca42a68c7ff460bc7a551b6ca987df8dc",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.01639972599991779,
+    "inference_s": 2.1732541310000215,
+    "postprocess_s": 0.002565380999953959,
+    "amortized_inference_s_per_selected_expression": 0.7244180436666738,
+    "mask_write_s": 0.018411460999914198
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824584192,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447706624,
+    "ram_rss_bytes": 6297092096
+  },
+  "output_bytes": 6546,
+  "stage_created": "full-validation",
+  "record_hash": "560d240d6b21fa4611fc787a587a271b60b70fe7b249bdbb7d6a8ffcaf5ca82b",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

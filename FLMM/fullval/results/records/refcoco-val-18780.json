@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-18780",
+  "sample_hash": "ed9a98e682b6f7ed645a27cb310ed0fe4351abbbeb9d5881f008f907baea773b",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 18780,
+  "dataset_index": 429,
+  "expressions": [
+    {
+      "image_id": 18780,
+      "dataset_index": 429,
+      "ref_id": 48386,
+      "sent_id": 137626,
+      "expression": "front pizza",
+      "mask_id": 0,
+      "annotation_id": 1076392,
+      "prediction_id": "refcoco-val-18780:0",
+      "gt_segmentation_sha256": "7e27d34d32d4736c87a792b53b56f9308f6034fc3ebc1a7f225dda6fcc420cb0",
+      "category_id": 59
+    },
+    {
+      "image_id": 18780,
+      "dataset_index": 429,
+      "ref_id": 48387,
+      "sent_id": 137629,
+      "expression": "pepperoni pizza",
+      "mask_id": 1,
+      "annotation_id": 1073181,
+      "prediction_id": "refcoco-val-18780:1",
+      "gt_segmentation_sha256": "e5f5d61a550f8c1a28b8ac559f038875986373eeeb1f3521714aa6cffc4044c5",
+      "category_id": 59
+    },
+    {
+      "image_id": 18780,
+      "dataset_index": 429,
+      "ref_id": 48388,
+      "sent_id": 137632,
+      "expression": "clear bottle foggy",
+      "mask_id": 2,
+      "annotation_id": 95087,
+      "prediction_id": "refcoco-val-18780:2",
+      "gt_segmentation_sha256": "41be122051ce5402627c208606d336442708b13f5502e52f0c28b956edf1d599",
+      "category_id": 44
+    },
+    {
+      "image_id": 18780,
+      "dataset_index": 429,
+      "ref_id": 48389,
+      "sent_id": 137635,
+      "expression": "the bottle on table with olive oil in in",
+      "mask_id": 3,
+      "annotation_id": 91638,
+      "prediction_id": "refcoco-val-18780:3",
+      "gt_segmentation_sha256": "fe82fc647e8b84a494026f9bb78e2f6ab00e24368456ea15337d8eee55310eeb",
+      "category_id": 44
+    }
+  ],
+  "intersection": [
+    109064,
+    24661,
+    0,
+    12922
+  ],
+  "union": [
+    121122,
+    28294,
+    34919,
+    13789
+  ],
+  "mask_file": "refcoco-val-18780.npz",
+  "mask_sha256": "cd09eabcb6b47499b0544e8185916099c5e8f3d97eedfdcce4deea29d2276cba",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.020529351999812206,
+    "inference_s": 2.258398902000181,
+    "postprocess_s": 0.003362156000093819,
+    "amortized_inference_s_per_selected_expression": 0.5645997255000452,
+    "mask_write_s": 0.027115501000025688
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829130240,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 8672,
+  "stage_created": "full-validation",
+  "record_hash": "0eb0edc239debdb26b6e674f71ac2b8f0c05ff6028df946ccd8b0e3a6f33f736",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

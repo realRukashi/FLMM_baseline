@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-534772",
+  "sample_hash": "6011b3186c26751566dd71b9363ce38678915ed7f4381dd69ced06170aa67103",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 534772,
+  "dataset_index": 410,
+  "expressions": [
+    {
+      "image_id": 534772,
+      "dataset_index": 410,
+      "ref_id": 4133,
+      "sent_id": 11784,
+      "expression": "guy guy yellow with sunglass",
+      "mask_id": 0,
+      "annotation_id": 1333061,
+      "prediction_id": "refcoco-val-534772:0",
+      "gt_segmentation_sha256": "6b893aeb47afdd2b62bba21434c8e84e61b14b09acb960060b4591b94fd42b75",
+      "category_id": 1
+    },
+    {
+      "image_id": 534772,
+      "dataset_index": 410,
+      "ref_id": 4134,
+      "sent_id": 11787,
+      "expression": "the girl about to get hit by bat in face",
+      "mask_id": 1,
+      "annotation_id": 1333042,
+      "prediction_id": "refcoco-val-534772:1",
+      "gt_segmentation_sha256": "00680d00170a09bbd57774dd751588731a7f624069f828f343544b1725da7eef",
+      "category_id": 1
+    },
+    {
+      "image_id": 534772,
+      "dataset_index": 410,
+      "ref_id": 4135,
+      "sent_id": 11789,
+      "expression": "person in blue hunched over",
+      "mask_id": 2,
+      "annotation_id": 1329583,
+      "prediction_id": "refcoco-val-534772:2",
+      "gt_segmentation_sha256": "f49f87fe6eb48bc743297248125af4a304c47f9a888fa01a75dbc1d1b34f6dfe",
+      "category_id": 1
+    },
+    {
+      "image_id": 534772,
+      "dataset_index": 410,
+      "ref_id": 4136,
+      "sent_id": 11792,
+      "expression": "guy in plaid",
+      "mask_id": 3,
+      "annotation_id": 1313484,
+      "prediction_id": "refcoco-val-534772:3",
+      "gt_segmentation_sha256": "1e7edb228bc76e0649d198160b4a2812deb48c0ed8f3584e163ddaaee25992d0",
+      "category_id": 1
+    },
+    {
+      "image_id": 534772,
+      "dataset_index": 410,
+      "ref_id": 4137,
+      "sent_id": 11795,
+      "expression": "man in all red",
+      "mask_id": 4,
+      "annotation_id": 2151138,
+      "prediction_id": "refcoco-val-534772:4",
+      "gt_segmentation_sha256": "2e7be522b4bcf14c301937b11e77ba707004e21ef444c3fc1f623041a4f44c23",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10958,
+    6024,
+    9473,
+    11333,
+    10722
+  ],
+  "union": [
+    14169,
+    19189,
+    14614,
+    13006,
+    12109
+  ],
+  "mask_file": "refcoco-val-534772.npz",
+  "mask_sha256": "97e7771e1998bb969d3f8cd4a59dc6d3f1fc4d4ed5950f2d4f1851f4fb9413bb",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.01138934400000835,
+    "inference_s": 2.788998132000188,
+    "postprocess_s": 0.0019200310000542231,
+    "amortized_inference_s_per_selected_expression": 0.5577996264000376,
+    "mask_write_s": 0.01908522000007906
+  },
+  "memory": {
+    "peak_allocated_bytes": 8833736192,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446236160,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 8014,
+  "stage_created": "full-validation",
+  "record_hash": "3c87da2e2c79da42b6c399d3ba561be40373e0e50d6c0a22f0ec017966c8307e",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-132991",
+  "sample_hash": "8c98b67df49ea3d891ef17857bde581dc8efc8345ff5cb093bd6a259b4269546",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 132991,
+  "dataset_index": 342,
+  "expressions": [
+    {
+      "image_id": 132991,
+      "dataset_index": 342,
+      "ref_id": 38500,
+      "sent_id": 109482,
+      "expression": "man on right gray suit",
+      "mask_id": 0,
+      "annotation_id": 527895,
+      "prediction_id": "refcoco-val-132991:0",
+      "gt_segmentation_sha256": "58b95e5a99d836d88faf8efac31258da9af81ce5a30e68ef9e47491eecc52435",
+      "category_id": 1
+    },
+    {
+      "image_id": 132991,
+      "dataset_index": 342,
+      "ref_id": 38501,
+      "sent_id": 109485,
+      "expression": "man has glasses, black suit, blue striped tie, next to woman with glass and grey suit",
+      "mask_id": 1,
+      "annotation_id": 2205922,
+      "prediction_id": "refcoco-val-132991:1",
+      "gt_segmentation_sha256": "d7ed925db726a79e40f2222a15531d9c926e0397710af88ee6d4299840128fa2",
+      "category_id": 1
+    },
+    {
+      "image_id": 132991,
+      "dataset_index": 342,
+      "ref_id": 38502,
+      "sent_id": 109488,
+      "expression": "girl in the front in the white shirt",
+      "mask_id": 2,
+      "annotation_id": 518044,
+      "prediction_id": "refcoco-val-132991:2",
+      "gt_segmentation_sha256": "075d943bfc91b01362a65608ac20e7faf654ac938e94c8d2dcda38673d4fdb51",
+      "category_id": 1
+    },
+    {
+      "image_id": 132991,
+      "dataset_index": 342,
+      "ref_id": 38503,
+      "sent_id": 109491,
+      "expression": "lady in very front blue shirt",
+      "mask_id": 3,
+      "annotation_id": 455636,
+      "prediction_id": "refcoco-val-132991:3",
+      "gt_segmentation_sha256": "f699596092d3b4651bb40abc34c8d492e628b00da2f181487571b06c03204f18",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12259,
+    6044,
+    10348,
+    11272
+  ],
+  "union": [
+    13919,
+    20433,
+    11537,
+    13011
+  ],
+  "mask_file": "refcoco-val-132991.npz",
+  "mask_sha256": "cb977602ea90e6973fb4cba5460c244e6e7f03db3ddc6845c322526421f6ae26",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.025339103999840518,
+    "inference_s": 2.7786082550001083,
+    "postprocess_s": 0.0034385349999865866,
+    "amortized_inference_s_per_selected_expression": 0.6946520637500271,
+    "mask_write_s": 0.023192864000066038
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831810048,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448910848,
+    "ram_rss_bytes": 6283124736
+  },
+  "output_bytes": 10128,
+  "stage_created": "full-validation",
+  "record_hash": "1d82478e5b0022f2aaeb5013953651c196cc8a7e76e951bec66ed4cbbe87e2d1",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

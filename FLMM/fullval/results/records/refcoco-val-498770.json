@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-498770",
+  "sample_hash": "da00f81db90e399adab52514f9c15a094b666acc7bcf6175691fd556beec5ece",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 498770,
+  "dataset_index": 1329,
+  "expressions": [
+    {
+      "image_id": 498770,
+      "dataset_index": 1329,
+      "ref_id": 7240,
+      "sent_id": 20614,
+      "expression": "blurry broccoli top right",
+      "mask_id": 0,
+      "annotation_id": 1562451,
+      "prediction_id": "refcoco-val-498770:0",
+      "gt_segmentation_sha256": "392a131ba1406477f89040bf42dabccf9d7772f695f1ba899ef34ae440c0c657",
+      "category_id": 56
+    },
+    {
+      "image_id": 498770,
+      "dataset_index": 1329,
+      "ref_id": 7241,
+      "sent_id": 20616,
+      "expression": "very very cut off left green",
+      "mask_id": 1,
+      "annotation_id": 1562058,
+      "prediction_id": "refcoco-val-498770:1",
+      "gt_segmentation_sha256": "2d777644165f41080011ba38a8a13b57dfe85409cfa94c6b9aa8716692ecc055",
+      "category_id": 56
+    },
+    {
+      "image_id": 498770,
+      "dataset_index": 1329,
+      "ref_id": 7242,
+      "sent_id": 20618,
+      "expression": "brocolli on top",
+      "mask_id": 2,
+      "annotation_id": 1060436,
+      "prediction_id": "refcoco-val-498770:2",
+      "gt_segmentation_sha256": "3c048633d1333e3a1a739bbecc3e4ea686b1e0e17cc4d251c1a19255aef7541a",
+      "category_id": 56
+    },
+    {
+      "image_id": 498770,
+      "dataset_index": 1329,
+      "ref_id": 7243,
+      "sent_id": 20621,
+      "expression": "left brocolli",
+      "mask_id": 3,
+      "annotation_id": 1059329,
+      "prediction_id": "refcoco-val-498770:3",
+      "gt_segmentation_sha256": "1812226b2be3bac0d9a8a9f8f5766a5c2b8fa67679b1144c57f8c9baea9d3c60",
+      "category_id": 56
+    },
+    {
+      "image_id": 498770,
+      "dataset_index": 1329,
+      "ref_id": 7244,
+      "sent_id": 20624,
+      "expression": "brocoli lower right",
+      "mask_id": 4,
+      "annotation_id": 1058415,
+      "prediction_id": "refcoco-val-498770:4",
+      "gt_segmentation_sha256": "fdfddc8da5e596c3540576676698ed43c738465918799991ba25e9d3b1ebf605",
+      "category_id": 56
+    }
+  ],
+  "intersection": [
+    323,
+    10137,
+    30649,
+    102361,
+    64771
+  ],
+  "union": [
+    42386,
+    12304,
+    49378,
+    120164,
+    69274
+  ],
+  "mask_file": "refcoco-val-498770.npz",
+  "mask_sha256": "29a3a342fddda9a8dfc5aac21b36909856d21758e57229007382bcd05970988f",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.0163168039998709,
+    "inference_s": 2.4509392520001256,
+    "postprocess_s": 0.0032652699999289325,
+    "amortized_inference_s_per_selected_expression": 0.4901878504000251,
+    "mask_write_s": 0.030620938000083697
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831238656,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449120768,
+    "ram_rss_bytes": 6300770304
+  },
+  "output_bytes": 18454,
+  "stage_created": "full-validation",
+  "record_hash": "d94d2de09efab8eb9d8dd3766fb6f78e081751095e91b8aa39c1ff50bd96b681",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

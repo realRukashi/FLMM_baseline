@@ -1,0 +1,147 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-51563",
+  "sample_hash": "93d8629a3c2269f17b11c0f135248b71a63eec50a6cf420eebad5233ba5b3af8",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 51563,
+  "dataset_index": 432,
+  "expressions": [
+    {
+      "image_id": 51563,
+      "dataset_index": 432,
+      "ref_id": 45556,
+      "sent_id": 129563,
+      "expression": "car in right front corner",
+      "mask_id": 0,
+      "annotation_id": 352667,
+      "prediction_id": "refcoco-val-51563:0",
+      "gt_segmentation_sha256": "954a55dd9317c631b2f69e7ed93d9cb39539bed93e16850b215677b3485c5ec5",
+      "category_id": 3
+    },
+    {
+      "image_id": 51563,
+      "dataset_index": 432,
+      "ref_id": 45557,
+      "sent_id": 129566,
+      "expression": "right horse",
+      "mask_id": 1,
+      "annotation_id": 274604,
+      "prediction_id": "refcoco-val-51563:1",
+      "gt_segmentation_sha256": "423aa69b0a9a38df1a95c4939718633b86103f41c819f7bec89e65e068adcd2b",
+      "category_id": 19
+    },
+    {
+      "image_id": 51563,
+      "dataset_index": 432,
+      "ref_id": 45558,
+      "sent_id": 129568,
+      "expression": "left horse",
+      "mask_id": 2,
+      "annotation_id": 274435,
+      "prediction_id": "refcoco-val-51563:2",
+      "gt_segmentation_sha256": "ad9249b56fadbe63f2d14fe9489e491579a98182bfe5f7f17f734e62851c4e93",
+      "category_id": 19
+    },
+    {
+      "image_id": 51563,
+      "dataset_index": 432,
+      "ref_id": 45559,
+      "sent_id": 129570,
+      "expression": "man on right riding horse",
+      "mask_id": 3,
+      "annotation_id": 252760,
+      "prediction_id": "refcoco-val-51563:3",
+      "gt_segmentation_sha256": "8e9b050058486e3a1275a79aaee26cf891fdc2b5e88908aa5f1396dc32fedecf",
+      "category_id": 1
+    },
+    {
+      "image_id": 51563,
+      "dataset_index": 432,
+      "ref_id": 45560,
+      "sent_id": 129573,
+      "expression": "center policeman",
+      "mask_id": 4,
+      "annotation_id": 214008,
+      "prediction_id": "refcoco-val-51563:4",
+      "gt_segmentation_sha256": "f929153371b52bdf49cb0fc7e6ef7f4171770062d28fd2fdf53b31a09ecfa249",
+      "category_id": 1
+    },
+    {
+      "image_id": 51563,
+      "dataset_index": 432,
+      "ref_id": 45561,
+      "sent_id": 129576,
+      "expression": "left man",
+      "mask_id": 5,
+      "annotation_id": 213267,
+      "prediction_id": "refcoco-val-51563:5",
+      "gt_segmentation_sha256": "da33d4d8cf65f60c5da2928583c096dbe32857b985aaaefd3a783fd918d327c2",
+      "category_id": 1
+    },
+    {
+      "image_id": 51563,
+      "dataset_index": 432,
+      "ref_id": 45562,
+      "sent_id": 129579,
+      "expression": "white car behind last horse on the right",
+      "mask_id": 6,
+      "annotation_id": 144511,
+      "prediction_id": "refcoco-val-51563:6",
+      "gt_segmentation_sha256": "ab575a5d3ad363cc51e5b76b82923c373d885fa370be2b013638421dc34b7eb8",
+      "category_id": 3
+    },
+    {
+      "image_id": 51563,
+      "dataset_index": 432,
+      "ref_id": 45563,
+      "sent_id": 129581,
+      "expression": "horse in the middle",
+      "mask_id": 7,
+      "annotation_id": 53977,
+      "prediction_id": "refcoco-val-51563:7",
+      "gt_segmentation_sha256": "e6992c92e1f2c8be2a8ea5b957f2a591020846ca69194a7622f3839a51ab3bfc",
+      "category_id": 19
+    }
+  ],
+  "intersection": [
+    15750,
+    16414,
+    11828,
+    9573,
+    9624,
+    8579,
+    8374,
+    21899
+  ],
+  "union": [
+    17276,
+    20563,
+    14238,
+    11841,
+    12029,
+    10889,
+    11683,
+    23952
+  ],
+  "mask_file": "refcoco-val-51563.npz",
+  "mask_sha256": "c5ddd97a074312002c8bfa37f2a7d21bc08d8ad250df364e6c9db46196206d17",
+  "nonempty_predictions": 8,
+  "timings": {
+    "preprocess_s": 0.03094934699993246,
+    "inference_s": 2.8331326480001735,
+    "postprocess_s": 0.0065157249998719635,
+    "amortized_inference_s_per_selected_expression": 0.3541415810000217,
+    "mask_write_s": 0.041877803000033964
+  },
+  "memory": {
+    "peak_allocated_bytes": 8848262656,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5453498368,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 19178,
+  "stage_created": "full-validation",
+  "record_hash": "245afe2c802dfb06d75fd7e8a88fa727d6e3acbe4dfee303b7530116309a2f74",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

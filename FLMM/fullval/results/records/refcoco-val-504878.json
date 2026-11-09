@@ -1,0 +1,161 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-504878",
+  "sample_hash": "c40f7154378a481e7a06bb7341e6179f36a87678126586d8c404a05b2a2ad724",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 504878,
+  "dataset_index": 943,
+  "expressions": [
+    {
+      "image_id": 504878,
+      "dataset_index": 943,
+      "ref_id": 6707,
+      "sent_id": 19088,
+      "expression": "furthest left stack",
+      "mask_id": 0,
+      "annotation_id": 1983796,
+      "prediction_id": "refcoco-val-504878:0",
+      "gt_segmentation_sha256": "56af8ed2731b6877c9dab9602d034719d94380701b4793e2456a27c651842bbb",
+      "category_id": 82
+    },
+    {
+      "image_id": 504878,
+      "dataset_index": 943,
+      "ref_id": 6708,
+      "sent_id": 19091,
+      "expression": "fridge person touching",
+      "mask_id": 1,
+      "annotation_id": 1983781,
+      "prediction_id": "refcoco-val-504878:1",
+      "gt_segmentation_sha256": "6ba71c67386c44402b9b1c7b22d097336a968f79f75a3426a152dd3a0c9401ac",
+      "category_id": 82
+    },
+    {
+      "image_id": 504878,
+      "dataset_index": 943,
+      "ref_id": 6709,
+      "sent_id": 19094,
+      "expression": "second stack of fridges from right",
+      "mask_id": 2,
+      "annotation_id": 1983739,
+      "prediction_id": "refcoco-val-504878:2",
+      "gt_segmentation_sha256": "a5b811006dbb5d9c952e7eee585b974b1b78534a361da27f02742731482cd62a",
+      "category_id": 82
+    },
+    {
+      "image_id": 504878,
+      "dataset_index": 943,
+      "ref_id": 6710,
+      "sent_id": 19096,
+      "expression": "far fight bottom fridge",
+      "mask_id": 3,
+      "annotation_id": 1983722,
+      "prediction_id": "refcoco-val-504878:3",
+      "gt_segmentation_sha256": "f01c48d5dfb39736385cddbc933de282b5b324de52fa3c9cd8954220b844aca8",
+      "category_id": 82
+    },
+    {
+      "image_id": 504878,
+      "dataset_index": 943,
+      "ref_id": 6711,
+      "sent_id": 19099,
+      "expression": "middle square three from the right",
+      "mask_id": 4,
+      "annotation_id": 1983674,
+      "prediction_id": "refcoco-val-504878:4",
+      "gt_segmentation_sha256": "238e2a03d9ad348db1055f35f45f1e4fcdbcde9078bc613b052ef074c2155e32",
+      "category_id": 82
+    },
+    {
+      "image_id": 504878,
+      "dataset_index": 943,
+      "ref_id": 6712,
+      "sent_id": 19102,
+      "expression": "top box to right of black box",
+      "mask_id": 5,
+      "annotation_id": 1983284,
+      "prediction_id": "refcoco-val-504878:5",
+      "gt_segmentation_sha256": "72953b5901b17028e37c3544dc30bdb1069702ca384b48df5bd97aef57063ce5",
+      "category_id": 82
+    },
+    {
+      "image_id": 504878,
+      "dataset_index": 943,
+      "ref_id": 6713,
+      "sent_id": 19104,
+      "expression": "appliances inf front of man, bottom right",
+      "mask_id": 6,
+      "annotation_id": 1647804,
+      "prediction_id": "refcoco-val-504878:6",
+      "gt_segmentation_sha256": "49bbb0377456354a03a011ede5e9f7dcd22f4197b7592c2e362594f055d6bf6f",
+      "category_id": 82
+    },
+    {
+      "image_id": 504878,
+      "dataset_index": 943,
+      "ref_id": 6714,
+      "sent_id": 19106,
+      "expression": "fridge under black",
+      "mask_id": 7,
+      "annotation_id": 1647059,
+      "prediction_id": "refcoco-val-504878:7",
+      "gt_segmentation_sha256": "4d9c9216f3525da5b22c6a6773ebb370293eac42835dadb9e77cc93a91790ff4",
+      "category_id": 82
+    },
+    {
+      "image_id": 504878,
+      "dataset_index": 943,
+      "ref_id": 6715,
+      "sent_id": 19109,
+      "expression": "fridge just to the left of the man",
+      "mask_id": 8,
+      "annotation_id": 1983816,
+      "prediction_id": "refcoco-val-504878:8",
+      "gt_segmentation_sha256": "d6e32a85650f7f71a5edd7a1fd29310f959101d2374da4b45860e71fb94910b5",
+      "category_id": 82
+    }
+  ],
+  "intersection": [
+    18474,
+    11798,
+    1023,
+    0,
+    14849,
+    144,
+    0,
+    12779,
+    10420
+  ],
+  "union": [
+    22295,
+    22720,
+    77259,
+    27024,
+    37486,
+    25631,
+    46510,
+    56358,
+    14964
+  ],
+  "mask_file": "refcoco-val-504878.npz",
+  "mask_sha256": "16b36a79d9c8ac2ecb7d044118568b664764fe41e1107689224b570148932272",
+  "nonempty_predictions": 9,
+  "timings": {
+    "preprocess_s": 0.025507298000093215,
+    "inference_s": 2.4860597150000103,
+    "postprocess_s": 0.005973880000055942,
+    "amortized_inference_s_per_selected_expression": 0.27622885722222335,
+    "mask_write_s": 0.04077209299998685
+  },
+  "memory": {
+    "peak_allocated_bytes": 8853352960,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5454727168,
+    "ram_rss_bytes": 6295400448
+  },
+  "output_bytes": 24983,
+  "stage_created": "full-validation",
+  "record_hash": "2920e378ade29628cf5ccc697a349f7d9bd750e91ccc578ab6ce4edf43165b64",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

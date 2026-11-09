@@ -1,0 +1,89 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-507952",
+  "sample_hash": "a317691a6a05931cefa15003a75572f9c00ec6bf3b7e93eb6338c1143af9e120",
+  "fingerprint": "7b0a0f19a4148190b500d8b050454fb48beeb2b73382073930afe71fa53277a4",
+  "image_id": 507952,
+  "dataset_index": 8,
+  "expressions": [
+    {
+      "image_id": 507952,
+      "dataset_index": 8,
+      "ref_id": 6437,
+      "sent_id": 18326,
+      "expression": "serving surface",
+      "mask_id": 0,
+      "annotation_id": 120903,
+      "prediction_id": "refcoco-val-507952:0",
+      "gt_segmentation_sha256": "b041b75ee185a531596935bf79c53170f16616f85e51dc6cc29fa5a1c4cdacf9",
+      "category_id": 67
+    },
+    {
+      "image_id": 507952,
+      "dataset_index": 8,
+      "ref_id": 6438,
+      "sent_id": 18329,
+      "expression": "checkered tablecloth",
+      "mask_id": 1,
+      "annotation_id": 120384,
+      "prediction_id": "refcoco-val-507952:1",
+      "gt_segmentation_sha256": "10c28e676a0428b13ec075e81dc26bb8b192b396163742174d6798d99d288234",
+      "category_id": 67
+    },
+    {
+      "image_id": 507952,
+      "dataset_index": 8,
+      "ref_id": 6439,
+      "sent_id": 18332,
+      "expression": "half pizza on right",
+      "mask_id": 2,
+      "annotation_id": 1923862,
+      "prediction_id": "refcoco-val-507952:2",
+      "gt_segmentation_sha256": "b69cb1b7d93c110d06a669c999c53622fd3d6e00f5fce1b78f25ee1c43ab591d",
+      "category_id": 59
+    },
+    {
+      "image_id": 507952,
+      "dataset_index": 8,
+      "ref_id": 6440,
+      "sent_id": 18335,
+      "expression": "olive on pizza in front",
+      "mask_id": 3,
+      "annotation_id": 1074235,
+      "prediction_id": "refcoco-val-507952:3",
+      "gt_segmentation_sha256": "b8827fdb7610c09ab842abde97ce7ae9842f024a028cb209cec6fca7a8a1b7fb",
+      "category_id": 59
+    }
+  ],
+  "intersection": [
+    83211,
+    17732,
+    11537,
+    17031
+  ],
+  "union": [
+    110511,
+    23002,
+    18588,
+    19259
+  ],
+  "mask_file": "refcoco-val-507952.npz",
+  "mask_sha256": "0d1184ef8f3dd2872f59bcef4ee1d9824dc5c1bb4c41a3b6949998c168c7cf00",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.015124399000001176,
+    "inference_s": 2.1690691730000253,
+    "postprocess_s": 0.0022694450000244615,
+    "amortized_inference_s_per_selected_expression": 0.5422672932500063,
+    "mask_write_s": 0.01897225499999422
+  },
+  "memory": {
+    "peak_allocated_bytes": 8835384832,
+    "peak_reserved_bytes": 9791602688,
+    "allocated_after_bytes": 5456046080,
+    "ram_rss_bytes": 7754342400
+  },
+  "output_bytes": 10075,
+  "stage_created": "regression",
+  "record_hash": "ad1bdfd84b6a605ac090f6b5c5e29cccb61a06589c4844283d04b2c68d125c46"
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-191068",
+  "sample_hash": "cdcf6ac260063cd2b6925f92bb8a984fd2d29e1bde5f05408439ee113dcf731b",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 191068,
+  "dataset_index": 487,
+  "expressions": [
+    {
+      "image_id": 191068,
+      "dataset_index": 487,
+      "ref_id": 33727,
+      "sent_id": 95918,
+      "expression": "[i took a screenshot. wow!] pepperoni pizza up tip top",
+      "mask_id": 0,
+      "annotation_id": 1571465,
+      "prediction_id": "refcoco-val-191068:0",
+      "gt_segmentation_sha256": "b0f604322e7defdae65911b1b2ec2f93cf1c130370b3dc46831a4396e11a88ab",
+      "category_id": 59
+    },
+    {
+      "image_id": 191068,
+      "dataset_index": 487,
+      "ref_id": 33728,
+      "sent_id": 95921,
+      "expression": "bottom cake",
+      "mask_id": 1,
+      "annotation_id": 1090617,
+      "prediction_id": "refcoco-val-191068:1",
+      "gt_segmentation_sha256": "5ea39b981345ad519bf44b75569a86cb94760cabdc8e1d0c42a53afe498c1473",
+      "category_id": 67
+    },
+    {
+      "image_id": 191068,
+      "dataset_index": 487,
+      "ref_id": 33729,
+      "sent_id": 95924,
+      "expression": "left pizza",
+      "mask_id": 2,
+      "annotation_id": 1071518,
+      "prediction_id": "refcoco-val-191068:2",
+      "gt_segmentation_sha256": "8cfa4f16bb6946a46a44dfbbf50f6e6e3a37a7eff91009e17563edff993d15f0",
+      "category_id": 59
+    }
+  ],
+  "intersection": [
+    7341,
+    13031,
+    59426
+  ],
+  "union": [
+    69776,
+    127413,
+    61781
+  ],
+  "mask_file": "refcoco-val-191068.npz",
+  "mask_sha256": "ebb03e420bbd17eca39ed77049d6cebab5a58dba0f32be559bdf6364d17b3f57",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.01852728400012893,
+    "inference_s": 2.258888423000144,
+    "postprocess_s": 0.003390616999922713,
+    "amortized_inference_s_per_selected_expression": 0.7529628076667146,
+    "mask_write_s": 0.026939584000047034
+  },
+  "memory": {
+    "peak_allocated_bytes": 8830690816,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448162816,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 10914,
+  "stage_created": "full-validation",
+  "record_hash": "fa087f9d71afa503727dc8e35ef92c11d5c25b18d6c21742a473525027c3357a",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

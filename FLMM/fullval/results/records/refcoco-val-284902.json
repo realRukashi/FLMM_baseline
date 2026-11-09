@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-284902",
+  "sample_hash": "a19a2437fde25d8e6daa617a10028d5b6475d9ce01cd7699260c7771e8ea737e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 284902,
+  "dataset_index": 1163,
+  "expressions": [
+    {
+      "image_id": 284902,
+      "dataset_index": 1163,
+      "ref_id": 25858,
+      "sent_id": 73510,
+      "expression": "woman's green and blue dress",
+      "mask_id": 0,
+      "annotation_id": 2155210,
+      "prediction_id": "refcoco-val-284902:0",
+      "gt_segmentation_sha256": "ee3bf8d693761468517955832bdbfe0df334f1853905367b3e4f81cccb4f9be6",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    31787
+  ],
+  "union": [
+    36103
+  ],
+  "mask_file": "refcoco-val-284902.npz",
+  "mask_sha256": "0323b123b4c7d44f6f53efae3c2c794bd8122f5f65fde719955313c7cd9f7ca8",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.01321744500000932,
+    "inference_s": 2.417015781000032,
+    "postprocess_s": 0.0009394730000167328,
+    "amortized_inference_s_per_selected_expression": 2.417015781000032,
+    "mask_write_s": 0.008940357000028598
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814508544,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6300573696
+  },
+  "output_bytes": 3266,
+  "stage_created": "full-validation",
+  "record_hash": "61d680fe24a5d85060517b2107f38d8456bd319afcbcd5c275244d13e8321f6c",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

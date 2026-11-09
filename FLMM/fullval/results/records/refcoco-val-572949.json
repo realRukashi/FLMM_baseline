@@ -1,0 +1,161 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-572949",
+  "sample_hash": "09ef2e11cf1fc12735c36192b53fd58a5af4914558bf951bf2d7c4e18c407da3",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 572949,
+  "dataset_index": 1422,
+  "expressions": [
+    {
+      "image_id": 572949,
+      "dataset_index": 1422,
+      "ref_id": 785,
+      "sent_id": 2227,
+      "expression": "2nd person from right",
+      "mask_id": 0,
+      "annotation_id": 497043,
+      "prediction_id": "refcoco-val-572949:0",
+      "gt_segmentation_sha256": "bc2e23ea72d265449dafa11ab869a198e68b383f8ad76bc6435c06ec0883d917",
+      "category_id": 1
+    },
+    {
+      "image_id": 572949,
+      "dataset_index": 1422,
+      "ref_id": 786,
+      "sent_id": 2230,
+      "expression": "man on right",
+      "mask_id": 1,
+      "annotation_id": 426784,
+      "prediction_id": "refcoco-val-572949:1",
+      "gt_segmentation_sha256": "32ec0d6b353a0849a7ae4ad1025a348f0acd3f044c4b18de733a1b2afd04e328",
+      "category_id": 1
+    },
+    {
+      "image_id": 572949,
+      "dataset_index": 1422,
+      "ref_id": 787,
+      "sent_id": 2233,
+      "expression": "swirly rug on floor at bottom right area",
+      "mask_id": 2,
+      "annotation_id": 114430,
+      "prediction_id": "refcoco-val-572949:2",
+      "gt_segmentation_sha256": "81e85f7dc86e7faef81a91c4d52a7233b6d99343b97ac27ee650d01046276ff1",
+      "category_id": 63
+    },
+    {
+      "image_id": 572949,
+      "dataset_index": 1422,
+      "ref_id": 788,
+      "sent_id": 2236,
+      "expression": "man in jersey",
+      "mask_id": 3,
+      "annotation_id": 2160383,
+      "prediction_id": "refcoco-val-572949:3",
+      "gt_segmentation_sha256": "0a2ddf45d4fdba2051b6ac51dff1a165f2e8e6c2b310917862b67407d1037432",
+      "category_id": 1
+    },
+    {
+      "image_id": 572949,
+      "dataset_index": 1422,
+      "ref_id": 789,
+      "sent_id": 2239,
+      "expression": "bottom right swirl",
+      "mask_id": 4,
+      "annotation_id": 1946115,
+      "prediction_id": "refcoco-val-572949:4",
+      "gt_segmentation_sha256": "6564e602c352e8219d70355012c7226e2fad923aa5694be71204c4c44a548388",
+      "category_id": 62
+    },
+    {
+      "image_id": 572949,
+      "dataset_index": 1422,
+      "ref_id": 790,
+      "sent_id": 2242,
+      "expression": "bottom left portion of couch on left",
+      "mask_id": 5,
+      "annotation_id": 1940800,
+      "prediction_id": "refcoco-val-572949:5",
+      "gt_segmentation_sha256": "12456ba0b71687f12944e99e7a9699ca4655357701d1c34999817c34cdab1721",
+      "category_id": 62
+    },
+    {
+      "image_id": 572949,
+      "dataset_index": 1422,
+      "ref_id": 791,
+      "sent_id": 2245,
+      "expression": "chair left most",
+      "mask_id": 6,
+      "annotation_id": 99436,
+      "prediction_id": "refcoco-val-572949:6",
+      "gt_segmentation_sha256": "2a61623d399fb91bacfee698df1f2ed70a796a6ca256f37511b1065e899e3562",
+      "category_id": 63
+    },
+    {
+      "image_id": 572949,
+      "dataset_index": 1422,
+      "ref_id": 792,
+      "sent_id": 2248,
+      "expression": "far left guy",
+      "mask_id": 7,
+      "annotation_id": 1709303,
+      "prediction_id": "refcoco-val-572949:7",
+      "gt_segmentation_sha256": "e22985bc37166fe699f8b9ad8980d7e5e29e5dca842de54932d3b60cdb71fa54",
+      "category_id": 1
+    },
+    {
+      "image_id": 572949,
+      "dataset_index": 1422,
+      "ref_id": 793,
+      "sent_id": 2251,
+      "expression": "chair under the guy on the right",
+      "mask_id": 8,
+      "annotation_id": 1595524,
+      "prediction_id": "refcoco-val-572949:8",
+      "gt_segmentation_sha256": "7853b11a10ab76205f36133a7436c16662bd68d48a1506ecffe0abdcdbd2d62d",
+      "category_id": 62
+    }
+  ],
+  "intersection": [
+    10614,
+    19146,
+    20479,
+    0,
+    20555,
+    37740,
+    35647,
+    19177,
+    17435
+  ],
+  "union": [
+    14782,
+    23613,
+    24497,
+    22553,
+    29246,
+    40623,
+    46830,
+    22101,
+    22503
+  ],
+  "mask_file": "refcoco-val-572949.npz",
+  "mask_sha256": "92cf9faeeb429f7dffaa5b2186c2fdf9e99a8561292281343517191af1a49411",
+  "nonempty_predictions": 9,
+  "timings": {
+    "preprocess_s": 0.023206177000020034,
+    "inference_s": 2.3415222319999884,
+    "postprocess_s": 0.006847931000038443,
+    "amortized_inference_s_per_selected_expression": 0.2601691368888876,
+    "mask_write_s": 0.04332118000002083
+  },
+  "memory": {
+    "peak_allocated_bytes": 8870020608,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5457152000,
+    "ram_rss_bytes": 6297804800
+  },
+  "output_bytes": 24244,
+  "stage_created": "full-validation",
+  "record_hash": "778ff03ceb2b9113326ad4b8f5bfe3ed6d74ea9abd82480e962531bf0bf25a52",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

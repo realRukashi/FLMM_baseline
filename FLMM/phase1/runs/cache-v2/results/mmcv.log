@@ -1,0 +1,7 @@
+Using Python 3.10.22 environment at: /kaggle/temp/flmm-env
+Resolved 25 packages in 91ms
+Downloading mmcv (94.7MiB)
+ Downloaded mmcv
+Prepared 1 package in 3.36s
+Installed 1 package in 15ms
+ + mmcv==2.1.0

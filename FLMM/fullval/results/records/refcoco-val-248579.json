@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-248579",
+  "sample_hash": "76b6b0c775c2128ae0db49b183cf872d13a77d0e88ce952fe0588538dab45ce6",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 248579,
+  "dataset_index": 520,
+  "expressions": [
+    {
+      "image_id": 248579,
+      "dataset_index": 520,
+      "ref_id": 28892,
+      "sent_id": 82166,
+      "expression": "man in black holding guitar",
+      "mask_id": 0,
+      "annotation_id": 1316770,
+      "prediction_id": "refcoco-val-248579:0",
+      "gt_segmentation_sha256": "4800fc936b120df08ff52436e529fdd0035ded52b367418f23d2604e2aad469a",
+      "category_id": 1
+    },
+    {
+      "image_id": 248579,
+      "dataset_index": 520,
+      "ref_id": 28893,
+      "sent_id": 82169,
+      "expression": "rightmost lady",
+      "mask_id": 1,
+      "annotation_id": 1293252,
+      "prediction_id": "refcoco-val-248579:1",
+      "gt_segmentation_sha256": "f073dbd8fe025e8777d2c5cb71ac39722107a6e8a85048eaf93aec8bf49432df",
+      "category_id": 1
+    },
+    {
+      "image_id": 248579,
+      "dataset_index": 520,
+      "ref_id": 28894,
+      "sent_id": 82172,
+      "expression": "guy on left with beard and guitar",
+      "mask_id": 2,
+      "annotation_id": 1219163,
+      "prediction_id": "refcoco-val-248579:2",
+      "gt_segmentation_sha256": "e938d6602dc02f03e73027c64267d64acd35df328fa7b6c516c57931ccec3c3a",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    0,
+    15551,
+    67707
+  ],
+  "union": [
+    52769,
+    20202,
+    74629
+  ],
+  "mask_file": "refcoco-val-248579.npz",
+  "mask_sha256": "09ffbebf71e90baf0378dc760fb5241e820723799a1b9dbb58b337c631ac81da",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.013092492999930982,
+    "inference_s": 1.8939051989999598,
+    "postprocess_s": 0.0019667740000386402,
+    "amortized_inference_s_per_selected_expression": 0.6313017329999866,
+    "mask_write_s": 0.01874614999996993
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822607872,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6294753280
+  },
+  "output_bytes": 12509,
+  "stage_created": "full-validation",
+  "record_hash": "3545196918e783c83de8f885045ba725707550e682f25225ec42525035f1e9e8",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

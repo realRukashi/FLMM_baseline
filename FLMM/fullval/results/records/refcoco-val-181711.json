@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-181711",
+  "sample_hash": "f6661c8438905052de7b75e52070f4adc06864f199f65d48882d064213a02f9d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 181711,
+  "dataset_index": 265,
+  "expressions": [
+    {
+      "image_id": 181711,
+      "dataset_index": 265,
+      "ref_id": 34519,
+      "sent_id": 98180,
+      "expression": "man behind skateboard- cut off a bit",
+      "mask_id": 0,
+      "annotation_id": 438509,
+      "prediction_id": "refcoco-val-181711:0",
+      "gt_segmentation_sha256": "a9cd47cc203c491e02f0de39389e080b13dddff73419a8544f04743dff9b6c5c",
+      "category_id": 1
+    },
+    {
+      "image_id": 181711,
+      "dataset_index": 265,
+      "ref_id": 34520,
+      "sent_id": 98183,
+      "expression": "a man on a skateboard",
+      "mask_id": 1,
+      "annotation_id": 2162601,
+      "prediction_id": "refcoco-val-181711:1",
+      "gt_segmentation_sha256": "3d94ea35ab7b3b7b009c23f5322a9c32cc81d7fe69ea736769397e323832ac1d",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    13197,
+    47018
+  ],
+  "union": [
+    16887,
+    51615
+  ],
+  "mask_file": "refcoco-val-181711.npz",
+  "mask_sha256": "a36d961cc9fa44d7867728864512e9520c9f0ab5d8508b4271e4d21f50b186a5",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.02376969400006601,
+    "inference_s": 2.2496631349999916,
+    "postprocess_s": 0.0020374509999783186,
+    "amortized_inference_s_per_selected_expression": 1.1248315674999958,
+    "mask_write_s": 0.01789573299993208
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824330752,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446664704,
+    "ram_rss_bytes": 6283956224
+  },
+  "output_bytes": 6570,
+  "stage_created": "full-validation",
+  "record_hash": "11c56ab4bbd2d5f85b90c0f7b144aa91fd2f41f4d1c0f9a9d6d1dfe6e347c5b8",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

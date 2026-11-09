@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-399432",
+  "sample_hash": "28afe6df25c5558039dc2a56698cb305e9f577bd1f9fc32ec568a5ea931debdb",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 399432,
+  "dataset_index": 1137,
+  "expressions": [
+    {
+      "image_id": 399432,
+      "dataset_index": 1137,
+      "ref_id": 15829,
+      "sent_id": 45039,
+      "expression": "plant in pot on far left side",
+      "mask_id": 0,
+      "annotation_id": 25612,
+      "prediction_id": "refcoco-val-399432:0",
+      "gt_segmentation_sha256": "bb1c0b7447d8e8de5125bf4d78490b55d87c0b0cc7917a028cb7c53ab486df48",
+      "category_id": 64
+    },
+    {
+      "image_id": 399432,
+      "dataset_index": 1137,
+      "ref_id": 15830,
+      "sent_id": 45042,
+      "expression": "flower in pot on right of bench",
+      "mask_id": 1,
+      "annotation_id": 20542,
+      "prediction_id": "refcoco-val-399432:1",
+      "gt_segmentation_sha256": "58ac7f8a45845d70b76d989add75560f7d8610d5720db900f185d3a6c02adf51",
+      "category_id": 64
+    }
+  ],
+  "intersection": [
+    14482,
+    12887
+  ],
+  "union": [
+    17370,
+    14314
+  ],
+  "mask_file": "refcoco-val-399432.npz",
+  "mask_sha256": "575d07bfcd90ef3c7fa2c0219f81de24fee05da78f2c2a09f3b8060e5cf36549",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013988335000021834,
+    "inference_s": 2.2944068390000893,
+    "postprocess_s": 0.0015329860000292683,
+    "amortized_inference_s_per_selected_expression": 1.1472034195000447,
+    "mask_write_s": 0.011783574999981283
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818343936,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6300483584
+  },
+  "output_bytes": 3885,
+  "stage_created": "full-validation",
+  "record_hash": "3880f247adc1300809556a12533d7b440cf1033c88a62cc9901637d1ed3d0604",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

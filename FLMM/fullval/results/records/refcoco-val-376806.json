@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-376806",
+  "sample_hash": "dfc861bfaa5b2945d8192bc86db0fa1b8de4eb55b08dc3cfcef2ef3c53a23ada",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 376806,
+  "dataset_index": 1496,
+  "expressions": [
+    {
+      "image_id": 376806,
+      "dataset_index": 1496,
+      "ref_id": 17824,
+      "sent_id": 50700,
+      "expression": "food with blue bottom",
+      "mask_id": 0,
+      "annotation_id": 1540868,
+      "prediction_id": "refcoco-val-376806:0",
+      "gt_segmentation_sha256": "d1945ca8310be4f56abd6589742bc9c36fda3fd210477c3e48d35eaaf391225f",
+      "category_id": 51
+    },
+    {
+      "image_id": 376806,
+      "dataset_index": 1496,
+      "ref_id": 17825,
+      "sent_id": 50703,
+      "expression": "top left dish",
+      "mask_id": 1,
+      "annotation_id": 1533398,
+      "prediction_id": "refcoco-val-376806:1",
+      "gt_segmentation_sha256": "b5d57f52e41eff451ed587c45632170336236ee9188290ce2cf6ef39df918964",
+      "category_id": 51
+    },
+    {
+      "image_id": 376806,
+      "dataset_index": 1496,
+      "ref_id": 17826,
+      "sent_id": 50706,
+      "expression": "bottom left",
+      "mask_id": 2,
+      "annotation_id": 1039911,
+      "prediction_id": "refcoco-val-376806:2",
+      "gt_segmentation_sha256": "073af40ee3b255db22a48eccdda9563ef1925bef2ebd93da2e95181e71078ad5",
+      "category_id": 51
+    },
+    {
+      "image_id": 376806,
+      "dataset_index": 1496,
+      "ref_id": 17827,
+      "sent_id": 50709,
+      "expression": "second row, center bowl",
+      "mask_id": 3,
+      "annotation_id": 1039606,
+      "prediction_id": "refcoco-val-376806:3",
+      "gt_segmentation_sha256": "a497f2c60ac939863693c139deb03947ef6e5635ea33b4b98447ec1aa1d50974",
+      "category_id": 51
+    },
+    {
+      "image_id": 376806,
+      "dataset_index": 1496,
+      "ref_id": 17828,
+      "sent_id": 50712,
+      "expression": "middle bowl on far left",
+      "mask_id": 4,
+      "annotation_id": 1038027,
+      "prediction_id": "refcoco-val-376806:4",
+      "gt_segmentation_sha256": "0521150b57c19c31268c1b24b2fca640b58215f96ab6b01efd16b688f3e76513",
+      "category_id": 51
+    },
+    {
+      "image_id": 376806,
+      "dataset_index": 1496,
+      "ref_id": 17829,
+      "sent_id": 50714,
+      "expression": "brown soup",
+      "mask_id": 5,
+      "annotation_id": 710713,
+      "prediction_id": "refcoco-val-376806:5",
+      "gt_segmentation_sha256": "bc8ff68af0f99017c2f249588064c0786671b615553f30937dab7d86d1daf900",
+      "category_id": 51
+    }
+  ],
+  "intersection": [
+    0,
+    13080,
+    20966,
+    14914,
+    14717,
+    13729
+  ],
+  "union": [
+    27806,
+    16794,
+    22542,
+    15769,
+    15979,
+    16235
+  ],
+  "mask_file": "refcoco-val-376806.npz",
+  "mask_sha256": "45f60278d299bab1201576115aaf376a126f1f280f7e18bc9ad7f650a108bc72",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.01776490199995351,
+    "inference_s": 2.2106399080000756,
+    "postprocess_s": 0.003994869000052859,
+    "amortized_inference_s_per_selected_expression": 0.36843998466667927,
+    "mask_write_s": 0.028860065000117174
+  },
+  "memory": {
+    "peak_allocated_bytes": 8838656512,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451040768,
+    "ram_rss_bytes": 6297899008
+  },
+  "output_bytes": 12774,
+  "stage_created": "full-validation",
+  "record_hash": "100f305d78c393a37f17582ae8dc523410d1a2f0a491b530c24cd33f96b042fa",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

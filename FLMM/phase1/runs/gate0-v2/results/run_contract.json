@@ -1,0 +1,48 @@
+{
+  "fingerprint": "7b0a0f19a4148190b500d8b050454fb48beeb2b73382073930afe71fa53277a4",
+  "contract": {
+    "source_sha": "47d3c2a6f628dd48ba76a1cfdf29b6b2aa8f9eb3",
+    "config_sha256": "5a8e371ba1212769345bccf6911dfa14cf3f2848d3ca437d6f01cc329d7da908",
+    "backbone_sha256": "b1c382c6dcecbc3e17c1648253e5086523626719e05e52e905fbfd113694e65e",
+    "backbone_revision": "8f13a8e00dbdc381d614a9d29d61b07e8fe91b3f",
+    "sam_sha256": "3adcc4315b642a4d2101128f611684e8734c41232a17c648ed1693702a49a622",
+    "flmm_sha256": "02bdf9e878847c68acaa207a916291cb1568ab119cbc658a4dfa94f399dfed0e",
+    "annotation_sha256": "7f924bb7ed8dc4568058e4ff626281918d56e5206f4c868c5a80f088f38c8bf0",
+    "manifest_hash": "1a12e0e71a0c4bf79bc0e11c0cd71c8d0e932d7398a64c2bdb67e1c0faee3a6d",
+    "image_cache_sha256": "400f96c14a603e0fe74b65f32513bb27244ec01671f4c7aaf3f2152fa3c55e15",
+    "text_mode": "select_first",
+    "concat": true,
+    "attention": "math",
+    "threshold": 0.5,
+    "seed": 20261106,
+    "engine_sha256": "2a024735f51c2a85412b0cd4da11bb2c185039d2beae8c05d14c8bdaa88c95d1",
+    "precision": {
+      "backbone": {
+        "torch.bfloat16": 529
+      },
+      "vision": {
+        "torch.bfloat16": 306
+      },
+      "language": {
+        "torch.bfloat16": 219
+      },
+      "mask_head": {
+        "torch.float32": 53
+      },
+      "text_proj": {
+        "torch.float32": 2
+      },
+      "sam_image_encoder": {
+        "torch.float32": 345
+      },
+      "sam_prompt_encoder": {
+        "torch.float32": 16
+      },
+      "sam_decoder": {
+        "torch.float32": 120
+      }
+    },
+    "common_sha256": "3ae35cd2ab9c0f11a5806fa6cf150c8628253eaf1c2e0f4431d9300862d21d22",
+    "environment_archive_sha256": "abfd4105ae9b6cae85f19b58bf8f3227d3565e420dd2e72a9723c2598953967c"
+  }
+}

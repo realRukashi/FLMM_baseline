@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-380034",
+  "sample_hash": "bd15932884061c799d4c9be19fa5a6ab86158cb1008e342132d1f6764f667ab4",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 380034,
+  "dataset_index": 603,
+  "expressions": [
+    {
+      "image_id": 380034,
+      "dataset_index": 603,
+      "ref_id": 17533,
+      "sent_id": 49882,
+      "expression": "blurred front image",
+      "mask_id": 0,
+      "annotation_id": 1287368,
+      "prediction_id": "refcoco-val-380034:0",
+      "gt_segmentation_sha256": "747e12f1d5b7c56da15dac42c49e20afe71220a57bcad4757b18b3e571caefe1",
+      "category_id": 1
+    },
+    {
+      "image_id": 380034,
+      "dataset_index": 603,
+      "ref_id": 17534,
+      "sent_id": 49884,
+      "expression": "the man in the middle wearing the black suit - he's shaking hands",
+      "mask_id": 1,
+      "annotation_id": 1331664,
+      "prediction_id": "refcoco-val-380034:1",
+      "gt_segmentation_sha256": "2a40f1614c0da401297dc529b18f7a3c90a37e6ff1ddf1b29b55f8153df082dc",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    28971,
+    30407
+  ],
+  "union": [
+    33619,
+    35946
+  ],
+  "mask_file": "refcoco-val-380034.npz",
+  "mask_sha256": "09e80805f4926f3f35fdd753d321bedc8aff3c6d90b70da95efdca6feb7ad7b9",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01278495600001861,
+    "inference_s": 2.278322089000085,
+    "postprocess_s": 0.001570674000049621,
+    "amortized_inference_s_per_selected_expression": 1.1391610445000424,
+    "mask_write_s": 0.015328242000009595
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818432000,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6294278144
+  },
+  "output_bytes": 6223,
+  "stage_created": "full-validation",
+  "record_hash": "fb65a56eec908cf4d96d0a376ac5d44ea2b20f35624b31960e43c5ba28bb63ae",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-475980",
+  "sample_hash": "8fb892b9ceb9e93e9c1c251a92ea9484a1816d0ca03dbd276c5e20562d090b24",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 475980,
+  "dataset_index": 153,
+  "expressions": [
+    {
+      "image_id": 475980,
+      "dataset_index": 153,
+      "ref_id": 9242,
+      "sent_id": 26320,
+      "expression": "left chair",
+      "mask_id": 0,
+      "annotation_id": 115697,
+      "prediction_id": "refcoco-val-475980:0",
+      "gt_segmentation_sha256": "5f7f1c46a03a7171d57ee0c5150d0e152eba53e424d2856b9f5226567d26c3ba",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    54499
+  ],
+  "union": [
+    58209
+  ],
+  "mask_file": "refcoco-val-475980.npz",
+  "mask_sha256": "30340d688b113d56c4d2efb64f17f41b990c0ef8337923507d161b8c5d3917ac",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.01540081400003146,
+    "inference_s": 2.211467454000058,
+    "postprocess_s": 0.000918720000072426,
+    "amortized_inference_s_per_selected_expression": 2.211467454000058,
+    "mask_write_s": 0.012406634999933885
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815695360,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5444418048,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 3899,
+  "stage_created": "full-validation",
+  "record_hash": "c8b875c07f723ef60f369913899b600d1c899c439040f00d407f761b93166c56",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

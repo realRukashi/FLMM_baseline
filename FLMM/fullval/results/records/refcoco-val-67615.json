@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-67615",
+  "sample_hash": "9308af80ac6ecf9df4827a0b725ce9dcac103a974e61999e118801d5ad67e804",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 67615,
+  "dataset_index": 373,
+  "expressions": [
+    {
+      "image_id": 67615,
+      "dataset_index": 373,
+      "ref_id": 44085,
+      "sent_id": 125351,
+      "expression": "balls draping. umpire. hahah",
+      "mask_id": 0,
+      "annotation_id": 1736047,
+      "prediction_id": "refcoco-val-67615:0",
+      "gt_segmentation_sha256": "b6518f7d59ac5bd7b0da77618c1f46341bd92fb2a34248389a49c08d34eafc18",
+      "category_id": 1
+    },
+    {
+      "image_id": 67615,
+      "dataset_index": 373,
+      "ref_id": 44086,
+      "sent_id": 125354,
+      "expression": "batter",
+      "mask_id": 1,
+      "annotation_id": 509448,
+      "prediction_id": "refcoco-val-67615:1",
+      "gt_segmentation_sha256": "120b9880a8f060038df23a92a75ded4948c69fd92a47e56d69f2868156af05bf",
+      "category_id": 1
+    },
+    {
+      "image_id": 67615,
+      "dataset_index": 373,
+      "ref_id": 44087,
+      "sent_id": 125357,
+      "expression": "catcher who is crouching",
+      "mask_id": 2,
+      "annotation_id": 481331,
+      "prediction_id": "refcoco-val-67615:2",
+      "gt_segmentation_sha256": "b655cc7e6153ae0c0c5b035b0cf778c94a613442e9f8dbf9be127c69099aa147",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11061,
+    18724,
+    11485
+  ],
+  "union": [
+    12414,
+    22588,
+    13556
+  ],
+  "mask_file": "refcoco-val-67615.npz",
+  "mask_sha256": "d4a5154fd0dd60c75013b7ba8a934e53e6d18f92a7418209323e038114c5960b",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.017215682000141896,
+    "inference_s": 2.236644020000085,
+    "postprocess_s": 0.0023246400000971335,
+    "amortized_inference_s_per_selected_expression": 0.7455480066666951,
+    "mask_write_s": 0.017242462000012893
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822634496,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 7354,
+  "stage_created": "full-validation",
+  "record_hash": "72e3341e6817a6c372ece279bd9941fefb2e17cbf38f9e97f75348aa4271c38a",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-349170",
+  "sample_hash": "6355d21132299177d216eb0e4273994e6665bf7c342e502781b3d2bc88a2b8c1",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 349170,
+  "dataset_index": 924,
+  "expressions": [
+    {
+      "image_id": 349170,
+      "dataset_index": 924,
+      "ref_id": 19977,
+      "sent_id": 56832,
+      "expression": "crossed legs to the right",
+      "mask_id": 0,
+      "annotation_id": 547494,
+      "prediction_id": "refcoco-val-349170:0",
+      "gt_segmentation_sha256": "54b05761c8703dc797461d702911b90c7bdf95d7bdc209e2c23b7a17f3eecbc5",
+      "category_id": 1
+    },
+    {
+      "image_id": 349170,
+      "dataset_index": 924,
+      "ref_id": 19978,
+      "sent_id": 56835,
+      "expression": "guy on left playing game w glasses",
+      "mask_id": 1,
+      "annotation_id": 479207,
+      "prediction_id": "refcoco-val-349170:1",
+      "gt_segmentation_sha256": "3e6497c515137c03bc7ce3f412e8afdf8d2f6076284a2b1fbca30a53eca88854",
+      "category_id": 1
+    },
+    {
+      "image_id": 349170,
+      "dataset_index": 924,
+      "ref_id": 19979,
+      "sent_id": 56838,
+      "expression": "guy on right",
+      "mask_id": 2,
+      "annotation_id": 422082,
+      "prediction_id": "refcoco-val-349170:2",
+      "gt_segmentation_sha256": "0358b2f8af0c755f79835197ac269d5437dca15c4f820bff5e251a98d2e89467",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10742,
+    18686,
+    41438
+  ],
+  "union": [
+    11777,
+    23097,
+    46788
+  ],
+  "mask_file": "refcoco-val-349170.npz",
+  "mask_sha256": "8cc6a69c3cadc8708a080f61d16df249120573ebb73c8b53007af42da89cc382",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.012895502999981545,
+    "inference_s": 2.4025653589999365,
+    "postprocess_s": 0.0013101260001349146,
+    "amortized_inference_s_per_selected_expression": 0.8008551196666455,
+    "mask_write_s": 0.014692666999962967
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822468608,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445634048,
+    "ram_rss_bytes": 6295756800
+  },
+  "output_bytes": 8295,
+  "stage_created": "full-validation",
+  "record_hash": "b8b24aee0ce9bc58343404339996d8f4e68f98567722c330d2dd76125304adea",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

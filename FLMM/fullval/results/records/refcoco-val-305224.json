@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-305224",
+  "sample_hash": "102ac2c589a902ec71346cf4c28f522e81881179dadea11932b68d68165ec1dd",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 305224,
+  "dataset_index": 381,
+  "expressions": [
+    {
+      "image_id": 305224,
+      "dataset_index": 381,
+      "ref_id": 24150,
+      "sent_id": 68633,
+      "expression": "tan seat cushion behind computer",
+      "mask_id": 0,
+      "annotation_id": 2224841,
+      "prediction_id": "refcoco-val-305224:0",
+      "gt_segmentation_sha256": "bafa260656a751892c2cb261e868026b30cecf3e01e2286f28647f80ab7a856b",
+      "category_id": 63
+    },
+    {
+      "image_id": 305224,
+      "dataset_index": 381,
+      "ref_id": 24151,
+      "sent_id": 68636,
+      "expression": "pink bean bag under brown boot",
+      "mask_id": 1,
+      "annotation_id": 2224135,
+      "prediction_id": "refcoco-val-305224:1",
+      "gt_segmentation_sha256": "d0be4893ffb3610e3e921b9a9d29f0bc5dc4bdc5a52213a35157d3de313da91a",
+      "category_id": 63
+    },
+    {
+      "image_id": 305224,
+      "dataset_index": 381,
+      "ref_id": 24152,
+      "sent_id": 68639,
+      "expression": "the leg at very top of pic",
+      "mask_id": 2,
+      "annotation_id": 1222933,
+      "prediction_id": "refcoco-val-305224:2",
+      "gt_segmentation_sha256": "c8ed84acb245740692e525d5944c202a6caff4eb10781613949960594c49fadd",
+      "category_id": 1
+    },
+    {
+      "image_id": 305224,
+      "dataset_index": 381,
+      "ref_id": 24153,
+      "sent_id": 68642,
+      "expression": "girl",
+      "mask_id": 3,
+      "annotation_id": 448826,
+      "prediction_id": "refcoco-val-305224:3",
+      "gt_segmentation_sha256": "f4698e31d2f85b32c076efb20f52d32fccc725c626febaffb3bcffe78a1cd88b",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11129,
+    34033,
+    11447,
+    57032
+  ],
+  "union": [
+    13761,
+    55426,
+    14126,
+    67273
+  ],
+  "mask_file": "refcoco-val-305224.npz",
+  "mask_sha256": "982a9b951129d3d74b05b9f02a70c6cf1da0fd5c4be6087a454548b12e9e9bf8",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.01896587900000668,
+    "inference_s": 2.2635455359998105,
+    "postprocess_s": 0.003242789000069024,
+    "amortized_inference_s_per_selected_expression": 0.5658863839999526,
+    "mask_write_s": 0.028148431000090568
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829143552,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 14824,
+  "stage_created": "full-validation",
+  "record_hash": "ff6a73094c7c8befd96fbfe95799bd9f8a748aa06ac89bde3792aa3fbd686621",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

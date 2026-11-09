@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-522146",
+  "sample_hash": "bd9ff9537dd96332bf43384d7233c7a2055d83c51ce16f468628b1ddad715eca",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 522146,
+  "dataset_index": 1102,
+  "expressions": [
+    {
+      "image_id": 522146,
+      "dataset_index": 1102,
+      "ref_id": 5187,
+      "sent_id": 14774,
+      "expression": "the black and orange triangular shape bottom left",
+      "mask_id": 0,
+      "annotation_id": 1801255,
+      "prediction_id": "refcoco-val-522146:0",
+      "gt_segmentation_sha256": "2f436482d65bbab00fd02d72458ae77ecc212035d4fda71202ea658e038278cc",
+      "category_id": 9
+    },
+    {
+      "image_id": 522146,
+      "dataset_index": 1102,
+      "ref_id": 5188,
+      "sent_id": 14777,
+      "expression": "a  orange and black boat on the green water",
+      "mask_id": 1,
+      "annotation_id": 175590,
+      "prediction_id": "refcoco-val-522146:1",
+      "gt_segmentation_sha256": "0b911ae76e700ec52ceb6268467ed13e4b4424b6685b47c1ec7872e9d9b7b9c8",
+      "category_id": 9
+    }
+  ],
+  "intersection": [
+    21105,
+    16558
+  ],
+  "union": [
+    48955,
+    17773
+  ],
+  "mask_file": "refcoco-val-522146.npz",
+  "mask_sha256": "56757216e38ce327a947aa19fc89b36dd79c5aa5e55bd71fcfb6479761faf2bc",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01684291799995208,
+    "inference_s": 2.029986044999987,
+    "postprocess_s": 0.0015631900000698806,
+    "amortized_inference_s_per_selected_expression": 1.0149930224999935,
+    "mask_write_s": 0.014612462000059168
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818397184,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6296866816
+  },
+  "output_bytes": 5023,
+  "stage_created": "full-validation",
+  "record_hash": "952baa4fbad04e2bb194e269815c4885e7398d7f511067a91b22eb3c0a308683",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

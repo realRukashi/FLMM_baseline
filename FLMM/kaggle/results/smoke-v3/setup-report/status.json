@@ -1,0 +1,5 @@
+{
+  "source_sha": "47d3c2a6f628dd48ba76a1cfdf29b6b2aa8f9eb3",
+  "stage": "data-checkpoints",
+  "error": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 70, in <module>\n    run('data-checkpoints', [py, '/kaggle/temp/prepare_smoke.py'], timeout=1800)\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/src/script.py\", line 28, in run\n    raise RuntimeError(f'{label} failed, return code {result.returncode}')\nRuntimeError: data-checkpoints failed, return code 1\n"
+}

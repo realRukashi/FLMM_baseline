@@ -1,0 +1,5 @@
+{
+  "source_sha": "47d3c2a6f628dd48ba76a1cfdf29b6b2aa8f9eb3",
+  "stage": "imports",
+  "error": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 60, in <module>\n    run('imports', [py, '-c', code])\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/src/script.py\", line 26, in run\n    raise RuntimeError(f'{label} failed, return code {result.returncode}')\nRuntimeError: imports failed, return code 1\n"
+}

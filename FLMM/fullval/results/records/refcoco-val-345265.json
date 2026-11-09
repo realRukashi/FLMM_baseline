@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-345265",
+  "sample_hash": "bf06c8c37a4a4f5654f4ee81222d1b9d267b03c89fccd1b1746eda1717ae305d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 345265,
+  "dataset_index": 213,
+  "expressions": [
+    {
+      "image_id": 345265,
+      "dataset_index": 213,
+      "ref_id": 20323,
+      "sent_id": 57814,
+      "expression": "arm on leg: far left",
+      "mask_id": 0,
+      "annotation_id": 1722458,
+      "prediction_id": "refcoco-val-345265:0",
+      "gt_segmentation_sha256": "bf55959c07b414ec74d0b2df7c2815f2ce444bad41119a8ddbbcd95e68ab8c1c",
+      "category_id": 1
+    },
+    {
+      "image_id": 345265,
+      "dataset_index": 213,
+      "ref_id": 20324,
+      "sent_id": 57817,
+      "expression": "extreme right, guy with white shirt",
+      "mask_id": 1,
+      "annotation_id": 1703288,
+      "prediction_id": "refcoco-val-345265:1",
+      "gt_segmentation_sha256": "48a1e4a38a674c0786c5b84dcd1eada0401215111b81538918b7b07f7ed1abe5",
+      "category_id": 1
+    },
+    {
+      "image_id": 345265,
+      "dataset_index": 213,
+      "ref_id": 20325,
+      "sent_id": 57820,
+      "expression": "red shirt, black skirt, right of glass",
+      "mask_id": 2,
+      "annotation_id": 1692394,
+      "prediction_id": "refcoco-val-345265:2",
+      "gt_segmentation_sha256": "53d5f8dda3f0061f9947f1e3669993208e34b5dc461957e40f556119fb91d5ad",
+      "category_id": 1
+    },
+    {
+      "image_id": 345265,
+      "dataset_index": 213,
+      "ref_id": 20326,
+      "sent_id": 57823,
+      "expression": "lady in black jacket sitting",
+      "mask_id": 3,
+      "annotation_id": 524991,
+      "prediction_id": "refcoco-val-345265:3",
+      "gt_segmentation_sha256": "e6282e17b6be437e619d9978c8189deb9d1410e3419fbe35358d7c85f6730525",
+      "category_id": 1
+    },
+    {
+      "image_id": 345265,
+      "dataset_index": 213,
+      "ref_id": 20327,
+      "sent_id": 57826,
+      "expression": "woman in blue shirt behind the wine glass",
+      "mask_id": 4,
+      "annotation_id": 523121,
+      "prediction_id": "refcoco-val-345265:4",
+      "gt_segmentation_sha256": "abebe8595520d27f42b48a11557dfb64653ad6d420e7651554874d41f8d6cb8b",
+      "category_id": 1
+    },
+    {
+      "image_id": 345265,
+      "dataset_index": 213,
+      "ref_id": 20328,
+      "sent_id": 57829,
+      "expression": "hand holding glass",
+      "mask_id": 5,
+      "annotation_id": 463480,
+      "prediction_id": "refcoco-val-345265:5",
+      "gt_segmentation_sha256": "b004b7d6331ca1c76ac0e9e144c7597997696bd56bc61a30bea315faa9619866",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12727,
+    13677,
+    11116,
+    15700,
+    9892,
+    32679
+  ],
+  "union": [
+    15286,
+    17499,
+    14179,
+    28358,
+    19609,
+    34889
+  ],
+  "mask_file": "refcoco-val-345265.npz",
+  "mask_sha256": "693b1116091766e4f42a22f5d0f2b098fbab26d6c83adb976932a7037f004949",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.020791962000203057,
+    "inference_s": 2.302059732000089,
+    "postprocess_s": 0.004827294000051552,
+    "amortized_inference_s_per_selected_expression": 0.3836766220000148,
+    "mask_write_s": 0.03856337000001986
+  },
+  "memory": {
+    "peak_allocated_bytes": 8838882816,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451282432,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 13536,
+  "stage_created": "full-validation",
+  "record_hash": "491beaeae9dc632ae998486a236adc7bb0483ebf1153e78d4933b80e58c87d09",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

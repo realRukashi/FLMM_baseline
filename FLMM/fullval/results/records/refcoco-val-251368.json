@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-251368",
+  "sample_hash": "8ac18de7add3949ba2f3cae28e91d7eb23ee821c964d9294143270f9a2a7d85b",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 251368,
+  "dataset_index": 1022,
+  "expressions": [
+    {
+      "image_id": 251368,
+      "dataset_index": 1022,
+      "ref_id": 28680,
+      "sent_id": 81565,
+      "expression": "khaki pants in back behind dog",
+      "mask_id": 0,
+      "annotation_id": 255649,
+      "prediction_id": "refcoco-val-251368:0",
+      "gt_segmentation_sha256": "5083bf2864cb0a6e1f7cd7e785a3f7b6fe9e6eb6406dc7fbc661769f17cf8e68",
+      "category_id": 1
+    },
+    {
+      "image_id": 251368,
+      "dataset_index": 1022,
+      "ref_id": 28681,
+      "sent_id": 81568,
+      "expression": "leg with shoe on skateboard",
+      "mask_id": 1,
+      "annotation_id": 202157,
+      "prediction_id": "refcoco-val-251368:1",
+      "gt_segmentation_sha256": "b21a0682c1242ae94c923ac266bff725d0ca0d658c7b2bb89b6d67e4a5ed0f2e",
+      "category_id": 1
+    },
+    {
+      "image_id": 251368,
+      "dataset_index": 1022,
+      "ref_id": 28682,
+      "sent_id": 81571,
+      "expression": "right basket",
+      "mask_id": 2,
+      "annotation_id": 130637,
+      "prediction_id": "refcoco-val-251368:2",
+      "gt_segmentation_sha256": "9a1e15b95b2e20b2b7b9c71109f49a25b4cf069a9e0e2ffa1bff91fad9dd9748",
+      "category_id": 2
+    },
+    {
+      "image_id": 251368,
+      "dataset_index": 1022,
+      "ref_id": 28683,
+      "sent_id": 81574,
+      "expression": "space in front of and behind hairy leg",
+      "mask_id": 3,
+      "annotation_id": 129736,
+      "prediction_id": "refcoco-val-251368:3",
+      "gt_segmentation_sha256": "e6e489ffd66e27856054d2f388a6f72e760758bc2044f40898c48fbc6611d53d",
+      "category_id": 2
+    }
+  ],
+  "intersection": [
+    9353,
+    27530,
+    13144,
+    7463
+  ],
+  "union": [
+    13961,
+    30943,
+    20335,
+    21832
+  ],
+  "mask_file": "refcoco-val-251368.npz",
+  "mask_sha256": "3b86703ee32a50400941605c133cc3a0e0301836f20f588086d639d421866cc3",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.011216038000043227,
+    "inference_s": 1.8889088360000414,
+    "postprocess_s": 0.0016486740000800637,
+    "amortized_inference_s_per_selected_expression": 0.47222720900001036,
+    "mask_write_s": 0.014956820999941556
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826961408,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5447272448,
+    "ram_rss_bytes": 6296698880
+  },
+  "output_bytes": 10031,
+  "stage_created": "full-validation",
+  "record_hash": "6f458f8a344b38c52f565722079495413c2cdfb2d563e30b381669a928e3e4a9",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

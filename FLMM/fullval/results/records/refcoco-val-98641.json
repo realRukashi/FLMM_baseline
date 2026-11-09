@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-98641",
+  "sample_hash": "245abd9ff9c02aaaab8b95729fd9a7ae858fe9c58d8ea73e8a0172d9204b7895",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 98641,
+  "dataset_index": 67,
+  "expressions": [
+    {
+      "image_id": 98641,
+      "dataset_index": 67,
+      "ref_id": 41374,
+      "sent_id": 117626,
+      "expression": "the man with the laptop on the right.",
+      "mask_id": 0,
+      "annotation_id": 1328242,
+      "prediction_id": "refcoco-val-98641:0",
+      "gt_segmentation_sha256": "e0e36723b375c6a79f78b135d98de245c50f18e10266014f0f2bc0b67c672231",
+      "category_id": 1
+    },
+    {
+      "image_id": 98641,
+      "dataset_index": 67,
+      "ref_id": 41375,
+      "sent_id": 117629,
+      "expression": "left man on bench",
+      "mask_id": 1,
+      "annotation_id": 1319632,
+      "prediction_id": "refcoco-val-98641:1",
+      "gt_segmentation_sha256": "599cdc2cd8935fcaed436d3e60e4db9098852671f26c3f08419a28d453425896",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    9570,
+    593
+  ],
+  "union": [
+    16031,
+    25951
+  ],
+  "mask_file": "refcoco-val-98641.npz",
+  "mask_sha256": "938a628c20c16b9c1f1cbda3a0e5c616c8def98cbf20e28ba62c6635cd53a395",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01727463199995327,
+    "inference_s": 2.1758104109999294,
+    "postprocess_s": 0.002067111000087607,
+    "amortized_inference_s_per_selected_expression": 1.0879052054999647,
+    "mask_write_s": 0.015079752000019653
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820363776,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 4678,
+  "stage_created": "full-validation",
+  "record_hash": "501b5e10ca7badef2b7dcf5dc98cc50d2bc317dd1aeca027fa8fc44d38cb0661",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-437080",
+  "sample_hash": "8c618fad60b283013832816b14fd37194de7c28541e6dafec80cea4d99c5af95",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 437080,
+  "dataset_index": 536,
+  "expressions": [
+    {
+      "image_id": 437080,
+      "dataset_index": 536,
+      "ref_id": 12627,
+      "sent_id": 35927,
+      "expression": "pastry next to right hand coffee mug",
+      "mask_id": 0,
+      "annotation_id": 2112878,
+      "prediction_id": "refcoco-val-437080:0",
+      "gt_segmentation_sha256": "1684ca292fe9c75c16575e60a89020dd906923568fcafd9a3520cc3dde19664a",
+      "category_id": 54
+    },
+    {
+      "image_id": 437080,
+      "dataset_index": 536,
+      "ref_id": 12628,
+      "sent_id": 35930,
+      "expression": "danish next to the coffee cup on the left",
+      "mask_id": 1,
+      "annotation_id": 1552705,
+      "prediction_id": "refcoco-val-437080:1",
+      "gt_segmentation_sha256": "c05cae69b0aca0c06647e710c0c6f17927c8a5d8e6647a43ce5d7ab7fa12a494",
+      "category_id": 54
+    }
+  ],
+  "intersection": [
+    16101,
+    12372
+  ],
+  "union": [
+    17894,
+    13597
+  ],
+  "mask_file": "refcoco-val-437080.npz",
+  "mask_sha256": "7c624977cd5b269445b9f4b4cb859fe8a9ffe35aacd78a25db8977756f8cb9b8",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.017866541999978836,
+    "inference_s": 1.9310997879999832,
+    "postprocess_s": 0.0022023290000561246,
+    "amortized_inference_s_per_selected_expression": 0.9655498939999916,
+    "mask_write_s": 0.015320019999990109
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824308736,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5446914048,
+    "ram_rss_bytes": 6294757376
+  },
+  "output_bytes": 4175,
+  "stage_created": "full-validation",
+  "record_hash": "551a4533e1b1e187dbe632eaaa6bcf22b3cb2db09fbb882b53186e6e35fb3dc2",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

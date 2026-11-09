@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-322517",
+  "sample_hash": "9a469d3524489339f8d10245a46bbb0efd05309d3d2516dafa6e220b603e2ece",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 322517,
+  "dataset_index": 560,
+  "expressions": [
+    {
+      "image_id": 322517,
+      "dataset_index": 560,
+      "ref_id": 22515,
+      "sent_id": 64035,
+      "expression": "top right of camera",
+      "mask_id": 0,
+      "annotation_id": 530302,
+      "prediction_id": "refcoco-val-322517:0",
+      "gt_segmentation_sha256": "ab8289724a741a904d1ccc45c2064307a0a80ee3206d7033672585e0177f4098",
+      "category_id": 1
+    },
+    {
+      "image_id": 322517,
+      "dataset_index": 560,
+      "ref_id": 22516,
+      "sent_id": 64037,
+      "expression": "center polka",
+      "mask_id": 1,
+      "annotation_id": 465241,
+      "prediction_id": "refcoco-val-322517:1",
+      "gt_segmentation_sha256": "1ae318b2826ee3ff4bd0933fd2b8b9bfe9fe29859d9fe285ff88fee4e12463e2",
+      "category_id": 1
+    },
+    {
+      "image_id": 322517,
+      "dataset_index": 560,
+      "ref_id": 22517,
+      "sent_id": 64040,
+      "expression": "woman in camisole",
+      "mask_id": 2,
+      "annotation_id": 453958,
+      "prediction_id": "refcoco-val-322517:2",
+      "gt_segmentation_sha256": "23439140d4a6706bf68f56794ac87f8b4b533d2afe522ae979fe98c88b24249d",
+      "category_id": 1
+    },
+    {
+      "image_id": 322517,
+      "dataset_index": 560,
+      "ref_id": 22518,
+      "sent_id": 64043,
+      "expression": "hand only in front right",
+      "mask_id": 3,
+      "annotation_id": 1708785,
+      "prediction_id": "refcoco-val-322517:3",
+      "gt_segmentation_sha256": "891fb02ec0b6cb24efa03798b714d97b19caf2c0a330305060e6514cf8100c00",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    16176,
+    14007,
+    20764,
+    15262
+  ],
+  "union": [
+    20245,
+    15276,
+    22876,
+    19188
+  ],
+  "mask_file": "refcoco-val-322517.npz",
+  "mask_sha256": "a8a15af79a51eedf629be0afae2c38e0cfce39fc9616a99723dba42e1fdfa802",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.02031692100001692,
+    "inference_s": 2.019797685999947,
+    "postprocess_s": 0.002816624000047341,
+    "amortized_inference_s_per_selected_expression": 0.5049494214999868,
+    "mask_write_s": 0.020782918000008976
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826884608,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6295138304
+  },
+  "output_bytes": 8696,
+  "stage_created": "full-validation",
+  "record_hash": "a7c56994cbcdfcd3d2a04ebb9e104443492d64ca5eb2a5c2b3ea48e1dfd4def6",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

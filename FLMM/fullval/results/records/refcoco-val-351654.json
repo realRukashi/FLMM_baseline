@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-351654",
+  "sample_hash": "cf45e616873a66b0d3110a1a5c18e954b5be0c3c9c5451083492561a3f30c62f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 351654,
+  "dataset_index": 1404,
+  "expressions": [
+    {
+      "image_id": 351654,
+      "dataset_index": 1404,
+      "ref_id": 19755,
+      "sent_id": 56201,
+      "expression": "top right bowl with 3 eggs",
+      "mask_id": 0,
+      "annotation_id": 2185871,
+      "prediction_id": "refcoco-val-351654:0",
+      "gt_segmentation_sha256": "d384c31f20a8b38a1042c309de6034ac9a426dfb7a3c3a12aec37ea3cebd82a1",
+      "category_id": 51
+    },
+    {
+      "image_id": 351654,
+      "dataset_index": 1404,
+      "ref_id": 19756,
+      "sent_id": 56204,
+      "expression": "stir fry at top",
+      "mask_id": 1,
+      "annotation_id": 1898043,
+      "prediction_id": "refcoco-val-351654:1",
+      "gt_segmentation_sha256": "2706e08158a9525a14c59e43fe54e7a7378a5985f0e1fae8d96d5831a566792f",
+      "category_id": 51
+    },
+    {
+      "image_id": 351654,
+      "dataset_index": 1404,
+      "ref_id": 19757,
+      "sent_id": 56207,
+      "expression": "beater",
+      "mask_id": 2,
+      "annotation_id": 718300,
+      "prediction_id": "refcoco-val-351654:2",
+      "gt_segmentation_sha256": "8d8ce06afd706ba869279b81ad30d9fe62077dc8a83d1490d78484b4c4b73a4b",
+      "category_id": 51
+    },
+    {
+      "image_id": 351654,
+      "dataset_index": 1404,
+      "ref_id": 19758,
+      "sent_id": 56210,
+      "expression": "bowl middle three red dots",
+      "mask_id": 3,
+      "annotation_id": 710266,
+      "prediction_id": "refcoco-val-351654:3",
+      "gt_segmentation_sha256": "7429dbe24ce05fb5e3d63756d895c0d7372bad9974522c3e10abf132aa05ab32",
+      "category_id": 51
+    }
+  ],
+  "intersection": [
+    29814,
+    12335,
+    50932,
+    20128
+  ],
+  "union": [
+    32062,
+    14898,
+    62257,
+    20791
+  ],
+  "mask_file": "refcoco-val-351654.npz",
+  "mask_sha256": "30c79ca495baf0cd61b18209051513ba818ac87d7152334d991f2f4baecca538",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.019265571000005366,
+    "inference_s": 2.188058184000056,
+    "postprocess_s": 0.003683297999941715,
+    "amortized_inference_s_per_selected_expression": 0.547014546000014,
+    "mask_write_s": 0.027415312000130143
+  },
+  "memory": {
+    "peak_allocated_bytes": 8835521024,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449904128,
+    "ram_rss_bytes": 6297788416
+  },
+  "output_bytes": 12231,
+  "stage_created": "full-validation",
+  "record_hash": "0afc1f73b5053d50f173b98e543e71c3b13afca6a9b7a8895f7c2f1c375cab98",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

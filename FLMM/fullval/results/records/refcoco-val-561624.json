@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-561624",
+  "sample_hash": "b2d5853bfca26ccaa232c4fbbb703ae6241a4558c89af2a2b4ddffdf57949b3a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 561624,
+  "dataset_index": 822,
+  "expressions": [
+    {
+      "image_id": 561624,
+      "dataset_index": 822,
+      "ref_id": 1853,
+      "sent_id": 5290,
+      "expression": "batter",
+      "mask_id": 0,
+      "annotation_id": 546642,
+      "prediction_id": "refcoco-val-561624:0",
+      "gt_segmentation_sha256": "3de57cd867d9d5d4c33c8449a25ce74294e727987f40a119b18f85cc6d426ee1",
+      "category_id": 1
+    },
+    {
+      "image_id": 561624,
+      "dataset_index": 822,
+      "ref_id": 1854,
+      "sent_id": 5293,
+      "expression": "person sitting on right in black shirt",
+      "mask_id": 1,
+      "annotation_id": 466620,
+      "prediction_id": "refcoco-val-561624:1",
+      "gt_segmentation_sha256": "25754a84ae80037bd27d6ba230584af5caae9b790ae4de6bc8e9824c1b05d17c",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    15853,
+    9086
+  ],
+  "union": [
+    18400,
+    11847
+  ],
+  "mask_file": "refcoco-val-561624.npz",
+  "mask_sha256": "4a73af5525a375ed96830b33013d141473d03ba546c7aa84b48fa24b3f8725d5",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013185958000008213,
+    "inference_s": 2.3400046320000456,
+    "postprocess_s": 0.0014775839999856544,
+    "amortized_inference_s_per_selected_expression": 1.1700023160000228,
+    "mask_write_s": 0.011308073999998669
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818310144,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6295609344
+  },
+  "output_bytes": 4736,
+  "stage_created": "full-validation",
+  "record_hash": "7813624168ad49342f28d650347b8603016dd67cca4ab2561f2c7ec61d7b1f02",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

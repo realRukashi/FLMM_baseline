@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-555022",
+  "sample_hash": "c33b79762208b1dc8421ecb06ea5962bebbfdc9d8fd5429cc178176df3bebbf1",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 555022,
+  "dataset_index": 1123,
+  "expressions": [
+    {
+      "image_id": 555022,
+      "dataset_index": 1123,
+      "ref_id": 2369,
+      "sent_id": 6770,
+      "expression": "pink flowed couch",
+      "mask_id": 0,
+      "annotation_id": 115684,
+      "prediction_id": "refcoco-val-555022:0",
+      "gt_segmentation_sha256": "de1207c6e6b8d97c5d5b72df8ed4c4aaa60f65b9d549523a8bc937838b241b88",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    9808
+  ],
+  "union": [
+    21816
+  ],
+  "mask_file": "refcoco-val-555022.npz",
+  "mask_sha256": "77feeee7294ad17529bb2feb5ace5327119600ed4ac0db0380341b31a5d65950",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.014685944000007112,
+    "inference_s": 2.2633718450000515,
+    "postprocess_s": 0.0010189360000367742,
+    "amortized_inference_s_per_selected_expression": 2.2633718450000515,
+    "mask_write_s": 0.00887833599995247
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815612416,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6300479488
+  },
+  "output_bytes": 3554,
+  "stage_created": "full-validation",
+  "record_hash": "4db4aa128d35257e8ef5637d34554776a55d81563951459e45678c81fa5babe3",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

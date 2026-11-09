@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-263516",
+  "sample_hash": "b21aac32d047f037574a47418232f7fc3ea3b6f97a5f737b9c2b32b829ffc8ca",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 263516,
+  "dataset_index": 242,
+  "expressions": [
+    {
+      "image_id": 263516,
+      "dataset_index": 242,
+      "ref_id": 27603,
+      "sent_id": 78499,
+      "expression": "red shirt",
+      "mask_id": 0,
+      "annotation_id": 223446,
+      "prediction_id": "refcoco-val-263516:0",
+      "gt_segmentation_sha256": "82129660c01807846f181fb5bf91073cd813ead59c8fef4688ab2fd2777d4bed",
+      "category_id": 1
+    },
+    {
+      "image_id": 263516,
+      "dataset_index": 242,
+      "ref_id": 27604,
+      "sent_id": 78502,
+      "expression": "striped shirt behind birthday child",
+      "mask_id": 1,
+      "annotation_id": 217632,
+      "prediction_id": "refcoco-val-263516:1",
+      "gt_segmentation_sha256": "d283e4f50a7e87f689c8b3822d29c2cc7dd25b8d5534ae1d07c2b53b69e30705",
+      "category_id": 1
+    },
+    {
+      "image_id": 263516,
+      "dataset_index": 242,
+      "ref_id": 27605,
+      "sent_id": 78504,
+      "expression": "mom holding child",
+      "mask_id": 2,
+      "annotation_id": 208092,
+      "prediction_id": "refcoco-val-263516:2",
+      "gt_segmentation_sha256": "95bef2c24d53866b27d5f804f401bfb6ff02caae0133f48e98a5e2aea12dbbb5",
+      "category_id": 1
+    },
+    {
+      "image_id": 263516,
+      "dataset_index": 242,
+      "ref_id": 27606,
+      "sent_id": 78506,
+      "expression": "little girl",
+      "mask_id": 3,
+      "annotation_id": 202756,
+      "prediction_id": "refcoco-val-263516:3",
+      "gt_segmentation_sha256": "f0fc3c019b5d0e79121d1260d04ac65c7ff166ef3adef415d21a7e49bb9db02c",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    35401,
+    10187,
+    58497,
+    42279
+  ],
+  "union": [
+    39093,
+    11411,
+    63424,
+    48946
+  ],
+  "mask_file": "refcoco-val-263516.npz",
+  "mask_sha256": "946a3ba57f704176321690d7349c4bd624d7415fefa114e555025e98f830a5ba",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.01892518300019219,
+    "inference_s": 2.7593723810000483,
+    "postprocess_s": 0.0031922599998779333,
+    "amortized_inference_s_per_selected_expression": 0.6898430952500121,
+    "mask_write_s": 0.03153495800006567
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826818048,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 15791,
+  "stage_created": "full-validation",
+  "record_hash": "94d71690b07a630791d444a9dbb236259696a0417ee6f72c873db00600999a5d",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

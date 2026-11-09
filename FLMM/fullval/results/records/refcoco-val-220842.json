@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-220842",
+  "sample_hash": "b55404fbf799694dc13eadaef58551d5e9c9dccfef79cefe4fbe13fb95df0b1e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 220842,
+  "dataset_index": 1445,
+  "expressions": [
+    {
+      "image_id": 220842,
+      "dataset_index": 1445,
+      "ref_id": 31231,
+      "sent_id": 88817,
+      "expression": "its black and has 9:45 on the display",
+      "mask_id": 0,
+      "annotation_id": 1642795,
+      "prediction_id": "refcoco-val-220842:0",
+      "gt_segmentation_sha256": "284db70957372a8570da12ddb2a07867511c938c682182525652625d22abfc3b",
+      "category_id": 79
+    }
+  ],
+  "intersection": [
+    12597
+  ],
+  "union": [
+    14271
+  ],
+  "mask_file": "refcoco-val-220842.npz",
+  "mask_sha256": "df0930b21f891d7633e031a0341c27db6690ef12b2a96606e0b0ae52de710861",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.0126625159998639,
+    "inference_s": 2.421026723000068,
+    "postprocess_s": 0.0009850970000115922,
+    "amortized_inference_s_per_selected_expression": 2.421026723000068,
+    "mask_write_s": 0.007897890999856827
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814829056,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6301458432
+  },
+  "output_bytes": 2224,
+  "stage_created": "full-validation",
+  "record_hash": "52e5e4f15453765c2604f38eb6a2eed02605408a1ea6bf7ac480356b73e968aa",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

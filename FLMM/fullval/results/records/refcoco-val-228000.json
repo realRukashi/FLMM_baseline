@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-228000",
+  "sample_hash": "62be668081dbf23933416529cae044a0346f57ef3d3f942f826beb3114a951f5",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 228000,
+  "dataset_index": 1253,
+  "expressions": [
+    {
+      "image_id": 228000,
+      "dataset_index": 1253,
+      "ref_id": 30592,
+      "sent_id": 86998,
+      "expression": "man on right",
+      "mask_id": 0,
+      "annotation_id": 203909,
+      "prediction_id": "refcoco-val-228000:0",
+      "gt_segmentation_sha256": "4ae0bb2490e9177372da38a7a6b8e3d4341173c20b908d862247cb073b1f4a94",
+      "category_id": 1
+    },
+    {
+      "image_id": 228000,
+      "dataset_index": 1253,
+      "ref_id": 30593,
+      "sent_id": 87001,
+      "expression": "red shirt",
+      "mask_id": 1,
+      "annotation_id": 202974,
+      "prediction_id": "refcoco-val-228000:1",
+      "gt_segmentation_sha256": "c4a2b3c3f59b78f0fc316009d5747d4282422fc3cdf3717ec61eed6219283093",
+      "category_id": 1
+    },
+    {
+      "image_id": 228000,
+      "dataset_index": 1253,
+      "ref_id": 30594,
+      "sent_id": 87004,
+      "expression": "pillow cushions on couch",
+      "mask_id": 2,
+      "annotation_id": 111364,
+      "prediction_id": "refcoco-val-228000:2",
+      "gt_segmentation_sha256": "ae27404bcbd57127221b6c86969c457e273edcbcb1715d5d6292727eff10b060",
+      "category_id": 63
+    },
+    {
+      "image_id": 228000,
+      "dataset_index": 1253,
+      "ref_id": 30595,
+      "sent_id": 87007,
+      "expression": "the striped chair",
+      "mask_id": 3,
+      "annotation_id": 99105,
+      "prediction_id": "refcoco-val-228000:3",
+      "gt_segmentation_sha256": "801801b41a4db27e954f35e27c0ab84f36491019ef38504c734b8bb156259522",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    35083,
+    38032,
+    16759,
+    39523
+  ],
+  "union": [
+    40393,
+    41361,
+    27004,
+    48793
+  ],
+  "mask_file": "refcoco-val-228000.npz",
+  "mask_sha256": "fdaf16b84dcedf2bbac0aa5a66b2a7c3aa145be13e99d9ec0560395dcaf4a5fb",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.01829602300017541,
+    "inference_s": 2.441619691999904,
+    "postprocess_s": 0.003105342000026212,
+    "amortized_inference_s_per_selected_expression": 0.610404922999976,
+    "mask_write_s": 0.025832732000026226
+  },
+  "memory": {
+    "peak_allocated_bytes": 8830107648,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448613888,
+    "ram_rss_bytes": 6300700672
+  },
+  "output_bytes": 17808,
+  "stage_created": "full-validation",
+  "record_hash": "2042f6bb105b290596a9191c8a9639f67c733facbe2727828f645d04e7e446cc",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

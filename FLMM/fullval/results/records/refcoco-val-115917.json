@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-115917",
+  "sample_hash": "463891f3e5d23396500b42602ebc6ed2ff02322a4e731822f019917e2f827b14",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 115917,
+  "dataset_index": 216,
+  "expressions": [
+    {
+      "image_id": 115917,
+      "dataset_index": 216,
+      "ref_id": 40027,
+      "sent_id": 113797,
+      "expression": "black shirt in crowd",
+      "mask_id": 0,
+      "annotation_id": 528935,
+      "prediction_id": "refcoco-val-115917:0",
+      "gt_segmentation_sha256": "5b0904dd630a0bbe254e5c00cd82599ae696b21299ff85e43f0940bbab09ffbd",
+      "category_id": 1
+    },
+    {
+      "image_id": 115917,
+      "dataset_index": 216,
+      "ref_id": 40028,
+      "sent_id": 113800,
+      "expression": "top middle red guy",
+      "mask_id": 1,
+      "annotation_id": 499009,
+      "prediction_id": "refcoco-val-115917:1",
+      "gt_segmentation_sha256": "b3f7b22dfd3d20c7d2361f50bf2cd6ef06186d2e6a8b98226f73c9d99502a5e2",
+      "category_id": 1
+    },
+    {
+      "image_id": 115917,
+      "dataset_index": 216,
+      "ref_id": 40029,
+      "sent_id": 113803,
+      "expression": "the player in white",
+      "mask_id": 2,
+      "annotation_id": 467499,
+      "prediction_id": "refcoco-val-115917:2",
+      "gt_segmentation_sha256": "ede830004397d5e357c77d5c6acb4e65cdc604a26569f893e9a711b3bac1e9fc",
+      "category_id": 1
+    },
+    {
+      "image_id": 115917,
+      "dataset_index": 216,
+      "ref_id": 40030,
+      "sent_id": 113806,
+      "expression": "man in red shirt playing tenniss",
+      "mask_id": 3,
+      "annotation_id": 457903,
+      "prediction_id": "refcoco-val-115917:3",
+      "gt_segmentation_sha256": "661738ac8e446c0e994dee9249d992ef27204e7da081e060ea2069a29b7f5b0a",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11629,
+    31971,
+    77445,
+    768
+  ],
+  "union": [
+    20014,
+    36799,
+    82601,
+    113449
+  ],
+  "mask_file": "refcoco-val-115917.npz",
+  "mask_sha256": "af9d2c223a5caa97ef09099cdecf1607b107629d2e982560cdee124f54ba504c",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.02650390500002686,
+    "inference_s": 2.766377079999984,
+    "postprocess_s": 0.0037413659999856463,
+    "amortized_inference_s_per_selected_expression": 0.691594269999996,
+    "mask_write_s": 0.03730282299989085
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831638016,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448992768,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 17702,
+  "stage_created": "full-validation",
+  "record_hash": "c639583402d57cae6d828e050cfb7078f192a8bfcd06218d86563f846ee2610f",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

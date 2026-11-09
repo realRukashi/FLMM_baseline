@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-52086",
+  "sample_hash": "7c32e94686f1f1610882d31d3c9f2148d1e8431ef47f7e4e8ffb64dcc53df602",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 52086,
+  "dataset_index": 542,
+  "expressions": [
+    {
+      "image_id": 52086,
+      "dataset_index": 542,
+      "ref_id": 45519,
+      "sent_id": 129454,
+      "expression": "black space beside blond lady on the left",
+      "mask_id": 0,
+      "annotation_id": 262262,
+      "prediction_id": "refcoco-val-52086:0",
+      "gt_segmentation_sha256": "2cc9f77c97c0c7a17ce9e0a087eed4557c81898cb4ff16c89868b73e154826ec",
+      "category_id": 1
+    },
+    {
+      "image_id": 52086,
+      "dataset_index": 542,
+      "ref_id": 45520,
+      "sent_id": 129457,
+      "expression": "blonde girl in bottom left",
+      "mask_id": 1,
+      "annotation_id": 252988,
+      "prediction_id": "refcoco-val-52086:1",
+      "gt_segmentation_sha256": "633400dcc6afb2d017aa07661aac28cf0b53b8ef07d957e46b6e0781d73f8d07",
+      "category_id": 1
+    },
+    {
+      "image_id": 52086,
+      "dataset_index": 542,
+      "ref_id": 45521,
+      "sent_id": 129460,
+      "expression": "girl eating",
+      "mask_id": 2,
+      "annotation_id": 197841,
+      "prediction_id": "refcoco-val-52086:2",
+      "gt_segmentation_sha256": "4b33f0b5982667a3d71e1d8b25e29cfde315a909cd470ef48ebcaf8139182715",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    13698,
+    12498,
+    154485
+  ],
+  "union": [
+    18709,
+    18533,
+    159598
+  ],
+  "mask_file": "refcoco-val-52086.npz",
+  "mask_sha256": "b86a2a9a6269f5c08b8eb9917c9272dc7ba2a22aa37b32ab8f73bc39b28338ce",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.01628207500004919,
+    "inference_s": 1.9463110640000423,
+    "postprocess_s": 0.002342324999972334,
+    "amortized_inference_s_per_selected_expression": 0.6487703546666808,
+    "mask_write_s": 0.022315843999990648
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824696832,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447698432,
+    "ram_rss_bytes": 6294757376
+  },
+  "output_bytes": 11425,
+  "stage_created": "full-validation",
+  "record_hash": "30d615f821c7f849970392f55a72484debd682b726605c73e2ed1ede32d2d5f3",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

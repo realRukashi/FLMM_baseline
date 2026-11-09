@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-231987",
+  "sample_hash": "45700788e152926a4713a3d59e7ae594574171b771267134899a80517a389606",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 231987,
+  "dataset_index": 480,
+  "expressions": [
+    {
+      "image_id": 231987,
+      "dataset_index": 480,
+      "ref_id": 30296,
+      "sent_id": 86160,
+      "expression": "right guy front",
+      "mask_id": 0,
+      "annotation_id": 1331135,
+      "prediction_id": "refcoco-val-231987:0",
+      "gt_segmentation_sha256": "c01a6a4d3b3fccecb802e90f72ba61c4324c341528ebb08178299a2ba8446091",
+      "category_id": 1
+    },
+    {
+      "image_id": 231987,
+      "dataset_index": 480,
+      "ref_id": 30297,
+      "sent_id": 86163,
+      "expression": "guy with jacket and white shirt standing next to drinking girl",
+      "mask_id": 1,
+      "annotation_id": 1332783,
+      "prediction_id": "refcoco-val-231987:1",
+      "gt_segmentation_sha256": "cb149f9c4bc0c7e4443cccfb3d4b89e475eee9e7ac354cc452990136e77de587",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    16767,
+    223
+  ],
+  "union": [
+    17563,
+    19733
+  ],
+  "mask_file": "refcoco-val-231987.npz",
+  "mask_sha256": "32b7a93ffbf745b0040716df68c7cfcb231a6d91c1e33de0ede0a3398c1781dc",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014895462000367843,
+    "inference_s": 2.736601257000075,
+    "postprocess_s": 0.0015658140000596177,
+    "amortized_inference_s_per_selected_expression": 1.3683006285000374,
+    "mask_write_s": 0.011990163000064058
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818343936,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 3779,
+  "stage_created": "full-validation",
+  "record_hash": "d5f56b8f329151e9c8425da48bb6ef388a2960d902b8450de55d6681b46e0efe",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

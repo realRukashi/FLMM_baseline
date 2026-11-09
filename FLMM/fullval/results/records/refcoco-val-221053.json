@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-221053",
+  "sample_hash": "a3301cd3c16df519f2f86cdf2ed09ef2917e7fc63310ad5da39bbb9a2d73bfa9",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 221053,
+  "dataset_index": 1476,
+  "expressions": [
+    {
+      "image_id": 221053,
+      "dataset_index": 1476,
+      "ref_id": 31212,
+      "sent_id": 88763,
+      "expression": "wall behind man on left, near pants",
+      "mask_id": 0,
+      "annotation_id": 1962141,
+      "prediction_id": "refcoco-val-221053:0",
+      "gt_segmentation_sha256": "0eb1b0a41a24fc8fa336caf8b42db354a174fe5d45aad974990bfe0da7da57a3",
+      "category_id": 67
+    },
+    {
+      "image_id": 221053,
+      "dataset_index": 1476,
+      "ref_id": 31213,
+      "sent_id": 88766,
+      "expression": "tabletop",
+      "mask_id": 1,
+      "annotation_id": 1622623,
+      "prediction_id": "refcoco-val-221053:1",
+      "gt_segmentation_sha256": "7c0b5f1d81da44bc41da7bc5d21d672b44cd7f1c1281110db6a54d296f02eeea",
+      "category_id": 67
+    },
+    {
+      "image_id": 221053,
+      "dataset_index": 1476,
+      "ref_id": 31214,
+      "sent_id": 88769,
+      "expression": "man far left",
+      "mask_id": 2,
+      "annotation_id": 468324,
+      "prediction_id": "refcoco-val-221053:2",
+      "gt_segmentation_sha256": "1d2c9c96ec6f7d01f0508b13c1b8148dc2257b81c59b049135d8951d149debef",
+      "category_id": 1
+    },
+    {
+      "image_id": 221053,
+      "dataset_index": 1476,
+      "ref_id": 31215,
+      "sent_id": 88772,
+      "expression": "right guy",
+      "mask_id": 3,
+      "annotation_id": 466484,
+      "prediction_id": "refcoco-val-221053:3",
+      "gt_segmentation_sha256": "3f7ca68ec2592c33fe161763854afac2ab78b284ccaccbba4366da6576e9881a",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    7770,
+    11925,
+    20551,
+    14515
+  ],
+  "union": [
+    11074,
+    17050,
+    22623,
+    15457
+  ],
+  "mask_file": "refcoco-val-221053.npz",
+  "mask_sha256": "c7653c69d7d7ca01c0aedf7852ea302db8f3a35515c66b690d1384ba53388d5a",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.014376693000031082,
+    "inference_s": 2.1884403930000644,
+    "postprocess_s": 0.0026637919997938297,
+    "amortized_inference_s_per_selected_expression": 0.5471100982500161,
+    "mask_write_s": 0.018770045000110258
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829090304,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6297899008
+  },
+  "output_bytes": 9246,
+  "stage_created": "full-validation",
+  "record_hash": "394542ef38c6fed4c7b90bf7e9c0f0cea231477d89a818e736202551b1c437c8",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

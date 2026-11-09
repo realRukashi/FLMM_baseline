@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-78836",
+  "sample_hash": "538e49e639b7c862744b6e7ea211da0d99657fb987309e07678249d7b25a131d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 78836,
+  "dataset_index": 926,
+  "expressions": [
+    {
+      "image_id": 78836,
+      "dataset_index": 926,
+      "ref_id": 43126,
+      "sent_id": 122605,
+      "expression": "dude standing behind woman, checking her ass out",
+      "mask_id": 0,
+      "annotation_id": 1329639,
+      "prediction_id": "refcoco-val-78836:0",
+      "gt_segmentation_sha256": "b67df164c1cdbf5992aa4cbdbecc529edc1d90137656201bfba1e9ce7d118c76",
+      "category_id": 1
+    },
+    {
+      "image_id": 78836,
+      "dataset_index": 926,
+      "ref_id": 43127,
+      "sent_id": 122607,
+      "expression": "man red tie",
+      "mask_id": 1,
+      "annotation_id": 1322253,
+      "prediction_id": "refcoco-val-78836:1",
+      "gt_segmentation_sha256": "3fe191305da6ed209179705f867b3508af511eba43961a07bacb000e0f2ae1bb",
+      "category_id": 1
+    },
+    {
+      "image_id": 78836,
+      "dataset_index": 926,
+      "ref_id": 43128,
+      "sent_id": 122610,
+      "expression": "woman in red",
+      "mask_id": 2,
+      "annotation_id": 1299839,
+      "prediction_id": "refcoco-val-78836:2",
+      "gt_segmentation_sha256": "a8bfb5000d9a9ec49689eb07a3e6131fd3eca25f02f43a99d4a154cdd4d3c582",
+      "category_id": 1
+    },
+    {
+      "image_id": 78836,
+      "dataset_index": 926,
+      "ref_id": 43129,
+      "sent_id": 122613,
+      "expression": "pinstripe suit",
+      "mask_id": 3,
+      "annotation_id": 1331670,
+      "prediction_id": "refcoco-val-78836:3",
+      "gt_segmentation_sha256": "1b5cf7d60a92580c783cddbdfd04f6d3a952afc59524f6cd04ebc47def419335",
+      "category_id": 1
+    },
+    {
+      "image_id": 78836,
+      "dataset_index": 926,
+      "ref_id": 43130,
+      "sent_id": 122616,
+      "expression": "man on far right",
+      "mask_id": 4,
+      "annotation_id": 1331351,
+      "prediction_id": "refcoco-val-78836:4",
+      "gt_segmentation_sha256": "e6d6131f619fd7d487825c8e7302298bc2fbaa5599199c46f50cb7131b3f5cea",
+      "category_id": 1
+    },
+    {
+      "image_id": 78836,
+      "dataset_index": 926,
+      "ref_id": 43131,
+      "sent_id": 122619,
+      "expression": "dude left",
+      "mask_id": 5,
+      "annotation_id": 1330579,
+      "prediction_id": "refcoco-val-78836:5",
+      "gt_segmentation_sha256": "04fe36094343bf66c5cfe9ed5a238ecb68566d315739be9be399722476a3f079",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    19297,
+    30732,
+    17727,
+    9923,
+    10453,
+    20902
+  ],
+  "union": [
+    42308,
+    32994,
+    19412,
+    11894,
+    15360,
+    29467
+  ],
+  "mask_file": "refcoco-val-78836.npz",
+  "mask_sha256": "4a47c5350e02f4dcefe148c58a0f6c69afb6e9835f21d33666cd3f97b18dcc9b",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.02363711900011367,
+    "inference_s": 2.443183599000122,
+    "postprocess_s": 0.003777084000148534,
+    "amortized_inference_s_per_selected_expression": 0.4071972665000203,
+    "mask_write_s": 0.028461517000096137
+  },
+  "memory": {
+    "peak_allocated_bytes": 8835984384,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5450226688,
+    "ram_rss_bytes": 6295756800
+  },
+  "output_bytes": 19274,
+  "stage_created": "full-validation",
+  "record_hash": "8dd2099891a49ca85071d673ba6a58782087bf8e9eec3cde53525e3d5a5f68fb",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

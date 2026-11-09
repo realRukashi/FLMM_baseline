@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-442542",
+  "sample_hash": "f5bf929d0143f4ea7a7dc3b4e057b27a5e2a370f85ebf267214219d3a74924a0",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 442542,
+  "dataset_index": 33,
+  "expressions": [
+    {
+      "image_id": 442542,
+      "dataset_index": 33,
+      "ref_id": 12185,
+      "sent_id": 34680,
+      "expression": "broccoli pieces on right",
+      "mask_id": 0,
+      "annotation_id": 1057326,
+      "prediction_id": "refcoco-val-442542:0",
+      "gt_segmentation_sha256": "496e138b5c2be0cd332ee8a96dfa0c2704725db67da2831001ff76fd0f0b0718",
+      "category_id": 56
+    },
+    {
+      "image_id": 442542,
+      "dataset_index": 33,
+      "ref_id": 12186,
+      "sent_id": 34683,
+      "expression": "the biggest chunk of broccoli (bottom most broccoli)",
+      "mask_id": 1,
+      "annotation_id": 1056385,
+      "prediction_id": "refcoco-val-442542:1",
+      "gt_segmentation_sha256": "8e9dbb69c6bfaf5584da20887ceecbc8678de0e7f27f6178710af07c22136dce",
+      "category_id": 56
+    }
+  ],
+  "intersection": [
+    10527,
+    9675
+  ],
+  "union": [
+    12343,
+    11573
+  ],
+  "mask_file": "refcoco-val-442542.npz",
+  "mask_sha256": "cd1a174cac13a3315ded4eb7fa885e0908edb350ce1cff7f50dd7aa845b0c338",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.02047619300014958,
+    "inference_s": 2.164930160999802,
+    "postprocess_s": 0.0016781980000359908,
+    "amortized_inference_s_per_selected_expression": 1.082465080499901,
+    "mask_write_s": 0.013390031999961138
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818363392,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 3908,
+  "stage_created": "full-validation",
+  "record_hash": "f50ef6f967b7f90b93749dec904b6f31abfb197fb008e2c6229e4904dfa59901",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

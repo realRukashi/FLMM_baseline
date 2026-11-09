@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-289282",
+  "sample_hash": "842d74e4e60ed967507b31976116dbc04d40a7678f7fc4b256b73ed6bc05a65b",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 289282,
+  "dataset_index": 468,
+  "expressions": [
+    {
+      "image_id": 289282,
+      "dataset_index": 468,
+      "ref_id": 25423,
+      "sent_id": 72272,
+      "expression": "bowl of sushi upper right",
+      "mask_id": 0,
+      "annotation_id": 2109375,
+      "prediction_id": "refcoco-val-289282:0",
+      "gt_segmentation_sha256": "a276a2b306ca73e8c1477a6bf1b08b714afecda04d6b064aaafc1470ac336772",
+      "category_id": 51
+    },
+    {
+      "image_id": 289282,
+      "dataset_index": 468,
+      "ref_id": 25424,
+      "sent_id": 72275,
+      "expression": "leftest bowl of soup",
+      "mask_id": 1,
+      "annotation_id": 1039611,
+      "prediction_id": "refcoco-val-289282:1",
+      "gt_segmentation_sha256": "80d679b408d408b963f5669ee264829aea29ebcdc03ddc8f31a83f68544e65b7",
+      "category_id": 51
+    },
+    {
+      "image_id": 289282,
+      "dataset_index": 468,
+      "ref_id": 25425,
+      "sent_id": 72278,
+      "expression": "soup cup way right",
+      "mask_id": 2,
+      "annotation_id": 1039401,
+      "prediction_id": "refcoco-val-289282:2",
+      "gt_segmentation_sha256": "cd500a0feb7507ca461b215c56c84bc749566701eefb63c552cffece5378fa68",
+      "category_id": 51
+    },
+    {
+      "image_id": 289282,
+      "dataset_index": 468,
+      "ref_id": 25426,
+      "sent_id": 72280,
+      "expression": "middle cup on the right",
+      "mask_id": 3,
+      "annotation_id": 1038977,
+      "prediction_id": "refcoco-val-289282:3",
+      "gt_segmentation_sha256": "9796829a90427fad46125a9b6d36733f8abdb7684ddecf0032270724f6d4afbd",
+      "category_id": 51
+    },
+    {
+      "image_id": 289282,
+      "dataset_index": 468,
+      "ref_id": 25427,
+      "sent_id": 72283,
+      "expression": "2nd from left bowl",
+      "mask_id": 4,
+      "annotation_id": 716852,
+      "prediction_id": "refcoco-val-289282:4",
+      "gt_segmentation_sha256": "2a40dff53f29006bd28e76739434e3d307bb80845ad1f9488c7b16060dbff233",
+      "category_id": 51
+    }
+  ],
+  "intersection": [
+    56692,
+    20578,
+    19320,
+    19727,
+    20079
+  ],
+  "union": [
+    59943,
+    40014,
+    20195,
+    20578,
+    21747
+  ],
+  "mask_file": "refcoco-val-289282.npz",
+  "mask_sha256": "5b6910bf49bf41eb5da1db4228a6b01eba2ee4971d370eb4d4d0552b85eac656",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.021700022999993962,
+    "inference_s": 2.7749783069998557,
+    "postprocess_s": 0.0033921750000445172,
+    "amortized_inference_s_per_selected_expression": 0.5549956613999711,
+    "mask_write_s": 0.033874145000027056
+  },
+  "memory": {
+    "peak_allocated_bytes": 8833966592,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449811968,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 14707,
+  "stage_created": "full-validation",
+  "record_hash": "b51703ce5903875b7252b903aadf919710f6dab23a613dd4171955c1a9a719ed",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

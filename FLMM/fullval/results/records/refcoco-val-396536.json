@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-396536",
+  "sample_hash": "f55d63c9831c3c8cfff6ed9624bff1337fffeab85ecd5c7a0d3aa4a4bf9b02d4",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 396536,
+  "dataset_index": 621,
+  "expressions": [
+    {
+      "image_id": 396536,
+      "dataset_index": 621,
+      "ref_id": 16060,
+      "sent_id": 45700,
+      "expression": "trailer being bulled",
+      "mask_id": 0,
+      "annotation_id": 401448,
+      "prediction_id": "refcoco-val-396536:0",
+      "gt_segmentation_sha256": "ddfb22fc18eb1396b1313acc418d252d87567523e0838268238758ff1cce6897",
+      "category_id": 8
+    },
+    {
+      "image_id": 396536,
+      "dataset_index": 621,
+      "ref_id": 16061,
+      "sent_id": 45703,
+      "expression": "red truck",
+      "mask_id": 1,
+      "annotation_id": 400062,
+      "prediction_id": "refcoco-val-396536:1",
+      "gt_segmentation_sha256": "a54ed50406220a502e03a1e103ebe83342da46208854dc76dce51cbf31f942fa",
+      "category_id": 8
+    }
+  ],
+  "intersection": [
+    29285,
+    52921
+  ],
+  "union": [
+    31582,
+    56117
+  ],
+  "mask_file": "refcoco-val-396536.npz",
+  "mask_sha256": "81e227de2247b38dc66571ea23a9787661f6b89aa8809cb55f1cdbacaf8c429d",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014191170999993119,
+    "inference_s": 2.3464549209999177,
+    "postprocess_s": 0.0016426249999312859,
+    "amortized_inference_s_per_selected_expression": 1.1732274604999589,
+    "mask_write_s": 0.016942826999979843
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818656256,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6294278144
+  },
+  "output_bytes": 7262,
+  "stage_created": "full-validation",
+  "record_hash": "14d61c6316bca9ac865626f139a33e02d2ed1d50b2dd3be72c04a7a752408670",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

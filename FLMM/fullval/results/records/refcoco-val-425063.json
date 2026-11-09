@@ -1,0 +1,147 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-425063",
+  "sample_hash": "2bb350450cbaf43e678e7497948900276f6897c36f6293a549431eb5c8137383",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 425063,
+  "dataset_index": 1335,
+  "expressions": [
+    {
+      "image_id": 425063,
+      "dataset_index": 1335,
+      "ref_id": 13647,
+      "sent_id": 38834,
+      "expression": "donut in middle on left side",
+      "mask_id": 0,
+      "annotation_id": 1575896,
+      "prediction_id": "refcoco-val-425063:0",
+      "gt_segmentation_sha256": "b51dd1dca9a06587bc8aeb3bc293eab0f847b32e8b8afb11daff69d99f9edd80",
+      "category_id": 60
+    },
+    {
+      "image_id": 425063,
+      "dataset_index": 1335,
+      "ref_id": 13648,
+      "sent_id": 38837,
+      "expression": "choc covered donut on right closest to bottom",
+      "mask_id": 1,
+      "annotation_id": 1575638,
+      "prediction_id": "refcoco-val-425063:1",
+      "gt_segmentation_sha256": "24e3ac7d1d7cd2450e5c9a799e813b5a0fac1c6cfbf7885527c4833a440f8ff8",
+      "category_id": 60
+    },
+    {
+      "image_id": 425063,
+      "dataset_index": 1335,
+      "ref_id": 13649,
+      "sent_id": 38840,
+      "expression": "pastry above the brown donut",
+      "mask_id": 2,
+      "annotation_id": 1573862,
+      "prediction_id": "refcoco-val-425063:2",
+      "gt_segmentation_sha256": "a6dd4570f5afb2a28c20fdd6ea8bd34f4ac4bfd4d7cb393dd53ac8d0b3ca8fe1",
+      "category_id": 60
+    },
+    {
+      "image_id": 425063,
+      "dataset_index": 1335,
+      "ref_id": 13650,
+      "sent_id": 38842,
+      "expression": "chocolate donut second from right in front row",
+      "mask_id": 3,
+      "annotation_id": 2117983,
+      "prediction_id": "refcoco-val-425063:3",
+      "gt_segmentation_sha256": "14a0e4b550801d4f03f686eb340a46b934da25aec11ce4169987b65a9775e635",
+      "category_id": 60
+    },
+    {
+      "image_id": 425063,
+      "dataset_index": 1335,
+      "ref_id": 13651,
+      "sent_id": 38845,
+      "expression": "halloween donut first row",
+      "mask_id": 4,
+      "annotation_id": 1576425,
+      "prediction_id": "refcoco-val-425063:4",
+      "gt_segmentation_sha256": "7c267236d9d6ccb8cb3808b7ad92a7e378df5a26d393c58282e50729a4110d64",
+      "category_id": 60
+    },
+    {
+      "image_id": 425063,
+      "dataset_index": 1335,
+      "ref_id": 13652,
+      "sent_id": 38848,
+      "expression": "apple donut on the left",
+      "mask_id": 5,
+      "annotation_id": 1576137,
+      "prediction_id": "refcoco-val-425063:5",
+      "gt_segmentation_sha256": "2f320e34f04d173b5da69b2ebcd0c1c616afb0a7ecffa9bc6d8802c079af298d",
+      "category_id": 60
+    },
+    {
+      "image_id": 425063,
+      "dataset_index": 1335,
+      "ref_id": 13653,
+      "sent_id": 38851,
+      "expression": "top row, middle, sprinkled donut",
+      "mask_id": 6,
+      "annotation_id": 1573038,
+      "prediction_id": "refcoco-val-425063:6",
+      "gt_segmentation_sha256": "881046a9967e2902ce924ae77d37187eb8bc4285961dc99e5fa3c9c523e1c09f",
+      "category_id": 60
+    },
+    {
+      "image_id": 425063,
+      "dataset_index": 1335,
+      "ref_id": 13654,
+      "sent_id": 38853,
+      "expression": "left top donut",
+      "mask_id": 7,
+      "annotation_id": 1572168,
+      "prediction_id": "refcoco-val-425063:7",
+      "gt_segmentation_sha256": "bbe082dcc1b4848b398f1e52734cdf38616b63cb680ca3fe5f8f1de9ca5a36b7",
+      "category_id": 60
+    }
+  ],
+  "intersection": [
+    11505,
+    10113,
+    12472,
+    0,
+    0,
+    4644,
+    10273,
+    9917
+  ],
+  "union": [
+    12068,
+    12071,
+    25013,
+    37214,
+    23776,
+    30221,
+    10819,
+    10657
+  ],
+  "mask_file": "refcoco-val-425063.npz",
+  "mask_sha256": "6da138993ce1a565e986c3ba2fbe8797c5333b5e498e1db4dc8d9066f4398a39",
+  "nonempty_predictions": 8,
+  "timings": {
+    "preprocess_s": 0.020777309000095556,
+    "inference_s": 2.6194941629998993,
+    "postprocess_s": 0.005281614000068657,
+    "amortized_inference_s_per_selected_expression": 0.3274367703749874,
+    "mask_write_s": 0.032085158000199954
+  },
+  "memory": {
+    "peak_allocated_bytes": 8848636416,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5453498368,
+    "ram_rss_bytes": 6301388800
+  },
+  "output_bytes": 15959,
+  "stage_created": "full-validation",
+  "record_hash": "bd01d8a9bf01b632e3289bf6fadcf437b2dedc2ac8879c36a3528c237835cd6b",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

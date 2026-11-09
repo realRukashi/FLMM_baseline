@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-278371",
+  "sample_hash": "224681eecaaade2b768e4b4a19422f4e7399bd7bee11ed35dc4e35e68dfc5f89",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 278371,
+  "dataset_index": 1472,
+  "expressions": [
+    {
+      "image_id": 278371,
+      "dataset_index": 1472,
+      "ref_id": 26396,
+      "sent_id": 75059,
+      "expression": "blue jeans behind bench",
+      "mask_id": 0,
+      "annotation_id": 1737343,
+      "prediction_id": "refcoco-val-278371:0",
+      "gt_segmentation_sha256": "045e7f490c9f1080fe4b8c84afac3545dbb552da0ec01d1b86d52f38b101562b",
+      "category_id": 1
+    },
+    {
+      "image_id": 278371,
+      "dataset_index": 1472,
+      "ref_id": 26397,
+      "sent_id": 75062,
+      "expression": "person in orange",
+      "mask_id": 1,
+      "annotation_id": 565526,
+      "prediction_id": "refcoco-val-278371:1",
+      "gt_segmentation_sha256": "61fb217406c3a16400bd5e3864b232e1439d70eb7e8eb77f35a670b14378236d",
+      "category_id": 1
+    },
+    {
+      "image_id": 278371,
+      "dataset_index": 1472,
+      "ref_id": 26398,
+      "sent_id": 75065,
+      "expression": "person with red backpack",
+      "mask_id": 2,
+      "annotation_id": 564478,
+      "prediction_id": "refcoco-val-278371:2",
+      "gt_segmentation_sha256": "86a8a6b4d67f9045119872dc73c23f1946f84c2201adc672a6f457eb7dbd26ca",
+      "category_id": 1
+    },
+    {
+      "image_id": 278371,
+      "dataset_index": 1472,
+      "ref_id": 26399,
+      "sent_id": 75068,
+      "expression": "white shirt",
+      "mask_id": 3,
+      "annotation_id": 558992,
+      "prediction_id": "refcoco-val-278371:3",
+      "gt_segmentation_sha256": "3ee9f26dd703acae7627721be5b797d47c3c5fcef56195be19146292646d82d0",
+      "category_id": 1
+    },
+    {
+      "image_id": 278371,
+      "dataset_index": 1472,
+      "ref_id": 26400,
+      "sent_id": 75071,
+      "expression": "person on stretcher",
+      "mask_id": 4,
+      "annotation_id": 425426,
+      "prediction_id": "refcoco-val-278371:4",
+      "gt_segmentation_sha256": "ef68722633f381d434605ad9f7a3932179ab5eb1fe2e6f3ecb911d61b0a403f5",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    16480,
+    13607,
+    24299,
+    16605,
+    16602
+  ],
+  "union": [
+    19379,
+    19009,
+    29434,
+    17608,
+    55420
+  ],
+  "mask_file": "refcoco-val-278371.npz",
+  "mask_sha256": "7216d3fb37d89cef0bf7c2a1b266fa8c4b1e253e98e1a6c45efadef6e5d03e4c",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.01677972199991018,
+    "inference_s": 2.5426665559998582,
+    "postprocess_s": 0.004324840999970547,
+    "amortized_inference_s_per_selected_expression": 0.5085333111999717,
+    "mask_write_s": 0.02976807799996095
+  },
+  "memory": {
+    "peak_allocated_bytes": 8830895104,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448941568,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 12647,
+  "stage_created": "full-probe",
+  "record_hash": "1e6aad11e1c3112f560c2a287d0564febfd60af27fffb84147e6086d60205f72",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

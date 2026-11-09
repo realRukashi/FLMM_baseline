@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-354791",
+  "sample_hash": "d35bb7ac7659b1bf08bd00234c814cf9589ef6b3adea5972c3e5c4e5d44acfa3",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 354791,
+  "dataset_index": 461,
+  "expressions": [
+    {
+      "image_id": 354791,
+      "dataset_index": 461,
+      "ref_id": 19505,
+      "sent_id": 55481,
+      "expression": "blurry pants right shoulder above middle guy",
+      "mask_id": 0,
+      "annotation_id": 1712576,
+      "prediction_id": "refcoco-val-354791:0",
+      "gt_segmentation_sha256": "7d2c563627fbb6ab4c4f0642a62bded4c22bb7455a810024ac2d2d89ab75a4fb",
+      "category_id": 1
+    },
+    {
+      "image_id": 354791,
+      "dataset_index": 461,
+      "ref_id": 19506,
+      "sent_id": 55483,
+      "expression": "blurry person with white pants in background, right side of photo",
+      "mask_id": 1,
+      "annotation_id": 525269,
+      "prediction_id": "refcoco-val-354791:1",
+      "gt_segmentation_sha256": "d04bc5af7cdf91613fd0980f4b3ec28d8f0396e7925cd452e3d927ad89a06938",
+      "category_id": 1
+    },
+    {
+      "image_id": 354791,
+      "dataset_index": 461,
+      "ref_id": 19507,
+      "sent_id": 55486,
+      "expression": "dudes head right of guy w bat",
+      "mask_id": 2,
+      "annotation_id": 516311,
+      "prediction_id": "refcoco-val-354791:2",
+      "gt_segmentation_sha256": "f08a71d05ce32048375cd533130e41cc7f3616d68e5b7ca696f3e9a005d46004",
+      "category_id": 1
+    },
+    {
+      "image_id": 354791,
+      "dataset_index": 461,
+      "ref_id": 19508,
+      "sent_id": 55489,
+      "expression": "man with bat",
+      "mask_id": 3,
+      "annotation_id": 443150,
+      "prediction_id": "refcoco-val-354791:3",
+      "gt_segmentation_sha256": "d6e811b80bd2a97d54661767169f792cffb91820e70b8ba62135d186ab651cdd",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    8214,
+    12207,
+    66,
+    54594
+  ],
+  "union": [
+    20532,
+    14373,
+    19589,
+    57421
+  ],
+  "mask_file": "refcoco-val-354791.npz",
+  "mask_sha256": "564d93186ce34ea85cc0e9355a785f4598e953f0451c4357b51e5108a8b3aa2e",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.0165604329999951,
+    "inference_s": 2.2650360390000515,
+    "postprocess_s": 0.002835177999941152,
+    "amortized_inference_s_per_selected_expression": 0.5662590097500129,
+    "mask_write_s": 0.024507995000021765
+  },
+  "memory": {
+    "peak_allocated_bytes": 8827084288,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 11891,
+  "stage_created": "full-validation",
+  "record_hash": "5217ec2c8c80f03b8e8b879a8ee97431a5f606476abbf7f4e8119093555dcd2c",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

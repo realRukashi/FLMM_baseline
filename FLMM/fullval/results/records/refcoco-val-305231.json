@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-305231",
+  "sample_hash": "643ffb9425e6ccd6e6383220c403966cb09353e7a899eecdc7c0dc1ed4b65adb",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 305231,
+  "dataset_index": 384,
+  "expressions": [
+    {
+      "image_id": 305231,
+      "dataset_index": 384,
+      "ref_id": 24149,
+      "sent_id": 68630,
+      "expression": "bowl with strawberries, to the right of pan",
+      "mask_id": 0,
+      "annotation_id": 716148,
+      "prediction_id": "refcoco-val-305231:0",
+      "gt_segmentation_sha256": "f4b372d349812d98f1ce8541baf0333480a9b5138540e64779dfd13183ad9b8f",
+      "category_id": 51
+    }
+  ],
+  "intersection": [
+    0
+  ],
+  "union": [
+    22018
+  ],
+  "mask_file": "refcoco-val-305231.npz",
+  "mask_sha256": "12e849d786a7429723954bec7df5f8e6f8158e8100a14178dad0257ca64c43e3",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.01901166200013904,
+    "inference_s": 2.7226023509999777,
+    "postprocess_s": 0.001060927000025913,
+    "amortized_inference_s_per_selected_expression": 2.7226023509999777,
+    "mask_write_s": 0.008719922000182123
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814156288,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283124736
+  },
+  "output_bytes": 2387,
+  "stage_created": "full-validation",
+  "record_hash": "850c74e69c63eef0b3ff34b8770e9d863bbb2e5f16e781211bea22afb12ee7c4",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

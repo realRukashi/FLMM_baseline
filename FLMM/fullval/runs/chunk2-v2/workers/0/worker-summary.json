@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "stage": "full-validation",
+  "requested_images": 500,
+  "validated_done": 500,
+  "newly_evaluated": 241,
+  "reused_done": 259,
+  "failures": [],
+  "wall_s": 726.093620863,
+  "metrics": {
+    "image_count": 500,
+    "mask_count": 1252,
+    "intersection": 34014393,
+    "union": 45395193,
+    "cIoU": 74.92950409969619,
+    "mIoU": 77.07598914543082
+  },
+  "physical_gpu_index": 0,
+  "cold_model_load_s": 13.614107672999978,
+  "warmup_s": 2.198475636000012
+}

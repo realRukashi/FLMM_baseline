@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-25628",
+  "sample_hash": "f40a3cca4a5a4d30db4ba5708f05892648aa8b5a57798b5f0a5a96377e22fb1e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 25628,
+  "dataset_index": 195,
+  "expressions": [
+    {
+      "image_id": 25628,
+      "dataset_index": 195,
+      "ref_id": 47818,
+      "sent_id": 135991,
+      "expression": "woman left",
+      "mask_id": 0,
+      "annotation_id": 1254502,
+      "prediction_id": "refcoco-val-25628:0",
+      "gt_segmentation_sha256": "71a259208abb2f29f0ce716ad9f2ad34ec714b05bd616834b1406b3230838a79",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    28182
+  ],
+  "union": [
+    31046
+  ],
+  "mask_file": "refcoco-val-25628.npz",
+  "mask_sha256": "a279b4ffa11156ceffbf1957ccef067c3c0ca5626cf856a6ea8785b40571c3da",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.015598557999965124,
+    "inference_s": 2.22230764599999,
+    "postprocess_s": 0.0012196469999707915,
+    "amortized_inference_s_per_selected_expression": 2.22230764599999,
+    "mask_write_s": 0.0111613930000658
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815699456,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 3657,
+  "stage_created": "full-validation",
+  "record_hash": "b2be8be19df44eabc6fa40187f1452d45cb2d2c14a5a969730ad9cd65680b4e1",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

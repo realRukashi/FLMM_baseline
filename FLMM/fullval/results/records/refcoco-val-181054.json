@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-181054",
+  "sample_hash": "41532d26f28151e0b36d565b4c370f00fb290c6a5ac599ecc173328d854c656a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 181054,
+  "dataset_index": 148,
+  "expressions": [
+    {
+      "image_id": 181054,
+      "dataset_index": 148,
+      "ref_id": 34593,
+      "sent_id": 98396,
+      "expression": "the guy in black",
+      "mask_id": 0,
+      "annotation_id": 489283,
+      "prediction_id": "refcoco-val-181054:0",
+      "gt_segmentation_sha256": "10ef371cb78cbc85a4b8f8043ab6b1f8a333a9ed2d36250e0853c83d741f6a90",
+      "category_id": 1
+    },
+    {
+      "image_id": 181054,
+      "dataset_index": 148,
+      "ref_id": 34594,
+      "sent_id": 98399,
+      "expression": "dude in white",
+      "mask_id": 1,
+      "annotation_id": 484268,
+      "prediction_id": "refcoco-val-181054:1",
+      "gt_segmentation_sha256": "0c8f495b9655d2eede6c0f36ecc9bffef3e84d20ce91421507309eb178307e47",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    27262,
+    80125
+  ],
+  "union": [
+    29390,
+    82714
+  ],
+  "mask_file": "refcoco-val-181054.npz",
+  "mask_sha256": "f5f295e3559310e59616ebc2cceb0f095c0e0eb9085eaa5c2702cbeb8bcabd7a",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.017879329999914262,
+    "inference_s": 2.703515940000216,
+    "postprocess_s": 0.0017203170000357204,
+    "amortized_inference_s_per_selected_expression": 1.351757970000108,
+    "mask_write_s": 0.019775041000002602
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818501632,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 8583,
+  "stage_created": "full-validation",
+  "record_hash": "1a51003f7f3e3262734223c6144caa31cb361842b5716163a17d0ed3594a2416",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

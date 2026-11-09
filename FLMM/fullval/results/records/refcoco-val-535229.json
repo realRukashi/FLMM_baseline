@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-535229",
+  "sample_hash": "839c80efab7aa51968806ce61614c4734dcbedb870c24d03f01ae939f86c6c9e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 535229,
+  "dataset_index": 506,
+  "expressions": [
+    {
+      "image_id": 535229,
+      "dataset_index": 506,
+      "ref_id": 4097,
+      "sent_id": 11679,
+      "expression": "the kid in the back",
+      "mask_id": 0,
+      "annotation_id": 442356,
+      "prediction_id": "refcoco-val-535229:0",
+      "gt_segmentation_sha256": "77911fe366d3d7833d2eeedcd9bc28489f8939922449ce2116f0179f802730b9",
+      "category_id": 1
+    },
+    {
+      "image_id": 535229,
+      "dataset_index": 506,
+      "ref_id": 4098,
+      "sent_id": 11682,
+      "expression": "the guy in front",
+      "mask_id": 1,
+      "annotation_id": 434112,
+      "prediction_id": "refcoco-val-535229:1",
+      "gt_segmentation_sha256": "7beefe8856aae522439b77a0114bf428bfb62bf5e74486e50efbccb7b8ca1ff7",
+      "category_id": 1
+    },
+    {
+      "image_id": 535229,
+      "dataset_index": 506,
+      "ref_id": 4099,
+      "sent_id": 11685,
+      "expression": "bottle with yellow cap under candle",
+      "mask_id": 2,
+      "annotation_id": 86576,
+      "prediction_id": "refcoco-val-535229:2",
+      "gt_segmentation_sha256": "e6550bb9fe3a8e3fb25b166d8c5e0e5849e0a7ba0392484c7dfbdc9ab7a709b4",
+      "category_id": 44
+    },
+    {
+      "image_id": 535229,
+      "dataset_index": 506,
+      "ref_id": 4100,
+      "sent_id": 11688,
+      "expression": "bottle directly in front of man",
+      "mask_id": 3,
+      "annotation_id": 80562,
+      "prediction_id": "refcoco-val-535229:3",
+      "gt_segmentation_sha256": "ac5c87b0944b7b81d892ebbab20298f838bdee0117799d082230ace00c0222ba",
+      "category_id": 44
+    }
+  ],
+  "intersection": [
+    11417,
+    45893,
+    11240,
+    11204
+  ],
+  "union": [
+    15972,
+    52667,
+    13636,
+    12429
+  ],
+  "mask_file": "refcoco-val-535229.npz",
+  "mask_sha256": "81eed9e5c2db0a8c8280646fb43924e888989ba5fefd5d5654172e3a8b6865ca",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.021381388000008883,
+    "inference_s": 1.8743890490000013,
+    "postprocess_s": 0.002737461999970492,
+    "amortized_inference_s_per_selected_expression": 0.4685972622500003,
+    "mask_write_s": 0.023732236999990164
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826937856,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6294736896
+  },
+  "output_bytes": 11416,
+  "stage_created": "full-validation",
+  "record_hash": "26d4b6aa58281819e3169e590eb241955b5a39b8f2febfd6dd4249f79bd9927f",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

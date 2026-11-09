@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-199640",
+  "sample_hash": "ec9ef72b6106a4f934e04bade5e48bc4322b84db8e84d047d7b358c24aaaa476",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 199640,
+  "dataset_index": 562,
+  "expressions": [
+    {
+      "image_id": 199640,
+      "dataset_index": 562,
+      "ref_id": 33070,
+      "sent_id": 94033,
+      "expression": "black bike right side",
+      "mask_id": 0,
+      "annotation_id": 155085,
+      "prediction_id": "refcoco-val-199640:0",
+      "gt_segmentation_sha256": "9b4a34c34a1da53ebf6abcd85f9f5454a2ae86de0f12181346f9443cdf4f88c3",
+      "category_id": 4
+    },
+    {
+      "image_id": 199640,
+      "dataset_index": 562,
+      "ref_id": 33071,
+      "sent_id": 94035,
+      "expression": "bike on bottom",
+      "mask_id": 1,
+      "annotation_id": 155003,
+      "prediction_id": "refcoco-val-199640:1",
+      "gt_segmentation_sha256": "e49349736df73ea3374427f0889e11f649f5757d96a4a1df7103f62db953dcf6",
+      "category_id": 4
+    },
+    {
+      "image_id": 199640,
+      "dataset_index": 562,
+      "ref_id": 33072,
+      "sent_id": 94037,
+      "expression": "click the motorcycle that the girl with the pink shirt is riding",
+      "mask_id": 2,
+      "annotation_id": 153122,
+      "prediction_id": "refcoco-val-199640:2",
+      "gt_segmentation_sha256": "4e2cd0530edd42830471c0b0ee2fd3e81be66529e90a70b644563d0fb9eb7fc4",
+      "category_id": 4
+    }
+  ],
+  "intersection": [
+    11364,
+    10949,
+    9868
+  ],
+  "union": [
+    13681,
+    13447,
+    16278
+  ],
+  "mask_file": "refcoco-val-199640.npz",
+  "mask_sha256": "8b645fe82ec7ea29e9e01b125d00466ce18aae2608addf0b5ca4d4c3415bb624",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.01915075900001284,
+    "inference_s": 2.00130053700002,
+    "postprocess_s": 0.0018403779999971448,
+    "amortized_inference_s_per_selected_expression": 0.6671001790000067,
+    "mask_write_s": 0.014938249000010728
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818916864,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446518784,
+    "ram_rss_bytes": 6295138304
+  },
+  "output_bytes": 7499,
+  "stage_created": "full-validation",
+  "record_hash": "7ce656d56e6bcad0739361f21ee8ea64c20fc8c038f9a0905d83908624a943df",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

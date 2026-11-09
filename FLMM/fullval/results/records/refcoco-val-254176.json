@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-254176",
+  "sample_hash": "271fb003406c2a2592c01f0fe9e84fcd3861775f7ca5598d3074ec3b64eadd68",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 254176,
+  "dataset_index": 41,
+  "expressions": [
+    {
+      "image_id": 254176,
+      "dataset_index": 41,
+      "ref_id": 28418,
+      "sent_id": 80826,
+      "expression": "no",
+      "mask_id": 0,
+      "annotation_id": 152963,
+      "prediction_id": "refcoco-val-254176:0",
+      "gt_segmentation_sha256": "f26f1a6f93daff1e5d13c3459fc34a225034d32b466364136a99623df76590d0",
+      "category_id": 4
+    },
+    {
+      "image_id": 254176,
+      "dataset_index": 41,
+      "ref_id": 28419,
+      "sent_id": 80828,
+      "expression": "front of motocycle with two people on it",
+      "mask_id": 1,
+      "annotation_id": 150895,
+      "prediction_id": "refcoco-val-254176:1",
+      "gt_segmentation_sha256": "69c579f1a10b5274647f123bf31eaf81edf1c811d630c7dea09c913ed776cc3d",
+      "category_id": 4
+    }
+  ],
+  "intersection": [
+    25369,
+    11329
+  ],
+  "union": [
+    39410,
+    53760
+  ],
+  "mask_file": "refcoco-val-254176.npz",
+  "mask_sha256": "1c848b62675dd27906b497c94fbed6f8b65721494f9cc04958f11e2f69781f2e",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.012916183000015735,
+    "inference_s": 2.216871192999861,
+    "postprocess_s": 0.0013107049999234732,
+    "amortized_inference_s_per_selected_expression": 1.1084355964999304,
+    "mask_write_s": 0.015776578999975754
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818404352,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 8083,
+  "stage_created": "full-validation",
+  "record_hash": "acdb70105b9fd743829d60111984b18e9e5bcbbc3e3f8523a5e557e664767949",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

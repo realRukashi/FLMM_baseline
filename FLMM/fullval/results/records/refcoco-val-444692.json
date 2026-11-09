@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-444692",
+  "sample_hash": "ef7c11f34c9159efd67449a3bbfbbc502fcacf4a2d699107aebba37b51093999",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 444692,
+  "dataset_index": 416,
+  "expressions": [
+    {
+      "image_id": 444692,
+      "dataset_index": 416,
+      "ref_id": 11972,
+      "sent_id": 34073,
+      "expression": "sixth  bleacher from the bottom (count the one she's sittign on)",
+      "mask_id": 0,
+      "annotation_id": 1398086,
+      "prediction_id": "refcoco-val-444692:0",
+      "gt_segmentation_sha256": "1647fb668ce212dc3619ea4e87ef8bf027e5189f14932ea77b0043c63ebc40d9",
+      "category_id": 15
+    },
+    {
+      "image_id": 444692,
+      "dataset_index": 416,
+      "ref_id": 11973,
+      "sent_id": 34076,
+      "expression": "fence that lady is leaning on",
+      "mask_id": 1,
+      "annotation_id": 577606,
+      "prediction_id": "refcoco-val-444692:1",
+      "gt_segmentation_sha256": "b0eaf87afb52c665e9ee7acb0109c795c3948b3f4afa816a382ed7ef7885655a",
+      "category_id": 15
+    }
+  ],
+  "intersection": [
+    0,
+    8850
+  ],
+  "union": [
+    40658,
+    16149
+  ],
+  "mask_file": "refcoco-val-444692.npz",
+  "mask_sha256": "ef0d50a44dde9436c9aa6cd24c7fb4f430d1cdf4455bc15cd340804a8d23b02a",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.019575795000037033,
+    "inference_s": 2.736789048999981,
+    "postprocess_s": 0.001771157000121093,
+    "amortized_inference_s_per_selected_expression": 1.3683945244999904,
+    "mask_write_s": 0.014219111000102203
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818537472,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 5355,
+  "stage_created": "full-validation",
+  "record_hash": "4421a46ac5bec095cb6c898c6ac62bb246d9299a4a1183517afcad398973c00d",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-2964",
+  "sample_hash": "632031fed5d1ce5dc2f8f7977d003a4871f091d47cc891cf081547cd2ec1df1d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 2964,
+  "dataset_index": 547,
+  "expressions": [
+    {
+      "image_id": 2964,
+      "dataset_index": 547,
+      "ref_id": 49766,
+      "sent_id": 141532,
+      "expression": "relax bottle",
+      "mask_id": 0,
+      "annotation_id": 93133,
+      "prediction_id": "refcoco-val-2964:0",
+      "gt_segmentation_sha256": "cbfbb98299560e8597d589a905e4c6b65f0c334fe657f2a38cc85747911f66e8",
+      "category_id": 44
+    },
+    {
+      "image_id": 2964,
+      "dataset_index": 547,
+      "ref_id": 49767,
+      "sent_id": 141535,
+      "expression": "bottle with flowers on label",
+      "mask_id": 1,
+      "annotation_id": 91245,
+      "prediction_id": "refcoco-val-2964:1",
+      "gt_segmentation_sha256": "20021f721025c1b53ca72c8d7459cebb673d7a83874919f41d8859075cddc6f1",
+      "category_id": 44
+    },
+    {
+      "image_id": 2964,
+      "dataset_index": 547,
+      "ref_id": 49768,
+      "sent_id": 141538,
+      "expression": "the velvet devil",
+      "mask_id": 2,
+      "annotation_id": 90386,
+      "prediction_id": "refcoco-val-2964:2",
+      "gt_segmentation_sha256": "1548044655441c847862e2d1f6a76d0f6d3be5c138c962915d5466ee18202c90",
+      "category_id": 44
+    },
+    {
+      "image_id": 2964,
+      "dataset_index": 547,
+      "ref_id": 49769,
+      "sent_id": 141541,
+      "expression": "left bottle with cowboy on it",
+      "mask_id": 3,
+      "annotation_id": 88841,
+      "prediction_id": "refcoco-val-2964:3",
+      "gt_segmentation_sha256": "b52bc31eb344d4b50a447b6c2d93442d6c37abc8005906d1a27bce524c0c29ca",
+      "category_id": 44
+    }
+  ],
+  "intersection": [
+    24058,
+    24178,
+    22924,
+    24593
+  ],
+  "union": [
+    25545,
+    26108,
+    24324,
+    25632
+  ],
+  "mask_file": "refcoco-val-2964.npz",
+  "mask_sha256": "7a5e6510319ca9f47346b85e47130b4b702cca2a31547fcde37840fa70a6e2f5",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.014190198000051168,
+    "inference_s": 2.0113856550000264,
+    "postprocess_s": 0.0027274340000076336,
+    "amortized_inference_s_per_selected_expression": 0.5028464137500066,
+    "mask_write_s": 0.0208323780000228
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824768000,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447589888,
+    "ram_rss_bytes": 6293868544
+  },
+  "output_bytes": 9120,
+  "stage_created": "full-validation",
+  "record_hash": "58b46e86f01d01f829240be940b1faa97cd53a278aaf4727b7720adfd8ff396a",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

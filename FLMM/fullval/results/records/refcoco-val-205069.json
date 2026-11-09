@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-205069",
+  "sample_hash": "f676e0386de243075a1f1f9060238efdcd749ecd4ba3ad0bfec37f04b899a407",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 205069,
+  "dataset_index": 49,
+  "expressions": [
+    {
+      "image_id": 205069,
+      "dataset_index": 49,
+      "ref_id": 32626,
+      "sent_id": 92774,
+      "expression": "sorry!!! the he-she with the british flag on",
+      "mask_id": 0,
+      "annotation_id": 211289,
+      "prediction_id": "refcoco-val-205069:0",
+      "gt_segmentation_sha256": "7d7677f795741f01856ca5de2a37402a31dae430013c5c4a712b9915b055c990",
+      "category_id": 1
+    },
+    {
+      "image_id": 205069,
+      "dataset_index": 49,
+      "ref_id": 32627,
+      "sent_id": 92777,
+      "expression": "lady standing behind mans arm",
+      "mask_id": 1,
+      "annotation_id": 210090,
+      "prediction_id": "refcoco-val-205069:1",
+      "gt_segmentation_sha256": "49647f68f919b7ec2e2e2365a23b0ac8cdf7c2ccdaed4108159ffd1b49074fe7",
+      "category_id": 1
+    },
+    {
+      "image_id": 205069,
+      "dataset_index": 49,
+      "ref_id": 32628,
+      "sent_id": 92780,
+      "expression": "person in pink, except the hat",
+      "mask_id": 2,
+      "annotation_id": 202852,
+      "prediction_id": "refcoco-val-205069:2",
+      "gt_segmentation_sha256": "963c156266c6ffe2801975b9cead9134acc8db1ae5017fd80fedc21f96423208",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    18749,
+    222,
+    60056
+  ],
+  "union": [
+    22686,
+    69551,
+    80171
+  ],
+  "mask_file": "refcoco-val-205069.npz",
+  "mask_sha256": "3087cd3815f7c2e50c3eaeceb9e0a926a2d601f8700abb9fa4a2a2b6304258b5",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.017702680000184046,
+    "inference_s": 2.2513191759999245,
+    "postprocess_s": 0.0022849299998597417,
+    "amortized_inference_s_per_selected_expression": 0.7504397253333082,
+    "mask_write_s": 0.024715702000094097
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822718464,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447272448,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 14045,
+  "stage_created": "full-validation",
+  "record_hash": "ff23071e03fd4217eee07507b2314d09d5a7bde971156281188ba8540d942647",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

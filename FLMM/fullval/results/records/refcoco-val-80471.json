@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-80471",
+  "sample_hash": "6c29cd5440ee1b79252c887a2ede9c3b4d8ed73523ac03bd11b9ea5f7281125d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 80471,
+  "dataset_index": 1236,
+  "expressions": [
+    {
+      "image_id": 80471,
+      "dataset_index": 1236,
+      "ref_id": 42996,
+      "sent_id": 122228,
+      "expression": "boy walking, hands in pockets.",
+      "mask_id": 0,
+      "annotation_id": 217020,
+      "prediction_id": "refcoco-val-80471:0",
+      "gt_segmentation_sha256": "3a887ae56442847279840394b144bae7f8d5c8f0479f6d665482cba7b91cec57",
+      "category_id": 1
+    },
+    {
+      "image_id": 80471,
+      "dataset_index": 1236,
+      "ref_id": 42997,
+      "sent_id": 122231,
+      "expression": "dude far right",
+      "mask_id": 1,
+      "annotation_id": 224463,
+      "prediction_id": "refcoco-val-80471:1",
+      "gt_segmentation_sha256": "df06c6ee50ea1054a0c3ed81208b5334c01e1501bdf4f651796032d41bf9bd63",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    16662,
+    15240
+  ],
+  "union": [
+    19332,
+    18040
+  ],
+  "mask_file": "refcoco-val-80471.npz",
+  "mask_sha256": "b52da20fe83e02c3d538df304f95fd62e33c8cd40cf97afb96fc20e572ed2763",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.017132063000076414,
+    "inference_s": 2.1608606089999967,
+    "postprocess_s": 0.0018491509999876143,
+    "amortized_inference_s_per_selected_expression": 1.0804303044999983,
+    "mask_write_s": 0.016922381000085807
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820409344,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446617088,
+    "ram_rss_bytes": 6297092096
+  },
+  "output_bytes": 5226,
+  "stage_created": "full-validation",
+  "record_hash": "599609c52a6f54f33ab5fc9978920124f466d6d68d2614964b1df89d1fe256cb",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

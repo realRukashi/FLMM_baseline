@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-35817",
+  "sample_hash": "3735396f3ea1e9514fc5045b940d3adb9e9ff08ae10c9400e3c08dc544da271f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 35817,
+  "dataset_index": 567,
+  "expressions": [
+    {
+      "image_id": 35817,
+      "dataset_index": 567,
+      "ref_id": 46959,
+      "sent_id": 133544,
+      "expression": "2nd chair over from left to right",
+      "mask_id": 0,
+      "annotation_id": 289428,
+      "prediction_id": "refcoco-val-35817:0",
+      "gt_segmentation_sha256": "3097733f738ca22f138b036f16e21ce201df897f0de202825e1a99bd2acb3406",
+      "category_id": 62
+    },
+    {
+      "image_id": 35817,
+      "dataset_index": 567,
+      "ref_id": 46960,
+      "sent_id": 133546,
+      "expression": "lady clapping her hands bottom right of image",
+      "mask_id": 1,
+      "annotation_id": 2205987,
+      "prediction_id": "refcoco-val-35817:1",
+      "gt_segmentation_sha256": "59893a1f2e795fc0edcac093aa2b598e8fc563cc027dd834e950949570974831",
+      "category_id": 1
+    },
+    {
+      "image_id": 35817,
+      "dataset_index": 567,
+      "ref_id": 46961,
+      "sent_id": 133549,
+      "expression": "girl in middle with necklace",
+      "mask_id": 2,
+      "annotation_id": 2161203,
+      "prediction_id": "refcoco-val-35817:2",
+      "gt_segmentation_sha256": "91386235dfee35a9c14154d6ad3cc4d1e5c301a683adb7913c0cae6b73549599",
+      "category_id": 1
+    },
+    {
+      "image_id": 35817,
+      "dataset_index": 567,
+      "ref_id": 46962,
+      "sent_id": 133552,
+      "expression": "woman in teal dress",
+      "mask_id": 3,
+      "annotation_id": 1319057,
+      "prediction_id": "refcoco-val-35817:3",
+      "gt_segmentation_sha256": "04a179628758d1a017c7cac298f472c626f0e7f95f19933d2bf63db23312f38b",
+      "category_id": 1
+    },
+    {
+      "image_id": 35817,
+      "dataset_index": 567,
+      "ref_id": 46963,
+      "sent_id": 133555,
+      "expression": "blue tank top",
+      "mask_id": 4,
+      "annotation_id": 1314856,
+      "prediction_id": "refcoco-val-35817:4",
+      "gt_segmentation_sha256": "14987ff21f2e8c5cd08b864a4b9bcc474f6530e46d6993036877c8182fc9d4c4",
+      "category_id": 1
+    },
+    {
+      "image_id": 35817,
+      "dataset_index": 567,
+      "ref_id": 46964,
+      "sent_id": 133558,
+      "expression": "bottom left black chair - please be more specific",
+      "mask_id": 5,
+      "annotation_id": 100689,
+      "prediction_id": "refcoco-val-35817:5",
+      "gt_segmentation_sha256": "d33f35075cbc9ffa7eb83c71c883704200ffeea22711e90980e1098982680a09",
+      "category_id": 62
+    }
+  ],
+  "intersection": [
+    14742,
+    11551,
+    11592,
+    28078,
+    12115,
+    12319
+  ],
+  "union": [
+    17548,
+    13508,
+    12721,
+    31161,
+    13918,
+    15886
+  ],
+  "mask_file": "refcoco-val-35817.npz",
+  "mask_sha256": "4a2e70188cbfbd0ab4c9b443456a250be1cb141839f4eaf8f7218a5413c1f71d",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.02314187599995421,
+    "inference_s": 2.1708288479999283,
+    "postprocess_s": 0.0036592870000049516,
+    "amortized_inference_s_per_selected_expression": 0.36180480799998804,
+    "mask_write_s": 0.023584079999977803
+  },
+  "memory": {
+    "peak_allocated_bytes": 8835671040,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451282432,
+    "ram_rss_bytes": 6294204416
+  },
+  "output_bytes": 12660,
+  "stage_created": "full-validation",
+  "record_hash": "ed93c35f9bcf730eef79c3cad32962ddc31f8d67444aa82d97b9c1da3871e690",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

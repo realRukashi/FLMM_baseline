@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-97504",
+  "sample_hash": "28647ca0b33431c0ee4d97e193abee4b727da3efb8a0c8f39509ba6b5ae87c93",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 97504,
+  "dataset_index": 1361,
+  "expressions": [
+    {
+      "image_id": 97504,
+      "dataset_index": 1361,
+      "ref_id": 41473,
+      "sent_id": 117904,
+      "expression": "olf guy touching horse",
+      "mask_id": 0,
+      "annotation_id": 253012,
+      "prediction_id": "refcoco-val-97504:0",
+      "gt_segmentation_sha256": "84d176260439418e1c52d3c352046a17fec724ca21ad2f7e5d71955f7b62398c",
+      "category_id": 1
+    },
+    {
+      "image_id": 97504,
+      "dataset_index": 1361,
+      "ref_id": 41474,
+      "sent_id": 117907,
+      "expression": "woman on horse",
+      "mask_id": 1,
+      "annotation_id": 252188,
+      "prediction_id": "refcoco-val-97504:1",
+      "gt_segmentation_sha256": "664eea9443ba6ce9f1b8b54d126ef4156c447cbf53cc3e5271c02cef315a78b8",
+      "category_id": 1
+    },
+    {
+      "image_id": 97504,
+      "dataset_index": 1361,
+      "ref_id": 41475,
+      "sent_id": 117910,
+      "expression": "person in bottom right corner",
+      "mask_id": 2,
+      "annotation_id": 194740,
+      "prediction_id": "refcoco-val-97504:2",
+      "gt_segmentation_sha256": "0a41e6dad9f5d65b7d93d1120d679abcc3de3c91d9398f29e3aaf8d17b61117e",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11218,
+    10996,
+    39042
+  ],
+  "union": [
+    14194,
+    17407,
+    41462
+  ],
+  "mask_file": "refcoco-val-97504.npz",
+  "mask_sha256": "4b01e135208a43bfa8283648e22806730889f23bac1212f8a214bd50aa23f73a",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.013306001000046308,
+    "inference_s": 2.4385575050000625,
+    "postprocess_s": 0.0013120940000135306,
+    "amortized_inference_s_per_selected_expression": 0.8128525016666875,
+    "mask_write_s": 0.013397273999999015
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822459392,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6301388800
+  },
+  "output_bytes": 7756,
+  "stage_created": "full-validation",
+  "record_hash": "80342a0fc342af81f9b2a1c760643c64b655b3c974d21a0d1a388dd8bb231924",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

@@ -1,0 +1,147 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-78322",
+  "sample_hash": "a7b376bb70c070024057ac7a78e0d9467f925500adcdb433206da4029f57c6f0",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 78322,
+  "dataset_index": 827,
+  "expressions": [
+    {
+      "image_id": 78322,
+      "dataset_index": 827,
+      "ref_id": 43189,
+      "sent_id": 122780,
+      "expression": "farthest right man",
+      "mask_id": 0,
+      "annotation_id": 1328773,
+      "prediction_id": "refcoco-val-78322:0",
+      "gt_segmentation_sha256": "830af30719aa914e06aeb8ca3b1da8367338e56aae7c6def75a4f1eccfc79bcb",
+      "category_id": 1
+    },
+    {
+      "image_id": 78322,
+      "dataset_index": 827,
+      "ref_id": 43190,
+      "sent_id": 122783,
+      "expression": "second player from right",
+      "mask_id": 1,
+      "annotation_id": 1327025,
+      "prediction_id": "refcoco-val-78322:1",
+      "gt_segmentation_sha256": "b14f4944359230ef6d25c851ed99184f558f8b338c76ff10d630a6f6eea43e82",
+      "category_id": 1
+    },
+    {
+      "image_id": 78322,
+      "dataset_index": 827,
+      "ref_id": 43191,
+      "sent_id": 122786,
+      "expression": "3rd guy from right",
+      "mask_id": 2,
+      "annotation_id": 1320491,
+      "prediction_id": "refcoco-val-78322:2",
+      "gt_segmentation_sha256": "9b1faa44ebcbc8e5f4e969d9dd8dbe9af7e56bb11e588f42a8265278a4a76588",
+      "category_id": 1
+    },
+    {
+      "image_id": 78322,
+      "dataset_index": 827,
+      "ref_id": 43192,
+      "sent_id": 122789,
+      "expression": "far left man",
+      "mask_id": 3,
+      "annotation_id": 1319782,
+      "prediction_id": "refcoco-val-78322:3",
+      "gt_segmentation_sha256": "fc9777837d064e75b7c13a339ed2a414b02f509f1f9a26203fc3939d174748c7",
+      "category_id": 1
+    },
+    {
+      "image_id": 78322,
+      "dataset_index": 827,
+      "ref_id": 43193,
+      "sent_id": 122792,
+      "expression": "second from left",
+      "mask_id": 4,
+      "annotation_id": 1314523,
+      "prediction_id": "refcoco-val-78322:4",
+      "gt_segmentation_sha256": "6060bfe743377131bd4ed95e80eae6d08d1bb2379cdfc05d86f69de80c2fb4c4",
+      "category_id": 1
+    },
+    {
+      "image_id": 78322,
+      "dataset_index": 827,
+      "ref_id": 43194,
+      "sent_id": 122795,
+      "expression": "third player from left",
+      "mask_id": 5,
+      "annotation_id": 1313117,
+      "prediction_id": "refcoco-val-78322:5",
+      "gt_segmentation_sha256": "a498047e2e05a7842c9c50006b1c64ac41ac02b0e9fda0c7a44fa5403b72de79",
+      "category_id": 1
+    },
+    {
+      "image_id": 78322,
+      "dataset_index": 827,
+      "ref_id": 43195,
+      "sent_id": 122798,
+      "expression": "man in middle left that doesn't look like he has words on his shirt",
+      "mask_id": 6,
+      "annotation_id": 1294088,
+      "prediction_id": "refcoco-val-78322:6",
+      "gt_segmentation_sha256": "c602b15650f01f5b3a99dd4d4efe9406448bba62f8830ab1730aa8fbbd00a7ca",
+      "category_id": 1
+    },
+    {
+      "image_id": 78322,
+      "dataset_index": 827,
+      "ref_id": 43196,
+      "sent_id": 122801,
+      "expression": "4th guy from right",
+      "mask_id": 7,
+      "annotation_id": 1226520,
+      "prediction_id": "refcoco-val-78322:7",
+      "gt_segmentation_sha256": "39c2c84ba5b19bf3b3c989ee47fe903bf8a70c37491793e4303ed258b3c6b31d",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    15417,
+    352,
+    130,
+    24978,
+    15442,
+    12130,
+    106,
+    7472
+  ],
+  "union": [
+    17944,
+    42601,
+    33100,
+    26800,
+    30059,
+    18860,
+    41816,
+    27657
+  ],
+  "mask_file": "refcoco-val-78322.npz",
+  "mask_sha256": "8f9c2dbdf0d7fdde88406e67e53840b6b0ba48d3b4ea517406ea1f63a222ec93",
+  "nonempty_predictions": 8,
+  "timings": {
+    "preprocess_s": 0.021207453999977588,
+    "inference_s": 2.471141834999912,
+    "postprocess_s": 0.0056887109999479435,
+    "amortized_inference_s_per_selected_expression": 0.308892729374989,
+    "mask_write_s": 0.03672142499999609
+  },
+  "memory": {
+    "peak_allocated_bytes": 8847266816,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5453006848,
+    "ram_rss_bytes": 6295236608
+  },
+  "output_bytes": 21525,
+  "stage_created": "full-validation",
+  "record_hash": "489d2d10babd632a54b3e05a4ad4fc2e035f178f03732defb2841092accab16e",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

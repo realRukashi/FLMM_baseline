@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-475988",
+  "sample_hash": "84ae49aeb6348170bd3730e90215fd1eeea090677e19d40e4fd6eca5cd8ed4be",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 475988,
+  "dataset_index": 154,
+  "expressions": [
+    {
+      "image_id": 475988,
+      "dataset_index": 154,
+      "ref_id": 9240,
+      "sent_id": 26314,
+      "expression": "bike on right",
+      "mask_id": 0,
+      "annotation_id": 155535,
+      "prediction_id": "refcoco-val-475988:0",
+      "gt_segmentation_sha256": "dd3f3f4668bab6cf1091accc5013b7be41ca793b6b891309237c12acf6d7423e",
+      "category_id": 4
+    },
+    {
+      "image_id": 475988,
+      "dataset_index": 154,
+      "ref_id": 9241,
+      "sent_id": 26317,
+      "expression": "motorcycle closest to camera",
+      "mask_id": 1,
+      "annotation_id": 155169,
+      "prediction_id": "refcoco-val-475988:1",
+      "gt_segmentation_sha256": "3dede8b1ce3db918abab286959fed703ed9c08b6084c29eb00444dd8e0d43232",
+      "category_id": 4
+    }
+  ],
+  "intersection": [
+    9206,
+    71821
+  ],
+  "union": [
+    11175,
+    82540
+  ],
+  "mask_file": "refcoco-val-475988.npz",
+  "mask_sha256": "56f3ecac6ecdc8f78db21303ebbf84d4f1b9011f5dcf5bd61f9f60bfa1b00a71",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.017405664000079923,
+    "inference_s": 2.726788822999879,
+    "postprocess_s": 0.001707539000108227,
+    "amortized_inference_s_per_selected_expression": 1.3633944114999395,
+    "mask_write_s": 0.016838859000017692
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818757120,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 8917,
+  "stage_created": "full-validation",
+  "record_hash": "fce353f2d3cce8cbdb567e0bbcfed23fc08a2c5ea4138c34f8fe5816a6e88f89",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

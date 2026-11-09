@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-152556",
+  "sample_hash": "ed3ba50394e2b9ebe1307b3d49606f2a0fe2808f1f1a40a4ec5ce33ffd17f2e5",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 152556,
+  "dataset_index": 923,
+  "expressions": [
+    {
+      "image_id": 152556,
+      "dataset_index": 923,
+      "ref_id": 36854,
+      "sent_id": 104819,
+      "expression": "partial shirt far right green and white",
+      "mask_id": 0,
+      "annotation_id": 1741478,
+      "prediction_id": "refcoco-val-152556:0",
+      "gt_segmentation_sha256": "4ead3a8a9224e8f735071f1bd678b86efa43c29a3615f7166ea3bb18612d4eae",
+      "category_id": 1
+    },
+    {
+      "image_id": 152556,
+      "dataset_index": 923,
+      "ref_id": 36855,
+      "sent_id": 104822,
+      "expression": "left dude",
+      "mask_id": 1,
+      "annotation_id": 1740603,
+      "prediction_id": "refcoco-val-152556:1",
+      "gt_segmentation_sha256": "a808a36784edbb6fe4e41b7f483661e3b804831e21404cb8542fcc2bbd4b729b",
+      "category_id": 1
+    },
+    {
+      "image_id": 152556,
+      "dataset_index": 923,
+      "ref_id": 36856,
+      "sent_id": 104825,
+      "expression": "girl long sleeve blue",
+      "mask_id": 2,
+      "annotation_id": 1729383,
+      "prediction_id": "refcoco-val-152556:2",
+      "gt_segmentation_sha256": "8df87b1ff7bae212735da60f1d443b885d279b0a1549def2057f4eb6fb11a048",
+      "category_id": 1
+    },
+    {
+      "image_id": 152556,
+      "dataset_index": 923,
+      "ref_id": 36857,
+      "sent_id": 104827,
+      "expression": "girl eating",
+      "mask_id": 3,
+      "annotation_id": 464671,
+      "prediction_id": "refcoco-val-152556:3",
+      "gt_segmentation_sha256": "eef0274b4cc3f42f4adb7846992e892b1d30b2377f5c354d4a3ef87b845ba5c6",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    26210,
+    16405,
+    26764,
+    88958
+  ],
+  "union": [
+    30829,
+    21387,
+    30611,
+    92618
+  ],
+  "mask_file": "refcoco-val-152556.npz",
+  "mask_sha256": "dc0018ef4d2bcb173c250341e9658fe71838f8af89a20bbfc9867fe7fb07c1d3",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.016744561999985308,
+    "inference_s": 2.3208384689999093,
+    "postprocess_s": 0.0027866820000781445,
+    "amortized_inference_s_per_selected_expression": 0.5802096172499773,
+    "mask_write_s": 0.025427297000078397
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829090304,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6295400448
+  },
+  "output_bytes": 16841,
+  "stage_created": "full-validation",
+  "record_hash": "3fcdf9b5ec192ab54265af529808feef9382800f3f2b1dc879797b7686059233",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

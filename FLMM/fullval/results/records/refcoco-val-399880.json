@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-399880",
+  "sample_hash": "b93d7d2679b8f9ffbb4d387cd9c33144278c5490df1bc7ed03d63cc415b77655",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 399880,
+  "dataset_index": 1219,
+  "expressions": [
+    {
+      "image_id": 399880,
+      "dataset_index": 1219,
+      "ref_id": 15790,
+      "sent_id": 44929,
+      "expression": "3rd man from right, light hat, dark coat",
+      "mask_id": 0,
+      "annotation_id": 1309724,
+      "prediction_id": "refcoco-val-399880:0",
+      "gt_segmentation_sha256": "f432805a9f2ef583cbcb04a81db4132f733405a5d5d5cccf14ffe4f27e9fa46b",
+      "category_id": 1
+    },
+    {
+      "image_id": 399880,
+      "dataset_index": 1219,
+      "ref_id": 15791,
+      "sent_id": 44932,
+      "expression": "lady far left",
+      "mask_id": 1,
+      "annotation_id": 1294725,
+      "prediction_id": "refcoco-val-399880:1",
+      "gt_segmentation_sha256": "9102844144a7d43f26b35cf861f8738df6ed8c6ea631d471f07f304e62f5f004",
+      "category_id": 1
+    },
+    {
+      "image_id": 399880,
+      "dataset_index": 1219,
+      "ref_id": 15792,
+      "sent_id": 44935,
+      "expression": "very center fur coat lady",
+      "mask_id": 2,
+      "annotation_id": 1285680,
+      "prediction_id": "refcoco-val-399880:2",
+      "gt_segmentation_sha256": "cd97a0210ffa17fe95b97e3241e61a3ef0f02a15767e19ddea3978585c9f0661",
+      "category_id": 1
+    },
+    {
+      "image_id": 399880,
+      "dataset_index": 1219,
+      "ref_id": 15793,
+      "sent_id": 44937,
+      "expression": "the man holding hat first from right",
+      "mask_id": 3,
+      "annotation_id": 1258500,
+      "prediction_id": "refcoco-val-399880:3",
+      "gt_segmentation_sha256": "d02ca2efd2e08e4da0d7365d7f689a59a2b999e09d4c27e0d9bf3bc0eb5a8238",
+      "category_id": 1
+    },
+    {
+      "image_id": 399880,
+      "dataset_index": 1219,
+      "ref_id": 15794,
+      "sent_id": 44940,
+      "expression": "second person in from right",
+      "mask_id": 4,
+      "annotation_id": 1255986,
+      "prediction_id": "refcoco-val-399880:4",
+      "gt_segmentation_sha256": "915dbb37aca337d576ae7a0007e3539d8b028e2529e408bf681f117448f84056",
+      "category_id": 1
+    },
+    {
+      "image_id": 399880,
+      "dataset_index": 1219,
+      "ref_id": 15795,
+      "sent_id": 44943,
+      "expression": "man in fur coat middle",
+      "mask_id": 5,
+      "annotation_id": 1739578,
+      "prediction_id": "refcoco-val-399880:5",
+      "gt_segmentation_sha256": "cc1c5a8b4e91a0c585b52539cc3feb76e7f3f7dbfa25b3c2159b4b8bd3f3a276",
+      "category_id": 1
+    },
+    {
+      "image_id": 399880,
+      "dataset_index": 1219,
+      "ref_id": 15796,
+      "sent_id": 44946,
+      "expression": "person farthest right of screen. barely visible",
+      "mask_id": 6,
+      "annotation_id": 1705832,
+      "prediction_id": "refcoco-val-399880:6",
+      "gt_segmentation_sha256": "30bf77e46dc8ca22eff3402f9983fe137bf6d9359b4052d4126425fc48036a53",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12479,
+    21599,
+    1196,
+    25265,
+    0,
+    21277,
+    9747
+  ],
+  "union": [
+    23029,
+    25187,
+    45439,
+    29772,
+    40220,
+    25547,
+    12843
+  ],
+  "mask_file": "refcoco-val-399880.npz",
+  "mask_sha256": "3499d008615f21a02cf2e02fed6b20f9241fdfde0374eb7e1afd4be4d1939cdb",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.0226292669999566,
+    "inference_s": 2.5879111560000183,
+    "postprocess_s": 0.005547149999983958,
+    "amortized_inference_s_per_selected_expression": 0.36970159371428835,
+    "mask_write_s": 0.03350281500001984
+  },
+  "memory": {
+    "peak_allocated_bytes": 8846822912,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5452914688,
+    "ram_rss_bytes": 6300700672
+  },
+  "output_bytes": 20823,
+  "stage_created": "full-validation",
+  "record_hash": "2a28632a2e433e49fb30d522cceab90d63e4ec3161ca73e72ac9941b1cc80d2b",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

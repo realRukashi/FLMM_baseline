@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-355779",
+  "sample_hash": "298c98b865ca70af9690dfa92c87a4f48d253784867d907687700e629ded5a39",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 355779,
+  "dataset_index": 657,
+  "expressions": [
+    {
+      "image_id": 355779,
+      "dataset_index": 657,
+      "ref_id": 19410,
+      "sent_id": 55211,
+      "expression": "girl holding a cat",
+      "mask_id": 0,
+      "annotation_id": 192293,
+      "prediction_id": "refcoco-val-355779:0",
+      "gt_segmentation_sha256": "6f48ebd9c9ea6162c4554485cc986d8f4fcfbf78d59074cbf0b4f201930a0c37",
+      "category_id": 1
+    },
+    {
+      "image_id": 355779,
+      "dataset_index": 657,
+      "ref_id": 19411,
+      "sent_id": 55214,
+      "expression": "gal bending",
+      "mask_id": 1,
+      "annotation_id": 185773,
+      "prediction_id": "refcoco-val-355779:1",
+      "gt_segmentation_sha256": "7e5fdedc1f24cbf601511465db72341d2868b44aaa6f0a0a6d46eb639a03c43e",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    55177,
+    45836
+  ],
+  "union": [
+    59692,
+    48438
+  ],
+  "mask_file": "refcoco-val-355779.npz",
+  "mask_sha256": "01cb2b42fdfa1720bc7446a32e4b7cff9e8b285ee1504868adb132e80f7fbafd",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013405971999986832,
+    "inference_s": 2.3203378409999686,
+    "postprocess_s": 0.001485224000020935,
+    "amortized_inference_s_per_selected_expression": 1.1601689204999843,
+    "mask_write_s": 0.018841537999946922
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818530816,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6294368256
+  },
+  "output_bytes": 9605,
+  "stage_created": "full-validation",
+  "record_hash": "be17c4fea5afaaee382a270b4fcbfa2a3898d4d10c9bf2bba7b29506bccea973",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

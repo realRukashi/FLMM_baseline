@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-55237",
+  "sample_hash": "dff98926c7cf7d2681731d912d7b118d5972370c343d7a26195013916c29346a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 55237,
+  "dataset_index": 1110,
+  "expressions": [
+    {
+      "image_id": 55237,
+      "dataset_index": 1110,
+      "ref_id": 45232,
+      "sent_id": 128630,
+      "expression": "center seated",
+      "mask_id": 0,
+      "annotation_id": 530607,
+      "prediction_id": "refcoco-val-55237:0",
+      "gt_segmentation_sha256": "ee19560e3f2732e675efd2fe436f79ff4fe8c6c9073f07ce918646b145aa8fc8",
+      "category_id": 1
+    },
+    {
+      "image_id": 55237,
+      "dataset_index": 1110,
+      "ref_id": 45233,
+      "sent_id": 128633,
+      "expression": "back row on left woman",
+      "mask_id": 1,
+      "annotation_id": 515701,
+      "prediction_id": "refcoco-val-55237:1",
+      "gt_segmentation_sha256": "38c18d5cf24c06121835116ead26f166648194c000e21dbdd5920954a108015a",
+      "category_id": 1
+    },
+    {
+      "image_id": 55237,
+      "dataset_index": 1110,
+      "ref_id": 45234,
+      "sent_id": 128636,
+      "expression": "red white shirt",
+      "mask_id": 2,
+      "annotation_id": 479670,
+      "prediction_id": "refcoco-val-55237:2",
+      "gt_segmentation_sha256": "87a3f5fd35267a764fed038c159de3acfbb51a5907d9b99e9e824f868599b947",
+      "category_id": 1
+    },
+    {
+      "image_id": 55237,
+      "dataset_index": 1110,
+      "ref_id": 45235,
+      "sent_id": 128639,
+      "expression": "pink shirt top",
+      "mask_id": 3,
+      "annotation_id": 443769,
+      "prediction_id": "refcoco-val-55237:3",
+      "gt_segmentation_sha256": "2dbc4f829d1758c4e87cd710d95319633d757c68ba2fbd9ce26bd56d583c43c5",
+      "category_id": 1
+    },
+    {
+      "image_id": 55237,
+      "dataset_index": 1110,
+      "ref_id": 45236,
+      "sent_id": 128642,
+      "expression": "black tank top",
+      "mask_id": 4,
+      "annotation_id": 1757100,
+      "prediction_id": "refcoco-val-55237:4",
+      "gt_segmentation_sha256": "ab3fb785c40fa89cf126ec25a892d27f3fc60ca35bd2482c12337fdfc7fb4a52",
+      "category_id": 1
+    },
+    {
+      "image_id": 55237,
+      "dataset_index": 1110,
+      "ref_id": 45237,
+      "sent_id": 128645,
+      "expression": "black pants upper left",
+      "mask_id": 5,
+      "annotation_id": 1746606,
+      "prediction_id": "refcoco-val-55237:5",
+      "gt_segmentation_sha256": "19b514708868f5ff679073169d04a7ff22b1a29315295d693422385a92b44b50",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    27019,
+    27070,
+    33343,
+    20949,
+    32337,
+    0
+  ],
+  "union": [
+    28123,
+    29816,
+    35302,
+    22847,
+    35081,
+    38724
+  ],
+  "mask_file": "refcoco-val-55237.npz",
+  "mask_sha256": "356571e39cf5b82e1c83772d21807009e57ecbe3d75818bd346b027a391f8b85",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.019211580999922262,
+    "inference_s": 2.128129369999897,
+    "postprocess_s": 0.004184951999945952,
+    "amortized_inference_s_per_selected_expression": 0.35468822833331615,
+    "mask_write_s": 0.03463406799994573
+  },
+  "memory": {
+    "peak_allocated_bytes": 8840675328,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451440128,
+    "ram_rss_bytes": 6296907776
+  },
+  "output_bytes": 18593,
+  "stage_created": "full-validation",
+  "record_hash": "419bdda8d9ca120d51fdb9d7b077489559df7a2c6eb69b0f199c8a6548127fed",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

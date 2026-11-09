@@ -1,0 +1,19 @@
+{
+  "status": "PARTIAL",
+  "split": "RefCOCO UNC val",
+  "unit": "first sentence per reference, concatenated by image",
+  "expected_images": 1500,
+  "expected_selected_masks": 3811,
+  "official_refseg_metric": {
+    "cIoU": 75.3511734008789,
+    "mIoU": 77.28951263427734
+  },
+  "independently_recomputed": {
+    "image_count": 1021,
+    "mask_count": 2596,
+    "intersection": 71047294,
+    "union": 94288241,
+    "cIoU": 75.35117130883798,
+    "mIoU": 77.28949062616836
+  }
+}

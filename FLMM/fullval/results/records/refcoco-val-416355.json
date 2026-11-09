@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-416355",
+  "sample_hash": "43fa1cf853a4c75aeae92c4a18e18d2950c89648728af576f45cf021850a986f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 416355,
+  "dataset_index": 1239,
+  "expressions": [
+    {
+      "image_id": 416355,
+      "dataset_index": 1239,
+      "ref_id": 14415,
+      "sent_id": 41029,
+      "expression": "foreground tennis player on left",
+      "mask_id": 0,
+      "annotation_id": 2162745,
+      "prediction_id": "refcoco-val-416355:0",
+      "gt_segmentation_sha256": "eb39873ea71af918e55a3a7b6ed377e2d486e751fb1da14800935b16393fb05a",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    17980
+  ],
+  "union": [
+    20180
+  ],
+  "mask_file": "refcoco-val-416355.npz",
+  "mask_sha256": "2e1ea08e6728557ed81a152280694ac0c2611bb58ffd8a25feead1fefa9dd572",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.012959823999835862,
+    "inference_s": 2.4036683740000626,
+    "postprocess_s": 0.0009062799999810522,
+    "amortized_inference_s_per_selected_expression": 2.4036683740000626,
+    "mask_write_s": 0.0077460929999233485
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814823936,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6300700672
+  },
+  "output_bytes": 3257,
+  "stage_created": "full-validation",
+  "record_hash": "8098f380fb32e120dd6b36de075198ba7109bdd09b41500456fb852fd94f9a14",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

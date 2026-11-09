@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-477442",
+  "sample_hash": "e7fd0c5462403410b2003918dc9ea8119daecb0cc278dc46dc479b20130a3c27",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 477442,
+  "dataset_index": 414,
+  "expressions": [
+    {
+      "image_id": 477442,
+      "dataset_index": 414,
+      "ref_id": 9129,
+      "sent_id": 25998,
+      "expression": "table in front of lady in red",
+      "mask_id": 0,
+      "annotation_id": 1617424,
+      "prediction_id": "refcoco-val-477442:0",
+      "gt_segmentation_sha256": "6689f19fb79e9cc403fd04feb94a7751dea880080809bafb36a068cd9917c465",
+      "category_id": 67
+    },
+    {
+      "image_id": 477442,
+      "dataset_index": 414,
+      "ref_id": 9130,
+      "sent_id": 26000,
+      "expression": "guy left white/blue shirt",
+      "mask_id": 1,
+      "annotation_id": 1266330,
+      "prediction_id": "refcoco-val-477442:1",
+      "gt_segmentation_sha256": "52ec26e8a3984c72d7758f28cac666a362daf6b044fb5f97c89c8a6e0e2610c4",
+      "category_id": 1
+    },
+    {
+      "image_id": 477442,
+      "dataset_index": 414,
+      "ref_id": 9131,
+      "sent_id": 26003,
+      "expression": "blue shirt woman",
+      "mask_id": 2,
+      "annotation_id": 1264404,
+      "prediction_id": "refcoco-val-477442:2",
+      "gt_segmentation_sha256": "66af67eaf3f3120ec0c7d3a3fe1b0616d1b0a8a5cb7c14cebcc6bb74d8090869",
+      "category_id": 1
+    },
+    {
+      "image_id": 477442,
+      "dataset_index": 414,
+      "ref_id": 9132,
+      "sent_id": 26006,
+      "expression": "mad guy on right front",
+      "mask_id": 3,
+      "annotation_id": 1248950,
+      "prediction_id": "refcoco-val-477442:3",
+      "gt_segmentation_sha256": "6f72ec04f6853a00541f37b1f964be4d928b876352f268bd89a96090f8611fcc",
+      "category_id": 1
+    },
+    {
+      "image_id": 477442,
+      "dataset_index": 414,
+      "ref_id": 9133,
+      "sent_id": 26009,
+      "expression": "the lady in red.",
+      "mask_id": 4,
+      "annotation_id": 1245668,
+      "prediction_id": "refcoco-val-477442:4",
+      "gt_segmentation_sha256": "327f0a256b0e98bd922ea0b20ac1b8e5d99978f9e1ecd24b3da52af2d77c5732",
+      "category_id": 1
+    },
+    {
+      "image_id": 477442,
+      "dataset_index": 414,
+      "ref_id": 9134,
+      "sent_id": 26012,
+      "expression": "anywhere on the front table, but the actual table, nothing on it",
+      "mask_id": 5,
+      "annotation_id": 1090851,
+      "prediction_id": "refcoco-val-477442:5",
+      "gt_segmentation_sha256": "1ca17c627d9ba0a11fc8ad4211b9aa4ca9f71a33d9074c23744d8abac0bc789b",
+      "category_id": 67
+    }
+  ],
+  "intersection": [
+    10408,
+    17287,
+    25018,
+    39842,
+    12884,
+    16190
+  ],
+  "union": [
+    50726,
+    19754,
+    30346,
+    43125,
+    14030,
+    48521
+  ],
+  "mask_file": "refcoco-val-477442.npz",
+  "mask_sha256": "004973764472c8cb30c8a4d9f9dfd0d43dd9f6f5d835ebd839194cdfd6912190",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.0221175519998269,
+    "inference_s": 2.826194636999844,
+    "postprocess_s": 0.0050275060000330996,
+    "amortized_inference_s_per_selected_expression": 0.47103243949997403,
+    "mask_write_s": 0.04035547199987377
+  },
+  "memory": {
+    "peak_allocated_bytes": 8838909440,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451274240,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 19336,
+  "stage_created": "full-validation",
+  "record_hash": "6a70ae475eec264708bdd6dfd5a1e5a6692c667e01cdd3f40a103133eaaed636",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

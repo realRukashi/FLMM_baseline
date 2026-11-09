@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-431400",
+  "sample_hash": "6f51942a0a041bb7ec3a950eaf88963cb1ecfa8a78fcd3998189729ff776b115",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 431400,
+  "dataset_index": 994,
+  "expressions": [
+    {
+      "image_id": 431400,
+      "dataset_index": 994,
+      "ref_id": 13066,
+      "sent_id": 37172,
+      "expression": "guy in front on bike",
+      "mask_id": 0,
+      "annotation_id": 1213689,
+      "prediction_id": "refcoco-val-431400:0",
+      "gt_segmentation_sha256": "d3fdd4ede5a3bd7fc02e78f4127a739fa464521aabcedd353d389ee0385ddd0b",
+      "category_id": 1
+    },
+    {
+      "image_id": 431400,
+      "dataset_index": 994,
+      "ref_id": 13067,
+      "sent_id": 37175,
+      "expression": "bike on far left, at edge of photo",
+      "mask_id": 1,
+      "annotation_id": 246379,
+      "prediction_id": "refcoco-val-431400:1",
+      "gt_segmentation_sha256": "112b9d4639be227d915454fdf31cc75a9e1f255c057d17b678a23007855e3b9a",
+      "category_id": 4
+    },
+    {
+      "image_id": 431400,
+      "dataset_index": 994,
+      "ref_id": 13068,
+      "sent_id": 37178,
+      "expression": "motorcycle second from left",
+      "mask_id": 2,
+      "annotation_id": 154634,
+      "prediction_id": "refcoco-val-431400:2",
+      "gt_segmentation_sha256": "68b70c6dffe5230d8e292de57bcf2a0410c5c7153483f22c1bd004b02eb5346b",
+      "category_id": 4
+    },
+    {
+      "image_id": 431400,
+      "dataset_index": 994,
+      "ref_id": 13069,
+      "sent_id": 37180,
+      "expression": "bike all the way to the right",
+      "mask_id": 3,
+      "annotation_id": 154051,
+      "prediction_id": "refcoco-val-431400:3",
+      "gt_segmentation_sha256": "d625fee7a0df1727bb37f52edfcf585b79dad0f2e76fa0a180193012193b8f84",
+      "category_id": 4
+    },
+    {
+      "image_id": 431400,
+      "dataset_index": 994,
+      "ref_id": 13070,
+      "sent_id": 37183,
+      "expression": "biker on the far left.",
+      "mask_id": 4,
+      "annotation_id": 1286441,
+      "prediction_id": "refcoco-val-431400:4",
+      "gt_segmentation_sha256": "ee7025a57f02320a103ccd6d134b4cfd179e2eb106e9d0233b0eeb93642ff7e1",
+      "category_id": 1
+    },
+    {
+      "image_id": 431400,
+      "dataset_index": 994,
+      "ref_id": 13071,
+      "sent_id": 37186,
+      "expression": "front motorcycle",
+      "mask_id": 5,
+      "annotation_id": 152109,
+      "prediction_id": "refcoco-val-431400:5",
+      "gt_segmentation_sha256": "60e51343e247ffb53be17328ce7e9225b7a2497cfc546fd491bf770e61e05b8c",
+      "category_id": 4
+    }
+  ],
+  "intersection": [
+    13874,
+    11157,
+    15404,
+    17100,
+    8641,
+    16086
+  ],
+  "union": [
+    17396,
+    16558,
+    21018,
+    25321,
+    14730,
+    21944
+  ],
+  "mask_file": "refcoco-val-431400.npz",
+  "mask_sha256": "7eb89f187aa6b518b5aacb4a80886ba4ae1d765473c1e2ad8136e1e43269ad95",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.01838426500012247,
+    "inference_s": 2.4562971739999284,
+    "postprocess_s": 0.003448642999956064,
+    "amortized_inference_s_per_selected_expression": 0.4093828623333214,
+    "mask_write_s": 0.023387709999951767
+  },
+  "memory": {
+    "peak_allocated_bytes": 8835411456,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5450180608,
+    "ram_rss_bytes": 6295842816
+  },
+  "output_bytes": 16083,
+  "stage_created": "full-validation",
+  "record_hash": "7111704bc9e9fb20cfd3e665f687910e453aa4cda1e6029ef5031f0eee313023",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

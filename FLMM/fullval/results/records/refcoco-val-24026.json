@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-24026",
+  "sample_hash": "60f863288e66fcceeba8fb0098a1adeaaaf9603310727f220ecad97cd5940024",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 24026,
+  "dataset_index": 1414,
+  "expressions": [
+    {
+      "image_id": 24026,
+      "dataset_index": 1414,
+      "ref_id": 47961,
+      "sent_id": 136407,
+      "expression": "man in yellow on right",
+      "mask_id": 0,
+      "annotation_id": 202099,
+      "prediction_id": "refcoco-val-24026:0",
+      "gt_segmentation_sha256": "fa7e84d043444327ebaa9414ebf8f9e5f1b245b5404a49f34baec89186a5034b",
+      "category_id": 1
+    },
+    {
+      "image_id": 24026,
+      "dataset_index": 1414,
+      "ref_id": 47962,
+      "sent_id": 136410,
+      "expression": "person with camera",
+      "mask_id": 1,
+      "annotation_id": 2163547,
+      "prediction_id": "refcoco-val-24026:1",
+      "gt_segmentation_sha256": "f4b2765598ec21b6b9e4b2172dae3c954b8525838d7ebf8eccb479681dbbd79f",
+      "category_id": 1
+    },
+    {
+      "image_id": 24026,
+      "dataset_index": 1414,
+      "ref_id": 47963,
+      "sent_id": 136413,
+      "expression": "arm and hands reaching in for pizza left bottom",
+      "mask_id": 2,
+      "annotation_id": 1716403,
+      "prediction_id": "refcoco-val-24026:2",
+      "gt_segmentation_sha256": "d4ae603f4901ff4ad174d01419efbf0228ce19a540e2d8b784a72d6892a11234",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    36167,
+    16720,
+    21082
+  ],
+  "union": [
+    39092,
+    17506,
+    35451
+  ],
+  "mask_file": "refcoco-val-24026.npz",
+  "mask_sha256": "090d685525acb04270741e6b988be003d8db48016efab3384e332f7b9442f9d5",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.015010266999979649,
+    "inference_s": 2.163667015000101,
+    "postprocess_s": 0.0020825490000788704,
+    "amortized_inference_s_per_selected_expression": 0.721222338333367,
+    "mask_write_s": 0.019613264999861713
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822634496,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6297788416
+  },
+  "output_bytes": 8593,
+  "stage_created": "full-validation",
+  "record_hash": "f113fc0338a1f4cd66c6de2ab6bb9197b5bf04784a6bf6bc281828dbf264da0c",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

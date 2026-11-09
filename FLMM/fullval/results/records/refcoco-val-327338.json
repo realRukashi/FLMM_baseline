@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-327338",
+  "sample_hash": "b8500d8d289a4e139c915daf5810ce6464f912caf8355bac9ca7d885af48be64",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 327338,
+  "dataset_index": 1444,
+  "expressions": [
+    {
+      "image_id": 327338,
+      "dataset_index": 1444,
+      "ref_id": 22018,
+      "sent_id": 62617,
+      "expression": "rt girl",
+      "mask_id": 0,
+      "annotation_id": 1706496,
+      "prediction_id": "refcoco-val-327338:0",
+      "gt_segmentation_sha256": "eaaafe5444de9ee5c4793119029f9fc0ab9c9aba9267b0286ab6e44e7f9ed6e5",
+      "category_id": 1
+    },
+    {
+      "image_id": 327338,
+      "dataset_index": 1444,
+      "ref_id": 22019,
+      "sent_id": 62620,
+      "expression": "person on bench, maybe eating, dark pants",
+      "mask_id": 1,
+      "annotation_id": 445312,
+      "prediction_id": "refcoco-val-327338:1",
+      "gt_segmentation_sha256": "44d4c345cac899ea43625277fe8317d9c222ac5538d671fe19393fa220a4804f",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    30824,
+    32489
+  ],
+  "union": [
+    33553,
+    35633
+  ],
+  "mask_file": "refcoco-val-327338.npz",
+  "mask_sha256": "f08c23d1f2c3971a89a774b9256ee91a87878cfb34f694a8bc0677f2050894bf",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.012382333000005019,
+    "inference_s": 2.1561205789998894,
+    "postprocess_s": 0.0014502389999506704,
+    "amortized_inference_s_per_selected_expression": 1.0780602894999447,
+    "mask_write_s": 0.015192190999869126
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818308096,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6297804800
+  },
+  "output_bytes": 7039,
+  "stage_created": "full-validation",
+  "record_hash": "f21e39586c11d4734cd8a64165613c1c1abbbf14791a132c57c8cdef654abcf7",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

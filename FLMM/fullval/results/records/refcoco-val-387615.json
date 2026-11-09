@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-387615",
+  "sample_hash": "7cb0bb3ddc25c7ff95c837d1ace3f05f11f3aa3e3e98d60e90f730c19afb798a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 387615,
+  "dataset_index": 473,
+  "expressions": [
+    {
+      "image_id": 387615,
+      "dataset_index": 473,
+      "ref_id": 16868,
+      "sent_id": 47991,
+      "expression": "red bear, second to the left in the foreground",
+      "mask_id": 0,
+      "annotation_id": 1996824,
+      "prediction_id": "refcoco-val-387615:0",
+      "gt_segmentation_sha256": "06a926cda871ed63b87789ae89ab61c2f80034f800ceff76fdaa6de301974b7d",
+      "category_id": 88
+    },
+    {
+      "image_id": 387615,
+      "dataset_index": 473,
+      "ref_id": 16869,
+      "sent_id": 47993,
+      "expression": "bottom thing on right laying down",
+      "mask_id": 1,
+      "annotation_id": 1996669,
+      "prediction_id": "refcoco-val-387615:1",
+      "gt_segmentation_sha256": "727bf620b169b7beab82e248cc65fbb948dd6f4b953ecb992695e2bf4ce4afb0",
+      "category_id": 88
+    },
+    {
+      "image_id": 387615,
+      "dataset_index": 473,
+      "ref_id": 16870,
+      "sent_id": 47995,
+      "expression": "left most red bear standing",
+      "mask_id": 2,
+      "annotation_id": 1995948,
+      "prediction_id": "refcoco-val-387615:2",
+      "gt_segmentation_sha256": "0cf5a6452954722de138c6c692730601911d59756b2a765234bef5dc334cc104",
+      "category_id": 88
+    },
+    {
+      "image_id": 387615,
+      "dataset_index": 473,
+      "ref_id": 16871,
+      "sent_id": 47998,
+      "expression": "bear farthest right facing you",
+      "mask_id": 3,
+      "annotation_id": 1162736,
+      "prediction_id": "refcoco-val-387615:3",
+      "gt_segmentation_sha256": "234ec7ce506b0b7c4a34553cb4cd22b2f82d7310c809265f972dc40d5f73486d",
+      "category_id": 88
+    },
+    {
+      "image_id": 387615,
+      "dataset_index": 473,
+      "ref_id": 16872,
+      "sent_id": 48000,
+      "expression": "the one on the bottom on top of the one laying down",
+      "mask_id": 4,
+      "annotation_id": 2228756,
+      "prediction_id": "refcoco-val-387615:4",
+      "gt_segmentation_sha256": "bb54a6e88a5f66e74ea560a02f89d678651e69c381498a450698bf7983648bf9",
+      "category_id": 88
+    },
+    {
+      "image_id": 387615,
+      "dataset_index": 473,
+      "ref_id": 16873,
+      "sent_id": 48002,
+      "expression": "bear in the middle looking at you",
+      "mask_id": 5,
+      "annotation_id": 1161286,
+      "prediction_id": "refcoco-val-387615:5",
+      "gt_segmentation_sha256": "fed38e42026e92782e80eaa02606ce80d77ef854d52b85b6014d3b8b3b35e356",
+      "category_id": 88
+    },
+    {
+      "image_id": 387615,
+      "dataset_index": 473,
+      "ref_id": 16874,
+      "sent_id": 48005,
+      "expression": "larger bear, upside down center leftish",
+      "mask_id": 6,
+      "annotation_id": 1160705,
+      "prediction_id": "refcoco-val-387615:6",
+      "gt_segmentation_sha256": "05f7ef8ba65795613d5eb5e14f7a9f40aa73344e01f7fea44da1f11eea89dec8",
+      "category_id": 88
+    }
+  ],
+  "intersection": [
+    10222,
+    15282,
+    13723,
+    15554,
+    617,
+    77,
+    13566
+  ],
+  "union": [
+    28046,
+    26558,
+    18268,
+    20970,
+    19602,
+    34667,
+    21873
+  ],
+  "mask_file": "refcoco-val-387615.npz",
+  "mask_sha256": "301f08e5f1ed52655204428d2b690eceba626e439162026b89228acc9c4cfb32",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.024131306000072072,
+    "inference_s": 2.4088764389998687,
+    "postprocess_s": 0.0049054440000873,
+    "amortized_inference_s_per_selected_expression": 0.3441252055714098,
+    "mask_write_s": 0.03707399599989003
+  },
+  "memory": {
+    "peak_allocated_bytes": 8844862464,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5452269568,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 16178,
+  "stage_created": "full-validation",
+  "record_hash": "d468f18c04e7808bb0f37abe6d58345962a3caf418360b3a8772495aef24d41c",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

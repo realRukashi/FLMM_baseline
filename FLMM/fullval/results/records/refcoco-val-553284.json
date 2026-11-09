@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-553284",
+  "sample_hash": "fe27fdb8e1497af88195c49068773652e05ab0c045a2d0913cb8c10c5a5712e0",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 553284,
+  "dataset_index": 793,
+  "expressions": [
+    {
+      "image_id": 553284,
+      "dataset_index": 793,
+      "ref_id": 2532,
+      "sent_id": 7242,
+      "expression": "man on left",
+      "mask_id": 0,
+      "annotation_id": 1290809,
+      "prediction_id": "refcoco-val-553284:0",
+      "gt_segmentation_sha256": "d1d70a17207f7415e12d5e1b56b2d0ac3e25c9f1e4d22d9117d5ba34cbaee8b8",
+      "category_id": 1
+    },
+    {
+      "image_id": 553284,
+      "dataset_index": 793,
+      "ref_id": 2533,
+      "sent_id": 7245,
+      "expression": "man standing in front of bananas almost bald",
+      "mask_id": 1,
+      "annotation_id": 1274458,
+      "prediction_id": "refcoco-val-553284:1",
+      "gt_segmentation_sha256": "aac029bed90871065fafd79ed02dca19ded3d475e30b6486cc523f235cf40b63",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10843,
+    14575
+  ],
+  "union": [
+    14824,
+    15669
+  ],
+  "mask_file": "refcoco-val-553284.npz",
+  "mask_sha256": "4b904726fbf21e18d01c2a7a33750d672e79f0a4cdb386a2afb9982bb1961a74",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.012712222000004658,
+    "inference_s": 2.2957728650000035,
+    "postprocess_s": 0.0015722639999466992,
+    "amortized_inference_s_per_selected_expression": 1.1478864325000018,
+    "mask_write_s": 0.010366150000095331
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818298880,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6294519808
+  },
+  "output_bytes": 4400,
+  "stage_created": "full-validation",
+  "record_hash": "cfd2cc3144630a4b7abbef0adeea85f6d08dd6d89bdfbf2a1264ae3491462512",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

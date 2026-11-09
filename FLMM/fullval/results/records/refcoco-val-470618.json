@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-470618",
+  "sample_hash": "05b85a9d69773cce72895f7eadaf114497738bf3da7c93c173fb28a7bbbd88ca",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 470618,
+  "dataset_index": 681,
+  "expressions": [
+    {
+      "image_id": 470618,
+      "dataset_index": 681,
+      "ref_id": 9666,
+      "sent_id": 27531,
+      "expression": "bus going left to right",
+      "mask_id": 0,
+      "annotation_id": 2171626,
+      "prediction_id": "refcoco-val-470618:0",
+      "gt_segmentation_sha256": "942113f6487530c4875a6b8ad060c12006702adfdbaf21d964c423f30c98d6b8",
+      "category_id": 6
+    },
+    {
+      "image_id": 470618,
+      "dataset_index": 681,
+      "ref_id": 9667,
+      "sent_id": 27533,
+      "expression": "large white vehicle left lower corner",
+      "mask_id": 1,
+      "annotation_id": 1372961,
+      "prediction_id": "refcoco-val-470618:1",
+      "gt_segmentation_sha256": "f67d6689fb719858f3a0018fd770c37e03e1db9cb6324fc8c7e7fab86e245fc5",
+      "category_id": 8
+    },
+    {
+      "image_id": 470618,
+      "dataset_index": 681,
+      "ref_id": 9668,
+      "sent_id": 27535,
+      "expression": "first bus in middle land",
+      "mask_id": 2,
+      "annotation_id": 165992,
+      "prediction_id": "refcoco-val-470618:2",
+      "gt_segmentation_sha256": "9b6b59f0b6f627d9e00fb5638bc46dfde0823cea4d2be2019b7cf28d86b750ff",
+      "category_id": 6
+    },
+    {
+      "image_id": 470618,
+      "dataset_index": 681,
+      "ref_id": 9669,
+      "sent_id": 27538,
+      "expression": "bottom right white box truck",
+      "mask_id": 3,
+      "annotation_id": 399867,
+      "prediction_id": "refcoco-val-470618:3",
+      "gt_segmentation_sha256": "252af7e80473499abcbb87bbfad48c2dde300cf964ba08f820e0112253956218",
+      "category_id": 8
+    },
+    {
+      "image_id": 470618,
+      "dataset_index": 681,
+      "ref_id": 9670,
+      "sent_id": 27540,
+      "expression": "red bus in the middle",
+      "mask_id": 4,
+      "annotation_id": 164097,
+      "prediction_id": "refcoco-val-470618:4",
+      "gt_segmentation_sha256": "9f1470441ac6adb8148f35ec624a12155aeba2bac2a61d8a849b10feada2557a",
+      "category_id": 6
+    },
+    {
+      "image_id": 470618,
+      "dataset_index": 681,
+      "ref_id": 9671,
+      "sent_id": 27543,
+      "expression": "bus with blue bottom",
+      "mask_id": 5,
+      "annotation_id": 163531,
+      "prediction_id": "refcoco-val-470618:5",
+      "gt_segmentation_sha256": "ef8ff6b2b004256baa04ac65bae34549477dced3a4f7285c3cf9413ffb03ff34",
+      "category_id": 6
+    }
+  ],
+  "intersection": [
+    74,
+    17461,
+    13081,
+    10972,
+    0,
+    9502
+  ],
+  "union": [
+    24936,
+    18891,
+    13904,
+    11829,
+    31418,
+    12055
+  ],
+  "mask_file": "refcoco-val-470618.npz",
+  "mask_sha256": "b8de3a70991aea213111e9f049213d64ebe75bfd6a7dd38efb8f35c874863ff1",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.017158543000050486,
+    "inference_s": 2.3161767409999356,
+    "postprocess_s": 0.0036821200000076715,
+    "amortized_inference_s_per_selected_expression": 0.3860294568333226,
+    "mask_write_s": 0.025273303000062697
+  },
+  "memory": {
+    "peak_allocated_bytes": 8835558400,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5450226688,
+    "ram_rss_bytes": 6294368256
+  },
+  "output_bytes": 9716,
+  "stage_created": "full-validation",
+  "record_hash": "cdf62372d63e30ac68c57fbb4f613d3fb33c39c71b05172abebb53f10ae1f6e1",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-573125",
+  "sample_hash": "bb9431b59472b8bea3812c558cfa8fd64b234ec9c6b2098861011406346326b8",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 573125,
+  "dataset_index": 1449,
+  "expressions": [
+    {
+      "image_id": 573125,
+      "dataset_index": 1449,
+      "ref_id": 768,
+      "sent_id": 2179,
+      "expression": "blue shirt",
+      "mask_id": 0,
+      "annotation_id": 1206800,
+      "prediction_id": "refcoco-val-573125:0",
+      "gt_segmentation_sha256": "04942f5d8d614d0a924e0a47134083a980c9c55c9164fb07a5c753e6b2444070",
+      "category_id": 1
+    },
+    {
+      "image_id": 573125,
+      "dataset_index": 1449,
+      "ref_id": 769,
+      "sent_id": 2182,
+      "expression": "guy in middle of pic white shirt",
+      "mask_id": 1,
+      "annotation_id": 1313153,
+      "prediction_id": "refcoco-val-573125:1",
+      "gt_segmentation_sha256": "5cff2d3c9a47c4598eb374302da45d28a00b899175987e51435da4068badbc67",
+      "category_id": 1
+    },
+    {
+      "image_id": 573125,
+      "dataset_index": 1449,
+      "ref_id": 770,
+      "sent_id": 2185,
+      "expression": "back of head of person at the bottom",
+      "mask_id": 2,
+      "annotation_id": 1308939,
+      "prediction_id": "refcoco-val-573125:2",
+      "gt_segmentation_sha256": "dac152cc54ae83d59b8020b92384b87ce6e9fb7fef1a32af5d75749a1e808f21",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    17987,
+    20988,
+    31490
+  ],
+  "union": [
+    21113,
+    25489,
+    36194
+  ],
+  "mask_file": "refcoco-val-573125.npz",
+  "mask_sha256": "d6feaf91ec6f3972bb462affef736550c2e4f3984f1d799cd19c7e20b556d42a",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.018678789999967194,
+    "inference_s": 2.443129950000184,
+    "postprocess_s": 0.0022090019999723154,
+    "amortized_inference_s_per_selected_expression": 0.8143766500000614,
+    "mask_write_s": 0.017487074999962715
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824753664,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447694336,
+    "ram_rss_bytes": 6301458432
+  },
+  "output_bytes": 8855,
+  "stage_created": "full-validation",
+  "record_hash": "0ac01c1b284528ba9c7e1973ac6bd86461b5b6ee5dd4c6e71c57d0307d0c5c28",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

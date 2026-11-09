@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-238589",
+  "sample_hash": "908d0a4350ad37386b0d96cb8706534edf70d4be704b1db5b3f668789027ad8d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 238589,
+  "dataset_index": 188,
+  "expressions": [
+    {
+      "image_id": 238589,
+      "dataset_index": 188,
+      "ref_id": 29757,
+      "sent_id": 84612,
+      "expression": "guy with hot dog",
+      "mask_id": 0,
+      "annotation_id": 1287091,
+      "prediction_id": "refcoco-val-238589:0",
+      "gt_segmentation_sha256": "98c966afca5bf7eb750a563accd2329859173b9f175f663330b0b5edfe12f31f",
+      "category_id": 1
+    },
+    {
+      "image_id": 238589,
+      "dataset_index": 188,
+      "ref_id": 29758,
+      "sent_id": 84615,
+      "expression": "dude in black shirt front row",
+      "mask_id": 1,
+      "annotation_id": 1253837,
+      "prediction_id": "refcoco-val-238589:1",
+      "gt_segmentation_sha256": "537af0edd0bbbfb60181be97e67580f99c9280b57f9662c65f05da51ea9034f4",
+      "category_id": 1
+    },
+    {
+      "image_id": 238589,
+      "dataset_index": 188,
+      "ref_id": 29759,
+      "sent_id": 84618,
+      "expression": "bottom left woman",
+      "mask_id": 2,
+      "annotation_id": 1213733,
+      "prediction_id": "refcoco-val-238589:2",
+      "gt_segmentation_sha256": "684078d07053f302578614629caeaa1c29de1877f184c26d492837a4e5a1400b",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    85721,
+    11266,
+    22279
+  ],
+  "union": [
+    91132,
+    11784,
+    23279
+  ],
+  "mask_file": "refcoco-val-238589.npz",
+  "mask_sha256": "dc066437705b14f5a84c288b7fd8c310f491bf83afe918b950f0f9485c932b51",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.02260724300003858,
+    "inference_s": 2.7576256009999724,
+    "postprocess_s": 0.002724895000028482,
+    "amortized_inference_s_per_selected_expression": 0.9192085336666574,
+    "mask_write_s": 0.02647497799989651
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824574976,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447721984,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 10360,
+  "stage_created": "full-validation",
+  "record_hash": "7f9bfe9c75a37ff0f5ed0adb6489d82df2d62240a1ca1e4cd715c0a61917c502",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

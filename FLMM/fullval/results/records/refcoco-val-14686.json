@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-14686",
+  "sample_hash": "344cecae6f3538be5c2e22135dace4a4f3adcec73865dece383429b11af5acf1",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 14686,
+  "dataset_index": 1186,
+  "expressions": [
+    {
+      "image_id": 14686,
+      "dataset_index": 1186,
+      "ref_id": 48783,
+      "sent_id": 138732,
+      "expression": "second giraffe from left",
+      "mask_id": 0,
+      "annotation_id": 601243,
+      "prediction_id": "refcoco-val-14686:0",
+      "gt_segmentation_sha256": "301b2f8411bb2b11137800b72f223352235e9f8189cccc7f4fbfae78d78a186b",
+      "category_id": 25
+    },
+    {
+      "image_id": 14686,
+      "dataset_index": 1186,
+      "ref_id": 48784,
+      "sent_id": 138734,
+      "expression": "left animal",
+      "mask_id": 1,
+      "annotation_id": 601140,
+      "prediction_id": "refcoco-val-14686:1",
+      "gt_segmentation_sha256": "02efeb651b4d1a16c537e4fa1468abd4d6f9cccca7b70ce51a70714e1519932e",
+      "category_id": 25
+    },
+    {
+      "image_id": 14686,
+      "dataset_index": 1186,
+      "ref_id": 48785,
+      "sent_id": 138737,
+      "expression": "middle giraffe in front",
+      "mask_id": 2,
+      "annotation_id": 599000,
+      "prediction_id": "refcoco-val-14686:2",
+      "gt_segmentation_sha256": "a762ab82ac5bc5f6a50ce112db316067a66b5e18e979a7133664890d9b848c9a",
+      "category_id": 25
+    },
+    {
+      "image_id": 14686,
+      "dataset_index": 1186,
+      "ref_id": 48786,
+      "sent_id": 138740,
+      "expression": "right giraffe",
+      "mask_id": 3,
+      "annotation_id": 597148,
+      "prediction_id": "refcoco-val-14686:3",
+      "gt_segmentation_sha256": "9ccd57ef03f60a3c53ad6c5c68f04b305251622287ff5753e638e3055b2ef399",
+      "category_id": 25
+    }
+  ],
+  "intersection": [
+    12988,
+    19804,
+    12739,
+    32612
+  ],
+  "union": [
+    15844,
+    24656,
+    15603,
+    37942
+  ],
+  "mask_file": "refcoco-val-14686.npz",
+  "mask_sha256": "41ad778eafb93bfbd82849fe9046476ecc9b6a9b3b2c65ea70290502b245243a",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.023524256999962745,
+    "inference_s": 2.1716943449999917,
+    "postprocess_s": 0.002725874000020667,
+    "amortized_inference_s_per_selected_expression": 0.5429235862499979,
+    "mask_write_s": 0.021787279000022863
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829090304,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6297001984
+  },
+  "output_bytes": 13788,
+  "stage_created": "full-validation",
+  "record_hash": "c5fde9a776bc7fbb280901b65b032c52157d50c6e47397f4c0077499a7a50b2e",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

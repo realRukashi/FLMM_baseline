@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-250978",
+  "sample_hash": "a5bd00c444a63c666d967af899079cf6a08cecc8525a8897216670c3c201019a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 250978,
+  "dataset_index": 955,
+  "expressions": [
+    {
+      "image_id": 250978,
+      "dataset_index": 955,
+      "ref_id": 28705,
+      "sent_id": 81637,
+      "expression": "bear the child is hugging",
+      "mask_id": 0,
+      "annotation_id": 1995622,
+      "prediction_id": "refcoco-val-250978:0",
+      "gt_segmentation_sha256": "ba5130a1ff089ff7c40b22c995257e49269e3d843ad4114af2204ee7f2360ec5",
+      "category_id": 88
+    },
+    {
+      "image_id": 250978,
+      "dataset_index": 955,
+      "ref_id": 28706,
+      "sent_id": 81640,
+      "expression": "big teddy on the left",
+      "mask_id": 1,
+      "annotation_id": 1163008,
+      "prediction_id": "refcoco-val-250978:1",
+      "gt_segmentation_sha256": "8089457ea1435da9979c0f8f88a40eb918e259cec3cda454bd3526b9b8d102e1",
+      "category_id": 88
+    },
+    {
+      "image_id": 250978,
+      "dataset_index": 955,
+      "ref_id": 28707,
+      "sent_id": 81643,
+      "expression": "lower left corner teddy bear",
+      "mask_id": 2,
+      "annotation_id": 1995894,
+      "prediction_id": "refcoco-val-250978:2",
+      "gt_segmentation_sha256": "f40f5b5619837c14fd66a9d255ce6f6c0608ce3d65aaa9ef93deeeaa9e7380ac",
+      "category_id": 88
+    },
+    {
+      "image_id": 250978,
+      "dataset_index": 955,
+      "ref_id": 28708,
+      "sent_id": 81646,
+      "expression": "right beat",
+      "mask_id": 3,
+      "annotation_id": 1161021,
+      "prediction_id": "refcoco-val-250978:3",
+      "gt_segmentation_sha256": "b5d562e6bb29d58a62aade0b94238f57eb2f82880fe80f7d433210fe91ad0a65",
+      "category_id": 88
+    }
+  ],
+  "intersection": [
+    32317,
+    35016,
+    22901,
+    58917
+  ],
+  "union": [
+    38967,
+    44701,
+    24334,
+    61706
+  ],
+  "mask_file": "refcoco-val-250978.npz",
+  "mask_sha256": "8ef7c7c24a07d7bf74b1fe60ea0a6fabf8a1f4a9e4e19e1d19bcd40340123d41",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.019385247999935018,
+    "inference_s": 2.3401471000001948,
+    "postprocess_s": 0.002713453999831472,
+    "amortized_inference_s_per_selected_expression": 0.5850367750000487,
+    "mask_write_s": 0.026873082999827602
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826924544,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6295400448
+  },
+  "output_bytes": 15410,
+  "stage_created": "full-validation",
+  "record_hash": "06dca9d561305ba001e8fff50d7a2f8a15214830972b6c6fdd61ccf072a053ca",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-199888",
+  "sample_hash": "82615f73deefec2bd58f5cbe6a5306408b5603dca9c12bace12723545249d35c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 199888,
+  "dataset_index": 619,
+  "expressions": [
+    {
+      "image_id": 199888,
+      "dataset_index": 619,
+      "ref_id": 33051,
+      "sent_id": 93980,
+      "expression": "legs of small elephant under the big one",
+      "mask_id": 0,
+      "annotation_id": 582710,
+      "prediction_id": "refcoco-val-199888:0",
+      "gt_segmentation_sha256": "eb2d599d06e376816a0855d0fe914192259d678165bb56fdea3189a187e83afc",
+      "category_id": 22
+    },
+    {
+      "image_id": 199888,
+      "dataset_index": 619,
+      "ref_id": 33052,
+      "sent_id": 93982,
+      "expression": "front elephant",
+      "mask_id": 1,
+      "annotation_id": 582231,
+      "prediction_id": "refcoco-val-199888:1",
+      "gt_segmentation_sha256": "76b5b6cb23dcabe06e9d6906747e24ef88441e2cbfaeb2e0c63b918b70a5d274",
+      "category_id": 22
+    },
+    {
+      "image_id": 199888,
+      "dataset_index": 619,
+      "ref_id": 33053,
+      "sent_id": 93985,
+      "expression": "elephant butt on left",
+      "mask_id": 2,
+      "annotation_id": 581304,
+      "prediction_id": "refcoco-val-199888:2",
+      "gt_segmentation_sha256": "cfab37205ff3c27324f8e060505fc68912c00c5c4a80de884320ae7b40ffbe1f",
+      "category_id": 22
+    }
+  ],
+  "intersection": [
+    6281,
+    82068,
+    27816
+  ],
+  "union": [
+    16860,
+    88562,
+    29545
+  ],
+  "mask_file": "refcoco-val-199888.npz",
+  "mask_sha256": "3931edc0dd8b0f1f233d98a413eb34ba37a252ca124bd063e7142e2aefc76333",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.022418947999994998,
+    "inference_s": 2.374656552999909,
+    "postprocess_s": 0.002476912000020093,
+    "amortized_inference_s_per_selected_expression": 0.791552184333303,
+    "mask_write_s": 0.022040394999976343
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824640512,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447702528,
+    "ram_rss_bytes": 6294278144
+  },
+  "output_bytes": 13094,
+  "stage_created": "full-validation",
+  "record_hash": "1f62c61409ccdded109ebb912be7ba4f7bdace4350cff49a628b8ce9fdf2b14f",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

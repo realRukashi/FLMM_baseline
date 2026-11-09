@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-71749",
+  "sample_hash": "83828084755e3cd7f6d07c887c749c4d29af5b1fc86ab583b36fc07a56272b30",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 71749,
+  "dataset_index": 1136,
+  "expressions": [
+    {
+      "image_id": 71749,
+      "dataset_index": 1136,
+      "ref_id": 43777,
+      "sent_id": 124466,
+      "expression": "farthest left in stands",
+      "mask_id": 0,
+      "annotation_id": 532149,
+      "prediction_id": "refcoco-val-71749:0",
+      "gt_segmentation_sha256": "931ec4fe382a863e5358ce773bc94f76ba01da127ca0076c91752221a2896d8d",
+      "category_id": 1
+    },
+    {
+      "image_id": 71749,
+      "dataset_index": 1136,
+      "ref_id": 43778,
+      "sent_id": 124469,
+      "expression": "tennis player",
+      "mask_id": 1,
+      "annotation_id": 464824,
+      "prediction_id": "refcoco-val-71749:1",
+      "gt_segmentation_sha256": "386e242ef03de3d46184e3f419b1f1acfda9aac2402988c89ad82790f159ca64",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    9573,
+    50494
+  ],
+  "union": [
+    10661,
+    54796
+  ],
+  "mask_file": "refcoco-val-71749.npz",
+  "mask_sha256": "b65f356ba63c0774940003b6ae839cb965de1c74ed2e43b532aff9d142d42225",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014460163999956421,
+    "inference_s": 2.100678572000106,
+    "postprocess_s": 0.001537806999976965,
+    "amortized_inference_s_per_selected_expression": 1.050339286000053,
+    "mask_write_s": 0.01473636000002898
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818307072,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6296907776
+  },
+  "output_bytes": 7220,
+  "stage_created": "full-validation",
+  "record_hash": "bbcd2e30955a2e0624967373baa99d6cc18864ca661b1a265a211148826274b1",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

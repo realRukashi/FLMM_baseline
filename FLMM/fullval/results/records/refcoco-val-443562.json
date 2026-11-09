@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-443562",
+  "sample_hash": "f8f9fe994353f46a320171f224f2c64735e364d2081aafb1a454f01b2f71111f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 443562,
+  "dataset_index": 209,
+  "expressions": [
+    {
+      "image_id": 443562,
+      "dataset_index": 209,
+      "ref_id": 12096,
+      "sent_id": 34424,
+      "expression": "left person",
+      "mask_id": 0,
+      "annotation_id": 499513,
+      "prediction_id": "refcoco-val-443562:0",
+      "gt_segmentation_sha256": "a2d30d70a77bfa962e33663c0eadc255112d16fdaf7c848f4a208d79783fbc5a",
+      "category_id": 1
+    },
+    {
+      "image_id": 443562,
+      "dataset_index": 209,
+      "ref_id": 12097,
+      "sent_id": 34427,
+      "expression": "bo legged guy in center",
+      "mask_id": 1,
+      "annotation_id": 484976,
+      "prediction_id": "refcoco-val-443562:1",
+      "gt_segmentation_sha256": "08e7651132879b9445474ef635b3909fd09229366be210b0c2161e0ce11b7525",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    13451,
+    14000
+  ],
+  "union": [
+    15598,
+    16232
+  ],
+  "mask_file": "refcoco-val-443562.npz",
+  "mask_sha256": "1d02734d85260e21b2f3c35a60ae4205f9e36968e63010975feaf7876658e83b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.015549452999948699,
+    "inference_s": 2.229028739000114,
+    "postprocess_s": 0.0016968549998637172,
+    "amortized_inference_s_per_selected_expression": 1.114514369500057,
+    "mask_write_s": 0.012595825000062177
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818289152,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 5074,
+  "stage_created": "full-validation",
+  "record_hash": "d77114bb05d7b9f98077128e63d155d5540e4c451677619aa5da2b663e7213f5",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

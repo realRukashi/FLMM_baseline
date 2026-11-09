@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-286116",
+  "sample_hash": "8db7f7b7aee174a1b9a1ffadec389060ed49c9d95ae446e424ecb7ff605e9ad5",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 286116,
+  "dataset_index": 1402,
+  "expressions": [
+    {
+      "image_id": 286116,
+      "dataset_index": 1402,
+      "ref_id": 25735,
+      "sent_id": 73165,
+      "expression": "woman on right",
+      "mask_id": 0,
+      "annotation_id": 1761694,
+      "prediction_id": "refcoco-val-286116:0",
+      "gt_segmentation_sha256": "b01c364cc59a86de5581818ca31aef884040db4ac8cee61755538e5a50ec328d",
+      "category_id": 1
+    },
+    {
+      "image_id": 286116,
+      "dataset_index": 1402,
+      "ref_id": 25736,
+      "sent_id": 73168,
+      "expression": "the girl on the left",
+      "mask_id": 1,
+      "annotation_id": 1757469,
+      "prediction_id": "refcoco-val-286116:1",
+      "gt_segmentation_sha256": "72bd28b46de1f26a64c4ec5f7808dde30df25a08a44b9359936ecb30e1ffba5f",
+      "category_id": 1
+    },
+    {
+      "image_id": 286116,
+      "dataset_index": 1402,
+      "ref_id": 25737,
+      "sent_id": 73170,
+      "expression": "far right monitor",
+      "mask_id": 2,
+      "annotation_id": 1101403,
+      "prediction_id": "refcoco-val-286116:2",
+      "gt_segmentation_sha256": "201fa1780d602d124fd25d815b27179fc8e53913770b705781c5d68fdad5f8c7",
+      "category_id": 73
+    },
+    {
+      "image_id": 286116,
+      "dataset_index": 1402,
+      "ref_id": 25738,
+      "sent_id": 73173,
+      "expression": "laptop in center",
+      "mask_id": 3,
+      "annotation_id": 1100954,
+      "prediction_id": "refcoco-val-286116:3",
+      "gt_segmentation_sha256": "75e70f2b1aee5b5c16a0d506fa3042dc953687c859e5afb522974ad3546acc8c",
+      "category_id": 73
+    }
+  ],
+  "intersection": [
+    28683,
+    17327,
+    10412,
+    15677
+  ],
+  "union": [
+    30750,
+    21375,
+    11193,
+    19984
+  ],
+  "mask_file": "refcoco-val-286116.npz",
+  "mask_sha256": "39ce020c56e63101929c5b4c4620c41ce4c6b99ce85a54d4e3622cf34addec10",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.015352235000136716,
+    "inference_s": 2.1834494700001414,
+    "postprocess_s": 0.0025777119999474962,
+    "amortized_inference_s_per_selected_expression": 0.5458623675000354,
+    "mask_write_s": 0.020605810000006386
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826841600,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448030208,
+    "ram_rss_bytes": 6297788416
+  },
+  "output_bytes": 8668,
+  "stage_created": "full-validation",
+  "record_hash": "87cd2e71e8cebd58ee42446d5f062819f287a64986fce9a9490189db6c7a6a64",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

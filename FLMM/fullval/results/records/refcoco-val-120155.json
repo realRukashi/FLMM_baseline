@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-120155",
+  "sample_hash": "b0c4069e63798294d13de520fdde5d9657d39b4c4ac35fe20cec5e6c5a73ffa7",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 120155,
+  "dataset_index": 1003,
+  "expressions": [
+    {
+      "image_id": 120155,
+      "dataset_index": 1003,
+      "ref_id": 39662,
+      "sent_id": 112776,
+      "expression": "blue area right in front of kids face",
+      "mask_id": 0,
+      "annotation_id": 1238938,
+      "prediction_id": "refcoco-val-120155:0",
+      "gt_segmentation_sha256": "087315cf1cdef709faf0d8fc4a4a7fd31cdbd5567312e3db37b9e436fc963965",
+      "category_id": 1
+    },
+    {
+      "image_id": 120155,
+      "dataset_index": 1003,
+      "ref_id": 39663,
+      "sent_id": 112778,
+      "expression": "backgroun boy wjhite shirt",
+      "mask_id": 1,
+      "annotation_id": 505681,
+      "prediction_id": "refcoco-val-120155:1",
+      "gt_segmentation_sha256": "a3d48a96c3e929d711d988abb5b05507fd0dedfc5d006ea2dd8499695d936405",
+      "category_id": 1
+    },
+    {
+      "image_id": 120155,
+      "dataset_index": 1003,
+      "ref_id": 39664,
+      "sent_id": 112781,
+      "expression": "boy",
+      "mask_id": 2,
+      "annotation_id": 429994,
+      "prediction_id": "refcoco-val-120155:2",
+      "gt_segmentation_sha256": "2cf9b1da6962b34211745d11070ec0de913e6165a546d44f36f7ea219d3127cf",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    0,
+    9498,
+    71920
+  ],
+  "union": [
+    32828,
+    14898,
+    81503
+  ],
+  "mask_file": "refcoco-val-120155.npz",
+  "mask_sha256": "85385ece6a9fc82c012db5abc744d4eeacb807e8f58a8664d271bd3d7057e1fd",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.01783951499999148,
+    "inference_s": 1.8929993819999709,
+    "postprocess_s": 0.0019675019999567667,
+    "amortized_inference_s_per_selected_expression": 0.6309997939999903,
+    "mask_write_s": 0.018405532999963725
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822647808,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6300282880
+  },
+  "output_bytes": 12476,
+  "stage_created": "full-validation",
+  "record_hash": "f8c7af3a1ac77d0052341c1b96c6882ae4701dd979cb5f462faf91fb318ccb06",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

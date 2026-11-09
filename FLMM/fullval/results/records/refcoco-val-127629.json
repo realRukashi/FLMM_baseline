@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-127629",
+  "sample_hash": "be439cd24813e43e441c8cf628191ef70550e15de52702622e87884843854f4a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 127629,
+  "dataset_index": 851,
+  "expressions": [
+    {
+      "image_id": 127629,
+      "dataset_index": 851,
+      "ref_id": 38982,
+      "sent_id": 110848,
+      "expression": "guy without mitt",
+      "mask_id": 0,
+      "annotation_id": 515269,
+      "prediction_id": "refcoco-val-127629:0",
+      "gt_segmentation_sha256": "c6c417f19695e89d33ab23338373dbb493fd48550e88b32f9f21fa1da284b70a",
+      "category_id": 1
+    },
+    {
+      "image_id": 127629,
+      "dataset_index": 851,
+      "ref_id": 38983,
+      "sent_id": 110851,
+      "expression": "the player on the right with glove",
+      "mask_id": 1,
+      "annotation_id": 514551,
+      "prediction_id": "refcoco-val-127629:1",
+      "gt_segmentation_sha256": "4ad7af50a91b98076f3f8430639030b27a575ddd27a884f92deeba28586047e1",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    63552,
+    61476
+  ],
+  "union": [
+    67952,
+    64838
+  ],
+  "mask_file": "refcoco-val-127629.npz",
+  "mask_sha256": "1716783d757374f5b56d94421c70cce45e2e747429d1722d8c07f1be75e6fd8e",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014284707999991042,
+    "inference_s": 2.2814586840000857,
+    "postprocess_s": 0.0018381989999625148,
+    "amortized_inference_s_per_selected_expression": 1.1407293420000428,
+    "mask_write_s": 0.023119821000022966
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820496384,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446284288,
+    "ram_rss_bytes": 6295236608
+  },
+  "output_bytes": 10790,
+  "stage_created": "full-validation",
+  "record_hash": "b3047fb980185beaebec855097efecbd7bf11f5c01fd8571dd1db5acbd624ab2",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

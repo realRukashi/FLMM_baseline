@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-62038",
+  "sample_hash": "0c9ac30af4d77dc972a1f571d3ecf2d3a7aa28b754e766ed05e8c7b42cfab087",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 62038,
+  "dataset_index": 842,
+  "expressions": [
+    {
+      "image_id": 62038,
+      "dataset_index": 842,
+      "ref_id": 44563,
+      "sent_id": 126706,
+      "expression": "center wine glass - tiny amount of dark wine",
+      "mask_id": 0,
+      "annotation_id": 666110,
+      "prediction_id": "refcoco-val-62038:0",
+      "gt_segmentation_sha256": "677f8acd1d4e2e98330f9612f0da6159e6f5afeaf9a50ad121eedde900319ac0",
+      "category_id": 46
+    },
+    {
+      "image_id": 62038,
+      "dataset_index": 842,
+      "ref_id": 44564,
+      "sent_id": 126709,
+      "expression": "wine glass behind the nearest glass",
+      "mask_id": 1,
+      "annotation_id": 664480,
+      "prediction_id": "refcoco-val-62038:1",
+      "gt_segmentation_sha256": "27414cb544324dca5e23b4ac7da3ee90df37ad76615ea9bfb697dcf040584fc5",
+      "category_id": 46
+    },
+    {
+      "image_id": 62038,
+      "dataset_index": 842,
+      "ref_id": 44565,
+      "sent_id": 126711,
+      "expression": "the closest wine glass",
+      "mask_id": 2,
+      "annotation_id": 662738,
+      "prediction_id": "refcoco-val-62038:2",
+      "gt_segmentation_sha256": "0280168581c178b47b884ae5c954ec332b283cb83da0856fe114c01322596223",
+      "category_id": 46
+    }
+  ],
+  "intersection": [
+    10130,
+    7373,
+    46167
+  ],
+  "union": [
+    12666,
+    23717,
+    50599
+  ],
+  "mask_file": "refcoco-val-62038.npz",
+  "mask_sha256": "14cff91aed397d7fc3f1574ec429b55a5930ece00c0083632bd7839a75263e52",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.016769420000059654,
+    "inference_s": 2.4059242310000855,
+    "postprocess_s": 0.002516930000069806,
+    "amortized_inference_s_per_selected_expression": 0.8019747436666952,
+    "mask_write_s": 0.021032439999999042
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824400384,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447354368,
+    "ram_rss_bytes": 6295609344
+  },
+  "output_bytes": 9447,
+  "stage_created": "full-validation",
+  "record_hash": "cb272a7bca1f264467c8f898620d87093086198b292295473461b81742ed9504",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

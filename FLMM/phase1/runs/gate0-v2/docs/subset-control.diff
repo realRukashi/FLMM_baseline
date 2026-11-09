@@ -1,0 +1,38 @@
+--- subset-evaluator.py
++++ subset-controlled.py
+@@ -43,7 +43,7 @@
+     # output the messages only on the main process with accelerator.print()
+     accelerator.print(messages)
+ 
+-    cfg = Config.fromfile(args.config)
++    cfg = SHARED_CFG
+     prompt_template = cfg.prompt_template
+     tokenizer = cfg.tokenizer
+     image_processor = cfg.image_processor
+@@ -51,7 +51,7 @@
+     torch.backends.cuda.enable_flash_sdp(False)
+     torch.backends.cuda.enable_mem_efficient_sdp(False)
+     torch.backends.cuda.enable_math_sdp(True)
+-    model = BUILDER.build(cfg.model)
++    model = SHARED_MODEL
+ 
+     if args.checkpoint is not None:
+         state_dict = guess_load_checkpoint(args.checkpoint)
+@@ -124,7 +124,7 @@
+     for name, subset in refcoco_subsets.items():
+         accelerator.print(f"Start evaluating {name}")
+         dataset = RefCocoDataset(
+-            data_root='data/coco/',
++            data_root='/kaggle/input/notebooks/hoofngocjhuy/flmm-phase1-cache/cache/data/coco',
+             data_prefix=dict(img_path='train2014/'),
+             text_mode='select_first',
+             pipeline=test_pipeline,
+@@ -133,7 +133,7 @@
+         # sync GPUs and start the timer
+         accelerator.wait_for_everyone()
+ 
+-        data_ids = list(range(len(dataset)))
++        data_ids = REGRESSION_INDICES
+         if args.debug:
+             data_ids = data_ids[:100]
+ 

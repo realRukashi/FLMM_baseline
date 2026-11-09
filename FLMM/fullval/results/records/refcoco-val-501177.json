@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-501177",
+  "sample_hash": "e00e6fadabc865ac098e37fcc186c00dfadc1e6b3ec1edd7af9acee452ecf42a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 501177,
+  "dataset_index": 260,
+  "expressions": [
+    {
+      "image_id": 501177,
+      "dataset_index": 260,
+      "ref_id": 7053,
+      "sent_id": 20082,
+      "expression": "kid with crap eating grin",
+      "mask_id": 0,
+      "annotation_id": 513811,
+      "prediction_id": "refcoco-val-501177:0",
+      "gt_segmentation_sha256": "ae853ca09e8dfb02926a972ffc00c85c706361898d6c3c93a39bb43d731cdce3",
+      "category_id": 1
+    },
+    {
+      "image_id": 501177,
+      "dataset_index": 260,
+      "ref_id": 7054,
+      "sent_id": 20085,
+      "expression": "bald man on left",
+      "mask_id": 1,
+      "annotation_id": 513015,
+      "prediction_id": "refcoco-val-501177:1",
+      "gt_segmentation_sha256": "11a06ca53acadc661ad13206e992d037e7abb5331b0dd5e5bca91ae83a2429d6",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    225669,
+    32859
+  ],
+  "union": [
+    241077,
+    41759
+  ],
+  "mask_file": "refcoco-val-501177.npz",
+  "mask_sha256": "92e173147ed170e378d504d5dee6dc70c2e6e18ff897060d980577fe08aa469c",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.017737252999950215,
+    "inference_s": 2.7263482600001225,
+    "postprocess_s": 0.0023521019998042902,
+    "amortized_inference_s_per_selected_expression": 1.3631741300000613,
+    "mask_write_s": 0.026342374000023483
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824368640,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447219200,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 11152,
+  "stage_created": "full-validation",
+  "record_hash": "da3d34a63b36a0a3464717e67ccc6bb931cb2ad8361d768a396a28aa7e437a8c",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

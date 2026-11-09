@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-383605",
+  "sample_hash": "c2e15473d175bbd6cf0b6f9c21f3982777f62a2d857d76f41f434971f8be11cf",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 383605,
+  "dataset_index": 1243,
+  "expressions": [
+    {
+      "image_id": 383605,
+      "dataset_index": 1243,
+      "ref_id": 17225,
+      "sent_id": 49008,
+      "expression": "baseball player in red shirt to right of batter",
+      "mask_id": 0,
+      "annotation_id": 503399,
+      "prediction_id": "refcoco-val-383605:0",
+      "gt_segmentation_sha256": "e7dada4ec75e350203a2de966404a913ae0162c326d3b9821dc8d9d18830c6df",
+      "category_id": 1
+    },
+    {
+      "image_id": 383605,
+      "dataset_index": 1243,
+      "ref_id": 17226,
+      "sent_id": 49011,
+      "expression": "batter",
+      "mask_id": 1,
+      "annotation_id": 486176,
+      "prediction_id": "refcoco-val-383605:1",
+      "gt_segmentation_sha256": "4c344d24fff025725b8198cc3b2a397fd7d56793adfc486e87a0ed3c888c2fb9",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10524,
+    42955
+  ],
+  "union": [
+    11836,
+    49342
+  ],
+  "mask_file": "refcoco-val-383605.npz",
+  "mask_sha256": "6ddecfe5315014ebab4bf47af70c0daffe1ea509a7a7600286f231d98e3b5fed",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013239114000043628,
+    "inference_s": 2.425804538999955,
+    "postprocess_s": 0.001428992000001017,
+    "amortized_inference_s_per_selected_expression": 1.2129022694999776,
+    "mask_write_s": 0.01245027099980689
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818104832,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6300700672
+  },
+  "output_bytes": 7934,
+  "stage_created": "full-validation",
+  "record_hash": "56e980f7a16b92d384fa99340f025998ce1ac0b3d4f3605408c523af18eebbae",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

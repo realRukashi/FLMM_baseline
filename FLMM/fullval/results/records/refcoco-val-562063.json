@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-562063",
+  "sample_hash": "879fb6e264085d91db582a9d756998d235cd90ee031702cb58b09022a4bc6dc2",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 562063,
+  "dataset_index": 905,
+  "expressions": [
+    {
+      "image_id": 562063,
+      "dataset_index": 905,
+      "ref_id": 1799,
+      "sent_id": 5139,
+      "expression": "woman on left standing",
+      "mask_id": 0,
+      "annotation_id": 1269751,
+      "prediction_id": "refcoco-val-562063:0",
+      "gt_segmentation_sha256": "e0705a7ef2a0d913a0ba61d2825a84600c2b8a59071141bbe4be88262fda22ed",
+      "category_id": 1
+    },
+    {
+      "image_id": 562063,
+      "dataset_index": 905,
+      "ref_id": 1800,
+      "sent_id": 5142,
+      "expression": "a lady with a black swim suit holding a unbrella on the beach",
+      "mask_id": 1,
+      "annotation_id": 454257,
+      "prediction_id": "refcoco-val-562063:1",
+      "gt_segmentation_sha256": "b7fa047e0325b6bbaaab499a457d531f0b17b4202a23638905f262a1591e0aaa",
+      "category_id": 1
+    },
+    {
+      "image_id": 562063,
+      "dataset_index": 905,
+      "ref_id": 1801,
+      "sent_id": 5145,
+      "expression": "woman in front",
+      "mask_id": 2,
+      "annotation_id": 434937,
+      "prediction_id": "refcoco-val-562063:2",
+      "gt_segmentation_sha256": "45cf61adb7fe4a284ad19cc657f9f0ded60ac37dde92496bc962751a8c13f99a",
+      "category_id": 1
+    },
+    {
+      "image_id": 562063,
+      "dataset_index": 905,
+      "ref_id": 1802,
+      "sent_id": 5148,
+      "expression": "women sitting down's umbrella",
+      "mask_id": 3,
+      "annotation_id": 287188,
+      "prediction_id": "refcoco-val-562063:3",
+      "gt_segmentation_sha256": "bce9115b0cb755607fc3a0656259c46d709f7fb08cbaccb2b1b5235c21dbc0b7",
+      "category_id": 28
+    },
+    {
+      "image_id": 562063,
+      "dataset_index": 905,
+      "ref_id": 1803,
+      "sent_id": 5151,
+      "expression": "rt umbrella",
+      "mask_id": 4,
+      "annotation_id": 286973,
+      "prediction_id": "refcoco-val-562063:4",
+      "gt_segmentation_sha256": "4ca6bcdc6224b81ababf43488786c8c083102879a8f778cc491e84f47f6ad059",
+      "category_id": 28
+    },
+    {
+      "image_id": 562063,
+      "dataset_index": 905,
+      "ref_id": 1804,
+      "sent_id": 5154,
+      "expression": "top left umbrella",
+      "mask_id": 5,
+      "annotation_id": 281181,
+      "prediction_id": "refcoco-val-562063:5",
+      "gt_segmentation_sha256": "5286a30385f3a9c00c4fd3be148960e3c0877359a723c72388de5ec5981120be",
+      "category_id": 28
+    }
+  ],
+  "intersection": [
+    9610,
+    0,
+    17728,
+    11741,
+    10747,
+    9322
+  ],
+  "union": [
+    11752,
+    27546,
+    19960,
+    14085,
+    11528,
+    11479
+  ],
+  "mask_file": "refcoco-val-562063.npz",
+  "mask_sha256": "99fbd7caf4f4137383cc55afd5a7cfd3bd9a35f3d451868d2f1ca5bcde9f9eed",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.019496005000064542,
+    "inference_s": 2.356914446000019,
+    "postprocess_s": 0.0044908320001013635,
+    "amortized_inference_s_per_selected_expression": 0.39281907433333646,
+    "mask_write_s": 0.025844833000064682
+  },
+  "memory": {
+    "peak_allocated_bytes": 8838166528,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5450856448,
+    "ram_rss_bytes": 6295310336
+  },
+  "output_bytes": 13254,
+  "stage_created": "full-validation",
+  "record_hash": "3bad044234f270bc7781e055f93c8998b76f75fe3d297070bd74b98d4ca6c76c",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

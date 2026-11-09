@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-119534",
+  "sample_hash": "548154626fd49f3f0ab7f56345e0c7966d85ab6f7918f0ad5085ef69b417ec5f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 119534,
+  "dataset_index": 873,
+  "expressions": [
+    {
+      "image_id": 119534,
+      "dataset_index": 873,
+      "ref_id": 39730,
+      "sent_id": 112969,
+      "expression": "campbells tomato juice can",
+      "mask_id": 0,
+      "annotation_id": 2095739,
+      "prediction_id": "refcoco-val-119534:0",
+      "gt_segmentation_sha256": "559e3a4b366be31270622de61c8ceb790083f2a93542033cd2778b8a2c73815d",
+      "category_id": 44
+    },
+    {
+      "image_id": 119534,
+      "dataset_index": 873,
+      "ref_id": 39731,
+      "sent_id": 112971,
+      "expression": "nd shamrock on right (sign)",
+      "mask_id": 1,
+      "annotation_id": 682596,
+      "prediction_id": "refcoco-val-119534:1",
+      "gt_segmentation_sha256": "56459e645ac5cb3f412aee1ca068432aea148eda74caffa28440215211b460e8",
+      "category_id": 47
+    },
+    {
+      "image_id": 119534,
+      "dataset_index": 873,
+      "ref_id": 39732,
+      "sent_id": 112974,
+      "expression": "curly's mug, with his mug on it",
+      "mask_id": 2,
+      "annotation_id": 681707,
+      "prediction_id": "refcoco-val-119534:2",
+      "gt_segmentation_sha256": "33dc03b05c0cbe39dc02953bc7cbd96d7eae9a3ee44798930f8ae24f40394c19",
+      "category_id": 47
+    },
+    {
+      "image_id": 119534,
+      "dataset_index": 873,
+      "ref_id": 39733,
+      "sent_id": 112977,
+      "expression": "smirnoff",
+      "mask_id": 3,
+      "annotation_id": 83412,
+      "prediction_id": "refcoco-val-119534:3",
+      "gt_segmentation_sha256": "376277e560b07ca03cd83dc427aa60b31360b7a1ab85f70a73fd0a47f47cc6cb",
+      "category_id": 44
+    }
+  ],
+  "intersection": [
+    15001,
+    30588,
+    46613,
+    20579
+  ],
+  "union": [
+    18511,
+    33568,
+    49684,
+    41159
+  ],
+  "mask_file": "refcoco-val-119534.npz",
+  "mask_sha256": "159bd55d3badf6e3586738d03aba52384a3bd51b95f069bae71202ef3ae6b35b",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.015732614999933503,
+    "inference_s": 2.3275612880001972,
+    "postprocess_s": 0.003141368999877159,
+    "amortized_inference_s_per_selected_expression": 0.5818903220000493,
+    "mask_write_s": 0.027965494000000035
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829464064,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6295310336
+  },
+  "output_bytes": 12488,
+  "stage_created": "full-validation",
+  "record_hash": "7ae72c4de76fd48d185134f52469901f75805af62ceae86facd0fff3a2d1a3c5",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

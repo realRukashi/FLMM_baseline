@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-89921",
+  "sample_hash": "5db749da268c0ccf8f74bc449a84e7f300941731e0f5c70d50bbf5de086ce921",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 89921,
+  "dataset_index": 1468,
+  "expressions": [
+    {
+      "image_id": 89921,
+      "dataset_index": 1468,
+      "ref_id": 42182,
+      "sent_id": 119928,
+      "expression": "the third person from the left in the blue shirt",
+      "mask_id": 0,
+      "annotation_id": 1723959,
+      "prediction_id": "refcoco-val-89921:0",
+      "gt_segmentation_sha256": "4a4655566aac3540b89e65d6090a174c206e7f6c1ea5f8b68d751fe99a61f093",
+      "category_id": 1
+    },
+    {
+      "image_id": 89921,
+      "dataset_index": 1468,
+      "ref_id": 42183,
+      "sent_id": 119931,
+      "expression": "the second person from the left",
+      "mask_id": 1,
+      "annotation_id": 568251,
+      "prediction_id": "refcoco-val-89921:1",
+      "gt_segmentation_sha256": "5844f87637c8b52ec3e3bb2708ce905e115142aa53a141c27b7f6a09d5babc4e",
+      "category_id": 1
+    },
+    {
+      "image_id": 89921,
+      "dataset_index": 1468,
+      "ref_id": 42184,
+      "sent_id": 119934,
+      "expression": "girl on right",
+      "mask_id": 2,
+      "annotation_id": 502171,
+      "prediction_id": "refcoco-val-89921:2",
+      "gt_segmentation_sha256": "bad17580add544c111334eceb09c3ef7619e79ce40bf6668a863693a4af684e4",
+      "category_id": 1
+    },
+    {
+      "image_id": 89921,
+      "dataset_index": 1468,
+      "ref_id": 42185,
+      "sent_id": 119937,
+      "expression": "a girl standing on a metallic pedestal .",
+      "mask_id": 3,
+      "annotation_id": 455223,
+      "prediction_id": "refcoco-val-89921:3",
+      "gt_segmentation_sha256": "fbbdd49f0d938cea6cab512be7df58fc9ebdd181b1e64a75f2d918ca5182781b",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    13507,
+    0,
+    10036,
+    10237
+  ],
+  "union": [
+    15097,
+    28881,
+    11649,
+    12219
+  ],
+  "mask_file": "refcoco-val-89921.npz",
+  "mask_sha256": "a5c74a50d44204a0c2e4397b5a6362afa1dde0f38f083e46e32ab24bac2bfeeb",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.019843046000005415,
+    "inference_s": 2.1978255770000032,
+    "postprocess_s": 0.002923772000031022,
+    "amortized_inference_s_per_selected_expression": 0.5494563942500008,
+    "mask_write_s": 0.01911803199982387
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829250048,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6297899008
+  },
+  "output_bytes": 9514,
+  "stage_created": "full-validation",
+  "record_hash": "dd80a76fedbe58e83baa9149382c60834d85d2e24ea4329d31431c45a281d1e2",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

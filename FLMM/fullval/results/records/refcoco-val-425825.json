@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-425825",
+  "sample_hash": "a740ec64d1779dba18f683f5e911af73b647c394dfd6423e737d2a25a0f069cd",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 425825,
+  "dataset_index": 1471,
+  "expressions": [
+    {
+      "image_id": 425825,
+      "dataset_index": 1471,
+      "ref_id": 13589,
+      "sent_id": 38666,
+      "expression": "black refrigerator next to the silver one",
+      "mask_id": 0,
+      "annotation_id": 2140958,
+      "prediction_id": "refcoco-val-425825:0",
+      "gt_segmentation_sha256": "b3b66bfc02ff3f27d4cb355cc2e36080f75dd8243d5354621f53e45ca3a28515",
+      "category_id": 82
+    },
+    {
+      "image_id": 425825,
+      "dataset_index": 1471,
+      "ref_id": 13590,
+      "sent_id": 38669,
+      "expression": "the giant refrigerator",
+      "mask_id": 1,
+      "annotation_id": 333498,
+      "prediction_id": "refcoco-val-425825:1",
+      "gt_segmentation_sha256": "d021507a330e1640461b60a852e1febcc9a4cf6f4aa1e515c00c9cd77fb3c231",
+      "category_id": 82
+    }
+  ],
+  "intersection": [
+    22080,
+    191566
+  ],
+  "union": [
+    23155,
+    194562
+  ],
+  "mask_file": "refcoco-val-425825.npz",
+  "mask_sha256": "cdf06c2b9b3d29b045848ca5ad6056e843c21cb516d56e30746a5a9ea8c4a741",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016042218999928082,
+    "inference_s": 2.4107556339999974,
+    "postprocess_s": 0.0013252950000151031,
+    "amortized_inference_s_per_selected_expression": 1.2053778169999987,
+    "mask_write_s": 0.013502603000006275
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818155008,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445853184,
+    "ram_rss_bytes": 6301458432
+  },
+  "output_bytes": 6937,
+  "stage_created": "full-validation",
+  "record_hash": "7ee9453cf330a10f03e958ecf7dd41416b665983fe9a3e8c98f28f62768d7722",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

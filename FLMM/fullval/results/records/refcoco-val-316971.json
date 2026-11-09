@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-316971",
+  "sample_hash": "7253e5fcc55a7616dc43b0fd739a015f153d3dc80ce07764a0f1bcef3eb3b646",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 316971,
+  "dataset_index": 1038,
+  "expressions": [
+    {
+      "image_id": 316971,
+      "dataset_index": 1038,
+      "ref_id": 23046,
+      "sent_id": 65535,
+      "expression": "woman on top left tennis player",
+      "mask_id": 0,
+      "annotation_id": 1216553,
+      "prediction_id": "refcoco-val-316971:0",
+      "gt_segmentation_sha256": "7151e7fdb846e59f0778c9e499545b51f848957339561262154545e7a652ec45",
+      "category_id": 1
+    },
+    {
+      "image_id": 316971,
+      "dataset_index": 1038,
+      "ref_id": 23047,
+      "sent_id": 65538,
+      "expression": "front woman",
+      "mask_id": 1,
+      "annotation_id": 1208733,
+      "prediction_id": "refcoco-val-316971:1",
+      "gt_segmentation_sha256": "529c165db5e47cfc5d761b57928216c6b85ab675cd9c916c520c18cb92a03d63",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    18461,
+    56320
+  ],
+  "union": [
+    21479,
+    69573
+  ],
+  "mask_file": "refcoco-val-316971.npz",
+  "mask_sha256": "3c253c22b8d0ca7d22c2050d737f3ae741b1cde38c265e6fb9cb4381b2a783db",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.015415636999932758,
+    "inference_s": 1.9203941389999954,
+    "postprocess_s": 0.0018802170000071783,
+    "amortized_inference_s_per_selected_expression": 0.9601970694999977,
+    "mask_write_s": 0.018030720000069778
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822671872,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5447227392,
+    "ram_rss_bytes": 6296698880
+  },
+  "output_bytes": 10447,
+  "stage_created": "full-validation",
+  "record_hash": "326199a4a6683df7aaf55808d1dc70d1020062d58c700e53afd1d5e30f3e33f2",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-163394",
+  "sample_hash": "3cd44e100c77086a3b41ba5019eb143aa441aecd0dc9fa56a475bc6d2d9ec002",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 163394,
+  "dataset_index": 1431,
+  "expressions": [
+    {
+      "image_id": 163394,
+      "dataset_index": 1431,
+      "ref_id": 36016,
+      "sent_id": 102448,
+      "expression": "the part of the suitcase the mischievous cat is about to jump into",
+      "mask_id": 0,
+      "annotation_id": 1445945,
+      "prediction_id": "refcoco-val-163394:0",
+      "gt_segmentation_sha256": "118995be46e92b336a1b69ac6d20c112c7b6150fc86230a8400c1f208b2daef0",
+      "category_id": 33
+    },
+    {
+      "image_id": 163394,
+      "dataset_index": 1431,
+      "ref_id": 36017,
+      "sent_id": 102451,
+      "expression": "part of suitcase that cat is sitting in",
+      "mask_id": 1,
+      "annotation_id": 1183229,
+      "prediction_id": "refcoco-val-163394:1",
+      "gt_segmentation_sha256": "96a0eb9dee7e4e200428d803c61659ef56f8e15c7e60374533fdcf24ce0946c5",
+      "category_id": 33
+    }
+  ],
+  "intersection": [
+    4419,
+    50
+  ],
+  "union": [
+    134100,
+    103557
+  ],
+  "mask_file": "refcoco-val-163394.npz",
+  "mask_sha256": "fc14a0ead201c95f028187e00b09ebb6b63c82f646a8671bfbe67754325bb74b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.020582215999866094,
+    "inference_s": 2.434807444999933,
+    "postprocess_s": 0.0019662899999275396,
+    "amortized_inference_s_per_selected_expression": 1.2174037224999665,
+    "mask_write_s": 0.018452389999993102
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824324096,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6301458432
+  },
+  "output_bytes": 10157,
+  "stage_created": "full-validation",
+  "record_hash": "2eebe64c86342fd69c4de8e590dfafffda288e02d108ce28b46e41ebe1c8fe34",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-417220",
+  "sample_hash": "7082964d2d40064aa15c5cddafab13c5e767e5ed1fa8d3ba21faa597577716ac",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 417220,
+  "dataset_index": 1413,
+  "expressions": [
+    {
+      "image_id": 417220,
+      "dataset_index": 1413,
+      "ref_id": 14331,
+      "sent_id": 40790,
+      "expression": "purple chest",
+      "mask_id": 0,
+      "annotation_id": 1186999,
+      "prediction_id": "refcoco-val-417220:0",
+      "gt_segmentation_sha256": "69d310cf74cdc919ea55e6bacc57caddfa8523d3396507e6da8fa10573ba52df",
+      "category_id": 33
+    },
+    {
+      "image_id": 417220,
+      "dataset_index": 1413,
+      "ref_id": 14332,
+      "sent_id": 40793,
+      "expression": "the gray trunk on top of pink suitcase",
+      "mask_id": 1,
+      "annotation_id": 1185116,
+      "prediction_id": "refcoco-val-417220:1",
+      "gt_segmentation_sha256": "21170344a07b89107bc2239dc884b98d53cd276e640723e7a676813ef9994fef",
+      "category_id": 33
+    }
+  ],
+  "intersection": [
+    0,
+    15222
+  ],
+  "union": [
+    31870,
+    17606
+  ],
+  "mask_file": "refcoco-val-417220.npz",
+  "mask_sha256": "28f4c0af55b85d4526b1ed8eaba4aca4db0714a41b42b513a03ee0c1afdc8395",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014230459999907907,
+    "inference_s": 2.4184846249997918,
+    "postprocess_s": 0.0017151170000033744,
+    "amortized_inference_s_per_selected_expression": 1.2092423124998959,
+    "mask_write_s": 0.015423730999827967
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820428288,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6301450240
+  },
+  "output_bytes": 4617,
+  "stage_created": "full-validation",
+  "record_hash": "60e2b5b008becdd25bbd1e7ca4458e531b6cae501bcc24e7d90745ff4da46162",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

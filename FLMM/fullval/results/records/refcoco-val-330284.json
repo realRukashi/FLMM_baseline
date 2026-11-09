@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-330284",
+  "sample_hash": "cea2d9f8ab0f199227a8fd5b5c30e9f70fb9d45c69da26846bf77f7b1a50dfc9",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 330284,
+  "dataset_index": 479,
+  "expressions": [
+    {
+      "image_id": 330284,
+      "dataset_index": 479,
+      "ref_id": 21728,
+      "sent_id": 61796,
+      "expression": "full elephant on left",
+      "mask_id": 0,
+      "annotation_id": 582825,
+      "prediction_id": "refcoco-val-330284:0",
+      "gt_segmentation_sha256": "be44e6b57c1d184cfbe5a890b9f8e8fc7ad490303542d982bd8fcfc0e2ccbb67",
+      "category_id": 22
+    },
+    {
+      "image_id": 330284,
+      "dataset_index": 479,
+      "ref_id": 21729,
+      "sent_id": 61799,
+      "expression": "elephant the is in the back that is between another elephant and a waterfall",
+      "mask_id": 1,
+      "annotation_id": 582722,
+      "prediction_id": "refcoco-val-330284:1",
+      "gt_segmentation_sha256": "fa861719a2147221849195df0ad4a91d4b87f109fc2e4349f4d1a7e6f04828f9",
+      "category_id": 22
+    }
+  ],
+  "intersection": [
+    12127,
+    13858
+  ],
+  "union": [
+    13850,
+    15226
+  ],
+  "mask_file": "refcoco-val-330284.npz",
+  "mask_sha256": "551e06aea7c515336ceebe025bde9f3a1002de81ed3facec9141f574bb75d380",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.019129102999841052,
+    "inference_s": 2.224220943000091,
+    "postprocess_s": 0.0017665360001046793,
+    "amortized_inference_s_per_selected_expression": 1.1121104715000456,
+    "mask_write_s": 0.014603855000132171
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818416640,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 4539,
+  "stage_created": "full-validation",
+  "record_hash": "dfe6037f489bffae7432cdb30d729718978ce8c492b870326e58b07249a42547",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

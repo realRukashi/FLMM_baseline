@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-222209",
+  "sample_hash": "951d4903f34881d1f5e9f14b3844543fa91abffe493d3a59a035582ff0f736d8",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 222209,
+  "dataset_index": 189,
+  "expressions": [
+    {
+      "image_id": 222209,
+      "dataset_index": 189,
+      "ref_id": 31110,
+      "sent_id": 88472,
+      "expression": "food at the top of the plate on the bottom",
+      "mask_id": 0,
+      "annotation_id": 1073523,
+      "prediction_id": "refcoco-val-222209:0",
+      "gt_segmentation_sha256": "bb40fc555b757ec96d731dec9385a2f3de4322ccca6fe8f2d7965958e1729bcd",
+      "category_id": 59
+    },
+    {
+      "image_id": 222209,
+      "dataset_index": 189,
+      "ref_id": 31111,
+      "sent_id": 88475,
+      "expression": "bottom nasty food product",
+      "mask_id": 1,
+      "annotation_id": 1072296,
+      "prediction_id": "refcoco-val-222209:1",
+      "gt_segmentation_sha256": "a43a6e51355b4b34ee97500ac04e966d42bbb7b30ab9d272705798551ca0c314",
+      "category_id": 59
+    }
+  ],
+  "intersection": [
+    15635,
+    15121
+  ],
+  "union": [
+    16436,
+    16304
+  ],
+  "mask_file": "refcoco-val-222209.npz",
+  "mask_sha256": "f723ae13d8177b17cbbbcc9fabe050afe06be30f35808a19003592f41c91751f",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014881579000075362,
+    "inference_s": 2.235168756000121,
+    "postprocess_s": 0.001769060000015088,
+    "amortized_inference_s_per_selected_expression": 1.1175843780000605,
+    "mask_write_s": 0.016202865999957794
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818131456,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 3973,
+  "stage_created": "full-validation",
+  "record_hash": "3a296de395f9c08da13af9a209117b1b64e6aa796c15808b8c259b73a60bed92",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

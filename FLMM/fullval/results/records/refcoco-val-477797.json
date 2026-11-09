@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-477797",
+  "sample_hash": "b72b1faf72e6a1001e49dbc0134eee1845124e92cf5e9a83c79cf8e6ced3da4e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 477797,
+  "dataset_index": 490,
+  "expressions": [
+    {
+      "image_id": 477797,
+      "dataset_index": 490,
+      "ref_id": 9085,
+      "sent_id": 25877,
+      "expression": "left lower btes",
+      "mask_id": 0,
+      "annotation_id": 1089919,
+      "prediction_id": "refcoco-val-477797:0",
+      "gt_segmentation_sha256": "b199b547461655cb3cad5f8226d10a0a89984472746633e709d6570944fdbcff",
+      "category_id": 61
+    },
+    {
+      "image_id": 477797,
+      "dataset_index": 490,
+      "ref_id": 9086,
+      "sent_id": 25880,
+      "expression": "gray nearest us",
+      "mask_id": 1,
+      "annotation_id": 1089083,
+      "prediction_id": "refcoco-val-477797:1",
+      "gt_segmentation_sha256": "4276d17576f7b65441e33f7428d73d362fdcdebcdc598ba7fd1503fa68657422",
+      "category_id": 61
+    },
+    {
+      "image_id": 477797,
+      "dataset_index": 490,
+      "ref_id": 9087,
+      "sent_id": 25883,
+      "expression": "food in center of bottom plate",
+      "mask_id": 2,
+      "annotation_id": 1085574,
+      "prediction_id": "refcoco-val-477797:2",
+      "gt_segmentation_sha256": "a819bfa9ac659e4861bffc8deca3b7054ae66f0140a7fb4993b30bc0c542a0f4",
+      "category_id": 61
+    }
+  ],
+  "intersection": [
+    16397,
+    16440,
+    39394
+  ],
+  "union": [
+    30739,
+    42539,
+    50724
+  ],
+  "mask_file": "refcoco-val-477797.npz",
+  "mask_sha256": "e25ba2e702934199dc50252a9ebc5b3e0987daa020004e8366d1230bbacbffbd",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.015019428999949014,
+    "inference_s": 2.744906140999774,
+    "postprocess_s": 0.0021641650000674417,
+    "amortized_inference_s_per_selected_expression": 0.9149687136665913,
+    "mask_write_s": 0.022667471000204387
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824527872,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447710720,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 8549,
+  "stage_created": "full-validation",
+  "record_hash": "d66eca173ba0fab7f0f63a12bba61385be3e5d1440e84db35be7d5b6a039751b",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

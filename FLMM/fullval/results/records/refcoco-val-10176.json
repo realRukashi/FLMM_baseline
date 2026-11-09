@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-10176",
+  "sample_hash": "a3d1010c1643af5f4e23292f81155a8f5f5999fabad5c29a7bdef685638e5188",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 10176,
+  "dataset_index": 360,
+  "expressions": [
+    {
+      "image_id": 10176,
+      "dataset_index": 360,
+      "ref_id": 49173,
+      "sent_id": 139846,
+      "expression": "girl wearing black",
+      "mask_id": 0,
+      "annotation_id": 517372,
+      "prediction_id": "refcoco-val-10176:0",
+      "gt_segmentation_sha256": "29eb360ab07677d2cd0433e43319fd6c25512e0f59da66e4271e17391f37c28d",
+      "category_id": 1
+    },
+    {
+      "image_id": 10176,
+      "dataset_index": 360,
+      "ref_id": 49174,
+      "sent_id": 139849,
+      "expression": "stripe shirt",
+      "mask_id": 1,
+      "annotation_id": 459617,
+      "prediction_id": "refcoco-val-10176:1",
+      "gt_segmentation_sha256": "2918a81b3fa273391fa5b2e2321ac4f91d6c1e0becb0fcd965330dd5eb005964",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    16716,
+    33923
+  ],
+  "union": [
+    19735,
+    35951
+  ],
+  "mask_file": "refcoco-val-10176.npz",
+  "mask_sha256": "601d1e0f754790f7f9664681eee38cf1132c768acb7db8da4ae78916c7b6eb3d",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01600401799987594,
+    "inference_s": 2.719820152000011,
+    "postprocess_s": 0.0017382819999056665,
+    "amortized_inference_s_per_selected_expression": 1.3599100760000056,
+    "mask_write_s": 0.01463880699998299
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820863488,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6283124736
+  },
+  "output_bytes": 5845,
+  "stage_created": "full-validation",
+  "record_hash": "dfc8c1d1b45ea53b8c2951d6856f88b3be5761cfb0834a504408a4459cde63f6",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

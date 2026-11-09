@@ -1,0 +1,9 @@
+Using Python 3.10.22 environment at: /kaggle/temp/flmm-env
+Resolved 24 packages in 12.00s
+   Building deepspeed==0.14.2
+      Built deepspeed==0.14.2
+Prepared 3 packages in 6.21s
+Installed 3 packages in 20ms
+ + deepspeed==0.14.2
+ + nvidia-ml-py==13.615.71
+ + pynvml==13.0.1

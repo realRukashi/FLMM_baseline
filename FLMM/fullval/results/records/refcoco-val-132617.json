@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-132617",
+  "sample_hash": "2e30dae386349fafb630c8e5a133f7d2389edd22605b82c116972ac6727fa6eb",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 132617,
+  "dataset_index": 281,
+  "expressions": [
+    {
+      "image_id": 132617,
+      "dataset_index": 281,
+      "ref_id": 38525,
+      "sent_id": 109551,
+      "expression": "the chair on the far left that is empty",
+      "mask_id": 0,
+      "annotation_id": 1582571,
+      "prediction_id": "refcoco-val-132617:0",
+      "gt_segmentation_sha256": "188bcdf19fb3d3a6937d662f9ad3dedd717b8b108188136b8fed639c2bf64c11",
+      "category_id": 62
+    },
+    {
+      "image_id": 132617,
+      "dataset_index": 281,
+      "ref_id": 38526,
+      "sent_id": 109554,
+      "expression": "wooden part of chair",
+      "mask_id": 1,
+      "annotation_id": 108525,
+      "prediction_id": "refcoco-val-132617:1",
+      "gt_segmentation_sha256": "15c58f9fcf5cc2ff66f2038a19f6e8eea077cae4262bc80df0c8662dfa8ccd50",
+      "category_id": 62
+    }
+  ],
+  "intersection": [
+    9068,
+    18982
+  ],
+  "union": [
+    10734,
+    39800
+  ],
+  "mask_file": "refcoco-val-132617.npz",
+  "mask_sha256": "d7705ba6d5ee9cc6eb755149719ea03b8178145f1cea7524027bdf07649e135b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.018329932999904486,
+    "inference_s": 2.245517254000106,
+    "postprocess_s": 0.0020180359999812936,
+    "amortized_inference_s_per_selected_expression": 1.122758627000053,
+    "mask_write_s": 0.016066238000121302
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820377088,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 7689,
+  "stage_created": "full-validation",
+  "record_hash": "7f640b7dccf85bb25880e0a3395e9ae99a079efa3b55c0f2812e893cc3de84fd",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

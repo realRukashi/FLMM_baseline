@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-87248",
+  "sample_hash": "986969f5414df8e0acec9603763ac65ef9a6fbd3e4d4580ce0472410f2230240",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 87248,
+  "dataset_index": 976,
+  "expressions": [
+    {
+      "image_id": 87248,
+      "dataset_index": 976,
+      "ref_id": 42422,
+      "sent_id": 120612,
+      "expression": "pink shirt chick , left",
+      "mask_id": 0,
+      "annotation_id": 1743397,
+      "prediction_id": "refcoco-val-87248:0",
+      "gt_segmentation_sha256": "8833e03f0a9cc6f961622fee60f30bf3f8449a5ec87c3b8c85adfe229d0a6073",
+      "category_id": 1
+    },
+    {
+      "image_id": 87248,
+      "dataset_index": 976,
+      "ref_id": 42423,
+      "sent_id": 120615,
+      "expression": "girl far right with racquet",
+      "mask_id": 1,
+      "annotation_id": 1297647,
+      "prediction_id": "refcoco-val-87248:1",
+      "gt_segmentation_sha256": "cbba89e5007e6670c16d3a5a867951659cc509c9c4735f13ce53fc78c53ad0d7",
+      "category_id": 1
+    },
+    {
+      "image_id": 87248,
+      "dataset_index": 976,
+      "ref_id": 42424,
+      "sent_id": 120617,
+      "expression": "2nd kid from right",
+      "mask_id": 2,
+      "annotation_id": 1286421,
+      "prediction_id": "refcoco-val-87248:2",
+      "gt_segmentation_sha256": "aabc4313436177e7e9666ce694acd197a7898db11a34b78233e219b9e8565d08",
+      "category_id": 1
+    },
+    {
+      "image_id": 87248,
+      "dataset_index": 976,
+      "ref_id": 42425,
+      "sent_id": 120620,
+      "expression": "girl in denim jacekt",
+      "mask_id": 3,
+      "annotation_id": 1260096,
+      "prediction_id": "refcoco-val-87248:3",
+      "gt_segmentation_sha256": "72cf1292a1a5ea6f3d652ffc1e5637315e0a1c93a698fc66f9bb87ab2d22fd56",
+      "category_id": 1
+    },
+    {
+      "image_id": 87248,
+      "dataset_index": 976,
+      "ref_id": 42426,
+      "sent_id": 120623,
+      "expression": "white tshirt",
+      "mask_id": 4,
+      "annotation_id": 1229503,
+      "prediction_id": "refcoco-val-87248:4",
+      "gt_segmentation_sha256": "2dca20f988cb37aacd731cb07f2e2e503c2aa6a31c2fd8c90fd87f5115145d21",
+      "category_id": 1
+    },
+    {
+      "image_id": 87248,
+      "dataset_index": 976,
+      "ref_id": 42427,
+      "sent_id": 120626,
+      "expression": "left most child, in red",
+      "mask_id": 5,
+      "annotation_id": 1762097,
+      "prediction_id": "refcoco-val-87248:5",
+      "gt_segmentation_sha256": "a35b8806616336f59e16c2fe0d64076e14b5a095eaf50bb5ed7557320d9416b2",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    14530,
+    10091,
+    11760,
+    19663,
+    21030,
+    15302
+  ],
+  "union": [
+    21329,
+    15629,
+    18467,
+    21312,
+    23338,
+    17621
+  ],
+  "mask_file": "refcoco-val-87248.npz",
+  "mask_sha256": "a3590fc0ea8f7b38849838799705cb282c3b79d0030278e078dc14ef2d1ba3f1",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.01653582800008735,
+    "inference_s": 2.4595204510001167,
+    "postprocess_s": 0.003724956000041857,
+    "amortized_inference_s_per_selected_expression": 0.4099200751666861,
+    "mask_write_s": 0.025938618000054703
+  },
+  "memory": {
+    "peak_allocated_bytes": 8833139712,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5450291200,
+    "ram_rss_bytes": 6295838720
+  },
+  "output_bytes": 14879,
+  "stage_created": "full-validation",
+  "record_hash": "17e20d8d8e6a74446ea74c73757d6448f3ebfee179062ce0a011a2625b454c6b",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

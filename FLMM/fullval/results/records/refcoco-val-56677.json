@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-56677",
+  "sample_hash": "d44b16033ab9f55433c786449fe3940afa44ed5302b9547f129bfd8503966e28",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 56677,
+  "dataset_index": 1389,
+  "expressions": [
+    {
+      "image_id": 56677,
+      "dataset_index": 1389,
+      "ref_id": 45042,
+      "sent_id": 128075,
+      "expression": "girl standing",
+      "mask_id": 0,
+      "annotation_id": 516366,
+      "prediction_id": "refcoco-val-56677:0",
+      "gt_segmentation_sha256": "dcea0ade09c5c99ea0a323043b4f67b1751fce028e719e0251e86645c820f899",
+      "category_id": 1
+    },
+    {
+      "image_id": 56677,
+      "dataset_index": 1389,
+      "ref_id": 45043,
+      "sent_id": 128078,
+      "expression": "the young child on the left sitting near the old person.",
+      "mask_id": 1,
+      "annotation_id": 514574,
+      "prediction_id": "refcoco-val-56677:1",
+      "gt_segmentation_sha256": "0b6b513395829e58ca1f7efce88836909b42d185e414fd65eab695f1222a7e14",
+      "category_id": 1
+    },
+    {
+      "image_id": 56677,
+      "dataset_index": 1389,
+      "ref_id": 45044,
+      "sent_id": 128081,
+      "expression": "man sitting, black jacket",
+      "mask_id": 2,
+      "annotation_id": 513505,
+      "prediction_id": "refcoco-val-56677:2",
+      "gt_segmentation_sha256": "6369f09f92adfa2e7cde413eaa67ef9aa011836ae696bf0fd4c7b30733109853",
+      "category_id": 1
+    },
+    {
+      "image_id": 56677,
+      "dataset_index": 1389,
+      "ref_id": 45045,
+      "sent_id": 128084,
+      "expression": "other woman standing",
+      "mask_id": 3,
+      "annotation_id": 1733214,
+      "prediction_id": "refcoco-val-56677:3",
+      "gt_segmentation_sha256": "99f2c4c9906285d3d50400e4aaebebb071f491f8c422fcb89eea243b65fa3295",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    33839,
+    14500,
+    28756,
+    15796
+  ],
+  "union": [
+    37145,
+    15960,
+    39009,
+    16979
+  ],
+  "mask_file": "refcoco-val-56677.npz",
+  "mask_sha256": "77eaf03ebf789243734522a0868d83352075205e2ae349ea5017b1f9c1a1017e",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.014713434999976016,
+    "inference_s": 2.429690722000032,
+    "postprocess_s": 0.002475735999951212,
+    "amortized_inference_s_per_selected_expression": 0.607422680500008,
+    "mask_write_s": 0.020734272000026976
+  },
+  "memory": {
+    "peak_allocated_bytes": 8825242112,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447702528,
+    "ram_rss_bytes": 6301450240
+  },
+  "output_bytes": 12610,
+  "stage_created": "full-validation",
+  "record_hash": "ecabb23829d4152ec321357e55874abf3621c5c35faab116642619a28cc47827",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

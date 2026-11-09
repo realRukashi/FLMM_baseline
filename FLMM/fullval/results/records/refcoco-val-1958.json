@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-1958",
+  "sample_hash": "d4011b6ec085afa540b415b404f49ca4bcf2a252d9e0129a3196af2f37cd83e9",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 1958,
+  "dataset_index": 352,
+  "expressions": [
+    {
+      "image_id": 1958,
+      "dataset_index": 352,
+      "ref_id": 49843,
+      "sent_id": 141749,
+      "expression": "lady on the right",
+      "mask_id": 0,
+      "annotation_id": 261456,
+      "prediction_id": "refcoco-val-1958:0",
+      "gt_segmentation_sha256": "2ed444e9760604cdeb81f25d52cb0c8902ef7ea40aa69fedbc8c4426c7c693b1",
+      "category_id": 1
+    },
+    {
+      "image_id": 1958,
+      "dataset_index": 352,
+      "ref_id": 49844,
+      "sent_id": 141752,
+      "expression": "person on the left",
+      "mask_id": 1,
+      "annotation_id": 218797,
+      "prediction_id": "refcoco-val-1958:1",
+      "gt_segmentation_sha256": "702e8cf05eddd87882e524782d4f16e97fb114a3de8250a0e2ce068262bb936b",
+      "category_id": 1
+    },
+    {
+      "image_id": 1958,
+      "dataset_index": 352,
+      "ref_id": 49845,
+      "sent_id": 141755,
+      "expression": "a chair",
+      "mask_id": 2,
+      "annotation_id": 115360,
+      "prediction_id": "refcoco-val-1958:2",
+      "gt_segmentation_sha256": "bd639d6c63d1c3eb19ab35c4a22e62db3bdd113f0672b355042842e58f63c87b",
+      "category_id": 63
+    },
+    {
+      "image_id": 1958,
+      "dataset_index": 352,
+      "ref_id": 49846,
+      "sent_id": 141758,
+      "expression": "blue couch",
+      "mask_id": 3,
+      "annotation_id": 113050,
+      "prediction_id": "refcoco-val-1958:3",
+      "gt_segmentation_sha256": "29cc810a72b906f60f2c87eaca0c5d9050dcb875a194407c09b769789400901d",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    18768,
+    24912,
+    22685,
+    21814
+  ],
+  "union": [
+    24520,
+    26917,
+    23697,
+    22671
+  ],
+  "mask_file": "refcoco-val-1958.npz",
+  "mask_sha256": "1394e21e0970d3160148e4b0813257c0a0043e3167a5064aba518bbea46a5a2e",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.017116833000045517,
+    "inference_s": 2.7777208909999445,
+    "postprocess_s": 0.0032975139999962266,
+    "amortized_inference_s_per_selected_expression": 0.6944302227499861,
+    "mask_write_s": 0.023664774999815563
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829050368,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283124736
+  },
+  "output_bytes": 10901,
+  "stage_created": "full-validation",
+  "record_hash": "43751f8787cd8991511be354a9125c52d14c92aad54b838623b9a012d6acd796",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

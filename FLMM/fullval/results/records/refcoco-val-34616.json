@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-34616",
+  "sample_hash": "680ea1de62cdd5ee1cd45bac2984613dfa54d7c48580bdaf5dd53c7527eff9e3",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 34616,
+  "dataset_index": 323,
+  "expressions": [
+    {
+      "image_id": 34616,
+      "dataset_index": 323,
+      "ref_id": 47057,
+      "sent_id": 133821,
+      "expression": "semi trailer on right",
+      "mask_id": 0,
+      "annotation_id": 401734,
+      "prediction_id": "refcoco-val-34616:0",
+      "gt_segmentation_sha256": "6a9cf911e1177c1e3f6b59ccb4dbf837bf39ed492fbb51ddb6d45b628badbaad",
+      "category_id": 8
+    },
+    {
+      "image_id": 34616,
+      "dataset_index": 323,
+      "ref_id": 47058,
+      "sent_id": 133824,
+      "expression": "truck left behind guys",
+      "mask_id": 1,
+      "annotation_id": 400654,
+      "prediction_id": "refcoco-val-34616:1",
+      "gt_segmentation_sha256": "ae94010006cf11c9ac011d8234e7c57092efeaa6db7653b9992c168e8cc2be71",
+      "category_id": 8
+    }
+  ],
+  "intersection": [
+    23362,
+    10099
+  ],
+  "union": [
+    24652,
+    11378
+  ],
+  "mask_file": "refcoco-val-34616.npz",
+  "mask_sha256": "5aa11e67f80400f153781a28ef09279ebe01eb29e90abe73def736bed8db2d35",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.009806687999798669,
+    "inference_s": 2.2199777099999665,
+    "postprocess_s": 0.0010972810000566824,
+    "amortized_inference_s_per_selected_expression": 1.1099888549999832,
+    "mask_write_s": 0.011248406000049727
+  },
+  "memory": {
+    "peak_allocated_bytes": 8813383168,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 4209,
+  "stage_created": "full-validation",
+  "record_hash": "dcc69d2eea3f81da9f9e7bd755e4380320aa25bb50567879471674221bb79a9d",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

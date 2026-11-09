@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-43998",
+  "sample_hash": "931b47e10aa5b5e37220a9c3092cfa710af92863ccce96b3b3b66b78fd24500f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 43998,
+  "dataset_index": 564,
+  "expressions": [
+    {
+      "image_id": 43998,
+      "dataset_index": 564,
+      "ref_id": 46265,
+      "sent_id": 131570,
+      "expression": "bike in bottom right",
+      "mask_id": 0,
+      "annotation_id": 154948,
+      "prediction_id": "refcoco-val-43998:0",
+      "gt_segmentation_sha256": "2a91dacd430fbe69eef0a58dd3a28b0d8e5d047eb63002abab30a1271ed080b5",
+      "category_id": 4
+    },
+    {
+      "image_id": 43998,
+      "dataset_index": 564,
+      "ref_id": 46266,
+      "sent_id": 131572,
+      "expression": "third motorcycle with yellow spot on front",
+      "mask_id": 1,
+      "annotation_id": 150247,
+      "prediction_id": "refcoco-val-43998:1",
+      "gt_segmentation_sha256": "ec754cea95275375bae7bf92297af66b9ab9b91aa8d7045cf09d71043ea25a74",
+      "category_id": 4
+    },
+    {
+      "image_id": 43998,
+      "dataset_index": 564,
+      "ref_id": 46267,
+      "sent_id": 131575,
+      "expression": "full bike on right at front",
+      "mask_id": 2,
+      "annotation_id": 150064,
+      "prediction_id": "refcoco-val-43998:2",
+      "gt_segmentation_sha256": "e3f87327f53fbf50488d79296fb604db6d4ce14a50132635f254638cc5fbeb5d",
+      "category_id": 4
+    }
+  ],
+  "intersection": [
+    13116,
+    24874,
+    26925
+  ],
+  "union": [
+    14235,
+    32074,
+    29009
+  ],
+  "mask_file": "refcoco-val-43998.npz",
+  "mask_sha256": "949a9f3037963a90e151e664acece7246c6c817ec830d1a1c94e569c2ef0905a",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.019837936999920203,
+    "inference_s": 2.3112049430001207,
+    "postprocess_s": 0.002581209000027229,
+    "amortized_inference_s_per_selected_expression": 0.7704016476667069,
+    "mask_write_s": 0.022292629999810742
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822631424,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6282457088
+  },
+  "output_bytes": 8716,
+  "stage_created": "full-probe",
+  "record_hash": "90cdf94cac2f4b2a8e45b40c10ff6a1964e66ba39af287bbe15a4d68f4588388",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

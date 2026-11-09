@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-577558",
+  "sample_hash": "319a4ad43bd28a1ee35976e61e767dcec21efcdce19ca9b7be0ce205fd0b984a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 577558,
+  "dataset_index": 738,
+  "expressions": [
+    {
+      "image_id": 577558,
+      "dataset_index": 738,
+      "ref_id": 397,
+      "sent_id": 1128,
+      "expression": "left sandwich",
+      "mask_id": 0,
+      "annotation_id": 310197,
+      "prediction_id": "refcoco-val-577558:0",
+      "gt_segmentation_sha256": "d4fe543ea3290ccad394e7b62fba448fbca2833bbae3669602d1e15e36adc530",
+      "category_id": 54
+    },
+    {
+      "image_id": 577558,
+      "dataset_index": 738,
+      "ref_id": 398,
+      "sent_id": 1130,
+      "expression": "green vegetable with leaves",
+      "mask_id": 1,
+      "annotation_id": 308201,
+      "prediction_id": "refcoco-val-577558:1",
+      "gt_segmentation_sha256": "199acdae332cbe4cadc76ac184779ebbbd27e6a8e5ae10d80f935ba35dbc7084",
+      "category_id": 54
+    }
+  ],
+  "intersection": [
+    43162,
+    29282
+  ],
+  "union": [
+    45757,
+    50540
+  ],
+  "mask_file": "refcoco-val-577558.npz",
+  "mask_sha256": "8e1babeeb3a3635748c6151875fed60c46310e52aedfa775be9ce12f53294b63",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013073574999907578,
+    "inference_s": 2.31925585700003,
+    "postprocess_s": 0.001640276999978596,
+    "amortized_inference_s_per_selected_expression": 1.159627928500015,
+    "mask_write_s": 0.018330122000065785
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820776448,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6295457792
+  },
+  "output_bytes": 8231,
+  "stage_created": "full-validation",
+  "record_hash": "92dfb643e87ff2bf899cd0ef4ae4b00a1263625bfa2d3c583bc07d39ccf5c260",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

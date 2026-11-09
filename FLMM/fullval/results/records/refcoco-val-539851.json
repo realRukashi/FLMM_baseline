@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-539851",
+  "sample_hash": "9274c008b9e253e413114da435885a10616915aa627a72e7d7b1209950daa722",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 539851,
+  "dataset_index": 1356,
+  "expressions": [
+    {
+      "image_id": 539851,
+      "dataset_index": 1356,
+      "ref_id": 3687,
+      "sent_id": 10513,
+      "expression": "white shirt",
+      "mask_id": 0,
+      "annotation_id": 209289,
+      "prediction_id": "refcoco-val-539851:0",
+      "gt_segmentation_sha256": "78a4fcb0254688fd3ffaac87f986bec31356e31121c9daa04e7844e1070d6a8f",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    86873
+  ],
+  "union": [
+    91364
+  ],
+  "mask_file": "refcoco-val-539851.npz",
+  "mask_sha256": "3221d671bdae230b7f58b23cb5894b0633355f4022ca22b9404ded10a2b76b80",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.015172416000041267,
+    "inference_s": 2.1475394709998454,
+    "postprocess_s": 0.0008266269999239739,
+    "amortized_inference_s_per_selected_expression": 2.1475394709998454,
+    "mask_write_s": 0.01063970999985031
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814415360,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5444666368,
+    "ram_rss_bytes": 6297735168
+  },
+  "output_bytes": 5276,
+  "stage_created": "full-validation",
+  "record_hash": "20a2ef5aea709f2008ebebc3e8fa597d1a1f3f1200cf75211056aadb87260673",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

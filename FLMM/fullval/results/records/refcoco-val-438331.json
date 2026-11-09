@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-438331",
+  "sample_hash": "c76457b89465b5a31cb99ef4ee2e3aa34e72e35f96aad308c38b0def68ac404c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 438331,
+  "dataset_index": 748,
+  "expressions": [
+    {
+      "image_id": 438331,
+      "dataset_index": 748,
+      "ref_id": 12518,
+      "sent_id": 35618,
+      "expression": "girl blue front",
+      "mask_id": 0,
+      "annotation_id": 263107,
+      "prediction_id": "refcoco-val-438331:0",
+      "gt_segmentation_sha256": "6497e263d51101b5dfb20deddb67800748c650afb19fb36320514f816a83b723",
+      "category_id": 1
+    },
+    {
+      "image_id": 438331,
+      "dataset_index": 748,
+      "ref_id": 12519,
+      "sent_id": 35621,
+      "expression": "motorcycle on top partly cut off",
+      "mask_id": 1,
+      "annotation_id": 151646,
+      "prediction_id": "refcoco-val-438331:1",
+      "gt_segmentation_sha256": "1903164636bd37e7dd3659f4f5b41cec628048223030402d320c4993a9dd0db8",
+      "category_id": 4
+    },
+    {
+      "image_id": 438331,
+      "dataset_index": 748,
+      "ref_id": 12520,
+      "sent_id": 35624,
+      "expression": "three people on bike",
+      "mask_id": 2,
+      "annotation_id": 148821,
+      "prediction_id": "refcoco-val-438331:2",
+      "gt_segmentation_sha256": "a0d3d236bdd0f50249ac83b333bba57ceaa67f2a838b7eb634e689af1db084ba",
+      "category_id": 4
+    }
+  ],
+  "intersection": [
+    8100,
+    25068,
+    30414
+  ],
+  "union": [
+    28117,
+    32513,
+    92508
+  ],
+  "mask_file": "refcoco-val-438331.npz",
+  "mask_sha256": "fbe39a8ed8042c6763653a625549f4e05c1ea97ef3c4523e859149d9e6f8ccf8",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.015166880999913701,
+    "inference_s": 2.322084407000034,
+    "postprocess_s": 0.0021479160000126285,
+    "amortized_inference_s_per_selected_expression": 0.7740281356666779,
+    "mask_write_s": 0.02094203900003322
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822594560,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6295457792
+  },
+  "output_bytes": 11714,
+  "stage_created": "full-validation",
+  "record_hash": "2e4107d5937da426c07e7ddd29f61e3a889d02bf91f73ff8033028c6090222c3",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

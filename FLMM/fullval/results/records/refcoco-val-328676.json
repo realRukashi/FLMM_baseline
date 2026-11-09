@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-328676",
+  "sample_hash": "ea5c03ada7746311fddf1d96847c307a140e0aef59a1919200be28b489323f5f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 328676,
+  "dataset_index": 185,
+  "expressions": [
+    {
+      "image_id": 328676,
+      "dataset_index": 185,
+      "ref_id": 21898,
+      "sent_id": 62271,
+      "expression": "dark haired little boy on left beside blonde girl",
+      "mask_id": 0,
+      "annotation_id": 1254601,
+      "prediction_id": "refcoco-val-328676:0",
+      "gt_segmentation_sha256": "ae7f1fcfe815ce34b0348fba274d1ecbbaed336e743363e8d154418ea072c914",
+      "category_id": 1
+    },
+    {
+      "image_id": 328676,
+      "dataset_index": 185,
+      "ref_id": 21899,
+      "sent_id": 62274,
+      "expression": "adult holding kid",
+      "mask_id": 1,
+      "annotation_id": 1231837,
+      "prediction_id": "refcoco-val-328676:1",
+      "gt_segmentation_sha256": "f5e31001ccfe112a47e919fd216d461b7b1e743c6af317de4106dcafec344298",
+      "category_id": 1
+    },
+    {
+      "image_id": 328676,
+      "dataset_index": 185,
+      "ref_id": 21900,
+      "sent_id": 62277,
+      "expression": "woman in light blue, background, left",
+      "mask_id": 2,
+      "annotation_id": 2155002,
+      "prediction_id": "refcoco-val-328676:2",
+      "gt_segmentation_sha256": "0584f4ab246e6318ff96699ab9b25aebbd8d9428a85d3cc4b9b726ee5394f5f1",
+      "category_id": 1
+    },
+    {
+      "image_id": 328676,
+      "dataset_index": 185,
+      "ref_id": 21901,
+      "sent_id": 62280,
+      "expression": "blue t shirt",
+      "mask_id": 3,
+      "annotation_id": 1738904,
+      "prediction_id": "refcoco-val-328676:3",
+      "gt_segmentation_sha256": "249bf53046b6e13152ef795d72d0fc0957b8520cca8eb48b31bd089c90eaf8a2",
+      "category_id": 1
+    },
+    {
+      "image_id": 328676,
+      "dataset_index": 185,
+      "ref_id": 21902,
+      "sent_id": 62283,
+      "expression": "lady on right",
+      "mask_id": 4,
+      "annotation_id": 1725174,
+      "prediction_id": "refcoco-val-328676:4",
+      "gt_segmentation_sha256": "b292fc14cd0018dbdb441c80adce9412ba2e5565378d85e975ecf7101a83ddf3",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    8864,
+    8699,
+    9347,
+    49333,
+    23095
+  ],
+  "union": [
+    16887,
+    15985,
+    11481,
+    51891,
+    24537
+  ],
+  "mask_file": "refcoco-val-328676.npz",
+  "mask_sha256": "9414df580473e20647bdeaf8a95a939a3214fb4d6fdcafb6843c75f178f5d8b2",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.019367593999959354,
+    "inference_s": 2.2698310549999405,
+    "postprocess_s": 0.0037303540000266366,
+    "amortized_inference_s_per_selected_expression": 0.45396621099998813,
+    "mask_write_s": 0.031041369999911694
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831730176,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449133568,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 14096,
+  "stage_created": "full-validation",
+  "record_hash": "189a721608070569441b2b26c3fba30c7c59a60228010ab160a75d90ab7e173c",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

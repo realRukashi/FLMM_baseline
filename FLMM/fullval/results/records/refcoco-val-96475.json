@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-96475",
+  "sample_hash": "7fb159dc75e7d9ea10e4acf621aff8a973724237f285973e30d9252cd380c7cc",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 96475,
+  "dataset_index": 1160,
+  "expressions": [
+    {
+      "image_id": 96475,
+      "dataset_index": 1160,
+      "ref_id": 41571,
+      "sent_id": 118184,
+      "expression": "food on plate",
+      "mask_id": 0,
+      "annotation_id": 1578619,
+      "prediction_id": "refcoco-val-96475:0",
+      "gt_segmentation_sha256": "9b1edf8a433b7ecade52396ab5dff7f80bee399da76fcb926a700856be9c2f70",
+      "category_id": 61
+    }
+  ],
+  "intersection": [
+    13858
+  ],
+  "union": [
+    22851
+  ],
+  "mask_file": "refcoco-val-96475.npz",
+  "mask_sha256": "edeef6528e61bbecc9ee938a11af2a520d65bfdb93e551331ea95aa0137b1c1a",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.012670274000015525,
+    "inference_s": 2.132202257000017,
+    "postprocess_s": 0.0010593279999966398,
+    "amortized_inference_s_per_selected_expression": 2.132202257000017,
+    "mask_write_s": 0.008744805999981509
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815145472,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6297001984
+  },
+  "output_bytes": 2692,
+  "stage_created": "full-validation",
+  "record_hash": "c717aacc248690838bcdbf62d57379ec7d85d5074f3b81e195caec19ecf0ab78",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

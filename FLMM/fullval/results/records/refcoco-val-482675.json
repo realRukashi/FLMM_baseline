@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-482675",
+  "sample_hash": "5778b0c0dac93c1bcb93f3eee390cb540271c5d4e0773793b47676a1e737d375",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 482675,
+  "dataset_index": 1391,
+  "expressions": [
+    {
+      "image_id": 482675,
+      "dataset_index": 1391,
+      "ref_id": 8663,
+      "sent_id": 24682,
+      "expression": "person hat right",
+      "mask_id": 0,
+      "annotation_id": 1709553,
+      "prediction_id": "refcoco-val-482675:0",
+      "gt_segmentation_sha256": "b76b5780d3e0da8c3d42e80192d4138c1aee466b4edbc5a7a4a01960ba9a517e",
+      "category_id": 1
+    },
+    {
+      "image_id": 482675,
+      "dataset_index": 1391,
+      "ref_id": 8664,
+      "sent_id": 24685,
+      "expression": "spectator behind batter in red shirt",
+      "mask_id": 1,
+      "annotation_id": 550455,
+      "prediction_id": "refcoco-val-482675:1",
+      "gt_segmentation_sha256": "4f33ff91b2dc9360e253da173c2d1e166c6ec6af0af99bf5835b1c0609006ddb",
+      "category_id": 1
+    },
+    {
+      "image_id": 482675,
+      "dataset_index": 1391,
+      "ref_id": 8665,
+      "sent_id": 24688,
+      "expression": "guy left below bat",
+      "mask_id": 2,
+      "annotation_id": 544690,
+      "prediction_id": "refcoco-val-482675:2",
+      "gt_segmentation_sha256": "bbe5e13c15bc7ab68fdc882b85f5b49986bca7fbb2ec704bd7cc12cbea51e67f",
+      "category_id": 1
+    },
+    {
+      "image_id": 482675,
+      "dataset_index": 1391,
+      "ref_id": 8666,
+      "sent_id": 24691,
+      "expression": "batter",
+      "mask_id": 3,
+      "annotation_id": 491130,
+      "prediction_id": "refcoco-val-482675:3",
+      "gt_segmentation_sha256": "6cdbf200feffd86a869f72cf3fa94cd49878cbd547a77f78a7e46fef490590ad",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    14853,
+    11119,
+    18766,
+    46565
+  ],
+  "union": [
+    18020,
+    14978,
+    23673,
+    49408
+  ],
+  "mask_file": "refcoco-val-482675.npz",
+  "mask_sha256": "ae342d8e9e87e461c621f68b52620357e4c0033b2aff119bf6b1653b60a4eae6",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.018853643000056763,
+    "inference_s": 2.4425076330001048,
+    "postprocess_s": 0.002479317000052106,
+    "amortized_inference_s_per_selected_expression": 0.6106269082500262,
+    "mask_write_s": 0.02066165299993372
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826461696,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448124416,
+    "ram_rss_bytes": 6301450240
+  },
+  "output_bytes": 11184,
+  "stage_created": "full-validation",
+  "record_hash": "4256a371260dfb3b6afb68a8fb81d1378ee58c29d4821da38d4e2146785874c2",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

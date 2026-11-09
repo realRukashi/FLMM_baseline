@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-68287",
+  "sample_hash": "48ff46a619f0f46c7fa917a1ebfcc4242a1cbfbd20a3a6a8306e2d5d9bcb119f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 68287,
+  "dataset_index": 508,
+  "expressions": [
+    {
+      "image_id": 68287,
+      "dataset_index": 508,
+      "ref_id": 44036,
+      "sent_id": 125208,
+      "expression": "shirtless guy",
+      "mask_id": 0,
+      "annotation_id": 1283753,
+      "prediction_id": "refcoco-val-68287:0",
+      "gt_segmentation_sha256": "12dff182084eb1e01ff94965ebaca79e62d5bd3ae2a2afaff4358edc27da3943",
+      "category_id": 1
+    },
+    {
+      "image_id": 68287,
+      "dataset_index": 508,
+      "ref_id": 44037,
+      "sent_id": 125211,
+      "expression": "old man in orange",
+      "mask_id": 1,
+      "annotation_id": 1270907,
+      "prediction_id": "refcoco-val-68287:1",
+      "gt_segmentation_sha256": "d07fd77f4138cb1a2025a0ec8d3dfa447bb4b61359b4ce8f75cb5e730adf501b",
+      "category_id": 1
+    },
+    {
+      "image_id": 68287,
+      "dataset_index": 508,
+      "ref_id": 44038,
+      "sent_id": 125213,
+      "expression": "person with blue shirt",
+      "mask_id": 2,
+      "annotation_id": 1261294,
+      "prediction_id": "refcoco-val-68287:2",
+      "gt_segmentation_sha256": "a41df0f9ae4476762bd37d583a0614e8be2095761f0d55ad3d1a43f7e1cd985d",
+      "category_id": 1
+    },
+    {
+      "image_id": 68287,
+      "dataset_index": 508,
+      "ref_id": 44039,
+      "sent_id": 125216,
+      "expression": "yellow shirt, right, leaning",
+      "mask_id": 3,
+      "annotation_id": 1223455,
+      "prediction_id": "refcoco-val-68287:3",
+      "gt_segmentation_sha256": "a4ce1fae039b4c35249cc8904c1a6509c4433c8697e82ecc9f2cb487f02d53fa",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12581,
+    13931,
+    34461,
+    9563
+  ],
+  "union": [
+    16879,
+    15441,
+    36860,
+    11123
+  ],
+  "mask_file": "refcoco-val-68287.npz",
+  "mask_sha256": "a693f33b297098310895b283be2137d9144c64ee090bf18256849ecaf0ed3e20",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.015734334000001127,
+    "inference_s": 1.8862506260000487,
+    "postprocess_s": 0.003074699000023884,
+    "amortized_inference_s_per_selected_expression": 0.47156265650001217,
+    "mask_write_s": 0.023020466999980727
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829116928,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6294736896
+  },
+  "output_bytes": 10186,
+  "stage_created": "full-validation",
+  "record_hash": "3341ade74508d9c0c8246f224f564e6fe42ec549fb11229c110d46fbb2bce93f",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

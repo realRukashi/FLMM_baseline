@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-474123",
+  "sample_hash": "809322c4d02b214677685a92a5ae10db4c658501ca479ea4a8ba45a5d745a5b5",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 474123,
+  "dataset_index": 1319,
+  "expressions": [
+    {
+      "image_id": 474123,
+      "dataset_index": 1319,
+      "ref_id": 9388,
+      "sent_id": 26735,
+      "expression": "woman with tattoos on her left forearm playing wii",
+      "mask_id": 0,
+      "annotation_id": 1243422,
+      "prediction_id": "refcoco-val-474123:0",
+      "gt_segmentation_sha256": "fb9f922a03896d24ff78715b9d2ef635f84141245aa01bbf3f33a609de98242e",
+      "category_id": 1
+    },
+    {
+      "image_id": 474123,
+      "dataset_index": 1319,
+      "ref_id": 9389,
+      "sent_id": 26738,
+      "expression": "man",
+      "mask_id": 1,
+      "annotation_id": 448438,
+      "prediction_id": "refcoco-val-474123:1",
+      "gt_segmentation_sha256": "6ce3c64854355a1a6840e03db9c00d54a04b58d1d1b2aa494555c14f6b3f40b0",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    91146,
+    67880
+  ],
+  "union": [
+    98740,
+    73086
+  ],
+  "mask_file": "refcoco-val-474123.npz",
+  "mask_sha256": "d28927a4847f8c9229f62e061ac2c5a3f076e6bb6cd4d2527b5b96b7d8069bf0",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.012336043999994217,
+    "inference_s": 2.42152480499999,
+    "postprocess_s": 0.0014587739999569749,
+    "amortized_inference_s_per_selected_expression": 1.210762402499995,
+    "mask_write_s": 0.021845901999995476
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818317312,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6300770304
+  },
+  "output_bytes": 12506,
+  "stage_created": "full-validation",
+  "record_hash": "af24652922c5913d14df12ca41faa369f85494abe406a09bbc1dac953e3a1970",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

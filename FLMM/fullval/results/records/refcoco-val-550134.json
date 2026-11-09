@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-550134",
+  "sample_hash": "d032ebdd908b2b9dd42dd8fb7460cd1ac33c58ca7ef2d4232ac5ea548e3dc119",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 550134,
+  "dataset_index": 226,
+  "expressions": [
+    {
+      "image_id": 550134,
+      "dataset_index": 226,
+      "ref_id": 2808,
+      "sent_id": 8015,
+      "expression": "green stripes",
+      "mask_id": 0,
+      "annotation_id": 2157195,
+      "prediction_id": "refcoco-val-550134:0",
+      "gt_segmentation_sha256": "06bf05573dd4eb1df91fcd4044243cbedfc3f9a2777bf920833b93acd9dec54f",
+      "category_id": 1
+    },
+    {
+      "image_id": 550134,
+      "dataset_index": 226,
+      "ref_id": 2809,
+      "sent_id": 8018,
+      "expression": "elephant driver",
+      "mask_id": 1,
+      "annotation_id": 1721232,
+      "prediction_id": "refcoco-val-550134:1",
+      "gt_segmentation_sha256": "9edbbebfee96056e111f42a4b7b8f5c264d2b0fb9f3197f73900c76a9cbf5902",
+      "category_id": 1
+    },
+    {
+      "image_id": 550134,
+      "dataset_index": 226,
+      "ref_id": 2810,
+      "sent_id": 8021,
+      "expression": "elephent in front with snout up in the air,",
+      "mask_id": 2,
+      "annotation_id": 583665,
+      "prediction_id": "refcoco-val-550134:2",
+      "gt_segmentation_sha256": "eac3523707ce312e9f9208b46e7991b4311c3d0f309797a961e2bcda9ef7f6a7",
+      "category_id": 22
+    },
+    {
+      "image_id": 550134,
+      "dataset_index": 226,
+      "ref_id": 2811,
+      "sent_id": 8024,
+      "expression": "rhino",
+      "mask_id": 3,
+      "annotation_id": 581336,
+      "prediction_id": "refcoco-val-550134:3",
+      "gt_segmentation_sha256": "3702245ae49436f057fcbb819ca8a429f9be439abcfb8ad69a34a11bf0e86c4c",
+      "category_id": 22
+    }
+  ],
+  "intersection": [
+    27508,
+    21190,
+    24073,
+    5049
+  ],
+  "union": [
+    31463,
+    49253,
+    33220,
+    142240
+  ],
+  "mask_file": "refcoco-val-550134.npz",
+  "mask_sha256": "865b92ff8e7e7deef3a831173184fd6f0dc98a020af98fc1c9f90325391ae716",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.019843302000026597,
+    "inference_s": 2.762599833999957,
+    "postprocess_s": 0.003769344999909663,
+    "amortized_inference_s_per_selected_expression": 0.6906499584999892,
+    "mask_write_s": 0.034037091999834956
+  },
+  "memory": {
+    "peak_allocated_bytes": 8832148992,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449238528,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 20793,
+  "stage_created": "full-validation",
+  "record_hash": "d4d6a6f830778aa8daaaaf882470358678550899fd30bb09c1a8bdc852b3e1c1",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-339454",
+  "sample_hash": "f2f225ef59629f8b22fd113008da6f43c0de565e1d080a545074514f05d545dd",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 339454,
+  "dataset_index": 664,
+  "expressions": [
+    {
+      "image_id": 339454,
+      "dataset_index": 664,
+      "ref_id": 20820,
+      "sent_id": 59229,
+      "expression": "man bottom right white shirt",
+      "mask_id": 0,
+      "annotation_id": 1300277,
+      "prediction_id": "refcoco-val-339454:0",
+      "gt_segmentation_sha256": "c9703965642e8711f5ff9f7df166ccdc7200afc2660ce44e799fc87ee011dd59",
+      "category_id": 1
+    },
+    {
+      "image_id": 339454,
+      "dataset_index": 664,
+      "ref_id": 20821,
+      "sent_id": 59232,
+      "expression": "guy with snazzy tie",
+      "mask_id": 1,
+      "annotation_id": 1280951,
+      "prediction_id": "refcoco-val-339454:1",
+      "gt_segmentation_sha256": "1974da3156f6108311d08e65bb56bbd163614fe598226a8c918e4076adf48446",
+      "category_id": 1
+    },
+    {
+      "image_id": 339454,
+      "dataset_index": 664,
+      "ref_id": 20822,
+      "sent_id": 59234,
+      "expression": "woman in white dress with umbrella",
+      "mask_id": 2,
+      "annotation_id": 1222489,
+      "prediction_id": "refcoco-val-339454:2",
+      "gt_segmentation_sha256": "f8caeca7f3379f8946305a13b36c1e25ade650436cc4ef9608e2116adb9630a5",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    21065,
+    12706,
+    14636
+  ],
+  "union": [
+    23199,
+    13948,
+    15598
+  ],
+  "mask_file": "refcoco-val-339454.npz",
+  "mask_sha256": "3e9a98c13b282ebdd57830c06106812d3ef3382df20505a3231f4d9ea66aafd5",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.018708254999978635,
+    "inference_s": 2.249420715000042,
+    "postprocess_s": 0.002198398000018642,
+    "amortized_inference_s_per_selected_expression": 0.749806905000014,
+    "mask_write_s": 0.016358158999992156
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822634496,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6295363584
+  },
+  "output_bytes": 6297,
+  "stage_created": "full-validation",
+  "record_hash": "509ed24d60e0f7e86a3624d90514a10d5db2f88ad1f279d8b12cfc97881f81d5",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-452619",
+  "sample_hash": "dfe2b1ec33c88fabc26844ddfc29e894a247eb2afa72c4e08497b71d9248ba2b",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 452619,
+  "dataset_index": 371,
+  "expressions": [
+    {
+      "image_id": 452619,
+      "dataset_index": 371,
+      "ref_id": 11262,
+      "sent_id": 32071,
+      "expression": "boy on left",
+      "mask_id": 0,
+      "annotation_id": 456120,
+      "prediction_id": "refcoco-val-452619:0",
+      "gt_segmentation_sha256": "1203e2ca69b1a82f4710b59127adf062803188c912f647cb0548cbef454ac3d4",
+      "category_id": 1
+    },
+    {
+      "image_id": 452619,
+      "dataset_index": 371,
+      "ref_id": 11263,
+      "sent_id": 32074,
+      "expression": "girl holding orange umbrella",
+      "mask_id": 1,
+      "annotation_id": 453419,
+      "prediction_id": "refcoco-val-452619:1",
+      "gt_segmentation_sha256": "c9cac0e7e73bd49534548984633adf3e31a6949af152f61dd9944c512216ec54",
+      "category_id": 1
+    },
+    {
+      "image_id": 452619,
+      "dataset_index": 371,
+      "ref_id": 11264,
+      "sent_id": 32077,
+      "expression": "the purple umbrella",
+      "mask_id": 2,
+      "annotation_id": 283370,
+      "prediction_id": "refcoco-val-452619:2",
+      "gt_segmentation_sha256": "487fa627e25f38d4be41c4ab06903ba8d53e23f16bc6cb9b7e2d6a7aad5083a7",
+      "category_id": 28
+    },
+    {
+      "image_id": 452619,
+      "dataset_index": 371,
+      "ref_id": 11265,
+      "sent_id": 32080,
+      "expression": "orange umbrella",
+      "mask_id": 3,
+      "annotation_id": 281303,
+      "prediction_id": "refcoco-val-452619:3",
+      "gt_segmentation_sha256": "da64efdeddbae170ff4a4f4f3bed38e2f3ff5b82af36e92cc0f9a47233b15000",
+      "category_id": 28
+    }
+  ],
+  "intersection": [
+    59217,
+    43165,
+    62514,
+    62269
+  ],
+  "union": [
+    66360,
+    50555,
+    68727,
+    67427
+  ],
+  "mask_file": "refcoco-val-452619.npz",
+  "mask_sha256": "c2d21dbd9e4d60ce51b215dc7d4358525e64761df25067e12a90b357be1d1d83",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.02443655199999739,
+    "inference_s": 2.2621005240000613,
+    "postprocess_s": 0.0033828010000434006,
+    "amortized_inference_s_per_selected_expression": 0.5655251310000153,
+    "mask_write_s": 0.039740324999911536
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829050368,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 22131,
+  "stage_created": "full-validation",
+  "record_hash": "8882862adb35f1371372bd3a0d520a11edf3218f5125a65a4f5acdb82449eba8",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

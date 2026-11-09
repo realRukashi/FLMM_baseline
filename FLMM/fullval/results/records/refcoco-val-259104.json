@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-259104",
+  "sample_hash": "8fc8d7df38bcd9a41d7086621022538b1c1111d2142eee9a22f45114cd725a6c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 259104,
+  "dataset_index": 935,
+  "expressions": [
+    {
+      "image_id": 259104,
+      "dataset_index": 935,
+      "ref_id": 28008,
+      "sent_id": 79664,
+      "expression": "giant remote",
+      "mask_id": 0,
+      "annotation_id": 1112685,
+      "prediction_id": "refcoco-val-259104:0",
+      "gt_segmentation_sha256": "09e2356dd79d3af76024172b2ca72c1f16283e320c6a27a22946fafa600eacda",
+      "category_id": 75
+    },
+    {
+      "image_id": 259104,
+      "dataset_index": 935,
+      "ref_id": 28009,
+      "sent_id": 79667,
+      "expression": "controller aqll the way to the left",
+      "mask_id": 1,
+      "annotation_id": 1112433,
+      "prediction_id": "refcoco-val-259104:1",
+      "gt_segmentation_sha256": "70c4d3e349820828d0543b375affd5eff4e274e6037bc3bb7cdfd445604a9be4",
+      "category_id": 75
+    },
+    {
+      "image_id": 259104,
+      "dataset_index": 935,
+      "ref_id": 28010,
+      "sent_id": 79670,
+      "expression": "left black small",
+      "mask_id": 2,
+      "annotation_id": 1112416,
+      "prediction_id": "refcoco-val-259104:2",
+      "gt_segmentation_sha256": "d4c0540dbdd20e18eb41f18ab9403e23ff0eed8510425004a5faa1c3a9b10a22",
+      "category_id": 75
+    },
+    {
+      "image_id": 259104,
+      "dataset_index": 935,
+      "ref_id": 28011,
+      "sent_id": 79673,
+      "expression": "remote to the left side of big one",
+      "mask_id": 3,
+      "annotation_id": 1112383,
+      "prediction_id": "refcoco-val-259104:3",
+      "gt_segmentation_sha256": "e9028f73179d545a9a4b1bfea3bfa5c01af3eb2ef964151f8472fcaf2af48798",
+      "category_id": 75
+    },
+    {
+      "image_id": 259104,
+      "dataset_index": 935,
+      "ref_id": 28012,
+      "sent_id": 79676,
+      "expression": "remote between black ones",
+      "mask_id": 4,
+      "annotation_id": 1108849,
+      "prediction_id": "refcoco-val-259104:4",
+      "gt_segmentation_sha256": "0030936855c049a0192ec02fc33c817285b09dd0b51cad53f15e121329592ce9",
+      "category_id": 75
+    }
+  ],
+  "intersection": [
+    82450,
+    14856,
+    9811,
+    0,
+    14513
+  ],
+  "union": [
+    92591,
+    15900,
+    28855,
+    41639,
+    44815
+  ],
+  "mask_file": "refcoco-val-259104.npz",
+  "mask_sha256": "984f895e3e85ce35a5367b46a03174f996e83f54b650a0fa73ba5f199bf92651",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.018313629999965997,
+    "inference_s": 2.32864881699993,
+    "postprocess_s": 0.003776074000143126,
+    "amortized_inference_s_per_selected_expression": 0.46572976339998606,
+    "mask_write_s": 0.030302258000119764
+  },
+  "memory": {
+    "peak_allocated_bytes": 8834193920,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449811968,
+    "ram_rss_bytes": 6295400448
+  },
+  "output_bytes": 17401,
+  "stage_created": "full-validation",
+  "record_hash": "daefce1f3be0bc0df0f6dfceebea09452a3353557477f420a7621d7688414988",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

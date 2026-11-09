@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-93531",
+  "sample_hash": "31bf2a76b40eac2d9f5297c96a6dfa8d89b6276fa2c36f335486104b6b7fb108",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 93531,
+  "dataset_index": 639,
+  "expressions": [
+    {
+      "image_id": 93531,
+      "dataset_index": 639,
+      "ref_id": 41857,
+      "sent_id": 119003,
+      "expression": "front dog driving",
+      "mask_id": 0,
+      "annotation_id": 17313,
+      "prediction_id": "refcoco-val-93531:0",
+      "gt_segmentation_sha256": "9888cbd5e694b8d96e56938386ff0f7c14e9bdda9c5630d7b2ec9406c9b7e0b7",
+      "category_id": 18
+    },
+    {
+      "image_id": 93531,
+      "dataset_index": 639,
+      "ref_id": 41858,
+      "sent_id": 119005,
+      "expression": "dog on passenger side",
+      "mask_id": 1,
+      "annotation_id": 14091,
+      "prediction_id": "refcoco-val-93531:1",
+      "gt_segmentation_sha256": "de02c8a107e8b6327af5cb5fefadad5a8049a50c3858592265294ca5385a7d7b",
+      "category_id": 18
+    }
+  ],
+  "intersection": [
+    92727,
+    138
+  ],
+  "union": [
+    96916,
+    134304
+  ],
+  "mask_file": "refcoco-val-93531.npz",
+  "mask_sha256": "4a0d7c73414e822ce02e72d13496ffe18a30703dee5cfc679ef82c746ee9d8df",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.015143830000056369,
+    "inference_s": 2.2292861010000706,
+    "postprocess_s": 0.0016491289999294168,
+    "amortized_inference_s_per_selected_expression": 1.1146430505000353,
+    "mask_write_s": 0.023193171999992046
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820689408,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6294286336
+  },
+  "output_bytes": 10493,
+  "stage_created": "full-validation",
+  "record_hash": "60761413feb838d2b94ecfc8ef0c31ce925dd9943c66990106e21d8af1079d25",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

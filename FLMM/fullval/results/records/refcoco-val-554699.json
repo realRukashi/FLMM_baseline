@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-554699",
+  "sample_hash": "4da9492281ce64926741d23e186319affa211b1c6b4222bfe08aef18137d8c1e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 554699,
+  "dataset_index": 1065,
+  "expressions": [
+    {
+      "image_id": 554699,
+      "dataset_index": 1065,
+      "ref_id": 2394,
+      "sent_id": 6842,
+      "expression": "farthest left tray hot dogs",
+      "mask_id": 0,
+      "annotation_id": 2217368,
+      "prediction_id": "refcoco-val-554699:0",
+      "gt_segmentation_sha256": "83adb6313dee9e6095a851a784dfc33f55ff094b89d2ae7974a24141a257b1cf",
+      "category_id": 51
+    },
+    {
+      "image_id": 554699,
+      "dataset_index": 1065,
+      "ref_id": 2395,
+      "sent_id": 6845,
+      "expression": "middle tray of food",
+      "mask_id": 1,
+      "annotation_id": 1900564,
+      "prediction_id": "refcoco-val-554699:1",
+      "gt_segmentation_sha256": "4a88b915875fa96427a5d29aa68ac8be9849166987fff639c9fdf7c6a1ede379",
+      "category_id": 51
+    }
+  ],
+  "intersection": [
+    18002,
+    0
+  ],
+  "union": [
+    19594,
+    151435
+  ],
+  "mask_file": "refcoco-val-554699.npz",
+  "mask_sha256": "1fe4b0b2b4f59f23290f1ab8ad7283681e877ef982e22092aec54781d4a973b6",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014715211999941857,
+    "inference_s": 2.0762789550000207,
+    "postprocess_s": 0.0017424709999431798,
+    "amortized_inference_s_per_selected_expression": 1.0381394775000103,
+    "mask_write_s": 0.017251585000053637
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820341248,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6300438528
+  },
+  "output_bytes": 7660,
+  "stage_created": "full-validation",
+  "record_hash": "1e2d11b6da04ea9e787b7a6400b04f25c980b565c2e6d7a678de6c5b81f1f2e1",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

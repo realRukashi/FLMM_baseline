@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-182347",
+  "sample_hash": "953ab87100c80bcc3b85fdefd8b5e32b6ddde425e8d5b8d9e2efebb330cd76cb",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 182347,
+  "dataset_index": 382,
+  "expressions": [
+    {
+      "image_id": 182347,
+      "dataset_index": 382,
+      "ref_id": 34476,
+      "sent_id": 98056,
+      "expression": "man wearing black shirt",
+      "mask_id": 0,
+      "annotation_id": 459025,
+      "prediction_id": "refcoco-val-182347:0",
+      "gt_segmentation_sha256": "06480ca8792fa3419a8722f2410fd328dcd7d3a942cdb518cc3100304ef24d90",
+      "category_id": 1
+    },
+    {
+      "image_id": 182347,
+      "dataset_index": 382,
+      "ref_id": 34477,
+      "sent_id": 98059,
+      "expression": "boy with white shirt and pink hat in hand",
+      "mask_id": 1,
+      "annotation_id": 423748,
+      "prediction_id": "refcoco-val-182347:1",
+      "gt_segmentation_sha256": "231b0b532bb5456e8d718c3450547997b8de6ffae99e3189fbdb62724c85cffa",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12922,
+    9058
+  ],
+  "union": [
+    14468,
+    10733
+  ],
+  "mask_file": "refcoco-val-182347.npz",
+  "mask_sha256": "dbb541ff53d9ec525599e90e8c94c9d3ee1e16bce9595180c7235143017d7df4",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013002034000010099,
+    "inference_s": 2.7304319709999163,
+    "postprocess_s": 0.0012610040000708977,
+    "amortized_inference_s_per_selected_expression": 1.3652159854999582,
+    "mask_write_s": 0.012954848999925161
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818327552,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283124736
+  },
+  "output_bytes": 4023,
+  "stage_created": "full-validation",
+  "record_hash": "a2c957f188a5c78054a520b8619ebb05906609b86f9a531a00e9e172e2616344",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

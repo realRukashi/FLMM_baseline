@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-462957",
+  "sample_hash": "280700ce4b98574a57dbc80709c4d56195ee88025b8783fb1e4d851d11dfd3cd",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 462957,
+  "dataset_index": 757,
+  "expressions": [
+    {
+      "image_id": 462957,
+      "dataset_index": 757,
+      "ref_id": 10321,
+      "sent_id": 29382,
+      "expression": "left person",
+      "mask_id": 0,
+      "annotation_id": 224298,
+      "prediction_id": "refcoco-val-462957:0",
+      "gt_segmentation_sha256": "70553c343a0d21509ee157571e144cfb7f4323baa9db35514e425add052a6bf5",
+      "category_id": 1
+    },
+    {
+      "image_id": 462957,
+      "dataset_index": 757,
+      "ref_id": 10322,
+      "sent_id": 29385,
+      "expression": "2nd from left stripe shirt",
+      "mask_id": 1,
+      "annotation_id": 212358,
+      "prediction_id": "refcoco-val-462957:1",
+      "gt_segmentation_sha256": "fd8161747ddc8dfc508172ded714b4e2c0d69e1489858f1cc7a7b29c9a3792ed",
+      "category_id": 1
+    },
+    {
+      "image_id": 462957,
+      "dataset_index": 757,
+      "ref_id": 10323,
+      "sent_id": 29387,
+      "expression": "back white shirt",
+      "mask_id": 2,
+      "annotation_id": 208806,
+      "prediction_id": "refcoco-val-462957:2",
+      "gt_segmentation_sha256": "3f76003ec22b61f8990fc069cafafd31b72d7a4d41d46051a56f2c07c1dc6d94",
+      "category_id": 1
+    },
+    {
+      "image_id": 462957,
+      "dataset_index": 757,
+      "ref_id": 10324,
+      "sent_id": 29390,
+      "expression": "man all the way to the right",
+      "mask_id": 3,
+      "annotation_id": 263885,
+      "prediction_id": "refcoco-val-462957:3",
+      "gt_segmentation_sha256": "80d00a66fbc1f189bebb97753fd654b461ff544bc327bfa674fe32fada3f92fe",
+      "category_id": 1
+    },
+    {
+      "image_id": 462957,
+      "dataset_index": 757,
+      "ref_id": 10325,
+      "sent_id": 29392,
+      "expression": "kid in blk",
+      "mask_id": 4,
+      "annotation_id": 235947,
+      "prediction_id": "refcoco-val-462957:4",
+      "gt_segmentation_sha256": "deaf2e3554354347a802ce01766e195d132c459cc80e0337b467bbe3f3692c76",
+      "category_id": 1
+    },
+    {
+      "image_id": 462957,
+      "dataset_index": 757,
+      "ref_id": 10326,
+      "sent_id": 29395,
+      "expression": "sitting girl",
+      "mask_id": 5,
+      "annotation_id": 234709,
+      "prediction_id": "refcoco-val-462957:5",
+      "gt_segmentation_sha256": "2a99bd9b25abaca9a00b952af357c78eb1c844c05ee0ddbee738daa547795b43",
+      "category_id": 1
+    },
+    {
+      "image_id": 462957,
+      "dataset_index": 757,
+      "ref_id": 10327,
+      "sent_id": 29397,
+      "expression": "bottom center white hat",
+      "mask_id": 6,
+      "annotation_id": 232513,
+      "prediction_id": "refcoco-val-462957:6",
+      "gt_segmentation_sha256": "ff02685668eef502255aeab6c5f4a7af44fbcc32cbb8a3665eb7751d03e917a4",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    32540,
+    29926,
+    21029,
+    13669,
+    19170,
+    12571,
+    15952
+  ],
+  "union": [
+    35261,
+    32512,
+    23083,
+    14497,
+    20650,
+    14630,
+    17594
+  ],
+  "mask_file": "refcoco-val-462957.npz",
+  "mask_sha256": "7febd098041ea3577fd52d8ed9c72ebf7b356fff8d7c8d98c03201387e4ea55c",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.019506282999941504,
+    "inference_s": 2.3590073579999853,
+    "postprocess_s": 0.004119128999946042,
+    "amortized_inference_s_per_selected_expression": 0.33700105114285506,
+    "mask_write_s": 0.029131380000080753
+  },
+  "memory": {
+    "peak_allocated_bytes": 8840239104,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451301888,
+    "ram_rss_bytes": 6294519808
+  },
+  "output_bytes": 16457,
+  "stage_created": "full-validation",
+  "record_hash": "f16c605347611106412257fd92ece3d54a32ab968e10ce672a98ceeda4f82a52",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

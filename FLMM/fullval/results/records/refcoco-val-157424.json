@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-157424",
+  "sample_hash": "f184f6c860300ec70bc72829bb9e001d1a7af09b7950886c91471d711cb2bc3f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 157424,
+  "dataset_index": 309,
+  "expressions": [
+    {
+      "image_id": 157424,
+      "dataset_index": 309,
+      "ref_id": 36457,
+      "sent_id": 103701,
+      "expression": "the guy in brown on the right",
+      "mask_id": 0,
+      "annotation_id": 536225,
+      "prediction_id": "refcoco-val-157424:0",
+      "gt_segmentation_sha256": "e7b73f5b83439f59788f5c9fc053abfdd06ddf47de04248d3fb7d2ea8ecc2fc8",
+      "category_id": 1
+    },
+    {
+      "image_id": 157424,
+      "dataset_index": 309,
+      "ref_id": 36458,
+      "sent_id": 103703,
+      "expression": "left guy",
+      "mask_id": 1,
+      "annotation_id": 500369,
+      "prediction_id": "refcoco-val-157424:1",
+      "gt_segmentation_sha256": "915cd3265993d994b0b6b2b4561c6140634caf509955ba9ccbcd3f6ae719c9fc",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    22625,
+    15180
+  ],
+  "union": [
+    25399,
+    18266
+  ],
+  "mask_file": "refcoco-val-157424.npz",
+  "mask_sha256": "4159430bee5ab1fc5e8bedef93cfad053496996424a36fff87e7d122fe73a515",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.015136204000100406,
+    "inference_s": 2.228053442999908,
+    "postprocess_s": 0.0016658160000133648,
+    "amortized_inference_s_per_selected_expression": 1.114026721499954,
+    "mask_write_s": 0.013275693999958094
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818310144,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 5418,
+  "stage_created": "full-validation",
+  "record_hash": "3b4126978dc62613a2e8490e3603db11e1e2df97f7798cfd599a36b6169098ba",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

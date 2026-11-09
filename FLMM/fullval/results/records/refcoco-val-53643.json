@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-53643",
+  "sample_hash": "61e993243e18994cef934945acd5bb1f4807200fbae1995bc6ec70f36e6f7f5d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 53643,
+  "dataset_index": 804,
+  "expressions": [
+    {
+      "image_id": 53643,
+      "dataset_index": 804,
+      "ref_id": 45377,
+      "sent_id": 129045,
+      "expression": "glass on right bottom by paper",
+      "mask_id": 0,
+      "annotation_id": 662668,
+      "prediction_id": "refcoco-val-53643:0",
+      "gt_segmentation_sha256": "f8975735c6fbd905b6911ef95736d0d974dbf71d6e00f666de8495e6344db80a",
+      "category_id": 46
+    },
+    {
+      "image_id": 53643,
+      "dataset_index": 804,
+      "ref_id": 45378,
+      "sent_id": 129048,
+      "expression": "3rd bottle from left",
+      "mask_id": 1,
+      "annotation_id": 2182267,
+      "prediction_id": "refcoco-val-53643:1",
+      "gt_segmentation_sha256": "8a508d125ed2da2057581ec3bef397bd2c6f83c293814937a900175d3e3dbb5d",
+      "category_id": 44
+    },
+    {
+      "image_id": 53643,
+      "dataset_index": 804,
+      "ref_id": 45379,
+      "sent_id": 129050,
+      "expression": "vase next to half empty beer on left",
+      "mask_id": 2,
+      "annotation_id": 1873676,
+      "prediction_id": "refcoco-val-53643:2",
+      "gt_segmentation_sha256": "1cfff75051fa9d261127133add109c9399d37a3838dd5cd006dd3ab52d719a81",
+      "category_id": 46
+    },
+    {
+      "image_id": 53643,
+      "dataset_index": 804,
+      "ref_id": 45380,
+      "sent_id": 129052,
+      "expression": "2nd bottle fron left",
+      "mask_id": 3,
+      "annotation_id": 1488677,
+      "prediction_id": "refcoco-val-53643:3",
+      "gt_segmentation_sha256": "f248cde521e80f37cf531925b1e836715c469988a3e8947294de9bf6634f7042",
+      "category_id": 44
+    },
+    {
+      "image_id": 53643,
+      "dataset_index": 804,
+      "ref_id": 45381,
+      "sent_id": 129055,
+      "expression": "leftmost beer bottle",
+      "mask_id": 4,
+      "annotation_id": 1487627,
+      "prediction_id": "refcoco-val-53643:4",
+      "gt_segmentation_sha256": "a699e9c101e622979932dd4f4bf2f795ceb5553d941d6eaf1d6a231b6c33eade",
+      "category_id": 44
+    },
+    {
+      "image_id": 53643,
+      "dataset_index": 804,
+      "ref_id": 45382,
+      "sent_id": 129058,
+      "expression": "2nd chair on left",
+      "mask_id": 5,
+      "annotation_id": 377691,
+      "prediction_id": "refcoco-val-53643:5",
+      "gt_segmentation_sha256": "9717ba9b030336a812a72be71c34ba067774e1a1973f7e0db1fe25b30cc47655",
+      "category_id": 62
+    },
+    {
+      "image_id": 53643,
+      "dataset_index": 804,
+      "ref_id": 45383,
+      "sent_id": 129061,
+      "expression": "white chair on left side close to table",
+      "mask_id": 6,
+      "annotation_id": 376962,
+      "prediction_id": "refcoco-val-53643:6",
+      "gt_segmentation_sha256": "bf52a0dd5dc79e7e96fe404bd865115c2e8cb973d4320be9da39e996accf5925",
+      "category_id": 62
+    }
+  ],
+  "intersection": [
+    12306,
+    639,
+    0,
+    11714,
+    15070,
+    9883,
+    11187
+  ],
+  "union": [
+    13052,
+    24925,
+    34558,
+    14293,
+    15926,
+    11312,
+    21255
+  ],
+  "mask_file": "refcoco-val-53643.npz",
+  "mask_sha256": "ea92b743f98f33b2e1585d3874776281d6076a301eab34fe9744b1336218dab0",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.02001168299989331,
+    "inference_s": 2.4968715129999737,
+    "postprocess_s": 0.005184901000006903,
+    "amortized_inference_s_per_selected_expression": 0.3566959304285677,
+    "mask_write_s": 0.027514918999941074
+  },
+  "memory": {
+    "peak_allocated_bytes": 8843680256,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5452269568,
+    "ram_rss_bytes": 6295515136
+  },
+  "output_bytes": 14105,
+  "stage_created": "full-validation",
+  "record_hash": "a6c5101a81d635a615f28f691dc0ffe7ca484d3464732f22027c8d6c486ada92",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

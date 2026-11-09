@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-323108",
+  "sample_hash": "25dca5ef90d00aa1dfc520cbdd4e04f5b26edb323f91e8159b2573369ecf5a25",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 323108,
+  "dataset_index": 670,
+  "expressions": [
+    {
+      "image_id": 323108,
+      "dataset_index": 670,
+      "ref_id": 22471,
+      "sent_id": 63904,
+      "expression": "girls hair bottom screen",
+      "mask_id": 0,
+      "annotation_id": 1736324,
+      "prediction_id": "refcoco-val-323108:0",
+      "gt_segmentation_sha256": "613d11c1d5f3700203c351d42ea86bce3e6ffb047d74afe19dfa61fb6a52c899",
+      "category_id": 1
+    },
+    {
+      "image_id": 323108,
+      "dataset_index": 670,
+      "ref_id": 22472,
+      "sent_id": 63907,
+      "expression": "kid on left",
+      "mask_id": 1,
+      "annotation_id": 451916,
+      "prediction_id": "refcoco-val-323108:1",
+      "gt_segmentation_sha256": "681fa69cf0901b3d4b532d6a14940ae2b2764ce7d5e3facc86b9b1bb7269e8bb",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    19137,
+    21486
+  ],
+  "union": [
+    23078,
+    43050
+  ],
+  "mask_file": "refcoco-val-323108.npz",
+  "mask_sha256": "ae8cf8134cf1dd703aee72feb01f8db39f1ec3b217555fd324e4e60d2fe79f0f",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.012221529000044029,
+    "inference_s": 2.2466192150000097,
+    "postprocess_s": 0.0012457730000505762,
+    "amortized_inference_s_per_selected_expression": 1.1233096075000049,
+    "mask_write_s": 0.01236288899997362
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820689408,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6295363584
+  },
+  "output_bytes": 6035,
+  "stage_created": "full-validation",
+  "record_hash": "2878343842f843691bfa0528afc66075ad44c48a0b2e7013cddf313bb286ed1e",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

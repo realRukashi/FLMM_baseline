@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-260010",
+  "sample_hash": "a3eb434e46a2d7220bb10c8c1aa31d3902e62d7f88f15f752867101e50ad94e4",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 260010,
+  "dataset_index": 1104,
+  "expressions": [
+    {
+      "image_id": 260010,
+      "dataset_index": 1104,
+      "ref_id": 27937,
+      "sent_id": 79462,
+      "expression": "person farthest to the right",
+      "mask_id": 0,
+      "annotation_id": 517000,
+      "prediction_id": "refcoco-val-260010:0",
+      "gt_segmentation_sha256": "b7ac7a11d917a08eb048b783aa84f2f9c324bcfba83f5e0ba27f13064c3435c9",
+      "category_id": 1
+    },
+    {
+      "image_id": 260010,
+      "dataset_index": 1104,
+      "ref_id": 27938,
+      "sent_id": 79465,
+      "expression": "left: person in white",
+      "mask_id": 1,
+      "annotation_id": 471518,
+      "prediction_id": "refcoco-val-260010:1",
+      "gt_segmentation_sha256": "da4d28fa9e36d4f138c5c8ecc8cabf3cd093a84e4971e262cdcd0da2f16f5d06",
+      "category_id": 1
+    },
+    {
+      "image_id": 260010,
+      "dataset_index": 1104,
+      "ref_id": 27939,
+      "sent_id": 79468,
+      "expression": "guy in back teal in lap",
+      "mask_id": 2,
+      "annotation_id": 447290,
+      "prediction_id": "refcoco-val-260010:2",
+      "gt_segmentation_sha256": "a90fe8008ae46d976fee8ba8e4ba134069994953b69711c00ba766ff2f52d4a7",
+      "category_id": 1
+    },
+    {
+      "image_id": 260010,
+      "dataset_index": 1104,
+      "ref_id": 27940,
+      "sent_id": 79471,
+      "expression": "batter",
+      "mask_id": 3,
+      "annotation_id": 424185,
+      "prediction_id": "refcoco-val-260010:3",
+      "gt_segmentation_sha256": "40036c96621d99e1c89ab19c5710a83d63b548fea4a55671c8d1e4742a638062",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12217,
+    10881,
+    13360,
+    22795
+  ],
+  "union": [
+    17315,
+    12541,
+    21689,
+    28614
+  ],
+  "mask_file": "refcoco-val-260010.npz",
+  "mask_sha256": "410025ef6ebb4b23d05df302f8db54977a0e1af945b7439aed1545c7ddf48218",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.015696655999931863,
+    "inference_s": 2.063677940000048,
+    "postprocess_s": 0.0027302479999207208,
+    "amortized_inference_s_per_selected_expression": 0.515919485000012,
+    "mask_write_s": 0.01951665599995067
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829130240,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6296907776
+  },
+  "output_bytes": 10689,
+  "stage_created": "full-validation",
+  "record_hash": "c91753b6687e02fc7e71240fb7a142b00b6f43607d48e0bdcdc3ba9df696e4f8",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

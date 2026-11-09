@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-422064",
+  "sample_hash": "25586ede3220731d1368f4588b4a986eb9c0460782bdb7e1213dce409827bc43",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 422064,
+  "dataset_index": 772,
+  "expressions": [
+    {
+      "image_id": 422064,
+      "dataset_index": 772,
+      "ref_id": 13937,
+      "sent_id": 39662,
+      "expression": "left child",
+      "mask_id": 0,
+      "annotation_id": 494979,
+      "prediction_id": "refcoco-val-422064:0",
+      "gt_segmentation_sha256": "3bb470df35688e1e24b358872d1385e5fbee2d23bedaaecd0a4e593fd8e72dd0",
+      "category_id": 1
+    },
+    {
+      "image_id": 422064,
+      "dataset_index": 772,
+      "ref_id": 13938,
+      "sent_id": 39664,
+      "expression": "second from left",
+      "mask_id": 1,
+      "annotation_id": 485220,
+      "prediction_id": "refcoco-val-422064:1",
+      "gt_segmentation_sha256": "a3f9db61a3cf0a4ff7154bd85faee2ee0c7111bda368b1c34d56554c20dcc8dc",
+      "category_id": 1
+    },
+    {
+      "image_id": 422064,
+      "dataset_index": 772,
+      "ref_id": 13939,
+      "sent_id": 39667,
+      "expression": "right person",
+      "mask_id": 2,
+      "annotation_id": 442108,
+      "prediction_id": "refcoco-val-422064:2",
+      "gt_segmentation_sha256": "73f53873212ef0e8874f03df7a66c8c246b6029c42d5e72b1c648056134e88fd",
+      "category_id": 1
+    },
+    {
+      "image_id": 422064,
+      "dataset_index": 772,
+      "ref_id": 13940,
+      "sent_id": 39670,
+      "expression": "tallest boy",
+      "mask_id": 3,
+      "annotation_id": 426008,
+      "prediction_id": "refcoco-val-422064:3",
+      "gt_segmentation_sha256": "f9dc5445ad731c843760c9c439701b807bb1539ac4d55faf836ddc7a3158d40b",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12787,
+    17795,
+    17258,
+    20271
+  ],
+  "union": [
+    17612,
+    20392,
+    21880,
+    22486
+  ],
+  "mask_file": "refcoco-val-422064.npz",
+  "mask_sha256": "67619e5cdb9f0f1c71e7647950f4749d1ca693be080bc5aba1c58e9190de611a",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.01539105599999857,
+    "inference_s": 2.358292716000051,
+    "postprocess_s": 0.003009183999893139,
+    "amortized_inference_s_per_selected_expression": 0.5895731790000127,
+    "mask_write_s": 0.021583391999911328
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829497856,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449584128,
+    "ram_rss_bytes": 6295515136
+  },
+  "output_bytes": 10578,
+  "stage_created": "full-validation",
+  "record_hash": "a70554ac3cedf8fb828c701b611ead00132bff8eefe08584bd231e3b14feec5e",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

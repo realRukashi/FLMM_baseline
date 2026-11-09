@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-29601",
+  "sample_hash": "0c90931c37dc8f1e0dbbed3b4fefed0ed667a1f03cf2070fb77e8e8c735409f6",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 29601,
+  "dataset_index": 908,
+  "expressions": [
+    {
+      "image_id": 29601,
+      "dataset_index": 908,
+      "ref_id": 47461,
+      "sent_id": 134966,
+      "expression": "hot girl",
+      "mask_id": 0,
+      "annotation_id": 444106,
+      "prediction_id": "refcoco-val-29601:0",
+      "gt_segmentation_sha256": "42533d0d91a40bb9fd93177c3f55c0ff4c6c34e1c119d10cec363258b8b6b177",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    49637
+  ],
+  "union": [
+    52231
+  ],
+  "mask_file": "refcoco-val-29601.npz",
+  "mask_sha256": "6e78aefcdab9364f5a602090680b52c7d7a7938d2be496937199e7b3cdcaaba9",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.015872889000092982,
+    "inference_s": 2.348680426000101,
+    "postprocess_s": 0.0008501620000060939,
+    "amortized_inference_s_per_selected_expression": 2.348680426000101,
+    "mask_write_s": 0.010691327000131423
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814946816,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6295695360
+  },
+  "output_bytes": 3958,
+  "stage_created": "full-validation",
+  "record_hash": "4ba868e15be542ecba5e273bbd547a45aba95643af610e51bbba2162e2f8a56c",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

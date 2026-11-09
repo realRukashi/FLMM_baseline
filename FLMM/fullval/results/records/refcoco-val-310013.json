@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-310013",
+  "sample_hash": "c152ce9425602ff6e0168cb2c602658afdff980889adea469b4135996271f5e9",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 310013,
+  "dataset_index": 1274,
+  "expressions": [
+    {
+      "image_id": 310013,
+      "dataset_index": 1274,
+      "ref_id": 23730,
+      "sent_id": 67453,
+      "expression": "guy jumping on skateboard center",
+      "mask_id": 0,
+      "annotation_id": 2163877,
+      "prediction_id": "refcoco-val-310013:0",
+      "gt_segmentation_sha256": "32645ca5c02229dd7ab2bfa8ed37112e78f31074355894b68ba88ac49b6dba61",
+      "category_id": 1
+    },
+    {
+      "image_id": 310013,
+      "dataset_index": 1274,
+      "ref_id": 23731,
+      "sent_id": 67456,
+      "expression": "blue boy",
+      "mask_id": 1,
+      "annotation_id": 1247987,
+      "prediction_id": "refcoco-val-310013:1",
+      "gt_segmentation_sha256": "306c112c1eff5b7ae5163bdb19085f795acd75bfdd97fd958a3d81023bde2996",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    27583,
+    29306
+  ],
+  "union": [
+    30300,
+    31260
+  ],
+  "mask_file": "refcoco-val-310013.npz",
+  "mask_sha256": "89b0aca9378e9bb1725584cf60c7debefb1e12270e67a622f8b31815f39cb0a3",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01242276299990408,
+    "inference_s": 2.1619342389999474,
+    "postprocess_s": 0.0013423180000700086,
+    "amortized_inference_s_per_selected_expression": 1.0809671194999737,
+    "mask_write_s": 0.013638906999858591
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818501632,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6297100288
+  },
+  "output_bytes": 7417,
+  "stage_created": "full-validation",
+  "record_hash": "aa23f18d7d0912448a2f862a6195b178939d883c22eac1c10e10398c4fac3c8d",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

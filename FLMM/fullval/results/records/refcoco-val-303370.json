@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-303370",
+  "sample_hash": "e9e2994edb8497995f2275bd2bab7784d2e2e8d8143c3d3dab44de52cec52d46",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 303370,
+  "dataset_index": 48,
+  "expressions": [
+    {
+      "image_id": 303370,
+      "dataset_index": 48,
+      "ref_id": 24301,
+      "sent_id": 69062,
+      "expression": "woman in dark sweater",
+      "mask_id": 0,
+      "annotation_id": 1763284,
+      "prediction_id": "refcoco-val-303370:0",
+      "gt_segmentation_sha256": "86fb74363746209c9f58e68de76106da0e8f4762f4d042e492104797c275f959",
+      "category_id": 1
+    },
+    {
+      "image_id": 303370,
+      "dataset_index": 48,
+      "ref_id": 24302,
+      "sent_id": 69065,
+      "expression": "guy far left",
+      "mask_id": 1,
+      "annotation_id": 1762963,
+      "prediction_id": "refcoco-val-303370:1",
+      "gt_segmentation_sha256": "ca4ccf910c6fe1c4f9706aa92e74446404a5269af25321f25203c4c3010915cd",
+      "category_id": 1
+    },
+    {
+      "image_id": 303370,
+      "dataset_index": 48,
+      "ref_id": 24303,
+      "sent_id": 69068,
+      "expression": "police man right",
+      "mask_id": 2,
+      "annotation_id": 1760756,
+      "prediction_id": "refcoco-val-303370:2",
+      "gt_segmentation_sha256": "451945a2baf2a21f2f0a5b04588ae4b9d6def16e96cfd8a3f93100bbd1082497",
+      "category_id": 1
+    },
+    {
+      "image_id": 303370,
+      "dataset_index": 48,
+      "ref_id": 24304,
+      "sent_id": 69071,
+      "expression": "woman i n red jacket with luggage.",
+      "mask_id": 3,
+      "annotation_id": 1747217,
+      "prediction_id": "refcoco-val-303370:3",
+      "gt_segmentation_sha256": "56a67721f21e81e1d3cbd980ac127b8498f1435a5389efdfe4948c54f181508f",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    15024,
+    23093,
+    0,
+    13776
+  ],
+  "union": [
+    18479,
+    26799,
+    37724,
+    16230
+  ],
+  "mask_file": "refcoco-val-303370.npz",
+  "mask_sha256": "b787bd4f90b32bc4dcd22b9a1c400f5f591ef41a871b7e7f341debd911305198",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.018463691000079052,
+    "inference_s": 2.906027733999963,
+    "postprocess_s": 0.0033710059999521036,
+    "amortized_inference_s_per_selected_expression": 0.7265069334999907,
+    "mask_write_s": 0.023511418999987654
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826897920,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 10068,
+  "stage_created": "full-validation",
+  "record_hash": "6e1d2a33361d4c23c1559ba3429ba316eff86d936249822aba2ad6fa2a64e5ba",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

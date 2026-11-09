@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-318528",
+  "sample_hash": "190a2bcdefb03275e97f7a0db2fc8dd6ef64bcb1c0579f3e38def1dfbd2951e3",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 318528,
+  "dataset_index": 1325,
+  "expressions": [
+    {
+      "image_id": 318528,
+      "dataset_index": 1325,
+      "ref_id": 22888,
+      "sent_id": 65082,
+      "expression": "right leaf close to us",
+      "mask_id": 0,
+      "annotation_id": 2127472,
+      "prediction_id": "refcoco-val-318528:0",
+      "gt_segmentation_sha256": "5b11dd5dfaa55fa044ba3c5ae8b5990aaa6cb61cd493beff29fbe0df66788a06",
+      "category_id": 64
+    },
+    {
+      "image_id": 318528,
+      "dataset_index": 1325,
+      "ref_id": 22889,
+      "sent_id": 65085,
+      "expression": "yellow pot",
+      "mask_id": 1,
+      "annotation_id": 1607409,
+      "prediction_id": "refcoco-val-318528:1",
+      "gt_segmentation_sha256": "f19dc9dd04c5d5131bc5c7fea00b8f8bcdf50c9b1a3d52ab796e2a66ccc68f6f",
+      "category_id": 64
+    },
+    {
+      "image_id": 318528,
+      "dataset_index": 1325,
+      "ref_id": 22890,
+      "sent_id": 65088,
+      "expression": "left bowl green one",
+      "mask_id": 2,
+      "annotation_id": 1155723,
+      "prediction_id": "refcoco-val-318528:2",
+      "gt_segmentation_sha256": "b2823b24c6a0cfc28405ef2704bfc7696c8db9290cf402f035921cdac613220e",
+      "category_id": 86
+    },
+    {
+      "image_id": 318528,
+      "dataset_index": 1325,
+      "ref_id": 22891,
+      "sent_id": 65091,
+      "expression": "yellow planter",
+      "mask_id": 3,
+      "annotation_id": 1151945,
+      "prediction_id": "refcoco-val-318528:3",
+      "gt_segmentation_sha256": "6d82d964af9c0c86a0266649a29872075bf019a5451485f42fa458a908b4c1b6",
+      "category_id": 86
+    }
+  ],
+  "intersection": [
+    11382,
+    28805,
+    16686,
+    468
+  ],
+  "union": [
+    35676,
+    66221,
+    17362,
+    59218
+  ],
+  "mask_file": "refcoco-val-318528.npz",
+  "mask_sha256": "f9fff8128435b3485a8565b5f2cbeef1ce116d78e9dc6caa8ac0d76859482b82",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.01725830999998834,
+    "inference_s": 2.4445178690000375,
+    "postprocess_s": 0.0021910530001605366,
+    "amortized_inference_s_per_selected_expression": 0.6111294672500094,
+    "mask_write_s": 0.02282364300003792
+  },
+  "memory": {
+    "peak_allocated_bytes": 8832208896,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446892032,
+    "ram_rss_bytes": 6300770304
+  },
+  "output_bytes": 12943,
+  "stage_created": "full-validation",
+  "record_hash": "cac5dae0a4c9819e873af3e70b98670abd876df501348720925559207acac51e",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

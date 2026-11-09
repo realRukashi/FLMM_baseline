@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-204529",
+  "sample_hash": "b73b8007d7197dde8e9d9ae6a8fc3584886e2f89f186c067047b699c1e21910b",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 204529,
+  "dataset_index": 1452,
+  "expressions": [
+    {
+      "image_id": 204529,
+      "dataset_index": 1452,
+      "ref_id": 32664,
+      "sent_id": 92884,
+      "expression": "2nd from right",
+      "mask_id": 0,
+      "annotation_id": 666622,
+      "prediction_id": "refcoco-val-204529:0",
+      "gt_segmentation_sha256": "06271037bb76e2e9dfd14d677a770db419e27ae517e9ac1a96575116ce7bdc5d",
+      "category_id": 46
+    },
+    {
+      "image_id": 204529,
+      "dataset_index": 1452,
+      "ref_id": 32665,
+      "sent_id": 92887,
+      "expression": "second wine glass from the left",
+      "mask_id": 1,
+      "annotation_id": 666556,
+      "prediction_id": "refcoco-val-204529:1",
+      "gt_segmentation_sha256": "674276a9025829b85f939085848582906bf022c9d2e810b0f707c00d05a9cd2d",
+      "category_id": 46
+    },
+    {
+      "image_id": 204529,
+      "dataset_index": 1452,
+      "ref_id": 32666,
+      "sent_id": 92890,
+      "expression": "wine glass far left",
+      "mask_id": 2,
+      "annotation_id": 664235,
+      "prediction_id": "refcoco-val-204529:2",
+      "gt_segmentation_sha256": "d95f198ee1c4fbae4c34f32641836646e7fd29812a51efaf7c49f7e2a9f13af4",
+      "category_id": 46
+    },
+    {
+      "image_id": 204529,
+      "dataset_index": 1452,
+      "ref_id": 32667,
+      "sent_id": 92893,
+      "expression": "third from left second bottle from right",
+      "mask_id": 3,
+      "annotation_id": 2093348,
+      "prediction_id": "refcoco-val-204529:3",
+      "gt_segmentation_sha256": "1140df8a56fe53e93c1fa8d903293cda37e47bf8ec33d39551cf6d44f2957001",
+      "category_id": 44
+    },
+    {
+      "image_id": 204529,
+      "dataset_index": 1452,
+      "ref_id": 32668,
+      "sent_id": 92896,
+      "expression": "white label wine bottle with blue strip",
+      "mask_id": 4,
+      "annotation_id": 94460,
+      "prediction_id": "refcoco-val-204529:4",
+      "gt_segmentation_sha256": "7ee7b9e0b71a63fef35216bd1da6c0b47cdd9d3551ad346ef3f60d5e0fe30a6f",
+      "category_id": 44
+    },
+    {
+      "image_id": 204529,
+      "dataset_index": 1452,
+      "ref_id": 32669,
+      "sent_id": 92899,
+      "expression": "bottle on left",
+      "mask_id": 5,
+      "annotation_id": 91365,
+      "prediction_id": "refcoco-val-204529:5",
+      "gt_segmentation_sha256": "a68579584b1be881edf315e0fd7ede3bbaffb4a1d7295904cbf38bece5b0bc45",
+      "category_id": 44
+    }
+  ],
+  "intersection": [
+    12638,
+    241,
+    5607,
+    3847,
+    25135,
+    27529
+  ],
+  "union": [
+    15187,
+    29092,
+    50191,
+    30034,
+    26468,
+    30043
+  ],
+  "mask_file": "refcoco-val-204529.npz",
+  "mask_sha256": "449ce4b42b450164aeb73589a08c37604d53e4386ced30b12229b24243d36fda",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.021146576000091954,
+    "inference_s": 2.2281164199998784,
+    "postprocess_s": 0.004039864000105808,
+    "amortized_inference_s_per_selected_expression": 0.3713527366666464,
+    "mask_write_s": 0.025686768999776177
+  },
+  "memory": {
+    "peak_allocated_bytes": 8838789632,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451040768,
+    "ram_rss_bytes": 6297804800
+  },
+  "output_bytes": 16856,
+  "stage_created": "full-validation",
+  "record_hash": "cc8fa1b69721242ed47d79e8f2df803e307fda80eecddfbab219b02816eaa0f9",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

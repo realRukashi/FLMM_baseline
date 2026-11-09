@@ -1,0 +1,237 @@
+{
+  "status": "PASS",
+  "chunk": 3,
+  "requested_prefix": 1500,
+  "completed_images": 1500,
+  "selected_masks": 3811,
+  "remaining_images": 0,
+  "metrics": {
+    "status": "PASS",
+    "split": "RefCOCO UNC val",
+    "unit": "first sentence per reference, concatenated by image",
+    "expected_images": 1500,
+    "expected_selected_masks": 3811,
+    "official_refseg_metric": {
+      "cIoU": 74.96344757080078,
+      "mIoU": 76.97119140625
+    },
+    "independently_recomputed": {
+      "image_count": 1500,
+      "mask_count": 3811,
+      "intersection": 103215624,
+      "union": 137687931,
+      "cIoU": 74.96345050024755,
+      "mIoU": 76.97116786497841
+    }
+  },
+  "workers": [
+    {
+      "status": "PASS",
+      "stage": "full-validation",
+      "requested_images": 750,
+      "validated_done": 750,
+      "newly_evaluated": 239,
+      "reused_done": 511,
+      "failures": [],
+      "wall_s": 736.872683885,
+      "metrics": {
+        "image_count": 750,
+        "mask_count": 1906,
+        "intersection": 51314026,
+        "union": 68198799,
+        "cIoU": 75.24183233783927,
+        "mIoU": 77.14401124137358
+      },
+      "physical_gpu_index": 1,
+      "cold_model_load_s": 9.296438454000054,
+      "warmup_s": 2.192783383999995
+    },
+    {
+      "status": "PASS",
+      "stage": "full-validation",
+      "requested_images": 750,
+      "validated_done": 750,
+      "newly_evaluated": 240,
+      "reused_done": 510,
+      "failures": [],
+      "wall_s": 688.4400437979999,
+      "metrics": {
+        "image_count": 750,
+        "mask_count": 1905,
+        "intersection": 51901598,
+        "union": 69489132,
+        "cIoU": 74.6902378921642,
+        "mIoU": 76.79823375715219
+      },
+      "physical_gpu_index": 0,
+      "cold_model_load_s": 13.306732256000032,
+      "warmup_s": 2.1443949530000737
+    }
+  ],
+  "resumed_from": "flmm-full-2",
+  "session_elapsed_s": 1186.4587349891663,
+  "chunk_history": [
+    {
+      "chunk": 1,
+      "completed_images": 534,
+      "session_elapsed_s": 1907.6782257556915,
+      "new_image_inferences": 464,
+      "worker_summaries": [
+        {
+          "status": "PASS",
+          "stage": "full-validation",
+          "requested_images": 250,
+          "validated_done": 250,
+          "newly_evaluated": 233,
+          "reused_done": 17,
+          "failures": [],
+          "wall_s": 710.664672934,
+          "metrics": {
+            "image_count": 250,
+            "mask_count": 641,
+            "intersection": 16750223,
+            "union": 22741161,
+            "cIoU": 73.65597121448637,
+            "mIoU": 76.61592515090776
+          },
+          "physical_gpu_index": 1,
+          "cold_model_load_s": 801.804737151,
+          "warmup_s": 3.6942867769998884
+        },
+        {
+          "status": "PASS",
+          "stage": "full-validation",
+          "requested_images": 250,
+          "validated_done": 250,
+          "newly_evaluated": 231,
+          "reused_done": 19,
+          "failures": [],
+          "wall_s": 819.3906501719998,
+          "metrics": {
+            "image_count": 250,
+            "mask_count": 635,
+            "intersection": 17394242,
+            "union": 23278011,
+            "cIoU": 74.7239186372066,
+            "mIoU": 77.03493660863961
+          },
+          "physical_gpu_index": 0,
+          "cold_model_load_s": 801.7813877159999,
+          "warmup_s": 3.6943822040000214
+        }
+      ]
+    },
+    {
+      "chunk": 2,
+      "completed_images": 1021,
+      "session_elapsed_s": 1049.9679734706879,
+      "new_image_inferences": 487,
+      "worker_summaries": [
+        {
+          "status": "PASS",
+          "stage": "full-validation",
+          "requested_images": 500,
+          "validated_done": 500,
+          "newly_evaluated": 241,
+          "reused_done": 259,
+          "failures": [],
+          "wall_s": 726.093620863,
+          "metrics": {
+            "image_count": 500,
+            "mask_count": 1252,
+            "intersection": 34014393,
+            "union": 45395193,
+            "cIoU": 74.92950409969619,
+            "mIoU": 77.07598914543082
+          },
+          "physical_gpu_index": 0,
+          "cold_model_load_s": 13.614107672999978,
+          "warmup_s": 2.198475636000012
+        },
+        {
+          "status": "PASS",
+          "stage": "full-validation",
+          "requested_images": 500,
+          "validated_done": 500,
+          "newly_evaluated": 246,
+          "reused_done": 254,
+          "failures": [],
+          "wall_s": 737.7110787420002,
+          "metrics": {
+            "image_count": 500,
+            "mask_count": 1290,
+            "intersection": 35264378,
+            "union": 46666481,
+            "cIoU": 75.56682493372492,
+            "mIoU": 77.40208975833627
+          },
+          "physical_gpu_index": 1,
+          "cold_model_load_s": 9.534191638000038,
+          "warmup_s": 2.183515504000013
+        }
+      ]
+    },
+    {
+      "chunk": 3,
+      "completed_images": 1500,
+      "session_elapsed_s": 1186.4585826396942,
+      "new_image_inferences": 479,
+      "worker_summaries": [
+        {
+          "status": "PASS",
+          "stage": "full-validation",
+          "requested_images": 750,
+          "validated_done": 750,
+          "newly_evaluated": 239,
+          "reused_done": 511,
+          "failures": [],
+          "wall_s": 736.872683885,
+          "metrics": {
+            "image_count": 750,
+            "mask_count": 1906,
+            "intersection": 51314026,
+            "union": 68198799,
+            "cIoU": 75.24183233783927,
+            "mIoU": 77.14401124137358
+          },
+          "physical_gpu_index": 1,
+          "cold_model_load_s": 9.296438454000054,
+          "warmup_s": 2.192783383999995
+        },
+        {
+          "status": "PASS",
+          "stage": "full-validation",
+          "requested_images": 750,
+          "validated_done": 750,
+          "newly_evaluated": 240,
+          "reused_done": 510,
+          "failures": [],
+          "wall_s": 688.4400437979999,
+          "metrics": {
+            "image_count": 750,
+            "mask_count": 1905,
+            "intersection": 51901598,
+            "union": 69489132,
+            "cIoU": 74.6902378921642,
+            "mIoU": 76.79823375715219
+          },
+          "physical_gpu_index": 0,
+          "cold_model_load_s": 13.306732256000032,
+          "warmup_s": 2.1443949530000737
+        }
+      ]
+    }
+  ],
+  "full_validation_complete": true,
+  "all_10834_expressions_evaluated": false,
+  "precision": "BF16 DeepSeekVL, FP32 grounding/SAM, math SDPA/manual attention fallback as G0",
+  "source_hashes": {
+    "engine.py": "2a024735f51c2a85412b0cd4da11bb2c185039d2beae8c05d14c8bdaa88c95d1",
+    "common.py": "3ae35cd2ab9c0f11a5806fa6cf150c8628253eaf1c2e0f4431d9300862d21d22",
+    "full_worker.py": "de64be830b2b99dc22a597ec8068afbd817fdf5604c6a44487b8df7ca96e3dc3",
+    "full_control.py": "7af7dd96f22acf9d88b1b1267b60093915a820116f49bd091dd3a3ef8a0c56e9",
+    "full_finalize.py": "863a262688a61d21e942e1e23f2e2808873277a708e78cd4ebb598dc4198eee3"
+  },
+  "resume_note": "Only validated matching DONE records skipped; completed chunk outputs are cross-session durable. Hard loss before artifact commit may require rerunning current uncommitted chunk.",
+  "holdout_note": "Full validation includes the former internal holdout; it must not be treated as untouched for future method selection. No improvement/tuning in this run."
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-342459",
+  "sample_hash": "44dd91a25115284ffde89b7fbb69f4e850caa493d7a1be6ab72f89f533cc6f35",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 342459,
+  "dataset_index": 1201,
+  "expressions": [
+    {
+      "image_id": 342459,
+      "dataset_index": 1201,
+      "ref_id": 20538,
+      "sent_id": 58428,
+      "expression": "batter",
+      "mask_id": 0,
+      "annotation_id": 1289148,
+      "prediction_id": "refcoco-val-342459:0",
+      "gt_segmentation_sha256": "cd13c0d63a2329737992c5cb4334abe191540fad630f443a220086c540bc0026",
+      "category_id": 1
+    },
+    {
+      "image_id": 342459,
+      "dataset_index": 1201,
+      "ref_id": 20539,
+      "sent_id": 58431,
+      "expression": "player squatting in front of umpire thx for playing",
+      "mask_id": 1,
+      "annotation_id": 1681098,
+      "prediction_id": "refcoco-val-342459:1",
+      "gt_segmentation_sha256": "207f69fc8fefb10bf89fe8851a1fb05e7e62c0e6a1858e57a59dcb95dcd88581",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    13759,
+    14897
+  ],
+  "union": [
+    15386,
+    16547
+  ],
+  "mask_file": "refcoco-val-342459.npz",
+  "mask_sha256": "cde6858eef794c7a4b5bea2fd8be3f98a7caacce6d6e30dbdb555fe3a4961e45",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.024373443000058614,
+    "inference_s": 2.3909566290000157,
+    "postprocess_s": 0.0013800970000374946,
+    "amortized_inference_s_per_selected_expression": 1.1954783145000079,
+    "mask_write_s": 0.01183261100004529
+  },
+  "memory": {
+    "peak_allocated_bytes": 8817484800,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6300631040
+  },
+  "output_bytes": 4836,
+  "stage_created": "full-validation",
+  "record_hash": "ce0e5951eb46722e8bf962ab121779fe0fb5b1f4e4d7f2e0ef126428486310d4",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

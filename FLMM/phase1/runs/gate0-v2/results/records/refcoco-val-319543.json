@@ -1,0 +1,61 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-319543",
+  "sample_hash": "088752971e92ee93fa905b75952e9a8fd30afaec15871d6d42040150f97dbdc5",
+  "fingerprint": "7b0a0f19a4148190b500d8b050454fb48beeb2b73382073930afe71fa53277a4",
+  "image_id": 319543,
+  "dataset_index": 10,
+  "expressions": [
+    {
+      "image_id": 319543,
+      "dataset_index": 10,
+      "ref_id": 22819,
+      "sent_id": 64890,
+      "expression": "couch in front of fireplace",
+      "mask_id": 0,
+      "annotation_id": 99167,
+      "prediction_id": "refcoco-val-319543:0",
+      "gt_segmentation_sha256": "bec97a8f089e73e7202d9fa66ea81f47fe628bceae6768935337874b6b856f23",
+      "category_id": 63
+    },
+    {
+      "image_id": 319543,
+      "dataset_index": 10,
+      "ref_id": 22820,
+      "sent_id": 64893,
+      "expression": "sofa on far left with white pillow",
+      "mask_id": 1,
+      "annotation_id": 2224297,
+      "prediction_id": "refcoco-val-319543:1",
+      "gt_segmentation_sha256": "7aa0c7530998f71ec5a710f99d740b2d22e2f2b6ec8cf9a5100518433c0e82f9",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    12574,
+    14642
+  ],
+  "union": [
+    17553,
+    17865
+  ],
+  "mask_file": "refcoco-val-319543.npz",
+  "mask_sha256": "47a982cf32b2de6f070e87bba578ff5fccf82f055884b634df4989dc3338ed47",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013545403999955852,
+    "inference_s": 2.157995307999954,
+    "postprocess_s": 0.0013586410000243632,
+    "amortized_inference_s_per_selected_expression": 1.078997653999977,
+    "mask_write_s": 0.01127494200000001
+  },
+  "memory": {
+    "peak_allocated_bytes": 8828167680,
+    "peak_reserved_bytes": 9791602688,
+    "allocated_after_bytes": 5454604288,
+    "ram_rss_bytes": 7754342400
+  },
+  "output_bytes": 4770,
+  "stage_created": "regression",
+  "record_hash": "bd9e44f6cc7ab7d80c14902d61f6a84c740a06360d50ed94a1d8fc4dfb309fbd"
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-503478",
+  "sample_hash": "bfb85b8e1a1a63fbfeb26fb0b7da021595d907aca84693dcaa75c3496be11bd2",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 503478,
+  "dataset_index": 695,
+  "expressions": [
+    {
+      "image_id": 503478,
+      "dataset_index": 695,
+      "ref_id": 6845,
+      "sent_id": 19483,
+      "expression": "milk glass right",
+      "mask_id": 0,
+      "annotation_id": 671834,
+      "prediction_id": "refcoco-val-503478:0",
+      "gt_segmentation_sha256": "d70501941d47f549be5a29fe865bc4f03fea5856a2afc3c58c6b657278603429",
+      "category_id": 47
+    },
+    {
+      "image_id": 503478,
+      "dataset_index": 695,
+      "ref_id": 6846,
+      "sent_id": 19486,
+      "expression": "the empty drink galss near the shells",
+      "mask_id": 1,
+      "annotation_id": 671266,
+      "prediction_id": "refcoco-val-503478:1",
+      "gt_segmentation_sha256": "83e33250533254a47f2634adc55d799a199be9c01085c88c7d5d5e0ca8091985",
+      "category_id": 47
+    }
+  ],
+  "intersection": [
+    14414,
+    0
+  ],
+  "union": [
+    15350,
+    40600
+  ],
+  "mask_file": "refcoco-val-503478.npz",
+  "mask_sha256": "287ce991678fc33aa5ec68fbad5224165bea00b0f998af6408e281dd79d635f0",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01528314099994077,
+    "inference_s": 2.2740469990000065,
+    "postprocess_s": 0.0016383490000180245,
+    "amortized_inference_s_per_selected_expression": 1.1370234995000033,
+    "mask_write_s": 0.012648546999912469
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820341248,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6294368256
+  },
+  "output_bytes": 3684,
+  "stage_created": "full-validation",
+  "record_hash": "a4c390468850e5288528b579fe73beb6b30b283d9c150864eba7ac36ad99da8c",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

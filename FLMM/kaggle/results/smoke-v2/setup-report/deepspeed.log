@@ -1,0 +1,17 @@
+Using Python 3.10.22 environment at: /kaggle/temp/flmm-env
+Resolved 12 packages in 218ms
+Downloading pip (1.9MiB)
+Downloading pydantic-core (2.2MiB)
+ Downloaded pydantic-core
+ Downloaded pip
+Prepared 9 packages in 72ms
+Installed 9 packages in 16ms
+ + annotated-types==0.8.0
+ + hjson==3.1.0
+ + ninja==1.13.2
+ + pip==26.3
+ + py-cpuinfo==9.0.0
+ + pydantic==2.14.3
+ + pydantic-core==2.50.4
+ + typing-inspection==0.4.5
+ + wheel==0.48.0

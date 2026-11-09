@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-64619",
+  "sample_hash": "329089d82e579fe6cfad60da9101261b5daef182f601132ae3eb9724eab2d141",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 64619,
+  "dataset_index": 1336,
+  "expressions": [
+    {
+      "image_id": 64619,
+      "dataset_index": 1336,
+      "ref_id": 44335,
+      "sent_id": 126053,
+      "expression": "far left top - person",
+      "mask_id": 0,
+      "annotation_id": 537112,
+      "prediction_id": "refcoco-val-64619:0",
+      "gt_segmentation_sha256": "4047eb77d8b9544c819f68125cf56f9d25eb29f1007c23aeea54bb33b8303d20",
+      "category_id": 1
+    },
+    {
+      "image_id": 64619,
+      "dataset_index": 1336,
+      "ref_id": 44336,
+      "sent_id": 126056,
+      "expression": "the arm of the woman above the man's head on the right",
+      "mask_id": 1,
+      "annotation_id": 1727982,
+      "prediction_id": "refcoco-val-64619:1",
+      "gt_segmentation_sha256": "c25922b2ae80d7012a6406663b6f910e4436bcc66b736b92f6aa4d3082c9e4ec",
+      "category_id": 1
+    },
+    {
+      "image_id": 64619,
+      "dataset_index": 1336,
+      "ref_id": 44337,
+      "sent_id": 126059,
+      "expression": "top right corner",
+      "mask_id": 2,
+      "annotation_id": 1713263,
+      "prediction_id": "refcoco-val-64619:2",
+      "gt_segmentation_sha256": "5823ad631d6b598a8abc2f3a7e05da86d1b61d8cd8efd3f1e99a8da795c3956d",
+      "category_id": 1
+    },
+    {
+      "image_id": 64619,
+      "dataset_index": 1336,
+      "ref_id": 44338,
+      "sent_id": 126061,
+      "expression": "guy blowing out candles",
+      "mask_id": 3,
+      "annotation_id": 454150,
+      "prediction_id": "refcoco-val-64619:3",
+      "gt_segmentation_sha256": "9c9c12c451546cf629c419f37e5f1abb87b75b746bacc1745715ff5294d8f035",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    16121,
+    12516,
+    14246,
+    96669
+  ],
+  "union": [
+    24772,
+    16041,
+    15338,
+    101579
+  ],
+  "mask_file": "refcoco-val-64619.npz",
+  "mask_sha256": "617a928b4858819be4c6884309634c223ef808d2042b278242f4d1ebdc4d01bd",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.015155783000182055,
+    "inference_s": 2.1785404040001595,
+    "postprocess_s": 0.0027881930000148714,
+    "amortized_inference_s_per_selected_expression": 0.5446351010000399,
+    "mask_write_s": 0.02454396099983569
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829249024,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448593408,
+    "ram_rss_bytes": 6297116672
+  },
+  "output_bytes": 12932,
+  "stage_created": "full-validation",
+  "record_hash": "894e3186c864d4d66470b265d50d8dd9069dbe4a7a7e95c4a87c6b90c5bd2cb2",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

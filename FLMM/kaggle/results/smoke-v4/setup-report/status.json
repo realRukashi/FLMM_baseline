@@ -1,0 +1,5 @@
+{
+  "source_sha": "47d3c2a6f628dd48ba76a1cfdf29b6b2aa8f9eb3",
+  "stage": "smoke-inference",
+  "error": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 73, in <module>\n    run('smoke-inference', [py, 'eval_refcoco_subset.py', 'configs/deepseek_vl/frozen_deepseek_vl_1_3b_chat_unet_sam_l_refcoco_png.py', '--checkpoint', 'checkpoints/frozen_deepseek_vl_1_3b_chat_unet_sam_l_refcoco_png.pth', '--concat', '--max-samples', '1'], timeout=1800)\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/src/script.py\", line 28, in run\n    raise RuntimeError(f'{label} failed, return code {result.returncode}')\nRuntimeError: smoke-inference failed, return code 1\n"
+}

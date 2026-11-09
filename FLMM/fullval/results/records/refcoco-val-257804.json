@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-257804",
+  "sample_hash": "c50cddd8e786478d6ddd7137fbeaf1fc960fe4d0c4ba822c6e24e9ffc67397e2",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 257804,
+  "dataset_index": 707,
+  "expressions": [
+    {
+      "image_id": 257804,
+      "dataset_index": 707,
+      "ref_id": 28104,
+      "sent_id": 79933,
+      "expression": "brown hair under guy with black phone hand",
+      "mask_id": 0,
+      "annotation_id": 2152869,
+      "prediction_id": "refcoco-val-257804:0",
+      "gt_segmentation_sha256": "c82cc87cf1d8b2bb2f2041046bec2b5ea0207cdd933b9c7fc44599f8b9b31d94",
+      "category_id": 1
+    },
+    {
+      "image_id": 257804,
+      "dataset_index": 707,
+      "ref_id": 28105,
+      "sent_id": 79936,
+      "expression": "dark head left of silver phone",
+      "mask_id": 1,
+      "annotation_id": 558705,
+      "prediction_id": "refcoco-val-257804:1",
+      "gt_segmentation_sha256": "dce8a468f6add1be3f24733a95b40cd3004e81b6a4ec1d1deffec5ba8994a674",
+      "category_id": 1
+    },
+    {
+      "image_id": 257804,
+      "dataset_index": 707,
+      "ref_id": 28106,
+      "sent_id": 79938,
+      "expression": "black haired woman",
+      "mask_id": 2,
+      "annotation_id": 555188,
+      "prediction_id": "refcoco-val-257804:2",
+      "gt_segmentation_sha256": "c267d1a3fad2bb653427e562b5f6bd9e41bd92e43570ee8600ed3b78e3f4b362",
+      "category_id": 1
+    },
+    {
+      "image_id": 257804,
+      "dataset_index": 707,
+      "ref_id": 28107,
+      "sent_id": 79941,
+      "expression": "face on right",
+      "mask_id": 3,
+      "annotation_id": 430627,
+      "prediction_id": "refcoco-val-257804:3",
+      "gt_segmentation_sha256": "93338511981e5c79f8ffbee654cd6200126ad75b1667e7f5700fa31b0ee4feb7",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    18862,
+    8945,
+    18803,
+    29734
+  ],
+  "union": [
+    20041,
+    16108,
+    19886,
+    38942
+  ],
+  "mask_file": "refcoco-val-257804.npz",
+  "mask_sha256": "fe23dd94473d2f4139a046b919d546ab66b92f80f631d4c306f12482793d8438",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.011060366000037902,
+    "inference_s": 2.341112659000032,
+    "postprocess_s": 0.0018311819999325962,
+    "amortized_inference_s_per_selected_expression": 0.585278164750008,
+    "mask_write_s": 0.017590661999975055
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829170176,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447632896,
+    "ram_rss_bytes": 6294450176
+  },
+  "output_bytes": 9731,
+  "stage_created": "full-validation",
+  "record_hash": "e065562fc541e191f9af35290b1ac113c97acc1f611d135fc613a2bb7ad05652",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

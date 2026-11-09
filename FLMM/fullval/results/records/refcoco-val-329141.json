@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-329141",
+  "sample_hash": "d12fd34f17f29ae1d537657120d8e957845da42a780597e59c0af04ea834bd29",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 329141,
+  "dataset_index": 259,
+  "expressions": [
+    {
+      "image_id": 329141,
+      "dataset_index": 259,
+      "ref_id": 21840,
+      "sent_id": 62110,
+      "expression": "watermelon",
+      "mask_id": 0,
+      "annotation_id": 1899526,
+      "prediction_id": "refcoco-val-329141:0",
+      "gt_segmentation_sha256": "f9cefb92387165dca0d1ab366ac7928158c60fcb39d7cbc9c2e2d2f4e4010dcd",
+      "category_id": 51
+    },
+    {
+      "image_id": 329141,
+      "dataset_index": 259,
+      "ref_id": 21841,
+      "sent_id": 62113,
+      "expression": "peppers, top right container",
+      "mask_id": 1,
+      "annotation_id": 717766,
+      "prediction_id": "refcoco-val-329141:1",
+      "gt_segmentation_sha256": "951dd1950a19d72771b9d9d5b59fc2ae6ac4b6459ad2ce7338630bbca66d5413",
+      "category_id": 51
+    },
+    {
+      "image_id": 329141,
+      "dataset_index": 259,
+      "ref_id": 21842,
+      "sent_id": 62116,
+      "expression": "carrot sticks right side",
+      "mask_id": 2,
+      "annotation_id": 712948,
+      "prediction_id": "refcoco-val-329141:2",
+      "gt_segmentation_sha256": "7e70905d4d0e39e314f6a3238160c090a62a326cc0d10993f29f1cc4aedbd6f4",
+      "category_id": 51
+    }
+  ],
+  "intersection": [
+    61132,
+    40085,
+    47573
+  ],
+  "union": [
+    72844,
+    44537,
+    49865
+  ],
+  "mask_file": "refcoco-val-329141.npz",
+  "mask_sha256": "3968c1c10a6d84878dcc5aa5d357b7bbaf1fd3a6aa48718afe4dd9201f88a7bf",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.017676055000038104,
+    "inference_s": 2.2634346450001885,
+    "postprocess_s": 0.0027760289999605448,
+    "amortized_inference_s_per_selected_expression": 0.7544782150000628,
+    "mask_write_s": 0.02982723599984638
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824584192,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447706624,
+    "ram_rss_bytes": 6283956224
+  },
+  "output_bytes": 12747,
+  "stage_created": "full-validation",
+  "record_hash": "8dd0941bd609f905e522e3bb90e45ea3698ae57004418fddc2b3260e4c11b77d",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

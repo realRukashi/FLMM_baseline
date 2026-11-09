@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-494032",
+  "sample_hash": "b0306e8e6767429adebfd8362e4eef49c792c9ea1121c3ccb5871a172561006c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 494032,
+  "dataset_index": 455,
+  "expressions": [
+    {
+      "image_id": 494032,
+      "dataset_index": 455,
+      "ref_id": 7671,
+      "sent_id": 21850,
+      "expression": "left person",
+      "mask_id": 0,
+      "annotation_id": 546729,
+      "prediction_id": "refcoco-val-494032:0",
+      "gt_segmentation_sha256": "c01a5b2c64eaee542bfb0655c615c59665d8fe408082dc912d73ebc84c612fc0",
+      "category_id": 1
+    },
+    {
+      "image_id": 494032,
+      "dataset_index": 455,
+      "ref_id": 7672,
+      "sent_id": 21853,
+      "expression": "woman hitting tennis ball",
+      "mask_id": 1,
+      "annotation_id": 451205,
+      "prediction_id": "refcoco-val-494032:1",
+      "gt_segmentation_sha256": "2c181ec041ddf1f8804cb9e7093702205f986a1806d08f52268a3ec6dd9a3a2c",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10805,
+    67710
+  ],
+  "union": [
+    13394,
+    73572
+  ],
+  "mask_file": "refcoco-val-494032.npz",
+  "mask_sha256": "db50e47ebbf10ea4f9e0554cd7c312ec6219e2ed9264b2e93b2f048632845517",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.022340468000038527,
+    "inference_s": 2.2252823460000855,
+    "postprocess_s": 0.002483230999814623,
+    "amortized_inference_s_per_selected_expression": 1.1126411730000427,
+    "mask_write_s": 0.020410901000104786
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824488448,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447235584,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 9773,
+  "stage_created": "full-validation",
+  "record_hash": "80caeee03c023b7f3d94430ed1ca904b292efbe92fc343a8a5cb3dbff6262e44",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

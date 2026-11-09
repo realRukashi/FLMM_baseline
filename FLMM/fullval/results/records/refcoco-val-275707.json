@@ -1,0 +1,133 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-275707",
+  "sample_hash": "32771273cf8b1a5b1a9c48d0c799ab8756dfcd1bab77145135ad1fc2da6fc644",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 275707,
+  "dataset_index": 985,
+  "expressions": [
+    {
+      "image_id": 275707,
+      "dataset_index": 985,
+      "ref_id": 26638,
+      "sent_id": 75749,
+      "expression": "man with back turned wearing the strap across his chest",
+      "mask_id": 0,
+      "annotation_id": 1296696,
+      "prediction_id": "refcoco-val-275707:0",
+      "gt_segmentation_sha256": "3a4e2cc470a4cd12728b1930777fb2732ccd3420fff37dbbf1cbc756a10ec92e",
+      "category_id": 1
+    },
+    {
+      "image_id": 275707,
+      "dataset_index": 985,
+      "ref_id": 26639,
+      "sent_id": 75752,
+      "expression": "chekered shirt",
+      "mask_id": 1,
+      "annotation_id": 1281330,
+      "prediction_id": "refcoco-val-275707:1",
+      "gt_segmentation_sha256": "5b4a3f0a6872beb8a54852adc7179e89b17fee462458c5a96b1cc9a8293ae0c0",
+      "category_id": 1
+    },
+    {
+      "image_id": 275707,
+      "dataset_index": 985,
+      "ref_id": 26640,
+      "sent_id": 75755,
+      "expression": "blue left",
+      "mask_id": 2,
+      "annotation_id": 1262429,
+      "prediction_id": "refcoco-val-275707:2",
+      "gt_segmentation_sha256": "3db8c06320f70564beeaae980b5be758b95b0067f67cc1bf0f57949550121caa",
+      "category_id": 1
+    },
+    {
+      "image_id": 275707,
+      "dataset_index": 985,
+      "ref_id": 26641,
+      "sent_id": 75758,
+      "expression": "guy left",
+      "mask_id": 3,
+      "annotation_id": 1257511,
+      "prediction_id": "refcoco-val-275707:3",
+      "gt_segmentation_sha256": "276988b863e86864d26667bb3d8ab5cb016ede28fe88e8a7af916f1a5b7c105e",
+      "category_id": 1
+    },
+    {
+      "image_id": 275707,
+      "dataset_index": 985,
+      "ref_id": 26642,
+      "sent_id": 75761,
+      "expression": "child in green pants",
+      "mask_id": 4,
+      "annotation_id": 1738819,
+      "prediction_id": "refcoco-val-275707:4",
+      "gt_segmentation_sha256": "414b66fea6ce9f7ffa41aafa04639e871dc7dc80a87b3b769986c33be1eddbb7",
+      "category_id": 1
+    },
+    {
+      "image_id": 275707,
+      "dataset_index": 985,
+      "ref_id": 26643,
+      "sent_id": 75764,
+      "expression": "man on right black shirt, blue shorts, hat",
+      "mask_id": 5,
+      "annotation_id": 1310662,
+      "prediction_id": "refcoco-val-275707:5",
+      "gt_segmentation_sha256": "44baee1e616af3d4d57b41e08ebcf0a1711aaeb075528dc1dd3e6883dc7d2002",
+      "category_id": 1
+    },
+    {
+      "image_id": 275707,
+      "dataset_index": 985,
+      "ref_id": 26644,
+      "sent_id": 75767,
+      "expression": "boy on right striped shirt",
+      "mask_id": 6,
+      "annotation_id": 1305465,
+      "prediction_id": "refcoco-val-275707:6",
+      "gt_segmentation_sha256": "ffc36eadba23ad30541d9ef198440e4680fdddaaa68ac654c6606d3252269dba",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    0,
+    16374,
+    19243,
+    12524,
+    13243,
+    11366,
+    16460
+  ],
+  "union": [
+    33645,
+    17800,
+    20943,
+    13529,
+    14439,
+    14609,
+    18722
+  ],
+  "mask_file": "refcoco-val-275707.npz",
+  "mask_sha256": "373fee634088b0f4e691d39bbea89599482738d5ab717a4f7a2e8c22c960e905",
+  "nonempty_predictions": 7,
+  "timings": {
+    "preprocess_s": 0.01777368300008675,
+    "inference_s": 2.351808336000204,
+    "postprocess_s": 0.004559575000030236,
+    "amortized_inference_s_per_selected_expression": 0.3359726194286005,
+    "mask_write_s": 0.026225567999972554
+  },
+  "memory": {
+    "peak_allocated_bytes": 8837696000,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451286528,
+    "ram_rss_bytes": 6295474176
+  },
+  "output_bytes": 16144,
+  "stage_created": "full-validation",
+  "record_hash": "c7f824ddf3c6e6d801805e75982518484b687a5bf32512749a783729166e03ac",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

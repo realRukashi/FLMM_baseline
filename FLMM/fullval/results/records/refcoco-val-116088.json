@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-116088",
+  "sample_hash": "a2699057d7dc5d18fb2b4da67d2380c57ae957cc22899b740c95015eef65b929",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 116088,
+  "dataset_index": 248,
+  "expressions": [
+    {
+      "image_id": 116088,
+      "dataset_index": 248,
+      "ref_id": 40006,
+      "sent_id": 113739,
+      "expression": "man in middle bending over",
+      "mask_id": 0,
+      "annotation_id": 1240923,
+      "prediction_id": "refcoco-val-116088:0",
+      "gt_segmentation_sha256": "17afed0852dbc62eee54bd0874bd07b43c5a2afdc3b224fa50e5fefa452303aa",
+      "category_id": 1
+    },
+    {
+      "image_id": 116088,
+      "dataset_index": 248,
+      "ref_id": 40007,
+      "sent_id": 113742,
+      "expression": "girl in pink on skateboard",
+      "mask_id": 1,
+      "annotation_id": 2203968,
+      "prediction_id": "refcoco-val-116088:1",
+      "gt_segmentation_sha256": "cec3b90278ca142e72c70a490b87fd8aa7c2c66714ed1b95549115d9f5b3ee32",
+      "category_id": 1
+    },
+    {
+      "image_id": 116088,
+      "dataset_index": 248,
+      "ref_id": 40008,
+      "sent_id": 113745,
+      "expression": "red hoodie",
+      "mask_id": 2,
+      "annotation_id": 2026878,
+      "prediction_id": "refcoco-val-116088:2",
+      "gt_segmentation_sha256": "e3dd40418dfe9b5572dd6299bd48ec942bbc1176e7ebf0afec3e2e824b69ecc7",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    13274,
+    13138,
+    31138
+  ],
+  "union": [
+    14866,
+    14424,
+    33852
+  ],
+  "mask_file": "refcoco-val-116088.npz",
+  "mask_sha256": "eeda9f679f218c9bdd52ce059ce547131479c2fa8abc41358db58f1154e227cf",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.018904764999888357,
+    "inference_s": 2.746102859000075,
+    "postprocess_s": 0.0024792249998881744,
+    "amortized_inference_s_per_selected_expression": 0.9153676196666917,
+    "mask_write_s": 0.018785519000175555
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824584192,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447706624,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 8255,
+  "stage_created": "full-validation",
+  "record_hash": "c245340710c7a078a43a0064db086ddf2f4d7b1f13380829d574b4876e87b103",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

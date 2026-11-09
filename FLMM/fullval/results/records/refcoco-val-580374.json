@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-580374",
+  "sample_hash": "e2c11ffd0dcd59f64e2e4d593901b5919759df5e45eea2712dbad7d4ad9c225c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 580374,
+  "dataset_index": 1276,
+  "expressions": [
+    {
+      "image_id": 580374,
+      "dataset_index": 1276,
+      "ref_id": 151,
+      "sent_id": 438,
+      "expression": "left guy",
+      "mask_id": 0,
+      "annotation_id": 190137,
+      "prediction_id": "refcoco-val-580374:0",
+      "gt_segmentation_sha256": "0d0f309b31f1bf622341bc11ee53ebb5b0241cb05bcfc75b003f6bb0b5eeab10",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    49563
+  ],
+  "union": [
+    54327
+  ],
+  "mask_file": "refcoco-val-580374.npz",
+  "mask_sha256": "7a4258ada39e07e6afdff0786e85203b5ef67ced985cedbf8d07bd8cce0a8ec8",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.012082465000048614,
+    "inference_s": 2.1485590130000674,
+    "postprocess_s": 0.0009807779999846389,
+    "amortized_inference_s_per_selected_expression": 2.1485590130000674,
+    "mask_write_s": 0.011798911999903794
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814946816,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6297100288
+  },
+  "output_bytes": 4401,
+  "stage_created": "full-validation",
+  "record_hash": "41e9862e3dc1ec3bcfa41bc7e83b38f6f4cb319ad30a0037fd76639375173cc4",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

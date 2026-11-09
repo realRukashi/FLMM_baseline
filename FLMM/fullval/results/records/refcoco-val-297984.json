@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-297984",
+  "sample_hash": "990e33f513e418dd292f1bb2e45dbed9cca5ebdfdc33483394a623ac8d18e065",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 297984,
+  "dataset_index": 576,
+  "expressions": [
+    {
+      "image_id": 297984,
+      "dataset_index": 576,
+      "ref_id": 24732,
+      "sent_id": 70292,
+      "expression": "all of the pizza!!!  =d",
+      "mask_id": 0,
+      "annotation_id": 1077531,
+      "prediction_id": "refcoco-val-297984:0",
+      "gt_segmentation_sha256": "66106be363e18e5c25832b61bce490e9efe32b49d31dc869db3617742953d1f9",
+      "category_id": 59
+    }
+  ],
+  "intersection": [
+    114526
+  ],
+  "union": [
+    118703
+  ],
+  "mask_file": "refcoco-val-297984.npz",
+  "mask_sha256": "07f4366e17bb0a93387e1b02900ade04bfc474bd46ba5084265734cb7ec32922",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.011070124000070791,
+    "inference_s": 2.01786495500005,
+    "postprocess_s": 0.0006980169999906138,
+    "amortized_inference_s_per_selected_expression": 2.01786495500005,
+    "mask_write_s": 0.009555385999988175
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815177216,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5444418048,
+    "ram_rss_bytes": 6295138304
+  },
+  "output_bytes": 4667,
+  "stage_created": "full-validation",
+  "record_hash": "754869395005e86967035aba9cca98d6b5f9605e1640702c2c17cea5ec986592",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

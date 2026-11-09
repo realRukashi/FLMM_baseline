@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-516481",
+  "sample_hash": "c6a32c29a6896c0d0184ef60d67ee00129ea51283cd379e9c4d896e0644cf63c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 516481,
+  "dataset_index": 76,
+  "expressions": [
+    {
+      "image_id": 516481,
+      "dataset_index": 76,
+      "ref_id": 5723,
+      "sent_id": 16294,
+      "expression": "girl with pink dress",
+      "mask_id": 0,
+      "annotation_id": 484058,
+      "prediction_id": "refcoco-val-516481:0",
+      "gt_segmentation_sha256": "f8c63cdf6070163cc89d40d01e63ba43d17e9871f7c19be298962855f057c987",
+      "category_id": 1
+    },
+    {
+      "image_id": 516481,
+      "dataset_index": 76,
+      "ref_id": 5724,
+      "sent_id": 16296,
+      "expression": "person at right edge looking down",
+      "mask_id": 1,
+      "annotation_id": 463812,
+      "prediction_id": "refcoco-val-516481:1",
+      "gt_segmentation_sha256": "adcaf677b0e53fde51079f2e0d9d2dc6ff04e00fb120535bdfa9e32807833404",
+      "category_id": 1
+    },
+    {
+      "image_id": 516481,
+      "dataset_index": 76,
+      "ref_id": 5725,
+      "sent_id": 16299,
+      "expression": "girl facing us holding red shirt",
+      "mask_id": 2,
+      "annotation_id": 449362,
+      "prediction_id": "refcoco-val-516481:2",
+      "gt_segmentation_sha256": "9a08a7d13800170f7c38f71c63a8cfc4c3f6d7f886a52bfc803bd95559decc5d",
+      "category_id": 1
+    },
+    {
+      "image_id": 516481,
+      "dataset_index": 76,
+      "ref_id": 5726,
+      "sent_id": 16301,
+      "expression": "guy in the foreground",
+      "mask_id": 3,
+      "annotation_id": 433735,
+      "prediction_id": "refcoco-val-516481:3",
+      "gt_segmentation_sha256": "680efb00655207ae422a4a883166efc3bdc246a1487be96774295bde164c4f4a",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    8804,
+    11382,
+    18505,
+    47100
+  ],
+  "union": [
+    12618,
+    16818,
+    23382,
+    52110
+  ],
+  "mask_file": "refcoco-val-516481.npz",
+  "mask_sha256": "f5795ade0a016adcf706358475bb8dff57d1725e40f5e1018f4c86693b45f00a",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.01673231799986752,
+    "inference_s": 2.7047135069999513,
+    "postprocess_s": 0.002334486000108882,
+    "amortized_inference_s_per_selected_expression": 0.6761783767499878,
+    "mask_write_s": 0.023856058999854213
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829156864,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446668288,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 10788,
+  "stage_created": "full-validation",
+  "record_hash": "0ed64bb30013134ddd188ba07ac9007d46ea1f1f6785b4ff90ddb385acd444e7",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

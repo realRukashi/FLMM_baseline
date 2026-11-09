@@ -1,0 +1,520 @@
+/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Could not load bitsandbytes native library: libcusparse.so.11: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py", line 109, in <module>
+    lib = get_native_library()
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py", line 96, in get_native_library
+    dll = ct.cdll.LoadLibrary(str(binary_path))
+  File "/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libcusparse.so.11: cannot open shared object file: No such file or directory
+
+CUDA Setup failed despite CUDA being available. Please run the following command to get more information:
+
+python -m bitsandbytes
+
+Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them
+to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes
+and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues
+
+Python version is above 3.10, patching the collections module.
+[2026-11-06 07:19:01,709] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+df: /root/.triton/autotune: No such file or directory
+/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m NVIDIA Inference is only supported on Ampere and newer architectures
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.1
+[93m [WARNING] [0m using untested triton version (2.1.0), only 1.0.0 is known to be compatible
+Image token: <image_placeholder>
+Replace upsample forward function
+Replace upsample forward function
+Replace upsample forward function
+11/06 07:30:55 - mmengine - INFO - 
+encoder.0.0.convs.0.conv.weight - torch.Size([64, 384, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.0.0.convs.0.gn.weight - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.0.0.convs.0.gn.bias - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.0.0.convs.1.conv.weight - torch.Size([64, 64, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.0.0.convs.1.gn.weight - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.0.0.convs.1.gn.bias - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.1.1.convs.0.conv.weight - torch.Size([128, 64, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.1.1.convs.0.gn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.1.1.convs.0.gn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.1.1.convs.1.conv.weight - torch.Size([128, 128, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.1.1.convs.1.gn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.1.1.convs.1.gn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.2.1.convs.0.conv.weight - torch.Size([256, 128, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.2.1.convs.0.gn.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.2.1.convs.0.gn.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.2.1.convs.1.conv.weight - torch.Size([256, 256, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.2.1.convs.1.gn.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.2.1.convs.1.gn.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.3.1.convs.0.conv.weight - torch.Size([512, 256, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.3.1.convs.0.gn.weight - torch.Size([512]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.3.1.convs.0.gn.bias - torch.Size([512]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.3.1.convs.1.conv.weight - torch.Size([512, 512, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.3.1.convs.1.gn.weight - torch.Size([512]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+encoder.3.1.convs.1.gn.bias - torch.Size([512]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.0.conv_block.convs.0.conv.weight - torch.Size([64, 128, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.0.conv_block.convs.0.gn.weight - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.0.conv_block.convs.0.gn.bias - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.0.conv_block.convs.1.conv.weight - torch.Size([64, 64, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.0.conv_block.convs.1.gn.weight - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.0.conv_block.convs.1.gn.bias - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.0.upsample.interp_upsample.1.conv.weight - torch.Size([64, 128, 1, 1]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.0.upsample.interp_upsample.1.gn.weight - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.0.upsample.interp_upsample.1.gn.bias - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.1.conv_block.convs.0.conv.weight - torch.Size([128, 256, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.1.conv_block.convs.0.gn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.1.conv_block.convs.0.gn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.1.conv_block.convs.1.conv.weight - torch.Size([128, 128, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.1.conv_block.convs.1.gn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.1.conv_block.convs.1.gn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.1.upsample.interp_upsample.1.conv.weight - torch.Size([128, 256, 1, 1]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.1.upsample.interp_upsample.1.gn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.1.upsample.interp_upsample.1.gn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.2.conv_block.convs.0.conv.weight - torch.Size([256, 512, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.2.conv_block.convs.0.gn.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.2.conv_block.convs.0.gn.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.2.conv_block.convs.1.conv.weight - torch.Size([256, 256, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.2.conv_block.convs.1.gn.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.2.conv_block.convs.1.gn.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.2.upsample.interp_upsample.1.conv.weight - torch.Size([256, 512, 1, 1]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.2.upsample.interp_upsample.1.gn.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+decoder.2.upsample.interp_upsample.1.gn.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 07:30:55 - mmengine - INFO - 
+conv_seg.weight - torch.Size([1, 64, 1, 1]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 07:30:55 - mmengine - INFO - 
+conv_seg.bias - torch.Size([1]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+LlamaModel is using LlamaSdpaAttention, but `torch.nn.functional.scaled_dot_product_attention` does not support `output_attentions=True`. Falling back to the manual attention implementation, but specifying the manual implementation will be required from Transformers version v5.0.0 onwards. This warning can be removed using the argument `attn_implementation="eager"` when loading the model.
+Image token: <image_placeholder>
+DONE full-regression 1 / 10 refcoco-val-278549 1.894s
+DONE full-regression 2 / 10 refcoco-val-434201 1.944s
+DONE full-regression 3 / 10 refcoco-val-270369 1.900s
+DONE full-regression 4 / 10 refcoco-val-41005 1.950s
+DONE full-regression 5 / 10 refcoco-val-409653 1.900s
+DONE full-regression 6 / 10 refcoco-val-352312 1.914s
+DONE full-regression 7 / 10 refcoco-val-139324 1.905s
+DONE full-regression 8 / 10 refcoco-val-458827 1.915s
+DONE full-regression 9 / 10 refcoco-val-442461 1.950s
+DONE full-regression 10 / 10 refcoco-val-114786 1.959s
+DONE full-probe 1 / 22 refcoco-val-1298 2.050s
+DONE full-probe 2 / 22 refcoco-val-158051 1.934s
+DONE full-probe 3 / 22 refcoco-val-416651 2.007s
+DONE full-probe 4 / 22 refcoco-val-487602 2.012s
+DONE full-probe 5 / 22 refcoco-val-309706 1.975s
+DONE full-probe 6 / 22 refcoco-val-127543 1.987s
+DONE full-probe 7 / 22 refcoco-val-81401 2.023s
+DONE full-probe 8 / 22 refcoco-val-202755 1.998s
+DONE full-probe 9 / 22 refcoco-val-274667 2.021s
+DONE full-probe 10 / 22 refcoco-val-267779 2.037s
+DONE full-probe 11 / 22 refcoco-val-449197 2.021s
+DONE full-probe 12 / 22 refcoco-val-493114 2.061s
+DONE full-probe 13 / 22 refcoco-val-52928 2.053s
+DONE full-probe 14 / 22 refcoco-val-444348 2.074s
+DONE full-probe 15 / 22 refcoco-val-391488 2.044s
+DONE full-probe 16 / 22 refcoco-val-252277 2.051s
+DONE full-probe 17 / 22 refcoco-val-335066 2.057s
+DONE full-probe 18 / 22 refcoco-val-272299 2.086s
+DONE full-probe 19 / 22 refcoco-val-112040 2.128s
+DONE full-probe 20 / 22 refcoco-val-351397 2.124s
+DONE full-probe 21 / 22 refcoco-val-100034 2.114s
+DONE full-probe 22 / 22 refcoco-val-254821 2.128s
+DONE full-validation 11 / 250 refcoco-val-532595 2.223s
+DONE full-validation 12 / 250 refcoco-val-270460 2.119s
+DONE full-validation 13 / 250 refcoco-val-409754 2.147s
+DONE full-validation 14 / 250 refcoco-val-319644 2.358s
+DONE full-validation 15 / 250 refcoco-val-49309 2.141s
+DONE full-validation 16 / 250 refcoco-val-82083 2.181s
+DONE full-validation 17 / 250 refcoco-val-442542 2.165s
+DONE full-validation 18 / 250 refcoco-val-573632 2.204s
+DONE full-validation 19 / 250 refcoco-val-344259 2.194s
+DONE full-validation 20 / 250 refcoco-val-57551 2.195s
+DONE full-validation 21 / 250 refcoco-val-254176 2.217s
+DONE full-validation 22 / 250 refcoco-val-393442 2.234s
+DONE full-validation 23 / 250 refcoco-val-508140 2.242s
+DONE full-validation 24 / 250 refcoco-val-344319 2.258s
+DONE full-validation 25 / 250 refcoco-val-205069 2.251s
+DONE full-validation 26 / 250 refcoco-val-73999 2.224s
+DONE full-validation 27 / 250 refcoco-val-483611 2.226s
+DONE full-validation 28 / 250 refcoco-val-196899 2.208s
+DONE full-validation 29 / 250 refcoco-val-65842 2.230s
+DONE full-validation 30 / 250 refcoco-val-336185 2.204s
+DONE full-validation 31 / 250 refcoco-val-549184 2.197s
+DONE full-validation 32 / 250 refcoco-val-98631 2.267s
+DONE full-validation 33 / 250 refcoco-val-180559 2.177s
+DONE full-validation 34 / 250 refcoco-val-98641 2.176s
+DONE full-validation 35 / 250 refcoco-val-57689 2.184s
+DONE full-validation 36 / 250 refcoco-val-24939 2.184s
+DONE full-validation 37 / 250 refcoco-val-369019 2.176s
+DONE full-validation 38 / 250 refcoco-val-147838 2.165s
+DONE full-validation 39 / 250 refcoco-val-442771 2.195s
+DONE full-validation 40 / 250 refcoco-val-393629 2.201s
+DONE full-validation 41 / 250 refcoco-val-16814 2.218s
+DONE full-validation 42 / 250 refcoco-val-238007 2.217s
+DONE full-validation 43 / 250 refcoco-val-74183 2.256s
+DONE full-validation 44 / 250 refcoco-val-139728 2.253s
+DONE full-validation 45 / 250 refcoco-val-156125 2.221s
+DONE full-validation 46 / 250 refcoco-val-549347 2.295s
+DONE full-validation 47 / 250 refcoco-val-426478 2.221s
+DONE full-validation 48 / 250 refcoco-val-139763 2.230s
+DONE full-validation 49 / 250 refcoco-val-238070 2.225s
+DONE full-validation 50 / 250 refcoco-val-107009 2.227s
+DONE full-validation 51 / 250 refcoco-val-508429 2.249s
+DONE full-validation 52 / 250 refcoco-val-287249 2.244s
+DONE full-validation 53 / 250 refcoco-val-541212 2.237s
+DONE full-validation 54 / 250 refcoco-val-426551 2.242s
+DONE full-validation 55 / 250 refcoco-val-557628 2.260s
+DONE full-validation 56 / 250 refcoco-val-107100 2.222s
+DONE full-validation 57 / 250 refcoco-val-156258 2.221s
+DONE full-validation 58 / 250 refcoco-val-492138 2.224s
+DONE full-validation 59 / 250 refcoco-val-402041 2.229s
+DONE full-validation 60 / 250 refcoco-val-565884 2.223s
+DONE full-validation 61 / 250 refcoco-val-352892 2.233s
+DONE full-validation 62 / 250 refcoco-val-279169 2.228s
+DONE full-validation 63 / 250 refcoco-val-320137 2.218s
+DONE full-validation 64 / 250 refcoco-val-238231 2.225s
+DONE full-validation 65 / 250 refcoco-val-197289 2.262s
+DONE full-validation 66 / 250 refcoco-val-66236 2.223s
+DONE full-validation 67 / 250 refcoco-val-716 2.249s
+DONE full-validation 68 / 250 refcoco-val-312050 2.254s
+DONE full-validation 69 / 250 refcoco-val-492293 2.234s
+DONE full-validation 70 / 250 refcoco-val-377609 2.240s
+DONE full-validation 71 / 250 refcoco-val-484108 2.247s
+DONE full-validation 72 / 250 refcoco-val-99086 2.233s
+DONE full-validation 73 / 250 refcoco-val-574251 2.261s
+DONE full-validation 74 / 250 refcoco-val-385837 2.230s
+DONE full-validation 75 / 250 refcoco-val-541505 2.232s
+DONE full-validation 76 / 250 refcoco-val-58184 2.246s
+DONE full-validation 77 / 250 refcoco-val-475980 2.211s
+DONE full-validation 78 / 250 refcoco-val-287575 2.229s
+DONE full-validation 80 / 250 refcoco-val-484208 2.250s
+DONE full-validation 81 / 250 refcoco-val-279415 2.240s
+DONE full-validation 82 / 250 refcoco-val-353146 2.228s
+DONE full-validation 83 / 250 refcoco-val-197503 2.225s
+DONE full-validation 84 / 250 refcoco-val-435076 2.257s
+DONE full-validation 85 / 250 refcoco-val-50056 2.237s
+DONE full-validation 86 / 250 refcoco-val-909 2.236s
+DONE full-validation 87 / 250 refcoco-val-369557 2.240s
+DONE full-validation 88 / 250 refcoco-val-25515 2.237s
+DONE full-validation 89 / 250 refcoco-val-123831 2.256s
+DONE full-validation 90 / 250 refcoco-val-181176 2.232s
+DONE full-validation 91 / 250 refcoco-val-320454 2.232s
+DONE full-validation 92 / 250 refcoco-val-345040 2.236s
+DONE full-validation 93 / 250 refcoco-val-328676 2.270s
+DONE full-validation 94 / 250 refcoco-val-123892 2.275s
+DONE full-validation 95 / 250 refcoco-val-222209 2.235s
+DONE full-validation 96 / 250 refcoco-val-402448 2.241s
+DONE full-validation 97 / 250 refcoco-val-197651 2.247s
+DONE full-validation 98 / 250 refcoco-val-25628 2.222s
+DONE full-validation 99 / 250 refcoco-val-17451 2.232s
+DONE full-validation 100 / 250 refcoco-val-66637 2.244s
+DONE full-validation 101 / 250 refcoco-val-238713 2.223s
+DONE full-validation 102 / 250 refcoco-val-435326 2.231s
+DONE full-validation 103 / 250 refcoco-val-369805 2.237s
+DONE full-validation 104 / 250 refcoco-val-320667 2.225s
+DONE full-validation 105 / 250 refcoco-val-443562 2.229s
+DONE full-validation 106 / 250 refcoco-val-17578 2.262s
+DONE full-validation 107 / 250 refcoco-val-345265 2.302s
+DONE full-validation 108 / 250 refcoco-val-419001 2.256s
+DONE full-validation 109 / 250 refcoco-val-419026 2.259s
+DONE full-validation 110 / 250 refcoco-val-328918 2.245s
+DONE full-validation 111 / 250 refcoco-val-410845 2.250s
+DONE full-validation 112 / 250 refcoco-val-402668 2.225s
+DONE full-validation 113 / 250 refcoco-val-74996 2.233s
+DONE full-validation 114 / 250 refcoco-val-500982 2.237s
+DONE full-validation 115 / 250 refcoco-val-156939 2.229s
+DONE full-validation 117 / 250 refcoco-val-312608 2.258s
+DONE full-validation 118 / 250 refcoco-val-222506 2.255s
+DONE full-validation 119 / 250 refcoco-val-107846 2.221s
+DONE full-validation 120 / 250 refcoco-val-542027 2.241s
+DONE full-validation 121 / 250 refcoco-val-247126 2.228s
+DONE full-validation 122 / 250 refcoco-val-443741 2.236s
+DONE full-validation 123 / 250 refcoco-val-329058 2.229s
+DONE full-validation 124 / 250 refcoco-val-402806 2.235s
+DONE full-validation 125 / 250 refcoco-val-140667 2.231s
+DONE full-validation 126 / 250 refcoco-val-255375 2.269s
+DONE full-validation 127 / 250 refcoco-val-468373 2.246s
+DONE full-validation 128 / 250 refcoco-val-83353 2.275s
+DONE full-validation 129 / 250 refcoco-val-550311 2.242s
+DONE full-validation 130 / 250 refcoco-val-329141 2.263s
+DONE full-validation 131 / 250 refcoco-val-140733 2.280s
+DONE full-validation 132 / 250 refcoco-val-26052 2.246s
+DONE full-validation 133 / 250 refcoco-val-181711 2.250s
+DONE full-validation 134 / 250 refcoco-val-1488 2.227s
+DONE full-validation 135 / 250 refcoco-val-280018 2.261s
+DONE full-validation 136 / 250 refcoco-val-304603 2.229s
+DONE full-validation 137 / 250 refcoco-val-1507 2.273s
+DONE full-validation 138 / 250 refcoco-val-345578 2.231s
+DONE full-validation 139 / 250 refcoco-val-370162 2.235s
+DONE full-validation 140 / 250 refcoco-val-476681 2.231s
+DONE full-validation 141 / 250 refcoco-val-132617 2.246s
+DONE full-validation 142 / 250 refcoco-val-402960 2.236s
+DONE full-validation 143 / 250 refcoco-val-337445 2.240s
+DONE full-validation 144 / 250 refcoco-val-337452 2.234s
+DONE full-validation 145 / 250 refcoco-val-312886 2.238s
+DONE full-validation 147 / 250 refcoco-val-460370 2.238s
+DONE full-validation 148 / 250 refcoco-val-312943 2.228s
+DONE full-validation 149 / 250 refcoco-val-99956 2.238s
+DONE full-validation 150 / 250 refcoco-val-485014 2.257s
+DONE full-validation 151 / 250 refcoco-val-157344 2.237s
+DONE full-validation 152 / 250 refcoco-val-296614 2.242s
+DONE full-validation 153 / 250 refcoco-val-222893 2.228s
+DONE full-validation 155 / 250 refcoco-val-157424 2.228s
+DONE full-validation 156 / 250 refcoco-val-493307 2.236s
+DONE full-validation 157 / 250 refcoco-val-476934 2.231s
+DONE full-validation 158 / 250 refcoco-val-460568 2.234s
+DONE full-validation 159 / 250 refcoco-val-206628 2.246s
+DONE full-validation 160 / 250 refcoco-val-288559 2.240s
+DONE full-validation 161 / 250 refcoco-val-485173 2.246s
+DONE full-validation 162 / 250 refcoco-val-34616 2.220s
+DONE full-validation 163 / 250 refcoco-val-403258 2.242s
+DONE full-validation 164 / 250 refcoco-val-18244 2.249s
+DONE full-validation 165 / 250 refcoco-val-370505 2.251s
+DONE full-validation 166 / 250 refcoco-val-477005 2.244s
+DONE full-validation 167 / 250 refcoco-val-468818 2.254s
+DONE full-validation 168 / 250 refcoco-val-468836 2.231s
+DONE full-validation 169 / 250 refcoco-val-550760 2.251s
+DONE full-validation 170 / 250 refcoco-val-18290 2.238s
+DONE full-validation 171 / 250 refcoco-val-386934 2.238s
+DONE full-validation 172 / 250 refcoco-val-26498 2.251s
+DONE full-validation 173 / 250 refcoco-val-427920 2.236s
+DONE full-validation 174 / 250 refcoco-val-231320 2.292s
+DONE full-validation 175 / 250 refcoco-val-403358 2.237s
+DONE full-validation 176 / 250 refcoco-val-493471 2.250s
+DONE full-validation 179 / 250 refcoco-val-493504 2.242s
+DONE full-validation 180 / 250 refcoco-val-18370 2.249s
+DONE full-validation 181 / 250 refcoco-val-395211 2.237s
+DONE full-validation 182 / 250 refcoco-val-575461 2.241s
+DONE full-validation 183 / 250 refcoco-val-485367 2.248s
+DONE full-validation 184 / 250 refcoco-val-198651 2.225s
+DONE full-validation 185 / 250 refcoco-val-92165 2.228s
+DONE full-validation 186 / 250 refcoco-val-452619 2.262s
+DONE full-validation 187 / 250 refcoco-val-67615 2.237s
+DONE full-validation 188 / 250 refcoco-val-198704 2.223s
+DONE full-validation 189 / 250 refcoco-val-387124 2.232s
+DONE full-validation 190 / 250 refcoco-val-149566 2.220s
+DONE full-validation 191 / 250 refcoco-val-305224 2.264s
+DONE full-validation 192 / 250 refcoco-val-428109 2.297s
+DONE full-validation 193 / 250 refcoco-val-501842 2.228s
+DONE full-validation 194 / 250 refcoco-val-116824 2.241s
+DONE full-validation 195 / 250 refcoco-val-370790 2.231s
+DONE full-validation 196 / 250 refcoco-val-75881 2.232s
+DONE full-validation 197 / 250 refcoco-val-149616 2.256s
+DONE full-validation 198 / 250 refcoco-val-116882 2.265s
+DONE full-validation 199 / 250 refcoco-val-190617 2.234s
+DONE full-validation 200 / 250 refcoco-val-43163 2.233s
+DONE full-validation 201 / 250 refcoco-val-387256 2.227s
+DONE full-validation 202 / 250 refcoco-val-297171 2.293s
+DONE full-validation 203 / 250 refcoco-val-526552 2.271s
+DONE full-validation 204 / 250 refcoco-val-35045 2.222s
+DONE full-validation 205 / 250 refcoco-val-207083 2.245s
+DONE full-validation 206 / 250 refcoco-val-248052 2.275s
+DONE full-validation 207 / 250 refcoco-val-485632 2.228s
+DONE full-validation 208 / 250 refcoco-val-526597 2.233s
+DONE full-validation 209 / 250 refcoco-val-387356 2.238s
+DONE full-validation 210 / 250 refcoco-val-370986 2.242s
+DONE full-validation 211 / 250 refcoco-val-297266 2.248s
+DONE full-validation 212 / 250 refcoco-val-35132 2.242s
+DONE full-validation 213 / 250 refcoco-val-305492 2.240s
+DONE full-validation 214 / 250 refcoco-val-272729 2.231s
+DONE full-validation 215 / 250 refcoco-val-18780 2.258s
+DONE full-validation 217 / 250 refcoco-val-215407 2.252s
+DONE full-validation 218 / 250 refcoco-val-199029 2.223s
+DONE full-validation 219 / 250 refcoco-val-215421 2.240s
+DONE full-validation 220 / 250 refcoco-val-453002 2.272s
+DONE full-validation 221 / 250 refcoco-val-297363 2.224s
+DONE full-validation 222 / 250 refcoco-val-248221 2.243s
+DONE full-validation 223 / 250 refcoco-val-526754 2.247s
+DONE full-validation 224 / 250 refcoco-val-485800 2.232s
+DONE full-validation 225 / 250 refcoco-val-51630 2.235s
+DONE full-validation 226 / 250 refcoco-val-387513 2.232s
+DONE full-validation 227 / 250 refcoco-val-117182 2.231s
+DONE full-validation 228 / 250 refcoco-val-494032 2.225s
+DONE full-validation 229 / 250 refcoco-val-10710 2.244s
+DONE full-validation 230 / 250 refcoco-val-395742 2.235s
+DONE full-validation 231 / 250 refcoco-val-354791 2.265s
+DONE full-validation 232 / 250 refcoco-val-485868 2.248s
+DONE full-validation 233 / 250 refcoco-val-330223 2.219s
+DONE full-validation 234 / 250 refcoco-val-158201 2.233s
+DONE full-validation 235 / 250 refcoco-val-2567 2.237s
+DONE full-validation 236 / 250 refcoco-val-395791 2.255s
+DONE full-validation 237 / 250 refcoco-val-387615 2.409s
+DONE full-validation 238 / 250 refcoco-val-256546 2.272s
+DONE full-validation 239 / 250 refcoco-val-469545 2.251s
+DONE full-validation 240 / 250 refcoco-val-330284 2.224s
+DONE full-validation 241 / 250 refcoco-val-231992 2.232s
+DONE full-validation 242 / 250 refcoco-val-76364 2.244s
+DONE full-validation 243 / 250 refcoco-val-182863 2.223s
+DONE full-validation 244 / 250 refcoco-val-191068 2.259s
+DONE full-validation 245 / 250 refcoco-val-494175 2.231s
+DONE full-validation 246 / 250 refcoco-val-445030 2.223s
+DONE full-validation 247 / 250 refcoco-val-207467 2.255s
+DONE full-validation 248 / 250 refcoco-val-76414 2.227s
+DONE full-validation 249 / 250 refcoco-val-477828 2.245s
+DONE full-validation 250 / 250 refcoco-val-27270 2.214s
+WORKER_PASS 1 250

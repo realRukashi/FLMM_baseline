@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-276417",
+  "sample_hash": "a51bf804b3d67d70512a7b248d32725d23df819f06bcb2ef85a7f0eb4c57b9fc",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 276417,
+  "dataset_index": 1109,
+  "expressions": [
+    {
+      "image_id": 276417,
+      "dataset_index": 1109,
+      "ref_id": 26589,
+      "sent_id": 75606,
+      "expression": "bag hanging up on fence left",
+      "mask_id": 0,
+      "annotation_id": 1720974,
+      "prediction_id": "refcoco-val-276417:0",
+      "gt_segmentation_sha256": "d2f6de2d54a3295520582b2f4adeb73fe3862e88cebef523d1ff4ccac0c372f7",
+      "category_id": 1
+    },
+    {
+      "image_id": 276417,
+      "dataset_index": 1109,
+      "ref_id": 26590,
+      "sent_id": 75608,
+      "expression": "center guy behind fence",
+      "mask_id": 1,
+      "annotation_id": 468378,
+      "prediction_id": "refcoco-val-276417:1",
+      "gt_segmentation_sha256": "90114cf65c8777f77d91147fff3f7fe95ed9062695ae27a7ff8cca3f2dc86add",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10985,
+    15686
+  ],
+  "union": [
+    14202,
+    18025
+  ],
+  "mask_file": "refcoco-val-276417.npz",
+  "mask_sha256": "25a395b50835a9dd83210e3bbe630a8cf3c631b7dd4f7149d4a05d188135dcec",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.015509584000028553,
+    "inference_s": 2.2322526110000354,
+    "postprocess_s": 0.0015081220000183748,
+    "amortized_inference_s_per_selected_expression": 1.1161263055000177,
+    "mask_write_s": 0.010856105000016214
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818395136,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6300479488
+  },
+  "output_bytes": 4366,
+  "stage_created": "full-validation",
+  "record_hash": "b2b37e720e237eb257f9baa7260997b75d4ddee0c4b86db728e5875dfc3f30da",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

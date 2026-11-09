@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-210848",
+  "sample_hash": "a8c30cd68e9f7c656fb56626318dd6d938818a22228893d85d5ff35756aadfd5",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 210848,
+  "dataset_index": 1100,
+  "expressions": [
+    {
+      "image_id": 210848,
+      "dataset_index": 1100,
+      "ref_id": 32077,
+      "sent_id": 91213,
+      "expression": "red area just behind batter's back",
+      "mask_id": 0,
+      "annotation_id": 1811498,
+      "prediction_id": "refcoco-val-210848:0",
+      "gt_segmentation_sha256": "352dc75cc99d97ae830ecfc26f68eeb99b1892d34ff55616123aab83223aef00",
+      "category_id": 15
+    }
+  ],
+  "intersection": [
+    9816
+  ],
+  "union": [
+    39996
+  ],
+  "mask_file": "refcoco-val-210848.npz",
+  "mask_sha256": "64fdfcbe4dc15061d76402e78fbf0beac943856afefd55f459b3ed4f1399429a",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.013626025000007758,
+    "inference_s": 2.020491337000067,
+    "postprocess_s": 0.0009397129999797471,
+    "amortized_inference_s_per_selected_expression": 2.020491337000067,
+    "mask_write_s": 0.009630648999973346
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814305280,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6296866816
+  },
+  "output_bytes": 5592,
+  "stage_created": "full-validation",
+  "record_hash": "9275a897464c61724e10d7812567e21e2ab3edacc2cd22f119f146c68850a861",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

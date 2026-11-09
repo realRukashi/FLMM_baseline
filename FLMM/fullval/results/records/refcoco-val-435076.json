@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-435076",
+  "sample_hash": "c77cfa18d534dbc89bdef1b70b7b438fc60b5b10d590d7f6df2d83367eb8028c",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 435076,
+  "dataset_index": 167,
+  "expressions": [
+    {
+      "image_id": 435076,
+      "dataset_index": 167,
+      "ref_id": 12784,
+      "sent_id": 36378,
+      "expression": "blue and white striped shirt",
+      "mask_id": 0,
+      "annotation_id": 1290128,
+      "prediction_id": "refcoco-val-435076:0",
+      "gt_segmentation_sha256": "01165d301d4b4f040d7b9d588bc12db3a4c63039fa2ffffeb546571868ca4ef2",
+      "category_id": 1
+    },
+    {
+      "image_id": 435076,
+      "dataset_index": 167,
+      "ref_id": 12785,
+      "sent_id": 36381,
+      "expression": "empty chair next to man",
+      "mask_id": 1,
+      "annotation_id": 1599271,
+      "prediction_id": "refcoco-val-435076:1",
+      "gt_segmentation_sha256": "cda4e6ee57d46e32c6f0e0a00496f92f125da74a91cefb2fbf0ae6770bfa3f47",
+      "category_id": 62
+    },
+    {
+      "image_id": 435076,
+      "dataset_index": 167,
+      "ref_id": 12786,
+      "sent_id": 36383,
+      "expression": "back of chair of man in dark shirt in front",
+      "mask_id": 2,
+      "annotation_id": 1592392,
+      "prediction_id": "refcoco-val-435076:2",
+      "gt_segmentation_sha256": "aca3e331c4e1adef1521d28d10de01e0ede044548484266c99db6a561c7b99b0",
+      "category_id": 62
+    },
+    {
+      "image_id": 435076,
+      "dataset_index": 167,
+      "ref_id": 12787,
+      "sent_id": 36386,
+      "expression": "front botto mblue shirt",
+      "mask_id": 3,
+      "annotation_id": 1313655,
+      "prediction_id": "refcoco-val-435076:3",
+      "gt_segmentation_sha256": "ae7f6a1fe8f39082e9b0c9f8a32276fcde444c8e07640bae28b4c4d7a5ae19e1",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10788,
+    10238,
+    10081,
+    11521
+  ],
+  "union": [
+    12723,
+    22284,
+    20096,
+    20771
+  ],
+  "mask_file": "refcoco-val-435076.npz",
+  "mask_sha256": "55d3958e9a96afad6ce18e6a77524fb889e09178b60d413a679040e00b9914f4",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.016704842000081044,
+    "inference_s": 2.2566991190001318,
+    "postprocess_s": 0.003013638000084029,
+    "amortized_inference_s_per_selected_expression": 0.5641747797500329,
+    "mask_write_s": 0.03014136599995254
+  },
+  "memory": {
+    "peak_allocated_bytes": 8827004416,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448040448,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 11004,
+  "stage_created": "full-validation",
+  "record_hash": "83eb09fbd72ed88f09d4bf1ae05bbe8a1af4395296065d3b9c594c33ea1dfc13",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

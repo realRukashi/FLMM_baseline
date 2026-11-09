@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-347167",
+  "sample_hash": "595e512c5cb818efb3aba30df56086e6a8bdcd44ac7b36bfca846aa1e16d8d58",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 347167,
+  "dataset_index": 586,
+  "expressions": [
+    {
+      "image_id": 347167,
+      "dataset_index": 586,
+      "ref_id": 20159,
+      "sent_id": 57354,
+      "expression": "table under laptop",
+      "mask_id": 0,
+      "annotation_id": 419789,
+      "prediction_id": "refcoco-val-347167:0",
+      "gt_segmentation_sha256": "42e63a69f8c083736172a5d10e539a8a791289dd5d4d76b79e6ffc6c17bb186c",
+      "category_id": 67
+    },
+    {
+      "image_id": 347167,
+      "dataset_index": 586,
+      "ref_id": 20160,
+      "sent_id": 57357,
+      "expression": "table behind girl in pink",
+      "mask_id": 1,
+      "annotation_id": 414035,
+      "prediction_id": "refcoco-val-347167:1",
+      "gt_segmentation_sha256": "90d45e6b0dcc927eec2012352e27dad5834c7ac396f94b7898c9d9c86e434e42",
+      "category_id": 67
+    },
+    {
+      "image_id": 347167,
+      "dataset_index": 586,
+      "ref_id": 20161,
+      "sent_id": 57360,
+      "expression": "woman in center",
+      "mask_id": 2,
+      "annotation_id": 1206441,
+      "prediction_id": "refcoco-val-347167:2",
+      "gt_segmentation_sha256": "a0afbab84c05894205a2cab79b362ef329e9e9602c276af51bfa562cdbc3df56",
+      "category_id": 1
+    },
+    {
+      "image_id": 347167,
+      "dataset_index": 586,
+      "ref_id": 20162,
+      "sent_id": 57362,
+      "expression": "black pants near upper right corner",
+      "mask_id": 3,
+      "annotation_id": 523221,
+      "prediction_id": "refcoco-val-347167:3",
+      "gt_segmentation_sha256": "01ce4a4ad09e1b8483d3218a61c38bac1b9bf3a99053ee888f1944a7f9bd3eb9",
+      "category_id": 1
+    },
+    {
+      "image_id": 347167,
+      "dataset_index": 586,
+      "ref_id": 20163,
+      "sent_id": 57364,
+      "expression": "person legs left",
+      "mask_id": 4,
+      "annotation_id": 469324,
+      "prediction_id": "refcoco-val-347167:4",
+      "gt_segmentation_sha256": "c42a1b2baeda4d41ddf154845939a487322ca999d6d6499bca5e9699767eb6f3",
+      "category_id": 1
+    },
+    {
+      "image_id": 347167,
+      "dataset_index": 586,
+      "ref_id": 20164,
+      "sent_id": 57366,
+      "expression": "sitting person on back  leaning on table",
+      "mask_id": 5,
+      "annotation_id": 462103,
+      "prediction_id": "refcoco-val-347167:5",
+      "gt_segmentation_sha256": "57c602709da3787c75f508227169f12da4d36f20be0442c8f7ff1785783d895e",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11739,
+    4285,
+    36029,
+    11194,
+    13361,
+    10712
+  ],
+  "union": [
+    14209,
+    18826,
+    38619,
+    12312,
+    21759,
+    11533
+  ],
+  "mask_file": "refcoco-val-347167.npz",
+  "mask_sha256": "aa9a653f258ae4e4542b217c11d97440104ed95005994957df900c37daebed32",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.01627663500005383,
+    "inference_s": 2.0998548499999288,
+    "postprocess_s": 0.0036394229999814343,
+    "amortized_inference_s_per_selected_expression": 0.3499758083333215,
+    "mask_write_s": 0.02645392500005528
+  },
+  "memory": {
+    "peak_allocated_bytes": 8835803648,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5450180608,
+    "ram_rss_bytes": 6295191552
+  },
+  "output_bytes": 13660,
+  "stage_created": "full-validation",
+  "record_hash": "7f3db1c924c135c7f259967c89a4e958e91b9a04eb05d3a67645084d63533dd5",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

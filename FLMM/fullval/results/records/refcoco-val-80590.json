@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-80590",
+  "sample_hash": "caa706d96d14737f2e685ffcd1244e5592949eb901d4f9769b5a24aeff54d0fe",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 80590,
+  "dataset_index": 1262,
+  "expressions": [
+    {
+      "image_id": 80590,
+      "dataset_index": 1262,
+      "ref_id": 42964,
+      "sent_id": 122141,
+      "expression": "glass on left",
+      "mask_id": 0,
+      "annotation_id": 2183149,
+      "prediction_id": "refcoco-val-80590:0",
+      "gt_segmentation_sha256": "81d25cce8e411f4ae708bb7324348ab19e41b8813e911bb9c6165910b23b4a24",
+      "category_id": 46
+    },
+    {
+      "image_id": 80590,
+      "dataset_index": 1262,
+      "ref_id": 42965,
+      "sent_id": 122144,
+      "expression": "cup n middle",
+      "mask_id": 1,
+      "annotation_id": 2183125,
+      "prediction_id": "refcoco-val-80590:1",
+      "gt_segmentation_sha256": "688200a4ffdd8f0d089dcbd1ea5e2a889fc49a83781100b6bd03301eefe9543d",
+      "category_id": 46
+    },
+    {
+      "image_id": 80590,
+      "dataset_index": 1262,
+      "ref_id": 42966,
+      "sent_id": 122147,
+      "expression": "right wine glass",
+      "mask_id": 2,
+      "annotation_id": 2183062,
+      "prediction_id": "refcoco-val-80590:2",
+      "gt_segmentation_sha256": "b63e5556a7b94e5d6a1f60e0cfbdf1471ecc4cf91b49aca19e5c4f37e4c0c1ab",
+      "category_id": 46
+    },
+    {
+      "image_id": 80590,
+      "dataset_index": 1262,
+      "ref_id": 42967,
+      "sent_id": 122149,
+      "expression": "middle glass, 2nd from left",
+      "mask_id": 3,
+      "annotation_id": 288570,
+      "prediction_id": "refcoco-val-80590:3",
+      "gt_segmentation_sha256": "73cea234d827868accef90036951a2688a493a6309e0f2a7ec73cc2c0adbe672",
+      "category_id": 44
+    },
+    {
+      "image_id": 80590,
+      "dataset_index": 1262,
+      "ref_id": 42968,
+      "sent_id": 122151,
+      "expression": "green bottle",
+      "mask_id": 4,
+      "annotation_id": 288317,
+      "prediction_id": "refcoco-val-80590:4",
+      "gt_segmentation_sha256": "8729922193d856ef8f11fba338ba191aa42d924c18755c103f8774df6099ff39",
+      "category_id": 44
+    },
+    {
+      "image_id": 80590,
+      "dataset_index": 1262,
+      "ref_id": 42969,
+      "sent_id": 122154,
+      "expression": "purple label",
+      "mask_id": 5,
+      "annotation_id": 81270,
+      "prediction_id": "refcoco-val-80590:5",
+      "gt_segmentation_sha256": "c77dc530263a088c25a6f71df5fad3fe6d20cfcad3f6f93aeea79c145430b2ed",
+      "category_id": 44
+    }
+  ],
+  "intersection": [
+    25149,
+    27609,
+    23705,
+    4207,
+    16689,
+    13292
+  ],
+  "union": [
+    26206,
+    28854,
+    25694,
+    26350,
+    26466,
+    14053
+  ],
+  "mask_file": "refcoco-val-80590.npz",
+  "mask_sha256": "e51d4fd30cec54e17fd9568cd02cb35b58b2525512e6a336c2c5be52652d117f",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.01550432599992746,
+    "inference_s": 2.20970159400008,
+    "postprocess_s": 0.0025401949999377393,
+    "amortized_inference_s_per_selected_expression": 0.36828359900001334,
+    "mask_write_s": 0.021086476999926163
+  },
+  "memory": {
+    "peak_allocated_bytes": 8838656512,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448168448,
+    "ram_rss_bytes": 6297100288
+  },
+  "output_bytes": 11467,
+  "stage_created": "full-validation",
+  "record_hash": "db5ffd79502822046b507f23a24adb05283b7478b63ab7541b8873ac633ef979",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

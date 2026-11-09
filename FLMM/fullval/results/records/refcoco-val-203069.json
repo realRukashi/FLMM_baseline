@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-203069",
+  "sample_hash": "9deb67cbbe3269cc32f5226597d57d20802d2971478b46d91945f02b239274ad",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 203069,
+  "dataset_index": 1180,
+  "expressions": [
+    {
+      "image_id": 203069,
+      "dataset_index": 1180,
+      "ref_id": 32802,
+      "sent_id": 93272,
+      "expression": "bottom left greenish fruit",
+      "mask_id": 0,
+      "annotation_id": 2217649,
+      "prediction_id": "refcoco-val-203069:0",
+      "gt_segmentation_sha256": "3967fc8e07121de2d0f617357302a95b0e5e5abf581e01cb123fcc249a695211",
+      "category_id": 53
+    },
+    {
+      "image_id": 203069,
+      "dataset_index": 1180,
+      "ref_id": 32803,
+      "sent_id": 93274,
+      "expression": "red fruit on left front, one that looks the least rotten?",
+      "mask_id": 1,
+      "annotation_id": 1548533,
+      "prediction_id": "refcoco-val-203069:1",
+      "gt_segmentation_sha256": "dc52e4e96d54de20e29ef7592943c523b966a5076af53955b7a475204a2ec16f",
+      "category_id": 53
+    }
+  ],
+  "intersection": [
+    3295,
+    17090
+  ],
+  "union": [
+    23953,
+    32434
+  ],
+  "mask_file": "refcoco-val-203069.npz",
+  "mask_sha256": "7c1c91a6cefa467ad2dfc8f1de1c564177beb119f64f33bc34e023b52fe5f947",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014938920999952643,
+    "inference_s": 2.1477050080000026,
+    "postprocess_s": 0.001580307000040193,
+    "amortized_inference_s_per_selected_expression": 1.0738525040000013,
+    "mask_write_s": 0.013292266000007658
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818403328,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6297001984
+  },
+  "output_bytes": 5699,
+  "stage_created": "full-validation",
+  "record_hash": "4dc5086ca3945f11e24b3dcc0eabced9b8c0b7e2b28cd08287806a9ef246fb64",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

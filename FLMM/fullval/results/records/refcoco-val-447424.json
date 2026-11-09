@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-447424",
+  "sample_hash": "8e36185b80091f247bad7bb68d3b08085ee67e44601b14120d989758ac457be6",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 447424,
+  "dataset_index": 910,
+  "expressions": [
+    {
+      "image_id": 447424,
+      "dataset_index": 910,
+      "ref_id": 11690,
+      "sent_id": 33280,
+      "expression": "red car",
+      "mask_id": 0,
+      "annotation_id": 352322,
+      "prediction_id": "refcoco-val-447424:0",
+      "gt_segmentation_sha256": "a68bc93b7b2530784e1469668d835bc66a4a1f41b77cf46c98cf717f81221d66",
+      "category_id": 3
+    }
+  ],
+  "intersection": [
+    42758
+  ],
+  "union": [
+    51539
+  ],
+  "mask_file": "refcoco-val-447424.npz",
+  "mask_sha256": "7dee21cadc72b7fdc42f3c094427475d2a5dda1020842e83463bd57a74d85627",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.014678623000008884,
+    "inference_s": 2.3513192929999605,
+    "postprocess_s": 0.0008886829998573376,
+    "amortized_inference_s_per_selected_expression": 2.3513192929999605,
+    "mask_write_s": 0.010765151999976297
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814952960,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6295695360
+  },
+  "output_bytes": 4322,
+  "stage_created": "full-validation",
+  "record_hash": "346b882732ca9f607c04f1ce38bb481ee290fd461d6a8e87e086f918ee850730",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

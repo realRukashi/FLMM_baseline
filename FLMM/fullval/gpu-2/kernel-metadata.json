@@ -1,0 +1,18 @@
+{
+  "id": "hoofngocjhuy/flmm-full-2",
+  "title": "FLMM Full 2",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "hoofngocjhuy/flmm-phase1-cache",
+    "hoofngocjhuy/flmm-full-data",
+    "hoofngocjhuy/flmm-phase1-gates",
+    "hoofngocjhuy/flmm-full-1"
+  ]
+}

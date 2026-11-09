@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-17587",
+  "sample_hash": "18c595b43557491d163aa867db8b1b45c9ab456f8309cdd9bfc3d37fc79619a7",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 17587,
+  "dataset_index": 214,
+  "expressions": [
+    {
+      "image_id": 17587,
+      "dataset_index": 214,
+      "ref_id": 48490,
+      "sent_id": 137915,
+      "expression": "woman on left",
+      "mask_id": 0,
+      "annotation_id": 565174,
+      "prediction_id": "refcoco-val-17587:0",
+      "gt_segmentation_sha256": "a6a345b0f642dadc49e4f25f36e961f986abc9ba992f441d792112a2036e7570",
+      "category_id": 1
+    },
+    {
+      "image_id": 17587,
+      "dataset_index": 214,
+      "ref_id": 48491,
+      "sent_id": 137917,
+      "expression": "person on the right side",
+      "mask_id": 1,
+      "annotation_id": 434796,
+      "prediction_id": "refcoco-val-17587:1",
+      "gt_segmentation_sha256": "e436426e2a7002d92aa0a02378929e9818867cd552b78067e84df6a33cd3a5f8",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    19834,
+    57076
+  ],
+  "union": [
+    23567,
+    59414
+  ],
+  "mask_file": "refcoco-val-17587.npz",
+  "mask_sha256": "7771e1cde2c415f5a85d13d50897505770248449f0ad4d2837a4f88aa551090b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01632934600002045,
+    "inference_s": 2.719971758000156,
+    "postprocess_s": 0.0019362979999186791,
+    "amortized_inference_s_per_selected_expression": 1.359985879000078,
+    "mask_write_s": 0.01861672199993336
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818289152,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 8184,
+  "stage_created": "full-validation",
+  "record_hash": "4ff033bce64ba6cf140e77295cae397410e578bcab0eb2a3a56bf04ef4301779",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

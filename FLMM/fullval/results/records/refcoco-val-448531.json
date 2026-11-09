@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-448531",
+  "sample_hash": "73ae63fa8c2172ee6bdeeca9b8758bd06f9f765a4228adbd7f776de8394fe050",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 448531,
+  "dataset_index": 1126,
+  "expressions": [
+    {
+      "image_id": 448531,
+      "dataset_index": 1126,
+      "ref_id": 11612,
+      "sent_id": 33053,
+      "expression": "dk blue to left of boy",
+      "mask_id": 0,
+      "annotation_id": 1823749,
+      "prediction_id": "refcoco-val-448531:0",
+      "gt_segmentation_sha256": "4b4e32be3aed746c59a47c396c7d9d86dc4846888686a93e587197c901bf5d8d",
+      "category_id": 27
+    },
+    {
+      "image_id": 448531,
+      "dataset_index": 1126,
+      "ref_id": 11613,
+      "sent_id": 33056,
+      "expression": "monkey backpack",
+      "mask_id": 1,
+      "annotation_id": 1421151,
+      "prediction_id": "refcoco-val-448531:1",
+      "gt_segmentation_sha256": "8c5c920f825561ad8f64b4f6dacb242e6de6b51edeaf5e46da63c3ec1b288a07",
+      "category_id": 27
+    },
+    {
+      "image_id": 448531,
+      "dataset_index": 1126,
+      "ref_id": 11614,
+      "sent_id": 33059,
+      "expression": "dude behind kid",
+      "mask_id": 2,
+      "annotation_id": 478637,
+      "prediction_id": "refcoco-val-448531:2",
+      "gt_segmentation_sha256": "099ca621e32041af2e8473673193229d8f98c29820df2d910b7850e337003ceb",
+      "category_id": 1
+    },
+    {
+      "image_id": 448531,
+      "dataset_index": 1126,
+      "ref_id": 11615,
+      "sent_id": 33061,
+      "expression": "a little buy with his juice box  going on vacaction",
+      "mask_id": 3,
+      "annotation_id": 449741,
+      "prediction_id": "refcoco-val-448531:3",
+      "gt_segmentation_sha256": "dddfee1250c89b3f04b0696f5b9eab5bef6177c4519f09e7b120422165eb5cc3",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    17037,
+    38544,
+    8224,
+    37181
+  ],
+  "union": [
+    24118,
+    40797,
+    13868,
+    40671
+  ],
+  "mask_file": "refcoco-val-448531.npz",
+  "mask_sha256": "e5490574092c28a3bdb58d81a949376926872cfde8bcad7f3e10ba4b61802d3a",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.01874393399998553,
+    "inference_s": 2.127388255000028,
+    "postprocess_s": 0.0032599159999335825,
+    "amortized_inference_s_per_selected_expression": 0.531847063750007,
+    "mask_write_s": 0.025209540999981073
+  },
+  "memory": {
+    "peak_allocated_bytes": 8837104128,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449660928,
+    "ram_rss_bytes": 6296907776
+  },
+  "output_bytes": 12780,
+  "stage_created": "full-validation",
+  "record_hash": "ac72fdb343b70d3dbcbdb8eeac52edeee24662a17a554d8f1b2ad84c7820c541",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

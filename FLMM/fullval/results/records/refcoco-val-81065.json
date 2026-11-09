@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-81065",
+  "sample_hash": "300785437f4efb0d3ab4a338857244d5808ceabe510b51860fba1335012bd203",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 81065,
+  "dataset_index": 1347,
+  "expressions": [
+    {
+      "image_id": 81065,
+      "dataset_index": 1347,
+      "ref_id": 42902,
+      "sent_id": 121969,
+      "expression": "the girl.",
+      "mask_id": 0,
+      "annotation_id": 475963,
+      "prediction_id": "refcoco-val-81065:0",
+      "gt_segmentation_sha256": "0e17c9ea400faee00cda4672d54ab9c968f13e60923693955ecb0e08bca1749c",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    68260
+  ],
+  "union": [
+    75845
+  ],
+  "mask_file": "refcoco-val-81065.npz",
+  "mask_sha256": "4911e80c7dc6ddaf22a7ccf32aa84d2280bcb72579cecad32f6b97ed430f6290",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.01853495099999236,
+    "inference_s": 2.4131538110000292,
+    "postprocess_s": 0.0009777599998415099,
+    "amortized_inference_s_per_selected_expression": 2.4131538110000292,
+    "mask_write_s": 0.012226356999917698
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815612416,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6301388800
+  },
+  "output_bytes": 5711,
+  "stage_created": "full-validation",
+  "record_hash": "0b666e1003c9b35e8003d4a0955d60ee7871ed70ccd4a5584f43418a361e9fde",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

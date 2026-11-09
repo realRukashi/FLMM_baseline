@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-327462",
+  "sample_hash": "d471472c809a5535d627c66d79823852e1e824088490e1281e36c209de701e62",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 327462,
+  "dataset_index": 1462,
+  "expressions": [
+    {
+      "image_id": 327462,
+      "dataset_index": 1462,
+      "ref_id": 22009,
+      "sent_id": 62591,
+      "expression": "woman sitting",
+      "mask_id": 0,
+      "annotation_id": 511207,
+      "prediction_id": "refcoco-val-327462:0",
+      "gt_segmentation_sha256": "3672dd94678c872400379ab8171367a2c14f9558cf023aafbb7df346c065fa3c",
+      "category_id": 1
+    },
+    {
+      "image_id": 327462,
+      "dataset_index": 1462,
+      "ref_id": 22010,
+      "sent_id": 62594,
+      "expression": "man on snowboard with blue jacket",
+      "mask_id": 1,
+      "annotation_id": 457933,
+      "prediction_id": "refcoco-val-327462:1",
+      "gt_segmentation_sha256": "bb04993536e6696e6bf8f49e52e0d1e3044d48cb6e19cd4a7144ae8982799bea",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    26836,
+    6066
+  ],
+  "union": [
+    28852,
+    20463
+  ],
+  "mask_file": "refcoco-val-327462.npz",
+  "mask_sha256": "edf92c072d55909fdd785389d8c3b963a079fcc59c4996ff72842868c8a0df9b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014887352999949144,
+    "inference_s": 2.1658716610002102,
+    "postprocess_s": 0.0018062089998238662,
+    "amortized_inference_s_per_selected_expression": 1.0829358305001051,
+    "mask_write_s": 0.014606994999894596
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820501504,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446289408,
+    "ram_rss_bytes": 6297804800
+  },
+  "output_bytes": 6029,
+  "stage_created": "full-validation",
+  "record_hash": "7c15860ce16787de114e636de3037fb5cf0c106a79fca4cffec41332e075098c",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

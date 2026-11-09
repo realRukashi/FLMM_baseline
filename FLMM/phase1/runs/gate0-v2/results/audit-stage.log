@@ -1,0 +1,297 @@
+/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Could not load bitsandbytes native library: libcusparse.so.11: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py", line 109, in <module>
+    lib = get_native_library()
+  File "/kaggle/temp/flmm-env/lib/python3.10/site-packages/bitsandbytes/cextension.py", line 96, in get_native_library
+    dll = ct.cdll.LoadLibrary(str(binary_path))
+  File "/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/kaggle/temp/python/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libcusparse.so.11: cannot open shared object file: No such file or directory
+
+CUDA Setup failed despite CUDA being available. Please run the following command to get more information:
+
+python -m bitsandbytes
+
+Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them
+to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes
+and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues
+
+Python version is above 3.10, patching the collections module.
+[2026-11-06 02:38:35,327] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+df: /root/.triton/autotune: No such file or directory
+/kaggle/temp/flmm-env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m NVIDIA Inference is only supported on Ampere and newer architectures
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.1
+[93m [WARNING] [0m using untested triton version (2.1.0), only 1.0.0 is known to be compatible
+Image token: <image_placeholder>
+Replace upsample forward function
+Replace upsample forward function
+Replace upsample forward function
+11/06 02:39:17 - mmengine - INFO - 
+encoder.0.0.convs.0.conv.weight - torch.Size([64, 384, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.0.0.convs.0.gn.weight - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.0.0.convs.0.gn.bias - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.0.0.convs.1.conv.weight - torch.Size([64, 64, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.0.0.convs.1.gn.weight - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.0.0.convs.1.gn.bias - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.1.1.convs.0.conv.weight - torch.Size([128, 64, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.1.1.convs.0.gn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.1.1.convs.0.gn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.1.1.convs.1.conv.weight - torch.Size([128, 128, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.1.1.convs.1.gn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.1.1.convs.1.gn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.2.1.convs.0.conv.weight - torch.Size([256, 128, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.2.1.convs.0.gn.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.2.1.convs.0.gn.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.2.1.convs.1.conv.weight - torch.Size([256, 256, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.2.1.convs.1.gn.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.2.1.convs.1.gn.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.3.1.convs.0.conv.weight - torch.Size([512, 256, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.3.1.convs.0.gn.weight - torch.Size([512]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.3.1.convs.0.gn.bias - torch.Size([512]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.3.1.convs.1.conv.weight - torch.Size([512, 512, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.3.1.convs.1.gn.weight - torch.Size([512]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+encoder.3.1.convs.1.gn.bias - torch.Size([512]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.0.conv_block.convs.0.conv.weight - torch.Size([64, 128, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.0.conv_block.convs.0.gn.weight - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.0.conv_block.convs.0.gn.bias - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.0.conv_block.convs.1.conv.weight - torch.Size([64, 64, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.0.conv_block.convs.1.gn.weight - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.0.conv_block.convs.1.gn.bias - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.0.upsample.interp_upsample.1.conv.weight - torch.Size([64, 128, 1, 1]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.0.upsample.interp_upsample.1.gn.weight - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.0.upsample.interp_upsample.1.gn.bias - torch.Size([64]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.1.conv_block.convs.0.conv.weight - torch.Size([128, 256, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.1.conv_block.convs.0.gn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.1.conv_block.convs.0.gn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.1.conv_block.convs.1.conv.weight - torch.Size([128, 128, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.1.conv_block.convs.1.gn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.1.conv_block.convs.1.gn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.1.upsample.interp_upsample.1.conv.weight - torch.Size([128, 256, 1, 1]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.1.upsample.interp_upsample.1.gn.weight - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.1.upsample.interp_upsample.1.gn.bias - torch.Size([128]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.2.conv_block.convs.0.conv.weight - torch.Size([256, 512, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.2.conv_block.convs.0.gn.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.2.conv_block.convs.0.gn.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.2.conv_block.convs.1.conv.weight - torch.Size([256, 256, 3, 3]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.2.conv_block.convs.1.gn.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.2.conv_block.convs.1.gn.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.2.upsample.interp_upsample.1.conv.weight - torch.Size([256, 512, 1, 1]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.2.upsample.interp_upsample.1.gn.weight - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+decoder.2.upsample.interp_upsample.1.gn.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of UNetHead  
+ 
+11/06 02:39:17 - mmengine - INFO - 
+conv_seg.weight - torch.Size([1, 64, 1, 1]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+11/06 02:39:17 - mmengine - INFO - 
+conv_seg.bias - torch.Size([1]): 
+KaimingInit: a=0, mode=fan_out, nonlinearity=relu, distribution =normal, bias=0 
+ 
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+LlamaModel is using LlamaSdpaAttention, but `torch.nn.functional.scaled_dot_product_attention` does not support `output_attentions=True`. Falling back to the manual attention implementation, but specifying the manual implementation will be required from Transformers version v5.0.0 onwards. This warning can be removed using the argument `attn_implementation="eager"` when loading the model.
+Image token: <image_placeholder>
+['Hello this is GPU 0']
+Start moving model to device: cuda
+Finished moving model to device: cuda, time used: 0.011234760284423828
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Do concatenation? True
+Start evaluating refcoco_val
+Image token: <image_placeholder>
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:01<00:37,  2.00s/it] 10%|█         | 2/20 [00:03<00:35,  1.97s/it] 15%|█▌        | 3/20 [00:05<00:33,  1.96s/it] 20%|██        | 4/20 [00:07<00:31,  1.97s/it] 25%|██▌       | 5/20 [00:09<00:29,  1.97s/it] 30%|███       | 6/20 [00:11<00:27,  1.98s/it] 35%|███▌      | 7/20 [00:13<00:25,  1.98s/it] 40%|████      | 8/20 [00:15<00:23,  2.00s/it] 45%|████▌     | 9/20 [00:17<00:22,  2.01s/it] 50%|█████     | 10/20 [00:19<00:20,  2.01s/it] 55%|█████▌    | 11/20 [00:21<00:18,  2.02s/it] 60%|██████    | 12/20 [00:24<00:16,  2.03s/it] 65%|██████▌   | 13/20 [00:26<00:14,  2.03s/it] 70%|███████   | 14/20 [00:28<00:12,  2.04s/it] 75%|███████▌  | 15/20 [00:30<00:10,  2.05s/it] 80%|████████  | 16/20 [00:32<00:08,  2.05s/it] 85%|████████▌ | 17/20 [00:34<00:06,  2.06s/it] 90%|█████████ | 18/20 [00:36<00:04,  2.07s/it] 95%|█████████▌| 19/20 [00:38<00:02,  2.07s/it]100%|██████████| 20/20 [00:40<00:00,  2.09s/it]100%|██████████| 20/20 [00:40<00:00,  2.03s/it]
+Collected 20 result samples from all gpus
+11/06 02:40:54 - mmengine - WARNING - The prefix is not set in metric class RefSegMetric.
+Evaluation results on refcoco_val: {'cIoU': tensor(79.1869), 'mIoU': tensor(81.6825)}
+Finished evaluating refcoco_val
+['Hello this is GPU 0']
+Start moving model to device: cuda
+Finished moving model to device: cuda, time used: 0.013051033020019531
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Do concatenation? True
+Start evaluating refcoco_val
+Image token: <image_placeholder>
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.18s/it] 10%|█         | 2/20 [00:04<00:38,  2.13s/it] 15%|█▌        | 3/20 [00:06<00:36,  2.12s/it] 20%|██        | 4/20 [00:08<00:34,  2.13s/it] 25%|██▌       | 5/20 [00:10<00:32,  2.13s/it] 30%|███       | 6/20 [00:12<00:29,  2.14s/it] 35%|███▌      | 7/20 [00:14<00:27,  2.15s/it] 40%|████      | 8/20 [00:17<00:25,  2.17s/it] 45%|████▌     | 9/20 [00:19<00:24,  2.18s/it] 50%|█████     | 10/20 [00:21<00:21,  2.20s/it] 55%|█████▌    | 11/20 [00:23<00:19,  2.21s/it] 60%|██████    | 12/20 [00:26<00:17,  2.23s/it] 65%|██████▌   | 13/20 [00:28<00:15,  2.25s/it] 70%|███████   | 14/20 [00:30<00:13,  2.27s/it] 75%|███████▌  | 15/20 [00:33<00:11,  2.29s/it] 80%|████████  | 16/20 [00:35<00:09,  2.31s/it] 85%|████████▌ | 17/20 [00:37<00:06,  2.33s/it] 90%|█████████ | 18/20 [00:40<00:04,  2.36s/it] 95%|█████████▌| 19/20 [00:42<00:02,  2.37s/it]100%|██████████| 20/20 [00:45<00:00,  2.40s/it]100%|██████████| 20/20 [00:45<00:00,  2.26s/it]
+Collected 20 result samples from all gpus
+Evaluation results on refcoco_val: {'cIoU': tensor(79.1869), 'mIoU': tensor(81.6825)}
+Finished evaluating refcoco_val
+DONE regression 1 / 20 refcoco-val-376848 2.318s
+DONE regression 2 / 20 refcoco-val-278549 2.279s
+DONE regression 3 / 20 refcoco-val-532505 2.240s
+DONE regression 4 / 20 refcoco-val-434201 2.233s
+DONE regression 5 / 20 refcoco-val-401439 2.186s
+DONE regression 6 / 20 refcoco-val-270369 2.174s
+DONE regression 7 / 20 refcoco-val-122916 2.145s
+DONE regression 8 / 20 refcoco-val-41005 2.149s
+DONE regression 9 / 20 refcoco-val-507952 2.169s
+DONE regression 10 / 20 refcoco-val-409653 2.143s
+DONE regression 11 / 20 refcoco-val-319543 2.158s
+DONE regression 12 / 20 refcoco-val-352312 2.170s
+DONE regression 13 / 20 refcoco-val-270391 2.192s
+DONE regression 14 / 20 refcoco-val-139324 2.210s
+DONE regression 15 / 20 refcoco-val-548935 2.223s
+DONE regression 16 / 20 refcoco-val-458827 2.253s
+DONE regression 17 / 20 refcoco-val-16465 2.267s
+DONE regression 18 / 20 refcoco-val-442461 2.331s
+DONE regression 19 / 20 refcoco-val-139359 2.334s
+DONE regression 20 / 20 refcoco-val-114786 2.401s

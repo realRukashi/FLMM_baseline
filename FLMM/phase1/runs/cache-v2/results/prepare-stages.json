@@ -1,0 +1,57 @@
+[
+  {
+    "stage": "uv",
+    "status": "PASS",
+    "seconds": 5.932926757000018
+  },
+  {
+    "stage": "environment",
+    "status": "PASS",
+    "seconds": 1.9706176119999554
+  },
+  {
+    "stage": "torch",
+    "status": "PASS",
+    "seconds": 35.33909514200002
+  },
+  {
+    "stage": "dependencies",
+    "status": "PASS",
+    "seconds": 24.189099544999976
+  },
+  {
+    "stage": "mmcv",
+    "status": "PASS",
+    "seconds": 4.385750446999964
+  },
+  {
+    "stage": "deepspeed",
+    "status": "PASS",
+    "seconds": 28.017920085000014
+  },
+  {
+    "stage": "source",
+    "status": "PASS",
+    "seconds": 2.8252626899999314
+  },
+  {
+    "stage": "revision",
+    "status": "PASS",
+    "seconds": 0.11497225699997671
+  },
+  {
+    "stage": "data-model-cache",
+    "status": "PASS",
+    "seconds": 407.79459713999995
+  },
+  {
+    "stage": "freeze",
+    "status": "PASS",
+    "seconds": 0.16567927899995993
+  },
+  {
+    "stage": "package-environment",
+    "status": "PASS",
+    "seconds": 268.798440132
+  }
+]

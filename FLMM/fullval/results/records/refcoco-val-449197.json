@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-449197",
+  "sample_hash": "e6675602cb4f5a66b923e79181b54b8da9c11ec9842c87806145228f9d627971",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 449197,
+  "dataset_index": 1255,
+  "expressions": [
+    {
+      "image_id": 449197,
+      "dataset_index": 1255,
+      "ref_id": 11556,
+      "sent_id": 32898,
+      "expression": "person on left",
+      "mask_id": 0,
+      "annotation_id": 478928,
+      "prediction_id": "refcoco-val-449197:0",
+      "gt_segmentation_sha256": "45abd3b4e197a44a7b0fac595201a7bdc482388e52d0c8ac2104638263cdfc4e",
+      "category_id": 1
+    },
+    {
+      "image_id": 449197,
+      "dataset_index": 1255,
+      "ref_id": 11557,
+      "sent_id": 32901,
+      "expression": "man in striped apron doing dishes",
+      "mask_id": 1,
+      "annotation_id": 435865,
+      "prediction_id": "refcoco-val-449197:1",
+      "gt_segmentation_sha256": "9a33ce13655397556160c2dcf76cebdebbf41c0cef8f7272456f6532ed494c31",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    25180,
+    22013
+  ],
+  "union": [
+    27146,
+    24064
+  ],
+  "mask_file": "refcoco-val-449197.npz",
+  "mask_sha256": "aedca1a8180dbe7a1a48f85dc54ded24550571567f9f0c2c4e4b1efb1ccb2ed5",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016075030999900264,
+    "inference_s": 2.020663273999844,
+    "postprocess_s": 0.0019683239997903,
+    "amortized_inference_s_per_selected_expression": 1.010331636999922,
+    "mask_write_s": 0.016765795999845068
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818310144,
+    "peak_reserved_bytes": 9804185600,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283227136
+  },
+  "output_bytes": 5523,
+  "stage_created": "full-probe",
+  "record_hash": "d8f68c85bc0e0f031228662664a296e30f631da7c468aa4dda8c89ef9902b3f7",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

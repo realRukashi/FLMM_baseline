@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-222086",
+  "sample_hash": "295db7f975c38516c62a3097df1be7c47ee10d3818d9f47168cbceded57da480",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 222086,
+  "dataset_index": 168,
+  "expressions": [
+    {
+      "image_id": 222086,
+      "dataset_index": 168,
+      "ref_id": 31116,
+      "sent_id": 88490,
+      "expression": "black arm second from right",
+      "mask_id": 0,
+      "annotation_id": 1310814,
+      "prediction_id": "refcoco-val-222086:0",
+      "gt_segmentation_sha256": "0e7b2ef6e7264e75f4a76e978e3b26338be878553b8ab1699be1c9c4c48780ec",
+      "category_id": 1
+    },
+    {
+      "image_id": 222086,
+      "dataset_index": 168,
+      "ref_id": 31117,
+      "sent_id": 88492,
+      "expression": "blonde hair lower right corner",
+      "mask_id": 1,
+      "annotation_id": 1307876,
+      "prediction_id": "refcoco-val-222086:1",
+      "gt_segmentation_sha256": "0bcb40027257331969fbe3dedf93554a12e72d53e6cbf9d08fa0b0fab354d042",
+      "category_id": 1
+    },
+    {
+      "image_id": 222086,
+      "dataset_index": 168,
+      "ref_id": 31118,
+      "sent_id": 88495,
+      "expression": "girl with brown hair closest to camera hair in a bun",
+      "mask_id": 2,
+      "annotation_id": 1206042,
+      "prediction_id": "refcoco-val-222086:2",
+      "gt_segmentation_sha256": "7319562a4162c926d4f5803b3b975ad6f4d87b8ac15717fa4dc49cef8ad793aa",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    8473,
+    15317,
+    33555
+  ],
+  "union": [
+    18220,
+    16352,
+    39615
+  ],
+  "mask_file": "refcoco-val-222086.npz",
+  "mask_sha256": "6db6b85c89590354ad7ea6c81684d005a3e6947fe4e7fbc55633d14b584ac493",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.021577150000211986,
+    "inference_s": 2.7597516349999296,
+    "postprocess_s": 0.0026042670001515944,
+    "amortized_inference_s_per_selected_expression": 0.9199172116666432,
+    "mask_write_s": 0.02013777700017272
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824440320,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447354368,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 8798,
+  "stage_created": "full-validation",
+  "record_hash": "562eeeb8d0da558367ab5d2fa83386a45b9f47389478bfd97e870f2180829326",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

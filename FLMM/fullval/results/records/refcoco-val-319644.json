@@ -1,0 +1,161 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-319644",
+  "sample_hash": "d9c99e93b0da6d4f6b341b6b1cd97d7f03804889cd83de18da5aba4f1a2147bf",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 319644,
+  "dataset_index": 27,
+  "expressions": [
+    {
+      "image_id": 319644,
+      "dataset_index": 27,
+      "ref_id": 22808,
+      "sent_id": 64860,
+      "expression": "middle row second kid from right",
+      "mask_id": 0,
+      "annotation_id": 1692849,
+      "prediction_id": "refcoco-val-319644:0",
+      "gt_segmentation_sha256": "47d3e78eb066ef0b1cee68e1f4913d24a7a728c8ebf5897863618e0a4bb5860b",
+      "category_id": 1
+    },
+    {
+      "image_id": 319644,
+      "dataset_index": 27,
+      "ref_id": 22809,
+      "sent_id": 64862,
+      "expression": "bottom right boy knelling",
+      "mask_id": 1,
+      "annotation_id": 1685524,
+      "prediction_id": "refcoco-val-319644:1",
+      "gt_segmentation_sha256": "6d572f607c1f547d412e8f36e90929e459bb6f2f37c70e77ae2cb51778afa0c3",
+      "category_id": 1
+    },
+    {
+      "image_id": 319644,
+      "dataset_index": 27,
+      "ref_id": 22810,
+      "sent_id": 64865,
+      "expression": "bottom row second kid from left",
+      "mask_id": 2,
+      "annotation_id": 1228387,
+      "prediction_id": "refcoco-val-319644:2",
+      "gt_segmentation_sha256": "b6f703170c771b692d8a1a206b3d3a125c6a425f4f62433dbc2e4c6b22cbd4ba",
+      "category_id": 1
+    },
+    {
+      "image_id": 319644,
+      "dataset_index": 27,
+      "ref_id": 22811,
+      "sent_id": 64868,
+      "expression": "boy 3rd left knelling with bat",
+      "mask_id": 3,
+      "annotation_id": 1219845,
+      "prediction_id": "refcoco-val-319644:3",
+      "gt_segmentation_sha256": "496a9f21d7f27f47c487ed0579d4d2147df9ef99a9e9ce054b647acf26ec23d4",
+      "category_id": 1
+    },
+    {
+      "image_id": 319644,
+      "dataset_index": 27,
+      "ref_id": 22812,
+      "sent_id": 64871,
+      "expression": "kneeling kid holding white bat",
+      "mask_id": 4,
+      "annotation_id": 1202916,
+      "prediction_id": "refcoco-val-319644:4",
+      "gt_segmentation_sha256": "fadb484512cdde545bd49f6641c3fbe7329615b1456494969655e24ef91b8421",
+      "category_id": 1
+    },
+    {
+      "image_id": 319644,
+      "dataset_index": 27,
+      "ref_id": 22813,
+      "sent_id": 64873,
+      "expression": "player second row left",
+      "mask_id": 5,
+      "annotation_id": 2148642,
+      "prediction_id": "refcoco-val-319644:5",
+      "gt_segmentation_sha256": "c1160c90a747278fd989efce5a02030fb5e9b08d33bcc16888e2826f8ce93967",
+      "category_id": 1
+    },
+    {
+      "image_id": 319644,
+      "dataset_index": 27,
+      "ref_id": 22814,
+      "sent_id": 64876,
+      "expression": "left most guy",
+      "mask_id": 6,
+      "annotation_id": 2148494,
+      "prediction_id": "refcoco-val-319644:6",
+      "gt_segmentation_sha256": "e5f4d5f4f5fa59a011565bb0b6ddc8b1b388ebe18b95805d07bf61f2bdd3d2fc",
+      "category_id": 1
+    },
+    {
+      "image_id": 319644,
+      "dataset_index": 27,
+      "ref_id": 22815,
+      "sent_id": 64879,
+      "expression": "boy right side standing up",
+      "mask_id": 7,
+      "annotation_id": 1704254,
+      "prediction_id": "refcoco-val-319644:7",
+      "gt_segmentation_sha256": "710162908ff9338b8f76af6cbb317d0a65a0a5241b4e34a33b2c7a808b016b3c",
+      "category_id": 1
+    },
+    {
+      "image_id": 319644,
+      "dataset_index": 27,
+      "ref_id": 22816,
+      "sent_id": 64881,
+      "expression": "boy standing above kid with bat",
+      "mask_id": 8,
+      "annotation_id": 1702022,
+      "prediction_id": "refcoco-val-319644:8",
+      "gt_segmentation_sha256": "485134b15a44fc41e5e9f9a737771f65bbf01c0c86f8edb906c3106fe1b5f4d1",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    256,
+    12392,
+    14710,
+    13390,
+    1,
+    9792,
+    7784,
+    3639,
+    4893
+  ],
+  "union": [
+    24989,
+    20462,
+    17510,
+    15408,
+    29756,
+    12623,
+    39161,
+    19299,
+    22186
+  ],
+  "mask_file": "refcoco-val-319644.npz",
+  "mask_sha256": "959d9d913c7a34c5ac3c273139f45768654f7e473b719b7538761ee3852f4ff6",
+  "nonempty_predictions": 9,
+  "timings": {
+    "preprocess_s": 0.026874835999933566,
+    "inference_s": 2.3579384049999135,
+    "postprocess_s": 0.007518269000001965,
+    "amortized_inference_s_per_selected_expression": 0.2619931561111015,
+    "mask_write_s": 0.045238297000196326
+  },
+  "memory": {
+    "peak_allocated_bytes": 8854322176,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5454727168,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 25486,
+  "stage_created": "full-validation",
+  "record_hash": "6bcfc2a731c898257441471611af0d94be042f391d2f704d3cc7ab3600188c7e",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

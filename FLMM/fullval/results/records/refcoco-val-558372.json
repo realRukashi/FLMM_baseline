@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-558372",
+  "sample_hash": "3aa4c419689374ac1333d0d05f43c592640dead2f750c4423bf19e93b024a0c3",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 558372,
+  "dataset_index": 234,
+  "expressions": [
+    {
+      "image_id": 558372,
+      "dataset_index": 234,
+      "ref_id": 2134,
+      "sent_id": 6098,
+      "expression": "man's head on the left, with hat on",
+      "mask_id": 0,
+      "annotation_id": 224308,
+      "prediction_id": "refcoco-val-558372:0",
+      "gt_segmentation_sha256": "3fbb0d2801068be218ea4f770b839df9eb8c438c3b8485249a6ec2a1fc5732ba",
+      "category_id": 1
+    },
+    {
+      "image_id": 558372,
+      "dataset_index": 234,
+      "ref_id": 2135,
+      "sent_id": 6101,
+      "expression": "woman in white tanktop and green shorts",
+      "mask_id": 1,
+      "annotation_id": 217336,
+      "prediction_id": "refcoco-val-558372:1",
+      "gt_segmentation_sha256": "3bbcc807a3f857b06f8e3b61a907e0f3b46b1460638c078b84f72c3e998f746e",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    16920,
+    10561
+  ],
+  "union": [
+    55868,
+    12545
+  ],
+  "mask_file": "refcoco-val-558372.npz",
+  "mask_sha256": "88519b4b37165632017dfa200a17ff9a61f64fbb727654285b5b198ca632fe20",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.0162034490001588,
+    "inference_s": 2.7508650639999814,
+    "postprocess_s": 0.001842395999801738,
+    "amortized_inference_s_per_selected_expression": 1.3754325319999907,
+    "mask_write_s": 0.015783723999902577
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818410496,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 6938,
+  "stage_created": "full-validation",
+  "record_hash": "c33c524aba1ff849c39991d7dd7388a1811f56efe3fe2cc15ee865b4862711c1",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

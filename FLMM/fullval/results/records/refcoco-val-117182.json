@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-117182",
+  "sample_hash": "b89d38690e5cd876d59234b4bd9cde1a4523cc0b5d44f0a87f663a0e212566b1",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 117182,
+  "dataset_index": 453,
+  "expressions": [
+    {
+      "image_id": 117182,
+      "dataset_index": 453,
+      "ref_id": 39915,
+      "sent_id": 113486,
+      "expression": "the chair with the owl on it",
+      "mask_id": 0,
+      "annotation_id": 117421,
+      "prediction_id": "refcoco-val-117182:0",
+      "gt_segmentation_sha256": "3bb63f701233431a97ba612e22a9055dd3d389fd810e35164a60d7bb540a2aac",
+      "category_id": 63
+    },
+    {
+      "image_id": 117182,
+      "dataset_index": 453,
+      "ref_id": 39916,
+      "sent_id": 113489,
+      "expression": "right couch",
+      "mask_id": 1,
+      "annotation_id": 114998,
+      "prediction_id": "refcoco-val-117182:1",
+      "gt_segmentation_sha256": "e9edba7ee37490de2494c9d6c9350e1bb93dac19454231e547c3e2d6e283b700",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    55717,
+    40951
+  ],
+  "union": [
+    57807,
+    42288
+  ],
+  "mask_file": "refcoco-val-117182.npz",
+  "mask_sha256": "d6603b3d02af3c8a7e7159c95af92595c55d8964379a5cb6d59db8c0e4cb4358",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01505916399992202,
+    "inference_s": 2.231434417000173,
+    "postprocess_s": 0.001694353000175397,
+    "amortized_inference_s_per_selected_expression": 1.1157172085000866,
+    "mask_write_s": 0.02009944299993549
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818316288,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 7724,
+  "stage_created": "full-validation",
+  "record_hash": "4b67d181b3e4a09eca4f410d1bc244b4d1b1459c9a89289ef79323912ded6523",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

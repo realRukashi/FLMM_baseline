@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-113998",
+  "sample_hash": "c3ce35f626eb63da9e312258d92312d060ab7686ca4b75f9cd32aae3fb3e806d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 113998,
+  "dataset_index": 1386,
+  "expressions": [
+    {
+      "image_id": 113998,
+      "dataset_index": 1386,
+      "ref_id": 40194,
+      "sent_id": 114271,
+      "expression": "sleeve on far left",
+      "mask_id": 0,
+      "annotation_id": 1288036,
+      "prediction_id": "refcoco-val-113998:0",
+      "gt_segmentation_sha256": "c41f04765b8239856db587c36d76c3f385ce77741c9de54999d63640aea53442",
+      "category_id": 1
+    },
+    {
+      "image_id": 113998,
+      "dataset_index": 1386,
+      "ref_id": 40195,
+      "sent_id": 114274,
+      "expression": "guy in black on left pointing",
+      "mask_id": 1,
+      "annotation_id": 1276462,
+      "prediction_id": "refcoco-val-113998:1",
+      "gt_segmentation_sha256": "f18510ffbc1bae38952ba2fdf07c6999cb719b618eceaf093eb8f9d7f743e217",
+      "category_id": 1
+    },
+    {
+      "image_id": 113998,
+      "dataset_index": 1386,
+      "ref_id": 40196,
+      "sent_id": 114277,
+      "expression": "woman in middle spotty blue skirt",
+      "mask_id": 2,
+      "annotation_id": 1273120,
+      "prediction_id": "refcoco-val-113998:2",
+      "gt_segmentation_sha256": "9e87066caa49b77452792886fed896e701c0a17aba2ee0dcdc026f077cfa84a8",
+      "category_id": 1
+    },
+    {
+      "image_id": 113998,
+      "dataset_index": 1386,
+      "ref_id": 40197,
+      "sent_id": 114280,
+      "expression": "guy next to front guy",
+      "mask_id": 3,
+      "annotation_id": 1240750,
+      "prediction_id": "refcoco-val-113998:3",
+      "gt_segmentation_sha256": "c57866c5f03782d91055cb0aad68d8f2085a5e7b18a1bed43fed24e5491abeae",
+      "category_id": 1
+    },
+    {
+      "image_id": 113998,
+      "dataset_index": 1386,
+      "ref_id": 40198,
+      "sent_id": 114283,
+      "expression": "bloody man",
+      "mask_id": 4,
+      "annotation_id": 1210991,
+      "prediction_id": "refcoco-val-113998:4",
+      "gt_segmentation_sha256": "e8d60a19c5a6fe6471ee4c138ed06f0b5c90157503056d81b87f09fc585af9b7",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11969,
+    32926,
+    20449,
+    16698,
+    79555
+  ],
+  "union": [
+    24357,
+    38590,
+    24220,
+    20343,
+    85927
+  ],
+  "mask_file": "refcoco-val-113998.npz",
+  "mask_sha256": "435ad2c1fe72fc24ebcb497730003e227ae3df72919c6a7cd176b8a9e68ffb1f",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.014664783999933206,
+    "inference_s": 2.1817639420000887,
+    "postprocess_s": 0.00289759099996445,
+    "amortized_inference_s_per_selected_expression": 0.43635278840001773,
+    "mask_write_s": 0.027064569000003758
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831245824,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449107968,
+    "ram_rss_bytes": 6297788416
+  },
+  "output_bytes": 17265,
+  "stage_created": "full-validation",
+  "record_hash": "68b162f4b35f168761d2f464a3739723d784c8f145508bb042091b3273a27fec",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-336503",
+  "sample_hash": "125bbc5d0bcaa76b77956fd6726a80fb082fbdf0f028c0b9db0b0ae65c0e759f",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 336503,
+  "dataset_index": 116,
+  "expressions": [
+    {
+      "image_id": 336503,
+      "dataset_index": 116,
+      "ref_id": 21073,
+      "sent_id": 59944,
+      "expression": "guy facing other way backpack on",
+      "mask_id": 0,
+      "annotation_id": 2162208,
+      "prediction_id": "refcoco-val-336503:0",
+      "gt_segmentation_sha256": "23b144999d16dec6299cdc8bd850197bb219b0a6bd24c9b4c52386339533bf0f",
+      "category_id": 1
+    },
+    {
+      "image_id": 336503,
+      "dataset_index": 116,
+      "ref_id": 21074,
+      "sent_id": 59947,
+      "expression": "far left phone right of guy in blue polo",
+      "mask_id": 1,
+      "annotation_id": 1977162,
+      "prediction_id": "refcoco-val-336503:1",
+      "gt_segmentation_sha256": "b71da2d3a63c405e2738676fc56f02c0abdaf5d47ed44d60922e7bb8fb2eba60",
+      "category_id": 77
+    },
+    {
+      "image_id": 336503,
+      "dataset_index": 116,
+      "ref_id": 21075,
+      "sent_id": 59949,
+      "expression": "girl left",
+      "mask_id": 2,
+      "annotation_id": 518737,
+      "prediction_id": "refcoco-val-336503:2",
+      "gt_segmentation_sha256": "f5c5b34486796537700a257e4106f224eeb6cad00403630b3314e0754d927091",
+      "category_id": 1
+    },
+    {
+      "image_id": 336503,
+      "dataset_index": 116,
+      "ref_id": 21076,
+      "sent_id": 59952,
+      "expression": "windows live dude",
+      "mask_id": 3,
+      "annotation_id": 2195649,
+      "prediction_id": "refcoco-val-336503:3",
+      "gt_segmentation_sha256": "ca68525a3d591563db129de636cc7f1ba1aa6d5f16d873efb3a66853132de971",
+      "category_id": 77
+    },
+    {
+      "image_id": 336503,
+      "dataset_index": 116,
+      "ref_id": 21077,
+      "sent_id": 59955,
+      "expression": "main big guy",
+      "mask_id": 4,
+      "annotation_id": 497368,
+      "prediction_id": "refcoco-val-336503:4",
+      "gt_segmentation_sha256": "69fd8d4a95402853bd1839ffc54003a5c0ca44a7b21a8b1a485010f41b531d8b",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10,
+    15234,
+    15945,
+    33,
+    0
+  ],
+  "union": [
+    37559,
+    16203,
+    17434,
+    51825,
+    53343
+  ],
+  "mask_file": "refcoco-val-336503.npz",
+  "mask_sha256": "5ee21def7bd9b5c51b67292604a220545abcd79766ed1e2a2f68b282cc21441d",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.020040642000139997,
+    "inference_s": 2.746175982000068,
+    "postprocess_s": 0.0043572580000272865,
+    "amortized_inference_s_per_selected_expression": 0.5492351964000136,
+    "mask_write_s": 0.030955039999980727
+  },
+  "memory": {
+    "peak_allocated_bytes": 8833939968,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449811968,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 13558,
+  "stage_created": "full-validation",
+  "record_hash": "f69363949f7f80005c121eafff3c996cf0c41eaa4c9f9743685cd06f13933dad",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

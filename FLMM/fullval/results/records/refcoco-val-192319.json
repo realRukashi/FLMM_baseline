@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-192319",
+  "sample_hash": "0b5af7027f2136cd2bee460f32c912db3d9bb98b60c9bc2ea29dbf817ae24239",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 192319,
+  "dataset_index": 711,
+  "expressions": [
+    {
+      "image_id": 192319,
+      "dataset_index": 711,
+      "ref_id": 33640,
+      "sent_id": 95668,
+      "expression": "blurry person left of white short guy",
+      "mask_id": 0,
+      "annotation_id": 1268218,
+      "prediction_id": "refcoco-val-192319:0",
+      "gt_segmentation_sha256": "6454c3ce9e0d04fc92c962d2715c3c35b94263f8ff592d88e4f125776e23d895",
+      "category_id": 1
+    },
+    {
+      "image_id": 192319,
+      "dataset_index": 711,
+      "ref_id": 33641,
+      "sent_id": 95671,
+      "expression": "person in shadow center out of focus, in white",
+      "mask_id": 1,
+      "annotation_id": 454945,
+      "prediction_id": "refcoco-val-192319:1",
+      "gt_segmentation_sha256": "f1f7ce75a18ebe23ccf6b1d47d21f10dc76189313614e526247081094ee44e47",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    315,
+    15986
+  ],
+  "union": [
+    26822,
+    20048
+  ],
+  "mask_file": "refcoco-val-192319.npz",
+  "mask_sha256": "5e654d16d6c5c82e2c5a0580a0ef2463b9bfada133168eab143c7255956c7b98",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.018623720999926263,
+    "inference_s": 2.326571971999897,
+    "postprocess_s": 0.0019830059999321747,
+    "amortized_inference_s_per_selected_expression": 1.1632859859999485,
+    "mask_write_s": 0.012342838999984451
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820588544,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446289408,
+    "ram_rss_bytes": 6294450176
+  },
+  "output_bytes": 4163,
+  "stage_created": "full-validation",
+  "record_hash": "c1db7cd99a872a2c7142ad235629ff89b8da88442813a4e1c3de7789aa687038",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

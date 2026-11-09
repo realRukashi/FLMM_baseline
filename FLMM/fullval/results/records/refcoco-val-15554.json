@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-15554",
+  "sample_hash": "c92889d6898790851598dca679445360d565a8df86d1f65dcff2826c94e4d6a3",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 15554,
+  "dataset_index": 1355,
+  "expressions": [
+    {
+      "image_id": 15554,
+      "dataset_index": 1355,
+      "ref_id": 48675,
+      "sent_id": 138427,
+      "expression": "brown stationwagen",
+      "mask_id": 0,
+      "annotation_id": 359401,
+      "prediction_id": "refcoco-val-15554:0",
+      "gt_segmentation_sha256": "dc8830bc5955abf5137a42063a362a13d46e54afc049a6ea00bb9117a7d96247",
+      "category_id": 3
+    },
+    {
+      "image_id": 15554,
+      "dataset_index": 1355,
+      "ref_id": 48676,
+      "sent_id": 138430,
+      "expression": "white car, far left",
+      "mask_id": 1,
+      "annotation_id": 344678,
+      "prediction_id": "refcoco-val-15554:1",
+      "gt_segmentation_sha256": "6c80f7c69aba4ddce9afac12075955a4d147062a870252e0c835f6c2c72a8390",
+      "category_id": 3
+    }
+  ],
+  "intersection": [
+    104,
+    18852
+  ],
+  "union": [
+    21580,
+    20600
+  ],
+  "mask_file": "refcoco-val-15554.npz",
+  "mask_sha256": "2f3a20d3b017d7a35273980d38fa8f49decc0a46f4fd808ea8ee393a910798d9",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01684611199993924,
+    "inference_s": 2.4342465279999033,
+    "postprocess_s": 0.0015145689999371825,
+    "amortized_inference_s_per_selected_expression": 1.2171232639999516,
+    "mask_write_s": 0.013440602999935436
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818316288,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6301388800
+  },
+  "output_bytes": 4544,
+  "stage_created": "full-validation",
+  "record_hash": "45548616575c0247f58fe495e9a205573cbf0499389b31647ed2ed5b7f7cd472",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

@@ -1,0 +1,119 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-162200",
+  "sample_hash": "e612187abf389d67ed12b1583b09a632a29c554c4ba0150262de4317ee1c852d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 162200,
+  "dataset_index": 1197,
+  "expressions": [
+    {
+      "image_id": 162200,
+      "dataset_index": 1197,
+      "ref_id": 36097,
+      "sent_id": 102681,
+      "expression": "top left donut (not long one)",
+      "mask_id": 0,
+      "annotation_id": 2189411,
+      "prediction_id": "refcoco-val-162200:0",
+      "gt_segmentation_sha256": "7d93d4c9741ee4ae6fe2f3cc02d63b8cc12effc9b77dc33172b1a229edb861d6",
+      "category_id": 60
+    },
+    {
+      "image_id": 162200,
+      "dataset_index": 1197,
+      "ref_id": 36098,
+      "sent_id": 102684,
+      "expression": "swirly danish",
+      "mask_id": 1,
+      "annotation_id": 2189407,
+      "prediction_id": "refcoco-val-162200:1",
+      "gt_segmentation_sha256": "72c1d7ef191adb7c7acd63c72d2d6830a294d589789f493d86c9e0dcf16e4405",
+      "category_id": 60
+    },
+    {
+      "image_id": 162200,
+      "dataset_index": 1197,
+      "ref_id": 36099,
+      "sent_id": 102687,
+      "expression": "long wiener thing",
+      "mask_id": 2,
+      "annotation_id": 2189366,
+      "prediction_id": "refcoco-val-162200:2",
+      "gt_segmentation_sha256": "6e2eb422542e2ce3d3fb4a6a993ad7f525dda1e5759a5b2c21353e2b9a86597c",
+      "category_id": 60
+    },
+    {
+      "image_id": 162200,
+      "dataset_index": 1197,
+      "ref_id": 36100,
+      "sent_id": 102689,
+      "expression": "donut on far right",
+      "mask_id": 3,
+      "annotation_id": 2189331,
+      "prediction_id": "refcoco-val-162200:3",
+      "gt_segmentation_sha256": "448c8d5e9aea81001e669499e461b9cd0c077db518314f467c1362be5b5e27db",
+      "category_id": 60
+    },
+    {
+      "image_id": 162200,
+      "dataset_index": 1197,
+      "ref_id": 36101,
+      "sent_id": 102692,
+      "expression": "small round donut in back",
+      "mask_id": 4,
+      "annotation_id": 1080239,
+      "prediction_id": "refcoco-val-162200:4",
+      "gt_segmentation_sha256": "5ce060416b3164d30f2516b3db96761f41d73f98710ab9ea223e4a69bdfbd44e",
+      "category_id": 60
+    },
+    {
+      "image_id": 162200,
+      "dataset_index": 1197,
+      "ref_id": 36102,
+      "sent_id": 102695,
+      "expression": "donut with a hole in the front",
+      "mask_id": 5,
+      "annotation_id": 1078262,
+      "prediction_id": "refcoco-val-162200:5",
+      "gt_segmentation_sha256": "6a156eddb85c62dbd43bfd3af551b117d3b0edf50f252fc58309442735e02441",
+      "category_id": 60
+    }
+  ],
+  "intersection": [
+    14851,
+    25767,
+    27563,
+    13441,
+    0,
+    23872
+  ],
+  "union": [
+    16129,
+    28361,
+    30753,
+    16959,
+    23916,
+    27736
+  ],
+  "mask_file": "refcoco-val-162200.npz",
+  "mask_sha256": "8f3ce04144c239e31a35981ff10a0db855d277614d065b6e61b56a19a0b06724",
+  "nonempty_predictions": 6,
+  "timings": {
+    "preprocess_s": 0.018634296000072936,
+    "inference_s": 2.478289198000084,
+    "postprocess_s": 0.0044217639999715175,
+    "amortized_inference_s_per_selected_expression": 0.41304819966668066,
+    "mask_write_s": 0.030019568999932744
+  },
+  "memory": {
+    "peak_allocated_bytes": 8838869504,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5451286528,
+    "ram_rss_bytes": 6300626944
+  },
+  "output_bytes": 13103,
+  "stage_created": "full-validation",
+  "record_hash": "ad7104872a7c61d3cc11907793a150c8ec3ac77f063c9762d5402f7b6d0f9c33",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

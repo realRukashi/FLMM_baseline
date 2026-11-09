@@ -1,0 +1,15 @@
+{
+  "id": "hoofngocjhuy/flmm-phase1-gates",
+  "title": "FLMM Phase1 Gates",
+  "code_file": "phase1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "hoofngocjhuy/flmm-phase1-cache"
+  ]
+}

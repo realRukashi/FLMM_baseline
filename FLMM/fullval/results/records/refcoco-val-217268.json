@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-217268",
+  "sample_hash": "60fd823adaa379e19b659c6fde88248ad87f8e49511f806404e72683472d6e54",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 217268,
+  "dataset_index": 775,
+  "expressions": [
+    {
+      "image_id": 217268,
+      "dataset_index": 775,
+      "ref_id": 31566,
+      "sent_id": 89767,
+      "expression": "the girl in the striped shirt near the man and woman",
+      "mask_id": 0,
+      "annotation_id": 255029,
+      "prediction_id": "refcoco-val-217268:0",
+      "gt_segmentation_sha256": "e9ca45f2b4540024227b8a3d5ebe394b69850928a102d5981b3338bf04a05be1",
+      "category_id": 1
+    },
+    {
+      "image_id": 217268,
+      "dataset_index": 775,
+      "ref_id": 31567,
+      "sent_id": 89770,
+      "expression": "standing guy",
+      "mask_id": 1,
+      "annotation_id": 221152,
+      "prediction_id": "refcoco-val-217268:1",
+      "gt_segmentation_sha256": "f1be13a31610958fb11bb2cda85e67541a4ec4c31bfb5acd87862bf917aec6b4",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    144,
+    15410
+  ],
+  "union": [
+    31226,
+    16880
+  ],
+  "mask_file": "refcoco-val-217268.npz",
+  "mask_sha256": "414f965bfb61d84f4f824f566fd033d2b8d24968ad3abe50db186ac55e3a559c",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014686960000062754,
+    "inference_s": 2.26812472000006,
+    "postprocess_s": 0.0018206330000793969,
+    "amortized_inference_s_per_selected_expression": 1.13406236000003,
+    "mask_write_s": 0.013415135000059308
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820363776,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6294519808
+  },
+  "output_bytes": 4958,
+  "stage_created": "full-validation",
+  "record_hash": "79ab77d00a503a66b67a9c657b3c748053a10951d397963e32738b54eff20742",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-94660",
+  "sample_hash": "85c5d26eab2ea678c314db42ee4a08da140c7fe33ad5faabf2b98165f0bee7a2",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 94660,
+  "dataset_index": 820,
+  "expressions": [
+    {
+      "image_id": 94660,
+      "dataset_index": 820,
+      "ref_id": 41750,
+      "sent_id": 118696,
+      "expression": "guy grabbing the other guys legs.",
+      "mask_id": 0,
+      "annotation_id": 538612,
+      "prediction_id": "refcoco-val-94660:0",
+      "gt_segmentation_sha256": "0dd2c6dc37c6a818fc8259b74ef0d1ac1479a9eadd260c4ed03bfeb6845bca4b",
+      "category_id": 1
+    },
+    {
+      "image_id": 94660,
+      "dataset_index": 820,
+      "ref_id": 41751,
+      "sent_id": 118699,
+      "expression": "man in black holding ball",
+      "mask_id": 1,
+      "annotation_id": 535971,
+      "prediction_id": "refcoco-val-94660:1",
+      "gt_segmentation_sha256": "4e735c3b6cbaef1e3d9b656ca0f352e721f28a24a8f89340221f556ced6cf877",
+      "category_id": 1
+    },
+    {
+      "image_id": 94660,
+      "dataset_index": 820,
+      "ref_id": 41752,
+      "sent_id": 118702,
+      "expression": "dat ass",
+      "mask_id": 2,
+      "annotation_id": 529705,
+      "prediction_id": "refcoco-val-94660:2",
+      "gt_segmentation_sha256": "9d1741e963abf8974ac3fa344cc86ec4ce0274fa491963429b73c527dbf7876d",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    2230,
+    35621,
+    0
+  ],
+  "union": [
+    38188,
+    39435,
+    89995
+  ],
+  "mask_file": "refcoco-val-94660.npz",
+  "mask_sha256": "56a78b9a1d76b34b3d7f0c7e00a64aef143a9642869784674b453ab3bbfaf31d",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.014922891000082927,
+    "inference_s": 2.3446773910000047,
+    "postprocess_s": 0.0020373280000285376,
+    "amortized_inference_s_per_selected_expression": 0.7815591303333349,
+    "mask_write_s": 0.02069605799999863
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822594560,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6295609344
+  },
+  "output_bytes": 11904,
+  "stage_created": "full-validation",
+  "record_hash": "b221804ddf10ef2c2cbbcb3ffebbdf226818e1717fd519b82d13ba256aae5734",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

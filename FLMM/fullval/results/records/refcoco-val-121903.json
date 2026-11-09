@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-121903",
+  "sample_hash": "b5fbc5c8973dbef28d0196296f93ddd559b03dc2915e27a1cca5cacf3422a104",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 121903,
+  "dataset_index": 1322,
+  "expressions": [
+    {
+      "image_id": 121903,
+      "dataset_index": 1322,
+      "ref_id": 39530,
+      "sent_id": 112398,
+      "expression": "fedex truck",
+      "mask_id": 0,
+      "annotation_id": 1367512,
+      "prediction_id": "refcoco-val-121903:0",
+      "gt_segmentation_sha256": "21265cd90c265947d37a27a1c47b7ce09ff23da0081737f8c91b04fccd486d0e",
+      "category_id": 8
+    },
+    {
+      "image_id": 121903,
+      "dataset_index": 1322,
+      "ref_id": 39531,
+      "sent_id": 112401,
+      "expression": "truck across road",
+      "mask_id": 1,
+      "annotation_id": 400663,
+      "prediction_id": "refcoco-val-121903:1",
+      "gt_segmentation_sha256": "85be285039e667fd3a983e6acff36da19cf86a7a76281145cfa659f04fdb43bf",
+      "category_id": 8
+    }
+  ],
+  "intersection": [
+    10011,
+    33196
+  ],
+  "union": [
+    10984,
+    39136
+  ],
+  "mask_file": "refcoco-val-121903.npz",
+  "mask_sha256": "7a9a907a8f435cf999cacdec272a2700c98e99c84faa4a18ac070e2fba5fe861",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.013335163999954602,
+    "inference_s": 2.136211939000077,
+    "postprocess_s": 0.0011560030000055121,
+    "amortized_inference_s_per_selected_expression": 1.0681059695000386,
+    "mask_write_s": 0.010933461999911742
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815331328,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445330944,
+    "ram_rss_bytes": 6297116672
+  },
+  "output_bytes": 3760,
+  "stage_created": "full-validation",
+  "record_hash": "b1161698e1256dfb7f65a77d47b40d707493afcab7e9d2088f9408bec57d8e38",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

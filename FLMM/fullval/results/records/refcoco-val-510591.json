@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-510591",
+  "sample_hash": "4813dac848c710697e49f88ca1c6d8bfd6197a285d29445a9c92cff210a7237e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 510591,
+  "dataset_index": 496,
+  "expressions": [
+    {
+      "image_id": 510591,
+      "dataset_index": 496,
+      "ref_id": 6234,
+      "sent_id": 17748,
+      "expression": "toilet seat right moon on it",
+      "mask_id": 0,
+      "annotation_id": 2227407,
+      "prediction_id": "refcoco-val-510591:0",
+      "gt_segmentation_sha256": "cccead1249dfd9b5d1ba567ede1b8881ef1f8de9e1a4ea13f24c50019bbb0c8d",
+      "category_id": 70
+    },
+    {
+      "image_id": 510591,
+      "dataset_index": 496,
+      "ref_id": 6235,
+      "sent_id": 17751,
+      "expression": "brown guitar toilet seat",
+      "mask_id": 1,
+      "annotation_id": 1967686,
+      "prediction_id": "refcoco-val-510591:1",
+      "gt_segmentation_sha256": "f8d668bee06b72df6a546fc4ac87cf33650276e13fd3f8fa07f489d80e39b3e4",
+      "category_id": 70
+    },
+    {
+      "image_id": 510591,
+      "dataset_index": 496,
+      "ref_id": 6236,
+      "sent_id": 17753,
+      "expression": "white toilet cover",
+      "mask_id": 2,
+      "annotation_id": 1967467,
+      "prediction_id": "refcoco-val-510591:2",
+      "gt_segmentation_sha256": "28979603ea0cadf4c1f1b5b1d7a6b14c5fed89f62af46dd9ffd59aeb1f5baf38",
+      "category_id": 70
+    }
+  ],
+  "intersection": [
+    62577,
+    13745,
+    35840
+  ],
+  "union": [
+    68480,
+    15734,
+    38868
+  ],
+  "mask_file": "refcoco-val-510591.npz",
+  "mask_sha256": "8c8bcad98745b19c461d175c7d226d451d53a4cae353f6aaecac53dda94d06a5",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.01692085099966789,
+    "inference_s": 2.7523916690001897,
+    "postprocess_s": 0.0021803390000059153,
+    "amortized_inference_s_per_selected_expression": 0.9174638896667299,
+    "mask_write_s": 0.02594676199987589
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824584192,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447706624,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 10579,
+  "stage_created": "full-validation",
+  "record_hash": "00b3ee8daec4cc3091c6539b226ddaa1d4f373c19f5d89796b4d89119fa9a3b5",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "stage": "uv",
+    "status": "PASS",
+    "seconds": 6.437455273000012
+  },
+  {
+    "stage": "environment",
+    "status": "PASS",
+    "seconds": 2.2725377070000263
+  },
+  {
+    "stage": "torch",
+    "status": "FAIL",
+    "seconds": 1.4702853889999687
+  }
+]

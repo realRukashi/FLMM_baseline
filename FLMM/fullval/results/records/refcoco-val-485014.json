@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-485014",
+  "sample_hash": "9832a7f824b51f064a17b89cf013f0038e752936446e153bf71e2f214d711af9",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 485014,
+  "dataset_index": 299,
+  "expressions": [
+    {
+      "image_id": 485014,
+      "dataset_index": 299,
+      "ref_id": 8445,
+      "sent_id": 24055,
+      "expression": "far left gray chair",
+      "mask_id": 0,
+      "annotation_id": 1938820,
+      "prediction_id": "refcoco-val-485014:0",
+      "gt_segmentation_sha256": "a7ff58da8c32ba1307a91df34c2f2d0c8b1b879f8fcc901331069c6c992ef6aa",
+      "category_id": 62
+    },
+    {
+      "image_id": 485014,
+      "dataset_index": 299,
+      "ref_id": 8446,
+      "sent_id": 24058,
+      "expression": "chair on right edge, next to woman's arm",
+      "mask_id": 1,
+      "annotation_id": 1938623,
+      "prediction_id": "refcoco-val-485014:1",
+      "gt_segmentation_sha256": "c0d55faaf6a53f0c2bb7d8fd4c57d1846cbf26edeb33291994334c3a1e297d76",
+      "category_id": 62
+    },
+    {
+      "image_id": 485014,
+      "dataset_index": 299,
+      "ref_id": 8447,
+      "sent_id": 24061,
+      "expression": "guy far left",
+      "mask_id": 2,
+      "annotation_id": 561742,
+      "prediction_id": "refcoco-val-485014:2",
+      "gt_segmentation_sha256": "ceeb7c9e735b3154ec9c9f0d89bdec282decb64a8d95802bf073e573accf1f79",
+      "category_id": 1
+    },
+    {
+      "image_id": 485014,
+      "dataset_index": 299,
+      "ref_id": 8448,
+      "sent_id": 24064,
+      "expression": "woman",
+      "mask_id": 3,
+      "annotation_id": 469701,
+      "prediction_id": "refcoco-val-485014:3",
+      "gt_segmentation_sha256": "198c6eee71e9a2e54026c1ca7130bfd4ac9f9643e0c6c5d995f01d1c852d3ddf",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    8959,
+    10358,
+    13179,
+    77210
+  ],
+  "union": [
+    11892,
+    13513,
+    14585,
+    85057
+  ],
+  "mask_file": "refcoco-val-485014.npz",
+  "mask_sha256": "20c603009a6fa1e66dd72c9c9b8e5b85decae5d74a62d011168adf1f3d43391d",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.020808023999961733,
+    "inference_s": 2.256968759999836,
+    "postprocess_s": 0.0034606149999945046,
+    "amortized_inference_s_per_selected_expression": 0.564242189999959,
+    "mask_write_s": 0.02886356700014403
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829143552,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 12477,
+  "stage_created": "full-validation",
+  "record_hash": "38b6bb5a57c0654d79401a63a416bfa18ddfac2883d9774f8cd5809654edd581",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

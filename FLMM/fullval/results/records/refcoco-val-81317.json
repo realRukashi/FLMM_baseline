@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-81317",
+  "sample_hash": "af26179cb3eb6ea65c9f1b02357dbbc74185ea37829e6dcc07593245b8e4158d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 81317,
+  "dataset_index": 1403,
+  "expressions": [
+    {
+      "image_id": 81317,
+      "dataset_index": 1403,
+      "ref_id": 42879,
+      "sent_id": 121905,
+      "expression": "a car sitting at an intersection",
+      "mask_id": 0,
+      "annotation_id": 360892,
+      "prediction_id": "refcoco-val-81317:0",
+      "gt_segmentation_sha256": "573684ba86e4628fd54576c224997bf76c4d0b0d547e9e0f5d62e032990a6aef",
+      "category_id": 3
+    },
+    {
+      "image_id": 81317,
+      "dataset_index": 1403,
+      "ref_id": 42880,
+      "sent_id": 121908,
+      "expression": "right car dark",
+      "mask_id": 1,
+      "annotation_id": 355574,
+      "prediction_id": "refcoco-val-81317:1",
+      "gt_segmentation_sha256": "28a1c84a0805597f67eeccd5f4a63b039db6290ffa9ac7a56ef23f9f8f207f65",
+      "category_id": 3
+    }
+  ],
+  "intersection": [
+    9846,
+    13288
+  ],
+  "union": [
+    10928,
+    13978
+  ],
+  "mask_file": "refcoco-val-81317.npz",
+  "mask_sha256": "7f134d4105dde25fc41935328cac0cc1f60b9f25ff26ba5ed4f754fed1b88944",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.011288432999890574,
+    "inference_s": 2.414131806999876,
+    "postprocess_s": 0.0014802719999806868,
+    "amortized_inference_s_per_selected_expression": 1.207065903499938,
+    "mask_write_s": 0.012291119999872535
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818310144,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6301450240
+  },
+  "output_bytes": 3683,
+  "stage_created": "full-validation",
+  "record_hash": "9076ce91a9fd9885d26b8c49fd89d8247d9fe6b6168ff5e74242719b78809b0f",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-17578",
+  "sample_hash": "6bc6cae8a97028755ed01eeba0c5bd6f385420d06647dafabaf330d578f390af",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 17578,
+  "dataset_index": 211,
+  "expressions": [
+    {
+      "image_id": 17578,
+      "dataset_index": 211,
+      "ref_id": 48496,
+      "sent_id": 137931,
+      "expression": "shoulder looking figure in corner right",
+      "mask_id": 0,
+      "annotation_id": 1698956,
+      "prediction_id": "refcoco-val-17578:0",
+      "gt_segmentation_sha256": "e3f214a3da9d8c2551bdf8670befe513b2cbdb3c182fee63c65a3f51a387a5d0",
+      "category_id": 1
+    },
+    {
+      "image_id": 17578,
+      "dataset_index": 211,
+      "ref_id": 48497,
+      "sent_id": 137934,
+      "expression": "red and white tied dye shirt",
+      "mask_id": 1,
+      "annotation_id": 568805,
+      "prediction_id": "refcoco-val-17578:1",
+      "gt_segmentation_sha256": "a958ca04e62bb560451ea6dd7f2e4a9bb69906e98c2796bbff729bac7a5d5f48",
+      "category_id": 1
+    },
+    {
+      "image_id": 17578,
+      "dataset_index": 211,
+      "ref_id": 48498,
+      "sent_id": 137936,
+      "expression": "man in blue shirt, behind grill",
+      "mask_id": 2,
+      "annotation_id": 565605,
+      "prediction_id": "refcoco-val-17578:2",
+      "gt_segmentation_sha256": "12a8e10a7305ef25530e91915cb855c768ee7ae745e68965293d81186e972e12",
+      "category_id": 1
+    },
+    {
+      "image_id": 17578,
+      "dataset_index": 211,
+      "ref_id": 48499,
+      "sent_id": 137939,
+      "expression": "server",
+      "mask_id": 3,
+      "annotation_id": 563400,
+      "prediction_id": "refcoco-val-17578:3",
+      "gt_segmentation_sha256": "36408bd05c018d624b5b6ba1c9bb236978ff8406470e4120d9da4d07075d5146",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    27907,
+    7849,
+    16064,
+    24234
+  ],
+  "union": [
+    29660,
+    10815,
+    18971,
+    27542
+  ],
+  "mask_file": "refcoco-val-17578.npz",
+  "mask_sha256": "0e72e39d6fee1a6c5bc109efcae3c3c2bba365fe0de65057e2b9789348ffe6c6",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.016424057999984143,
+    "inference_s": 2.262092970999902,
+    "postprocess_s": 0.002901042999837955,
+    "amortized_inference_s_per_selected_expression": 0.5655232427499755,
+    "mask_write_s": 0.024140596000052028
+  },
+  "memory": {
+    "peak_allocated_bytes": 8826514944,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448124416,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 9909,
+  "stage_created": "full-validation",
+  "record_hash": "bd4f334a02519582bb405e52f8d4706f3b73732e9a4ca9f9085c94003d114bb5",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-90444",
+  "sample_hash": "74e14d199ab1903de73980b69e0eb0c39b438fc9834924d108f1acb0a86932b6",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 90444,
+  "dataset_index": 64,
+  "expressions": [
+    {
+      "image_id": 90444,
+      "dataset_index": 64,
+      "ref_id": 42133,
+      "sent_id": 119792,
+      "expression": "far right arm reaching in",
+      "mask_id": 0,
+      "annotation_id": 546692,
+      "prediction_id": "refcoco-val-90444:0",
+      "gt_segmentation_sha256": "555b28008836eb52d8f74301e0ab2e5c5c68749e0e6186bcc5aaced06263a117",
+      "category_id": 1
+    },
+    {
+      "image_id": 90444,
+      "dataset_index": 64,
+      "ref_id": 42134,
+      "sent_id": 119795,
+      "expression": "the one in behind standing from right",
+      "mask_id": 1,
+      "annotation_id": 527560,
+      "prediction_id": "refcoco-val-90444:1",
+      "gt_segmentation_sha256": "b081c76cd03c79cb275d3def701eb542e78dbce4519fc96c7988231a0b8a3182",
+      "category_id": 1
+    },
+    {
+      "image_id": 90444,
+      "dataset_index": 64,
+      "ref_id": 42135,
+      "sent_id": 119798,
+      "expression": "kid sitting",
+      "mask_id": 2,
+      "annotation_id": 2154401,
+      "prediction_id": "refcoco-val-90444:2",
+      "gt_segmentation_sha256": "5ad9d368d05261c050a617f86a75ace83f666650407d403d0ba104b01239ca9f",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    17629,
+    14300,
+    37177
+  ],
+  "union": [
+    21430,
+    16401,
+    40888
+  ],
+  "mask_file": "refcoco-val-90444.npz",
+  "mask_sha256": "39772a5bf515e66e27b01623250ed1bdc1e840597097e4dda598c37144a3a1e7",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.01746926800001347,
+    "inference_s": 2.6752403479999884,
+    "postprocess_s": 0.002871958000014274,
+    "amortized_inference_s_per_selected_expression": 0.8917467826666629,
+    "mask_write_s": 0.022334149000016623
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824584192,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447706624,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 9496,
+  "stage_created": "full-validation",
+  "record_hash": "d0e1f800e57a2693aa033a169ee6996ab35d4157248cfb363cab8dc6d31a715e",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

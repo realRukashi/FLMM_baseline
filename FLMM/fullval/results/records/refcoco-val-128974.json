@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-128974",
+  "sample_hash": "950a82ef51314642d5f9e16e6b008610ef8cd839a32230c1299cf9b66f9d13ae",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 128974,
+  "dataset_index": 1111,
+  "expressions": [
+    {
+      "image_id": 128974,
+      "dataset_index": 1111,
+      "ref_id": 38850,
+      "sent_id": 110474,
+      "expression": "front right bike",
+      "mask_id": 0,
+      "annotation_id": 1362666,
+      "prediction_id": "refcoco-val-128974:0",
+      "gt_segmentation_sha256": "5e6025b9dcc05df8693f7151851b1ae4a332f8ac8865018e3c8624b7d83a1c7c",
+      "category_id": 4
+    },
+    {
+      "image_id": 128974,
+      "dataset_index": 1111,
+      "ref_id": 38851,
+      "sent_id": 110476,
+      "expression": "bike on left front",
+      "mask_id": 1,
+      "annotation_id": 1361838,
+      "prediction_id": "refcoco-val-128974:1",
+      "gt_segmentation_sha256": "b04b1290066e1173e5e07fc8baf8b67757fa90f878d96e7c541a5b36d541b69e",
+      "category_id": 4
+    },
+    {
+      "image_id": 128974,
+      "dataset_index": 1111,
+      "ref_id": 38852,
+      "sent_id": 110478,
+      "expression": "man on left",
+      "mask_id": 2,
+      "annotation_id": 541771,
+      "prediction_id": "refcoco-val-128974:2",
+      "gt_segmentation_sha256": "142a0de7a76a72421a1a26df5b87816f1b0ab3c0b6045ca8f1f513ce66358493",
+      "category_id": 1
+    },
+    {
+      "image_id": 128974,
+      "dataset_index": 1111,
+      "ref_id": 38853,
+      "sent_id": 110481,
+      "expression": "first guy right",
+      "mask_id": 3,
+      "annotation_id": 536932,
+      "prediction_id": "refcoco-val-128974:3",
+      "gt_segmentation_sha256": "19bed566d459b51e3d567dc9dbf6df0e3eae2b8790ebc166760f452299a0feeb",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    0,
+    14875,
+    10298,
+    12294
+  ],
+  "union": [
+    21797,
+    21540,
+    15691,
+    15949
+  ],
+  "mask_file": "refcoco-val-128974.npz",
+  "mask_sha256": "615a15a25d19402a16695da289738552f60b445b2e89ff7cf4c144dcbbb8ee5a",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.0171062440000469,
+    "inference_s": 2.2583826579999595,
+    "postprocess_s": 0.0027917600000364473,
+    "amortized_inference_s_per_selected_expression": 0.5645956644999899,
+    "mask_write_s": 0.01868641300006857
+  },
+  "memory": {
+    "peak_allocated_bytes": 8830501888,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448634368,
+    "ram_rss_bytes": 6300479488
+  },
+  "output_bytes": 9326,
+  "stage_created": "full-validation",
+  "record_hash": "30c20ddc07bc8ea82138bff6d3d60132e161b38273f0a2552cba4976b5932985",
+  "physical_gpu_index": 1,
+  "chunk_created": 3
+}

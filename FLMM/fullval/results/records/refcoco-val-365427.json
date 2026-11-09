@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-365427",
+  "sample_hash": "7923d6769083de41a2f668cd8fd05f2d57e744ea5b6ca4bc72b43e3f00844b09",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 365427,
+  "dataset_index": 900,
+  "expressions": [
+    {
+      "image_id": 365427,
+      "dataset_index": 900,
+      "ref_id": 18659,
+      "sent_id": 53079,
+      "expression": "far left person",
+      "mask_id": 0,
+      "annotation_id": 472786,
+      "prediction_id": "refcoco-val-365427:0",
+      "gt_segmentation_sha256": "c81b8bd83c8eff1eabb52a2c72dd812540bb855ed8ce751f8dea5e7816900d46",
+      "category_id": 1
+    },
+    {
+      "image_id": 365427,
+      "dataset_index": 900,
+      "ref_id": 18660,
+      "sent_id": 53081,
+      "expression": "woman feeding animal",
+      "mask_id": 1,
+      "annotation_id": 421231,
+      "prediction_id": "refcoco-val-365427:1",
+      "gt_segmentation_sha256": "17d672abc651f928e4dd2dbf2f0d9132f6a02dd4897aa63482d4fc983bb18d8e",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    30658,
+    38698
+  ],
+  "union": [
+    33009,
+    41852
+  ],
+  "mask_file": "refcoco-val-365427.npz",
+  "mask_sha256": "dc5dd9160eacd4ed2add93d0a5543ff6e46d8a2391234fde9cedcff73d5245c7",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.01381779700000152,
+    "inference_s": 2.354471379000188,
+    "postprocess_s": 0.001427753000143639,
+    "amortized_inference_s_per_selected_expression": 1.177235689500094,
+    "mask_write_s": 0.015728110000054585
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818743296,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6295695360
+  },
+  "output_bytes": 7243,
+  "stage_created": "full-validation",
+  "record_hash": "578dc2d31220fcc256e6b7822abd026dd203f42db64b26d6478fe1f8cb7c5643",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

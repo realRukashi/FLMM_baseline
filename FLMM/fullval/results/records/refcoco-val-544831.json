@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-544831",
+  "sample_hash": "8286e25779f3c6db52ffdb7ccf25bdde4279132552e4b1ddd69f1748760be405",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 544831,
+  "dataset_index": 749,
+  "expressions": [
+    {
+      "image_id": 544831,
+      "dataset_index": 749,
+      "ref_id": 3281,
+      "sent_id": 9363,
+      "expression": "biblia sacra vulgata book",
+      "mask_id": 0,
+      "annotation_id": 1143485,
+      "prediction_id": "refcoco-val-544831:0",
+      "gt_segmentation_sha256": "65fb0295bbab4a4fa45f6ec4df90ed35ee08bf6a89c9905d8ede442749880122",
+      "category_id": 84
+    },
+    {
+      "image_id": 544831,
+      "dataset_index": 749,
+      "ref_id": 3282,
+      "sent_id": 9366,
+      "expression": "right book page",
+      "mask_id": 1,
+      "annotation_id": 1142450,
+      "prediction_id": "refcoco-val-544831:1",
+      "gt_segmentation_sha256": "f4cf5b4087b751ee82e3f75c01cacd7f9aad429eb3278d6c126a458761ee8700",
+      "category_id": 84
+    }
+  ],
+  "intersection": [
+    26943,
+    37407
+  ],
+  "union": [
+    27806,
+    41498
+  ],
+  "mask_file": "refcoco-val-544831.npz",
+  "mask_sha256": "996df9af2bcaa3caed59aba3211fdabb3ffe421de22931cd2eae1ac24a4da1e8",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.010248289999935878,
+    "inference_s": 2.28756140400003,
+    "postprocess_s": 0.0008947340000986514,
+    "amortized_inference_s_per_selected_expression": 1.143780702000015,
+    "mask_write_s": 0.013766839000027176
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814966784,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5444640256,
+    "ram_rss_bytes": 6294450176
+  },
+  "output_bytes": 5928,
+  "stage_created": "full-validation",
+  "record_hash": "68400f8e29d231f35b29127132ae2c24bd5ae0f365be5efdf68543c92f92c953",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

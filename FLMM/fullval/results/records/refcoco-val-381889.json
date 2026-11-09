@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-381889",
+  "sample_hash": "418d0985b4a94c66900d8c5f5a3322b1db722556ee9d46e641e5fef2198a085d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 381889,
+  "dataset_index": 913,
+  "expressions": [
+    {
+      "image_id": 381889,
+      "dataset_index": 913,
+      "ref_id": 17379,
+      "sent_id": 49443,
+      "expression": "black fellow",
+      "mask_id": 0,
+      "annotation_id": 1741946,
+      "prediction_id": "refcoco-val-381889:0",
+      "gt_segmentation_sha256": "cc49c7be997ee8dceaf84551f9341c5d71239ef84b304a5806f386fe96800bd9",
+      "category_id": 1
+    },
+    {
+      "image_id": 381889,
+      "dataset_index": 913,
+      "ref_id": 17380,
+      "sent_id": 49446,
+      "expression": "guy green shirt",
+      "mask_id": 1,
+      "annotation_id": 2011872,
+      "prediction_id": "refcoco-val-381889:1",
+      "gt_segmentation_sha256": "1af3ed81d80db3a63ffd74b96a318031790cb96799d07ebc4fc322217c6a3567",
+      "category_id": 1
+    },
+    {
+      "image_id": 381889,
+      "dataset_index": 913,
+      "ref_id": 17381,
+      "sent_id": 49449,
+      "expression": "woman cutting cake",
+      "mask_id": 2,
+      "annotation_id": 482963,
+      "prediction_id": "refcoco-val-381889:2",
+      "gt_segmentation_sha256": "ed7518aa6c7b7535928385b94ca1bea60fd305896e45a45e70ae7c5f8bd4163c",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    22953,
+    87656,
+    52089
+  ],
+  "union": [
+    25015,
+    90753,
+    56220
+  ],
+  "mask_file": "refcoco-val-381889.npz",
+  "mask_sha256": "88021d06c96376ef8759e68975e85ba7b142be31be40e65188a230cec949caf0",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.015467553999997108,
+    "inference_s": 2.3034512330000325,
+    "postprocess_s": 0.0025686530000257335,
+    "amortized_inference_s_per_selected_expression": 0.7678170776666775,
+    "mask_write_s": 0.026426462000017636
+  },
+  "memory": {
+    "peak_allocated_bytes": 8824286720,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447862272,
+    "ram_rss_bytes": 6295400448
+  },
+  "output_bytes": 14547,
+  "stage_created": "full-validation",
+  "record_hash": "3f9d016f72f9e23d4fae042cd58e0d482740980f53d71699bb95b6f481e64788",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

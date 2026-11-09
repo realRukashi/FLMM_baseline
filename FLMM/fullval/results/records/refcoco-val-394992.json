@@ -1,0 +1,161 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-394992",
+  "sample_hash": "db6baaaa568f329288235b150e7f6e60adfbee38d2169952fc3b02d0bad8373d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 394992,
+  "dataset_index": 308,
+  "expressions": [
+    {
+      "image_id": 394992,
+      "dataset_index": 308,
+      "ref_id": 16229,
+      "sent_id": 46180,
+      "expression": "lower row, second from left",
+      "mask_id": 0,
+      "annotation_id": 1296383,
+      "prediction_id": "refcoco-val-394992:0",
+      "gt_segmentation_sha256": "133bb2d0b5858b7e9015b18c7e882876d1e2a09d8801a8a3681bfeb6a2b8e0e5",
+      "category_id": 1
+    },
+    {
+      "image_id": 394992,
+      "dataset_index": 308,
+      "ref_id": 16230,
+      "sent_id": 46183,
+      "expression": "top row fourth from the left",
+      "mask_id": 1,
+      "annotation_id": 1267707,
+      "prediction_id": "refcoco-val-394992:1",
+      "gt_segmentation_sha256": "3e27c807e4c7e5e0b23d8cd9455a9ad8a1a593f5fb3f1a87fe4afc90aacde374",
+      "category_id": 1
+    },
+    {
+      "image_id": 394992,
+      "dataset_index": 308,
+      "ref_id": 16231,
+      "sent_id": 46186,
+      "expression": "girl in stripes, front row",
+      "mask_id": 2,
+      "annotation_id": 1265108,
+      "prediction_id": "refcoco-val-394992:2",
+      "gt_segmentation_sha256": "a98052cf3446e1a9404945252e75e3924c213e5bcda44df4ff2fea8a36803d25",
+      "category_id": 1
+    },
+    {
+      "image_id": 394992,
+      "dataset_index": 308,
+      "ref_id": 16232,
+      "sent_id": 46189,
+      "expression": "girl on left in front row",
+      "mask_id": 3,
+      "annotation_id": 1239443,
+      "prediction_id": "refcoco-val-394992:3",
+      "gt_segmentation_sha256": "b9f8c8e75f5e0f87aaadbaedf69650bba1055c951c4ad70a8be79cc73ccc44bc",
+      "category_id": 1
+    },
+    {
+      "image_id": 394992,
+      "dataset_index": 308,
+      "ref_id": 16233,
+      "sent_id": 46192,
+      "expression": "girl secon from left top",
+      "mask_id": 4,
+      "annotation_id": 1213845,
+      "prediction_id": "refcoco-val-394992:4",
+      "gt_segmentation_sha256": "3836539acefba0e2384b1a8333596be99555c3f7e543976c137b1e60d7692673",
+      "category_id": 1
+    },
+    {
+      "image_id": 394992,
+      "dataset_index": 308,
+      "ref_id": 16234,
+      "sent_id": 46195,
+      "expression": "middle front row",
+      "mask_id": 5,
+      "annotation_id": 1729874,
+      "prediction_id": "refcoco-val-394992:5",
+      "gt_segmentation_sha256": "b8f9a26d12a4b765aa70eb081b4b80af17fd6483a2086765977f8821cdb227f8",
+      "category_id": 1
+    },
+    {
+      "image_id": 394992,
+      "dataset_index": 308,
+      "ref_id": 16235,
+      "sent_id": 46198,
+      "expression": "boy second from right front row",
+      "mask_id": 6,
+      "annotation_id": 1720935,
+      "prediction_id": "refcoco-val-394992:6",
+      "gt_segmentation_sha256": "715864036ddc6ecc9e8fb75b012a98ad6121245e899708985e4cc551fdf3ef42",
+      "category_id": 1
+    },
+    {
+      "image_id": 394992,
+      "dataset_index": 308,
+      "ref_id": 16236,
+      "sent_id": 46201,
+      "expression": "left rear girl standing",
+      "mask_id": 7,
+      "annotation_id": 1323159,
+      "prediction_id": "refcoco-val-394992:7",
+      "gt_segmentation_sha256": "66999645b1c19fe204d57516c585fcdd64107f00f828e0a5a31df4a086ba75ea",
+      "category_id": 1
+    },
+    {
+      "image_id": 394992,
+      "dataset_index": 308,
+      "ref_id": 16237,
+      "sent_id": 46204,
+      "expression": "stripped shirt",
+      "mask_id": 8,
+      "annotation_id": 1299471,
+      "prediction_id": "refcoco-val-394992:8",
+      "gt_segmentation_sha256": "9c3c7d36b21282c9dda9daed6472117a2d7d9c98c0e263b14d74c0762ee6573c",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    12003,
+    2760,
+    7818,
+    13938,
+    195,
+    11596,
+    14077,
+    17824,
+    10460
+  ],
+  "union": [
+    23093,
+    22399,
+    25558,
+    15130,
+    21005,
+    13433,
+    16034,
+    19896,
+    14292
+  ],
+  "mask_file": "refcoco-val-394992.npz",
+  "mask_sha256": "ad79e0b908866bec6c634eb7ea807612a05c6876d5954c0fa57b686054bb2592",
+  "nonempty_predictions": 9,
+  "timings": {
+    "preprocess_s": 0.02939403600021251,
+    "inference_s": 2.971233421999841,
+    "postprocess_s": 0.007930753999971785,
+    "amortized_inference_s_per_selected_expression": 0.33013704688887124,
+    "mask_write_s": 0.04673820900006831
+  },
+  "memory": {
+    "peak_allocated_bytes": 8864058880,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5457261568,
+    "ram_rss_bytes": 6283124736
+  },
+  "output_bytes": 22093,
+  "stage_created": "full-validation",
+  "record_hash": "f7e091f9e85fb962fb8ead3d4ed3e3e1fd3cb7c5aa78e6d063d1fd30a07f363a",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

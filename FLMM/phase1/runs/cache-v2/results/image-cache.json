@@ -1,0 +1,6706 @@
+{
+  "status": "PASS",
+  "images": [
+    {
+      "sample_id": "refcoco-val-376848",
+      "file_name": "COCO_train2014_000000376848.jpg",
+      "sha256": "7f2909409496df73037a05538529a272b2c53e7474124e7b22297cb9a0a2edcb",
+      "bytes": 146624,
+      "size": [
+        640,
+        491
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-278549",
+      "file_name": "COCO_train2014_000000278549.jpg",
+      "sha256": "71102c79048e851112aad17f2a7109adfde79aba0563f2ede0dfce59937395ee",
+      "bytes": 76376,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-532505",
+      "file_name": "COCO_train2014_000000532505.jpg",
+      "sha256": "202a6806c5e64ecfd4c48f8499fc11bd3a814ef66edfca0dc7e7a45871f32790",
+      "bytes": 209532,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-434201",
+      "file_name": "COCO_train2014_000000434201.jpg",
+      "sha256": "5261588126dbc4f898119c631a0f1d8c41eb414073056671796f7c0238147102",
+      "bytes": 132712,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-401439",
+      "file_name": "COCO_train2014_000000401439.jpg",
+      "sha256": "df88f470cdcfbc0e99ff3828681ba43f39e32c52f043b2859d1cd8dae49f4e44",
+      "bytes": 237949,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-270369",
+      "file_name": "COCO_train2014_000000270369.jpg",
+      "sha256": "f89708acc9b13fd3b9eca41b8a26035da1a90ca10a4453cd19a47f1e3e359ae0",
+      "bytes": 96667,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-122916",
+      "file_name": "COCO_train2014_000000122916.jpg",
+      "sha256": "eb61e97a3e2ed16dc98f3d0e5aa8666eefb43515d90bcde8f0a65796692e5dc6",
+      "bytes": 92909,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-41005",
+      "file_name": "COCO_train2014_000000041005.jpg",
+      "sha256": "c04453317469b75e156c5c8b413f332ec4885d51915b710ee8ca00ae395905ca",
+      "bytes": 187017,
+      "size": [
+        640,
+        468
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-507952",
+      "file_name": "COCO_train2014_000000507952.jpg",
+      "sha256": "74807fef5bed891adaac0e3b444a22f98edf5c73419fb3db5ea0e0c5341660c4",
+      "bytes": 144233,
+      "size": [
+        640,
+        448
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-409653",
+      "file_name": "COCO_train2014_000000409653.jpg",
+      "sha256": "b106d981020f19e313994e32cdb877957f6de8e6009db5a37f77106d296c9723",
+      "bytes": 241394,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-319543",
+      "file_name": "COCO_train2014_000000319543.jpg",
+      "sha256": "6bbd1be243bd4b3a849709b986eebd9d08512c87bc30ce702c84eceea85929f8",
+      "bytes": 243217,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-352312",
+      "file_name": "COCO_train2014_000000352312.jpg",
+      "sha256": "70e5db58a0d302367a558ee8bd1e4313f5aff42144150d434dc9ed307b5a64eb",
+      "bytes": 194442,
+      "size": [
+        640,
+        481
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-270391",
+      "file_name": "COCO_train2014_000000270391.jpg",
+      "sha256": "88241bec861d9bf708de785f86c2ddc8f68bb9ab3d7b40e3b6097a88c249f2bc",
+      "bytes": 108252,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-139324",
+      "file_name": "COCO_train2014_000000139324.jpg",
+      "sha256": "bfced38be65faafb8c74647eab81f51c6df8abf2037244ab3c4a85acd6815193",
+      "bytes": 139492,
+      "size": [
+        640,
+        477
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-548935",
+      "file_name": "COCO_train2014_000000548935.jpg",
+      "sha256": "4fa57256bcb3972c8fbb604f89f0148c2c89e1095bf1ea910a8121567e5b9dd0",
+      "bytes": 174416,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-458827",
+      "file_name": "COCO_train2014_000000458827.jpg",
+      "sha256": "67c2b5c3d3904a250fb86bc33a884d3db07d6a65eb1ee18504279e516fdd046c",
+      "bytes": 94995,
+      "size": [
+        500,
+        294
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-16465",
+      "file_name": "COCO_train2014_000000016465.jpg",
+      "sha256": "0f4d4d11e785f9110e671cdaa42863a6f53fb47a3225fb276c164478155b58f6",
+      "bytes": 223320,
+      "size": [
+        640,
+        423
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-442461",
+      "file_name": "COCO_train2014_000000442461.jpg",
+      "sha256": "ca405b48aab658dd7c41c72536dbf1b549bf0ca38c13d072b4422db18a2531d3",
+      "bytes": 109896,
+      "size": [
+        640,
+        491
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-139359",
+      "file_name": "COCO_train2014_000000139359.jpg",
+      "sha256": "3f598e8f70d75f0c4aa505af15cc44778b90c4e2a68879da88aa8b1786e3379a",
+      "bytes": 54101,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-114786",
+      "file_name": "COCO_train2014_000000114786.jpg",
+      "sha256": "116693d391dc0c0f54569c2d233c8d111af7be7cafd059d06b2e7fafc30da011",
+      "bytes": 146123,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-114807",
+      "file_name": "COCO_train2014_000000114807.jpg",
+      "sha256": "2d2d03e50c8ebfd7ac727c596dca3933bba42a8d0236f7953b8bdd33755f04a7",
+      "bytes": 99440,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-409754",
+      "file_name": "COCO_train2014_000000409754.jpg",
+      "sha256": "4a1da216c6ee1fc5cc70718161097d13f6d8141e2e6f0f78fce70480533855d6",
+      "bytes": 137954,
+      "size": [
+        500,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-376988",
+      "file_name": "COCO_train2014_000000376988.jpg",
+      "sha256": "b01ea5d68ba52145751b5a21a0f07e6926bef8710567cd32bbb05290b968e82b",
+      "bytes": 105837,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-319644",
+      "file_name": "COCO_train2014_000000319644.jpg",
+      "sha256": "715b3a4c99a3f90ae2ae72275aad96a44b3896863a77f20b02e1ca29279ba202",
+      "bytes": 192404,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-106652",
+      "file_name": "COCO_train2014_000000106652.jpg",
+      "sha256": "60f4a17c77fc1d9747450d57902060a80544cf877c93c2e0781e125aefe92417",
+      "bytes": 211339,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-82083",
+      "file_name": "COCO_train2014_000000082083.jpg",
+      "sha256": "ac28c45d3d659e4351ceda54f2bcfb8fed4bd375e5b532e466a416b23b0f9f94",
+      "bytes": 149878,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-516263",
+      "file_name": "COCO_train2014_000000516263.jpg",
+      "sha256": "dd398db2928fa15391a4a4b81af21cc95e7480992c02628f84b5c5f1f41ec1bf",
+      "bytes": 162729,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-450735",
+      "file_name": "COCO_train2014_000000450735.jpg",
+      "sha256": "b19339cecb455aefc379deb7c45b3b4843f76f41a02e6ce38b9b2308bd917ebc",
+      "bytes": 185090,
+      "size": [
+        640,
+        476
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-245953",
+      "file_name": "COCO_train2014_000000245953.jpg",
+      "sha256": "9e349c5a3f11ff5e9569a4f749a4eff3edfc210ba245ecfde964184006693236",
+      "bytes": 291297,
+      "size": [
+        497,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-467145",
+      "file_name": "COCO_train2014_000000467145.jpg",
+      "sha256": "21e35ef6886102368cc5f35c7eedc4f2c6b9c6967adf33ca158df5325d53fff7",
+      "bytes": 224364,
+      "size": [
+        640,
+        478
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-491739",
+      "file_name": "COCO_train2014_000000491739.jpg",
+      "sha256": "14082b1b406b87c70085f17e88d3e065a857bb8b7aa8db4e3ca0fdda2f169425",
+      "bytes": 189291,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-565476",
+      "file_name": "COCO_train2014_000000565476.jpg",
+      "sha256": "7ae245e15f40356aa12ce1fb0e2ea33122fe4a36fad0e2284132e40b07e04bf5",
+      "bytes": 171159,
+      "size": [
+        500,
+        327
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-508140",
+      "file_name": "COCO_train2014_000000508140.jpg",
+      "sha256": "9f091b2e03175ad7ea6475cc3f4b19bba6d688351ec8ae5b252158e5c21fc922",
+      "bytes": 201631,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-205069",
+      "file_name": "COCO_train2014_000000205069.jpg",
+      "sha256": "a37f4666a0ac43d59d5d25a7174da5d9dd77abca1dd94f815ec22f9213c7b460",
+      "bytes": 131750,
+      "size": [
+        425,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-360719",
+      "file_name": "COCO_train2014_000000360719.jpg",
+      "sha256": "40b7e0fa835f8c10ec7bcb3abd1f3c59e595ec3c06789b275d93358067d4a423",
+      "bytes": 161648,
+      "size": [
+        640,
+        433
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-327970",
+      "file_name": "COCO_train2014_000000327970.jpg",
+      "sha256": "2802536399b29fedcb84295d0809257ba266401095f10ab6d2f13f0b0fee669b",
+      "bytes": 355833,
+      "size": [
+        597,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-65842",
+      "file_name": "COCO_train2014_000000065842.jpg",
+      "sha256": "51e26e18eea9b5778683d25e085689d57b91672c00518e3d60ca789763af1c2f",
+      "bytes": 129162,
+      "size": [
+        640,
+        438
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-188727",
+      "file_name": "COCO_train2014_000000188727.jpg",
+      "sha256": "993d9c000c5b2894291918118928e9c7436a249194dd9c0ebcbc4de531b01306",
+      "bytes": 263733,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-336185",
+      "file_name": "COCO_train2014_000000336185.jpg",
+      "sha256": "cabef714895f71d52c4419fecf6cdbf2b0ed29d85dc5940cca7fe8a1c425ef86",
+      "bytes": 301522,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-549184",
+      "file_name": "COCO_train2014_000000549184.jpg",
+      "sha256": "3644e914d27a20ab2474c279179ff945199199fc7e2bd94dead09c1a8fc8a6e0",
+      "bytes": 135316,
+      "size": [
+        500,
+        400
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-246084",
+      "file_name": "COCO_train2014_000000246084.jpg",
+      "sha256": "804c416cf3fa8f5b6cf7534e29df7d852b717005123538ce8783275ca04e7f77",
+      "bytes": 76616,
+      "size": [
+        500,
+        333
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-98631",
+      "file_name": "COCO_train2014_000000098631.jpg",
+      "sha256": "6bc487e06f8b72d74f8660d8fc8f75f98a9c8f9447760f9b862e02103deb72da",
+      "bytes": 253434,
+      "size": [
+        640,
+        409
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-90444",
+      "file_name": "COCO_train2014_000000090444.jpg",
+      "sha256": "a7388af67b8b69d720d44ebc7198e860199bc68f3624e83f420b4004eb9dbc23",
+      "bytes": 178619,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-106832",
+      "file_name": "COCO_train2014_000000106832.jpg",
+      "sha256": "7c1d5820194b7f072aa820618ba77ca921721c8f8cca4d41765e8415df073026",
+      "bytes": 151420,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-98641",
+      "file_name": "COCO_train2014_000000098641.jpg",
+      "sha256": "afb12beea9e0e0e879c5a3b8df7e15c77f2029108deaf816f8e23dab92f02456",
+      "bytes": 123690,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-377174",
+      "file_name": "COCO_train2014_000000377174.jpg",
+      "sha256": "734374290f0ef7ba364aef55322336bf8f12fad2661932eb768b6f4d2842f17a",
+      "bytes": 200278,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-57689",
+      "file_name": "COCO_train2014_000000057689.jpg",
+      "sha256": "75ce0ac6f3807635845946b26dbb9b2efae13b2702b5bdc3eac384e6d03dcf56",
+      "bytes": 149176,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-295294",
+      "file_name": "COCO_train2014_000000295294.jpg",
+      "sha256": "d7ae1c1e1af167378ec2feb09c15f6f9ac6a0cbbef2955da08c9d9d00e42817d",
+      "bytes": 208146,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-516481",
+      "file_name": "COCO_train2014_000000516481.jpg",
+      "sha256": "ceffd14aead20df8a205131a1ac72303b3a735011680a89d7a55d29efb3faad5",
+      "bytes": 146744,
+      "size": [
+        375,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-278931",
+      "file_name": "COCO_train2014_000000278931.jpg",
+      "sha256": "a9f22d654128caf4aa11844953781314596fc27d95367e3c67264e14fca9d48a",
+      "bytes": 126384,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-524710",
+      "file_name": "COCO_train2014_000000524710.jpg",
+      "sha256": "9c92ea74d623c88828c259929e8075e6be7e6e865aa8a09959305803450188ef",
+      "bytes": 184265,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-16814",
+      "file_name": "COCO_train2014_000000016814.jpg",
+      "sha256": "2b4db62ac39ab5f0b16c9bcfc96bba9227e68414b5ecb94672e754ff7d06a778",
+      "bytes": 119590,
+      "size": [
+        640,
+        416
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-573875",
+      "file_name": "COCO_train2014_000000573875.jpg",
+      "sha256": "13e6a771b311394a52bd47afa0a97d833d2ed5c7c00c9aa0ccf8105f4c2ff2f4",
+      "bytes": 172825,
+      "size": [
+        640,
+        400
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-139728",
+      "file_name": "COCO_train2014_000000139728.jpg",
+      "sha256": "5dbb585e4ef3a0281d1e4f00ae0f467ddf82e1e8cdef3ad6c1c029dc982d3b85",
+      "bytes": 82453,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-156125",
+      "file_name": "COCO_train2014_000000156125.jpg",
+      "sha256": "b6c3601010390997c837ffe306f1a43407fec65a47c01162a982a42ec62dbc73",
+      "bytes": 160080,
+      "size": [
+        435,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-123366",
+      "file_name": "COCO_train2014_000000123366.jpg",
+      "sha256": "2e19ad867dc788eef9d7abd7219ed12d63aa88f0c89438617c473f4f5ce85d04",
+      "bytes": 224269,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-549366",
+      "file_name": "COCO_train2014_000000549366.jpg",
+      "sha256": "279b02f4e4a20fd548e6ce9e4e99b8dc107d81b30fc70461bc812918c1187d87",
+      "bytes": 238585,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-238070",
+      "file_name": "COCO_train2014_000000238070.jpg",
+      "sha256": "c8c8e574d83fd1733450721a51885abcaa4c2e231e73ca2aadcdc57250375c78",
+      "bytes": 195844,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-565769",
+      "file_name": "COCO_train2014_000000565769.jpg",
+      "sha256": "0643d04ea6f71032dc61603617654b53c1cda7d708fb06d8d54aaaaf995c53c5",
+      "bytes": 235198,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-508429",
+      "file_name": "COCO_train2014_000000508429.jpg",
+      "sha256": "ad01077b1d75c31ec7cca5848f0677a0bc4ceffcab385a38a4ed4b91f6009a11",
+      "bytes": 298463,
+      "size": [
+        621,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-287249",
+      "file_name": "COCO_train2014_000000287249.jpg",
+      "sha256": "28c03615ca74d9b32e33a84365278aacca240d5dd82305dbc77277c6852d29c9",
+      "bytes": 80584,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-336406",
+      "file_name": "COCO_train2014_000000336406.jpg",
+      "sha256": "2ecfbea1ba0f729dd71a1744569bd0a64904986ca8e319a3fe09a68a32e77cda",
+      "bytes": 244317,
+      "size": [
+        640,
+        469
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-164381",
+      "file_name": "COCO_train2014_000000164381.jpg",
+      "sha256": "a7570f4a23240e33e713d3e41c4bdd0d613e9b9ca752903416cfa917b75ff508",
+      "bytes": 122481,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-426551",
+      "file_name": "COCO_train2014_000000426551.jpg",
+      "sha256": "704a1308a236f51236157d923f139ddc97b5bb88f382d7e21e253c943a589393",
+      "bytes": 288296,
+      "size": [
+        602,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-557628",
+      "file_name": "COCO_train2014_000000557628.jpg",
+      "sha256": "f3f72e243523afcc0fc395f531fba0e68b6dd09356a0ce82ddb86c52d997adf4",
+      "bytes": 167468,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-221794",
+      "file_name": "COCO_train2014_000000221794.jpg",
+      "sha256": "1858e42860662e73fa355d0fc412dd938aba30c0c0ad8312e185788b97374d37",
+      "bytes": 125352,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-197222",
+      "file_name": "COCO_train2014_000000197222.jpg",
+      "sha256": "a6c65f81a7353c82d4de31d8fe180e9d28c9a46ce863655d07a5b9a2bf60c46b",
+      "bytes": 97647,
+      "size": [
+        640,
+        402
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-402041",
+      "file_name": "COCO_train2014_000000402041.jpg",
+      "sha256": "ff90e146d929cb315552044094a66eb8968b94a468e547a35cf8de1875170637",
+      "bytes": 163460,
+      "size": [
+        640,
+        371
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-402042",
+      "file_name": "COCO_train2014_000000402042.jpg",
+      "sha256": "a59e922ec48865191dcc22a228b68f30d02d9bc8b49b9969a2140939ec2040c1",
+      "bytes": 84888,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-565884",
+      "file_name": "COCO_train2014_000000565884.jpg",
+      "sha256": "91529ae72ec98094baf20ab0dcff73cd54ba5a1e6e26cb9d2bd51d3166154487",
+      "bytes": 127170,
+      "size": [
+        640,
+        433
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-524925",
+      "file_name": "COCO_train2014_000000524925.jpg",
+      "sha256": "78d03f74b5c0e126c9c65f13c1f27ff456e26510bf8434a1ce18706f55a44128",
+      "bytes": 212863,
+      "size": [
+        640,
+        441
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-279169",
+      "file_name": "COCO_train2014_000000279169.jpg",
+      "sha256": "6e32997332a64e276d3e0e1bf97ce64b7cf09e97f7d9b1fcfdccf9a0d104ef55",
+      "bytes": 392219,
+      "size": [
+        640,
+        526
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-197251",
+      "file_name": "COCO_train2014_000000197251.jpg",
+      "sha256": "953304f0fe192a591d940d78f1fd90a60e8932c98c202c4c9fec87360d018c67",
+      "bytes": 150127,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-320137",
+      "file_name": "COCO_train2014_000000320137.jpg",
+      "sha256": "8982b2ed2da3c55a2955c0098dd8eff5ba86802fb01e1caedc43c3ccbbd26740",
+      "bytes": 178611,
+      "size": [
+        640,
+        398
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-213652",
+      "file_name": "COCO_train2014_000000213652.jpg",
+      "sha256": "1fa519cca76b9550597ccd15347ebb3ba0a0ff3cb1d4cdb9b76486a7bb2796c4",
+      "bytes": 173367,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-197289",
+      "file_name": "COCO_train2014_000000197289.jpg",
+      "sha256": "db14c67f58b00f20cdffd00fbf8cb4c0f65d8d72316cb25aeca675a2a5fc72f9",
+      "bytes": 104998,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-66236",
+      "file_name": "COCO_train2014_000000066236.jpg",
+      "sha256": "2b6e23ac37eebb4b080b13d53b8ce4ec5c4a32cfeb5f8a75d16ddac83ead54b0",
+      "bytes": 256866,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-312050",
+      "file_name": "COCO_train2014_000000312050.jpg",
+      "sha256": "62ac9fc5b75190441aa2c7b4af94aec2f693f520b84391addfddfaee9f6f8b6d",
+      "bytes": 237137,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-541440",
+      "file_name": "COCO_train2014_000000541440.jpg",
+      "sha256": "fad4eec3d007220ae01922d0f0c7f6fb23561939a9511c4df08c80f594764343",
+      "bytes": 168290,
+      "size": [
+        500,
+        467
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-492293",
+      "file_name": "COCO_train2014_000000492293.jpg",
+      "sha256": "db2a9b27c06515e1ea3e39235364257a6854cc3369fa8ccdef0372285dc2b385",
+      "bytes": 201261,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-25353",
+      "file_name": "COCO_train2014_000000025353.jpg",
+      "sha256": "337c7e7564a9f39a620d6b5bd6ccdcb78d5591b98031d94ea8252566319dec38",
+      "bytes": 94824,
+      "size": [
+        640,
+        412
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-99086",
+      "file_name": "COCO_train2014_000000099086.jpg",
+      "sha256": "b4e46c68613ef5d8287a51b9855509005888d1c77231f61444d7e3cde200a5a6",
+      "bytes": 237415,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-533293",
+      "file_name": "COCO_train2014_000000533293.jpg",
+      "sha256": "1713cc81ff64a47b466377316822d32c5144c62375e5967f24745c1dded55e89",
+      "bytes": 292745,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-181054",
+      "file_name": "COCO_train2014_000000181054.jpg",
+      "sha256": "3c5c4d6954f6c3b8736f004c7151882e5675abcb573a97e1c08731669cf26b52",
+      "bytes": 128912,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-541505",
+      "file_name": "COCO_train2014_000000541505.jpg",
+      "sha256": "8a4ab1fb47a3ecf295d7ce4023acce8126a03f5074b17846bf35993527c9df51",
+      "bytes": 143972,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-475980",
+      "file_name": "COCO_train2014_000000475980.jpg",
+      "sha256": "071e1b3b7397ed8d77ffc144a0506857608e899ff7bcf24786929eb10e3d2fcd",
+      "bytes": 98822,
+      "size": [
+        375,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-254821",
+      "file_name": "COCO_train2014_000000254821.jpg",
+      "sha256": "f14287941e911acf18bffb845de7a35890b48227c6de4cac03d0526beea12f26",
+      "bytes": 114577,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-484206",
+      "file_name": "COCO_train2014_000000484206.jpg",
+      "sha256": "c4761fe8b44b787745c07a909b20d5dc2ff1dad77299e4a77752c920efe8a4d8",
+      "bytes": 139926,
+      "size": [
+        640,
+        376
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-50056",
+      "file_name": "COCO_train2014_000000050056.jpg",
+      "sha256": "e474a015c783a0cd3dd016d04196aae16e1875bae2e0d90c28d78548559b6e8a",
+      "bytes": 166216,
+      "size": [
+        424,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-295864",
+      "file_name": "COCO_train2014_000000295864.jpg",
+      "sha256": "3a5e4e68552d0aae6365d6fe21940242c09926a338c9d89f991ef9e30a99fedb",
+      "bytes": 180897,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-181176",
+      "file_name": "COCO_train2014_000000181176.jpg",
+      "sha256": "b529c5810e7d6dec5274108464a3c25da9fbc947b1f7fe4d428666c274181f8c",
+      "bytes": 155903,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-410574",
+      "file_name": "COCO_train2014_000000410574.jpg",
+      "sha256": "4c05134e858c8ffaa61db81617ad0a5873d7252d3bf9396f20b6847fe532370f",
+      "bytes": 221279,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-214001",
+      "file_name": "COCO_train2014_000000214001.jpg",
+      "sha256": "c77b145cf461a4b480221c0866c1197cd4b319fd743e3c05d0d04dad7e140d6a",
+      "bytes": 176662,
+      "size": [
+        342,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-123920",
+      "file_name": "COCO_train2014_000000123920.jpg",
+      "sha256": "af63afac4f53e75d1e45af0ed89ad547040ddffd951616ef8fee1f9551841c01",
+      "bytes": 212599,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-17451",
+      "file_name": "COCO_train2014_000000017451.jpg",
+      "sha256": "c9f510247d01833a256ac01214527c577d2f6d3a95a7d5c02d1723141f078083",
+      "bytes": 157290,
+      "size": [
+        640,
+        594
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-66637",
+      "file_name": "COCO_train2014_000000066637.jpg",
+      "sha256": "1425ca583a0dc2bc4c27efa4dd96e7445138105128f4deb760d993d7a58ac0f0",
+      "bytes": 276711,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-271447",
+      "file_name": "COCO_train2014_000000271447.jpg",
+      "sha256": "9811e797b9f56647362db198e01fabd0ba5c236b9ac18fce846dcd994ea89da5",
+      "bytes": 249982,
+      "size": [
+        640,
+        429
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-566395",
+      "file_name": "COCO_train2014_000000566395.jpg",
+      "sha256": "3d0b1367323a09235a2c1fb78881c3d6e0f46bffeb99a6dd47e5a3318f8e6669",
+      "bytes": 221417,
+      "size": [
+        640,
+        466
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-320667",
+      "file_name": "COCO_train2014_000000320667.jpg",
+      "sha256": "a13d5f6637023b2a47ea2aa0129b6cbd658fa1ce2a4c6d3604bcbb0e0f793e8c",
+      "bytes": 75873,
+      "size": [
+        500,
+        333
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-402603",
+      "file_name": "COCO_train2014_000000402603.jpg",
+      "sha256": "8a9ea44489b727ee6186b7e308fb3e852a68f1c6c4c64359131459a81935e6ca",
+      "bytes": 136770,
+      "size": [
+        375,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-17578",
+      "file_name": "COCO_train2014_000000017578.jpg",
+      "sha256": "f85e59277e30f350e7be786edc18ec34e271b7e64fcff69aad9e11c78e540cff",
+      "bytes": 203424,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-345265",
+      "file_name": "COCO_train2014_000000345265.jpg",
+      "sha256": "e143a1270912f47cc03634ccdeb277d43909cdd0b0ac5320f3d365a49a6a7d56",
+      "bytes": 174247,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-17587",
+      "file_name": "COCO_train2014_000000017587.jpg",
+      "sha256": "1be59a5bb4411492f2f8822f20d87d8164203782d2a32370ddfb044d3bbcf14a",
+      "bytes": 128142,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-419001",
+      "file_name": "COCO_train2014_000000419001.jpg",
+      "sha256": "f02744d144f510668881099f1a1e8577a8768fbfa15cbead01730244e7bc09cd",
+      "bytes": 324083,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-115917",
+      "file_name": "COCO_train2014_000000115917.jpg",
+      "sha256": "0fb38e76803865796ae8b61f7e259f2d0389e1997d70311367cc7b702179f6c8",
+      "bytes": 228073,
+      "size": [
+        640,
+        520
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-410845",
+      "file_name": "COCO_train2014_000000410845.jpg",
+      "sha256": "d8e20f861d0302b222119780092d99cb30373789564f54770e1dbcbcbdc05c25",
+      "bytes": 188483,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-83178",
+      "file_name": "COCO_train2014_000000083178.jpg",
+      "sha256": "5039f242ca5f670a7921321a09fcfd1d78de87aae75c282dc5f54818cf29e148",
+      "bytes": 233920,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-402668",
+      "file_name": "COCO_train2014_000000402668.jpg",
+      "sha256": "228a6214d7b5969153e831ac2a9bee6676bc2df55a100467ee3d04653554e3b3",
+      "bytes": 235215,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-550129",
+      "file_name": "COCO_train2014_000000550129.jpg",
+      "sha256": "affb677471eafe66573e485b43cf65e4664e1722770c39b0e25d8582588c621b",
+      "bytes": 55433,
+      "size": [
+        338,
+        450
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-74996",
+      "file_name": "COCO_train2014_000000074996.jpg",
+      "sha256": "61eeba53f29ece35d3d9083fed2867e9c396e2aaf0bdaf95d4076ec94c3bde7b",
+      "bytes": 114110,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-500982",
+      "file_name": "COCO_train2014_000000500982.jpg",
+      "sha256": "6b1bbfa42bf584b48053f3a2295ef0fdcd8518c9b63345dc5773de4eb77c599d",
+      "bytes": 151193,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-328969",
+      "file_name": "COCO_train2014_000000328969.jpg",
+      "sha256": "9adaa1cd35cd992ac69b22800a5739a18f3de080a335b623a2fff979949b7481",
+      "bytes": 167298,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-156939",
+      "file_name": "COCO_train2014_000000156939.jpg",
+      "sha256": "852bc09b8bcfd84557ed9aed823db8dca0a18c91c5badb914ec23e80592fdf66",
+      "bytes": 349419,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-1298",
+      "file_name": "COCO_train2014_000000001298.jpg",
+      "sha256": "cf076485afb04950815965f55d436f5cedff9d7b008403cfe273264eef05ebd0",
+      "bytes": 127388,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-247110",
+      "file_name": "COCO_train2014_000000247110.jpg",
+      "sha256": "7946cca72d373ca293f9a1ae8706b73daf9c756bd8f1bd468e3abbdb597e5836",
+      "bytes": 188293,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-542027",
+      "file_name": "COCO_train2014_000000542027.jpg",
+      "sha256": "577b2e2667a9cf54c11d2fc729f9d4304406c63ca591f96254931a9f89a1da8d",
+      "bytes": 117265,
+      "size": [
+        425,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-509269",
+      "file_name": "COCO_train2014_000000509269.jpg",
+      "sha256": "8a52c2d2718498b057ad57ca37fff83c8b74f3b420a8b27fe8a65514aa6aa16b",
+      "bytes": 297449,
+      "size": [
+        640,
+        469
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-247126",
+      "file_name": "COCO_train2014_000000247126.jpg",
+      "sha256": "ac6140445a77b92d7c3fe458f622b746382013b6505c445763f8a641fafb6e44",
+      "bytes": 135756,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-443741",
+      "file_name": "COCO_train2014_000000443741.jpg",
+      "sha256": "fcd02b5929d89528ec0cfa7936e1fe077559f521854862a90772085078a58a55",
+      "bytes": 83923,
+      "size": [
+        331,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-402806",
+      "file_name": "COCO_train2014_000000402806.jpg",
+      "sha256": "c4e056eb038027127a7966153b6def4937671fb61679ab41dd98bdb84949f9f3",
+      "bytes": 120832,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-116088",
+      "file_name": "COCO_train2014_000000116088.jpg",
+      "sha256": "9b15da66d5784e567beb01326ec315bfb7a4dfeab9356616a425eed72a63a7a6",
+      "bytes": 257934,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-533897",
+      "file_name": "COCO_train2014_000000533897.jpg",
+      "sha256": "f9f9a7ed8dd7117b63e059032f6012ee8299112f8c744a5916ec8449961492fb",
+      "bytes": 102729,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-255375",
+      "file_name": "COCO_train2014_000000255375.jpg",
+      "sha256": "9d0358cbf496629727a0c4c078d45894aef5a963669f2fb0e6d7ea8e3943d4bd",
+      "bytes": 142956,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-99727",
+      "file_name": "COCO_train2014_000000099727.jpg",
+      "sha256": "c9074db80712a96766f910f1c5e71822f4cc783cce22555d4858d23bed4c1fc7",
+      "bytes": 244177,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-83353",
+      "file_name": "COCO_train2014_000000083353.jpg",
+      "sha256": "02275a71ae529c4edf7cd8d158cc90f54aa45d1e537c0b0fd1b8176cb54c0279",
+      "bytes": 233240,
+      "size": [
+        429,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-198042",
+      "file_name": "COCO_train2014_000000198042.jpg",
+      "sha256": "b01f8948de1ff508eee2df45c1504f2d830f78d575af7713922a259f216aea61",
+      "bytes": 169736,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-550311",
+      "file_name": "COCO_train2014_000000550311.jpg",
+      "sha256": "f608d7eb08ea6785bec082ff60fc3dcc10213cb5edac74664b923b19cbaa31d5",
+      "bytes": 123089,
+      "size": [
+        640,
+        396
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-140733",
+      "file_name": "COCO_train2014_000000140733.jpg",
+      "sha256": "6a0f13998e4d1dba49dbe1974212534eb48525cef2ba3d124974dbfea7aaeb93",
+      "bytes": 121478,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-26052",
+      "file_name": "COCO_train2014_000000026052.jpg",
+      "sha256": "26d4a2aeff43bdb989db57ea1977e90082a8bbf182e928aebbd6ceac94d7b352",
+      "bytes": 216321,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-427461",
+      "file_name": "COCO_train2014_000000427461.jpg",
+      "sha256": "d28d12a0554edef8978b6ff8d85fe96b7e88b7b1ce20ae79fd8c5c94be8a933f",
+      "bytes": 147013,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-181711",
+      "file_name": "COCO_train2014_000000181711.jpg",
+      "sha256": "50904cf3c4bc75a2c91a0ded874983edb839cb5e2ceaa8900c19bf28d2472fcf",
+      "bytes": 155800,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-542160",
+      "file_name": "COCO_train2014_000000542160.jpg",
+      "sha256": "70cf472f8d8b0733a29cc7eb20fd494e1a3489529a727a6e9833e5d87e1f6e5d",
+      "bytes": 97661,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-1488",
+      "file_name": "COCO_train2014_000000001488.jpg",
+      "sha256": "2c7079f98740848daac62ba6ea7b3eec95ca3d6e8a98a35cf69039324d1c19ca",
+      "bytes": 153503,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-132574",
+      "file_name": "COCO_train2014_000000132574.jpg",
+      "sha256": "f2cbdce91e0709c6033865f86d68db83a10d211d7c74800b04d64253253f4ef0",
+      "bytes": 366007,
+      "size": [
+        640,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-411111",
+      "file_name": "COCO_train2014_000000411111.jpg",
+      "sha256": "81d5949cc351acb217ebe24c1906158bd5383a6ade8eead0171ae8d422bb1993",
+      "bytes": 224053,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-345578",
+      "file_name": "COCO_train2014_000000345578.jpg",
+      "sha256": "781199b6decda7527d6aa4735c55155279208239a74b46b27f3357c3c504a8e0",
+      "bytes": 156844,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-157194",
+      "file_name": "COCO_train2014_000000157194.jpg",
+      "sha256": "0ec6c97d775d9cf5643e3a912367af7c6df177d1b350f3c911ecbd99132bb27e",
+      "bytes": 74116,
+      "size": [
+        500,
+        335
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-132617",
+      "file_name": "COCO_train2014_000000132617.jpg",
+      "sha256": "70c7f18d5b4ee1123140a230c495e151c243ce4404a69d20c9381e6134ad93b2",
+      "bytes": 112200,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-566798",
+      "file_name": "COCO_train2014_000000566798.jpg",
+      "sha256": "fd545dc91080450ac280ea19b9f942d285cfe7617634d3c4aa9a445ebcb856ca",
+      "bytes": 116467,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-337445",
+      "file_name": "COCO_train2014_000000337445.jpg",
+      "sha256": "ac20204cd1d05be3dc10d6babcf4955126592ead52f32e117e57779b18a40dfd",
+      "bytes": 205389,
+      "size": [
+        640,
+        482
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-493114",
+      "file_name": "COCO_train2014_000000493114.jpg",
+      "sha256": "aab75570ead593c93fe53f65edb7a736e3624a25d9dc7f8cb16dbc7e23bc91c7",
+      "bytes": 114554,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-444010",
+      "file_name": "COCO_train2014_000000444010.jpg",
+      "sha256": "00df9e96404da28a86e729d7a4dcefc82c76c884927a73473f1f9013b634dddb",
+      "bytes": 250949,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-312943",
+      "file_name": "COCO_train2014_000000312943.jpg",
+      "sha256": "7ecd2ba3dc85f6b35b81744072dec3c7b6b584540a70ad2533011f44c6e05e48",
+      "bytes": 221568,
+      "size": [
+        510,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-485014",
+      "file_name": "COCO_train2014_000000485014.jpg",
+      "sha256": "92faca821905b396bbd3b9edd84d57dad80df14d960f9c4a831853a3895cca86",
+      "bytes": 86809,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-157344",
+      "file_name": "COCO_train2014_000000157344.jpg",
+      "sha256": "89914047b6f6b848092bfc00ec3445f504ef25b084a3ac14c5874d536235890c",
+      "bytes": 136015,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-403133",
+      "file_name": "COCO_train2014_000000403133.jpg",
+      "sha256": "bdf38580c627271ca86a33ea004836d8ac2637d0a71ce8076dc7072bd07b3551",
+      "bytes": 149323,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-100034",
+      "file_name": "COCO_train2014_000000100034.jpg",
+      "sha256": "70a82c187eb7cea9598c9ad24b545912f9f60a1ceae4fea463ce1fadee26d8e8",
+      "bytes": 324331,
+      "size": [
+        640,
+        628
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-157424",
+      "file_name": "COCO_train2014_000000157424.jpg",
+      "sha256": "871b0a76cbeb4a38b7066945a0f2accf94a3984c1af21fd1a046f50b79a06d21",
+      "bytes": 102540,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-493307",
+      "file_name": "COCO_train2014_000000493307.jpg",
+      "sha256": "cad6ef576951b44a6f4f9f1db241479d1c45cbdd7f06456c0f1542604950e194",
+      "bytes": 186648,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-476934",
+      "file_name": "COCO_train2014_000000476934.jpg",
+      "sha256": "ba227431f48b4fe6f9d452095090198b889192449acbeed29e993ded1776b32c",
+      "bytes": 222055,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-460568",
+      "file_name": "COCO_train2014_000000460568.jpg",
+      "sha256": "3451645cc60fc998d3aaa117bf0eadbc7e05b580795897ff1f2aa3fa155afb2d",
+      "bytes": 183368,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-288559",
+      "file_name": "COCO_train2014_000000288559.jpg",
+      "sha256": "e6ebd4855efd9b01f934f2e8602f74a1f7b621aa1d5dc37b6ecdce6f430b09c4",
+      "bytes": 227807,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-50994",
+      "file_name": "COCO_train2014_000000050994.jpg",
+      "sha256": "ca8872ecdf539e6739f1bcd97071a245f2116e2f52be0805cffef18bbe228e14",
+      "bytes": 65015,
+      "size": [
+        640,
+        185
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-403258",
+      "file_name": "COCO_train2014_000000403258.jpg",
+      "sha256": "1467c4174d1c81b2843f64f07b202bd313550531775f67490f402b8b29024ef0",
+      "bytes": 169139,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-18244",
+      "file_name": "COCO_train2014_000000018244.jpg",
+      "sha256": "936af370fe7b75bc6dff664e1b7c8eba589b1e2ce24c86d44888768ef4828d58",
+      "bytes": 162392,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-313164",
+      "file_name": "COCO_train2014_000000313164.jpg",
+      "sha256": "d435ca3ad504858dbe2d24923084e3b85b5f3713396acf4144273d23a621d55f",
+      "bytes": 245682,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-108375",
+      "file_name": "COCO_train2014_000000108375.jpg",
+      "sha256": "f81372558c6b3db24a97a43b6003b81b4ddf4ed33bad7310c55b3413889b5fad",
+      "bytes": 202734,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-550760",
+      "file_name": "COCO_train2014_000000550760.jpg",
+      "sha256": "0ccae8f0150fcfe69b413c84e964dea6ccc716379a93422310151927083a75a8",
+      "bytes": 181076,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-100209",
+      "file_name": "COCO_train2014_000000100209.jpg",
+      "sha256": "4d4abcc646e44979e1897f7b49878485ab42155beafa1f6cef832a433d8b7068",
+      "bytes": 162552,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-18290",
+      "file_name": "COCO_train2014_000000018290.jpg",
+      "sha256": "c9ee398c8bdb0891dde9cc8df28ccf779ae1c459ebd93f206a4c5c5957fe17c1",
+      "bytes": 147388,
+      "size": [
+        640,
+        379
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-26498",
+      "file_name": "COCO_train2014_000000026498.jpg",
+      "sha256": "8d7ae7019b07573ca352025c12e66eb783c41ad5e40217839ec6d710ddb683c8",
+      "bytes": 271294,
+      "size": [
+        640,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-132997",
+      "file_name": "COCO_train2014_000000132997.jpg",
+      "sha256": "93c038f9f02f47b71407f1b01a654edb70945f3b7da09beb99ae297636ba4764",
+      "bytes": 350197,
+      "size": [
+        556,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-427920",
+      "file_name": "COCO_train2014_000000427920.jpg",
+      "sha256": "9fac1dc9cbf703c3b314bd827ad327a2df1e9705daf22d274a79b28084d0e550",
+      "bytes": 157820,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-567189",
+      "file_name": "COCO_train2014_000000567189.jpg",
+      "sha256": "05a4bc9e4bd817081a34fa9b5b0de5550b40de47a94c768fce1337e9713c13ff",
+      "bytes": 133230,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-231320",
+      "file_name": "COCO_train2014_000000231320.jpg",
+      "sha256": "f88a943fafbc58b7b4ab8b4ff9fa43f1c8e79da2181e179b95947174885f73d7",
+      "bytes": 164492,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-567199",
+      "file_name": "COCO_train2014_000000567199.jpg",
+      "sha256": "7bfc1f5877ced9f1a4b2a08687444eec168659235a55d71bd7ae771cd7655ab1",
+      "bytes": 167430,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-493471",
+      "file_name": "COCO_train2014_000000493471.jpg",
+      "sha256": "823c21d7c6753bc2563870c26f9cfc9dae904c83a9d7f0f9071863cb881373b4",
+      "bytes": 236127,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-272299",
+      "file_name": "COCO_train2014_000000272299.jpg",
+      "sha256": "3aa14009e274fdedd245dd65d7196849590f781e66c75c69033ffd3f2980872b",
+      "bytes": 243146,
+      "size": [
+        640,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-444348",
+      "file_name": "COCO_train2014_000000444348.jpg",
+      "sha256": "79092240a72662c07889bb6f872d0027ff8066841466599f3bc16c731bb994a2",
+      "bytes": 137064,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-493504",
+      "file_name": "COCO_train2014_000000493504.jpg",
+      "sha256": "861c6414143431c385821917fca0a5c0e52e64f9fdce66bb7f74098e3d244c49",
+      "bytes": 102674,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-395211",
+      "file_name": "COCO_train2014_000000395211.jpg",
+      "sha256": "471fe9ccc04bf1aa2db3f685dd2cc2db5f389e3bd74dd0e9be54180bcd779212",
+      "bytes": 185261,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-485367",
+      "file_name": "COCO_train2014_000000485367.jpg",
+      "sha256": "2181d7b47c295babd8fe69573eef1a6533b654c722122b23d84a3cd660dc5c34",
+      "bytes": 148196,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-550911",
+      "file_name": "COCO_train2014_000000550911.jpg",
+      "sha256": "13547752d71f9511029bfe20e54ee0a1ce78ce2db53a97ccbcf0db77944a0c5c",
+      "bytes": 199978,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-92165",
+      "file_name": "COCO_train2014_000000092165.jpg",
+      "sha256": "1158167f250ae0a6da42e6ee2276702e09fa7be14717be58ced3577efdde3518",
+      "bytes": 153699,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-247818",
+      "file_name": "COCO_train2014_000000247818.jpg",
+      "sha256": "8f72e028b11ff12b9e3efb7da9ed1755c985b064acec0f37fbb6673e39a04e71",
+      "bytes": 127532,
+      "size": [
+        375,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-67615",
+      "file_name": "COCO_train2014_000000067615.jpg",
+      "sha256": "6a09ad49a706888889c7db8bc6abcf8f180227538b475b42ed0f20424cdbfb29",
+      "bytes": 195636,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-387105",
+      "file_name": "COCO_train2014_000000387105.jpg",
+      "sha256": "6b5ad6b2c0f4fd89ee48ca955ad958a413d97c1f273b74c7d671219980fe1cdf",
+      "bytes": 214684,
+      "size": [
+        640,
+        478
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-190513",
+      "file_name": "COCO_train2014_000000190513.jpg",
+      "sha256": "7892815fad1da6a0cf3c5f07b8d1cc126dea03d831fdc1f998125f6c96bb3ca6",
+      "bytes": 243890,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-149566",
+      "file_name": "COCO_train2014_000000149566.jpg",
+      "sha256": "62c56a96f963d4aa8d7d3523e0a791097b5cb5aae6f9aca5cbe306d6851aba5f",
+      "bytes": 131517,
+      "size": [
+        429,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-75843",
+      "file_name": "COCO_train2014_000000075843.jpg",
+      "sha256": "97aefc4105d6a6c5119131b2161ff023c96467625e8c6ac7349d6f64a8d7232e",
+      "bytes": 173940,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-428117",
+      "file_name": "COCO_train2014_000000428117.jpg",
+      "sha256": "381599d7b45b7f1b1583c84aa9ab2d2313d5bce5ef2aababe81c42d1e33590c2",
+      "bytes": 136021,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-313434",
+      "file_name": "COCO_train2014_000000313434.jpg",
+      "sha256": "8fadabce94703323f5d8b250e62c45df7982c55390217fdd1c12fcc70bc1e532",
+      "bytes": 216672,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-370790",
+      "file_name": "COCO_train2014_000000370790.jpg",
+      "sha256": "91255ba200d7abf7d3239b9678ddc5cf086e47ac7d15a8b624712553065ff3cc",
+      "bytes": 216071,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-264296",
+      "file_name": "COCO_train2014_000000264296.jpg",
+      "sha256": "6aff26adeb14196f99e0567a739a4298782e5781317713677309a3f54a483b63",
+      "bytes": 101795,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-75881",
+      "file_name": "COCO_train2014_000000075881.jpg",
+      "sha256": "1067a1da767d4d836714a08e8e07d4829f021bbf43f57899b201a411676cc6cd",
+      "bytes": 140281,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-149616",
+      "file_name": "COCO_train2014_000000149616.jpg",
+      "sha256": "5c91d77a8d103eda58313ef21f393d0d26a29bc0944f430deaec5d43e513d199",
+      "bytes": 254445,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-67748",
+      "file_name": "COCO_train2014_000000067748.jpg",
+      "sha256": "077d19bb1047e3c3d8173d3893659b65d7a6d50ff547a071d82747447778ccf5",
+      "bytes": 164633,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-477392",
+      "file_name": "COCO_train2014_000000477392.jpg",
+      "sha256": "efc6a88b463f25523f326e071fbd4fb0e5a79654e177d31b738c6dcdaa23d54f",
+      "bytes": 180842,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-542936",
+      "file_name": "COCO_train2014_000000542936.jpg",
+      "sha256": "35956759e40d81c895a0d89f0577676869c46687bba72a16220012258e9bab0b",
+      "bytes": 145601,
+      "size": [
+        488,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-207083",
+      "file_name": "COCO_train2014_000000207083.jpg",
+      "sha256": "b8e6139d469b1d17f0001d17e293134ec884ce96383bf7587c284b0969b2c3c2",
+      "bytes": 161624,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-248052",
+      "file_name": "COCO_train2014_000000248052.jpg",
+      "sha256": "0b0ccc380f7f60b0d01caebfc3967d06d8f4741581d4a309e7ab394a8e324fa6",
+      "bytes": 188959,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-477442",
+      "file_name": "COCO_train2014_000000477442.jpg",
+      "sha256": "7cea7686074bdbf15ca39d97e7bc71546c53cfa77112cd0471c151a2b058eb2f",
+      "bytes": 237660,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-461099",
+      "file_name": "COCO_train2014_000000461099.jpg",
+      "sha256": "9c6af31f3f055b373dddb6f0a371c315837818fbde2a2a2bcd4022532b7f7fb0",
+      "bytes": 182448,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-264502",
+      "file_name": "COCO_train2014_000000264502.jpg",
+      "sha256": "7bf00dcddccd3e3a317acec368d578504b533dc53b849d016ffa6cd9f5574467",
+      "bytes": 172372,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-35132",
+      "file_name": "COCO_train2014_000000035132.jpg",
+      "sha256": "b4fe3e16a295926a888e0a7d984b122cb7f07a5f3c9e44617a60736846b5687a",
+      "bytes": 225466,
+      "size": [
+        640,
+        507
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-305492",
+      "file_name": "COCO_train2014_000000305492.jpg",
+      "sha256": "a6273aedb938d7815315a47f6a87a9ec80989070db184144f9638f5de5bf1999",
+      "bytes": 291612,
+      "size": [
+        640,
+        541
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-420183",
+      "file_name": "COCO_train2014_000000420183.jpg",
+      "sha256": "752783f09f0694b7f9b4cf634fc9dc8b9f3b5fe587f8563278fced8dfa0ed088",
+      "bytes": 201565,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-51550",
+      "file_name": "COCO_train2014_000000051550.jpg",
+      "sha256": "330a18d87e12d8899e5429a7fed4c46e4a55c6700a5d456f362191300e4a229a",
+      "bytes": 93086,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-158051",
+      "file_name": "COCO_train2014_000000158051.jpg",
+      "sha256": "59939f5b0e0404481c949123355007390b9149fd303e0d8448550d0eeb713b9f",
+      "bytes": 130851,
+      "size": [
+        640,
+        393
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-199029",
+      "file_name": "COCO_train2014_000000199029.jpg",
+      "sha256": "ee3be39d776289988da00d5395c9b1ac9911e3fe05b6d90559c460538386603d",
+      "bytes": 107540,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-215421",
+      "file_name": "COCO_train2014_000000215421.jpg",
+      "sha256": "7a94e4a7ee78259c33e5b2c3c486fc4f3e45d17e7068472ca903550832a3c1f0",
+      "bytes": 128482,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-436620",
+      "file_name": "COCO_train2014_000000436620.jpg",
+      "sha256": "b839c91510c509ad4696a8df60fd535ddbe735214d6b47cd1ff6bfb6e22a4a1f",
+      "bytes": 226169,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-297363",
+      "file_name": "COCO_train2014_000000297363.jpg",
+      "sha256": "572691c47874296a3be20c12f3c6bbcf7880164ea15e284cfa54983be0e7a9f2",
+      "bytes": 200951,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-518552",
+      "file_name": "COCO_train2014_000000518552.jpg",
+      "sha256": "4261e014b6d8ea91df48f135eccbb59ec13ec3c692abdc821d833fcd4a34ce04",
+      "bytes": 135904,
+      "size": [
+        640,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-149921",
+      "file_name": "COCO_train2014_000000149921.jpg",
+      "sha256": "a0851a24f585f2ce1d052a08bf8ddb0880566f30f0455882600f43671160556b",
+      "bytes": 155841,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-485800",
+      "file_name": "COCO_train2014_000000485800.jpg",
+      "sha256": "5a5d5f786588feb6a1fdea9863cd104b371be0c02110c26c6f7267d5529ff85d",
+      "bytes": 64543,
+      "size": [
+        326,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-289212",
+      "file_name": "COCO_train2014_000000289212.jpg",
+      "sha256": "cd12709b9263dcc2cb0b22ac89a287ae311ba290bd3039264f30b96e23c7faf0",
+      "bytes": 72610,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-149961",
+      "file_name": "COCO_train2014_000000149961.jpg",
+      "sha256": "1b4dd099fd5c8539598f34b487ba1ad5c16f36f848a7e824f79a5b3223b84d71",
+      "bytes": 147314,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-338385",
+      "file_name": "COCO_train2014_000000338385.jpg",
+      "sha256": "17ead75448eb68cad5090bfb3f0451b55ee786a33b31a782b55eef4907576eed",
+      "bytes": 187097,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-281051",
+      "file_name": "COCO_train2014_000000281051.jpg",
+      "sha256": "a174e6b2921724ec59c17079a565a6a6f1a1a984633f003158177ad4900d7fa1",
+      "bytes": 173355,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-395742",
+      "file_name": "COCO_train2014_000000395742.jpg",
+      "sha256": "bcf181db2d99516a3e8283b95f2e704aeadd1f4fbada61ca69446f66de147155",
+      "bytes": 217504,
+      "size": [
+        503,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-92646",
+      "file_name": "COCO_train2014_000000092646.jpg",
+      "sha256": "ed87df5d72f499bec1b609d72c62e671040fc65795f9251401b3df525e282842",
+      "bytes": 162843,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-354791",
+      "file_name": "COCO_train2014_000000354791.jpg",
+      "sha256": "000965984b728deac6fecee03b1723daf2197675b4fb97883b582bc965e02f84",
+      "bytes": 133906,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-10727",
+      "file_name": "COCO_train2014_000000010727.jpg",
+      "sha256": "85483f3a4a79d9626082ad65a376a724f783158c1d631c8d5d0142b4599c955c",
+      "bytes": 298363,
+      "size": [
+        623,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-149996",
+      "file_name": "COCO_train2014_000000149996.jpg",
+      "sha256": "91f64e40625821279c0c5d0fdc83de525cb12df50e6d56f803c1a499557a6258",
+      "bytes": 141391,
+      "size": [
+        500,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-428537",
+      "file_name": "COCO_train2014_000000428537.jpg",
+      "sha256": "536d6c99571ae5943e586fbf956aca7f9c08c086099b0737b24cc2eaf77378aa",
+      "bytes": 176045,
+      "size": [
+        640,
+        491
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-395791",
+      "file_name": "COCO_train2014_000000395791.jpg",
+      "sha256": "4bc8e17d0ce0550d1693673a403dd255f5b43ad9aec4e01a2235808983f2094d",
+      "bytes": 178158,
+      "size": [
+        640,
+        597
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-387615",
+      "file_name": "COCO_train2014_000000387615.jpg",
+      "sha256": "25e3a1af57d17db81a7d8013d5f48d6056e75dbf151c04c909c476c18e04385b",
+      "bytes": 227009,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-264741",
+      "file_name": "COCO_train2014_000000264741.jpg",
+      "sha256": "15503f41a5f172d863e7030c133fced383ef01a11be0172902dc1a51f6f11c2c",
+      "bytes": 160402,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-469545",
+      "file_name": "COCO_train2014_000000469545.jpg",
+      "sha256": "a97928a2fd76ed17de5c03c0acf2006bc6f8883fc99f8ff103bbe3e99406c9a4",
+      "bytes": 301889,
+      "size": [
+        640,
+        583
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-322090",
+      "file_name": "COCO_train2014_000000322090.jpg",
+      "sha256": "041c0e131207ad437166413f1d747e1612a304ee081d7c5ef0060d432e71f828",
+      "bytes": 188277,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-76364",
+      "file_name": "COCO_train2014_000000076364.jpg",
+      "sha256": "91730011e992a95c8e92d0cd45ec891d994b8b30c9e6b7b511b357fa3810a432",
+      "bytes": 226903,
+      "size": [
+        640,
+        622
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-191068",
+      "file_name": "COCO_train2014_000000191068.jpg",
+      "sha256": "f9e443ebda6c3e080def090b8d10e0657b0f4c9635e0e7d5d543fc81aeb8c417",
+      "bytes": 186813,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-477797",
+      "file_name": "COCO_train2014_000000477797.jpg",
+      "sha256": "e61d1ae46de01794c796982a0d01fd5d5ffae2ea931750d5f6e53214a67effa6",
+      "bytes": 123030,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-510591",
+      "file_name": "COCO_train2014_000000510591.jpg",
+      "sha256": "214d47f5eecccd911900a772a158bbf9bca9af34820cca635745da7c35e6d967",
+      "bytes": 249147,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-559760",
+      "file_name": "COCO_train2014_000000559760.jpg",
+      "sha256": "addc209031ea1be1565693e5dc99603ffd9ef15df6b061927bb73c0d63ef500e",
+      "bytes": 217355,
+      "size": [
+        640,
+        388
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-223909",
+      "file_name": "COCO_train2014_000000223909.jpg",
+      "sha256": "e78d0adaf70573ee28e0096b33fd27bf4cb0c518bda9952043527542aecb63c0",
+      "bytes": 201144,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-150197",
+      "file_name": "COCO_train2014_000000150197.jpg",
+      "sha256": "af52d9fa9d9bb565d39344e03374e96337592ac802950b25a9cd21a1c0a77203",
+      "bytes": 130213,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-2742",
+      "file_name": "COCO_train2014_000000002742.jpg",
+      "sha256": "0918b3b2dba36d29d6ff23de6a02f6eda95d1122d98aa97a5cd1e03c705acf70",
+      "bytes": 213226,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-502470",
+      "file_name": "COCO_train2014_000000502470.jpg",
+      "sha256": "bfcf57923b7033134b0f8f777dcc6c6b20cd0cf667dba19b81601806f8b2c82c",
+      "bytes": 227935,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-289482",
+      "file_name": "COCO_train2014_000000289482.jpg",
+      "sha256": "c1404cb8fd2586bbf3bf9deefd3afd90941f3f24d7bf31a9579469df2d015623",
+      "bytes": 227340,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-240339",
+      "file_name": "COCO_train2014_000000240339.jpg",
+      "sha256": "5a0584af4ab0fb02dd0461999402b62f0c475c18f06629e96b1f4de358f737c3",
+      "bytes": 62367,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-502504",
+      "file_name": "COCO_train2014_000000502504.jpg",
+      "sha256": "203d715a1d27d62e0e0ba0f21146ff1e919a5706e0a7112ed961f079989706b5",
+      "bytes": 186948,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-84712",
+      "file_name": "COCO_train2014_000000084712.jpg",
+      "sha256": "adbc9fec4e1e1a248a0b02a9f23362d9770ba79d2c8fe87c5513a333bd7c6cb0",
+      "bytes": 84261,
+      "size": [
+        425,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-2823",
+      "file_name": "COCO_train2014_000000002823.jpg",
+      "sha256": "ee6848e5484c61253178f0087f037aab1aa1afcc3835dd1bf6c23ef42754295d",
+      "bytes": 204967,
+      "size": [
+        640,
+        383
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-420620",
+      "file_name": "COCO_train2014_000000420620.jpg",
+      "sha256": "584c26eace483d0e0919ee21c7286dd5a849edc0431dde7549b6166c7aa955e0",
+      "bytes": 225546,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-551710",
+      "file_name": "COCO_train2014_000000551710.jpg",
+      "sha256": "e0fd8560cafc004073904fe6a2c289267b485cf3e98038a4600ec4af1f4efd80",
+      "bytes": 281163,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-371486",
+      "file_name": "COCO_train2014_000000371486.jpg",
+      "sha256": "fdd0487664ad702def8a3205f49f19d16e9605efa458df3900b3617dc2c0b484",
+      "bytes": 154379,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-84800",
+      "file_name": "COCO_train2014_000000084800.jpg",
+      "sha256": "019083f2e5c63c4b72d396f46d4a2f05c183c09faf002571b76e1936f8cf4bb4",
+      "bytes": 168474,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-559949",
+      "file_name": "COCO_train2014_000000559949.jpg",
+      "sha256": "155cffb4bbf76ce3f571609a96d4ec11c368102fc0215c44640c72be6ab49b4d",
+      "bytes": 131802,
+      "size": [
+        640,
+        429
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-437080",
+      "file_name": "COCO_train2014_000000437080.jpg",
+      "sha256": "c5d9e2e8280ef1d3760841b47870e70244c63c6d03d9c4a076883ad83c2f583b",
+      "bytes": 188895,
+      "size": [
+        634,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-445276",
+      "file_name": "COCO_train2014_000000445276.jpg",
+      "sha256": "29d7e107db3d09e870342e5d25d243628e0bef08264cbac1273b63d284c76d65",
+      "bytes": 248085,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-363363",
+      "file_name": "COCO_train2014_000000363363.jpg",
+      "sha256": "224c341ea39541c5af375b045debd882bd8976a0bbd0869a011b0e1e45793cf2",
+      "bytes": 80496,
+      "size": [
+        480,
+        360
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-551793",
+      "file_name": "COCO_train2014_000000551793.jpg",
+      "sha256": "e88ed95c1a29f10c9405bdadf879bc56b3da07e4ca5e8ba22efa0d59c24d91cd",
+      "bytes": 192843,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-43892",
+      "file_name": "COCO_train2014_000000043892.jpg",
+      "sha256": "6abe27b2135028fe89847236e86c579d5e3ac9150d0cf8a2fb02387e46bda937",
+      "bytes": 71023,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-551814",
+      "file_name": "COCO_train2014_000000551814.jpg",
+      "sha256": "07b52b94ce872a2d5e975239f750f600ef9480624622c56c29b4a6175b0937fa",
+      "bytes": 232701,
+      "size": [
+        428,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-52109",
+      "file_name": "COCO_train2014_000000052109.jpg",
+      "sha256": "c39429b0ee982e2f3b53de1b4a6a843a0c8f8eaa4aad2db58f13f95b7dde0b44",
+      "bytes": 245033,
+      "size": [
+        640,
+        477
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-2964",
+      "file_name": "COCO_train2014_000000002964.jpg",
+      "sha256": "536ca721ed123b2317df034cb5f576c10fed597e7d56d3a5f78d8de02b66a2da",
+      "bytes": 235967,
+      "size": [
+        640,
+        383
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-248733",
+      "file_name": "COCO_train2014_000000248733.jpg",
+      "sha256": "b730bb32a9e0ae4a6e9fc19a7180c6ec56cfa193243b3ce324de88ea1f4fed27",
+      "bytes": 143101,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-322472",
+      "file_name": "COCO_train2014_000000322472.jpg",
+      "sha256": "a5af6e4b05917232a84f3ea3cabaccd60375220e614d8cc83ceb0b3e98dcff49",
+      "bytes": 131501,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-232371",
+      "file_name": "COCO_train2014_000000232371.jpg",
+      "sha256": "b8eaca8352cebe75b7e69a3638e599d74e667619753022bcf075e021140453e7",
+      "bytes": 144252,
+      "size": [
+        513,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-306128",
+      "file_name": "COCO_train2014_000000306128.jpg",
+      "sha256": "097c19b5e43921a5e435fc77e295bcc87d06a052043a9923027dd59397f7e288",
+      "bytes": 139591,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-322517",
+      "file_name": "COCO_train2014_000000322517.jpg",
+      "sha256": "51edc5ffc1e33e6debc20dc0c44201fafc2d8cb2a2a0a0d7a6a1ad410ff0d8ae",
+      "bytes": 214281,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-494552",
+      "file_name": "COCO_train2014_000000494552.jpg",
+      "sha256": "39d25fc65c2bf757cab0c71708d3c652fcadb982fae26819eed36ea5bc374cf3",
+      "bytes": 127606,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-199640",
+      "file_name": "COCO_train2014_000000199640.jpg",
+      "sha256": "dc74e8f39b0d35f3c32197575be532936775797bbb1ba9318ba90df592457460",
+      "bytes": 118269,
+      "size": [
+        640,
+        331
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-142299",
+      "file_name": "COCO_train2014_000000142299.jpg",
+      "sha256": "17d117082aa26b776425207ddee94a6043e9c0363d352ee6e4963d6fd0b8e5ab",
+      "bytes": 261321,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-43998",
+      "file_name": "COCO_train2014_000000043998.jpg",
+      "sha256": "eba1d16be3b997c365dff10a4479154379f4977991c5cb7f2a425b8edd137c00",
+      "bytes": 210933,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-420831",
+      "file_name": "COCO_train2014_000000420831.jpg",
+      "sha256": "eac7b6c12efef2ef9b6faf0f979d60342d5f3936d8c059d3afea74b476462e62",
+      "bytes": 110556,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-453602",
+      "file_name": "COCO_train2014_000000453602.jpg",
+      "sha256": "0e25973ed55d617b71c6df1dc6ac41d883ef9215c2bacf29637029a0c0fc8020",
+      "bytes": 173981,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-35817",
+      "file_name": "COCO_train2014_000000035817.jpg",
+      "sha256": "9fce0d7325713504e41d0524d672dac69fb56de96cd744259bf939410ab0a6cb",
+      "bytes": 191911,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-412657",
+      "file_name": "COCO_train2014_000000412657.jpg",
+      "sha256": "2f34c931e248ad27e54dbade8074f5117a09e5b178e66eec4d53559622333744",
+      "bytes": 127912,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-289782",
+      "file_name": "COCO_train2014_000000289782.jpg",
+      "sha256": "5e3edae6238b3060535dedc16a5b7a179f26dc22a3bedd376e0a3d8fb10b9eb5",
+      "bytes": 255618,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-93176",
+      "file_name": "COCO_train2014_000000093176.jpg",
+      "sha256": "3df596a3fa902e58f7dc8fdf10a0a09e8ce7363bb6a8432aba718494b3f4e7e8",
+      "bytes": 181952,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-35844",
+      "file_name": "COCO_train2014_000000035844.jpg",
+      "sha256": "96bb9b58f183f71a19b1c46048cc5254b0a5397119a7ace8da5e009d44c047f0",
+      "bytes": 264785,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-175112",
+      "file_name": "COCO_train2014_000000175112.jpg",
+      "sha256": "e16c4a191b7b807ee2d933d32a2ce650e08119a2194d6a9f72b2292afd6452c4",
+      "bytes": 243029,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-535561",
+      "file_name": "COCO_train2014_000000535561.jpg",
+      "sha256": "162f590b482fd6e10edd922a5861d0eab89a4b60b55a55b6edfdbb2eee4e6896",
+      "bytes": 143374,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-297997",
+      "file_name": "COCO_train2014_000000297997.jpg",
+      "sha256": "afcca843f1160c875b0bdc76c8f124f986bc582dcc269d2b8517d6907da48098",
+      "bytes": 47535,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-265235",
+      "file_name": "COCO_train2014_000000265235.jpg",
+      "sha256": "f485019544f11e672482d64439cad7071847bcdd2bbe5809ad9b6233078e60ff",
+      "bytes": 185258,
+      "size": [
+        640,
+        383
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-560152",
+      "file_name": "COCO_train2014_000000560152.jpg",
+      "sha256": "51d3b83d681dd8c354412984b731e70ea2f6c47d22a4fc0c5db687a2ba9b5d4f",
+      "bytes": 123312,
+      "size": [
+        640,
+        398
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-347167",
+      "file_name": "COCO_train2014_000000347167.jpg",
+      "sha256": "9e0ffa9a4cc2b120e8da4524a7274d1f2d7bc7db086a0b197dfecbd70fd2c727",
+      "bytes": 86092,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-519205",
+      "file_name": "COCO_train2014_000000519205.jpg",
+      "sha256": "aac499c01182fc695b4fb558e2bd441d122abbb45b9ab84d680fd1d823ececdc",
+      "bytes": 451396,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-199721",
+      "file_name": "COCO_train2014_000000199721.jpg",
+      "sha256": "81eae4da8fe0a3c321e7a3601d7c45afb7367c4a23848dd6df74582ee6009e34",
+      "bytes": 92176,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-543790",
+      "file_name": "COCO_train2014_000000543790.jpg",
+      "sha256": "9049335620be20bad0f63d66ea5786c32546fdec2894e3b2b78084a68c087340",
+      "bytes": 183153,
+      "size": [
+        472,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-453686",
+      "file_name": "COCO_train2014_000000453686.jpg",
+      "sha256": "e527fea5e5f0894b2f5d94b974582143937af882455456130951d500e7c061c8",
+      "bytes": 150262,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-216119",
+      "file_name": "COCO_train2014_000000216119.jpg",
+      "sha256": "7900c96bc70b496ed7745052ffe5a1d3c41cb0b161261f00e88506972889fe53",
+      "bytes": 130238,
+      "size": [
+        640,
+        369
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-175162",
+      "file_name": "COCO_train2014_000000175162.jpg",
+      "sha256": "4033711a7fb2f21b40b5061976301beaa1f95a977360d7907c9f6a66376801c1",
+      "bytes": 177710,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-265329",
+      "file_name": "COCO_train2014_000000265329.jpg",
+      "sha256": "9f37e4630e0e6a230cb59783d31ab894619fc14a1a0370d6d228befa9d683e1c",
+      "bytes": 101451,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-363671",
+      "file_name": "COCO_train2014_000000363671.jpg",
+      "sha256": "7350b62b65792da3d4711d879ad6bc51ae72bd45d4b3776ee096695ea94a0e0e",
+      "bytes": 121744,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-199835",
+      "file_name": "COCO_train2014_000000199835.jpg",
+      "sha256": "421520f9357f91b0ed75ae985613adb301a188c51d329d1aaac67dfe177f99a3",
+      "bytes": 190337,
+      "size": [
+        483,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-35995",
+      "file_name": "COCO_train2014_000000035995.jpg",
+      "sha256": "3dc9e886f9dd3fe8ef4ea65e90ce02672d18155321858206641c61dfd31b9f44",
+      "bytes": 182841,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-371871",
+      "file_name": "COCO_train2014_000000371871.jpg",
+      "sha256": "529f1b387c0a728b6f037618ed5ad5bc9b487d6f40cba8a14b81438ca1783963",
+      "bytes": 194810,
+      "size": [
+        500,
+        486
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-199841",
+      "file_name": "COCO_train2014_000000199841.jpg",
+      "sha256": "1e4f32f72209815fd65bcc64874672f059ad980e45da19e6465d31e0054f4225",
+      "bytes": 125333,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-461996",
+      "file_name": "COCO_train2014_000000461996.jpg",
+      "sha256": "38a0f2994d0d459a4948eae820bf04134ae3563d0945c2265cd476a2dd297392",
+      "bytes": 224584,
+      "size": [
+        490,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-101552",
+      "file_name": "COCO_train2014_000000101552.jpg",
+      "sha256": "54334bfb714610405f16ab791a73e1ea5032fd60fca6755223514cd139297fd8",
+      "bytes": 129323,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-314556",
+      "file_name": "COCO_train2014_000000314556.jpg",
+      "sha256": "09b0c610509a03774a2b8e0fc94486f81442844d8ecda3cb0df181a9de3295ff",
+      "bytes": 157427,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-281790",
+      "file_name": "COCO_train2014_000000281790.jpg",
+      "sha256": "9dfa53e35abbd8f57567778d420d43d3e831bc1c55ad3daf61ef29e659ac324b",
+      "bytes": 72259,
+      "size": [
+        500,
+        333
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-363719",
+      "file_name": "COCO_train2014_000000363719.jpg",
+      "sha256": "58465928c911d6eba597e4c638fb8a1c32defb3a5ac9d276d06f9ee2d85c904d",
+      "bytes": 144168,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-68812",
+      "file_name": "COCO_train2014_000000068812.jpg",
+      "sha256": "4bcab3cb40be27d5213e68ca6fee5c61b49f1ca86dda31954cdbfb4208230589",
+      "bytes": 91225,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-453906",
+      "file_name": "COCO_train2014_000000453906.jpg",
+      "sha256": "66ac72fb75bd554d6a400ccdb432518582c04d9ce648c2efdc9476a7bf340b25",
+      "bytes": 81449,
+      "size": [
+        480,
+        300
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-134420",
+      "file_name": "COCO_train2014_000000134420.jpg",
+      "sha256": "f3b9c1024bef3ccd20ff05cd9fdabe15cd33ce34998b6c46d3ac3ed3a815cef3",
+      "bytes": 363600,
+      "size": [
+        493,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-372003",
+      "file_name": "COCO_train2014_000000372003.jpg",
+      "sha256": "9583d53a324a5e9cb56fd33a981b0a9504b1191936a65a087159a38917963052",
+      "bytes": 164344,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-437547",
+      "file_name": "COCO_train2014_000000437547.jpg",
+      "sha256": "e0689bc11d920595008a74d7fc0435f715c04f88f2f90594d1022285cd31dcbd",
+      "bytes": 119362,
+      "size": [
+        640,
+        204
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-576829",
+      "file_name": "COCO_train2014_000000576829.jpg",
+      "sha256": "0fbdc1213f672ae8a676a17084dd21a96834859328be9b9875d58cb3895d8a7b",
+      "bytes": 143936,
+      "size": [
+        600,
+        450
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-216391",
+      "file_name": "COCO_train2014_000000216391.jpg",
+      "sha256": "b2ef13313f827bad5d824c2becf361c9c96d2f3b7bd016137b9267a6aa868a62",
+      "bytes": 200279,
+      "size": [
+        428,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-421208",
+      "file_name": "COCO_train2014_000000421208.jpg",
+      "sha256": "659e4aff4bdb849949d015701e565d120016689ecfa88ed7c7bf5b6d8402c589",
+      "bytes": 207195,
+      "size": [
+        640,
+        513
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-560525",
+      "file_name": "COCO_train2014_000000560525.jpg",
+      "sha256": "b2bf4f56eddf1ad7c48e072a9e862c5166afa73a9e1fc9923f6dcbdf90bd82d9",
+      "bytes": 145896,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-93581",
+      "file_name": "COCO_train2014_000000093581.jpg",
+      "sha256": "dd7ab0e8222c34326c79a9547bea4a11cbc23f9c29703979b18458f32eddb4c4",
+      "bytes": 206054,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-372112",
+      "file_name": "COCO_train2014_000000372112.jpg",
+      "sha256": "d4bb30cdd3e82c64aee0ddf2810b6f12d2640ca36b8d9a727839b357757a7034",
+      "bytes": 196834,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-560532",
+      "file_name": "COCO_train2014_000000560532.jpg",
+      "sha256": "3e13df26af69c135e00f8d3b3d1d3421966432c24c1210752c10743d73bb6b8c",
+      "bytes": 167296,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-470501",
+      "file_name": "COCO_train2014_000000470501.jpg",
+      "sha256": "532a2e48f5a323a1b68405ecab7d034b99ac8e79643a2ea2ff1059acd74b4ce7",
+      "bytes": 449023,
+      "size": [
+        640,
+        586
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-339453",
+      "file_name": "COCO_train2014_000000339453.jpg",
+      "sha256": "3741a5fe8e12b80e5058ccc4b922b2db78fa96a5897544c5f65240b7702b932a",
+      "bytes": 147194,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-339454",
+      "file_name": "COCO_train2014_000000339454.jpg",
+      "sha256": "819980cfa531b7522aa5ed2298675269d06855075dfbd8a82dbba8426bba4b98",
+      "bytes": 185163,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-486936",
+      "file_name": "COCO_train2014_000000486936.jpg",
+      "sha256": "92665f5bfa3675bf6727fcc3b77670940a39ff1cde233f4ca692744b86fa98a6",
+      "bytes": 192445,
+      "size": [
+        640,
+        478
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-323108",
+      "file_name": "COCO_train2014_000000323108.jpg",
+      "sha256": "c0689e047d319fc6abc290922253ed86f9fcdebb6606f613772ed1a3b6131aa6",
+      "bytes": 136424,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-224821",
+      "file_name": "COCO_train2014_000000224821.jpg",
+      "sha256": "affb36285fb1cc6c724a4648e009cfac3d83fb5e3fae661e7e8b51de372ab274",
+      "bytes": 173688,
+      "size": [
+        640,
+        481
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-355922",
+      "file_name": "COCO_train2014_000000355922.jpg",
+      "sha256": "adb28f186e5fae10418b6146544e4c6369682bd81f83cd9c1c47ba3269f56c33",
+      "bytes": 99728,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-511580",
+      "file_name": "COCO_train2014_000000511580.jpg",
+      "sha256": "5b04b544576e1c6ff4f59c0545b76efc7598de41132a574a2602c4824fd424ff",
+      "bytes": 194656,
+      "size": [
+        360,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-421488",
+      "file_name": "COCO_train2014_000000421488.jpg",
+      "sha256": "0cad1303fbe612129e9d2bc868c7ed365bab20346b6a25229d05aa73ec1eb730",
+      "bytes": 107584,
+      "size": [
+        640,
+        460
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-183923",
+      "file_name": "COCO_train2014_000000183923.jpg",
+      "sha256": "e92ec5dea8153de17a2c83de69f1d9fcc5387192eeb94b82aa7bfcbefacac31e",
+      "bytes": 178872,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-175745",
+      "file_name": "COCO_train2014_000000175745.jpg",
+      "sha256": "90b6bde670a4805c5406458805d169c4f3309ff2dc772d0f975a2a00633ef17a",
+      "bytes": 193332,
+      "size": [
+        640,
+        528
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-478885",
+      "file_name": "COCO_train2014_000000478885.jpg",
+      "sha256": "324aa70b7fef3e8b860ee80b6f49537ded4901729fde78908ce370bf0689f9bb",
+      "bytes": 111934,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-552617",
+      "file_name": "COCO_train2014_000000552617.jpg",
+      "sha256": "489105fd03ef819dd0f784ec380ed20e382a6f4a47f042d4a9bf03015cb8ac0d",
+      "bytes": 84559,
+      "size": [
+        500,
+        333
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-200377",
+      "file_name": "COCO_train2014_000000200377.jpg",
+      "sha256": "97f32781f0cd7cfe288c13f73ef670c3ab53b8e48148b6868a919f056cefe8df",
+      "bytes": 164393,
+      "size": [
+        640,
+        461
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-52928",
+      "file_name": "COCO_train2014_000000052928.jpg",
+      "sha256": "38f2a71566b22c172fbd8aaebad4ffe0d934593662697df9d0fc0729e71f578e",
+      "bytes": 212575,
+      "size": [
+        640,
+        458
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-44788",
+      "file_name": "COCO_train2014_000000044788.jpg",
+      "sha256": "fef9bb844ed6be3a0643d1af722e12d7e5d6d3dd2c805c772408eced21768c4e",
+      "bytes": 120503,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-454406",
+      "file_name": "COCO_train2014_000000454406.jpg",
+      "sha256": "a785211830417ea9ca929ffeede37901f3e034323a0c17c60390f7a5b7193764",
+      "bytes": 236608,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-438045",
+      "file_name": "COCO_train2014_000000438045.jpg",
+      "sha256": "8985f064da9eb69de183ced33306a72be6079c6baa1df226a31d947777d64794",
+      "bytes": 209646,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-528224",
+      "file_name": "COCO_train2014_000000528224.jpg",
+      "sha256": "5eee2708eeb034f71d1727f0d84df3abefc670b85d7529c939ffb59cc18102d6",
+      "bytes": 178005,
+      "size": [
+        640,
+        635
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-470893",
+      "file_name": "COCO_train2014_000000470893.jpg",
+      "sha256": "c42854786b1243144af7d2cd108effd44668ba285ce1eaa99e9a991377d7b6b1",
+      "bytes": 322121,
+      "size": [
+        640,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-102290",
+      "file_name": "COCO_train2014_000000102290.jpg",
+      "sha256": "8d73c22c74aa4d65f8e855ed73f31a88c9539b61163e36cd0f8d40ba1d1fbe0a",
+      "bytes": 146392,
+      "size": [
+        563,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-118697",
+      "file_name": "COCO_train2014_000000118697.jpg",
+      "sha256": "5bd7812347b96ff1a979ecd729a689435a37306c82bf81b81cd064031c5eb818",
+      "bytes": 294303,
+      "size": [
+        640,
+        488
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-413615",
+      "file_name": "COCO_train2014_000000413615.jpg",
+      "sha256": "79d699e60a2a8979262596068aab71b166cb5ac379bef018e8aed670eebbe5b3",
+      "bytes": 149993,
+      "size": [
+        481,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-438196",
+      "file_name": "COCO_train2014_000000438196.jpg",
+      "sha256": "bfc5515bf84f070e03bd7ff1c39879041535b9b6fe981f96da6d6971660d27ee",
+      "bytes": 214774,
+      "size": [
+        640,
+        429
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-380885",
+      "file_name": "COCO_train2014_000000380885.jpg",
+      "sha256": "c831ad9d6492e4f3894ecbaf9606c62babe44e833f739aed23706d5cef8aeb02",
+      "bytes": 150585,
+      "size": [
+        640,
+        478
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-298983",
+      "file_name": "COCO_train2014_000000298983.jpg",
+      "sha256": "3d2179bd7b4c8c442d9505765b98a062c82969af89e3f0096b104e16d4cfe838",
+      "bytes": 178208,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-536576",
+      "file_name": "COCO_train2014_000000536576.jpg",
+      "sha256": "5ca77228261df6594f047910f40c60bea10214731d0ac35fcd155a19a1b6e2d6",
+      "bytes": 300120,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-520199",
+      "file_name": "COCO_train2014_000000520199.jpg",
+      "sha256": "17b463246bba7a0b6dc465716f3f8622a5d6f182218d212b9a690f9eb0de8784",
+      "bytes": 256947,
+      "size": [
+        640,
+        457
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-405520",
+      "file_name": "COCO_train2014_000000405520.jpg",
+      "sha256": "f4b8e881a74e765fe672812f534bbeef326f1dbb00e876f41a96fde373e956df",
+      "bytes": 117862,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-577558",
+      "file_name": "COCO_train2014_000000577558.jpg",
+      "sha256": "1aba8e439d1a5c7f340ab751699e1006acdacb5a2b2704cc8a6410ea273fcff0",
+      "bytes": 101190,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-528408",
+      "file_name": "COCO_train2014_000000528408.jpg",
+      "sha256": "58396b0fec661b7000bd9d55e1b18e20f026d1b64cdb15c71e632be5140de914",
+      "bytes": 62257,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-20513",
+      "file_name": "COCO_train2014_000000020513.jpg",
+      "sha256": "76f2987958182eb3e1b7d071256c149c6781573986bbac411cac3f7fa01862ea",
+      "bytes": 190699,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-479272",
+      "file_name": "COCO_train2014_000000479272.jpg",
+      "sha256": "2e86218cb10b75581b6dfb7d2abdc8a36ea0c780c64cb4f0a249e10d3d5380a0",
+      "bytes": 126730,
+      "size": [
+        500,
+        400
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-544831",
+      "file_name": "COCO_train2014_000000544831.jpg",
+      "sha256": "89554a2725ea5752e4609b37582395ab727adaeef4692ede932cfca13ab9c145",
+      "bytes": 67835,
+      "size": [
+        500,
+        243
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-208963",
+      "file_name": "COCO_train2014_000000208963.jpg",
+      "sha256": "df222ecb61575a6b646029633cb8cdeabc99dc8ec4580c3849f500310bd211f2",
+      "bytes": 233696,
+      "size": [
+        578,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-168022",
+      "file_name": "COCO_train2014_000000168022.jpg",
+      "sha256": "e61e837f77221ea104d85d9d841febcc88c2555a5386ba1bf0165d116d4e1638",
+      "bytes": 121331,
+      "size": [
+        640,
+        466
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-446565",
+      "file_name": "COCO_train2014_000000446565.jpg",
+      "sha256": "b036e0b798232b25b2a73e39fdb140367d13cd162a56240b057efaf6cb799b2f",
+      "bytes": 342585,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-372871",
+      "file_name": "COCO_train2014_000000372871.jpg",
+      "sha256": "1e2994ee99321f39aab2cccd9ce9f14b39b71aa1e7a468d50a4724098ef3f1a3",
+      "bytes": 85046,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-348302",
+      "file_name": "COCO_train2014_000000348302.jpg",
+      "sha256": "11ef65559141a0826e391e380bc9a06c5f8b53d4001b4a4647438a84dfd7c75d",
+      "bytes": 219674,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-28824",
+      "file_name": "COCO_train2014_000000028824.jpg",
+      "sha256": "ae625d68474fce9178142deaa583ccc1af2620fb37c26519631df79ea81b3995",
+      "bytes": 93337,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-438429",
+      "file_name": "COCO_train2014_000000438429.jpg",
+      "sha256": "7e788b0d12fcb8d980f1218e8ce51ae4999d6d4aff35b3548fa7b906bc303ed8",
+      "bytes": 120637,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-397479",
+      "file_name": "COCO_train2014_000000397479.jpg",
+      "sha256": "0cd30c61208c9d37424a717384fc2e52a86009909c02e49a988c05760bf9cf0d",
+      "bytes": 217364,
+      "size": [
+        640,
+        526
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-389292",
+      "file_name": "COCO_train2014_000000389292.jpg",
+      "sha256": "c21468ebab3d81443ca41c4e90b8b61f1a140ea46d64e07e0ae44c3359e6ebdf",
+      "bytes": 169315,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-487602",
+      "file_name": "COCO_train2014_000000487602.jpg",
+      "sha256": "05b381aa0d32f7b603b41c0d659ee67d725770bd4d1384777ed1a0a191c217d4",
+      "bytes": 198089,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-217268",
+      "file_name": "COCO_train2014_000000217268.jpg",
+      "sha256": "ce0e8980d14c2d2f39f214a0ddbbbdc7186f61c62541ebc7cff33288551e7ac1",
+      "bytes": 248487,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-135348",
+      "file_name": "COCO_train2014_000000135348.jpg",
+      "sha256": "3db244134967ea2f50214bbca6325c3ba0c7d283b19e343fdab868b24567e713",
+      "bytes": 138252,
+      "size": [
+        426,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-86217",
+      "file_name": "COCO_train2014_000000086217.jpg",
+      "sha256": "53054f75172eeff1254ff588d393bd1c73015214fa09ecc8335cd38808398b22",
+      "bytes": 153994,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-266442",
+      "file_name": "COCO_train2014_000000266442.jpg",
+      "sha256": "208ea28c25ee452f404b33f7e7a5f172d9cb1fb7ab9a1e0757bf6219a22641ee",
+      "bytes": 302656,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-438478",
+      "file_name": "COCO_train2014_000000438478.jpg",
+      "sha256": "784b46b3fcf446aeff5f2c6b7278e9250de1e152689382a6c2ae79fa38dc38b5",
+      "bytes": 141696,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-348382",
+      "file_name": "COCO_train2014_000000348382.jpg",
+      "sha256": "b7d9dcc71c66aad4a05f44cbc9243118cc204bda1e2bbeaf321c62ff4f780467",
+      "bytes": 163505,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-274667",
+      "file_name": "COCO_train2014_000000274667.jpg",
+      "sha256": "f94542887cf5d33022b42b6c38d9f5ff9536dd278b788d4196bc2e5548129ee8",
+      "bytes": 174265,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-94459",
+      "file_name": "COCO_train2014_000000094459.jpg",
+      "sha256": "e2ad837d01ea6fbf25cd708a924960ad38078ee437e5e1e77b45e77cea78a9d9",
+      "bytes": 162128,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-569613",
+      "file_name": "COCO_train2014_000000569613.jpg",
+      "sha256": "4c1820289b0b5dcbac5743d5b63067bdc10712dca7dacec2e988d74e10fa9baa",
+      "bytes": 252874,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-225579",
+      "file_name": "COCO_train2014_000000225579.jpg",
+      "sha256": "d4d6ab95fdfba2acbccc902826976ce5030ee1b32688316a92850a5574f0d8ef",
+      "bytes": 255906,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-119093",
+      "file_name": "COCO_train2014_000000119093.jpg",
+      "sha256": "70ffd5dba4ea75617a78264f0a6fa2688b8bb112035899332d7316ad7fe227f3",
+      "bytes": 46512,
+      "size": [
+        425,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-274770",
+      "file_name": "COCO_train2014_000000274770.jpg",
+      "sha256": "468f494fa0cf69654189a5620c2c4e63c543ea3a55725ad1d6c7e13476fa9d9a",
+      "bytes": 180714,
+      "size": [
+        581,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-127316",
+      "file_name": "COCO_train2014_000000127316.jpg",
+      "sha256": "bdd8b68de1322c54231957c7d01c55069f21387506481ff69168649fe7b97528",
+      "bytes": 155414,
+      "size": [
+        640,
+        456
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-53601",
+      "file_name": "COCO_train2014_000000053601.jpg",
+      "sha256": "a6f47562b4981ec69545fa3c5c58ef315ae5ad02f7240fa5460286531f72adef",
+      "bytes": 143461,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-274786",
+      "file_name": "COCO_train2014_000000274786.jpg",
+      "sha256": "a160aea42a7a996b78ceed599b333d5847468d221ec8d902d9069d1724c8c8d8",
+      "bytes": 171203,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-151908",
+      "file_name": "COCO_train2014_000000151908.jpg",
+      "sha256": "b0a7e1752f9e3ab592e3e94da3ce3d798cbcaf287194ad5b4dc8ef32fea8c97b",
+      "bytes": 200753,
+      "size": [
+        640,
+        296
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-266600",
+      "file_name": "COCO_train2014_000000266600.jpg",
+      "sha256": "2540aaf4845f112771892267654861b69cea7f896defa69af3885e9555a3434f",
+      "bytes": 281024,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-340345",
+      "file_name": "COCO_train2014_000000340345.jpg",
+      "sha256": "7c93af6405d7477e49170ea974c96bf9aa5ac3102ade1edb0146c57e29c2cda3",
+      "bytes": 129553,
+      "size": [
+        640,
+        369
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-389498",
+      "file_name": "COCO_train2014_000000389498.jpg",
+      "sha256": "21afb5bca663ba1c53bb9f8ad344254084265b38d38a849f5e8f64879665535e",
+      "bytes": 195344,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-61842",
+      "file_name": "COCO_train2014_000000061842.jpg",
+      "sha256": "08b9f248e3bfc7c4e583464b40303385336afbfaec34bb631c6de9ca3589f499",
+      "bytes": 92237,
+      "size": [
+        500,
+        332
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-111002",
+      "file_name": "COCO_train2014_000000111002.jpg",
+      "sha256": "13bd298edffc770c78b72ce06385ad5c78df0752e97d470d6f0ffc4dbc2eff51",
+      "bytes": 218162,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-53672",
+      "file_name": "COCO_train2014_000000053672.jpg",
+      "sha256": "8bf6dabd83a3d231817cb52ec5d6d943c30fc79ef2f0ca3a46c25ddf48a8fffa",
+      "bytes": 338831,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-561593",
+      "file_name": "COCO_train2014_000000561593.jpg",
+      "sha256": "ef02f3d255512c2652d676e0dc05061b395d7ce0c0223bbbcefa9a2ef454f8f8",
+      "bytes": 246096,
+      "size": [
+        640,
+        440
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-184761",
+      "file_name": "COCO_train2014_000000184761.jpg",
+      "sha256": "a5194ec05f4834ea608707d74688495b789c0ba90b06fa2bfdf32aa5e1df97c0",
+      "bytes": 59275,
+      "size": [
+        425,
+        352
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-94660",
+      "file_name": "COCO_train2014_000000094660.jpg",
+      "sha256": "91753ba533d5e2ecc3879983ad417c2f979ffe496382b3ceb462f40eeed6b3e4",
+      "bytes": 195121,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-405964",
+      "file_name": "COCO_train2014_000000405964.jpg",
+      "sha256": "720c2be4a539260e460d87557b6fe9c68dcb7bd9a3517b7a3850bb6b586512a7",
+      "bytes": 120573,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-463338",
+      "file_name": "COCO_train2014_000000463338.jpg",
+      "sha256": "bcf6cae102816ccaad60ca8791fafb70242faee010c90ff7684a30a4e4d4c056",
+      "bytes": 211563,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-537097",
+      "file_name": "COCO_train2014_000000537097.jpg",
+      "sha256": "93547f9252e817f4fbf19edb860294b9f8114b4df1eb02149e25ceab7d98796d",
+      "bytes": 216362,
+      "size": [
+        543,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-307745",
+      "file_name": "COCO_train2014_000000307745.jpg",
+      "sha256": "43e4e4301223e37ef6faf82859614e509b2c5e777e3838cf328d4b6284ebab45",
+      "bytes": 156554,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-127543",
+      "file_name": "COCO_train2014_000000127543.jpg",
+      "sha256": "1502ec5a7aa11005cac4d966cabdd240d679e9766b9caf08c316c6618f8b798d",
+      "bytes": 109801,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-299594",
+      "file_name": "COCO_train2014_000000299594.jpg",
+      "sha256": "8f077e89f4bd55443543846f0178936246c2896e55e97dfdcbb08fddb637e4c5",
+      "bytes": 133751,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-365138",
+      "file_name": "COCO_train2014_000000365138.jpg",
+      "sha256": "bb730bb90e07fb7687d29193c25a32046fcb7881b8187c448f807bdc43860251",
+      "bytes": 227009,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-45672",
+      "file_name": "COCO_train2014_000000045672.jpg",
+      "sha256": "c47856204590f74eb376479b228b7c1c06a5e5d840d60b12aaceea68d0779498",
+      "bytes": 115616,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-62057",
+      "file_name": "COCO_train2014_000000062057.jpg",
+      "sha256": "5dfdeb306abe391a3de3fb612c62c0d3e33e700582a1ae220f5a0b9919123b87",
+      "bytes": 186410,
+      "size": [
+        640,
+        374
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-266859",
+      "file_name": "COCO_train2014_000000266859.jpg",
+      "sha256": "1a66d5c67f2d77e65f0d57ca9f131f8fd853e005f538bfc8ba4a78106be05847",
+      "bytes": 141773,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-135822",
+      "file_name": "COCO_train2014_000000135822.jpg",
+      "sha256": "ef3538ba72def071939ef54bce1ade3299bc92a15c8126a6797cbc694f928be3",
+      "bytes": 131278,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-463505",
+      "file_name": "COCO_train2014_000000463505.jpg",
+      "sha256": "ba8777f817efb8391478c5fad337074a93ddb0374d0d3bb90dca4ce831cbe20f",
+      "bytes": 152230,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-488127",
+      "file_name": "COCO_train2014_000000488127.jpg",
+      "sha256": "3b00abad818345720c31abb3d0bac06218e9bfa8298c3b879ffbdb7fb841895c",
+      "bytes": 241763,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-217799",
+      "file_name": "COCO_train2014_000000217799.jpg",
+      "sha256": "0b6941c9d52eda1c2921a74715785755718c055defc290e00bec729eb0b88aab",
+      "bytes": 304456,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-250588",
+      "file_name": "COCO_train2014_000000250588.jpg",
+      "sha256": "42d82766a52740fc29c63f13f5fa8d829378e4d98b32f3303b3515b1f127385f",
+      "bytes": 104136,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-488160",
+      "file_name": "COCO_train2014_000000488160.jpg",
+      "sha256": "d0b184dc6301d66a40b0b92b02d4e69bbe2388cdecfc8b9b539ce45be648a760",
+      "bytes": 224859,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-86754",
+      "file_name": "COCO_train2014_000000086754.jpg",
+      "sha256": "585e06b5f64bcf8351184223da8147286f2281ba5aeffd55944df63a4605c17d",
+      "bytes": 187679,
+      "size": [
+        640,
+        456
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-78572",
+      "file_name": "COCO_train2014_000000078572.jpg",
+      "sha256": "f57fee6feb1c97056f0b57cd037bcd8afd8ce1c4f88314a4db39525cfedfe740",
+      "bytes": 173394,
+      "size": [
+        478,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-119534",
+      "file_name": "COCO_train2014_000000119534.jpg",
+      "sha256": "a56a4530fc9967c691aed22853c927afd065f78c1183f1f970109dd962d6dc6e",
+      "bytes": 240944,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-78578",
+      "file_name": "COCO_train2014_000000078578.jpg",
+      "sha256": "cc4342f7d8c90e16428bc3bb754bc03ec79a55e7aec433ce882d69c9d8b2bb00",
+      "bytes": 203250,
+      "size": [
+        426,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-226046",
+      "file_name": "COCO_train2014_000000226046.jpg",
+      "sha256": "982986736a017a29e315cd0ce871c826fd7279e4579637c54ee21f52b69386f2",
+      "bytes": 170460,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-455424",
+      "file_name": "COCO_train2014_000000455424.jpg",
+      "sha256": "3cdc964d0f90d40b6db26b4ba88d9c134b00c352b336da819d43b5ba9810785e",
+      "bytes": 162916,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-45840",
+      "file_name": "COCO_train2014_000000045840.jpg",
+      "sha256": "c26338d512f2a6d0f1402cbf523f0a869b5307f068681559c67b85e9b652e831",
+      "bytes": 279201,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-29456",
+      "file_name": "COCO_train2014_000000029456.jpg",
+      "sha256": "c0874454b16befbf1742a1e5c4fc61d497f9a188cdbe7e1781844ea4d322600c",
+      "bytes": 204785,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-144180",
+      "file_name": "COCO_train2014_000000144180.jpg",
+      "sha256": "a7f74b0b903e72b224cb1a14a963ad20d388f7e0950d7b53871afe8afc6a95a1",
+      "bytes": 77392,
+      "size": [
+        600,
+        459
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-316238",
+      "file_name": "COCO_train2014_000000316238.jpg",
+      "sha256": "5cb3fb9c317790663698ba028d2c5b5fc8a099df3870d63a4571d6ce3afae834",
+      "bytes": 192623,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-37719",
+      "file_name": "COCO_train2014_000000037719.jpg",
+      "sha256": "c8a7c8a7e7762703b6d5f35e917e580dbbd37fc50094811a11035ee79ffb1fbe",
+      "bytes": 180585,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-471900",
+      "file_name": "COCO_train2014_000000471900.jpg",
+      "sha256": "58f2132270ffe09c3dcbdd8963d5935c95aff36e2e8148beee02169b21c6840c",
+      "bytes": 190250,
+      "size": [
+        640,
+        407
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-562014",
+      "file_name": "COCO_train2014_000000562014.jpg",
+      "sha256": "ce9bd1b66f71dc7d37de873ee53643d76ed000a1b79dc4212fc93233315a0fa3",
+      "bytes": 210158,
+      "size": [
+        499,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-217959",
+      "file_name": "COCO_train2014_000000217959.jpg",
+      "sha256": "325b79af465aecb0f1317f48848e802ef06a68521dfd2b4afdaba579f99247d8",
+      "bytes": 164632,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-521064",
+      "file_name": "COCO_train2014_000000521064.jpg",
+      "sha256": "7be632ba0bc482b82ca82bf6c4b2b8930ba8fa8fa988f1560c8bd70c66dc17f6",
+      "bytes": 105495,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-562063",
+      "file_name": "COCO_train2014_000000562063.jpg",
+      "sha256": "ff601be1a3baea33528052c60f4ad727dc8df745e34df77457e9903db4a3d0b0",
+      "bytes": 198333,
+      "size": [
+        468,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-144275",
+      "file_name": "COCO_train2014_000000144275.jpg",
+      "sha256": "5ce3db690cb4323b104095e99d1870c1ffb1e169f78b989e962af41802ad6258",
+      "bytes": 73615,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-152479",
+      "file_name": "COCO_train2014_000000152479.jpg",
+      "sha256": "005c3ffecdc86b15110e43e5154bba6b41876f24a78c6faf30dca1e1ab834351",
+      "bytes": 159960,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-512951",
+      "file_name": "COCO_train2014_000000512951.jpg",
+      "sha256": "887fcc171ffecf339769716e2d242884f70966d0897d878552be75628e0dac8f",
+      "bytes": 114504,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-447424",
+      "file_name": "COCO_train2014_000000447424.jpg",
+      "sha256": "f8e8aded632aea92f056682fc1dea10f886e1aac588ed8da0e3e91073e69f292",
+      "bytes": 79653,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-185291",
+      "file_name": "COCO_train2014_000000185291.jpg",
+      "sha256": "2a93021efc5d1ee70a6e931d4939c750de46a9aee4380a6adba8113aaf12a491",
+      "bytes": 149904,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-349144",
+      "file_name": "COCO_train2014_000000349144.jpg",
+      "sha256": "d821d13fd358d9681620eb37f786392a4c58775fd1a07f618ed5e0f559b0891e",
+      "bytes": 136530,
+      "size": [
+        426,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-283624",
+      "file_name": "COCO_train2014_000000283624.jpg",
+      "sha256": "1c629f30df52be5ed27ca3d9928b387b0aad11bafbc5bdb40b44bb7c2317ed80",
+      "bytes": 54449,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-349170",
+      "file_name": "COCO_train2014_000000349170.jpg",
+      "sha256": "4c9fd07fd3d4c803ccf7c858e3a64853912e53d56b1c54e6898a4075dc5d04f3",
+      "bytes": 110031,
+      "size": [
+        500,
+        327
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-455667",
+      "file_name": "COCO_train2014_000000455667.jpg",
+      "sha256": "90549770f969400063323e8bf4e4fb9a3a3cdad31202cf30a35b564a71fe4380",
+      "bytes": 232704,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-545793",
+      "file_name": "COCO_train2014_000000545793.jpg",
+      "sha256": "c0cdbd216058dc9fc26437bac69c3e51db5f1def0fd7792ff57a36b25661e239",
+      "bytes": 182041,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-439303",
+      "file_name": "COCO_train2014_000000439303.jpg",
+      "sha256": "e81f56d153f95c848897a9f14756fd55eef583c8fc48dc99c95fe89437134afa",
+      "bytes": 260070,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-349212",
+      "file_name": "COCO_train2014_000000349212.jpg",
+      "sha256": "60ba14ae2c9226419dca0c085d3a1ee3e2b989e5d10a43000a30cd3add2f58cd",
+      "bytes": 154626,
+      "size": [
+        640,
+        537
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-545832",
+      "file_name": "COCO_train2014_000000545832.jpg",
+      "sha256": "8c6e634aa7d1407caca03ed1952d069544a6333193050141c93954d0f7375c5f",
+      "bytes": 177444,
+      "size": [
+        640,
+        485
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-308265",
+      "file_name": "COCO_train2014_000000308265.jpg",
+      "sha256": "834d07ef2daf65953122a3889b1123cb75876a79c678f89cb4341f860b13c780",
+      "bytes": 164654,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-13352",
+      "file_name": "COCO_train2014_000000013352.jpg",
+      "sha256": "e044876b10d6ea6b522c4388521d86c7ce7c013073a770e77c0dbacb8ffc265c",
+      "bytes": 140982,
+      "size": [
+        426,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-504878",
+      "file_name": "COCO_train2014_000000504878.jpg",
+      "sha256": "65f0cc64880dc8cf8a8a3170911b55282326b63a124a56fc097c257e3398dd47",
+      "bytes": 99773,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-54318",
+      "file_name": "COCO_train2014_000000054318.jpg",
+      "sha256": "71a5e44f0fae458930fe83450d3251230c6004121c4b2fdb5104e900801b9f83",
+      "bytes": 251053,
+      "size": [
+        640,
+        429
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-78900",
+      "file_name": "COCO_train2014_000000078900.jpg",
+      "sha256": "01d7c1ae935fdd2a668b59d6e5c6726fcbe266b18ef806a6a4a2a612a4185a35",
+      "bytes": 196788,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-324677",
+      "file_name": "COCO_train2014_000000324677.jpg",
+      "sha256": "3b5a4d3e6d0de010a568a244815e3ef1274108a6dffeef95cbdabbeba79fa990",
+      "bytes": 115088,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-570440",
+      "file_name": "COCO_train2014_000000570440.jpg",
+      "sha256": "f7eb9e70d893adbf85a547fd33e32687d19df821bb732051d735611272d3323f",
+      "bytes": 196750,
+      "size": [
+        426,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-209993",
+      "file_name": "COCO_train2014_000000209993.jpg",
+      "sha256": "bb02f527086b06e225346b9fb41632f5e5637bf5cd82a355cc603628f8abb27a",
+      "bytes": 273500,
+      "size": [
+        640,
+        371
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-439374",
+      "file_name": "COCO_train2014_000000439374.jpg",
+      "sha256": "3e383dab87299fb1df92e30bbba0bf7a5ece4be5f3c482f6811b22d04b29187b",
+      "bytes": 196834,
+      "size": [
+        640,
+        489
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-324705",
+      "file_name": "COCO_train2014_000000324705.jpg",
+      "sha256": "7baa69686db18e52d3ee7102455cc093fcbea913629229ab37bf450e0246fb67",
+      "bytes": 257140,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-250978",
+      "file_name": "COCO_train2014_000000250978.jpg",
+      "sha256": "a98a6861cd163e9b62f3a04b1a5438fac5f2b994c8a83930ae3bb8f1eac048c1",
+      "bytes": 230923,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-332905",
+      "file_name": "COCO_train2014_000000332905.jpg",
+      "sha256": "e8db5e3c39689bc4b71e3c99e1c54864b86e3e168ef49454d39fd34829e14a54",
+      "bytes": 130049,
+      "size": [
+        500,
+        335
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-144495",
+      "file_name": "COCO_train2014_000000144495.jpg",
+      "sha256": "8dfd95072027cf1d12335508425dca514417d0aa97af51aeeb7760ba4963af14",
+      "bytes": 97280,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-496752",
+      "file_name": "COCO_train2014_000000496752.jpg",
+      "sha256": "446c14b28840d5a5cfa014ece4bcc08f853b4c54b424da7e9fd39ae27c9728c6",
+      "bytes": 230404,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-537720",
+      "file_name": "COCO_train2014_000000537720.jpg",
+      "sha256": "b1c38c142f4ad8aedff6761f760cb578943ac91c97d3a661637210912e9eb6b4",
+      "bytes": 212810,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-324732",
+      "file_name": "COCO_train2014_000000324732.jpg",
+      "sha256": "23b9f3b30d8d6c939408dcc136323c76ff0748b2dc6903e14b8b1910f66d0af5",
+      "bytes": 186325,
+      "size": [
+        640,
+        441
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-414850",
+      "file_name": "COCO_train2014_000000414850.jpg",
+      "sha256": "dde982df6cc0336f8974b467332d4c7109110e18cdb8d7fe640424c3896f4778",
+      "bytes": 150424,
+      "size": [
+        640,
+        360
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-357508",
+      "file_name": "COCO_train2014_000000357508.jpg",
+      "sha256": "8e5d09ba179f1dea9a4d8e5c365a1c0fb1be49486284dad727ad1c9967147b10",
+      "bytes": 210960,
+      "size": [
+        640,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-128136",
+      "file_name": "COCO_train2014_000000128136.jpg",
+      "sha256": "b9fc71bf61cca48095b94c0c5497cc70cf63843b1128c6b0972eb1a4f54b7066",
+      "bytes": 211832,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-177289",
+      "file_name": "COCO_train2014_000000177289.jpg",
+      "sha256": "5233c8d650cbd6002a40fe45fbdc7df843da4bcf1313805927d05e327a6bedef",
+      "bytes": 93301,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-160906",
+      "file_name": "COCO_train2014_000000160906.jpg",
+      "sha256": "110e146d095b82fb2f0122e88c964bf4c70393593a26aee30ecc9d80b9205064",
+      "bytes": 105232,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-316557",
+      "file_name": "COCO_train2014_000000316557.jpg",
+      "sha256": "11602b9b21dde08af01b26847ef05363ae7f09a2af3450b6d234afdfe75243f1",
+      "bytes": 213873,
+      "size": [
+        604,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-414881",
+      "file_name": "COCO_train2014_000000414881.jpg",
+      "sha256": "846dbc974128f0747b626258f34a56d83c7e32176df061bf91bd80f8d61ca1b3",
+      "bytes": 180270,
+      "size": [
+        628,
+        442
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-365729",
+      "file_name": "COCO_train2014_000000365729.jpg",
+      "sha256": "191c00575e1c1be2f2af0eb233c50d4932c33116d5b3fccdf5f0251839a9b9c8",
+      "bytes": 114954,
+      "size": [
+        383,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-275707",
+      "file_name": "COCO_train2014_000000275707.jpg",
+      "sha256": "cf9baa7addd36b9eea2da7ccfb21e996462c65e36216a4f8fc5e3d656d9c8b4e",
+      "bytes": 209343,
+      "size": [
+        640,
+        402
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-193829",
+      "file_name": "COCO_train2014_000000193829.jpg",
+      "sha256": "18453a4e79a6fec2c7b66c4982b3e1b0d75c3ca3c5c5840064c9fd64fe8cd24e",
+      "bytes": 152723,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-152871",
+      "file_name": "COCO_train2014_000000152871.jpg",
+      "sha256": "1265ca39efcfc231817f1357debdff4fec148f18d4db5c3155c9dfab9d256d44",
+      "bytes": 197826,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-431400",
+      "file_name": "COCO_train2014_000000431400.jpg",
+      "sha256": "e893e93579538ddadeea7212efade7a754d31862270d563fc0405706d37a1881",
+      "bytes": 235705,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-308536",
+      "file_name": "COCO_train2014_000000308536.jpg",
+      "sha256": "72a6a262d46e9bdd79641a08850b27978053a8dffb078d9a3c34b132616797b5",
+      "bytes": 166395,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-218447",
+      "file_name": "COCO_train2014_000000218447.jpg",
+      "sha256": "37f917c5f09cc4a6e8ac826aaf33d8173a97bb2c4e2bb0180ea04f553cef20b5",
+      "bytes": 144513,
+      "size": [
+        640,
+        429
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-120155",
+      "file_name": "COCO_train2014_000000120155.jpg",
+      "sha256": "d47807ffe80853ab0f617f458fef337c3c9d78b1b43f7248aee62a2c369c5d58",
+      "bytes": 168005,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-177516",
+      "file_name": "COCO_train2014_000000177516.jpg",
+      "sha256": "3f05ead875ee6e6c9af96bef959745e7e5f4d8babfdfc46942b6129d74c49bdd",
+      "bytes": 141182,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-562559",
+      "file_name": "COCO_train2014_000000562559.jpg",
+      "sha256": "a9995ff13fd7c7aec299ffc44fb50b835ed07eaaf66346089a11dbef2f4efd5f",
+      "bytes": 265157,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-521618",
+      "file_name": "COCO_train2014_000000521618.jpg",
+      "sha256": "d43c424e8c6e336d58e43fdaf566d7f4832188e663613ac7944587d032fbcbbc",
+      "bytes": 272439,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-112040",
+      "file_name": "COCO_train2014_000000112040.jpg",
+      "sha256": "aae88e01b80e75149aa29f02708020e69beaa740ea7af19e3cc849c98b3607ab",
+      "bytes": 197708,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-546242",
+      "file_name": "COCO_train2014_000000546242.jpg",
+      "sha256": "6be308b077e27587d0fdfe63147691426b8b98b8c688161105b811dedc831d69",
+      "bytes": 115021,
+      "size": [
+        426,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-406988",
+      "file_name": "COCO_train2014_000000406988.jpg",
+      "sha256": "4c1c64616653c215b73021b84fe02eeafda9b911b56ee68a89abd85c6c0faab1",
+      "bytes": 190953,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-243153",
+      "file_name": "COCO_train2014_000000243153.jpg",
+      "sha256": "2e88eb4b3df6616c3d137c6d43794479bb16ed1532cb669487721f19384ddeb3",
+      "bytes": 100858,
+      "size": [
+        640,
+        437
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-120274",
+      "file_name": "COCO_train2014_000000120274.jpg",
+      "sha256": "16cf5eca6d8de7571878442c4be8d8bfeb57ff430d2b3660f628ce0a427f2864",
+      "bytes": 217088,
+      "size": [
+        478,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-5587",
+      "file_name": "COCO_train2014_000000005587.jpg",
+      "sha256": "c7ced449b8f78650756c5865f63efaaaf09c4e40dc6297d80338f70596fb0501",
+      "bytes": 215456,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-292315",
+      "file_name": "COCO_train2014_000000292315.jpg",
+      "sha256": "ceaadd10660136c8550cb63b0e29154467056c04cdc724d8abbc181237c1c2b9",
+      "bytes": 147782,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-87518",
+      "file_name": "COCO_train2014_000000087518.jpg",
+      "sha256": "db446757fa34918a098cdfd0af2090233e0635f8d59f078808d9e1a62dda7bcf",
+      "bytes": 106097,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-366071",
+      "file_name": "COCO_train2014_000000366071.jpg",
+      "sha256": "70b561b56e9787f66113aad144ce649800e64933f2beb390df889c3cb1855a89",
+      "bytes": 227510,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-177658",
+      "file_name": "COCO_train2014_000000177658.jpg",
+      "sha256": "1b2ab07a2048fcaf6a0402f2e64016dcceb79d656b36ad23d37045983e6929f0",
+      "bytes": 243708,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-30203",
+      "file_name": "COCO_train2014_000000030203.jpg",
+      "sha256": "60466f007faa6484d4f8270ce5fa75d23b197537bb728a2cfa6279499b8ed2ff",
+      "bytes": 87307,
+      "size": [
+        640,
+        479
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-546301",
+      "file_name": "COCO_train2014_000000546301.jpg",
+      "sha256": "ea787aa71acc6ddf6d5dd79c9c8ca3076dfbf83ad0eae727561f9160d7189c32",
+      "bytes": 100000,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-267779",
+      "file_name": "COCO_train2014_000000267779.jpg",
+      "sha256": "874b682eb73ab891c08531c8c61d18cd7ce4ce556bf467454ceb79418c82d077",
+      "bytes": 92184,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-5638",
+      "file_name": "COCO_train2014_000000005638.jpg",
+      "sha256": "9824cbb439d89ab938d5facdd3bd5ddca92c1abfca4a450c207eff67493c552b",
+      "bytes": 201894,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-456216",
+      "file_name": "COCO_train2014_000000456216.jpg",
+      "sha256": "0d80b874b860aa4b19f7f019fd9aa1dc9ee0e73504f115b2b5be489e5d363ede",
+      "bytes": 94471,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-226840",
+      "file_name": "COCO_train2014_000000226840.jpg",
+      "sha256": "b9fdf4576bd30d79e3e45ba082ef71ad6a5ce2ce8e6cd74a6a04720c24a1f4e6",
+      "bytes": 196962,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-267815",
+      "file_name": "COCO_train2014_000000267815.jpg",
+      "sha256": "1bea62daf7a2da6370a81ff45b2f857d942bc955d7946a81ff5917aa3b23c12b",
+      "bytes": 182851,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-103978",
+      "file_name": "COCO_train2014_000000103978.jpg",
+      "sha256": "d48b11a5113c47c319a305f85e73276d3bc7ac047c74f5208abb1388acab7098",
+      "bytes": 106808,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-30274",
+      "file_name": "COCO_train2014_000000030274.jpg",
+      "sha256": "38f18e7b21fb46d71d064396d5875bfff809c9e0791b1fcdf58f66f8c8033ebf",
+      "bytes": 216597,
+      "size": [
+        432,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-95812",
+      "file_name": "COCO_train2014_000000095812.jpg",
+      "sha256": "fb6382e0208a7107de0172793b2109da3ab869c652c58a6786b47d68d60f09e4",
+      "bytes": 233762,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-79441",
+      "file_name": "COCO_train2014_000000079441.jpg",
+      "sha256": "bd85a866cc617a4f0e293130c7b02b77dee032193aa4a8911eebf90dc00cc1bf",
+      "bytes": 148693,
+      "size": [
+        640,
+        489
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-128599",
+      "file_name": "COCO_train2014_000000128599.jpg",
+      "sha256": "9d88e11306db1a9f67ea424a96da773849d01f3284281165801ae6e216fc1da0",
+      "bytes": 172697,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-390749",
+      "file_name": "COCO_train2014_000000390749.jpg",
+      "sha256": "b7a14a69471f81a5b9eaa559efb478d7c1b9faa11d06eb429c508bc2d0c5c65c",
+      "bytes": 176208,
+      "size": [
+        640,
+        360
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-267871",
+      "file_name": "COCO_train2014_000000267871.jpg",
+      "sha256": "4396c9d213bdd69c58754d38ce2d5232f5c513177b456cc430cedc3b9051dd50",
+      "bytes": 154327,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-554598",
+      "file_name": "COCO_train2014_000000554598.jpg",
+      "sha256": "ad9bfdb6665fd4c996d4216ef8ca7cf97c73d2cd4b4045595165da43c2269892",
+      "bytes": 176777,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-513643",
+      "file_name": "COCO_train2014_000000513643.jpg",
+      "sha256": "bb73e2d488dd6f2b586ced916b502a1d47e4fda1341f50b2b1681cdf101ef824",
+      "bytes": 170339,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-243336",
+      "file_name": "COCO_train2014_000000243336.jpg",
+      "sha256": "f22bb9f3f804f96d16d41eb48bbf39f8698a47848f003a370f8936fce0509b84",
+      "bytes": 168464,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-497296",
+      "file_name": "COCO_train2014_000000497296.jpg",
+      "sha256": "ba1c6c713a84df9f0f277790987409d907959fa6c4496e5a95a8d2948fbfca86",
+      "bytes": 152611,
+      "size": [
+        499,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-292498",
+      "file_name": "COCO_train2014_000000292498.jpg",
+      "sha256": "4a28391b7d08bf8ae2dea74af92fe592a7b1e52bdcd229736ad3c08321fc3998",
+      "bytes": 171479,
+      "size": [
+        640,
+        361
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-538263",
+      "file_name": "COCO_train2014_000000538263.jpg",
+      "sha256": "d7f197f3139f7701955010b82557e902031558edf8ed8307d14bedf4beaeea64",
+      "bytes": 92033,
+      "size": [
+        428,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-169653",
+      "file_name": "COCO_train2014_000000169653.jpg",
+      "sha256": "3a43b6db0600697828c1832b32e11d04e25da4ae0cd0452130c4a23bf3f4b013",
+      "bytes": 177189,
+      "size": [
+        640,
+        504
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-317112",
+      "file_name": "COCO_train2014_000000317112.jpg",
+      "sha256": "8adeebcfdf296f8a041dfa468d39e3a752017b9086175ba945175607d17aa0e2",
+      "bytes": 110295,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-554699",
+      "file_name": "COCO_train2014_000000554699.jpg",
+      "sha256": "ba436eaa217d8d475f3804cb235b1547e140b8d88ef47f194dc813e1ccdb17c3",
+      "bytes": 90845,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-530132",
+      "file_name": "COCO_train2014_000000530132.jpg",
+      "sha256": "183bb66d6803fe8080a409abacf5d08ff43e043d79736c84d5e877f2cc896e65",
+      "bytes": 204909,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-464615",
+      "file_name": "COCO_train2014_000000464615.jpg",
+      "sha256": "09211d9563285679065e1bfcc1c2c939d958d7a64a4508dbaebe6216348185bd",
+      "bytes": 162749,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-71399",
+      "file_name": "COCO_train2014_000000071399.jpg",
+      "sha256": "5c10a46c4252fc14b31cd8e2784ec1b9720d2aa1539441f472818c955b7aa5c1",
+      "bytes": 349406,
+      "size": [
+        640,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-128775",
+      "file_name": "COCO_train2014_000000128775.jpg",
+      "sha256": "d12b646c1c43d881d554d693fc9dc77fd9fed66207923b2d10cfe32d2ca004b8",
+      "bytes": 202876,
+      "size": [
+        375,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-538398",
+      "file_name": "COCO_train2014_000000538398.jpg",
+      "sha256": "f29898466c070a1fdeaaed63b54d7dcbc4ecf0fe6765b62bdb49a4e7186aeb08",
+      "bytes": 202319,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-390963",
+      "file_name": "COCO_train2014_000000390963.jpg",
+      "sha256": "6601f282f15467ac6ff59aeca3186b20734bb0bee26e995c75105e832a683f31",
+      "bytes": 191183,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-235316",
+      "file_name": "COCO_train2014_000000235316.jpg",
+      "sha256": "83b2a5e177579868ba77e0b56c1b85c8785a0d249327e8cdd817f0032f4d4011",
+      "bytes": 220164,
+      "size": [
+        640,
+        448
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-104248",
+      "file_name": "COCO_train2014_000000104248.jpg",
+      "sha256": "d847e141da939664a2a1880a6184a2411752d9839da0869bc48a7627289c3d1f",
+      "bytes": 81653,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-390969",
+      "file_name": "COCO_train2014_000000390969.jpg",
+      "sha256": "acc5770abc5c4bf7495183d28b938df322e97ea232577571324e1d6863ca9b32",
+      "bytes": 106575,
+      "size": [
+        500,
+        332
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-104277",
+      "file_name": "COCO_train2014_000000104277.jpg",
+      "sha256": "867cdf2856850d2e301730bc8a26adb80fce496a35dcca3b8e93842b865615f0",
+      "bytes": 155645,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-440154",
+      "file_name": "COCO_train2014_000000440154.jpg",
+      "sha256": "29a652c6bc9e675c48dcf585471adfe12761ce02d693b1cefb676f36660b5551",
+      "bytes": 178321,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-456545",
+      "file_name": "COCO_train2014_000000456545.jpg",
+      "sha256": "8d1356e0f313000e74f815f173eb5c2a702447b645a36274c9d42a069c1fc21c",
+      "bytes": 305992,
+      "size": [
+        640,
+        629
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-227178",
+      "file_name": "COCO_train2014_000000227178.jpg",
+      "sha256": "f38c40c4429492af19448975af2909accbd2203b57856db60f6a71ca0554f767",
+      "bytes": 206607,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-79722",
+      "file_name": "COCO_train2014_000000079722.jpg",
+      "sha256": "3ddcbd1a6a15c763ee462282ba9ca4b99ea8f89f6585e0deafca96746a26d52b",
+      "bytes": 122142,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-579440",
+      "file_name": "COCO_train2014_000000579440.jpg",
+      "sha256": "c996a9fb8eb555be9f84bb55c2b9d93eb071bf944cf7eb050fa71ba6b149f6f5",
+      "bytes": 135918,
+      "size": [
+        640,
+        360
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-472954",
+      "file_name": "COCO_train2014_000000472954.jpg",
+      "sha256": "eb5fa32d2577b36e4fa14231ebea1feec03b0dfbb13b0ce2de8ca847089fb706",
+      "bytes": 179560,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-153475",
+      "file_name": "COCO_train2014_000000153475.jpg",
+      "sha256": "d1910155726b75f7b84f4f2480ca2e7787a39a79b754e13f666470b85475d882",
+      "bytes": 70148,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-309135",
+      "file_name": "COCO_train2014_000000309135.jpg",
+      "sha256": "162cba805fe16a83266469d8aacdf9e362b0b61f7966e60b133a4fe34d657213",
+      "bytes": 309663,
+      "size": [
+        640,
+        449
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-202657",
+      "file_name": "COCO_train2014_000000202657.jpg",
+      "sha256": "88d024ba1c6b6e3431eae8bdb3d13ef20d00498a5729af209683957e495bd520",
+      "bytes": 164095,
+      "size": [
+        621,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-6051",
+      "file_name": "COCO_train2014_000000006051.jpg",
+      "sha256": "5a23174042b4975356ca0387b91e9cf1ac17bdcc7426492577d65697c935533a",
+      "bytes": 184475,
+      "size": [
+        640,
+        459
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-538544",
+      "file_name": "COCO_train2014_000000538544.jpg",
+      "sha256": "d16eb1199f081c08f20058b5ffe8aeeb3bcc15f6d6d75d2e525aaa31e115a5cc",
+      "bytes": 117525,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-276417",
+      "file_name": "COCO_train2014_000000276417.jpg",
+      "sha256": "c188da6c4eceac860057be3b21d54fedf9ead4599b3a0e2003401ea39ed2cbb8",
+      "bytes": 178321,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-128974",
+      "file_name": "COCO_train2014_000000128974.jpg",
+      "sha256": "eeb7cc72a0fcf291e7d9657d9328f7694d4baaa39b72785f198bc239db669d68",
+      "bytes": 164354,
+      "size": [
+        640,
+        485
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-423890",
+      "file_name": "COCO_train2014_000000423890.jpg",
+      "sha256": "bd495539f31c1bd40ea657a653ed775392f233a10c586b9c951c207cf5ed8d65",
+      "bytes": 131644,
+      "size": [
+        600,
+        450
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-38890",
+      "file_name": "COCO_train2014_000000038890.jpg",
+      "sha256": "a7bf3cbf331b6470ed02d1fd3a2a8e84b0dad283f2e9a7e06b2d25889b1646b3",
+      "bytes": 192599,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-276460",
+      "file_name": "COCO_train2014_000000276460.jpg",
+      "sha256": "9c267949e254282533b87be887434942bea2507223fe514df9eacf91ee4593a7",
+      "bytes": 210554,
+      "size": [
+        640,
+        410
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-202755",
+      "file_name": "COCO_train2014_000000202755.jpg",
+      "sha256": "5d68b24dd226eaec8b26cb81cb6bf4987d26b85fdf5a829afd86a077ef15d00d",
+      "bytes": 103228,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-243717",
+      "file_name": "COCO_train2014_000000243717.jpg",
+      "sha256": "e6160761f69389305fd7a4ec7a81b53d725eb248003ec20d298e2e4a18f78fad",
+      "bytes": 192205,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-538633",
+      "file_name": "COCO_train2014_000000538633.jpg",
+      "sha256": "ff416d92f3494f14594cabb2525b19f01a64ef3c61a09f606cc48a1d8b0319fe",
+      "bytes": 140148,
+      "size": [
+        640,
+        392
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-481292",
+      "file_name": "COCO_train2014_000000481292.jpg",
+      "sha256": "80833b959e5dfde5ce9320f2c654e8caeed1769301a13f5220601e980fb69177",
+      "bytes": 253431,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-514064",
+      "file_name": "COCO_train2014_000000514064.jpg",
+      "sha256": "a9fe74b7f70d9d4abc67ab6a19e9ed809e7a520ef42cc86bccb86b6260be3f6f",
+      "bytes": 113470,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-178192",
+      "file_name": "COCO_train2014_000000178192.jpg",
+      "sha256": "b7abe55d912e2a2b3cbc3b1cb9e0b6af98bf10954898dcb2b1e1d8268f324f39",
+      "bytes": 102599,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-448531",
+      "file_name": "COCO_train2014_000000448531.jpg",
+      "sha256": "f9900aa11ec58390f81c8581de34dda20b02c5e36283a4ac249cb423bf6faff7",
+      "bytes": 126983,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-505884",
+      "file_name": "COCO_train2014_000000505884.jpg",
+      "sha256": "d6972b936754887834e8b4663a00cfb1968a5a8aa022be5ef6f0e771a5c03d8f",
+      "bytes": 213383,
+      "size": [
+        640,
+        515
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-260129",
+      "file_name": "COCO_train2014_000000260129.jpg",
+      "sha256": "f2ede2fa9702d9f5f0500cfd278083f151203f77e6a43ac9e08860379d210a2a",
+      "bytes": 221003,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-432170",
+      "file_name": "COCO_train2014_000000432170.jpg",
+      "sha256": "3b84923639e313682f4c2f4e7b7f2436fc062b9de7d7e9fcf6abade1e1e96c26",
+      "bytes": 163764,
+      "size": [
+        444,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-440389",
+      "file_name": "COCO_train2014_000000440389.jpg",
+      "sha256": "9603c8fa048b717069f921e59fe4f6780c70c1001c2f6fa9fa6e3450273eb970",
+      "bytes": 197477,
+      "size": [
+        640,
+        466
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-399432",
+      "file_name": "COCO_train2014_000000399432.jpg",
+      "sha256": "cad5449e9a43f63abec9cca116f6ef6ea10f9459560e17684b593de49f9e5b3d",
+      "bytes": 230476,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-161865",
+      "file_name": "COCO_train2014_000000161865.jpg",
+      "sha256": "6ba02841a1317b09430eee926f5e94c46dcfd09636f959a2e912dc4f92aba9be",
+      "bytes": 72839,
+      "size": [
+        640,
+        468
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-153711",
+      "file_name": "COCO_train2014_000000153711.jpg",
+      "sha256": "bcec5a533c1836b66f43655126be90047d01ee3ab8d730d77f4b971f7076e316",
+      "bytes": 165662,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-391292",
+      "file_name": "COCO_train2014_000000391292.jpg",
+      "sha256": "439ac6e34f70c14a9f0009887c1e6379b11a33866ffabd1b64470da1bd0bedab",
+      "bytes": 237433,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-317573",
+      "file_name": "COCO_train2014_000000317573.jpg",
+      "sha256": "344bc2d9a2041c2ed6cacc46459547f5936a9c2a8720ca766e643aa891618c66",
+      "bytes": 147788,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-571541",
+      "file_name": "COCO_train2014_000000571541.jpg",
+      "sha256": "e2486554e11ff0ae38a4ce84cd5fe3d99ca10d48d92d27bd3ec52dda5387eab6",
+      "bytes": 218451,
+      "size": [
+        640,
+        490
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-473261",
+      "file_name": "COCO_train2014_000000473261.jpg",
+      "sha256": "3ebd14c042f72f86411eb257d382fe6ad41a8ca7c70cb611e7680e9cfc4734db",
+      "bytes": 169682,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-325806",
+      "file_name": "COCO_train2014_000000325806.jpg",
+      "sha256": "ea2a45fe740a9a2371bc40e262230351d902ff3cfc58448787742a52d7772c94",
+      "bytes": 181448,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-211138",
+      "file_name": "COCO_train2014_000000211138.jpg",
+      "sha256": "12a1843dd460b24a759041a1d0b930e074aebfb1ae1f482a2d71b9b902490927",
+      "bytes": 211507,
+      "size": [
+        640,
+        423
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-194758",
+      "file_name": "COCO_train2014_000000194758.jpg",
+      "sha256": "c158aaee407b8a935eafabc1a1174f0cc8105ecdfd69def517ba50611319083f",
+      "bytes": 193922,
+      "size": [
+        640,
+        481
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-145606",
+      "file_name": "COCO_train2014_000000145606.jpg",
+      "sha256": "e05d4806e5215d0a881fa7861420839ef3306bd746ab0b7f31b621b77e8902c1",
+      "bytes": 212197,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-276686",
+      "file_name": "COCO_train2014_000000276686.jpg",
+      "sha256": "0dd41e7c80c80f1ed86ca5ab074497422f8e0ff0ed51e526247481d20d359835",
+      "bytes": 185725,
+      "size": [
+        426,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-522462",
+      "file_name": "COCO_train2014_000000522462.jpg",
+      "sha256": "526c3a27f0bf1d64291bc88a150026e3a65f1800bf2e0ae3cb44073c2ebc048a",
+      "bytes": 190608,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-252136",
+      "file_name": "COCO_train2014_000000252136.jpg",
+      "sha256": "d62fdad98c71ab5649123126af81848139bd4a3253122df909d8afcfddc19b96",
+      "bytes": 167074,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-432372",
+      "file_name": "COCO_train2014_000000432372.jpg",
+      "sha256": "fcb2ba0aa703d83438896941393042388694a009f1bc566b4c30fa29f0b10933",
+      "bytes": 112579,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-571671",
+      "file_name": "COCO_train2014_000000571671.jpg",
+      "sha256": "15c1c8fb3836b9717bc9049e72d10665be522ad0aae3fdfc5a25973841205a59",
+      "bytes": 88465,
+      "size": [
+        640,
+        432
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-235802",
+      "file_name": "COCO_train2014_000000235802.jpg",
+      "sha256": "93b2904c7855254f0fb2ea11501943046521f2521088d9255cc671740d067e5a",
+      "bytes": 215178,
+      "size": [
+        640,
+        488
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-71989",
+      "file_name": "COCO_train2014_000000071989.jpg",
+      "sha256": "f1f5379f3fb376047c92e72e87f378dfd688f504bb8edc4352e103c3a9d6adb2",
+      "bytes": 133686,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-162102",
+      "file_name": "COCO_train2014_000000162102.jpg",
+      "sha256": "6b0ba6f88cb9da8f8e9e1df28d4c688ad35ad814f8e0d5c2be0a1f0512a87466",
+      "bytes": 175899,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-391488",
+      "file_name": "COCO_train2014_000000391488.jpg",
+      "sha256": "4ef10a39f33bf2ac842c0a552e5c0b202bc8990abf35162eb0d99eead8067708",
+      "bytes": 109962,
+      "size": [
+        500,
+        400
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-203069",
+      "file_name": "COCO_train2014_000000203069.jpg",
+      "sha256": "c7994b9703bea913dddb9975cb073d9c5008f6038e39b07005ccd76e566ac6e3",
+      "bytes": 270598,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-424278",
+      "file_name": "COCO_train2014_000000424278.jpg",
+      "sha256": "4a6c8e7f252dacee4b702c962ca47bb103183f3066e90dfde63759ea1c72563a",
+      "bytes": 122951,
+      "size": [
+        640,
+        484
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-252277",
+      "file_name": "COCO_train2014_000000252277.jpg",
+      "sha256": "9e69d1c429864c4e728ba678c827141e8fb3e9914d271ab6b7a57acf858afebf",
+      "bytes": 96716,
+      "size": [
+        640,
+        394
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-358789",
+      "file_name": "COCO_train2014_000000358789.jpg",
+      "sha256": "27bde6fe3a651b15ec35f5aa470a78d33f853f00ddb0c48a25e04bb7eca124f4",
+      "bytes": 130009,
+      "size": [
+        422,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-22928",
+      "file_name": "COCO_train2014_000000022928.jpg",
+      "sha256": "cdc51f705b69ffb3f9870488260087abfb8fc3e17ff85418f33fa7098bff52e9",
+      "bytes": 23455,
+      "size": [
+        300,
+        176
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-162200",
+      "file_name": "COCO_train2014_000000162200.jpg",
+      "sha256": "4a8ecc1c4e37602fb6d9057110b4a4f6346afc70f05ab0d573e757ef994e20c2",
+      "bytes": 168349,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-309706",
+      "file_name": "COCO_train2014_000000309706.jpg",
+      "sha256": "b6224f40aa976dee833510082e07b7475eb329a9320b18a902010694c48c7920",
+      "bytes": 151968,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-244171",
+      "file_name": "COCO_train2014_000000244171.jpg",
+      "sha256": "785f7083cef9d93d4cbeb1330e459ba9895c990ed213a37863ed72caf8a61572",
+      "bytes": 156479,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-326092",
+      "file_name": "COCO_train2014_000000326092.jpg",
+      "sha256": "f3382d9b9ada8028c3baf017af0d500c3709d2342c4e878d714aaddbb29d740e",
+      "bytes": 159445,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-563679",
+      "file_name": "COCO_train2014_000000563679.jpg",
+      "sha256": "c145365116e39fc381d96e9265ef18149aa2d8a55b29e4326133285f50fcefd4",
+      "bytes": 151790,
+      "size": [
+        500,
+        333
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-457190",
+      "file_name": "COCO_train2014_000000457190.jpg",
+      "sha256": "c6b5945f3073d5014fdb715245a98813658030afda4ef69c15bc6a07c0a27ad3",
+      "bytes": 152400,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-162283",
+      "file_name": "COCO_train2014_000000162283.jpg",
+      "sha256": "a1316256035eb236d8323bbf1425c48c8f878278735020ecae9244c6f5adab18",
+      "bytes": 118669,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-227825",
+      "file_name": "COCO_train2014_000000227825.jpg",
+      "sha256": "e5892f8f5cd2af16dba835f06aca9138d46046d286b98542056c1a5c94676159",
+      "bytes": 265389,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-399880",
+      "file_name": "COCO_train2014_000000399880.jpg",
+      "sha256": "75a81512792d4ea7c7dba04f2c799060078b4ca1769807436b5ed4e4847834b3",
+      "bytes": 163096,
+      "size": [
+        640,
+        516
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-522771",
+      "file_name": "COCO_train2014_000000522771.jpg",
+      "sha256": "3a701410e5093e8c5c618a21da4cd0f6c3375c17e69eef880a34aa82ef3f2c93",
+      "bytes": 108363,
+      "size": [
+        640,
+        432
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-432683",
+      "file_name": "COCO_train2014_000000432683.jpg",
+      "sha256": "392c4a5c930a6775199160d7c6ba6de0ab609874b3c6377eb60cea6221430d92",
+      "bytes": 134117,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-563764",
+      "file_name": "COCO_train2014_000000563764.jpg",
+      "sha256": "02423f50d0dc4e27244a9d5bb8672b595dc12a88a38a17a76f18f99d34244975",
+      "bytes": 165456,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-514622",
+      "file_name": "COCO_train2014_000000514622.jpg",
+      "sha256": "55a2da19a0c3609070e88a4c9e4b2cddb3a9eaf3568c6665e0fd3a1eae9074d5",
+      "bytes": 88967,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-88647",
+      "file_name": "COCO_train2014_000000088647.jpg",
+      "sha256": "c1720895b8a6d6b693b9c75bc0dfc64063e57846e3b32a7736efa6c14f86f77d",
+      "bytes": 60702,
+      "size": [
+        640,
+        360
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-80471",
+      "file_name": "COCO_train2014_000000080471.jpg",
+      "sha256": "0399eec0c5c2dfb65b16064d4f7dda69c6be1342843f06bc9fe013e2bd3de94f",
+      "bytes": 162842,
+      "size": [
+        640,
+        494
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-64092",
+      "file_name": "COCO_train2014_000000064092.jpg",
+      "sha256": "d13cf2c5b6e991645c1ffdbcf25a54e3122de160ff8b158b39878b8b887ea47a",
+      "bytes": 136727,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-23141",
+      "file_name": "COCO_train2014_000000023141.jpg",
+      "sha256": "f07435d457387658519d500db326a06388a037630ccd3ac6aa8d4bf698973809",
+      "bytes": 167863,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-211570",
+      "file_name": "COCO_train2014_000000211570.jpg",
+      "sha256": "e13d42f388a8cffa0894fbcb9c34000ef4f07460495c9af5450d2a7f0b21391d",
+      "bytes": 106031,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-473726",
+      "file_name": "COCO_train2014_000000473726.jpg",
+      "sha256": "41669acdc316f3167bfb0d1bd143841255d7844697ec74d3357131f21a6161e0",
+      "bytes": 68874,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-80521",
+      "file_name": "COCO_train2014_000000080521.jpg",
+      "sha256": "bc1d4b078f6280ffe8988a9771315b9868623bb9c3e7e8951c620a4d2edc73c6",
+      "bytes": 147592,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-47774",
+      "file_name": "COCO_train2014_000000047774.jpg",
+      "sha256": "36f58041dfda775fe5d403e21ee0eb8e52d019891b904e1a8bd1e7a07fa1a1ac",
+      "bytes": 197756,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-449197",
+      "file_name": "COCO_train2014_000000449197.jpg",
+      "sha256": "7a2ef8f6605249b10cc6013511df265db1d71e2c1bde3738d43c0b87d36d4855",
+      "bytes": 187409,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-416450",
+      "file_name": "COCO_train2014_000000416450.jpg",
+      "sha256": "e8f5a87afb5a7d3abad59878de0ecd9e05b2ced425b1d5546ab869c242f2509e",
+      "bytes": 78827,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-56028",
+      "file_name": "COCO_train2014_000000056028.jpg",
+      "sha256": "cc2190cfd7c2930c6bf2d0badb393f597bf2c0e7dae6cadb3b6d3ae1f3dca940",
+      "bytes": 329694,
+      "size": [
+        534,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-457437",
+      "file_name": "COCO_train2014_000000457437.jpg",
+      "sha256": "8e18692c648687057ebb9e5c8010a1b81fd9b047b759aa3e080b47251c9aeece",
+      "bytes": 189922,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-187119",
+      "file_name": "COCO_train2014_000000187119.jpg",
+      "sha256": "a1e19c89da4fe7eb53af4829cf6c4b95e3ffd165c04b3e29379530aeb1503106",
+      "bytes": 224550,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-555771",
+      "file_name": "COCO_train2014_000000555771.jpg",
+      "sha256": "d3e4a6e3ac73593e9671775d71c142f8d9a5130c0068a0e5799693d2057ec54d",
+      "bytes": 173172,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-310013",
+      "file_name": "COCO_train2014_000000310013.jpg",
+      "sha256": "0a61677f13609362c56726338b4eacd59c5d709717b3389ab88376a77f26d5f2",
+      "bytes": 213276,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-88868",
+      "file_name": "COCO_train2014_000000088868.jpg",
+      "sha256": "7d99b1b212bcf3777969b05ef7af40ddc459ffb86733e61e934cccb257e7b3e9",
+      "bytes": 236392,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-260932",
+      "file_name": "COCO_train2014_000000260932.jpg",
+      "sha256": "eeea7d8274c8a2c69f062a97edcc2b778e985e14125aac53080f739d76065d21",
+      "bytes": 371548,
+      "size": [
+        640,
+        512
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-457555",
+      "file_name": "COCO_train2014_000000457555.jpg",
+      "sha256": "fc99e90e34583cc4e20dbd8eba656feea59e4d4dcc1a1fec8a220228101c4bda",
+      "bytes": 301494,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-252768",
+      "file_name": "COCO_train2014_000000252768.jpg",
+      "sha256": "25d20492627f63ae8aee589aa19b93206db0058d48fa38d8b0ff06244aab10c9",
+      "bytes": 145693,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-269160",
+      "file_name": "COCO_train2014_000000269160.jpg",
+      "sha256": "3e4f62f1d1ce9fb7926e16dbfd7f57e011377e9887d65b1bad15342417b2acc7",
+      "bytes": 135790,
+      "size": [
+        640,
+        475
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-228215",
+      "file_name": "COCO_train2014_000000228215.jpg",
+      "sha256": "923d7aa7784274d4fe668807c92aac07d912ab315cffff8c77a4bb782e295c12",
+      "bytes": 138995,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-416651",
+      "file_name": "COCO_train2014_000000416651.jpg",
+      "sha256": "e18ac1f3fff7128cb51ca012f44ef23341ede624e8ede6c9fac55a4e3969d014",
+      "bytes": 280518,
+      "size": [
+        640,
+        523
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-138131",
+      "file_name": "COCO_train2014_000000138131.jpg",
+      "sha256": "f6c1922ee41d41900593275306adeebf6a9c96851812e0062c73f67d125a40c9",
+      "bytes": 134342,
+      "size": [
+        575,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-334742",
+      "file_name": "COCO_train2014_000000334742.jpg",
+      "sha256": "8ebdb8f83c498c37942542b21a9303841cb7ad7374180abc443433b0061bd714",
+      "bytes": 140525,
+      "size": [
+        640,
+        448
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-359339",
+      "file_name": "COCO_train2014_000000359339.jpg",
+      "sha256": "62f0a5deab84053573032315677ce9bd89220f8791b7735ca9d6fc811b2d2073",
+      "bytes": 96805,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-80826",
+      "file_name": "COCO_train2014_000000080826.jpg",
+      "sha256": "c1284571e2e40f4e49642ee11cc8d7151918d3bbc29eaf6b0d49f9595222db2c",
+      "bytes": 216500,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-498639",
+      "file_name": "COCO_train2014_000000498639.jpg",
+      "sha256": "7ccc0dd927d8861e1acc8a330ec5970f27abb2a36f3a567be34408c9b986b398",
+      "bytes": 171614,
+      "size": [
+        640,
+        434
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-179159",
+      "file_name": "COCO_train2014_000000179159.jpg",
+      "sha256": "ef4f221df5777769567513f73863d0d56eeb8bbf35b06413c5159ac24c88f7c9",
+      "bytes": 244045,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-179164",
+      "file_name": "COCO_train2014_000000179164.jpg",
+      "sha256": "375b80881cf181fb6fa76862339453248023666be2a165c317465037318f7b47",
+      "bytes": 118168,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-392180",
+      "file_name": "COCO_train2014_000000392180.jpg",
+      "sha256": "31f02288ef9e10c69224fa3afb62521b0fd679b1a1ee8f369d1627cacf4e6cb3",
+      "bytes": 159478,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-220148",
+      "file_name": "COCO_train2014_000000220148.jpg",
+      "sha256": "b844984b5aaa6b333e6c5ba02488988792be8405258b5b1d9a673d71726f551a",
+      "bytes": 209980,
+      "size": [
+        640,
+        512
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-490490",
+      "file_name": "COCO_train2014_000000490490.jpg",
+      "sha256": "191f8d49ecb21aa60adb9c7f1b6b49b67acf484d192ef337cc538a89df2be04b",
+      "bytes": 96157,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-121903",
+      "file_name": "COCO_train2014_000000121903.jpg",
+      "sha256": "3aa8579723d4ee5fdf2ad92f74a5f667be5274e7a61d004ca5f165013e5e0dcd",
+      "bytes": 95309,
+      "size": [
+        640,
+        314
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-23603",
+      "file_name": "COCO_train2014_000000023603.jpg",
+      "sha256": "ef6d85f1c413e953f579631d28dd6a9bc94bc37bee39f6a87d8a670685a58bbc",
+      "bytes": 229621,
+      "size": [
+        640,
+        359
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-318528",
+      "file_name": "COCO_train2014_000000318528.jpg",
+      "sha256": "6e88376bbe06a4930e2b76e05673d076a62a281938537cf22f57b8445ba94452",
+      "bytes": 190933,
+      "size": [
+        403,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-130116",
+      "file_name": "COCO_train2014_000000130116.jpg",
+      "sha256": "78f664ad32e943df36d0628d6dfad5823b873a25b6f041bc963676a465074894",
+      "bytes": 118702,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-457800",
+      "file_name": "COCO_train2014_000000457800.jpg",
+      "sha256": "b6f3abdf46e838b70c418af3b33d4160303597881aa0705ae785d3e69e7dd158",
+      "bytes": 165794,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-89187",
+      "file_name": "COCO_train2014_000000089187.jpg",
+      "sha256": "1e410cd91e388c66a9814f9efae19c049cfd5bed734cd5694b9f875ec6bd77fc",
+      "bytes": 154805,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-515229",
+      "file_name": "COCO_train2014_000000515229.jpg",
+      "sha256": "c5c8e1fc2446c6b04d815489ee53be07f3ac9e081e45f08fa3b1d4044cbbce50",
+      "bytes": 181118,
+      "size": [
+        425,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-343201",
+      "file_name": "COCO_train2014_000000343201.jpg",
+      "sha256": "6c142fd8376f6ebc090fee136dd15767b6476bb1fcfb790d16995d40d11c29c2",
+      "bytes": 226226,
+      "size": [
+        640,
+        478
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-351397",
+      "file_name": "COCO_train2014_000000351397.jpg",
+      "sha256": "e8992bcc3c89837a50fc61edc230ea603241a55c1a585a7e9a67dff9e45217f6",
+      "bytes": 166262,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-171194",
+      "file_name": "COCO_train2014_000000171194.jpg",
+      "sha256": "09cbce903a170fc06dcb1a2b741d8bc496c81e2bf5d1ea65c0be7907de3c8376",
+      "bytes": 169991,
+      "size": [
+        640,
+        429
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-15554",
+      "file_name": "COCO_train2014_000000015554.jpg",
+      "sha256": "f1c419bd606b3e0ab95ef240146d46ef1a056950ca397a69ea8a123a34826424",
+      "bytes": 178822,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-105685",
+      "file_name": "COCO_train2014_000000105685.jpg",
+      "sha256": "bafaec3d50b3203d1462e3e372779f728566debeca4b39a2c6b66d3d2219c1c7",
+      "bytes": 140468,
+      "size": [
+        480,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-490712",
+      "file_name": "COCO_train2014_000000490712.jpg",
+      "sha256": "6c8cda5a6380d8e62e061f0152071e50573572f28bc822863ef85d7058d1e75f",
+      "bytes": 165512,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-335066",
+      "file_name": "COCO_train2014_000000335066.jpg",
+      "sha256": "a93f6230e339c0c954797240dd2e6bd9ce910b0eabc1008a806af1c284802da5",
+      "bytes": 101163,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-269532",
+      "file_name": "COCO_train2014_000000269532.jpg",
+      "sha256": "678041c6dffe138c7d5611415587343f02861e25981b8c7af81e6d77caffbff3",
+      "bytes": 260861,
+      "size": [
+        640,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-417006",
+      "file_name": "COCO_train2014_000000417006.jpg",
+      "sha256": "ed225f6d3cd0d16b2ea2eb8a79102ab295065835cac380afdb79c0d112850035",
+      "bytes": 128291,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-310518",
+      "file_name": "COCO_train2014_000000310518.jpg",
+      "sha256": "77e61d9402788f8f69629f8b60d0d49dba7b4320f13d5d2f31d08b3673e39a89",
+      "bytes": 250843,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-244983",
+      "file_name": "COCO_train2014_000000244983.jpg",
+      "sha256": "584ebe38ef3cefc5025c1c61033cad80356fd53ced65f60a60529aa0adbe84d5",
+      "bytes": 192057,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-457976",
+      "file_name": "COCO_train2014_000000457976.jpg",
+      "sha256": "0f05a24b5b3c2f2f259cdd0a7dff96b6db9dbe1d447f232e3ae45d09b4673339",
+      "bytes": 244548,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-498938",
+      "file_name": "COCO_train2014_000000498938.jpg",
+      "sha256": "c3e10c7d6c2e6467ae0f7017dbb6f447421ba85cbfe5d18c98a62ee80533148f",
+      "bytes": 92757,
+      "size": [
+        640,
+        401
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-171262",
+      "file_name": "COCO_train2014_000000171262.jpg",
+      "sha256": "7a67dd3f92dc84ccbdfc9314523ca4bd87724758302ccdf48c85cbc493bccbbe",
+      "bytes": 272022,
+      "size": [
+        640,
+        469
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-261381",
+      "file_name": "COCO_train2014_000000261381.jpg",
+      "sha256": "67800653d465edf79ab1297ffec02f03adccce808649aea593588684b70cb736",
+      "bytes": 181148,
+      "size": [
+        640,
+        378
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-163089",
+      "file_name": "COCO_train2014_000000163089.jpg",
+      "sha256": "3fe091fe7754aa704297b92b85582897726f9eaf59afac7ce2fdc97d65f144e1",
+      "bytes": 138423,
+      "size": [
+        640,
+        429
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-531752",
+      "file_name": "COCO_train2014_000000531752.jpg",
+      "sha256": "4cb90405eeec179601b290cd79b2ae8931b85cede47c2f206540ef5c74a0489d",
+      "bytes": 142988,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-326966",
+      "file_name": "COCO_train2014_000000326966.jpg",
+      "sha256": "4621c8cd8ca81b5712c6c09d60f86e0b32e48295d9acce4ba3acb2306e20a24c",
+      "bytes": 429877,
+      "size": [
+        640,
+        608
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-474424",
+      "file_name": "COCO_train2014_000000474424.jpg",
+      "sha256": "5f8c3f3e5687e2c34adbb2176f386769715408fd9d03591391624c1cda8ce713",
+      "bytes": 92757,
+      "size": [
+        640,
+        423
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-367934",
+      "file_name": "COCO_train2014_000000367934.jpg",
+      "sha256": "bb2d9c636c7c2758365a547d67b07cba0702816c863f8982b19f74829fb8f147",
+      "bytes": 108802,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-32061",
+      "file_name": "COCO_train2014_000000032061.jpg",
+      "sha256": "8817385bbd6d4f32c52e5001a17bb3a9df6b4d25b6806c69e3e4e6a2b831415e",
+      "bytes": 159630,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-253251",
+      "file_name": "COCO_train2014_000000253251.jpg",
+      "sha256": "d7cdec01721480260529236593abb8f1c6785c03409712460384caeef5db5734",
+      "bytes": 287139,
+      "size": [
+        428,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-113998",
+      "file_name": "COCO_train2014_000000113998.jpg",
+      "sha256": "e311734732807ef1b0a83b793c5934ab205e77891eabdf3038b885c698b54a5e",
+      "bytes": 98778,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-56677",
+      "file_name": "COCO_train2014_000000056677.jpg",
+      "sha256": "689b88c802a4a7fadfb61fa12bc42e2f27c6ca06aab46e56794d60940336342c",
+      "bytes": 232291,
+      "size": [
+        640,
+        394
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-556399",
+      "file_name": "COCO_train2014_000000556399.jpg",
+      "sha256": "4b8fe8b389488c6b8581183103ae01cff36b290c11baa04ca2cc5fc54e4780c3",
+      "bytes": 150292,
+      "size": [
+        640,
+        490
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-548215",
+      "file_name": "COCO_train2014_000000548215.jpg",
+      "sha256": "d7f56e74bc66da83af4b5cf56bcc3c82e14ba4b28678808c257b54b10306a5a8",
+      "bytes": 98686,
+      "size": [
+        500,
+        333
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-81317",
+      "file_name": "COCO_train2014_000000081317.jpg",
+      "sha256": "15d9a54ac48d862491c617e1e005b6217a27ee5bf9fb21c462233bf5a4fc341d",
+      "bytes": 81099,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-351654",
+      "file_name": "COCO_train2014_000000351654.jpg",
+      "sha256": "f89cd1266a4f97f8b7645c082c4667b06d3444cc52cd25db1b59882ee2ed5e47",
+      "bytes": 178409,
+      "size": [
+        640,
+        609
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-48572",
+      "file_name": "COCO_train2014_000000048572.jpg",
+      "sha256": "329918144a1b94f9b6b1f5869e1c3c271842888797071e811f5d502404c769d7",
+      "bytes": 195711,
+      "size": [
+        612,
+        612
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-564676",
+      "file_name": "COCO_train2014_000000564676.jpg",
+      "sha256": "2dc34e84c3d44a8e3c4bd3e98caca283c128529b98694b64a31484b361addeb2",
+      "bytes": 187640,
+      "size": [
+        640,
+        498
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-392684",
+      "file_name": "COCO_train2014_000000392684.jpg",
+      "sha256": "7be1e58e929f18583f2037b557756ac614af2aff02889c75864122d329cebf7f",
+      "bytes": 129062,
+      "size": [
+        640,
+        429
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-433647",
+      "file_name": "COCO_train2014_000000433647.jpg",
+      "sha256": "50a7349fa9475bdd0a41cb3d6b459555ad78931e3a88f6be5425440590c920da",
+      "bytes": 234995,
+      "size": [
+        467,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-81401",
+      "file_name": "COCO_train2014_000000081401.jpg",
+      "sha256": "23ddb72f06d95667c7ced6cd661add4afb3e6e66cbc67b3127d016da36633a45",
+      "bytes": 164687,
+      "size": [
+        640,
+        482
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-40455",
+      "file_name": "COCO_train2014_000000040455.jpg",
+      "sha256": "2b561e1f4c682e6a5b1f466fd802c6574a285d9ba12be9cd0dc8a2af47d465bd",
+      "bytes": 187726,
+      "size": [
+        640,
+        512
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-351759",
+      "file_name": "COCO_train2014_000000351759.jpg",
+      "sha256": "0a898c46331db8aee164a92ddf43f6f8767ebe3926f6cbc74feab279500485b2",
+      "bytes": 125694,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-294416",
+      "file_name": "COCO_train2014_000000294416.jpg",
+      "sha256": "4b9f28e46d88c67bbdba3d6fd7bbb2ac48e7d0f63e1a8292c472245fdc1b6d22",
+      "bytes": 156514,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-515623",
+      "file_name": "COCO_train2014_000000515623.jpg",
+      "sha256": "6db400420de4870ff73ccd7e685947bccca9810fb914db96dcaf655793fbff38",
+      "bytes": 228863,
+      "size": [
+        640,
+        487
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-278055",
+      "file_name": "COCO_train2014_000000278055.jpg",
+      "sha256": "a5507d883d77e9c15cc18b76d9c1a6c9bc9c800af58a5a1f16766e8f18947ca7",
+      "bytes": 217478,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-261673",
+      "file_name": "COCO_train2014_000000261673.jpg",
+      "sha256": "8d0f59843e9c184f66984cd4039025870943a8ef67e1496a8c1bb062ea7d31fc",
+      "bytes": 95855,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-302634",
+      "file_name": "COCO_train2014_000000302634.jpg",
+      "sha256": "f607a9e559c4c20cb2226ebf3266d90da3bc00447d18ec9630c0d330c72ed63e",
+      "bytes": 207444,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-269890",
+      "file_name": "COCO_train2014_000000269890.jpg",
+      "sha256": "9fb10af6842e84b64ab8134e870d1c46d7c8870bfa0be86979d755164d399912",
+      "bytes": 241304,
+      "size": [
+        640,
+        429
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-163394",
+      "file_name": "COCO_train2014_000000163394.jpg",
+      "sha256": "17df981937d2f9b1017cb62bbcb6f2caef81bcc5cf2cfa676871b4b9e84a32fc",
+      "bytes": 96188,
+      "size": [
+        640,
+        631
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-114249",
+      "file_name": "COCO_train2014_000000114249.jpg",
+      "sha256": "9a8b82770fee26ac45a5f070f8381eaa1988ab20bf83e9c31e7f575f32f31881",
+      "bytes": 146891,
+      "size": [
+        500,
+        408
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-253522",
+      "file_name": "COCO_train2014_000000253522.jpg",
+      "sha256": "09d9f0ae6c24ab8158b08dc8cb1686ee4429b5f8302d5bf30a1c62171a4635ba",
+      "bytes": 134000,
+      "size": [
+        628,
+        406
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-310897",
+      "file_name": "COCO_train2014_000000310897.jpg",
+      "sha256": "6ededce88bef1d9309eafe0f12c3f985560e7c0531a95cf98a6332f4a079601e",
+      "bytes": 34925,
+      "size": [
+        500,
+        366
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-450162",
+      "file_name": "COCO_train2014_000000450162.jpg",
+      "sha256": "bd79ac8e8dda805a700a3872e79b2866a82badb3c65ed40e681f74f6fb2a0254",
+      "bytes": 83562,
+      "size": [
+        640,
+        425
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-237193",
+      "file_name": "COCO_train2014_000000237193.jpg",
+      "sha256": "6db133e27678a2c2d341ec03a99caaaf86ed6f6da45bf7e5e6d4b7b9889c2d65",
+      "bytes": 71893,
+      "size": [
+        640,
+        214
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-73387",
+      "file_name": "COCO_train2014_000000073387.jpg",
+      "sha256": "1bec7765856a53be1025fccade0c97cdb986a8a43406fbf899240bfc2ec3ba8c",
+      "bytes": 260125,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-163506",
+      "file_name": "COCO_train2014_000000163506.jpg",
+      "sha256": "30964cbf71a29ef486637236f1ec50f68a577475bd232ae059a6864451d9441c",
+      "bytes": 157639,
+      "size": [
+        640,
+        383
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-491204",
+      "file_name": "COCO_train2014_000000491204.jpg",
+      "sha256": "eb6a7c69fd3b088cf7de7d0c30b1a9f43bb0e64628aeeffc0139a6f30caa08ea",
+      "bytes": 206528,
+      "size": [
+        640,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-573125",
+      "file_name": "COCO_train2014_000000573125.jpg",
+      "sha256": "f611b87ef341d769b9fd51c15bb0cffc20fff8e73dfa5197916f58ee09dbbb0b",
+      "bytes": 241682,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-425721",
+      "file_name": "COCO_train2014_000000425721.jpg",
+      "sha256": "e78647f4a2b89de4a05e0f9e4dcdc0cec88ad56a358d64fa0cc5946407945dd2",
+      "bytes": 306264,
+      "size": [
+        640,
+        428
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-98044",
+      "file_name": "COCO_train2014_000000098044.jpg",
+      "sha256": "cbc51ef167a22b2aee70b9f5fbe3f715053fd5f1958081c58ca5f3c5131c1bfe",
+      "bytes": 259340,
+      "size": [
+        522,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-376573",
+      "file_name": "COCO_train2014_000000376573.jpg",
+      "sha256": "f89b38964a3cef73d39e2a3357573147e63cc32d3a83af7a4f82f3904a4fa6b8",
+      "bytes": 112228,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-433921",
+      "file_name": "COCO_train2014_000000433921.jpg",
+      "sha256": "b2ea53ec983c8c83abf33e117a409ee3cd2d9d7a48bb3a2c71c531edbce55eae",
+      "bytes": 113041,
+      "size": [
+        640,
+        443
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-261893",
+      "file_name": "COCO_train2014_000000261893.jpg",
+      "sha256": "ded3d70b5ad5160b3449749539441fd64d56bf53b60a1570ccba5a7f36cc9f66",
+      "bytes": 131305,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-327462",
+      "file_name": "COCO_train2014_000000327462.jpg",
+      "sha256": "c4e1704ed5461e30e45abb069c1ceead64b3d9735b801317c528fac3699497fb",
+      "bytes": 86772,
+      "size": [
+        640,
+        512
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-122667",
+      "file_name": "COCO_train2014_000000122667.jpg",
+      "sha256": "64d1e9b5c140167a93e9d704dbe2879bf2830f12052427dfac084ec1e00daf53",
+      "bytes": 236508,
+      "size": [
+        640,
+        427
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-130872",
+      "file_name": "COCO_train2014_000000130872.jpg",
+      "sha256": "011314aeb1b4bd4fdb8b30729634f777898ac194bec9e1ed17e22e3a52eea2d2",
+      "bytes": 119101,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-139068",
+      "file_name": "COCO_train2014_000000139068.jpg",
+      "sha256": "7ca40ab328c446e364b5376f757743442a9578c666d65de5fd5bda24b364e799",
+      "bytes": 122233,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-89921",
+      "file_name": "COCO_train2014_000000089921.jpg",
+      "sha256": "ab4d6a3b5cb59f9843c51360a1d5fb7e78539e97f3b651c454cdbde74e2006e5",
+      "bytes": 98189,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-384836",
+      "file_name": "COCO_train2014_000000384836.jpg",
+      "sha256": "c8fd4fbdd03dbdcc634f30e2e9339070c596cdf52ad887bf3f89d1d4f82e5173",
+      "bytes": 153569,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-335697",
+      "file_name": "COCO_train2014_000000335697.jpg",
+      "sha256": "77261e799c430c4be9827f21817ab8337460e91c269b9529635537f76beb4eb9",
+      "bytes": 184173,
+      "size": [
+        640,
+        423
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-425825",
+      "file_name": "COCO_train2014_000000425825.jpg",
+      "sha256": "d621994fdafc8ef5990f527d9c82239f1d3874628985abc39d5d854fb94b37f5",
+      "bytes": 92532,
+      "size": [
+        418,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-278371",
+      "file_name": "COCO_train2014_000000278371.jpg",
+      "sha256": "db549e2d6691a305a86c577c52659654cef01043017db711525be18f841bf709",
+      "bytes": 166669,
+      "size": [
+        640,
+        412
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-221053",
+      "file_name": "COCO_train2014_000000221053.jpg",
+      "sha256": "f3244871b811c2ea7c6a0576bc43e922641ac4d8a217d9f09d742e191ef720fa",
+      "bytes": 134611,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-475007",
+      "file_name": "COCO_train2014_000000475007.jpg",
+      "sha256": "fd8308a383e64c29d9d0b21e9efc6cbf52d50826ca68a0e215fbd18987669c5e",
+      "bytes": 55844,
+      "size": [
+        640,
+        426
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-466825",
+      "file_name": "COCO_train2014_000000466825.jpg",
+      "sha256": "1c2af96424e4d07357127ceedb667ec4113baae11292c443aefabad59e016c5a",
+      "bytes": 131629,
+      "size": [
+        428,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-458633",
+      "file_name": "COCO_train2014_000000458633.jpg",
+      "sha256": "cbde59b22253af11fbd97b4c0db609dae3f6826193cd4d50dced99d4be45939f",
+      "bytes": 166317,
+      "size": [
+        427,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-384910",
+      "file_name": "COCO_train2014_000000384910.jpg",
+      "sha256": "2f2396e8a7801cb9e2bf411d5ab8cca18d57be432d54abdba9ffc310ae50e678",
+      "bytes": 163969,
+      "size": [
+        609,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-450457",
+      "file_name": "COCO_train2014_000000450457.jpg",
+      "sha256": "9e41ead9ebaa03b737cb8b3663cbd231ce44e00a12ef3c0361ad42207a9f926e",
+      "bytes": 227019,
+      "size": [
+        640,
+        401
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-475037",
+      "file_name": "COCO_train2014_000000475037.jpg",
+      "sha256": "cfeedf4416bf7a823e70443e6f99de8df731fee18f8e8047ee3216df34ef504d",
+      "bytes": 145782,
+      "size": [
+        491,
+        500
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-270248",
+      "file_name": "COCO_train2014_000000270248.jpg",
+      "sha256": "f97236caf935d2cda776f5f5bc6446265f17feec570e81f344dbc2a77d47d0ba",
+      "bytes": 148597,
+      "size": [
+        640,
+        424
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-180179",
+      "file_name": "COCO_train2014_000000180179.jpg",
+      "sha256": "961a94ba4fa4fdd37269cfa0f9dd32932a19c865da0aa9e7cf98c03d8f4c5aa3",
+      "bytes": 181156,
+      "size": [
+        458,
+        640
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-376806",
+      "file_name": "COCO_train2014_000000376806.jpg",
+      "sha256": "f26a6b596780e6db73de5e44cf05cb9362f8de28494238633a17fd069312bb4c",
+      "bytes": 201171,
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "sample_id": "refcoco-val-565243",
+      "file_name": "COCO_train2014_000000565243.jpg",
+      "sha256": "b478a720a08042384a60de131397c2aee770ebc551eb7049c05afb8adfebf78a",
+      "bytes": 69026,
+      "size": [
+        640,
+        427
+      ]
+    }
+  ],
+  "total_bytes": 116065383
+}

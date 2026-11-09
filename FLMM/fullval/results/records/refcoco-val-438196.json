@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-438196",
+  "sample_hash": "a6844a0571625298e3fb0eed1569859e25288396a3c8ea9184217cb3c42d1e1e",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 438196,
+  "dataset_index": 727,
+  "expressions": [
+    {
+      "image_id": 438196,
+      "dataset_index": 727,
+      "ref_id": 12529,
+      "sent_id": 35651,
+      "expression": "right side, black shirt no backpack",
+      "mask_id": 0,
+      "annotation_id": 1293845,
+      "prediction_id": "refcoco-val-438196:0",
+      "gt_segmentation_sha256": "fec907651b011caa4d30d719bb89c2798baedfdd18c6fda821ed1cc90fc5dd20",
+      "category_id": 1
+    },
+    {
+      "image_id": 438196,
+      "dataset_index": 727,
+      "ref_id": 12530,
+      "sent_id": 35655,
+      "expression": "person in left foreground with green shirt on",
+      "mask_id": 1,
+      "annotation_id": 1278228,
+      "prediction_id": "refcoco-val-438196:1",
+      "gt_segmentation_sha256": "0a74025b75f1d883b77960d17610710182dfb01caa3a89ce056aabad7c51e142",
+      "category_id": 1
+    },
+    {
+      "image_id": 438196,
+      "dataset_index": 727,
+      "ref_id": 12531,
+      "sent_id": 35658,
+      "expression": "dude in a white hat towards bottom center",
+      "mask_id": 2,
+      "annotation_id": 1230450,
+      "prediction_id": "refcoco-val-438196:2",
+      "gt_segmentation_sha256": "212555fdabd6b314b406fa7af6a6a559821f7a1315cb9c6cf8245f5d8ceb478b",
+      "category_id": 1
+    },
+    {
+      "image_id": 438196,
+      "dataset_index": 727,
+      "ref_id": 12532,
+      "sent_id": 35661,
+      "expression": "far right guy with backpack",
+      "mask_id": 3,
+      "annotation_id": 1757909,
+      "prediction_id": "refcoco-val-438196:3",
+      "gt_segmentation_sha256": "c5b8db33558c6060e36ee47e18fcb2daed45458779162df01cf553c7b53e4041",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    0,
+    9442,
+    9692,
+    17262
+  ],
+  "union": [
+    30725,
+    10383,
+    10933,
+    17940
+  ],
+  "mask_file": "refcoco-val-438196.npz",
+  "mask_sha256": "87d23a92786ded1f7412797c584d9f8adcec1a4ce7dd3d073ffb4b3a169bd7bd",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.01593982800000049,
+    "inference_s": 2.3324003790000916,
+    "postprocess_s": 0.0029580860000351095,
+    "amortized_inference_s_per_selected_expression": 0.5831000947500229,
+    "mask_write_s": 0.02008671700002651
+  },
+  "memory": {
+    "peak_allocated_bytes": 8827510272,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448558592,
+    "ram_rss_bytes": 6294450176
+  },
+  "output_bytes": 7136,
+  "stage_created": "full-validation",
+  "record_hash": "cb7616dd4631c531be2c3404390d0ee3bfd02e5c9659c5ffdc6e20dc3483f512",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-102290",
+  "sample_hash": "49c4fce8d4721927d28d2c779c561d7d3e8c2a9adc976c7f22b1a763fdf73f68",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 102290,
+  "dataset_index": 719,
+  "expressions": [
+    {
+      "image_id": 102290,
+      "dataset_index": 719,
+      "ref_id": 41090,
+      "sent_id": 116811,
+      "expression": "person squatting",
+      "mask_id": 0,
+      "annotation_id": 464827,
+      "prediction_id": "refcoco-val-102290:0",
+      "gt_segmentation_sha256": "8cadfaec970a2c2117b5004228c3512787965998488053ab8806771aa40196fd",
+      "category_id": 1
+    },
+    {
+      "image_id": 102290,
+      "dataset_index": 719,
+      "ref_id": 41091,
+      "sent_id": 116814,
+      "expression": "dude flipping",
+      "mask_id": 1,
+      "annotation_id": 422438,
+      "prediction_id": "refcoco-val-102290:1",
+      "gt_segmentation_sha256": "1730821113f1258090d1d4ab5c164fefac64d799bf34a6ad05210641e6e0fbea",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    79,
+    51994
+  ],
+  "union": [
+    67501,
+    79910
+  ],
+  "mask_file": "refcoco-val-102290.npz",
+  "mask_sha256": "4201dbbb091a244b1ae0bc164d495ae46b1caa772e799bd65ea8f90d940f4aca",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014249269000060849,
+    "inference_s": 2.311138615999994,
+    "postprocess_s": 0.002171758000031332,
+    "amortized_inference_s_per_selected_expression": 1.155569307999997,
+    "mask_write_s": 0.018137996999939787
+  },
+  "memory": {
+    "peak_allocated_bytes": 8822384128,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447235584,
+    "ram_rss_bytes": 6294450176
+  },
+  "output_bytes": 10750,
+  "stage_created": "full-validation",
+  "record_hash": "cc958bd3b5e4cc9d9a9a787773a75f49743269d9f36d65a2fafc56c9f22a82e2",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

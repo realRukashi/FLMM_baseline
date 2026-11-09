@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-140738",
+  "sample_hash": "b6e047bccc361d175b6cd500c41b22c20f57f27a46f64fd76f4b624e3514020b",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 140738,
+  "dataset_index": 262,
+  "expressions": [
+    {
+      "image_id": 140738,
+      "dataset_index": 262,
+      "ref_id": 37837,
+      "sent_id": 107591,
+      "expression": "seat in front of people",
+      "mask_id": 0,
+      "annotation_id": 1936046,
+      "prediction_id": "refcoco-val-140738:0",
+      "gt_segmentation_sha256": "ceffcc583cbbe244b4c75ce8ef300755bfe5ffd11975b6516fd53c92d3499e1b",
+      "category_id": 62
+    },
+    {
+      "image_id": 140738,
+      "dataset_index": 262,
+      "ref_id": 37838,
+      "sent_id": 107594,
+      "expression": "white seat cushion behind guy",
+      "mask_id": 1,
+      "annotation_id": 1933369,
+      "prediction_id": "refcoco-val-140738:1",
+      "gt_segmentation_sha256": "218149fcdd164ea69788457c7987af2ecc7c40fcd6f40d98bbbe7a05a32c83f6",
+      "category_id": 62
+    },
+    {
+      "image_id": 140738,
+      "dataset_index": 262,
+      "ref_id": 37839,
+      "sent_id": 107597,
+      "expression": "guy with headphones",
+      "mask_id": 2,
+      "annotation_id": 216261,
+      "prediction_id": "refcoco-val-140738:2",
+      "gt_segmentation_sha256": "23d794aeebda72c1fce642a61f05bf2492cfc0857f550577d189c90342871249",
+      "category_id": 1
+    },
+    {
+      "image_id": 140738,
+      "dataset_index": 262,
+      "ref_id": 37840,
+      "sent_id": 107600,
+      "expression": "pink shirt",
+      "mask_id": 3,
+      "annotation_id": 206607,
+      "prediction_id": "refcoco-val-140738:3",
+      "gt_segmentation_sha256": "30dd4a284367229dd0e286f6b1792a62e2ec4f3c133b1f09220ffcd16bad39d3",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    43942,
+    2798,
+    39969,
+    50909
+  ],
+  "union": [
+    52320,
+    13723,
+    46218,
+    58053
+  ],
+  "mask_file": "refcoco-val-140738.npz",
+  "mask_sha256": "d115e80c0829316ce00316338000d02f94a70397886df89e2a2b00ac5c965083",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.020223691999945004,
+    "inference_s": 2.742142968000053,
+    "postprocess_s": 0.0030265679999956774,
+    "amortized_inference_s_per_selected_expression": 0.6855357420000132,
+    "mask_write_s": 0.033566431000053853
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829090304,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6282465280
+  },
+  "output_bytes": 15048,
+  "stage_created": "full-validation",
+  "record_hash": "0416998665eb8c0c074206e6697bea5c3ae7997e6fb3398f30c16ddd68b589b9",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

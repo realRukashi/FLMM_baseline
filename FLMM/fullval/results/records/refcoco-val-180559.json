@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-180559",
+  "sample_hash": "c53366986d5617e4e558d4fd7e62d951b3ce7792037804696177cedb75d5622d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 180559,
+  "dataset_index": 65,
+  "expressions": [
+    {
+      "image_id": 180559,
+      "dataset_index": 65,
+      "ref_id": 34644,
+      "sent_id": 98541,
+      "expression": "left white guy",
+      "mask_id": 0,
+      "annotation_id": 521030,
+      "prediction_id": "refcoco-val-180559:0",
+      "gt_segmentation_sha256": "c8b69c184fe7616f14b21aa9d29b471dd3c8e76912045f29743deacf9c4b2a35",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    18596
+  ],
+  "union": [
+    20813
+  ],
+  "mask_file": "refcoco-val-180559.npz",
+  "mask_sha256": "1c5683c594864133159134f31573281065eabaae62e9f5535217212eb9159af6",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.013922393000029842,
+    "inference_s": 2.176920483999993,
+    "postprocess_s": 0.0011490679999042186,
+    "amortized_inference_s_per_selected_expression": 2.176920483999993,
+    "mask_write_s": 0.009779680000065127
+  },
+  "memory": {
+    "peak_allocated_bytes": 8814850560,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6283952128
+  },
+  "output_bytes": 3797,
+  "stage_created": "full-validation",
+  "record_hash": "09af48a65850fcf8992fdb5458f1140b786d00dff1d450a71d741a1d99aa78ef",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

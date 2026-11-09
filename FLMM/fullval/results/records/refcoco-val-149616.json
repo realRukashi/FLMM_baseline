@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-149616",
+  "sample_hash": "f12c2ebe8a4014c9b16eb5b4ef5f5bee5b180800be067dbb75eec988c2e752df",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 149616,
+  "dataset_index": 393,
+  "expressions": [
+    {
+      "image_id": 149616,
+      "dataset_index": 393,
+      "ref_id": 37106,
+      "sent_id": 105534,
+      "expression": "left guy",
+      "mask_id": 0,
+      "annotation_id": 215813,
+      "prediction_id": "refcoco-val-149616:0",
+      "gt_segmentation_sha256": "8f82626fbdbb84c0387e60c54721226242be7f8516fa6fd017d03f5bf5951a2e",
+      "category_id": 1
+    },
+    {
+      "image_id": 149616,
+      "dataset_index": 393,
+      "ref_id": 37107,
+      "sent_id": 105537,
+      "expression": "man on right",
+      "mask_id": 1,
+      "annotation_id": 208571,
+      "prediction_id": "refcoco-val-149616:1",
+      "gt_segmentation_sha256": "51eb708188225334a80898eb4a858c7f463956e474a7292860263efa842f41d5",
+      "category_id": 1
+    },
+    {
+      "image_id": 149616,
+      "dataset_index": 393,
+      "ref_id": 37108,
+      "sent_id": 105540,
+      "expression": "big cow with legs tied",
+      "mask_id": 2,
+      "annotation_id": 72017,
+      "prediction_id": "refcoco-val-149616:2",
+      "gt_segmentation_sha256": "65949d16c2d176409adaed41ca81a0715019f079b1bdec126ff1c18c77adbe7f",
+      "category_id": 21
+    },
+    {
+      "image_id": 149616,
+      "dataset_index": 393,
+      "ref_id": 37109,
+      "sent_id": 105543,
+      "expression": "cow butt on right",
+      "mask_id": 3,
+      "annotation_id": 70394,
+      "prediction_id": "refcoco-val-149616:3",
+      "gt_segmentation_sha256": "b3e18d96467435939329067c27e414200013a4a324f78c6d59f9361b90b4f928",
+      "category_id": 21
+    }
+  ],
+  "intersection": [
+    33975,
+    40600,
+    51678,
+    15794
+  ],
+  "union": [
+    37433,
+    42853,
+    55533,
+    19291
+  ],
+  "mask_file": "refcoco-val-149616.npz",
+  "mask_sha256": "c9effe7955bf6a2061a1299587994866cbb5d9faf8ae8bd4690f8026bc740265",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.02413702200010448,
+    "inference_s": 2.2564910000000964,
+    "postprocess_s": 0.0034761260001232586,
+    "amortized_inference_s_per_selected_expression": 0.5641227500000241,
+    "mask_write_s": 0.033215466999990895
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829076992,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6283960320
+  },
+  "output_bytes": 14891,
+  "stage_created": "full-validation",
+  "record_hash": "9efa028b2ad44acfe8dd78bfebb59973aefb777c921e9843c28667fa033c34ea",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

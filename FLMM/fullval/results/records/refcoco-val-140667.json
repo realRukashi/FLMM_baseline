@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-140667",
+  "sample_hash": "82679c8f382d2ab3dd5df244c6a3188d42cf8dc9b4e7dbea24dffd4aef95f0fc",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 140667,
+  "dataset_index": 249,
+  "expressions": [
+    {
+      "image_id": 140667,
+      "dataset_index": 249,
+      "ref_id": 37848,
+      "sent_id": 107625,
+      "expression": "guy wearing staff shirt",
+      "mask_id": 0,
+      "annotation_id": 443238,
+      "prediction_id": "refcoco-val-140667:0",
+      "gt_segmentation_sha256": "7343408cecde7e0adaef1af2cce304d9ec4cfca53f1e10e22f96598c34792504",
+      "category_id": 1
+    },
+    {
+      "image_id": 140667,
+      "dataset_index": 249,
+      "ref_id": 37849,
+      "sent_id": 107628,
+      "expression": "girl pink shirt throwing",
+      "mask_id": 1,
+      "annotation_id": 437307,
+      "prediction_id": "refcoco-val-140667:1",
+      "gt_segmentation_sha256": "f4fc80a238968d78dc928a8d83d65382cc989b53854c3cd71e0835877a9d0f45",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    96662,
+    13179
+  ],
+  "union": [
+    99968,
+    14176
+  ],
+  "mask_file": "refcoco-val-140667.npz",
+  "mask_sha256": "8446eeb2d62cf6a3956fd0ab03d63567bc20dddc2ccb4b2e7f826fdfb9a9236b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.022088321999945038,
+    "inference_s": 2.230501570000115,
+    "postprocess_s": 0.0018971929998770065,
+    "amortized_inference_s_per_selected_expression": 1.1152507850000575,
+    "mask_write_s": 0.02288044500005526
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820966912,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447227392,
+    "ram_rss_bytes": 6283956224
+  },
+  "output_bytes": 9600,
+  "stage_created": "full-validation",
+  "record_hash": "ec777be2a399955682e7ae95ec88a5d54112ea5da0acae685f3e0f16ca9de254",
+  "physical_gpu_index": 1,
+  "chunk_created": 1
+}

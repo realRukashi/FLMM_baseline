@@ -1,0 +1,65 @@
+project:
+  title: "F-LMM Level A Reproduction and Observation"
+  question: "What can be reproduced from F-LMM on RefCOCO, and which measured bottleneck supports a small testable improvement?"
+  status: active
+  started: "2026-11-05"
+  domain: "referring image segmentation / visual grounding"
+  provenance: "user-authorized baseline execution; research improvement not selected"
+literature:
+  key_papers:
+    - "F-LMM (Wu et al., CVPR 2025)"
+    - "SAM 2 (2024)"
+    - "VideoGLaMM (CVPR 2025)"
+    - "DecAF (ICLR 2026)"
+  open_problems: []
+  evidence_gaps:
+    - "Numerical comparison with the matching published paper table remains unaudited"
+    - "No improvement hypothesis or independent testA/testB evaluation yet"
+hypotheses:
+  - id: H0
+    statement: "Official pretrained F-LMM evaluation is reproducible on an accessible GPU and a documented RefCOCO split."
+    status: supported
+    motivation: "Establish a trustworthy baseline before modifying the method."
+    parent: null
+    priority: high
+  - id: H1
+    statement: "A selective mask refinement policy improves latency with bounded cIoU reduction relative to always-refine."
+    status: pending
+    motivation: "Candidate only; NOT selected and NOT an observed F-LMM limitation."
+    parent: H0
+    priority: low
+experiments:
+  proxy_metric: "Official RefCOCO validation cIoU; latency and peak GPU memory as auxiliary"
+  baseline_value: 74.96344757080078
+  best_value: null
+  total_runs: 12
+  total_runs_scope: "6 smoke + 2 Gate0 + 4 full-validation kernel attempts; excludes environment-only/CPU preparation"
+  full_validation:
+    status: PASS
+    date_ict: "2026-11-06"
+    split: "RefCOCO UNC val; select_first + concat"
+    images: 1500
+    selected_masks: 3811
+    ciou_percent: 74.96344757080078
+    miou_percent: 76.97119140625
+    median_inference_s: 2.2740541850000113
+    p95_inference_s: 2.73992329689994
+    independent_mask_verification: PASS
+    artifacts: "FLMM/fullval/REPORT.md (workspace-relative)"
+  trajectory:
+    - "smoke v1-v3: failed data/checkpoint access"
+    - "smoke v4: failed BF16 CUTLASS kernel on T4"
+    - "smoke v5: success, 1 image/2 masks; pipeline check only"
+    - "smoke v6: success, 20 debug images/47 masks, cIoU 79.186941%, mIoU 81.682461%; not full benchmark"
+    - "Gate0 v1 failed scratch restore; v2 passed checkpoint tensors and 20-image evaluator equivalence"
+    - "Full validation: chunk1 534 images; chunk2 stale-quota gate preserved all records, refreshed retry reached1021; chunk3 completed1500/3811. No sample failures."
+outer_loop:
+  cycle: 0
+  last_direction: null
+  last_reflection: ""
+workspace:
+  findings: "findings.md"
+  log: "research-log.md"
+  literature_dir: "literature/"
+  experiments_dir: "experiments/"
+  to_human_dir: "to_human/"

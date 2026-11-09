@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-512662",
+  "sample_hash": "0fa8c7f1c1099968fa2a0842a1881fad097eb9edf3e5aa94bdd3b489d28373eb",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 512662,
+  "dataset_index": 858,
+  "expressions": [
+    {
+      "image_id": 512662,
+      "dataset_index": 858,
+      "ref_id": 6049,
+      "sent_id": 17216,
+      "expression": "guy at very right",
+      "mask_id": 0,
+      "annotation_id": 1281951,
+      "prediction_id": "refcoco-val-512662:0",
+      "gt_segmentation_sha256": "91b9541464699bc74ae73ac0974a43df8201a92fc3ed36ffc1aac84bac614523",
+      "category_id": 1
+    },
+    {
+      "image_id": 512662,
+      "dataset_index": 858,
+      "ref_id": 6050,
+      "sent_id": 17219,
+      "expression": "man in blue tshirt with phone behind obama",
+      "mask_id": 1,
+      "annotation_id": 1246345,
+      "prediction_id": "refcoco-val-512662:1",
+      "gt_segmentation_sha256": "9753c92a818468789d60ec0542bb970016e178176c6bbcccd851ea5d61c95c89",
+      "category_id": 1
+    },
+    {
+      "image_id": 512662,
+      "dataset_index": 858,
+      "ref_id": 6051,
+      "sent_id": 17222,
+      "expression": "the president",
+      "mask_id": 2,
+      "annotation_id": 1211795,
+      "prediction_id": "refcoco-val-512662:2",
+      "gt_segmentation_sha256": "9b745733250e06e5b9d825a697f47aff290dd9de959b977be4061b3548773d2b",
+      "category_id": 1
+    },
+    {
+      "image_id": 512662,
+      "dataset_index": 858,
+      "ref_id": 6052,
+      "sent_id": 17225,
+      "expression": "lady on left on back in white",
+      "mask_id": 3,
+      "annotation_id": 1683478,
+      "prediction_id": "refcoco-val-512662:3",
+      "gt_segmentation_sha256": "19b2d6aa8bafdef587a4895ff5d4877848180997c37485dea5a9803d480183f0",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    13470,
+    15120,
+    37576,
+    9956
+  ],
+  "union": [
+    15680,
+    23890,
+    39837,
+    12996
+  ],
+  "mask_file": "refcoco-val-512662.npz",
+  "mask_sha256": "b54d71233a82df5d1fb1d9ca0c337ac5c89a46c0d47522dc857aa7ce450e695a",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.013419692999946164,
+    "inference_s": 2.367598457999975,
+    "postprocess_s": 0.002026775999979691,
+    "amortized_inference_s_per_selected_expression": 0.5918996144999937,
+    "mask_write_s": 0.01819069999999101
+  },
+  "memory": {
+    "peak_allocated_bytes": 8828933632,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447272448,
+    "ram_rss_bytes": 6295609344
+  },
+  "output_bytes": 8695,
+  "stage_created": "full-validation",
+  "record_hash": "58361d6b15e8d344b8d96a018ed50f5385321901ea78642bd8769dc0fb6bf398",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

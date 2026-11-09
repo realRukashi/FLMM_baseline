@@ -1,0 +1,91 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-115604",
+  "sample_hash": "4a946bd1e640798b59b575c4651548dabf63b18badecfdbe8fb62f38725103db",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 115604,
+  "dataset_index": 172,
+  "expressions": [
+    {
+      "image_id": 115604,
+      "dataset_index": 172,
+      "ref_id": 40055,
+      "sent_id": 113881,
+      "expression": "man in stripes  yay!",
+      "mask_id": 0,
+      "annotation_id": 534510,
+      "prediction_id": "refcoco-val-115604:0",
+      "gt_segmentation_sha256": "a993e79eaf5ebd03a2edff792a200f6ea518fbe674910d8037b19997c0023e8b",
+      "category_id": 1
+    },
+    {
+      "image_id": 115604,
+      "dataset_index": 172,
+      "ref_id": 40056,
+      "sent_id": 113884,
+      "expression": "girl chef on right of group",
+      "mask_id": 1,
+      "annotation_id": 533430,
+      "prediction_id": "refcoco-val-115604:1",
+      "gt_segmentation_sha256": "4ae3e58416a10b47a7635d6e083385c46f5351c4789b6dc0a083eea9d54700d8",
+      "category_id": 1
+    },
+    {
+      "image_id": 115604,
+      "dataset_index": 172,
+      "ref_id": 40057,
+      "sent_id": 113886,
+      "expression": "chick without hat",
+      "mask_id": 2,
+      "annotation_id": 490909,
+      "prediction_id": "refcoco-val-115604:2",
+      "gt_segmentation_sha256": "943bbed1139f9f2e0175f03bf69d584efbe5ef8aac5f2352edfbd86e5ddf0573",
+      "category_id": 1
+    },
+    {
+      "image_id": 115604,
+      "dataset_index": 172,
+      "ref_id": 40058,
+      "sent_id": 113889,
+      "expression": "left most chef",
+      "mask_id": 3,
+      "annotation_id": 433522,
+      "prediction_id": "refcoco-val-115604:3",
+      "gt_segmentation_sha256": "471cc615936c44ed1839ca120ec4cc7f04f2ee41db24f4a39303a9938d28b8a5",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    11787,
+    11496,
+    590,
+    20552
+  ],
+  "union": [
+    13288,
+    14732,
+    36373,
+    24516
+  ],
+  "mask_file": "refcoco-val-115604.npz",
+  "mask_sha256": "99b95a7b223266a48d1ee71467c918a843f6f8de5231db526e3705db57e489a2",
+  "nonempty_predictions": 4,
+  "timings": {
+    "preprocess_s": 0.017817116000060196,
+    "inference_s": 2.77333789599993,
+    "postprocess_s": 0.0031925989999308513,
+    "amortized_inference_s_per_selected_expression": 0.6933344739999825,
+    "mask_write_s": 0.0222988319999331
+  },
+  "memory": {
+    "peak_allocated_bytes": 8829156864,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5448583168,
+    "ram_rss_bytes": 6282461184
+  },
+  "output_bytes": 8602,
+  "stage_created": "full-validation",
+  "record_hash": "1b41f4c8e7dd0ace4717e18e0e3e1a6984a90adeb5131845af625022efb4b756",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

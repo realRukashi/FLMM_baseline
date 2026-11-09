@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "stage": "regression",
+  "requested_images": 20,
+  "validated_done": 20,
+  "newly_evaluated": 20,
+  "reused_done": 0,
+  "failures": [],
+  "wall_s": 74.50455662700006,
+  "metrics": {
+    "image_count": 20,
+    "mask_count": 47,
+    "intersection": 1378708,
+    "union": 1741080,
+    "cIoU": 79.18694143864728,
+    "mIoU": 81.68246098179696
+  }
+}

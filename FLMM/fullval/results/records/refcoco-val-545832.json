@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-545832",
+  "sample_hash": "3117987189f2ae071e983270f2c20750000e73c06cdb703678e5c896fdb3cd08",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 545832,
+  "dataset_index": 938,
+  "expressions": [
+    {
+      "image_id": 545832,
+      "dataset_index": 938,
+      "ref_id": 3198,
+      "sent_id": 9130,
+      "expression": "the front of the truck right (grill)",
+      "mask_id": 0,
+      "annotation_id": 349974,
+      "prediction_id": "refcoco-val-545832:0",
+      "gt_segmentation_sha256": "52cebff70a83264ab707e67b20510db7d41e6856063d509309cdbdc491496db4",
+      "category_id": 3
+    },
+    {
+      "image_id": 545832,
+      "dataset_index": 938,
+      "ref_id": 3199,
+      "sent_id": 9132,
+      "expression": "white car on the left",
+      "mask_id": 1,
+      "annotation_id": 347652,
+      "prediction_id": "refcoco-val-545832:1",
+      "gt_segmentation_sha256": "18b7cc030991f9dfa018316fe12370245be129cc8f77442effa30226274b753a",
+      "category_id": 3
+    }
+  ],
+  "intersection": [
+    23989,
+    45999
+  ],
+  "union": [
+    25648,
+    47610
+  ],
+  "mask_file": "refcoco-val-545832.npz",
+  "mask_sha256": "97ed67217a2edeba7d07360c8996a98f03bda352e449d427222e6d58b4486bf4",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014141542000061236,
+    "inference_s": 2.386098845000106,
+    "postprocess_s": 0.0017496149998805777,
+    "amortized_inference_s_per_selected_expression": 1.193049422500053,
+    "mask_write_s": 0.016548684999861507
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820415488,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446617088,
+    "ram_rss_bytes": 6295756800
+  },
+  "output_bytes": 6397,
+  "stage_created": "full-validation",
+  "record_hash": "3d3c44a66e20f2cc15d5374f745816eca29dab74d3e7831ce21a32912bac1d8f",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

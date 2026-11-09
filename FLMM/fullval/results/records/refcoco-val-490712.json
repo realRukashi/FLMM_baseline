@@ -1,0 +1,105 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-490712",
+  "sample_hash": "14620c99c6d22ba3c4a42e0c069654fc25e246f081ce937e90ca6d2b1c359717",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 490712,
+  "dataset_index": 1358,
+  "expressions": [
+    {
+      "image_id": 490712,
+      "dataset_index": 1358,
+      "ref_id": 7973,
+      "sent_id": 22706,
+      "expression": "guy on the right",
+      "mask_id": 0,
+      "annotation_id": 1695564,
+      "prediction_id": "refcoco-val-490712:0",
+      "gt_segmentation_sha256": "b1069ff3ff83da1b352256e95dd203727a2180c5f89774cc3decce2602b3ef22",
+      "category_id": 1
+    },
+    {
+      "image_id": 490712,
+      "dataset_index": 1358,
+      "ref_id": 7974,
+      "sent_id": 22709,
+      "expression": "guy in red",
+      "mask_id": 1,
+      "annotation_id": 1692414,
+      "prediction_id": "refcoco-val-490712:1",
+      "gt_segmentation_sha256": "1cfe7df99d29f90c0c95078d07d09032d96810cefa5370005ed6889a820454a5",
+      "category_id": 1
+    },
+    {
+      "image_id": 490712,
+      "dataset_index": 1358,
+      "ref_id": 7975,
+      "sent_id": 22712,
+      "expression": "batter",
+      "mask_id": 2,
+      "annotation_id": 1253844,
+      "prediction_id": "refcoco-val-490712:2",
+      "gt_segmentation_sha256": "72aac6906f8f991be8e0e0e1b9d60602dded52a053486742ec628b0f39574c27",
+      "category_id": 1
+    },
+    {
+      "image_id": 490712,
+      "dataset_index": 1358,
+      "ref_id": 7976,
+      "sent_id": 22715,
+      "expression": "click in front of batter's throat",
+      "mask_id": 3,
+      "annotation_id": 1699275,
+      "prediction_id": "refcoco-val-490712:3",
+      "gt_segmentation_sha256": "302292f024523a87f0db18b24527280e8fc1504272674d57b913112c55b792af",
+      "category_id": 1
+    },
+    {
+      "image_id": 490712,
+      "dataset_index": 1358,
+      "ref_id": 7977,
+      "sent_id": 22718,
+      "expression": "black guy on left in dugout",
+      "mask_id": 4,
+      "annotation_id": 1695599,
+      "prediction_id": "refcoco-val-490712:4",
+      "gt_segmentation_sha256": "6efbcaa6d207e92b83257cee469a18e286e6878cca739950844db1367ba23df2",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    16,
+    17755,
+    58798,
+    440,
+    15867
+  ],
+  "union": [
+    29090,
+    20333,
+    61544,
+    67713,
+    23443
+  ],
+  "mask_file": "refcoco-val-490712.npz",
+  "mask_sha256": "89c86eed3ca79d48f3757287a6c64dad0019b8255d24d6893545b9789caea9c6",
+  "nonempty_predictions": 5,
+  "timings": {
+    "preprocess_s": 0.020617943999923227,
+    "inference_s": 2.1848022419999324,
+    "postprocess_s": 0.0031141209999532293,
+    "amortized_inference_s_per_selected_expression": 0.4369604483999865,
+    "mask_write_s": 0.02733909800008405
+  },
+  "memory": {
+    "peak_allocated_bytes": 8831047680,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5449095168,
+    "ram_rss_bytes": 6297735168
+  },
+  "output_bytes": 18106,
+  "stage_created": "full-validation",
+  "record_hash": "6e5ce8dd6e171deba4930b21c2d47564ef505b6fe3f4baa63b31fca2411aa496",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

@@ -1,0 +1,49 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-47451",
+  "sample_hash": "18b28ac7dbd5a608d6edf46fbe715d401c37e71d20bf94d8668aea44a7bb697d",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 47451,
+  "dataset_index": 1184,
+  "expressions": [
+    {
+      "image_id": 47451,
+      "dataset_index": 1184,
+      "ref_id": 45919,
+      "sent_id": 130581,
+      "expression": "green truck",
+      "mask_id": 0,
+      "annotation_id": 354232,
+      "prediction_id": "refcoco-val-47451:0",
+      "gt_segmentation_sha256": "e94015444a427d7a76adfcd0e4699b5f3f0b58b08351c4a64ca8b7054646d212",
+      "category_id": 3
+    }
+  ],
+  "intersection": [
+    16367
+  ],
+  "union": [
+    17403
+  ],
+  "mask_file": "refcoco-val-47451.npz",
+  "mask_sha256": "5d6725834b66960b288a3909785e9af599d0dc4bb171776caca4f140b2b78542",
+  "nonempty_predictions": 1,
+  "timings": {
+    "preprocess_s": 0.011529122000069947,
+    "inference_s": 2.133042549000038,
+    "postprocess_s": 0.0008588050000071235,
+    "amortized_inference_s_per_selected_expression": 2.133042549000038,
+    "mask_write_s": 0.007828414999949018
+  },
+  "memory": {
+    "peak_allocated_bytes": 8815689216,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5444416000,
+    "ram_rss_bytes": 6297001984
+  },
+  "output_bytes": 2127,
+  "stage_created": "full-validation",
+  "record_hash": "8a97510b462ef2e34a2a1c7a6928f263832a358a65d1b541224f227066344409",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

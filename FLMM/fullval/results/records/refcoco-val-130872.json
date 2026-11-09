@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-130872",
+  "sample_hash": "aa985f1a3627e8780992c5a809119bf7213e28f3b793bb12f868b6ba2a7b8131",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 130872,
+  "dataset_index": 1466,
+  "expressions": [
+    {
+      "image_id": 130872,
+      "dataset_index": 1466,
+      "ref_id": 38675,
+      "sent_id": 109979,
+      "expression": "pillows bottom left pink or white",
+      "mask_id": 0,
+      "annotation_id": 117621,
+      "prediction_id": "refcoco-val-130872:0",
+      "gt_segmentation_sha256": "987734e3f88dc81db300e9978c8943bd67fe992ebe7d9fdd2d699ddd7911f463",
+      "category_id": 63
+    },
+    {
+      "image_id": 130872,
+      "dataset_index": 1466,
+      "ref_id": 38676,
+      "sent_id": 109981,
+      "expression": "thing dog is lying on whatever it is o.o",
+      "mask_id": 1,
+      "annotation_id": 116761,
+      "prediction_id": "refcoco-val-130872:1",
+      "gt_segmentation_sha256": "815d5d7a60d5f2ccf8dd45663f89d08939937829d13f1984a76a852dac3e4656",
+      "category_id": 63
+    }
+  ],
+  "intersection": [
+    12196,
+    38768
+  ],
+  "union": [
+    13315,
+    47291
+  ],
+  "mask_file": "refcoco-val-130872.npz",
+  "mask_sha256": "e85fd5f1e26f4e9a29d3f756a1ff5e0f42a2dc9a6d5887abd4ea48f0e7076d21",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.011189328999989812,
+    "inference_s": 2.1528549580000345,
+    "postprocess_s": 0.0010846129998753895,
+    "amortized_inference_s_per_selected_expression": 1.0764274790000172,
+    "mask_write_s": 0.012339895999957662
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820430336,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6297899008
+  },
+  "output_bytes": 5329,
+  "stage_created": "full-validation",
+  "record_hash": "67207005b9abadf20dcfdb9472deaf5f13f247d3f41f098abf74cf641aa23a04",
+  "physical_gpu_index": 0,
+  "chunk_created": 3
+}

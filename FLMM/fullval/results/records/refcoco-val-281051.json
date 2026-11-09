@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-281051",
+  "sample_hash": "0f6a8650e9cddba65fe9cd5cebdbd3603e4980cf37985cb15d42ec1e010616e5",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 281051,
+  "dataset_index": 458,
+  "expressions": [
+    {
+      "image_id": 281051,
+      "dataset_index": 458,
+      "ref_id": 26153,
+      "sent_id": 74361,
+      "expression": "guy far left",
+      "mask_id": 0,
+      "annotation_id": 538475,
+      "prediction_id": "refcoco-val-281051:0",
+      "gt_segmentation_sha256": "a139c67002ae65ac06fd2402ae5276bb855aaca6faef366263f7e1511d7f5966",
+      "category_id": 1
+    },
+    {
+      "image_id": 281051,
+      "dataset_index": 458,
+      "ref_id": 26154,
+      "sent_id": 74364,
+      "expression": "woman with curly hair cutting cake",
+      "mask_id": 1,
+      "annotation_id": 523615,
+      "prediction_id": "refcoco-val-281051:1",
+      "gt_segmentation_sha256": "84aaf49a7934ebef2de07bd6f753311d42c8c8b0adbcfb28058694d7193640a2",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    15009,
+    41608
+  ],
+  "union": [
+    21300,
+    48828
+  ],
+  "mask_file": "refcoco-val-281051.npz",
+  "mask_sha256": "c0f1f771c9ebbf0dfe23cbc37698e54c02cf0d6cd35048eab258aef9ad920d75",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014403585999843926,
+    "inference_s": 2.7325343130000874,
+    "postprocess_s": 0.001460365000184538,
+    "amortized_inference_s_per_selected_expression": 1.3662671565000437,
+    "mask_write_s": 0.01612287899979492
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818097664,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446027264,
+    "ram_rss_bytes": 6283132928
+  },
+  "output_bytes": 7611,
+  "stage_created": "full-validation",
+  "record_hash": "16fa71f00ed127d90718c2c572f25c4f20f496e245026d53ffc5fddf4f32daf0",
+  "physical_gpu_index": 0,
+  "chunk_created": 1
+}

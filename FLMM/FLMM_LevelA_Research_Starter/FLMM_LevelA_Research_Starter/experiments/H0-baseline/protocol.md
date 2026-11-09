@@ -1,0 +1,22 @@
+# H0 — Baseline reproduction protocol (pre-run)
+
+- **Status:** DRAFT; lock/commit before attempting benchmark.
+- **Provenance:** AI suggested; team should confirm protocol.
+- **Question:** Can the official DeepSeekVL-1.3B F-LMM checkpoint generate masks and reproduce a correctly labeled subset evaluation using RefCOCO/UNC val?
+- **Primary metric:** F-LMM official RES `cIoU` (precise implementation to inspect before first comparison).
+- **Secondary metrics:** median/p95 warmed-up latency (ms/sample), peak allocated GPU memory (GiB), examples with IDs.
+- **Published baseline source:** CVPR 2025 paper (Table / model / validation split to be filled after reading full paper).
+- **Code revision/commit:** `47d3c2a6f628dd48ba76a1cfdf29b6b2aa8f9eb3` (official F-LMM). Subset evaluator patch: workspace `FLMM/kaggle/evaluator/upstream.diff`.
+- **Checkpoint + SHA256 if accessible:** TODO.
+- **SAM checkpoint:** `sam_vit_l_0b3195.pth` (verify config).
+- **GPU & environment:** Kaggle audit observed 2 Tesla T4 (~15 GiB each); first inference uses GPU 0 only. Isolated Python 3.10, torch 2.1.2+cu118, transformers 4.39.1, Xtuner 0.1.23, mmdet 3.3.0, mmsegmentation 1.2.2, mmcv 2.1.0, accelerate 0.28.0; import validation passed. Freeze and logs: workspace `FLMM/kaggle/results/setup-v2/setup-report/`. Model inference not yet verified.
+- **Dataset:** RefCOCO UNC `val`; record path, exact sample IDs and annotation integrity.
+- **Sample groups:** smoke 20–50; fixed pilot; heldout disjoint. Entire val only if feasible.
+- **Preprocessing:** exact official config, no silent resize or post-processing changes.
+- **Prediction:** It can produce non-empty masks for valid samples and evaluate them with official script if dependencies and checkpoints are compatible. This is feasibility, NOT a guaranteed scientific performance claim.
+- **Falsification/stop:** failed checkpoint loading, missing ground truth, invalid metric path or intractable OOM after documented attempts; report exact category.
+- **Procedure:** record code SHA → validate filenames/IDs → run 1 image → run smoke subset → compute metric → generate 10 paired mask overlays and summary.
+- **First smoke selection (pre-result):** dataset index 0 from official RefCocoDataset val loader, `text_mode=select_first`, concatenated expressions per image (`--concat`); save resolved image ID and path. One image can include multiple target masks. This is a pipeline check, not a benchmark estimate. Pilot/holdout manifests remain to be selected before their runs.
+- **Quality gate:** reproduce a number honestly labeled by split/sample count; report any deviation from published settings.
+- **Data leakage prevention:** don't tune on locked holdout; mark exploratory if inspected.
+- **Results (execution update 2026-11-06):** Full UNC val completed1500 images/3811 selected first-sentence masks, cIoU74.96344757%, mIoU76.97119141%. All binary masks and CSV rows independently verified. Report: workspace `FLMM/fullval/REPORT.md`. Backend compatibility difference: math SDPA on T4; original model dtype/preprocessing/threshold preserved. This records measured execution, not a claim of matching a published paper table.

@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-552617",
+  "sample_hash": "dd4a76e03435063375f5445aa7a1e755f6969710495b7c1413e220ac80ef909a",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 552617,
+  "dataset_index": 694,
+  "expressions": [
+    {
+      "image_id": 552617,
+      "dataset_index": 694,
+      "ref_id": 2574,
+      "sent_id": 7360,
+      "expression": "the mans hair on right",
+      "mask_id": 0,
+      "annotation_id": 2150069,
+      "prediction_id": "refcoco-val-552617:0",
+      "gt_segmentation_sha256": "bb1b6b0d9c10cc12e90a9377518680c047714208da3d05e0e6fc988a7795f012",
+      "category_id": 1
+    },
+    {
+      "image_id": 552617,
+      "dataset_index": 694,
+      "ref_id": 2575,
+      "sent_id": 7363,
+      "expression": "person leg up",
+      "mask_id": 1,
+      "annotation_id": 1216914,
+      "prediction_id": "refcoco-val-552617:1",
+      "gt_segmentation_sha256": "4603228f50946d47e90bc67982a8dd4d5c42cde077a3c89f9c528aacb9348ce0",
+      "category_id": 1
+    }
+  ],
+  "intersection": [
+    10428,
+    25386
+  ],
+  "union": [
+    15354,
+    39894
+  ],
+  "mask_file": "refcoco-val-552617.npz",
+  "mask_sha256": "06711599c04cb53834c6fbaba6e338ef9a175bd09a45b9497c0f98f8f56b3b2b",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.016020902999912323,
+    "inference_s": 2.253039883999918,
+    "postprocess_s": 0.00098965099994075,
+    "amortized_inference_s_per_selected_expression": 1.126519941999959,
+    "mask_write_s": 0.010131279999995968
+  },
+  "memory": {
+    "peak_allocated_bytes": 8818498560,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5445502976,
+    "ram_rss_bytes": 6295363584
+  },
+  "output_bytes": 6470,
+  "stage_created": "full-validation",
+  "record_hash": "d576efb623ffe700fec8ce48a8b88f96983652ad479dc5b8b364c1a99ce61b67",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}

@@ -1,0 +1,77 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-77174",
+  "sample_hash": "2ef81f7aae5782eecc71c6f121183d99ab0eef3265d46bde5f60392ba5175cd1",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 77174,
+  "dataset_index": 645,
+  "expressions": [
+    {
+      "image_id": 77174,
+      "dataset_index": 645,
+      "ref_id": 43276,
+      "sent_id": 123031,
+      "expression": "glass of ice tea with straw pointing to right",
+      "mask_id": 0,
+      "annotation_id": 2214403,
+      "prediction_id": "refcoco-val-77174:0",
+      "gt_segmentation_sha256": "3ad3f83402473b0a127d7c3842180fb59c7579d267929a58b4da3fda0af1d512",
+      "category_id": 47
+    },
+    {
+      "image_id": 77174,
+      "dataset_index": 645,
+      "ref_id": 43277,
+      "sent_id": 123034,
+      "expression": "sandwich half located on left hand side on the plate",
+      "mask_id": 1,
+      "annotation_id": 311912,
+      "prediction_id": "refcoco-val-77174:1",
+      "gt_segmentation_sha256": "77c93c170aa1f629f42ece70af0400ff327d84d76dc58d4d4e2e720e993f23d5",
+      "category_id": 54
+    },
+    {
+      "image_id": 77174,
+      "dataset_index": 645,
+      "ref_id": 43278,
+      "sent_id": 123037,
+      "expression": "the half of a sandwich with a tomato is visible",
+      "mask_id": 2,
+      "annotation_id": 311269,
+      "prediction_id": "refcoco-val-77174:2",
+      "gt_segmentation_sha256": "feab61a43ca5fc5849d50fce1f729c5568dcf6fe6bb8efab69bf1209d06d96f1",
+      "category_id": 54
+    }
+  ],
+  "intersection": [
+    23859,
+    17317,
+    25224
+  ],
+  "union": [
+    25293,
+    19697,
+    39274
+  ],
+  "mask_file": "refcoco-val-77174.npz",
+  "mask_sha256": "ed0928f7c5c02c2ed7f2b836d7acc7a01e7d8c99e51879d3a24cb12259691c3b",
+  "nonempty_predictions": 3,
+  "timings": {
+    "preprocess_s": 0.02084875599996394,
+    "inference_s": 2.2517989209999314,
+    "postprocess_s": 0.002053641999964384,
+    "amortized_inference_s_per_selected_expression": 0.7505996403333105,
+    "mask_write_s": 0.018198402999928476
+  },
+  "memory": {
+    "peak_allocated_bytes": 8823273472,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5447133184,
+    "ram_rss_bytes": 6294286336
+  },
+  "output_bytes": 6977,
+  "stage_created": "full-validation",
+  "record_hash": "7db624be4a934796f3211e2e09978e42c8d603275788fd4fe2250c5b59e33cd2",
+  "physical_gpu_index": 1,
+  "chunk_created": 2
+}

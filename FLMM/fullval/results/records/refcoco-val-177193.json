@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "sample_id": "refcoco-val-177193",
+  "sample_hash": "6832d4563028e8721ee330f0e966210fc412ae7911e0a1a2b6ed83c1bb3ea8ba",
+  "fingerprint": "616b053ca5b50e70dbb24da6b973aa315dd4c1892c7be0217f177e60a0d272b7",
+  "image_id": 177193,
+  "dataset_index": 940,
+  "expressions": [
+    {
+      "image_id": 177193,
+      "dataset_index": 940,
+      "ref_id": 34911,
+      "sent_id": 99297,
+      "expression": "glass in front partly cut off from picture",
+      "mask_id": 0,
+      "annotation_id": 664396,
+      "prediction_id": "refcoco-val-177193:0",
+      "gt_segmentation_sha256": "f2cd813029c4aa82b2bea04e89a607311844eb85e700edb5d5e82b84fbaa678d",
+      "category_id": 46
+    },
+    {
+      "image_id": 177193,
+      "dataset_index": 940,
+      "ref_id": 34912,
+      "sent_id": 99300,
+      "expression": "middle wine glass infront of pizza",
+      "mask_id": 1,
+      "annotation_id": 664297,
+      "prediction_id": "refcoco-val-177193:1",
+      "gt_segmentation_sha256": "d559b754428aafd3822a0e75919dd4838ac32e93b024a4a4b5d7da6731f183e0",
+      "category_id": 46
+    }
+  ],
+  "intersection": [
+    18962,
+    159
+  ],
+  "union": [
+    22508,
+    32163
+  ],
+  "mask_file": "refcoco-val-177193.npz",
+  "mask_sha256": "d223c7dc02383ff76079418c786f0ae123a2c25cc23d631ad2a1b799bdd1a10a",
+  "nonempty_predictions": 2,
+  "timings": {
+    "preprocess_s": 0.014274532000172258,
+    "inference_s": 2.4031477599999107,
+    "postprocess_s": 0.0021003260001180024,
+    "amortized_inference_s_per_selected_expression": 1.2015738799999554,
+    "mask_write_s": 0.014698505000069417
+  },
+  "memory": {
+    "peak_allocated_bytes": 8820390400,
+    "peak_reserved_bytes": 9806282752,
+    "allocated_after_bytes": 5446813696,
+    "ram_rss_bytes": 6295756800
+  },
+  "output_bytes": 4958,
+  "stage_created": "full-validation",
+  "record_hash": "0321889c4a71ed665cc9b72989be41fcaf8d4de9ae93e41d901678f01cfc0245",
+  "physical_gpu_index": 0,
+  "chunk_created": 2
+}
