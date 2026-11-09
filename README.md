@@ -1,5 +1,7 @@
 # F-LMM baseline reproduction — Nhóm 10
 
+**Tìm notebook Kaggle và hiểu từng version/file:** xem [Danh mục Kaggle & bản đồ repository](KAGGLE_RUNS_AND_FILES.md). Bắt đầu với [full validation cuối cùng](https://www.kaggle.com/code/hoofngocjhuy/flmm-full-3/1); các chặng trước và phiên bản lỗi đều được giải thích trong danh mục. Notebook chạy được cấu hình private, cần tài khoản có quyền để mở.
+
 Reproduction and evaluation workspace for **F-LMM: Grounding Frozen Large Multimodal Models** (CVPR 2025), using DeepSeekVL-1.3B + SAM ViT-L on Kaggle.
 
 This work evaluates referring **image** segmentation. Video grounding, training and method improvements have not been evaluated.
